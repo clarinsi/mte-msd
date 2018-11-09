@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://relaxng.org/ns/structure/1.0"
+  xml:lang="en" n="mte_tei">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">TEI Schema for MULTEXT-East Language Resources Version 6</title>
+        <author>Tomaž Erjavec, tomaz.erjavec@ijs.si</author>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>CLARIN.SI</publisher>
+        <date>2018-11-06</date>
+        <availability status="free">
+          <p>This file is freely available and you are hereby authorised to copy, modify, and
+            redistribute it in any way without further reference or permissions.</p>
+          <p>When making such modifications, you are strongly recommended to change the present text
+            to include an accurate statement of the licencing conditions applicable to your modified
+            text.</p>
+        </availability>
+        <pubPlace>
+          <ref target="http://nl.ijs.si/tei/schema/mte/">http://nl.ijs.si/tei/schema/mte/</ref>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Created more or less from scratch.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">Project <ref target="http://nl.ijs.si/ME/">MULTEXT-East</ref>.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>MULTEXT-East V6</head>
+      <p>This TEI customization file includes modules for multilingual morphosyntactically annotated corpora and morphosyntactically specifications of the MULTEXT-East project,
+      <ref target="http://nl.ijs.si/ME/">http://nl.ijs.si/ME/</ref>, 
+      in particular <ref target="http://nl.ijs.si/ME/V6/">Version 6</ref> of the resources.</p>
+      <schemaSpec ident="mte_tei" start="TEI teiCorpus">
+        <!-- required modules -->
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure"/>
+        <!-- optional modules -->
+        <moduleRef key="corpus"/>
+        <moduleRef key="figures"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="analysis"/>
+        <moduleRef key="iso-fs"/>
+
+        <!-- Forbidden elements -->
+        <elementSpec module="core" ident="index" mode="delete"/>
+        <elementSpec module="header" ident="handNote" mode="delete"/>
+        <elementSpec module="header" ident="typeNote" mode="delete"/>
+        <elementSpec module="textstructure" ident="argument" mode="delete"/>
+        <elementSpec module="textstructure" ident="div1" mode="delete"/>
+        <elementSpec module="textstructure" ident="div2" mode="delete"/>
+        <elementSpec module="textstructure" ident="div3" mode="delete"/>
+        <elementSpec module="textstructure" ident="div4" mode="delete"/>
+        <elementSpec module="textstructure" ident="div5" mode="delete"/>
+        <elementSpec module="textstructure" ident="div6" mode="delete"/>
+        <elementSpec module="textstructure" ident="div7" mode="delete"/>
+        <elementSpec module="textstructure" ident="floatingText" mode="delete"/>
+        <elementSpec module="textstructure" ident="imprimatur" mode="delete"/>
+        <elementSpec module="corpus" ident="activity" mode="delete"/>
+        <elementSpec module="corpus" ident="channel" mode="delete"/>
+        <elementSpec module="corpus" ident="constitution" mode="delete"/>
+        <elementSpec module="corpus" ident="derivation" mode="delete"/>
+        <elementSpec module="corpus" ident="domain" mode="delete"/>
+        <elementSpec module="corpus" ident="factuality" mode="delete"/>
+        <elementSpec module="corpus" ident="interaction" mode="delete"/>
+        <elementSpec module="corpus" ident="locale" mode="delete"/>
+        <elementSpec module="corpus" ident="preparedness" mode="delete"/>
+        <elementSpec module="corpus" ident="purpose" mode="delete"/>
+        <elementSpec module="corpus" ident="setting" mode="delete"/>
+        <elementSpec module="corpus" ident="settingDesc" mode="delete"/>
+        <elementSpec module="corpus" ident="textDesc" mode="delete"/>
+        <elementSpec module="analysis" ident="cl" mode="delete"/>
+        <elementSpec module="analysis" ident="interp" mode="delete"/>
+        <elementSpec module="analysis" ident="interpGrp" mode="delete"/>
+        <elementSpec module="analysis" ident="spanGrp" mode="delete"/>
+        <elementSpec module="iso-fs" ident="bicond" mode="delete"/>
+        <elementSpec module="iso-fs" ident="binary" mode="delete"/>
+        <elementSpec module="iso-fs" ident="cond" mode="delete"/>
+        <elementSpec module="iso-fs" ident="default" mode="delete"/>
+        <elementSpec module="iso-fs" ident="fsdLink" mode="delete"/>
+        <elementSpec module="iso-fs" ident="if" mode="delete"/>
+        <elementSpec module="iso-fs" ident="iff" mode="delete"/>
+        <elementSpec module="iso-fs" ident="then" mode="delete"/>
+        <elementSpec module="iso-fs" ident="vDefault" mode="delete"/>
+        <elementSpec module="iso-fs" ident="vMerge" mode="delete"/>
+        <elementSpec module="iso-fs" ident="vNot" mode="delete"/>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rnc"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rng="http://relaxng.org/ns/structure/1.0"
+     xmlns:s="http://www.ascc.net/xml/schematron"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+  <teiHeader xml:lang="sl">
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="sl">Prevod opisnih imen elementov TEI v slovenski jezik</title>
+        <title xml:lang="en">Localisation of TEI element glosses to Slovene</title>
+        <author xml:id="TER">Tomaž Erjavec, IJS</author>
+        <author xml:id="MOG">Matija Ogrin, ZRC SAZU</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>1.3</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <address>
+            <addrLine>
+              <name type="organisation">Institut "Jožef Stefan"</name>
+            </addrLine>
+            <addrLine>Jamova cesta 39</addrLine>
+            <addrLine>
+              <name type="place">Ljubljana</name>
+            </addrLine>
+            <addrLine>1000</addrLine>
+          </address>
+        </publisher>
+        <publisher>
+          <address>
+            <addrLine>
+              <name type="organisation">Znanstvenoraziskovalni center SAZU</name>
+            </addrLine>
+            <addrLine>Novi trg 2</addrLine>
+            <addrLine>
+              <name type="place">Ljubljana</name>
+            </addrLine>
+            <addrLine>1000</addrLine>
+          </address>
+        </publisher>
+        <availability>
+          <p xml:lang="en">Avtorske pravice za to izdajo ureja licenca
+	  <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Priznanje
+          avtorstva-Deljenje pod enakimi pogoji 4.0</ref>.</p>
+          <p xml:lang="en">This work is licenced under the
+	  <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+          Attribution-ShareAlike 4.0</ref>.</p>
+        </availability>
+        <date>2017-02-27</date>
+        <pubPlace>
+          <ref target="http://nl.ijs.si/tei/locale/">http://nl.ijs.si/tei/locale/</ref>
+        </pubPlace>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="sl">slovensko</language>
+        <language ident="en">angleško</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-27" who="#TER">Dodal prevode nekaterih atributov in vrednosti.</change>
+      <change when="2017-02-09" who="#TER">Changed publisher and distributor.</change>
+      <change when="2014-09-18" who="#TER">Corrected errata found by Katja Zupan.</change>
+      <change when="2014-02-07" who="#TER">Synchronised with latest version of P5 definitions (p5subset.xml).</change>
+      <change when="2014-01-29" who="#TER">Minor fixes according to Matija's suggestions; Version 1 for inclusion in Guidelines</change>
+      <change when="2013-01-22" who="#TER">Minor changes to TEI header</change>
+      <change when="2013-01-19" who="#MOG">Revised according to current NRSS catalogue and eZISS editions</change>
+      <change when="2013-01-14" who="#TER">Added surplus</change>
+      <change when="2012-04-06" who="#TER">Added some more element localisations</change>
+      <change when="2012-03-24" who="#TER">Additions of attributes and value glosses for SBL</change>
+      <change when="2009-05-04" who="#TER">Addition of attributes and value glosses for NRSS</change>
+      <change when="2009-02-10" who="#TER">Minor additions</change>
+      <change when="2008-12-23" who="#TER">Additions and changes; used for JOS header</change>
+      <change when="2008-07-16" who="#TER #MOG">Made TEI file, translated cca 300 element names and attributes used in the current NRRS catalogue</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <elementSpec module="header" ident="teiHeader">
+        <gloss versionDate="2013-02-02" xml:lang="en">TEI header</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">kolofon TEI</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="fileDesc">
+        <gloss versionDate="2007-07-05" xml:lang="en">file description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis datoteke</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="titleStmt">
+        <gloss versionDate="2005-01-14" xml:lang="en">title statement</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">navedba naslova</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="sponsor">
+        <gloss versionDate="2008-07-11" xml:lang="sl">sponzor</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="funder">
+        <gloss versionDate="2007-07-04" xml:lang="en">funding body</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">financer</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="principal">
+        <gloss versionDate="2005-01-14" xml:lang="en">principal researcher</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">nosilec raziskave</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="editionStmt">
+        <gloss versionDate="2005-01-14" xml:lang="en">edition statement</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">navedba izdaje</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="edition">
+        <gloss versionDate="2007-07-04" xml:lang="en">edition</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">izdaja</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="extent">
+        <gloss versionDate="2008-07-11" xml:lang="sl">obseg</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="publicationStmt">
+        <gloss versionDate="2005-01-14" xml:lang="en">publication statement</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">navedba objave</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="distributor">
+        <gloss versionDate="2017-02-09" xml:lang="sl">izdajatelj</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="authority">
+        <gloss versionDate="2005-01-14" xml:lang="en">release authority</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">odgovorna oseba</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="idno">
+        <gloss versionDate="2010-04-30" xml:lang="en">identifier</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">identifikacijska številka</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="availability">
+        <gloss versionDate="2008-07-11" xml:lang="sl">dostopnost</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="licence">
+        <gloss versionDate="2014-02-07" xml:lang="sl">licenca</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="seriesStmt">
+        <gloss versionDate="2005-01-14" xml:lang="en">series statement</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">navedba serije</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="notesStmt">
+        <gloss versionDate="2007-07-04" xml:lang="en">notes statement</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">navedba opomb</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="sourceDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">source description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis vira</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="biblFull">
+        <gloss versionDate="2007-07-04" xml:lang="en">fully-structured bibliographic citation</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">celovito strukturirana bibliografska enota</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="encodingDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">encoding description</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">opis označevanja</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="projectDesc">
+        <gloss versionDate="2005-01-14" xml:lang="en">project description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis projekta</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="samplingDecl">
+        <gloss versionDate="2005-01-14" xml:lang="en">sampling declaration</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">načela vzorčenja</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="editorialDecl">
+        <gloss versionDate="2005-01-14" xml:lang="en">editorial practice declaration</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">uredniška načela</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="correction">
+        <gloss versionDate="2005-01-14" xml:lang="en">correction principles</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">korekcijska vodila</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="normalization">
+        <gloss versionDate="2008-07-11" xml:lang="sl">normalizacija</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="quotation">
+        <gloss versionDate="2008-07-11" xml:lang="sl">navedba</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="hyphenation">
+        <gloss versionDate="2008-07-11" xml:lang="sl">deljaji</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="segmentation">
+        <gloss versionDate="2008-07-11" xml:lang="sl">segmentacija</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="stdVals">
+        <gloss versionDate="2007-07-04" xml:lang="en">standard values</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">standardne vrednosti</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="interpretation">
+        <gloss versionDate="2008-07-11" xml:lang="sl">interpretacija</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="tagsDecl">
+        <gloss versionDate="2005-01-14" xml:lang="en">tagging declaration</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">načela označevanja</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="tagUsage">
+        <gloss versionDate="2009-04-29" xml:lang="sl">uporaba oznake</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="namespace">
+        <gloss versionDate="2008-07-11" xml:lang="sl">imenski prostor</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="rendition">
+        <gloss versionDate="2008-07-11" xml:lang="sl">prikaz</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="styleDefDecl">
+        <gloss versionDate="2012-10-06" xml:lang="en">style definition language declaration</gloss>
+        <gloss versionDate="2014-09-18" xml:lang="sl">načela jezika za definicijo sloga</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="refsDecl">
+        <gloss versionDate="2005-01-14" xml:lang="en">references declaration</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">načela sklicevanja</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="cRefPattern">
+        <gloss versionDate="2007-07-09" xml:lang="en">canonical reference pattern</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">kanonični vzorec sklicevanja</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="prefixDef">
+        <gloss versionDate="2012-11-22" xml:lang="en">prefixing scheme used in <ident type="datatype">data.pointer</ident> values</gloss>
+            <gloss versionDate="2014-02-07" xml:lang="sl">shema za prefiksiranje vrednosti data.pointer</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="listPrefixDef">
+        <gloss versionDate="2012-11-22" xml:lang="en">list of prefix definitions</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">seznam definicij prefiksov</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="refState">
+        <gloss versionDate="2007-07-04" xml:lang="en">reference state</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">delni sklic</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="classDecl">
+        <gloss versionDate="2005-01-14" xml:lang="en">classification declarations</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">načela klasifikacije</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="taxonomy">
+        <gloss versionDate="2008-07-11" xml:lang="sl">taksonomija</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="category">
+        <gloss versionDate="2008-07-11" xml:lang="sl">kategorija</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="catDesc">
+        <gloss versionDate="2005-01-14" xml:lang="en">category description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis kategorije</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="geoDecl">
+        <gloss versionDate="2007-09-23" xml:lang="en">geographic coordinates declaration</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">navedba zemljepisnih koordinat</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="appInfo">
+        <gloss versionDate="2007-07-31" xml:lang="en">application information</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">podatki o aplikaciji</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="application">
+        <gloss versionDate="2008-07-11" xml:lang="sl">aplikacija</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="profileDesc">
+        <gloss versionDate="2005-01-14" xml:lang="en">text-profile description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis značilnosti besedila</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="handNote">
+        <gloss versionDate="2005-01-14" xml:lang="en">note on hand</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opomba o roki</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="abstract">
+        <gloss versionDate="2014-02-07" xml:lang="sl">označevalcev povzetek izvornega dokumenta</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="creation">
+        <gloss versionDate="2009-04-24" xml:lang="sl">geneza</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="langUsage">
+        <gloss versionDate="2005-01-14" xml:lang="en">language usage</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">uporaba jezikov</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="language">
+        <gloss versionDate="2008-07-11" xml:lang="sl">jezik</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="textClass">
+        <gloss versionDate="2005-01-14" xml:lang="en">text classification</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">klasifikacija besedila</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="keywords">
+        <gloss versionDate="2008-07-11" xml:lang="sl">ključne besede</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="classCode">
+        <gloss versionDate="2007-07-04" xml:lang="en">classification code</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">klasifikacijska koda</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="catRef">
+        <gloss versionDate="2005-01-14" xml:lang="en">category reference</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">sklic na kategorijo</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="calendarDesc">
+        <gloss versionDate="2011-08-12" xml:lang="en">calendar description</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">opis koledarja</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="calendar">
+        <gloss versionDate="2014-02-07" xml:lang="sl">koledar</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="revisionDesc">
+        <gloss versionDate="2005-01-14" xml:lang="en">revision description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis sprememb</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="change">
+        <gloss versionDate="2008-07-11" xml:lang="sl">sprememba</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="p">
+        <gloss versionDate="2005-01-14" xml:lang="en">paragraph</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">odstavek</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="foreign">
+        <gloss versionDate="2005-01-14" xml:lang="en">foreign</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">tujejezično</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="emph">
+        <gloss versionDate="2005-01-14" xml:lang="en">emphasized</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">poudarjeno</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="hi">
+        <gloss versionDate="2005-01-14" xml:lang="en">highlighted</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">izpostavljeno</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="distinct">
+        <gloss versionDate="2008-07-11" xml:lang="sl">posebno</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="said">
+        <gloss versionDate="2007-07-18" xml:lang="en">speech or thought</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">rečeno</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="quote">
+        <gloss versionDate="2005-01-14" xml:lang="en">quotation</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">navedba</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="q">
+        <gloss versionDate="2012-03-26" xml:lang="en">quoted</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">v navednicah</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="cit">
+        <gloss versionDate="2007-07-04" xml:lang="en">cited quotation</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">citat</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="mentioned">
+        <gloss versionDate="2005-01-14" xml:lang="en"/>
+        <gloss versionDate="2008-07-11" xml:lang="sl">omenjeno</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="soCalled">
+        <gloss versionDate="2008-07-11" xml:lang="sl">tako imenovano</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="desc">
+        <gloss versionDate="2005-01-14" xml:lang="en">description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="gloss">
+        <gloss versionDate="2008-07-11" xml:lang="sl">razlaga</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="term">
+        <gloss versionDate="2008-07-11" xml:lang="sl">termin</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="sic">
+        <gloss versionDate="2012-03-15" xml:lang="en">Latin for <gloss>thus</gloss> or <gloss>so</gloss>
+        </gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">napaka</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="corr">
+        <gloss versionDate="2006-03-20" xml:lang="en">correction</gloss>
+        <gloss versionDate="2009-03-13" xml:lang="sl">uredniški popravek</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="choice">
+        <gloss versionDate="2008-07-11" xml:lang="sl">izbira</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="reg">
+        <gloss versionDate="2005-01-14" xml:lang="en">regularization</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">regularizirano</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="orig">
+        <gloss versionDate="2005-01-14" xml:lang="en">original form</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">izvorna oblika</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="gap">
+        <gloss versionDate="2009-01-07" xml:lang="en">gap</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">vrzel</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="add">
+        <gloss versionDate="2005-01-14" xml:lang="en">addition</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">dodano</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="del">
+        <gloss versionDate="2005-01-14" xml:lang="en">deletion</gloss>
+        <gloss versionDate="2009-03-13" xml:lang="sl">prečrtano</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="unclear">
+        <gloss versionDate="2008-07-11" xml:lang="sl">nejasno</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="name">
+        <gloss versionDate="2005-01-14" xml:lang="en">name, proper noun</gloss>
+        <gloss versionDate="2008-12-23" xml:lang="sl">ime</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="rs">
+        <gloss versionDate="2005-01-14" xml:lang="en">referencing string</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">sklic</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="email">
+        <gloss versionDate="2007-07-04" xml:lang="en">electronic mail address</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">elektronska pošta</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="address">
+        <gloss versionDate="2008-07-11" xml:lang="sl">naslov</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="addrLine">
+        <gloss versionDate="2007-07-04" xml:lang="en">address line</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">vrstica naslova</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="street">
+        <gloss versionDate="2008-07-11" xml:lang="sl">ulica</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="postCode">
+        <gloss versionDate="2007-07-04" xml:lang="en">postal code</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">poštna številka</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="postBox">
+        <gloss versionDate="2007-07-04" xml:lang="en">postal box or post office box</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">poštni predal</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="num">
+        <gloss versionDate="2005-01-14" xml:lang="en">number</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">številka</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="measure">
+        <gloss versionDate="2008-07-11" xml:lang="sl">mera</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="measureGrp">
+        <gloss versionDate="2007-07-04" xml:lang="en">measure group</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">merska skupina</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="date">
+        <gloss versionDate="2008-07-11" xml:lang="sl">datum</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="time">
+        <gloss versionDate="2008-07-11" xml:lang="sl">čas</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="abbr">
+        <gloss versionDate="2005-01-14" xml:lang="en">abbreviation</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">okrajšava</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="expan">
+        <gloss versionDate="2005-01-14" xml:lang="en">expansion</gloss>
+        <gloss versionDate="2009-03-13" xml:lang="sl">razvezava</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="ptr">
+        <gloss versionDate="2007-07-04" xml:lang="en">pointer</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">kazalec</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="ref">
+        <gloss versionDate="2007-07-04" xml:lang="en">reference</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">sklic</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="list">
+        <gloss versionDate="2009-01-07" xml:lang="en">list</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">seznam</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="item">
+        <gloss versionDate="2008-07-11" xml:lang="sl">postavka</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="label">
+        <gloss versionDate="2009-04-24" xml:lang="sl">napis</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="head">
+        <gloss versionDate="2005-01-14" xml:lang="en">heading</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">naslov</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="headLabel">
+        <gloss versionDate="2005-01-14" xml:lang="en">heading for list labels</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">naslov oznake postavke</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="headItem">
+        <gloss versionDate="2005-01-14" xml:lang="en">heading for list items</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">naslov postavke</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="note">
+        <gloss versionDate="2008-07-11" xml:lang="sl">opomba</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="index">
+        <gloss versionDate="2005-01-14" xml:lang="en">index entry</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">postavka v stvarnem kazalu</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="media">
+        <gloss versionDate="2014-02-07" xml:lang="sl">mediji</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="graphic">
+        <gloss versionDate="2009-04-24" xml:lang="sl">slikovno gradivo</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="binaryObject">
+        <gloss versionDate="2008-07-11" xml:lang="sl">binarni objekt</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="milestone">
+        <gloss versionDate="2008-07-11" xml:lang="sl">mejnik</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="gb">
+        <gloss versionDate="2010-09-21" xml:lang="en">gathering begins</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">začetek lege</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="pb">
+        <gloss versionDate="2005-01-14" xml:lang="en">page break</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">prelom strani</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="lb">
+        <gloss versionDate="2005-01-14" xml:lang="en">line break</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">prelom vrstice</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="cb">
+        <gloss versionDate="2005-01-14" xml:lang="en">column break</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">prelom stolpca</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="analytic">
+        <gloss versionDate="2005-01-14" xml:lang="en">analytic level</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">analitična raven</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="monogr">
+        <gloss versionDate="2005-01-14" xml:lang="en">monographic level</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">monografska raven</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="series">
+        <gloss versionDate="2005-01-14" xml:lang="en">series information</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">podatki o seriji</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="author">
+        <gloss versionDate="2008-07-11" xml:lang="sl">avtor</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="editor">
+        <gloss versionDate="2008-07-11" xml:lang="sl">urednik</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="respStmt">
+        <gloss versionDate="2005-03-01" xml:lang="en">statement of responsibility</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">navedba odgovornosti</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="resp">
+        <gloss versionDate="2007-07-04" xml:lang="en">responsibility</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">odgovornost</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="title">
+        <gloss versionDate="2008-07-11" xml:lang="sl">naslov</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="meeting">
+        <gloss versionDate="2008-07-11" xml:lang="sl">srečanje</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="imprint">
+        <gloss versionDate="2005-01-14" xml:lang="en"/>
+        <gloss versionDate="2008-07-11" xml:lang="sl">impresum</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="publisher">
+        <gloss versionDate="2017-02-09" xml:lang="sl">založba</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="biblScope">
+        <gloss versionDate="2012-12-13" xml:lang="en">scope of bibliographic reference</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">obseg navedbe</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="citedRange">
+        <gloss versionDate="2012-12-13" xml:lang="en">cited range</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">obseg citata</gloss>
+        <desc versionDate="2012-12-13" xml:lang="en">defines the range of cited content, often represented by pages or other units</desc>
+      </elementSpec>
+      <elementSpec module="core" ident="pubPlace">
+        <gloss versionDate="2007-07-04" xml:lang="en">publication place</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">kraj objave</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="bibl">
+        <gloss versionDate="2005-01-14" xml:lang="en">bibliographic citation</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">bibliografska enota</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="biblStruct">
+        <gloss versionDate="2005-04-15" xml:lang="en">structured bibliographic citation</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">strukturirana bibliografska enota</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="listBibl">
+        <gloss versionDate="2005-01-14" xml:lang="en">citation list</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">seznam bibliografskih enot</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="relatedItem">
+        <gloss versionDate="2009-04-24" xml:lang="sl">povezana enota</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="l">
+        <gloss versionDate="2005-01-14" xml:lang="en">verse line</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">verz</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="lg">
+        <gloss versionDate="2005-01-14" xml:lang="en">line group</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">kitica</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="sp">
+        <gloss versionDate="2005-01-14" xml:lang="en">speech</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">govor</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="speaker">
+        <gloss versionDate="2005-01-14" xml:lang="en"/>
+        <gloss versionDate="2009-04-24" xml:lang="sl">dramski govorec</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="stage">
+        <gloss versionDate="2005-01-14" xml:lang="en">stage direction</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">didaskalija</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="TEI">
+        <gloss versionDate="2005-12-24" xml:lang="en">TEI document</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">dokument TEI</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="teiCorpus">
+        <gloss versionDate="2008-07-11" xml:lang="sl">korpus TEI</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="text">
+        <gloss versionDate="2008-07-11" xml:lang="sl">besedilo</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="body">
+        <gloss versionDate="2005-01-14" xml:lang="en">text body</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">telo besedila</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="group">
+        <gloss versionDate="2008-07-11" xml:lang="sl">skupina</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="floatingText">
+        <gloss versionDate="2012-03-24" xml:lang="sl">plavajoče besedilo</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="div">
+        <gloss versionDate="2005-01-14" xml:lang="en">text division</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">razdelek</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="div1">
+        <gloss versionDate="2005-01-14" xml:lang="en">level-1 text division</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razdelek raven 1</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="div2">
+        <gloss versionDate="2005-01-14" xml:lang="en">level-2 text division</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razdelek raven 2</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="div3">
+        <gloss versionDate="2005-01-14" xml:lang="en">level-3 text division</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razdelek raven 3</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="div4">
+        <gloss versionDate="2005-01-14" xml:lang="en">level-4 text division</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razdelek raven 4</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="div5">
+        <gloss versionDate="2005-01-14" xml:lang="en">level-5 text division</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razdelek raven 5</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="div6">
+        <gloss versionDate="2005-01-14" xml:lang="en">level-6 text division</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razdelek raven 6</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="div7">
+        <gloss versionDate="2005-01-14" xml:lang="en">level-7 text division</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razdelek raven 7</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="divGen">
+        <gloss versionDate="2005-01-14" xml:lang="en">automatically generated text division</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">generiran razdelek</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="trailer">
+        <gloss versionDate="2013-01-19" xml:lang="sl">iztek</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="byline">
+        <gloss versionDate="2013-01-19" xml:lang="sl">vrstica avtorstva</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="dateline">
+        <gloss versionDate="2009-04-29" xml:lang="sl">vrstica z datumom</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="argument">
+        <gloss versionDate="2013-01-19" xml:lang="sl">tematika</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="epigraph">
+        <gloss versionDate="2009-04-24" xml:lang="sl">epigraf</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="opener">
+        <gloss versionDate="2009-04-29" xml:lang="sl">uvodne vrstice</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="closer">
+        <gloss versionDate="2009-04-29" xml:lang="sl">sklepne vrstice</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="salute">
+        <gloss versionDate="2005-01-14" xml:lang="en">salutation</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">pozdrav</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="signed">
+        <gloss versionDate="2005-01-14" xml:lang="en">signature</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">podpis</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="postscript">
+        <gloss versionDate="2013-01-19" xml:lang="sl">postskriptum</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="titlePage">
+        <gloss versionDate="2005-01-14" xml:lang="en">title page</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">naslovnica</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="docTitle">
+        <gloss versionDate="2005-01-14" xml:lang="en">document title</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">naslov dokumenta</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="titlePart">
+        <gloss versionDate="2009-04-24" xml:lang="sl">del naslova</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="docAuthor">
+        <gloss versionDate="2005-01-14" xml:lang="en">document author</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">avtor dokumenta</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="imprimatur">
+        <gloss versionDate="2009-04-24" xml:lang="sl">imprimatur</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="docEdition">
+        <gloss versionDate="2005-01-14" xml:lang="en">document edition</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">izdaja dokumenta</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="docImprint">
+        <gloss versionDate="2005-01-14" xml:lang="en">document imprint</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">impresum dokumenta</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="docDate">
+        <gloss versionDate="2005-01-14" xml:lang="en">document date</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">datum dokumenta</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="front">
+        <gloss versionDate="2005-01-14" xml:lang="en">front matter</gloss>
+        <gloss versionDate="2009-04-29" xml:lang="sl">uvodni razdelek</gloss>
+      </elementSpec>
+      <elementSpec module="textstructure" ident="back">
+        <gloss versionDate="2005-01-14" xml:lang="en">back matter</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">priloge</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="g">
+        <gloss versionDate="2005-01-14" xml:lang="en">character or glyph</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">znak/glif</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="char">
+        <gloss versionDate="2005-01-14" xml:lang="en">character</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">znak</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="charName">
+        <gloss versionDate="2005-01-14" xml:lang="en">character name</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">ime znaka</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="charProp">
+        <gloss versionDate="2005-01-14" xml:lang="en">character property</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">lastnost znaka</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="charDecl">
+        <gloss versionDate="2007-09-15" xml:lang="en">character declarations</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">načela zapisa znakov</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="glyph">
+        <gloss versionDate="2005-01-14" xml:lang="en">character glyph</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">glif znaka</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="glyphName">
+        <gloss versionDate="2005-01-14" xml:lang="en">character glyph name</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">ime glifa znaka</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="localName">
+        <gloss versionDate="2007-07-04" xml:lang="en">locally-defined property name</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">lokalno definirano ime lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="mapping">
+        <gloss versionDate="2005-01-14" xml:lang="en">character mapping</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">preslikava znakov</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="unicodeName">
+        <gloss versionDate="2007-07-04" xml:lang="en">unicode property name</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">ime lastnosti po unikodu</gloss>
+      </elementSpec>
+      <elementSpec module="gaiji" ident="value">
+        <gloss versionDate="2005-01-14" xml:lang="en">value</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">vrednost</gloss>
+      </elementSpec>
+      <elementSpec module="verse" ident="metDecl">
+        <gloss versionDate="2007-07-04" xml:lang="en">metrical notation declaration</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">načela metričnega označevanja</gloss>
+      </elementSpec>
+      <elementSpec module="verse" ident="metSym">
+        <gloss versionDate="2007-07-04" xml:lang="en">metrical notation symbol</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">simbol metričnega označevanja</gloss>
+      </elementSpec>
+      <elementSpec module="verse" ident="caesura">
+        <gloss versionDate="2009-04-24" xml:lang="sl">cezura</gloss>
+      </elementSpec>
+      <elementSpec module="verse" ident="rhyme">
+        <gloss versionDate="2009-04-24" xml:lang="sl">rima</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="set">
+        <gloss versionDate="2007-07-04" xml:lang="en">setting</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">prizorišče</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="prologue">
+        <gloss versionDate="2009-04-24" xml:lang="sl">prolog</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="epilogue">
+        <gloss versionDate="2009-04-24" xml:lang="sl">epilog</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="performance">
+        <gloss versionDate="2009-04-24" xml:lang="sl">uprizoritev</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="castList">
+        <gloss versionDate="2005-01-14" xml:lang="en">cast list</gloss>
+        <gloss versionDate="2014-09-18" xml:lang="sl">seznam nastopajočih</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="castGroup">
+        <gloss versionDate="2007-07-04" xml:lang="en">cast list grouping</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">skupina nastopajočih</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="castItem">
+        <gloss versionDate="2007-07-04" xml:lang="en">cast list item</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">nastopajoča oseba</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="role">
+        <gloss versionDate="2009-02-10" xml:lang="sl">vloga</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="roleDesc">
+        <gloss versionDate="2005-01-14" xml:lang="en">role description</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">opis vloge</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="actor">
+        <gloss versionDate="2008-07-11" xml:lang="sl">igralec</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="spGrp">
+        <gloss versionDate="2011-11-19" xml:lang="en">speech group</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">skupina govorov</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="move">
+        <gloss versionDate="2007-07-04" xml:lang="en">movement</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">odrski premik</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="view">
+        <gloss versionDate="2008-07-11" xml:lang="sl">pogled</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="camera">
+        <gloss versionDate="2008-07-11" xml:lang="sl">kamera</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="sound">
+        <gloss versionDate="2008-07-11" xml:lang="sl">zvok</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="caption">
+        <gloss versionDate="2009-04-24" xml:lang="sl">kraj dogajanja</gloss>
+      </elementSpec>
+      <elementSpec module="drama" ident="tech">
+        <gloss versionDate="2007-07-04" xml:lang="en">technical stage direction</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">tehnična didaskalija</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="scriptStmt">
+        <gloss versionDate="2005-01-14" xml:lang="en">script statement</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">navedba govorne predloge</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="recordingStmt">
+        <gloss versionDate="2005-01-14" xml:lang="en">recording statement</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">navedba posnetkov</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="recording">
+        <gloss versionDate="2005-01-14" xml:lang="en">recording event</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">snemanje</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="equipment">
+        <gloss versionDate="2009-02-10" xml:lang="sl">oprema</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="broadcast">
+        <gloss versionDate="2009-04-24" xml:lang="sl">oddaja</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="u">
+        <gloss versionDate="2005-01-14" xml:lang="en">utterance</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">govorna izjava</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="pause">
+        <gloss versionDate="2009-02-10" xml:lang="sl">pavza</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="vocal">
+        <gloss versionDate="2009-04-24" xml:lang="sl">slišno</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="kinesic">
+        <gloss versionDate="2009-04-24" xml:lang="sl">gibalno</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="incident">
+        <gloss versionDate="2009-04-24" xml:lang="sl">pripetljaj</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="writing">
+        <gloss versionDate="2013-01-19" xml:lang="sl">pisno v govoru</gloss>
+      </elementSpec>
+      <elementSpec module="spoken" ident="shift">
+        <gloss versionDate="2009-04-24" xml:lang="sl">premena</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="superEntry">
+        <gloss versionDate="2009-04-24" xml:lang="sl">glavno geslo</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="entry">
+        <gloss versionDate="2009-04-24" xml:lang="sl">geslo</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="entryFree">
+        <gloss versionDate="2007-07-04" xml:lang="en">unstructured entry</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">nestrukturirano geslo</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="hom">
+        <gloss versionDate="2005-01-14" xml:lang="en">homograph</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">homograf</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="sense">
+        <gloss versionDate="2008-07-11" xml:lang="sl">pomen</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="dictScrap">
+        <gloss versionDate="2007-07-04" xml:lang="en">dictionary scrap</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">del gesla</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="form">
+        <gloss versionDate="2005-01-14" xml:lang="en">form information group</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">skupina oblik gesla</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="orth">
+        <gloss versionDate="2005-01-14" xml:lang="en">orthographic form</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">pisna oblika</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="pron">
+        <gloss versionDate="2005-01-14" xml:lang="en">pronunciation</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">izgovorjava</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="hyph">
+        <gloss versionDate="2005-01-14" xml:lang="en">hyphenation</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">raba vezajev in deljajev</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="syll">
+        <gloss versionDate="2005-01-14" xml:lang="en">syllabification</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">delitev na zloge</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="stress">
+        <gloss versionDate="2009-04-24" xml:lang="sl">besedni poudarek</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="gram">
+        <gloss versionDate="2005-01-14" xml:lang="en">grammatical information</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">podatki o skladnji</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="gen">
+        <gloss versionDate="2005-01-14" xml:lang="en">gender</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">spol</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="number">
+        <gloss versionDate="2008-07-11" xml:lang="sl">število</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="case">
+        <gloss versionDate="2008-07-11" xml:lang="sl">sklon</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="per">
+        <gloss versionDate="2005-01-14" xml:lang="en">person</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">oseba</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="tns">
+        <gloss versionDate="2005-01-14" xml:lang="en">tense</gloss>
+        <gloss versionDate="2014-09-18" xml:lang="sl">glagolski čas</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="mood">
+        <gloss versionDate="2009-04-29" xml:lang="sl">naklon</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="iType">
+        <gloss versionDate="2005-10-11" xml:lang="en">inflectional class</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">paradigma</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="gramGrp">
+        <gloss versionDate="2005-01-14" xml:lang="en">grammatical information group</gloss>
+        <gloss versionDate="2009-04-29" xml:lang="sl">podatki o skladnji</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="pos">
+        <gloss versionDate="2005-01-14" xml:lang="en">part of speech</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">besedna vrsta</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="subc">
+        <gloss versionDate="2005-01-14" xml:lang="en">subcategorization</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">vezljivost</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="colloc">
+        <gloss versionDate="2005-01-14" xml:lang="en">collocate</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">kolokat</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="def">
+        <gloss versionDate="2005-01-14" xml:lang="en">definition</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">razlaga</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="etym">
+        <gloss versionDate="2005-01-14" xml:lang="en">etymology</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">etimologija</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="lang">
+        <gloss versionDate="2005-01-14" xml:lang="en">language name</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">ime jezika</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="usg">
+        <gloss versionDate="2005-01-14" xml:lang="en">usage</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">uporaba</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="lbl">
+        <gloss versionDate="2005-01-14" xml:lang="en">label</gloss>
+        <gloss versionDate="2009-02-10" xml:lang="sl">labela</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="xr">
+        <gloss versionDate="2005-01-14" xml:lang="en">cross-reference phrase</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">fraza za navzkrižno sklicevanje</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="re">
+        <gloss versionDate="2005-01-14" xml:lang="en">related entry</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">povezano geslo</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="oRef">
+        <gloss versionDate="2005-01-14" xml:lang="en">orthographic-form reference</gloss>
+        <gloss versionDate="2012-03-24" xml:lang="sl">kazalka na pisno obliko</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="oVar">
+        <gloss versionDate="2005-01-14" xml:lang="en">orthographic-variant reference</gloss>
+        <gloss versionDate="2012-03-24" xml:lang="sl">kazalka na variantno pisno obliko</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="pRef">
+        <gloss versionDate="2005-01-14" xml:lang="en">pronunciation reference</gloss>
+        <gloss versionDate="2012-03-24" xml:lang="sl">kazalka na izgovorjavo</gloss>
+      </elementSpec>
+      <elementSpec module="dictionaries" ident="pVar">
+        <gloss versionDate="2005-01-14" xml:lang="en">pronunciation-variant reference</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">kazalka na variantno izgovorjavo</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="msDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">manuscript description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="catchwords">
+        <gloss versionDate="2009-04-24" xml:lang="sl">kustode</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="dimensions">
+        <gloss versionDate="2008-07-11" xml:lang="sl">dimenzije</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="dim">
+        <gloss versionDate="2014-02-07" xml:lang="sl">dimenzija</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="height">
+        <gloss versionDate="2008-07-11" xml:lang="sl">višina</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="depth">
+        <gloss versionDate="2013-01-19" xml:lang="sl">debelina</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="width">
+        <gloss versionDate="2008-07-11" xml:lang="sl">širina</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="heraldry">
+        <gloss versionDate="2008-07-11" xml:lang="sl">heraldika</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="locus">
+        <gloss versionDate="2009-04-24" xml:lang="sl">locus</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="locusGrp">
+        <gloss versionDate="2014-02-07" xml:lang="sl">skupina locusov</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="material">
+        <gloss versionDate="2008-07-11" xml:lang="sl">material</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="objectType">
+        <gloss versionDate="2014-02-07" xml:lang="sl">tip objekta</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="origDate">
+        <gloss versionDate="2007-07-04" xml:lang="en">origin date</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">čas nastanka</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="origPlace">
+        <gloss versionDate="2007-07-04" xml:lang="en">origin place</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">kraj nastanka</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="secFol">
+        <gloss versionDate="2007-12-20" xml:lang="en">second folio</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">secundo folio</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="signatures">
+        <gloss versionDate="2008-07-11" xml:lang="sl">podpisi</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="stamp">
+        <gloss versionDate="2009-04-24" xml:lang="sl">žig</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="watermark">
+        <gloss versionDate="2008-07-11" xml:lang="sl">vodni znak</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="msIdentifier">
+        <gloss versionDate="2007-07-04" xml:lang="en">manuscript identifier</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">identifikator rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="institution">
+        <gloss versionDate="2008-07-11" xml:lang="sl">institucija</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="repository">
+        <gloss versionDate="2008-07-12" xml:lang="sl">repozitorij</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="collection">
+        <gloss versionDate="2008-07-11" xml:lang="sl">zbirka</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="altIdentifier">
+        <gloss versionDate="2005-01-14" xml:lang="en">alternative identifier</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">nadomestni identifikator</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="msName">
+        <gloss versionDate="2005-12-14" xml:lang="en">alternative name</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">ime rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="colophon">
+        <gloss versionDate="2008-07-11" xml:lang="sl">kolofon rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="explicit">
+        <gloss versionDate="2008-07-11" xml:lang="sl">eksplicit</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="filiation">
+        <gloss versionDate="2009-04-24" xml:lang="sl">filiacija</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="finalRubric">
+        <gloss versionDate="2009-04-24" xml:lang="sl">sklepna rubrika</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="incipit">
+        <gloss versionDate="2008-07-11" xml:lang="sl">incipit</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="msContents">
+        <gloss versionDate="2007-07-04" xml:lang="en">manuscript contents</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">vsebina rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="msItem">
+        <gloss versionDate="2007-07-04" xml:lang="en">manuscript item</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">rokopisna enota</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="msItemStruct">
+        <gloss versionDate="2007-07-04" xml:lang="en">structured manuscript item</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">razčlenjen opis rokopisne enote</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="rubric">
+        <gloss versionDate="2009-04-24" xml:lang="sl">rubrika</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="summary">
+        <gloss versionDate="2008-07-11" xml:lang="sl">povzetek</gloss>
+      </elementSpec>
+      <elementSpec module="core" ident="textLang">
+        <gloss versionDate="2007-07-04" xml:lang="en">text language</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">jezik rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="physDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">physical description</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">fizični opis</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="objectDesc">
+        <gloss versionDate="2013-01-19" xml:lang="sl">opis artefakta</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="supportDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">support description</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">opis podlage</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="support">
+        <gloss versionDate="2009-04-24" xml:lang="sl">podlaga</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="collation">
+        <gloss versionDate="2009-04-24" xml:lang="sl">kolacija</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="foliation">
+        <gloss versionDate="2009-04-24" xml:lang="sl">foliacija</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="condition">
+        <gloss versionDate="2008-07-11" xml:lang="sl">ohranjenost</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="layoutDesc">
+        <gloss versionDate="2007-11-18" xml:lang="en">layout description</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">opis zrcala</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="layout">
+        <gloss versionDate="2013-01-19" xml:lang="sl">zrcalo</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="handDesc">
+        <gloss versionDate="2007-08-01" xml:lang="en">description of hands</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis rok</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="typeDesc">
+        <gloss versionDate="2014-02-07" xml:lang="sl">opis tipografije</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="typeNote">
+        <gloss versionDate="2014-02-07" xml:lang="sl">opomba o tipografij</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="scriptDesc">
+        <gloss versionDate="2014-02-07" xml:lang="sl">opis pisave</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="scriptNote">
+        <gloss versionDate="2014-02-07" xml:lang="sl">opomba o pisav</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="musicNotation">
+        <gloss versionDate="2009-04-24" xml:lang="sl">glasbena notacija</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="decoDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">decoration description</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">opis dekoracije</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="decoNote">
+        <gloss versionDate="2007-07-04" xml:lang="en">note on decoration</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">opomba o dekoraciji</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="additions">
+        <gloss versionDate="2008-07-11" xml:lang="sl">dodatki</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="bindingDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">binding description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis vezave</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="binding">
+        <gloss versionDate="2008-07-11" xml:lang="sl">vezava</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="sealDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">seal description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis pečata</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="seal">
+        <gloss versionDate="2008-07-11" xml:lang="sl">pečat</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="accMat">
+        <gloss versionDate="2005-01-14" xml:lang="en">accompanying material</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">spremno rokopisno gradivo</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="history">
+        <gloss versionDate="2009-04-24" xml:lang="sl">zgodovina rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="origin">
+        <gloss versionDate="2008-07-11" xml:lang="sl">izvor</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="provenance">
+        <gloss versionDate="2008-07-11" xml:lang="sl">provenienca</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="acquisition">
+        <gloss versionDate="2009-04-24" xml:lang="sl">način pridobitve</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="additional">
+        <gloss versionDate="2008-07-11" xml:lang="sl">dodatni podatki</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="adminInfo">
+        <gloss versionDate="2005-01-14" xml:lang="en">administrative information</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">administrativni podatki</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="recordHist">
+        <gloss versionDate="2007-07-04" xml:lang="en">recorded history</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">nastanek opisa rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="source">
+        <gloss versionDate="2008-07-11" xml:lang="sl">vir</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="custodialHist">
+        <gloss versionDate="2007-07-04" xml:lang="en">custodial history</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">zgodovina hrambe</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="custEvent">
+        <gloss versionDate="2007-07-04" xml:lang="en">custodial event</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">dogodek med hrambo</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="surrogates">
+        <gloss versionDate="2009-04-24" xml:lang="sl">nadomestki</gloss>
+      </elementSpec>
+      <elementSpec module="msdescription" ident="msPart">
+        <gloss versionDate="2007-07-04" xml:lang="en">manuscript part</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">del rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="facsimile">
+        <gloss versionDate="2008-07-11" xml:lang="sl">faksimile</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="sourceDoc">
+        <gloss versionDate="2014-02-07" xml:lang="sl">izvorno besedilo</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="surface">
+        <gloss versionDate="2008-07-11" xml:lang="sl">površina</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="surfaceGrp">
+        <gloss versionDate="2014-09-18" xml:lang="sl">skupina površin</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="zone">
+        <gloss versionDate="2009-04-24" xml:lang="sl">cona folija</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="addSpan">
+        <gloss versionDate="2005-01-14" xml:lang="en">added span of text</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razpon dodanega besedila</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="damage">
+        <gloss versionDate="2008-07-11" xml:lang="sl">poškodovano</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="damageSpan">
+        <gloss versionDate="2007-09-03" xml:lang="en">damaged span of text</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razpon poškodovanega besedila</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="delSpan">
+        <gloss versionDate="2005-01-14" xml:lang="en">deleted span of text</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">razpon izbrisanega besedila</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="ex">
+        <gloss versionDate="2007-08-29" xml:lang="en">editorial expansion</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">uredniška razvezava</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="fw">
+        <gloss versionDate="2005-01-14" xml:lang="en">forme work</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">obod strani</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="handNotes">
+        <gloss versionDate="2009-04-24" xml:lang="sl">opombe o rokah rokopisa</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="handShift">
+        <gloss versionDate="2009-04-24" xml:lang="sl">sprememba roke</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="am">
+        <gloss versionDate="2007-09-04" xml:lang="en">abbreviation marker</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">znamenje okrajšave</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="restore">
+        <gloss versionDate="2009-04-24" xml:lang="sl">restavriran zapis</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="space">
+        <gloss versionDate="2009-02-10" xml:lang="sl">presledek</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="subst">
+        <gloss versionDate="2007-09-02" xml:lang="en">substitution</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">substitucija</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="substJoin">
+        <gloss versionDate="2011-11-08" xml:lang="en">substitution join</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">spajanje substitucij</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="supplied">
+        <gloss versionDate="2009-03-13" xml:lang="sl">vstavil urednik</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="surplus">
+        <gloss versionDate="2013-01-14" xml:lang="sl">odvečno</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="line">
+        <gloss versionDate="2014-02-07" xml:lang="sl">vrstica</gloss>
+      </elementSpec>
+      <elementSpec module="header" ident="listChange">
+        <gloss versionDate="2014-02-07" xml:lang="sl">seznam sprememb</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="listTranspose">
+        <gloss versionDate="2014-02-07" xml:lang="sl">seznam transpozicij</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="metamark">
+        <gloss versionDate="2014-02-07" xml:lang="sl">meta znak</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="mod">
+        <gloss versionDate="2014-02-07" xml:lang="sl">sprememba</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="redo">
+        <gloss versionDate="2014-02-07" xml:lang="sl">ponovljena intervencija</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="retrace">
+        <gloss versionDate="2014-02-07" xml:lang="sl">ponovna sled</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="transpose">
+        <gloss versionDate="2014-02-07" xml:lang="sl">transpozicija</gloss>
+      </elementSpec>
+      <elementSpec module="transcr" ident="undo">
+        <gloss versionDate="2014-02-07" xml:lang="sl">zavrnjena intervencija</gloss>
+        <desc versionDate="2013-04-16" xml:lang="en">indicates one or more marked-up interventions in a document
+	which have subsequently been marked for cancellation.</desc>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="app">
+        <gloss versionDate="2005-01-14" xml:lang="en">apparatus entry</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">enota kritičnega aparata</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="listApp">
+        <gloss versionDate="2012-08-14" xml:lang="en">list of apparatus entries</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">seznam enot kritičnega aparate</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="lem">
+        <gloss versionDate="2005-01-14" xml:lang="en">lemma</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">lema</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="rdg">
+        <gloss versionDate="2005-01-14" xml:lang="en">reading</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">varianta</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="rdgGrp">
+        <gloss versionDate="2005-01-14" xml:lang="en">reading group</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">skupina variant</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="witDetail">
+        <gloss versionDate="2007-07-04" xml:lang="en">witness detail</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">podrobnosti o rokopisni verziji</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="wit">
+        <gloss versionDate="2009-04-24" xml:lang="sl">sigla rokopisne verzije</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="listWit">
+        <gloss versionDate="2007-09-16" xml:lang="en">witness list</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">seznam rokopisnih verzij</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="witness">
+        <gloss versionDate="2009-04-24" xml:lang="sl">rokopisna verzija</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="witStart">
+        <gloss versionDate="2007-07-04" xml:lang="en">fragmented witness start</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">začetek fragmentarne rokopisne verzije</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="witEnd">
+        <gloss versionDate="2007-07-04" xml:lang="en">fragmented witness end</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">konec fragmentarne rokopisne verzije</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="lacunaStart">
+        <gloss versionDate="2009-04-24" xml:lang="sl">začetek lakune</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="lacunaEnd">
+        <gloss versionDate="2009-04-24" xml:lang="sl">konec lakune</gloss>
+      </elementSpec>
+      <elementSpec module="textcrit" ident="variantEncoding">
+        <gloss versionDate="2009-04-24" xml:lang="sl">označevanje variantnih mest</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="orgName">
+        <gloss versionDate="2005-01-14" xml:lang="en">organization name</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">ime organizacije</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="persName">
+        <gloss versionDate="2005-01-14" xml:lang="en">personal name</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">osebno ime</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="surname">
+        <gloss versionDate="2008-07-11" xml:lang="sl">priimek</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="forename">
+        <gloss versionDate="2008-07-11" xml:lang="sl">ime</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="genName">
+        <gloss versionDate="2007-07-04" xml:lang="en">generational name component</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">generacijski del imena</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="nameLink">
+        <gloss versionDate="2005-01-14" xml:lang="en">name link</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">imenski veznik</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="addName">
+        <gloss versionDate="2005-01-14" xml:lang="en">additional name</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">dodatno ime</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="roleName">
+        <gloss versionDate="2009-04-24" xml:lang="sl">statusno ime</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="placeName">
+        <gloss versionDate="2009-04-24" xml:lang="sl">krajevno ime</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="bloc">
+        <gloss versionDate="2005-01-14" xml:lang="en">bloc</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">geopolitični blok</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="country">
+        <gloss versionDate="2005-01-14" xml:lang="en">country</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">država</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="region">
+        <gloss versionDate="2008-07-11" xml:lang="sl">regija</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="district">
+        <gloss versionDate="2008-07-11" xml:lang="sl">okrožje</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="settlement">
+        <gloss versionDate="2008-07-11" xml:lang="sl">naselje</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="offset">
+        <gloss versionDate="2009-04-24" xml:lang="sl">umestitev</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="geogName">
+        <gloss versionDate="2005-01-14" xml:lang="en">geographical name</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">zemljepisno ime</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="geogFeat">
+        <gloss versionDate="2007-06-15" xml:lang="en">geographical feature name</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">ime zemljepisne lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="affiliation">
+        <gloss versionDate="2005-01-14" xml:lang="en">affiliation</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">službovanje</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="age">
+        <gloss versionDate="2009-01-12" xml:lang="en">age</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">starost</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="birth">
+        <gloss versionDate="2009-01-12" xml:lang="en">birth</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">rojstvo</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="climate">
+        <gloss versionDate="2009-01-12" xml:lang="en">climate</gloss>
+        <gloss versionDate="2014-09-18" xml:lang="sl">podnebje</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="death">
+        <gloss versionDate="2009-01-12" xml:lang="en">death</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">smrt</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="education">
+        <gloss versionDate="2009-04-24" xml:lang="sl">izobrazba</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="event">
+        <gloss versionDate="2009-01-12" xml:lang="en">event</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">dogodek</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="faith">
+        <gloss versionDate="2008-07-11" xml:lang="sl">veroizpoved</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="floruit">
+        <gloss versionDate="2009-04-24" xml:lang="sl">floruit</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="geo">
+        <gloss versionDate="2007-06-15" xml:lang="en">geographical coordinates</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">zemljepisne koordinate</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="langKnowledge">
+        <gloss versionDate="2007-07-04" xml:lang="en">language knowledge</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">znanje jezikov</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="langKnown">
+        <gloss versionDate="2007-07-04" xml:lang="en">language known</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">znanje jezika</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="listOrg">
+        <gloss versionDate="2007-07-04" xml:lang="en">list of organizations</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">seznam organizacij</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="listEvent">
+        <gloss versionDate="2009-01-21" xml:lang="en">list of events</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">seznam dogodkov</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="listPerson">
+        <gloss versionDate="2007-07-04" xml:lang="en">list of persons</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">seznam oseb</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="listPlace">
+        <gloss versionDate="2007-07-04" xml:lang="en">list of places</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">seznam krajev</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="location">
+        <gloss versionDate="2009-04-24" xml:lang="sl">lokacija</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="nationality">
+        <gloss versionDate="2009-04-24" xml:lang="sl">narodnost</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="occupation">
+        <gloss versionDate="2009-04-24" xml:lang="sl">poklic</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="org">
+        <gloss versionDate="2007-07-04" xml:lang="en">organization</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">organizacija</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="listRelation">
+        <gloss versionDate="2014-02-07" xml:lang="sl">seznam odnosov</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="relationGrp">
+        <gloss versionDate="2007-10-09" xml:lang="en">relation group</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">skupina odnosov</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="person">
+        <gloss versionDate="2008-07-11" xml:lang="sl">oseba</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="personGrp">
+        <gloss versionDate="2005-01-14" xml:lang="en">personal group</gloss>
+        <gloss versionDate="2013-01-19" xml:lang="sl">skupina oseb</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="place">
+        <gloss versionDate="2009-04-24" xml:lang="sl">kraj</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="population">
+        <gloss versionDate="2009-04-24" xml:lang="sl">prebivalstvo</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="relation">
+        <gloss versionDate="2005-01-14" xml:lang="en">relationship</gloss>
+        <gloss versionDate="2008-12-27" xml:lang="sl">odnos</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="residence">
+        <gloss versionDate="2005-01-14" xml:lang="en">residence</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">prebivališče</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="sex">
+        <gloss versionDate="2008-07-11" xml:lang="sl">spol</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="socecStatus">
+        <gloss versionDate="2005-01-14" xml:lang="en">socio-economic status</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">socialno-ekonomski status</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="state">
+        <gloss versionDate="2008-12-26" xml:lang="sl">stan</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="terrain">
+        <gloss versionDate="2008-12-27" xml:lang="sl">teren</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="trait">
+        <gloss versionDate="2008-12-27" xml:lang="sl">lastnost</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="nym">
+        <gloss versionDate="2007-07-04" xml:lang="en">canonical name</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">kanonično ime</gloss>
+      </elementSpec>
+      <elementSpec module="namesdates" ident="listNym">
+        <gloss versionDate="2007-07-04" xml:lang="en">list of canonical names</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">seznam kanoničnih imen</gloss>
+      </elementSpec>
+      <elementSpec module="figures" ident="table">
+        <gloss versionDate="2008-07-11" xml:lang="sl">tabela</gloss>
+      </elementSpec>
+      <elementSpec module="figures" ident="row">
+        <gloss versionDate="2008-07-11" xml:lang="sl">vrstica</gloss>
+      </elementSpec>
+      <elementSpec module="figures" ident="cell">
+        <gloss versionDate="2008-07-11" xml:lang="sl">celica</gloss>
+      </elementSpec>
+      <elementSpec module="figures" ident="formula">
+        <gloss versionDate="2008-07-11" xml:lang="sl">formula</gloss>
+      </elementSpec>
+      <elementSpec module="figures" ident="notatedMusic">
+        <gloss versionDate="2014-02-07" xml:lang="sl">notacije glasbe</gloss>
+        <desc versionDate="2011-04-12" xml:lang="en">encodes the presence of music notation in a text</desc>
+      </elementSpec>
+      <elementSpec module="figures" ident="figure">
+        <gloss versionDate="2009-04-24" xml:lang="sl">slika</gloss>
+      </elementSpec>
+      <elementSpec module="figures" ident="figDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">description of figure</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">opis slike</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="textDesc">
+        <gloss versionDate="2005-01-14" xml:lang="en">text description</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">opis besedila</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="particDesc">
+        <gloss versionDate="2005-01-14" xml:lang="en">participation description</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">opis govorcev</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="settingDesc">
+        <gloss versionDate="2005-01-14" xml:lang="en">setting description</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">opis prizorišča</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="channel">
+        <gloss versionDate="2005-01-14" xml:lang="en">primary channel</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">komunikacijski kanal</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="constitution">
+        <gloss versionDate="2009-04-24" xml:lang="sl">sestav</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="derivation">
+        <gloss versionDate="2008-07-11" xml:lang="sl">derivacija</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="domain">
+        <gloss versionDate="2007-07-04" xml:lang="en">domain of use</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">območje uporabe</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="factuality">
+        <gloss versionDate="2012-04-06" xml:lang="sl">resničnost</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="interaction">
+        <gloss versionDate="2008-07-11" xml:lang="sl">interakcija</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="preparedness">
+        <gloss versionDate="2012-03-24" xml:lang="sl">pripravljenost</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="purpose">
+        <gloss versionDate="2008-07-11" xml:lang="sl">namen</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="setting">
+        <gloss versionDate="2012-04-06" xml:lang="sl">okvir</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="locale">
+        <gloss versionDate="2012-04-06" xml:lang="sl">okolje</gloss>
+      </elementSpec>
+      <elementSpec module="corpus" ident="activity">
+        <gloss versionDate="2008-07-11" xml:lang="sl">aktivnost</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="link">
+        <gloss versionDate="2008-07-11" xml:lang="sl">povezava</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="linkGrp">
+        <gloss versionDate="2007-07-04" xml:lang="en">link group</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">skupina povezav</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="ab">
+        <gloss versionDate="2005-01-14" xml:lang="en">anonymous block</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">anonimni blok</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="anchor">
+        <gloss versionDate="2005-01-14" xml:lang="en">anchor point</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">sidro</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="seg">
+        <gloss versionDate="2005-01-14" xml:lang="en">arbitrary segment</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">poljuben segment</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="when">
+        <gloss versionDate="2008-07-11" xml:lang="sl">kdaj</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="timeline">
+        <gloss versionDate="2005-01-14" xml:lang="en">timeline</gloss>
+        <gloss versionDate="2009-04-24" xml:lang="sl">časovnica</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="join">
+        <gloss versionDate="2012-04-06" xml:lang="sl">spajanje</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="joinGrp">
+        <gloss versionDate="2005-01-14" xml:lang="en">join group</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">skupina spajanj</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="alt">
+        <gloss versionDate="2005-01-14" xml:lang="en">alternation</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">menjava</gloss>
+      </elementSpec>
+      <elementSpec module="linking" ident="altGrp">
+        <gloss versionDate="2005-01-14" xml:lang="en">alternation group</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">skupina menjav</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="s">
+        <gloss versionDate="2005-01-14" xml:lang="en">s-unit</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">povedna enota</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="cl">
+        <gloss versionDate="2005-01-14" xml:lang="en">clause</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">stavek</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="phr">
+        <gloss versionDate="2005-01-14" xml:lang="en">phrase</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">fraza</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="w">
+        <gloss versionDate="2005-01-14" xml:lang="en">word</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">beseda</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="m">
+        <gloss versionDate="2005-01-14" xml:lang="en">morpheme</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">morfem</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="c">
+        <gloss versionDate="2005-01-14" xml:lang="en">character</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">znak</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="pc">
+        <gloss versionDate="2009-06-10" xml:lang="en">punctuation character</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">ločilo</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="span">
+        <gloss versionDate="2012-04-06" xml:lang="sl">razpon</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="spanGrp">
+        <gloss versionDate="2005-01-14" xml:lang="en">span group</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">skupina razponov</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="interp">
+        <gloss versionDate="2005-01-14" xml:lang="en">interpretation</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">interpretacija</gloss>
+      </elementSpec>
+      <elementSpec module="analysis" ident="interpGrp">
+        <gloss versionDate="2005-01-14" xml:lang="en">interpretation group</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">skupina interpretacij</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fsdDecl">
+        <gloss versionDate="2007-09-26" xml:lang="en">feature system declaration</gloss>
+        <gloss versionDate="2009-01-02" xml:lang="sl">načela sistema lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fsDecl">
+        <gloss versionDate="2005-01-14" xml:lang="en">feature structure declaration</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">načela struktur lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fsDescr">
+        <gloss versionDate="2005-01-14" xml:lang="en">feature system description (in FSD)</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">opis sistema lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fsdLink">
+        <gloss versionDate="2007-09-26" xml:lang="en">feature structure declaration link</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">povezava deklaracije struktur lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fDecl">
+        <gloss versionDate="2005-01-14" xml:lang="en">feature declaration</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">deklaracija lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fDescr">
+        <gloss versionDate="2005-01-14" xml:lang="en">feature description (in FSD)</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">opis lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="vRange">
+        <gloss versionDate="2005-01-14" xml:lang="en">value range</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">razpon vrednosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="vDefault">
+        <gloss versionDate="2005-01-14" xml:lang="en">value default</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">privzeta vrednost</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="if">
+        <gloss versionDate="2008-07-11" xml:lang="sl">če</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="then">
+        <gloss versionDate="2008-07-11" xml:lang="sl">potem</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fsConstraints">
+        <gloss versionDate="2005-01-14" xml:lang="en">feature-structure constraints</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">omejitve struktur lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="cond">
+        <gloss versionDate="2005-01-14" xml:lang="en">conditional feature-structure constraint</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">pogojna omejitev struktur lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="bicond">
+        <gloss versionDate="2005-01-14" xml:lang="en">bi-conditional feature-structure constraint</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">dvosmerna omejitev strukture lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="iff">
+        <gloss versionDate="2007-07-04" xml:lang="en">if and only if</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">če in samo če</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fs">
+        <gloss versionDate="2007-07-04" xml:lang="en">feature structure</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">struktura lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="f">
+        <gloss versionDate="2007-07-05" xml:lang="en">feature</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">lastnost</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="binary">
+        <gloss versionDate="2005-01-14" xml:lang="en">binary value</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">binarno</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="symbol">
+        <gloss versionDate="2007-07-04" xml:lang="en">symbolic value</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">simbol</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="numeric">
+        <gloss versionDate="2007-07-04" xml:lang="en">numeric value</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">numerično</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="string">
+        <gloss versionDate="2007-07-05" xml:lang="en">string value</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">niz</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="vLabel">
+        <gloss versionDate="2005-01-14" xml:lang="en">value label</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">oznaka vrednosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="vColl">
+        <gloss versionDate="2005-09-29" xml:lang="en">collection of values</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">zbirka vrednosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="default">
+        <gloss versionDate="2007-07-05" xml:lang="en">default feature value</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">privzeta vrednost</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="vAlt">
+        <gloss versionDate="2007-07-05" xml:lang="en">value alternation</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">disjunkcija vrednosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="vNot">
+        <gloss versionDate="2007-07-05" xml:lang="en">value negation</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">negacija vrednosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="vMerge">
+        <gloss versionDate="2007-07-05" xml:lang="en">merged collection of values</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">združena zbirka vrednosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fLib">
+        <gloss versionDate="2007-07-04" xml:lang="en">feature library</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">knjižnica lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="iso-fs" ident="fvLib">
+        <gloss versionDate="2007-07-04" xml:lang="en">feature-value library</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">knjižnica vrednosti lastnosti</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="graph">
+        <gloss versionDate="2009-01-02" xml:lang="sl">graf</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="node">
+        <gloss versionDate="2009-05-04" xml:lang="sl">vozlišče</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="arc">
+        <gloss versionDate="2009-05-04" xml:lang="sl">lok</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="tree">
+        <gloss versionDate="2009-05-04" xml:lang="sl">drevo</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="root">
+        <gloss versionDate="2005-01-14" xml:lang="en">root node</gloss>
+        <gloss versionDate="2009-05-04" xml:lang="sl">korensko vozlišče</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="iNode">
+        <gloss versionDate="2005-01-14" xml:lang="en">intermediate (or internal) node</gloss>
+        <gloss versionDate="2009-05-04" xml:lang="sl">vmesno (ali notranje) vozlišče</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="leaf">
+        <gloss versionDate="2009-05-04" xml:lang="sl">list</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="eTree">
+        <gloss versionDate="2005-01-14" xml:lang="en">embedding tree</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">vstavno drevo</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="triangle">
+        <gloss versionDate="2007-09-24" xml:lang="en">underspecified embedding tree, so called because of its characteristic shape when drawn</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">trikotno vstavno drevo</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="eLeaf">
+        <gloss versionDate="2007-09-24" xml:lang="en">leaf or terminal node of an embedding tree</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">list vstavnega drevesa</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="forest">
+        <gloss versionDate="2013-01-22" xml:lang="sl">gozd</gloss>
+      </elementSpec>
+      <elementSpec module="nets" ident="listForest">
+        <gloss versionDate="2014-02-07" xml:lang="sl">seznam gozdov</gloss>
+      </elementSpec>
+      <elementSpec module="certainty" ident="precision">
+        <gloss versionDate="2014-02-07" xml:lang="sl">točnost</gloss>
+      </elementSpec>
+      <elementSpec module="certainty" ident="certainty">
+        <gloss versionDate="2008-07-11" xml:lang="sl">gotovost</gloss>
+      </elementSpec>
+      <elementSpec module="certainty" ident="respons">
+        <gloss versionDate="2005-01-14" xml:lang="en">responsibility</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">odgovornost</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="att">
+        <gloss versionDate="2005-01-14" xml:lang="en">attribute</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">atribut</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="code">
+        <gloss versionDate="2013-01-22" xml:lang="sl">programska koda</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="eg">
+        <gloss versionDate="2007-07-04" xml:lang="en">example</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">primer</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="egXML">
+        <gloss versionDate="2007-07-04" xml:lang="en">example of XML</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">primer XML</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="gi">
+        <gloss versionDate="2007-07-04" xml:lang="en">element name</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">ime elementa</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="ident">
+        <gloss versionDate="2007-07-04" xml:lang="en">identifier</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">identifikator</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="tag">
+        <gloss versionDate="2008-07-11" xml:lang="sl">oznaka</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="val">
+        <gloss versionDate="2005-01-14" xml:lang="en">value</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">vrednost</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="specList">
+        <gloss versionDate="2007-07-04" xml:lang="en">specification list</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">seznam specifikacij</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="specDesc">
+        <gloss versionDate="2007-07-04" xml:lang="en">specification description</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">opis specifikacij</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="classRef">
+        <gloss versionDate="2014-02-07" xml:lang="sl">sklic na razred</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="elementRef">
+        <gloss versionDate="2014-09-18" xml:lang="sl">sklic na element</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="macroRef">
+        <gloss versionDate="2014-02-07" xml:lang="sl">sklic na makro</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="moduleRef">
+        <gloss versionDate="2007-07-04" xml:lang="en">module reference</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">referenca na modul</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="moduleSpec">
+        <gloss versionDate="2007-07-04" xml:lang="en">module specification</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">specifikacija modula</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="schemaSpec">
+        <gloss versionDate="2007-07-04" xml:lang="en">schema specification</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">specifikacija sheme</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="specGrp">
+        <gloss versionDate="2005-01-14" xml:lang="en">specification group</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">skupina specifikacij</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="specGrpRef">
+        <gloss versionDate="2005-01-14" xml:lang="en">reference to a specification group</gloss>
+        <gloss versionDate="2013-01-22" xml:lang="sl">referenca na skupino specifikacij</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="elementSpec">
+        <gloss versionDate="2007-07-04" xml:lang="en">element specification</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">specifikacija elementa</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="classSpec">
+        <gloss versionDate="2007-07-04" xml:lang="en">class specification</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">specifikacija razreda</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="macroSpec">
+        <gloss versionDate="2007-07-04" xml:lang="en">macro specification</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">specifikacija makra</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="remarks">
+        <gloss versionDate="2008-07-11" xml:lang="sl">opombe</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="listRef">
+        <gloss versionDate="2005-01-14" xml:lang="en">list of references</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">seznam referenc</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="exemplum">
+        <gloss versionDate="2008-07-11" xml:lang="sl">primer</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="classes">
+        <gloss versionDate="2008-07-11" xml:lang="sl">razredi</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="memberOf">
+        <gloss versionDate="2008-07-11" xml:lang="sl">element od</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="equiv">
+        <gloss versionDate="2007-07-04" xml:lang="en">equivalent</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">ekvivalentno</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="altIdent">
+        <gloss versionDate="2007-07-04" xml:lang="en">alternate identifier</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">nadomestni identifikator</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="content">
+        <gloss versionDate="2007-07-04" xml:lang="en">content model</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">model vsebine</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="sequence">
+        <gloss versionDate="2014-02-07" xml:lang="sl">zaporednje sklicev</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="alternate">
+        <gloss versionDate="2014-02-07" xml:lang="sl">alternacija sklicev</gloss>
+        <desc versionDate="2013-11-21" xml:lang="en">an alternation of references</desc>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="constraint">
+        <gloss versionDate="2009-06-10" xml:lang="en">constraint rules</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">pravila omejitev</gloss>
+        <desc versionDate="2009-06-10" xml:lang="en">the formal rules of a constraint</desc>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="constraintSpec">
+        <gloss versionDate="2009-06-10" xml:lang="en">constraint on schema</gloss>
+        <gloss versionDate="2014-02-07" xml:lang="sl">omejitev sheme</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="attList">
+        <gloss versionDate="2008-07-11" xml:lang="sl">seznam atributov</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="attDef">
+        <gloss versionDate="2005-01-14" xml:lang="en">attribute definition</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">definicija atributa</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="attRef">
+        <gloss versionDate="2005-04-13" xml:lang="en">attribute pointer</gloss>
+        <gloss versionDate="2012-04-06" xml:lang="sl">kazalec na atribut</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="datatype">
+        <gloss versionDate="2008-07-11" xml:lang="sl">podatkovni tip</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="defaultVal">
+        <gloss versionDate="2007-07-04" xml:lang="en">default value</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">privzeta vrednost</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="valDesc">
+        <gloss versionDate="2005-01-14" xml:lang="en">value description</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">opis vrednosti</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="valItem">
+        <gloss versionDate="2012-04-06" xml:lang="sl">dokumentacija vrednosti atributa</gloss>
+      </elementSpec>
+      <elementSpec module="tagdocs" ident="valList">
+        <gloss versionDate="2005-01-14" xml:lang="en">value list</gloss>
+        <gloss versionDate="2008-07-11" xml:lang="sl">seznam vrednosti</gloss>
+      </elementSpec>
+      <classSpec ident="zrc-attributes" type="atts">
+        <attList>
+          <attDef ident="agent">
+            <gloss xml:lang="sl" versionDate="2008-07-16">dejavnik</gloss>
+          </attDef>
+          <attDef ident="cert">
+            <gloss xml:lang="sl" versionDate="2009-03-13">zanesljivost</gloss>
+            <valList>
+              <valItem ident="low">
+                <gloss xml:lang="sl" versionDate="2009-03-13">nizka</gloss>
+              </valItem>
+              <valItem ident="medium">
+                <gloss xml:lang="sl" versionDate="2009-03-13">srednja</gloss>
+              </valItem>
+              <valItem ident="high">
+                <gloss xml:lang="sl" versionDate="2009-03-13">visoka</gloss>
+              </valItem>
+            </valList>
+          </attDef>
+          <attDef ident="class">
+            <gloss xml:lang="sl" versionDate="2008-07-16">razred</gloss>
+          </attDef>
+          <attDef ident="copyOf">
+            <gloss xml:lang="sl" versionDate="2008-07-16">kopija od</gloss>
+          </attDef>
+          <attDef ident="corresp">
+            <gloss xml:lang="en" versionDate="2008-12-27">corresponds to</gloss>
+            <gloss xml:lang="sl" versionDate="2008-07-16">ustreza</gloss>
+          </attDef>
+          <attDef ident="extent">
+            <gloss xml:lang="sl" versionDate="2008-07-16">obseg</gloss>
+          </attDef>
+          <attDef ident="feats">
+            <gloss xml:lang="en" versionDate="2009-01-02">features</gloss>
+            <gloss xml:lang="sl" versionDate="2009-01-02">lastnosti</gloss>
+          </attDef>
+          <attDef ident="date">
+            <gloss xml:lang="sl" versionDate="2008-12-23">datum</gloss>
+          </attDef>
+          <attDef ident="form">
+            <gloss xml:lang="sl" versionDate="2008-07-16">oblika</gloss>
+            <valList>
+              <valItem ident="quire">
+                <gloss xml:lang="sl" versionDate="2008-07-16">lega</gloss>
+              </valItem>
+              <valItem ident="codex">
+                <gloss xml:lang="sl" versionDate="2008-07-16">kodeks</gloss>
+              </valItem>
+              <valItem ident="leaf">
+                <gloss xml:lang="sl" versionDate="2008-07-16">list</gloss>
+              </valItem>
+            </valList>
+          </attDef>
+          <attDef ident="from">
+            <gloss xml:lang="sl" versionDate="2008-07-16">od</gloss>
+          </attDef>
+          <attDef ident="from-iso">
+            <gloss xml:lang="sl" versionDate="2008-07-16">od (ISO)</gloss>
+          </attDef>
+          <attDef ident="gi">
+            <gloss xml:lang="sl" versionDate="2008-12-27">ime elementa</gloss>
+          </attDef>
+          <attDef ident="hand">
+            <gloss xml:lang="sl" versionDate="2008-03-13">roka</gloss>
+          </attDef>
+          <attDef ident="hands">
+            <gloss xml:lang="sl" versionDate="2008-07-16">roke</gloss>
+          </attDef>
+          <attDef ident="ident">
+            <gloss xml:lang="sl" versionDate="2008-07-16">identifikator</gloss>
+          </attDef>
+          <attDef ident="mainLang">
+            <gloss xml:lang="sl" versionDate="2008-07-16">glavni jezik</gloss>
+          </attDef>
+          <attDef ident="material">
+            <gloss xml:lang="sl" versionDate="2008-07-16">material</gloss>
+            <valList>
+              <valItem ident="paper">
+                <gloss xml:lang="sl" versionDate="2008-07-16">papir</gloss>
+              </valItem>
+            </valList>
+          </attDef>
+          <attDef ident="name">
+            <gloss xml:lang="sl" versionDate="2009-01-02">ime</gloss>
+          </attDef>
+          <attDef ident="notAfter">
+            <gloss xml:lang="sl" versionDate="2008-07-16">ne po</gloss>
+          </attDef>
+          <attDef ident="notBefore">
+            <gloss xml:lang="sl" versionDate="2008-07-16">ne pred</gloss>
+          </attDef>
+          <attDef ident="occurs">
+            <gloss xml:lang="sl" versionDate="2009-04-29">pojavitev</gloss>
+          </attDef>
+          <attDef ident="place">
+            <gloss xml:lang="sl" versionDate="2009-03-13">kje</gloss>
+            <valList>
+              <valItem ident="supralinear">
+                <gloss xml:lang="sl" versionDate="2009-03-13">nadpisano</gloss>
+              </valItem>
+              <valItem ident="infralinear">
+                <gloss xml:lang="sl" versionDate="2009-03-13">podpisano</gloss>
+              </valItem>
+              <valItem ident="inline">
+                <gloss xml:lang="sl" versionDate="2013-01-19">v vrstici</gloss>
+              </valItem>
+              <valItem ident="margin-right">
+                <gloss xml:lang="sl" versionDate="2009-03-13">na desni margini</gloss>
+              </valItem>
+              <valItem ident="margin-left">
+                <gloss xml:lang="sl" versionDate="2009-03-13">na levi margini</gloss>
+              </valItem>
+              <valItem ident="margin-bot">
+                <gloss xml:lang="sl" versionDate="2009-03-13">na spodnji margini</gloss>
+              </valItem>
+            </valList>
+          </attDef>
+          <attDef ident="reason">
+            <gloss xml:lang="sl" versionDate="2009-03-13">vzrok</gloss>
+            <valList>
+              <valItem ident="damage">
+                <gloss xml:lang="sl" versionDate="2017-02-27">poškodovano</gloss>
+              </valItem>
+              <valItem ident="illegible">
+                <gloss xml:lang="sl" versionDate="2009-03-13">neberljivo</gloss>
+              </valItem>
+              <valItem ident="trimming">
+                <gloss xml:lang="sl" versionDate="2009-03-13">obreza</gloss>
+              </valItem>
+            </valList>
+          </attDef>
+          <attDef ident="scheme">
+            <gloss xml:lang="sl" versionDate="2008-07-16">shema</gloss>
+          </attDef>
+          <attDef ident="scribe">
+            <gloss xml:lang="sl" versionDate="2008-07-16">pisar</gloss>
+          </attDef>
+          <attDef ident="target">
+            <gloss xml:lang="sl" versionDate="2008-07-16">cilj</gloss>
+          </attDef>
+          <attDef ident="to">
+            <gloss xml:lang="sl" versionDate="2008-07-16">do</gloss>
+          </attDef>
+          <attDef ident="to-iso">
+            <gloss xml:lang="sl" versionDate="2008-07-16">do (ISO)</gloss>
+          </attDef>
+          <attDef ident="type">
+            <gloss xml:lang="sl" versionDate="2008-07-16">tip</gloss>
+            <valList><!-- NRSS --><valItem ident="editorial">
+              <gloss xml:lang="sl" versionDate="2009-04-29">uredniški</gloss>
+            </valItem>
+            <valItem ident="acronym">
+              <gloss xml:lang="sl" versionDate="2009-03-13">akronim</gloss>
+            </valItem>
+            <valItem ident="brevigraph">
+              <gloss xml:lang="sl" versionDate="2009-03-13">brevigraf</gloss>
+            </valItem>
+            <valItem ident="contraction">
+              <gloss xml:lang="sl" versionDate="2009-03-13">kontrakcija</gloss>
+            </valItem>
+            <valItem ident="suspension">
+              <gloss xml:lang="sl" versionDate="2009-03-13">suspenzija</gloss>
+            </valItem>
+            <valItem ident="leaf">
+              <gloss xml:lang="sl" versionDate="2009-05-04">list</gloss>
+            </valItem>
+            <!-- SBL --><valItem ident="historic">
+              <gloss xml:lang="sl" versionDate="2012-03-24">nekdanje poimenovanje</gloss>
+            </valItem>
+            <valItem ident="variant">
+              <gloss xml:lang="sl" versionDate="2012-03-24">starinska oblika</gloss>
+            </valItem>
+            <valItem ident="abbr">
+              <gloss xml:lang="sl" versionDate="2012-03-24">okrajšava</gloss>
+            </valItem>
+            <valItem ident="adopted">
+              <gloss xml:lang="sl" versionDate="2012-03-24">po posvojitvi</gloss>
+            </valItem>
+            <valItem ident="artistic">
+              <gloss xml:lang="sl" versionDate="2012-03-24">umetniško ime</gloss>
+            </valItem>
+            <valItem ident="illegal">
+              <gloss xml:lang="sl" versionDate="2012-03-24">ilegalno ime</gloss>
+            </valItem>
+            <valItem ident="incorrect">
+              <gloss xml:lang="sl" versionDate="2012-03-24">napačen podatek</gloss>
+            </valItem>
+            <valItem ident="birth">
+              <gloss xml:lang="sl" versionDate="2012-03-24">rojstno</gloss>
+            </valItem>
+            <valItem ident="married">
+              <gloss xml:lang="sl" versionDate="2012-03-24">po poroki</gloss>
+            </valItem>
+            <valItem ident="nickname">
+              <gloss xml:lang="sl" versionDate="2012-03-24">vzdevek</gloss>
+            </valItem>
+            <valItem ident="pseudo">
+              <gloss xml:lang="sl" versionDate="2012-03-24">psevdonim</gloss>
+            </valItem>
+            <valItem ident="monastic">
+              <gloss xml:lang="sl" versionDate="2012-03-24">redovno ime</gloss>
+            </valItem>
+            <valItem ident="patronym">
+              <gloss xml:lang="sl" versionDate="2012-03-24">patronimik</gloss>
+            </valItem>
+            <valItem ident="eccl">
+              <gloss xml:lang="sl" versionDate="2012-03-24">cerkveni naziv</gloss>
+            </valItem>
+            <valItem ident="nobility">
+              <gloss xml:lang="sl" versionDate="2012-03-24">plemiški naziv</gloss>
+            </valItem>
+            <valItem ident="operosorum">
+              <gloss xml:lang="sl" versionDate="2012-03-24">član Academiae operosorum Labacensis</gloss>
+            </valItem>
+            <valItem ident="sasa">
+              <gloss xml:lang="sl" versionDate="2012-03-24">član Slovenske akademije znanosti in
+              umetnosti</gloss>
+            </valItem>
+            </valList>
+          </attDef>
+          <attDef ident="quantity">
+            <gloss xml:lang="sl" versionDate="2017-02-27">količina</gloss>
+          </attDef>
+          <attDef ident="unit">
+            <gloss xml:lang="sl" versionDate="2008-07-16">enota</gloss>
+            <valList>
+              <valItem ident="chars">
+                <gloss xml:lang="sl" versionDate="2017-02-27">znaki</gloss>
+              </valItem>
+              <valItem ident="words">
+                <gloss xml:lang="sl" versionDate="2009-03-13">besede</gloss>
+              </valItem>
+            </valList>
+          </attDef>
+          <attDef ident="url">
+            <gloss xml:lang="sl" versionDate="2008-07-16">URL</gloss>
+          </attDef>
+          <attDef ident="value">
+            <gloss xml:lang="sl" versionDate="2009-01-02">vrednost</gloss>
+            <valList>
+              <valItem ident="0">
+                <gloss xml:lang="en" versionDate="2012-03-24">unknown</gloss>
+                <gloss xml:lang="sl" versionDate="2012-03-24">neznan</gloss>
+              </valItem>
+              <valItem ident="1">
+                <gloss xml:lang="en" versionDate="2012-03-24">male</gloss>
+                <gloss xml:lang="sl" versionDate="2012-03-24">moški</gloss>
+              </valItem>
+              <valItem ident="2">
+                <gloss xml:lang="en" versionDate="2012-03-24">female</gloss>
+                <gloss xml:lang="sl" versionDate="2012-03-24">ženski</gloss>
+              </valItem>
+              <valItem ident="9">
+                <gloss xml:lang="en" versionDate="2012-03-24">not applicable</gloss>
+                <gloss xml:lang="sl" versionDate="2012-03-24">ni relevantno</gloss>
+              </valItem>
+            </valList>
+          </attDef>
+          <attDef ident="when">
+            <gloss xml:lang="sl" versionDate="2008-07-16">kdaj</gloss>
+          </attDef>
+          <attDef ident="when-iso">
+            <gloss xml:lang="sl" versionDate="2008-07-16">kdaj (ISO)</gloss>
+          </attDef>
+          <attDef ident="who">
+            <gloss xml:lang="sl" versionDate="2008-07-16">kdo</gloss>
+          </attDef>
+          <attDef ident="xml:id">
+            <gloss xml:lang="en" versionDate="2008-12-23">id</gloss>
+            <gloss xml:lang="sl" versionDate="2008-12-23">identifikator</gloss>
+          </attDef>
+          <attDef ident="xml:lang">
+            <gloss xml:lang="en" versionDate="2008-12-23">language</gloss>
+            <gloss xml:lang="sl" versionDate="2008-07-16">jezik</gloss>
+          </attDef>
+        </attList>
+      </classSpec>
+    </body>
+  </text>
+</TEI>

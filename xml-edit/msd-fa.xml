@@ -1,0 +1,1243 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="fa" xml:id="msd-fa" xml:lang="en">
+  <head>Persian Specifications</head>
+  <docAuthor>Behrang QasemiZadeh, Saeed Rahimi</docAuthor>
+  <docDate>2009-05-13</docDate>
+  <list type="gloss">
+    <label>Language Name:</label>
+    <item>Persian / Farsi</item>
+    <label>Code:</label>
+    <item>fa</item>
+    <label>Reference:</label>
+    <item>
+      <ref target="http://www.ethnologue.com/language/pes">Ethnologue</ref>
+    </item>
+  </list>
+  <divGen type="subtoc"/>
+  <div type="section" select="fa" xml:id="msd.categories-fa">
+    <head>Persian Category Index</head>
+    <divGen type="msd.cats" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.N-fa">
+    <head>Persian Noun</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.N-fa">
+      <head>Persian Specification for Noun</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Noun</cell>
+        <cell role="code" xml:lang="en">N</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">common</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">proper</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">3</cell>
+        <cell role="name" xml:lang="en">Number</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">singular</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">plural</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">4</cell>
+        <cell role="name" xml:lang="en">Case</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">genitive</cell>
+              <cell role="code" xml:lang="en">g</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">vocative</cell>
+              <cell role="code" xml:lang="en">v</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">5</cell>
+        <cell role="name" xml:lang="en">Definiteness</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.V-fa">
+    <head>Persian Verb</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.V-fa">
+      <head>Persian Specification for Verb</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Verb</cell>
+        <cell role="code" xml:lang="en">V</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">main</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">auxiliary</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">modal</cell>
+              <cell role="code" xml:lang="en">o</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">copula</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">light</cell>
+              <cell role="code" xml:lang="en">l</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">VForm</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">indicative</cell>
+              <cell role="code" xml:lang="en">i</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">subjunctive</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">imperative</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">participle</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">3</cell>
+        <cell role="name" xml:lang="en">Tense</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">present</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">past</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">4</cell>
+        <cell role="name" xml:lang="en">Person</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">first</cell>
+              <cell role="code" xml:lang="en">1</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">second</cell>
+              <cell role="code" xml:lang="en">2</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">third</cell>
+              <cell role="code" xml:lang="en">3</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">5</cell>
+        <cell role="name" xml:lang="en">Number</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">singular</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">plural</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">8</cell>
+        <cell role="name" xml:lang="en">Negative</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">10</cell>
+        <cell role="name" xml:lang="en">Clitic</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">14</cell>
+        <cell role="name" xml:lang="en">Aspect</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">progressive</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">15</cell>
+        <cell role="name" xml:lang="en">Courtesy</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">16</cell>
+        <cell role="name" xml:lang="en">Transitive</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.A-fa">
+    <head>Persian Adjective</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.A-fa">
+      <head>Persian Specification for Adjective</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Adjective</cell>
+        <cell role="code" xml:lang="en">A</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">qualificative</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Degree</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">positive</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">comparative</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">superlative</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">5</cell>
+        <cell role="name" xml:lang="en">Case</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">genitive</cell>
+              <cell role="code" xml:lang="en">g</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">6</cell>
+        <cell role="name" xml:lang="en">Definiteness</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.P-fa">
+    <head>Persian Pronoun</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.P-fa">
+      <head>Persian Specification for Pronoun</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Pronoun</cell>
+        <cell role="code" xml:lang="en">P</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">personal</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">demonstrative</cell>
+              <cell role="code" xml:lang="en">d</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">indefinite</cell>
+              <cell role="code" xml:lang="en">i</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">interrogative</cell>
+              <cell role="code" xml:lang="en">q</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">reflexive</cell>
+              <cell role="code" xml:lang="en">x</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">reciprocal</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Person</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">first</cell>
+              <cell role="code" xml:lang="en">1</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">second</cell>
+              <cell role="code" xml:lang="en">2</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">third</cell>
+              <cell role="code" xml:lang="en">3</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">4</cell>
+        <cell role="name" xml:lang="en">Number</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">singular</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">plural</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">5</cell>
+        <cell role="name" xml:lang="en">Case</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">genitive</cell>
+              <cell role="code" xml:lang="en">g</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">accusative</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">8</cell>
+        <cell role="name" xml:lang="en">Clitic</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">18</cell>
+        <cell role="name" xml:lang="en">Courtesy</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.D-fa">
+    <head>Persian Determiner</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.D-fa">
+      <head>Persian Specification for Determiner</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Determiner</cell>
+        <cell role="code" xml:lang="en">D</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">demonstrative</cell>
+              <cell role="code" xml:lang="en">d</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">indefinite</cell>
+              <cell role="code" xml:lang="en">i</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">interrogative</cell>
+              <cell role="code" xml:lang="en">q</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">exclamative</cell>
+              <cell role="code" xml:lang="en">e</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">article</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">exceptional</cell>
+              <cell role="code" xml:lang="en">x</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">4</cell>
+        <cell role="name" xml:lang="en">Number</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">singular</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">plural</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.R-fa">
+    <head>Persian Adverb</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.R-fa">
+      <head>Persian Specification for Adverb</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Adverb</cell>
+        <cell role="code" xml:lang="en">R</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Degree</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">positive</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">comparative</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">7</cell>
+        <cell role="name" xml:lang="en">Case</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">genitive</cell>
+              <cell role="code" xml:lang="en">g</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.S-fa">
+    <head>Persian Adposition</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.S-fa">
+      <head>Persian Specification for Adposition</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Adposition</cell>
+        <cell role="code" xml:lang="en">S</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">preposition</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">postposition</cell>
+              <cell role="code" xml:lang="en">t</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Formation</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">simple</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">compound</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.C-fa">
+    <head>Persian Conjunction</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.C-fa">
+      <head>Persian Specification for Conjunction</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Conjunction</cell>
+        <cell role="code" xml:lang="en">C</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">coordinating</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">subordinating</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Formation</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">simple</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">compound</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.M-fa">
+    <head>Persian Numeral</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.M-fa">
+      <head>Persian Specification for Numeral</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Numeral</cell>
+        <cell role="code" xml:lang="en">M</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">cardinal</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">ordinal</cell>
+              <cell role="code" xml:lang="en">o</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">fractal</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">ordinal2</cell>
+              <cell role="code" xml:lang="en">r</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">4</cell>
+        <cell role="name" xml:lang="en">Case</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">genitive</cell>
+              <cell role="code" xml:lang="en">g</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">6</cell>
+        <cell role="name" xml:lang="en">Definiteness</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.I-fa">
+    <head>Persian Interjection</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.I-fa">
+      <head>Persian Specification for Interjection</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Interjection</cell>
+        <cell role="code" xml:lang="en">I</cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.X-fa">
+    <head>Persian Residual</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.X-fa">
+      <head>Persian Specification for Residual</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Residual</cell>
+        <cell role="code" xml:lang="en">X</cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" select="fa" xml:id="msd.Y-fa">
+    <head>Persian Abbreviation</head>
+    <table n="msd.cat" select="fa" xml:id="msd.cat.Y-fa">
+      <head>Persian Specification for Abbreviation</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Abbreviation</cell>
+        <cell role="code" xml:lang="en">Y</cell>
+      </row>
+    </table>
+    <divGen type="msd.lex" select="fa"/>
+  </div>
+  <div type="section" xml:id="msd.attributes-fa">
+    <head>Persian Attribute Index</head>
+    <p>In this section all the attributes presented in the tables are listed in alphabetical
+      order.</p>
+    <divGen type="msd.atts" select="fa"/>
+  </div>
+  <div type="section" xml:id="msd.values-fa">
+    <head>Persian Value Index</head>
+    <p>The values presented within the tables are, in the following, listed in alphabetical order;
+      the first column gives the name of the value, the second column its code and the third lists
+      attributes for which the value is appropriate.</p>
+    <divGen type="msd.vals" select="fa"/>
+  </div>
+  <div select="fa" type="section" xml:id="msd.msds-fa">
+    <head xml:lang="en">Persian MSD Index</head>
+    <p xml:lang="en">This index gives the list of morphosyntactic descriptions, based on the lexicon extracted from the Persian MULTEXT-East corpus ("1984"), from where the token and type frequencies and examples are also extracted.</p>
+    <table n="msd.lex" xml:id="msd.lex-fa">
+      <head xml:lang="en">MSD table</head>
+      <row>
+        <cell role="label" xml:lang="en">MSD</cell>
+        <cell role="label" xml:lang="en">Features</cell>
+        <cell role="label" xml:lang="en">Tokens</cell>
+        <cell role="label" xml:lang="en">Types</cell>
+        <cell role="label" xml:lang="en">Examples</cell>
+      </row>
+      <row role="msd"><cell role="msd">Nc-s</cell>	<cell role="verbose">Noun Type=common Number=singular</cell>	<cell>2739</cell>	<cell>15088</cell><cell>گريبان آسانسور آروغي/آروغ</cell></row>
+      <row role="msd"><cell role="msd">Nc-s-n</cell>	<cell role="verbose">Noun Type=common Number=singular Definiteness=no</cell>	<cell>492</cell>	<cell>2005</cell><cell>گردبادي/گردباد جذابيتي/جذابيت آيينه‌اي/آيينه</cell></row>
+      <row role="msd"><cell role="msd">Nc-sg</cell>	<cell role="verbose">Noun Type=common Number=singular Case=genitive</cell>	<cell>2031</cell>	<cell>8617</cell><cell>بادِ/باد امتحان‌کردنِ/امتحان‌کردن ارتفاعِ/ارتفاع</cell></row>
+      <row role="msd"><cell role="msd">Nc-sgy</cell>	<cell role="verbose">Noun Type=common Number=singular Case=genitive Definiteness=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>پسرهٔ/پسر</cell></row>
+      <row role="msd"><cell role="msd">Nc-p</cell>	<cell role="verbose">Noun Type=common Number=plural</cell>	<cell>679</cell>	<cell>1909</cell><cell>کاغذپاره‌ها/کاغذپاره عادتي/عادت سقف‌هاي/سقف</cell></row>
+      <row role="msd"><cell role="msd">Nc-p-n</cell>	<cell role="verbose">Noun Type=common Number=plural Definiteness=no</cell>	<cell>124</cell>	<cell>222</cell><cell>ساعاتي/ساعت ارقامي/رقم آستين‌هايي/آستين</cell></row>
+      <row role="msd"><cell role="msd">Nc-pg</cell>	<cell role="verbose">Noun Type=common Number=plural Case=genitive</cell>	<cell>702</cell>	<cell>1824</cell><cell>تيغ‌هايِ/تيغ الوارهايِ/الوار آموزه‌هايِ/آموزه</cell></row>
+      <row role="msd"><cell role="msd">Np-s-y</cell>	<cell role="verbose">Noun Type=proper Number=singular Definiteness=yes</cell>	<cell>123</cell>	<cell>1832</cell><cell>ميني‌ترو سن‌باستين ب-ب</cell></row>
+      <row role="msd"><cell role="msd">Np-sgy</cell>	<cell role="verbose">Noun Type=proper Number=singular Case=genitive Definiteness=yes</cell>	<cell>13</cell>	<cell>14</cell><cell>بِ/ب اينگسوسِ/اينگسوس اسميتِ/اسميت</cell></row>
+      <row role="msd"><cell role="msd">Vmip1p--n-n-----n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=first Number=plural Negative=no Clitic=no Transitive=no</cell>	<cell>8</cell>	<cell>9</cell><cell>مي‌جنگيم/جنگ مي‌آوريم/آور رسيديم/رسيد</cell></row>
+      <row role="msd"><cell role="msd">Vmip1p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=first Number=plural Negative=no Transitive=yes</cell>	<cell>13</cell>	<cell>30</cell><cell>مي‌رسانيم/رسان مي‌خوريم/خور مي‌بينيم/بين</cell></row>
+      <row role="msd"><cell role="msd">Vmip1p--y-------n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=first Number=plural Negative=yes Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نمي‌گذاريم/گذار</cell></row>
+      <row role="msd"><cell role="msd">Vmip1p--y-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=first Number=plural Negative=yes Transitive=yes</cell>	<cell>5</cell>	<cell>9</cell><cell>نمي‌دانيم/دان ندانيم/دان نداريم/دار</cell></row>
+      <row role="msd"><cell role="msd">Vmip1s--n-n----nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=first Number=singular Negative=no Clitic=no Courtesy=no Transitive=no</cell>	<cell>7</cell>	<cell>8</cell><cell>مي‌ترسم/ترس مي‌ايستم/ايست مي‌آيم/آ</cell></row>
+      <row role="msd"><cell role="msd">Vmip1s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=first Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>19</cell>	<cell>68</cell><cell>مي‌پرسم/پرس مي‌خوام/خواه مي‌بندم/بند</cell></row>
+      <row role="msd"><cell role="msd">Vmip1s--y------nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=first Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نمي‌گذارم/گذار</cell></row>
+      <row role="msd"><cell role="msd">Vmip1s--y------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=first Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>5</cell>	<cell>24</cell><cell>نمي‌دونم/دان نمي‌خواهم/خواه ندارم/دار</cell></row>
+      <row role="msd"><cell role="msd">Vaip1p</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural</cell>	<cell>2</cell>	<cell>11</cell><cell>داريم/دار ايم/است</cell></row>
+      <row role="msd"><cell role="msd">Vaip1s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular Courtesy=no</cell>	<cell>2</cell>	<cell>35</cell><cell>دارم/دار ام/است</cell></row>
+      <row role="msd"><cell role="msd">Vaip2p</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=plural</cell>	<cell>1</cell>	<cell>5</cell><cell>ايد/است</cell></row>
+      <row role="msd"><cell role="msd">Vaip2s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular Courtesy=no</cell>	<cell>2</cell>	<cell>29</cell><cell>داري/دار اي/است</cell></row>
+      <row role="msd"><cell role="msd">Vaip2s---------y</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular Courtesy=yes</cell>	<cell>1</cell>	<cell>6</cell><cell>ايد/است</cell></row>
+      <row role="msd"><cell role="msd">Vaip3p</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=plural</cell>	<cell>1</cell>	<cell>83</cell><cell>اند/است</cell></row>
+      <row role="msd"><cell role="msd">Vaip3s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular Courtesy=no</cell>	<cell>3</cell>	<cell>197</cell><cell>داره/دار دارد/دار است</cell></row>
+      <row role="msd"><cell role="msd">Vais1s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=first Number=singular Courtesy=no</cell>	<cell>2</cell>	<cell>11</cell><cell>داشتم/داشت بودم/بود</cell></row>
+      <row role="msd"><cell role="msd">Vais2p</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=second Number=plural</cell>	<cell>1</cell>	<cell>1</cell><cell>بوديد/بود</cell></row>
+      <row role="msd"><cell role="msd">Vais2s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=second Number=singular Courtesy=no</cell>	<cell>2</cell>	<cell>8</cell><cell>بوديد/بود بودي/بود</cell></row>
+      <row role="msd"><cell role="msd">Vais2s---------y</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=second Number=singular Courtesy=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>بوديد/بود</cell></row>
+      <row role="msd"><cell role="msd">Vais3p</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=plural</cell>	<cell>3</cell>	<cell>181</cell><cell>داشتند/داشت بوديم/بود بودند/بود</cell></row>
+      <row role="msd"><cell role="msd">Vais3s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=singular Courtesy=no</cell>	<cell>2</cell>	<cell>930</cell><cell>داشت بود</cell></row>
+      <row role="msd"><cell role="msd">Vasp1p</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=first Number=plural</cell>	<cell>1</cell>	<cell>7</cell><cell>باشيم/باش</cell></row>
+      <row role="msd"><cell role="msd">Vasp1s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=first Number=singular Courtesy=no</cell>	<cell>1</cell>	<cell>8</cell><cell>باشم/باش</cell></row>
+      <row role="msd"><cell role="msd">Vasp2s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=second Number=singular Courtesy=no</cell>	<cell>1</cell>	<cell>8</cell><cell>باشي/باش</cell></row>
+      <row role="msd"><cell role="msd">Vasp3p</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=third Number=plural</cell>	<cell>1</cell>	<cell>31</cell><cell>باشند/باش</cell></row>
+      <row role="msd"><cell role="msd">Vasp3s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=third Number=singular Courtesy=no</cell>	<cell>1</cell>	<cell>87</cell><cell>باشد/باش</cell></row>
+      <row role="msd"><cell role="msd">Vasp1p--n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=first Number=plural Negative=no</cell>	<cell>1</cell>	<cell>2</cell><cell>بخواهيم/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vasp2p--y</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=second Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نتوانيد/توان</cell></row>
+      <row role="msd"><cell role="msd">Vasp2s--n------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>باشي/باش</cell></row>
+      <row role="msd"><cell role="msd">Vasp2s--n------y</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=yes</cell>	<cell>1</cell>	<cell>3</cell><cell>بخواهيد/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vasp3p--n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=third Number=plural Negative=no</cell>	<cell>2</cell>	<cell>8</cell><cell>شوند/شو بخواهند/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vasp3s--n------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=third Number=singular Negative=no Courtesy=no</cell>	<cell>4</cell>	<cell>13</cell><cell>گردد/گرد شود/شو باشه/باش</cell></row>
+      <row role="msd"><cell role="msd">Vasp3s--y------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=subjunctive Tense=present Person=third Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نشود/شو</cell></row>
+      <row role="msd"><cell role="msd">Vamp2s---------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=singular Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>باش</cell></row>
+      <row role="msd"><cell role="msd">Vap-----n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=participle Negative=no</cell>	<cell>1</cell>	<cell>64</cell><cell>شده/شد</cell></row>
+      <row role="msd"><cell role="msd">Vap-----n-----p</cell>	<cell role="verbose">Verb Type=auxiliary VForm=participle Negative=no Aspect=progressive</cell>	<cell>1</cell>	<cell>1</cell><cell>مي‌شده/شد</cell></row>
+      <row role="msd"><cell role="msd">Vap-----y</cell>	<cell role="verbose">Verb Type=auxiliary VForm=participle Negative=yes</cell>	<cell>1</cell>	<cell>7</cell><cell>نشده/شد</cell></row>
+      <row role="msd"><cell role="msd">Voip1p--n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=first Number=plural Negative=no</cell>	<cell>1</cell>	<cell>19</cell><cell>مي‌توانيم/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip1p--y</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=first Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>6</cell><cell>نمي‌توانيم/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip1s--n------n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=first Number=singular Negative=no Courtesy=no</cell>	<cell>2</cell>	<cell>12</cell><cell>مي‌تونم/توان مي‌توانم/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip1s--y------n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=first Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>4</cell><cell>نمي‌توانم/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip2p--n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=second Number=plural Negative=no</cell>	<cell>1</cell>	<cell>6</cell><cell>مي‌توانيد/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip2p--y</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=second Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>9</cell><cell>نمي‌توانيد/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip2s--n------n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=second Number=singular Negative=no Courtesy=no</cell>	<cell>3</cell>	<cell>17</cell><cell>مي‌توني/توان مي‌تواني/توان توانستي/توانست</cell></row>
+      <row role="msd"><cell role="msd">Voip2s--n------y</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=second Number=singular Negative=no Courtesy=yes</cell>	<cell>1</cell>	<cell>3</cell><cell>مي‌توانيد/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip2s--y------n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=second Number=singular Negative=yes Courtesy=no</cell>	<cell>2</cell>	<cell>13</cell><cell>نمي‌تواني/توان نتوانستي/توانست</cell></row>
+      <row role="msd"><cell role="msd">Voip3p--n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=third Number=plural Negative=no</cell>	<cell>1</cell>	<cell>5</cell><cell>مي‌توانند/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip3p--y</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=third Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>9</cell><cell>نمي‌توانند/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip3s--n------n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=third Number=singular Negative=no Courtesy=no</cell>	<cell>2</cell>	<cell>31</cell><cell>مي‌تونه/توان مي‌تواند/توان</cell></row>
+      <row role="msd"><cell role="msd">Voip3s--y------n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Person=third Number=singular Negative=yes Courtesy=no</cell>	<cell>2</cell>	<cell>21</cell><cell>نمي‌شود/شو نمي‌تواند/توان</cell></row>
+      <row role="msd"><cell role="msd">Vois1s--n-----pn</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=first Number=singular Negative=no Aspect=progressive Courtesy=no</cell>	<cell>1</cell>	<cell>3</cell><cell>مي‌توانستم/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois1s--y-----pn</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=first Number=singular Negative=yes Aspect=progressive Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نمي‌تونستم/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois2p--y</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=second Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نتوانستيد/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois2s--n-----pn</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=second Number=singular Negative=no Aspect=progressive Courtesy=no</cell>	<cell>1</cell>	<cell>3</cell><cell>مي‌توانستي/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois2s--y-----pn</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=second Number=singular Negative=yes Aspect=progressive Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نمي‌توانستي/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois3p--n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=third Number=plural Negative=no</cell>	<cell>1</cell>	<cell>1</cell><cell>توانستند/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois3p--n-----p</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=third Number=plural Negative=no Aspect=progressive</cell>	<cell>1</cell>	<cell>17</cell><cell>مي‌توانستند/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois3p--y</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=third Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>2</cell><cell>نتوانستند/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois3p--y-----p</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=third Number=plural Negative=yes Aspect=progressive</cell>	<cell>2</cell>	<cell>5</cell><cell>نمي‌توانستند‌/توانست نمي‌توانستند/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois3s--n------n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=third Number=singular Negative=no Courtesy=no</cell>	<cell>1</cell>	<cell>15</cell><cell>توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois3s--n-----pn</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=third Number=singular Negative=no Aspect=progressive Courtesy=no</cell>	<cell>1</cell>	<cell>66</cell><cell>مي‌توانست/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois3s--y------n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=third Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>7</cell><cell>نتوانست/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois3s--y-----pn</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Person=third Number=singular Negative=yes Aspect=progressive Courtesy=no</cell>	<cell>1</cell>	<cell>55</cell><cell>نمي‌توانست/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vois----n-----p</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Negative=no Aspect=progressive</cell>	<cell>1</cell>	<cell>49</cell><cell>مي‌شد/شد</cell></row>
+      <row role="msd"><cell role="msd">Vois----y-----p</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=past Negative=yes Aspect=progressive</cell>	<cell>1</cell>	<cell>27</cell><cell>نمي‌شد/شد</cell></row>
+      <row role="msd"><cell role="msd">Voip----n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Tense=present Negative=no</cell>	<cell>1</cell>	<cell>3</cell><cell>مي‌شود/شو</cell></row>
+      <row role="msd"><cell role="msd">Voi-----n</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Negative=no</cell>	<cell>4</cell>	<cell>227</cell><cell>مي‌بايست/بايست مي‌بايد/بايد بايد</cell></row>
+      <row role="msd"><cell role="msd">Voi-----y</cell>	<cell role="verbose">Verb Type=modal VForm=indicative Negative=yes</cell>	<cell>2</cell>	<cell>28</cell><cell>نمي‌توان/توان نبايد/بايد</cell></row>
+      <row role="msd"><cell role="msd">Vosp1p--n</cell>	<cell role="verbose">Verb Type=modal VForm=subjunctive Tense=present Person=first Number=plural Negative=no</cell>	<cell>1</cell>	<cell>6</cell><cell>بتوانيم/توان</cell></row>
+      <row role="msd"><cell role="msd">Vosp1s--n------n</cell>	<cell role="verbose">Verb Type=modal VForm=subjunctive Tense=present Person=first Number=singular Negative=no Courtesy=no</cell>	<cell>1</cell>	<cell>2</cell><cell>بتوانم/توان</cell></row>
+      <row role="msd"><cell role="msd">Vosp2s--n------y</cell>	<cell role="verbose">Verb Type=modal VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>بتوانيد/توان</cell></row>
+      <row role="msd"><cell role="msd">Vosp2s--y------n</cell>	<cell role="verbose">Verb Type=modal VForm=subjunctive Tense=present Person=second Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>2</cell><cell>نتواني/توان</cell></row>
+      <row role="msd"><cell role="msd">Vosp3p--n</cell>	<cell role="verbose">Verb Type=modal VForm=subjunctive Tense=present Person=third Number=plural Negative=no</cell>	<cell>1</cell>	<cell>12</cell><cell>بتوانند/توان</cell></row>
+      <row role="msd"><cell role="msd">Vosp3s--n------n</cell>	<cell role="verbose">Verb Type=modal VForm=subjunctive Tense=present Person=third Number=singular Negative=no Courtesy=no</cell>	<cell>1</cell>	<cell>32</cell><cell>بتواند/توان</cell></row>
+      <row role="msd"><cell role="msd">Vosp3s--y------n</cell>	<cell role="verbose">Verb Type=modal VForm=subjunctive Tense=present Person=third Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نتواند/توان</cell></row>
+      <row role="msd"><cell role="msd">Vos-----n</cell>	<cell role="verbose">Verb Type=modal VForm=subjunctive Negative=no</cell>	<cell>1</cell>	<cell>19</cell><cell>بتوان/توان</cell></row>
+      <row role="msd"><cell role="msd">Vop-----n</cell>	<cell role="verbose">Verb Type=modal VForm=participle Negative=no</cell>	<cell>1</cell>	<cell>2</cell><cell>توانسته/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vop-----y</cell>	<cell role="verbose">Verb Type=modal VForm=participle Negative=yes</cell>	<cell>1</cell>	<cell>8</cell><cell>نتوانسته/توانست</cell></row>
+      <row role="msd"><cell role="msd">Vcip1p--n-n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=first Number=plural Negative=no Clitic=no</cell>	<cell>2</cell>	<cell>11</cell><cell>هستيم/است مي‌شويم/شو</cell></row>
+      <row role="msd"><cell role="msd">Vcip1p----y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=first Number=plural Clitic=yes</cell>	<cell>1</cell>	<cell>7</cell><cell>يم/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip1p--y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=first Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>3</cell><cell>نيستيم/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip1s--n-n----n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=first Number=singular Negative=no Clitic=no Courtesy=no</cell>	<cell>3</cell>	<cell>17</cell><cell>هستم/است نيستم/است م/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip1s----y----n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=first Number=singular Clitic=yes Courtesy=no</cell>	<cell>2</cell>	<cell>11</cell><cell>م/است ام/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip1s--y------n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=first Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>2</cell><cell>نيستم/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip2p--n-n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=second Number=plural Negative=no Clitic=no</cell>	<cell>1</cell>	<cell>1</cell><cell>هستيد/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip2p--y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=second Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نيستيد/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip2s--n-n----n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=second Number=singular Negative=no Clitic=no Courtesy=no</cell>	<cell>3</cell>	<cell>20</cell><cell>هستي/است مي‌شوي/شو شوي/شو</cell></row>
+      <row role="msd"><cell role="msd">Vcip2s--n-n----y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=second Number=singular Negative=no Clitic=no Courtesy=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>هستيد/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip2s----y----n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=second Number=singular Clitic=yes Courtesy=no</cell>	<cell>3</cell>	<cell>21</cell><cell>يي/است ي/است اي/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip2s--y------n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=second Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>5</cell><cell>نيستي/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip3p--n-n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=third Number=plural Negative=no Clitic=no</cell>	<cell>7</cell>	<cell>90</cell><cell>مي‌مانند/مان مي‌باشند/باش اند/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip3p----y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=third Number=plural Clitic=yes</cell>	<cell>4</cell>	<cell>20</cell><cell>يند/است ند/است اند/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip3p--y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=third Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>5</cell><cell>نيستند/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip3s--n-n----n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=third Number=singular Negative=no Clitic=no Courtesy=no</cell>	<cell>6</cell>	<cell>545</cell><cell>مي‌شه/شو مي‌باشد/باش است</cell></row>
+      <row role="msd"><cell role="msd">Vcip3s----y----n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=third Number=singular Clitic=yes Courtesy=no</cell>	<cell>5</cell>	<cell>128</cell><cell>ه/است ست/است س/است</cell></row>
+      <row role="msd"><cell role="msd">Vcip3s--y------n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=present Person=third Number=singular Negative=yes Courtesy=no</cell>	<cell>2</cell>	<cell>93</cell><cell>نيست/است نمي‌شود/شو</cell></row>
+      <row role="msd"><cell role="msd">Vcis1p--n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=first Number=plural Negative=no</cell>	<cell>1</cell>	<cell>2</cell><cell>شديم/شد</cell></row>
+      <row role="msd"><cell role="msd">Vcis1p--y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=first Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نبوديم/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis1s--n------n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=first Number=singular Negative=no Courtesy=no</cell>	<cell>2</cell>	<cell>14</cell><cell>شدم/شد بودم/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis1s--n------y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=first Number=singular Negative=no Courtesy=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>بوديم/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis1s--n-----pn</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=first Number=singular Negative=no Aspect=progressive Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>مي‌شدم/شد</cell></row>
+      <row role="msd"><cell role="msd">Vcis1s--y------n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=first Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>2</cell><cell>نبودم/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis2p--n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=second Number=plural Negative=no</cell>	<cell>1</cell>	<cell>1</cell><cell>بوديد/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis2s--n------n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=no</cell>	<cell>1</cell>	<cell>6</cell><cell>بودي/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis2s--n------y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=yes</cell>	<cell>1</cell>	<cell>3</cell><cell>بوديد/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis2s--y------n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=second Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>2</cell><cell>نبودي/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis3p--n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=third Number=plural Negative=no</cell>	<cell>3</cell>	<cell>124</cell><cell>شدند/شد بوديم/بود بودند/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis3p--n-----p</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=third Number=plural Negative=no Aspect=progressive</cell>	<cell>1</cell>	<cell>10</cell><cell>مي‌شدند/شد</cell></row>
+      <row role="msd"><cell role="msd">Vcis3p--y</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=third Number=plural Negative=yes</cell>	<cell>2</cell>	<cell>13</cell><cell>نشدند/شد نبودند/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis3s--n------n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=third Number=singular Negative=no Courtesy=no</cell>	<cell>2</cell>	<cell>1231</cell><cell>شد بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis3s--n-----pn</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=third Number=singular Negative=no Aspect=progressive Courtesy=no</cell>	<cell>3</cell>	<cell>59</cell><cell>مي‌گشت/گشت مي‌شد/شد مي‌بود/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis3s--y------n</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=third Number=singular Negative=yes Courtesy=no</cell>	<cell>2</cell>	<cell>121</cell><cell>نشد/شد نبود/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcis3s--y-----pn</cell>	<cell role="verbose">Verb Type=copula VForm=indicative Tense=past Person=third Number=singular Negative=yes Aspect=progressive Courtesy=no</cell>	<cell>1</cell>	<cell>2</cell><cell>نمي‌شد/شد</cell></row>
+      <row role="msd"><cell role="msd">Vcsp1s--n------n</cell>	<cell role="verbose">Verb Type=copula VForm=subjunctive Tense=present Person=first Number=singular Negative=no Courtesy=no</cell>	<cell>3</cell>	<cell>5</cell><cell>شوم/شو بشم/شو باشم/باش</cell></row>
+      <row role="msd"><cell role="msd">Vcsp2p--n</cell>	<cell role="verbose">Verb Type=copula VForm=subjunctive Tense=present Person=second Number=plural Negative=no</cell>	<cell>2</cell>	<cell>2</cell><cell>شويد/شو باشيد/باش</cell></row>
+      <row role="msd"><cell role="msd">Vcsp2s--n------n</cell>	<cell role="verbose">Verb Type=copula VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=no</cell>	<cell>3</cell>	<cell>10</cell><cell>شوي/شو بشوي/شو باشي/باش</cell></row>
+      <row role="msd"><cell role="msd">Vcsp3p--n</cell>	<cell role="verbose">Verb Type=copula VForm=subjunctive Tense=present Person=third Number=plural Negative=no</cell>	<cell>2</cell>	<cell>27</cell><cell>شوند/شو باشند/باش</cell></row>
+      <row role="msd"><cell role="msd">Vcsp3p--y</cell>	<cell role="verbose">Verb Type=copula VForm=subjunctive Tense=present Person=third Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>2</cell><cell>نباشند/باش</cell></row>
+      <row role="msd"><cell role="msd">Vcsp3s--n------n</cell>	<cell role="verbose">Verb Type=copula VForm=subjunctive Tense=present Person=third Number=singular Negative=no Courtesy=no</cell>	<cell>4</cell>	<cell>129</cell><cell>بشود/شو باشه/باش باشد/باش</cell></row>
+      <row role="msd"><cell role="msd">Vcsp3s--y------n</cell>	<cell role="verbose">Verb Type=copula VForm=subjunctive Tense=present Person=third Number=singular Negative=yes Courtesy=no</cell>	<cell>2</cell>	<cell>15</cell><cell>نشود/شو نباشد/باش</cell></row>
+      <row role="msd"><cell role="msd">Vcmp2s--n------n</cell>	<cell role="verbose">Verb Type=copula VForm=imperative Tense=present Person=second Number=singular Negative=no Courtesy=no</cell>	<cell>2</cell>	<cell>4</cell><cell>شو باش</cell></row>
+      <row role="msd"><cell role="msd">Vcmp2s--y------n</cell>	<cell role="verbose">Verb Type=copula VForm=imperative Tense=present Person=second Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>5</cell><cell>نباش/باش</cell></row>
+      <row role="msd"><cell role="msd">Vcp-----n</cell>	<cell role="verbose">Verb Type=copula VForm=participle Negative=no</cell>	<cell>3</cell>	<cell>186</cell><cell>گشته/گشت شده/شد بوده/بود</cell></row>
+      <row role="msd"><cell role="msd">Vcp-----y</cell>	<cell role="verbose">Verb Type=copula VForm=participle Negative=yes</cell>	<cell>2</cell>	<cell>18</cell><cell>نشده/شد نبوده/بود</cell></row>
+      <row role="msd"><cell role="msd">Vlsp1p--n-------n</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=first Number=plural Negative=no Transitive=no</cell>	<cell>5</cell>	<cell>20</cell><cell>شويم/شو بگيريم/گير باشيم/باش</cell></row>
+      <row role="msd"><cell role="msd">Vlsp1p--n-------y</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=first Number=plural Negative=no Transitive=yes</cell>	<cell>6</cell>	<cell>28</cell><cell>بيندازيم/انداز بدهيم/ده ببريم/بر</cell></row>
+      <row role="msd"><cell role="msd">Vlsp1s--n------nn</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=first Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>3</cell>	<cell>19</cell><cell>کنم/کن بکنم/کن بدهم/ده</cell></row>
+      <row role="msd"><cell role="msd">Vlsp1s--n------ny</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=first Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>7</cell>	<cell>33</cell><cell>بيندازم/انداز بدم/ده بخشد/بخش</cell></row>
+      <row role="msd"><cell role="msd">Vlsp1s--y------nn</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=first Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نکنم/کن</cell></row>
+      <row role="msd"><cell role="msd">Vlsp2p--n-------n</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=second Number=plural Negative=no Transitive=no</cell>	<cell>2</cell>	<cell>7</cell><cell>کنيد/کن شويد/شو</cell></row>
+      <row role="msd"><cell role="msd">Vlsp2p--n-------y</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=second Number=plural Negative=no Transitive=yes</cell>	<cell>5</cell>	<cell>18</cell><cell>دهيد/ده بزنيد/زن بدهيد/ده</cell></row>
+      <row role="msd"><cell role="msd">Vlsp2s--n------nn</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>8</cell>	<cell>24</cell><cell>دربياوري/درآورد بماني/مان برداري/بردار</cell></row>
+      <row role="msd"><cell role="msd">Vlsp2s--n------ny</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>7</cell>	<cell>27</cell><cell>دربياوري/درآور بياوري/آور بزني/زن</cell></row>
+      <row role="msd"><cell role="msd">Vlsp2s--n------yn</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=yes Transitive=no</cell>	<cell>4</cell>	<cell>8</cell><cell>دهيد/ده بيندازيد/انداز بشويد/شو</cell></row>
+      <row role="msd"><cell role="msd">Vlsp2s--n------yy</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=yes Transitive=yes</cell>	<cell>2</cell>	<cell>6</cell><cell>کنيد/کن دهيد/ده</cell></row>
+      <row role="msd"><cell role="msd">Vlsp3p--n-------n</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=third Number=plural Negative=no Transitive=no</cell>	<cell>13</cell>	<cell>72</cell><cell>بمانند/مان بردارند/بردار باشند/باش</cell></row>
+      <row role="msd"><cell role="msd">Vlsp3p--n-------y</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=third Number=plural Negative=no Transitive=yes</cell>	<cell>14</cell>	<cell>80</cell><cell>بياورند/آور بخورند/خور آورند/آور</cell></row>
+      <row role="msd"><cell role="msd">Vlsp3p--y-------n</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=third Number=plural Negative=yes Transitive=no</cell>	<cell>3</cell>	<cell>3</cell><cell>نکنند/کن نشوند/شو نباشند/باش</cell></row>
+      <row role="msd"><cell role="msd">Vlsp3p--y-------y</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=third Number=plural Negative=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>ندهند/ده</cell></row>
+      <row role="msd"><cell role="msd">Vlsp3s--n------nn</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=third Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>29</cell>	<cell>246</cell><cell>درآورد بماند/مان بردارد/بردار</cell></row>
+      <row role="msd"><cell role="msd">Vlsp3s--n------ny</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=third Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>18</cell>	<cell>254</cell><cell>شود/شو بکشد/کش آورد</cell></row>
+      <row role="msd"><cell role="msd">Vlsp3s--y------nn</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=third Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>3</cell>	<cell>10</cell><cell>نکند/کن نشود/شو نباشد/باش</cell></row>
+      <row role="msd"><cell role="msd">Vlsp3s--y------ny</cell>	<cell role="verbose">Verb Type=light VForm=subjunctive Tense=present Person=third Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>1</cell>	<cell>4</cell><cell>نکند/کن</cell></row>
+      <row role="msd"><cell role="msd">Vlmp2p--n-------n</cell>	<cell role="verbose">Verb Type=light VForm=imperative Tense=present Person=second Number=plural Negative=no Transitive=no</cell>	<cell>3</cell>	<cell>10</cell><cell>کنيد/کن شويد/شو بگيريد/گير</cell></row>
+      <row role="msd"><cell role="msd">Vlmp2p--n-------y</cell>	<cell role="verbose">Verb Type=light VForm=imperative Tense=present Person=second Number=plural Negative=no Transitive=yes</cell>	<cell>2</cell>	<cell>7</cell><cell>کنيد/کن بياوريد/آور</cell></row>
+      <row role="msd"><cell role="msd">Vlmp2p--y-------n</cell>	<cell role="verbose">Verb Type=light VForm=imperative Tense=present Person=second Number=plural Negative=yes Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نکنيد/کن</cell></row>
+      <row role="msd"><cell role="msd">Vlmp2s--n------nn</cell>	<cell role="verbose">Verb Type=light VForm=imperative Tense=present Person=second Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>3</cell>	<cell>21</cell><cell>کن شو بده/ده</cell></row>
+      <row role="msd"><cell role="msd">Vlmp2s--n------ny</cell>	<cell role="verbose">Verb Type=light VForm=imperative Tense=present Person=second Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>2</cell>	<cell>9</cell><cell>کن بگير/گير</cell></row>
+      <row role="msd"><cell role="msd">Vlmp2s--n------yn</cell>	<cell role="verbose">Verb Type=light VForm=imperative Tense=present Person=second Number=singular Negative=no Courtesy=yes Transitive=no</cell>	<cell>2</cell>	<cell>11</cell><cell>کنيد/کن شويد</cell></row>
+      <row role="msd"><cell role="msd">Vlmp2s--y------nn</cell>	<cell role="verbose">Verb Type=light VForm=imperative Tense=present Person=second Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>4</cell>	<cell>4</cell><cell>نکن/کن نزن/زن نده/ده</cell></row>
+      <row role="msd"><cell role="msd">Vlmp2s--y------ny</cell>	<cell role="verbose">Verb Type=light VForm=imperative Tense=present Person=second Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>مکن/کن</cell></row>
+      <row role="msd"><cell role="msd">Vlp-----n-------n</cell>	<cell role="verbose">Verb Type=light VForm=participle Negative=no Transitive=no</cell>	<cell>29</cell>	<cell>493</cell><cell>داده‌/داد برده/برده انداخته/انداخت</cell></row>
+      <row role="msd"><cell role="msd">Vlp-----n-------y</cell>	<cell role="verbose">Verb Type=light VForm=participle Negative=no Transitive=yes</cell>	<cell>19</cell>	<cell>272</cell><cell>کشيده/کشيد سپرده/سپرد رسانده/رساند</cell></row>
+      <row role="msd"><cell role="msd">Vlp-----n-----p-n</cell>	<cell role="verbose">Verb Type=light VForm=participle Negative=no Aspect=progressive Transitive=no</cell>	<cell>1</cell>	<cell>3</cell><cell>مي‌کرده/کرد</cell></row>
+      <row role="msd"><cell role="msd">Vlp-----n-----p-y</cell>	<cell role="verbose">Verb Type=light VForm=participle Negative=no Aspect=progressive Transitive=yes</cell>	<cell>2</cell>	<cell>2</cell><cell>مي‌کرده/کرد مي‌داده/داد</cell></row>
+      <row role="msd"><cell role="msd">Vlp-----y-------n</cell>	<cell role="verbose">Verb Type=light VForm=participle Negative=yes Transitive=no</cell>	<cell>11</cell>	<cell>57</cell><cell>نيافته/يافت نشده/شد نبوده/بود</cell></row>
+      <row role="msd"><cell role="msd">Vlp-----y-------y</cell>	<cell role="verbose">Verb Type=light VForm=participle Negative=yes Transitive=yes</cell>	<cell>7</cell>	<cell>17</cell><cell>نيامده/آمد نداشته/داشت نداده/داد</cell></row>
+      <row role="msd"><cell role="msd">Vmip2p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=second Number=plural Negative=no Transitive=yes</cell>	<cell>6</cell>	<cell>13</cell><cell>مي‌شناسيد/شناس مي‌بينيد/بين داريد/دار</cell></row>
+      <row role="msd"><cell role="msd">Vmip2p--y-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=second Number=plural Negative=yes Transitive=yes</cell>	<cell>2</cell>	<cell>2</cell><cell>نمي‌دانيد/دان نداريد/دار</cell></row>
+      <row role="msd"><cell role="msd">Vmip2s--n-n----nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=second Number=singular Negative=no Clitic=no Courtesy=no Transitive=no</cell>	<cell>7</cell>	<cell>9</cell><cell>مي‌ري/رو مي‌روي/رو مي‌ترسي/ترس</cell></row>
+      <row role="msd"><cell role="msd">Vmip2s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=second Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>19</cell>	<cell>85</cell><cell>مي‌نويسي/نويس مي‌خواي/خواه خريدي/خر</cell></row>
+      <row role="msd"><cell role="msd">Vmip2s--n------yy</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=second Number=singular Negative=no Courtesy=yes Transitive=yes</cell>	<cell>3</cell>	<cell>5</cell><cell>مي‌دانيد/دان مي‌بينيد/بين داريد/دار</cell></row>
+      <row role="msd"><cell role="msd">Vmip2s----y----n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=second Number=singular Clitic=yes Courtesy=no</cell>	<cell>1</cell>	<cell>3</cell><cell>يي/است</cell></row>
+      <row role="msd"><cell role="msd">Vmip2s--y------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=second Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>3</cell>	<cell>12</cell><cell>نگويي/گو نمي‌شنوي/شنو نداري/دار</cell></row>
+      <row role="msd"><cell role="msd">Vmip2s--y------yy</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=second Number=singular Negative=yes Courtesy=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نمي‌بريد/بر</cell></row>
+      <row role="msd"><cell role="msd">Vlis2p--n-------n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=plural Negative=no Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>بوديد/بود</cell></row>
+      <row role="msd"><cell role="msd">Vlis2p--n-------y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=plural Negative=no Transitive=yes</cell>	<cell>1</cell>	<cell>2</cell><cell>داديد/داد</cell></row>
+      <row role="msd"><cell role="msd">Vlis2p--n-----p-n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=plural Negative=no Aspect=progressive Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>مي‌شديد/شد</cell></row>
+      <row role="msd"><cell role="msd">Vlis2p--n-----p-y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=plural Negative=no Aspect=progressive Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>مي‌کرديد/کرد</cell></row>
+      <row role="msd"><cell role="msd">Vlis2p--y-------y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=plural Negative=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نشديد/شد</cell></row>
+      <row role="msd"><cell role="msd">Vlis2s--n------nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>8</cell>	<cell>16</cell><cell>دادي/داد خوردي/خورد بودي/بود</cell></row>
+      <row role="msd"><cell role="msd">Vlis2s--n------ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>5</cell>	<cell>5</cell><cell>کردي/کرد داشتي/داشت انداختي/انداخت</cell></row>
+      <row role="msd"><cell role="msd">Vlis2s--n------yn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=yes Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>ديديد/ديد</cell></row>
+      <row role="msd"><cell role="msd">Vlis2s--n-----pnn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=no</cell>	<cell>3</cell>	<cell>13</cell><cell>مي‌کردي/کرد مي‌شدي/شد مي‌آوردي/آورد</cell></row>
+      <row role="msd"><cell role="msd">Vlis2s--n-----pny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=yes</cell>	<cell>5</cell>	<cell>7</cell><cell>مي‌داشتي/داشت مي‌دادي/داد مي‌آوردي/آورد</cell></row>
+      <row role="msd"><cell role="msd">Vlis2s--n-----pyy</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=singular Negative=no Aspect=progressive Courtesy=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>مي‌داديد/داد</cell></row>
+      <row role="msd"><cell role="msd">Vlis2s--y------nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نشدي/شد</cell></row>
+      <row role="msd"><cell role="msd">Vlis2s--y-----pnn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=second Number=singular Negative=yes Aspect=progressive Courtesy=no Transitive=no</cell>	<cell>3</cell>	<cell>3</cell><cell>نمي‌کردي/کرد نمي‌شدي/شد نمي‌بردي/برد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3p--n-------n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=plural Negative=no Transitive=no</cell>	<cell>20</cell>	<cell>109</cell><cell>يافتند/يافت درآوردند/درآورد آوردند/آورد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3p--n-------y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=plural Negative=no Transitive=yes</cell>	<cell>8</cell>	<cell>30</cell><cell>داشتند/داشت بودند/بود انداختند/انداخت</cell></row>
+      <row role="msd"><cell role="msd">Vlis3p--n-----p-n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=plural Negative=no Aspect=progressive Transitive=no</cell>	<cell>15</cell>	<cell>157</cell><cell>مي‌گرفنتد/گرفت مي‌رسيدند/رسيد مي‌افتادند/افتاد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3p--n-----p-y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=plural Negative=no Aspect=progressive Transitive=yes</cell>	<cell>15</cell>	<cell>123</cell><cell>مي‌سپردند/سپرد مي‌دانستند/دانست مي‌داشتند/داشت</cell></row>
+      <row role="msd"><cell role="msd">Vlis3p--y-------n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=plural Negative=yes Transitive=no</cell>	<cell>5</cell>	<cell>13</cell><cell>نشدند/شد نخوردند/خورد نبودند/بود</cell></row>
+      <row role="msd"><cell role="msd">Vlis3p--y-------y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=plural Negative=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نياوردند/آورد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3p--y-----p-n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=plural Negative=yes Aspect=progressive Transitive=no</cell>	<cell>4</cell>	<cell>14</cell><cell>نمي‌شدند/شد نمي‌دادند/داد نمي‌بردند/برد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3p--y-----p-y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=plural Negative=yes Aspect=progressive Transitive=yes</cell>	<cell>2</cell>	<cell>3</cell><cell>نمي‌کردند/کرد نمي‌دادند/داد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3s--n------nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>27</cell>	<cell>958</cell><cell>برآورد انداخت انجاميد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3s--n------ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>21</cell>	<cell>397</cell><cell>رساند اومد/آمد انداخت</cell></row>
+      <row role="msd"><cell role="msd">Vlis3s--n-----pnn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=no</cell>	<cell>31</cell>	<cell>527</cell><cell>مي‌رسيد/رسید مي‌بُرد/بُرد برمي‌آمد/برآمد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3s--n-----pny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=yes</cell>	<cell>16</cell>	<cell>322</cell><cell>مي‌رسيد/رسيد مي‌انداخت/انداخت مي‌آمد/آمد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3s--y------nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>8</cell>	<cell>105</cell><cell>نينداخت/انداخت نماند/ماند نخورد/خورد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3s--y------ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>5</cell>	<cell>23</cell><cell>نيامد/آمد نشد/شد نداشت/داشت</cell></row>
+      <row role="msd"><cell role="msd">Vlis3s--y-----pnn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=singular Negative=yes Aspect=progressive Courtesy=no Transitive=no</cell>	<cell>13</cell>	<cell>74</cell><cell>نمي‌ماند/ماند نمي‌افتاد/افتاد برنمي‌آمد/برآمد</cell></row>
+      <row role="msd"><cell role="msd">Vlis3s--y-----pny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=third Number=singular Negative=yes Aspect=progressive Courtesy=no Transitive=yes</cell>	<cell>5</cell>	<cell>36</cell><cell>نمي‌داد/داد نمي‌آورد/آورد نمي‌آمد/آمد</cell></row>
+      <row role="msd"><cell role="msd">Vlis1p--n-------n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=plural Negative=no Transitive=no</cell>	<cell>2</cell>	<cell>3</cell><cell>کرديم/کرد شديم/شد</cell></row>
+      <row role="msd"><cell role="msd">Vlis1p--n-------y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=plural Negative=no Transitive=yes</cell>	<cell>2</cell>	<cell>2</cell><cell>زديم/زد داديم/داد</cell></row>
+      <row role="msd"><cell role="msd">Vlis1p--n-----p-n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=plural Negative=no Aspect=progressive Transitive=no</cell>	<cell>3</cell>	<cell>8</cell><cell>مي‌کنيم/کن مي‌کرديم/کرد مي‌برديم/برد</cell></row>
+      <row role="msd"><cell role="msd">Vlis1p--n-----p-y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=plural Negative=no Aspect=progressive Transitive=yes</cell>	<cell>2</cell>	<cell>4</cell><cell>مي‌کنيم/کن مي‌کرديم/کرد</cell></row>
+      <row role="msd"><cell role="msd">Vlis1s--n------nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>5</cell>	<cell>14</cell><cell>شدم/شد دادم/داد بودم/بود</cell></row>
+      <row role="msd"><cell role="msd">Vlis1s--n------ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>3</cell>	<cell>3</cell><cell>کردم/کرد داشتم/داشت دادم/داد</cell></row>
+      <row role="msd"><cell role="msd">Vlis1s--n-----pnn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=no</cell>	<cell>3</cell>	<cell>12</cell><cell>مي‌گشتم/گشت مي‌کردم/کرد مي‌شدم/شد</cell></row>
+      <row role="msd"><cell role="msd">Vlis1s--n-----pny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=yes</cell>	<cell>2</cell>	<cell>4</cell><cell>مي‌کردم/کرد مي‌دادم/داد</cell></row>
+      <row role="msd"><cell role="msd">Vlis1s--y------nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>1</cell>	<cell>2</cell><cell>نکردم/کرد</cell></row>
+      <row role="msd"><cell role="msd">Vlis1s--y------ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=past Person=first Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>1</cell>	<cell>4</cell><cell>نکردم/کرد</cell></row>
+      <row role="msd"><cell role="msd">Vlip1p--n-n-----n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=first Number=plural Negative=no Clitic=no Transitive=no</cell>	<cell>7</cell>	<cell>15</cell><cell>مي‌کشيم/کش مي‌شويم/شو داريم/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip1p--n-n-----y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=first Number=plural Negative=no Clitic=no Transitive=yes</cell>	<cell>6</cell>	<cell>23</cell><cell>مي‌شويم/شو مي‌دهيم/ده داريم/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip1p--y-------n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=first Number=plural Negative=yes Transitive=no</cell>	<cell>2</cell>	<cell>3</cell><cell>نمي‌کنيم/کن نداريم/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip1p--y-------y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=first Number=plural Negative=yes Transitive=yes</cell>	<cell>1</cell>	<cell>3</cell><cell>نمي‌کنيم/کن</cell></row>
+      <row role="msd"><cell role="msd">Vlip1s--n-n----nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=first Number=singular Negative=no Clitic=no Courtesy=no Transitive=no</cell>	<cell>7</cell>	<cell>38</cell><cell>مي‌خورم/خور مي‌بندم/بند م/من</cell></row>
+      <row role="msd"><cell role="msd">Vlip1s--n-n----ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=first Number=singular Negative=no Clitic=no Courtesy=no Transitive=yes</cell>	<cell>6</cell>	<cell>29</cell><cell>مي‌دم/ده مي‌دارم/دار دارم/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip1s----y----nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=first Number=singular Clitic=yes Courtesy=no Transitive=no</cell>	<cell>1</cell>	<cell>7</cell><cell>م/است</cell></row>
+      <row role="msd"><cell role="msd">Vlip1s--y------nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=first Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>7</cell>	<cell>15</cell><cell>نمي‌دم/ده نمي‌خورم/خور ندارم/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip1s--y------ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=first Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>3</cell>	<cell>5</cell><cell>نمي‌کنم/کن نمي‌دارم/دار ندارم/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip2p--n-n-----n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=plural Negative=no Clitic=no Transitive=no</cell>	<cell>10</cell>	<cell>16</cell><cell>کنيد/کن داريد/دار ايد/است</cell></row>
+      <row role="msd"><cell role="msd">Vlip2p--n-n-----y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=plural Negative=no Clitic=no Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>هستيد/است</cell></row>
+      <row role="msd"><cell role="msd">Vlip2s--n-n----nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=singular Negative=no Clitic=no Courtesy=no Transitive=no</cell>	<cell>11</cell>	<cell>41</cell><cell>مي‌دهي/ده مي‌بري/بر شوي/شو</cell></row>
+      <row role="msd"><cell role="msd">Vlip2s--n-n----ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=singular Negative=no Clitic=no Courtesy=no Transitive=yes</cell>	<cell>7</cell>	<cell>17</cell><cell>هستي/است مي‌آوري/آور داري/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip2s--n-n----yn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=singular Negative=no Clitic=no Courtesy=yes Transitive=no</cell>	<cell>3</cell>	<cell>7</cell><cell>مي‌کنيد/کن مي‌دانيد/دان داريد/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip2s--n-n----yy</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=singular Negative=no Clitic=no Courtesy=yes Transitive=yes</cell>	<cell>2</cell>	<cell>5</cell><cell>مي‌کنيد/کن داريد/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip2s----y----nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=singular Clitic=yes Courtesy=no Transitive=no</cell>	<cell>1</cell>	<cell>6</cell><cell>ي/است</cell></row>
+      <row role="msd"><cell role="msd">Vlip2s--y------nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>6</cell>	<cell>9</cell><cell>نمي‌بري/بر نشدي/شد نداري/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip2s--y------ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>3</cell>	<cell>5</cell><cell>نيستي/است نمي‌کني/کن نداري/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip2s--y------yn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=singular Negative=yes Courtesy=yes Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نمي‌کنيد/کن</cell></row>
+      <row role="msd"><cell role="msd">Vlip2s--y------yy</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=second Number=singular Negative=yes Courtesy=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نکنيد/کن</cell></row>
+      <row role="msd"><cell role="msd">Vlip3p--n-n-----n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=plural Negative=no Clitic=no Transitive=no</cell>	<cell>20</cell>	<cell>94</cell><cell>نيستند/است مي‌خورند/خور درمي‌آيند/درا</cell></row>
+      <row role="msd"><cell role="msd">Vlip3p--n-n-----y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=plural Negative=no Clitic=no Transitive=yes</cell>	<cell>9</cell>	<cell>48</cell><cell>کنند/کن مي‌شناسند/شناس مي‌زنند/زن</cell></row>
+      <row role="msd"><cell role="msd">Vlip3p----y-----n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=plural Clitic=yes Transitive=no</cell>	<cell>1</cell>	<cell>6</cell><cell>ند/است</cell></row>
+      <row role="msd"><cell role="msd">Vlip3p--y-------n</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=plural Negative=yes Transitive=no</cell>	<cell>7</cell>	<cell>13</cell><cell>نياورند/آور نمي‌روند/رو نمي‌دهند/ده</cell></row>
+      <row role="msd"><cell role="msd">Vlip3p--y-------y</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=plural Negative=yes Transitive=yes</cell>	<cell>3</cell>	<cell>4</cell><cell>نمي‌کنند/کن نمي‌دهند/ده ندارند/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip3s--n-n----nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=singular Negative=no Clitic=no Courtesy=no Transitive=no</cell>	<cell>26</cell>	<cell>302</cell><cell>مي‌پيوندد/پيوند مي‌شه/شو مي‌باشد/باش</cell></row>
+      <row role="msd"><cell role="msd">Vlip3s--n-n----ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=singular Negative=no Clitic=no Courtesy=no Transitive=yes</cell>	<cell>19</cell>	<cell>86</cell><cell>هست/است داره/دار دارد/دار</cell></row>
+      <row role="msd"><cell role="msd">Vlip3s----y----nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=singular Clitic=yes Courtesy=no Transitive=no</cell>	<cell>2</cell>	<cell>5</cell><cell>ه/است ست/است</cell></row>
+      <row role="msd"><cell role="msd">Vlip3s----y----ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=singular Clitic=yes Courtesy=no Transitive=yes</cell>	<cell>1</cell>	<cell>3</cell><cell>ه/است</cell></row>
+      <row role="msd"><cell role="msd">Vlip3s--y------nn</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>18</cell>	<cell>94</cell><cell>نمي‌افتد/افت نداره/دار نخورد/خور</cell></row>
+      <row role="msd"><cell role="msd">Vlip3s--y------ny</cell>	<cell role="verbose">Verb Type=light VForm=indicative Tense=present Person=third Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>6</cell>	<cell>17</cell><cell>نمي‌کنه/کن نمي‌آمد/آمد ندارد/دار</cell></row>
+      <row role="msd"><cell role="msd">Vmip3p--n-n-----n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=third Number=plural Negative=no Clitic=no Transitive=no</cell>	<cell>10</cell>	<cell>16</cell><cell>هستند/است مي‌آيند/آ دارند/دار</cell></row>
+      <row role="msd"><cell role="msd">Vmip3p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=third Number=plural Negative=no Transitive=yes</cell>	<cell>26</cell>	<cell>85</cell><cell>مي‌کشن/کش مي‌پرانند/پران ميدن/ده</cell></row>
+      <row role="msd"><cell role="msd">Vmip3p--y-------n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=third Number=plural Negative=yes Transitive=no</cell>	<cell>3</cell>	<cell>3</cell><cell>نمي‌زنند/زن نمي‌رسند/رس نمي‌جنگند/جنگ</cell></row>
+      <row role="msd"><cell role="msd">Vmip3p--y-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=third Number=plural Negative=yes Transitive=yes</cell>	<cell>8</cell>	<cell>19</cell><cell>نمي‌دانند/دان نمي‌افزايند/افزا ندارند/دار</cell></row>
+      <row role="msd"><cell role="msd">Vmip3s--n-n----nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=third Number=singular Negative=no Clitic=no Courtesy=no Transitive=no</cell>	<cell>27</cell>	<cell>87</cell><cell>مي‌کوبد/کوب مي‌پرد/پر داره/دار</cell></row>
+      <row role="msd"><cell role="msd">Vmip3s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=third Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>32</cell>	<cell>144</cell><cell>مي‌کشد/کش مي‌نويسد/نويس مي‌رساند/رسان</cell></row>
+      <row role="msd"><cell role="msd">Vmip3s----y----n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=third Number=singular Clitic=yes Courtesy=no</cell>	<cell>1</cell>	<cell>6</cell><cell>ست/است</cell></row>
+      <row role="msd"><cell role="msd">Vmip3s--y------nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=third Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>7</cell>	<cell>24</cell><cell>نمي‌شود/شو نمي‌آمد/آمد برنمي‌گردد/برگرد</cell></row>
+      <row role="msd"><cell role="msd">Vmip3s--y------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=present Person=third Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>7</cell>	<cell>30</cell><cell>نمي‌دونه/دان نمي‌داند/دان نمي‌خواهد/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vais2s--n------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>شدي/شد</cell></row>
+      <row role="msd"><cell role="msd">Vais3p--n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=plural Negative=no</cell>	<cell>3</cell>	<cell>5</cell><cell>مي‌شدند/شد شدند/شد بود</cell></row>
+      <row role="msd"><cell role="msd">Vais3p--n-----p</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=plural Negative=no Aspect=progressive</cell>	<cell>1</cell>	<cell>4</cell><cell>مي‌شدند/شد</cell></row>
+      <row role="msd"><cell role="msd">Vais3s--n------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=singular Negative=no Courtesy=no</cell>	<cell>3</cell>	<cell>24</cell><cell>کرد مي‌شد/شد شد</cell></row>
+      <row role="msd"><cell role="msd">Vais3s--n-----pn</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=singular Negative=no Aspect=progressive Courtesy=no</cell>	<cell>2</cell>	<cell>40</cell><cell>مي‌شد/شد بود</cell></row>
+      <row role="msd"><cell role="msd">Vais3s--y------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>2</cell><cell>نشد/شد</cell></row>
+      <row role="msd"><cell role="msd">Vais3s--y-----pn</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=singular Negative=yes Aspect=progressive Courtesy=no</cell>	<cell>1</cell>	<cell>5</cell><cell>نمي‌شد/شد</cell></row>
+      <row role="msd"><cell role="msd">Vaip1p--n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural Negative=no</cell>	<cell>2</cell>	<cell>10</cell><cell>مي‌خواهيم/خواه خواهيم/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vaip1s--n------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular Negative=no Courtesy=no</cell>	<cell>3</cell>	<cell>13</cell><cell>مي‌خواهم/خواه مي‌خوام/خواه خواهم/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vaip2p--n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=plural Negative=no</cell>	<cell>2</cell>	<cell>7</cell><cell>مي‌خواهيد/خواه خواهيد/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vaip2s--n------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular Negative=no Courtesy=no</cell>	<cell>3</cell>	<cell>5</cell><cell>مي‌خواهي/خواه خواهي/خواه بخواهي/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vaip2s--n------y</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular Negative=no Courtesy=yes</cell>	<cell>2</cell>	<cell>2</cell><cell>مي‌خواهيد/خواه خواهيد/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vaip2s--y------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular Negative=yes Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نخواهي/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vaip3p--n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=plural Negative=no</cell>	<cell>3</cell>	<cell>18</cell><cell>مي‌شوند/شو مي‌خواهند/خواه خواهند/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vaip3p--y</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=plural Negative=yes</cell>	<cell>1</cell>	<cell>2</cell><cell>نخواهند/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vaip3s--n------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular Negative=no Courtesy=no</cell>	<cell>4</cell>	<cell>86</cell><cell>مي‌شود/شو شد خواهد/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vaip3s--y------n</cell>	<cell role="verbose">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular Negative=yes Courtesy=no</cell>	<cell>3</cell>	<cell>21</cell><cell>نمي‌شود/شو نخواهد/خواه برنخواهد/برخواه</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2p--n-------n</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=plural Negative=no Transitive=no</cell>	<cell>4</cell>	<cell>6</cell><cell>بمانيد/مان بجنبيد/جنب بايستيد/ايست</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=plural Negative=no Transitive=yes</cell>	<cell>7</cell>	<cell>10</cell><cell>بشماريد/شمار بدهيد/ده ببريد/بر</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2p--y-------n</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=plural Negative=yes Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نچسبيد/چسب</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2p--y-------y</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=plural Negative=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نکنيد/کن</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2s--n------nn</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>10</cell>	<cell>16</cell><cell>بخواب/خواب بايست/ايست باش</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>11</cell>	<cell>29</cell><cell>بده/ده ببخشي/بخش ببخش/بخش</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2s--n------yn</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=singular Negative=no Courtesy=yes Transitive=no</cell>	<cell>2</cell>	<cell>3</cell><cell>بگذاريد/گذار ببخشيد/بخش</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2s--y------nn</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>2</cell>	<cell>3</cell><cell>نرو/رو برنگرد/برگرد</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2s--y------ny</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>2</cell>	<cell>2</cell><cell>نکن/کن نپوشان/پوشان</cell></row>
+      <row role="msd"><cell role="msd">Vmmp2s--y------yy</cell>	<cell role="verbose">Verb Type=main VForm=imperative Tense=present Person=second Number=singular Negative=yes Courtesy=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نزنيد/زن</cell></row>
+      <row role="msd"><cell role="msd">Vmp-----n-------n</cell>	<cell role="verbose">Verb Type=main VForm=participle Negative=no Transitive=no</cell>	<cell>49</cell>	<cell>285</cell><cell>پرداخته/پرداخت بسته/بست آويخته/آويخت</cell></row>
+      <row role="msd"><cell role="msd">Vmp-----n-------y</cell>	<cell role="verbose">Verb Type=main VForm=participle Negative=no Transitive=yes</cell>	<cell>80</cell>	<cell>539</cell><cell>فروبرده/فروبرد باخته/باخت آراسته/آراست</cell></row>
+      <row role="msd"><cell role="msd">Vmp-----n-----p-n</cell>	<cell role="verbose">Verb Type=main VForm=participle Negative=no Aspect=progressive Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>مي‌جنگيده/جنگيد</cell></row>
+      <row role="msd"><cell role="msd">Vmp-----n-----p-y</cell>	<cell role="verbose">Verb Type=main VForm=participle Negative=no Aspect=progressive Transitive=yes</cell>	<cell>3</cell>	<cell>4</cell><cell>مي‌نوشته/نوشت مي‌دانسته/دانست مي‌داده/داد</cell></row>
+      <row role="msd"><cell role="msd">Vmp-----y-------n</cell>	<cell role="verbose">Verb Type=main VForm=participle Negative=yes Transitive=no</cell>	<cell>6</cell>	<cell>15</cell><cell>نمرده/مرد نشکسته/شکست نرفته/رفت</cell></row>
+      <row role="msd"><cell role="msd">Vmp-----y-------y</cell>	<cell role="verbose">Verb Type=main VForm=participle Negative=yes Transitive=yes</cell>	<cell>20</cell>	<cell>52</cell><cell>ننوشته/نوشت نخواسته/خواست برنداشته/برداشت</cell></row>
+      <row role="msd"><cell role="msd">Vmsp2p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=second Number=plural Negative=no Transitive=yes</cell>	<cell>9</cell>	<cell>13</cell><cell>برداريد/بردار بدانيد/دان بخواهيد/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vmsp2p--y-------y</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=second Number=plural Negative=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نبينيد/بين</cell></row>
+      <row role="msd"><cell role="msd">Vmsp2s--n------nn</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>10</cell>	<cell>11</cell><cell>بچسبي/چسب بري/رو برسي/رس</cell></row>
+      <row role="msd"><cell role="msd">Vmsp2s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>28</cell>	<cell>54</cell><cell>کني/کن بدهي/ده بخواي/خواه</cell></row>
+      <row role="msd"><cell role="msd">Vmsp2s--n------yn</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=yes Transitive=no</cell>	<cell>2</cell>	<cell>3</cell><cell>بيندازيد/انداز بياييد/آ</cell></row>
+      <row role="msd"><cell role="msd">Vmsp2s--n------yy</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=second Number=singular Negative=no Courtesy=yes Transitive=yes</cell>	<cell>6</cell>	<cell>7</cell><cell>بگيريد/گير بخواهيد/خواه بخريد/خر</cell></row>
+      <row role="msd"><cell role="msd">Vmsp3p--n-------n</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=third Number=plural Negative=no Transitive=no</cell>	<cell>12</cell>	<cell>21</cell><cell>بيفتند/افت بميرند/مير بايستند/ايست</cell></row>
+      <row role="msd"><cell role="msd">Vmsp3p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=third Number=plural Negative=no Transitive=yes</cell>	<cell>29</cell>	<cell>59</cell><cell>بکُشند/کُش ببينند/بين ببريم/بر</cell></row>
+      <row role="msd"><cell role="msd">Vmsp3p--y-------n</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=third Number=plural Negative=yes Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نرسند/رس</cell></row>
+      <row role="msd"><cell role="msd">Vmsp3s--n------nn</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=third Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>27</cell>	<cell>102</cell><cell>باشه/باش باشد/باش آيد/آ</cell></row>
+      <row role="msd"><cell role="msd">Vmsp3s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=third Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>55</cell>	<cell>197</cell><cell>وادارد/وادار فروبريزد/فروريز ببندد/بند</cell></row>
+      <row role="msd"><cell role="msd">Vmsp3s--y------nn</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=third Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نيايد/آ</cell></row>
+      <row role="msd"><cell role="msd">Vmsp3s--y------ny</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=third Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>6</cell>	<cell>6</cell><cell>نرساند/رسان نداند/دان نبيند/بين</cell></row>
+      <row role="msd"><cell role="msd">Vmsp1p--n-------n</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=first Number=plural Negative=no Transitive=no</cell>	<cell>10</cell>	<cell>16</cell><cell>بريم/رو برويم/رو باشيم/باش</cell></row>
+      <row role="msd"><cell role="msd">Vmsp1p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=first Number=plural Negative=no Transitive=yes</cell>	<cell>16</cell>	<cell>26</cell><cell>بدهيم/ده بخوانيم/خوان ببينيم/بين</cell></row>
+      <row role="msd"><cell role="msd">Vmsp1p--y-------y</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=first Number=plural Negative=yes Transitive=yes</cell>	<cell>2</cell>	<cell>2</cell><cell>نگوييم/گو نبينيم/بين</cell></row>
+      <row role="msd"><cell role="msd">Vmsp1s--n------nn</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=first Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>7</cell>	<cell>9</cell><cell>بيام/آ برم/رو باشم/باش</cell></row>
+      <row role="msd"><cell role="msd">Vmsp1s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=first Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>16</cell>	<cell>54</cell><cell>بدانم/دان بخوابونم/خوابان ببينم/بين</cell></row>
+      <row role="msd"><cell role="msd">Vmsp1s--y------nn</cell>	<cell role="verbose">Verb Type=main VForm=subjunctive Tense=present Person=first Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نباشم/باش</cell></row>
+      <row role="msd"><cell role="msd">Vmis1p--n-------n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=first Number=plural Negative=no Transitive=no</cell>	<cell>1</cell>	<cell>2</cell><cell>آمديم/آمد</cell></row>
+      <row role="msd"><cell role="msd">Vmis1p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=first Number=plural Negative=no Transitive=yes</cell>	<cell>3</cell>	<cell>4</cell><cell>شکستيم/شکست ساختيم/ساخت ديديم/ديد</cell></row>
+      <row role="msd"><cell role="msd">Vmis1p--n-----p-y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=first Number=plural Negative=no Aspect=progressive Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>مي‌خوانديم/خواند</cell></row>
+      <row role="msd"><cell role="msd">Vmis1s--n------nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=first Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>2</cell>	<cell>2</cell><cell>رفتم/رفت آمدم/آمد</cell></row>
+      <row role="msd"><cell role="msd">Vmis1s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=first Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>10</cell>	<cell>21</cell><cell>شنيدم/شنيد دادم/داد ترساندم/ترساند</cell></row>
+      <row role="msd"><cell role="msd">Vmis1s--n-----pnn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=first Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=no</cell>	<cell>2</cell>	<cell>3</cell><cell>مي‌گشتم/گشت مي‌رفتم/رفت</cell></row>
+      <row role="msd"><cell role="msd">Vmis1s--n-----pny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=first Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=yes</cell>	<cell>4</cell>	<cell>10</cell><cell>مي‌پيچيدم/پيچيد مي‌دانستم/دانست مي‌خواستم/خواست</cell></row>
+      <row role="msd"><cell role="msd">Vmis1s--y------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=first Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>7</cell>	<cell>9</cell><cell>نشنيدم/شنيد نديدم/ديد نداشتم/داشت</cell></row>
+      <row role="msd"><cell role="msd">Vmis1s--y-----pny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=first Number=singular Negative=yes Aspect=progressive Courtesy=no Transitive=yes</cell>	<cell>4</cell>	<cell>8</cell><cell>نمي‌کردم/کرد نمي‌شناختم/شناخت نمي‌خواستم/خواست</cell></row>
+      <row role="msd"><cell role="msd">Vmis2p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=plural Negative=no Transitive=yes</cell>	<cell>5</cell>	<cell>8</cell><cell>گفتيد/گفت داديد/داد خوانديد/خواند</cell></row>
+      <row role="msd"><cell role="msd">Vmis2p--n-----p-n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=plural Negative=no Aspect=progressive Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>مي‌آمديد/آمد</cell></row>
+      <row role="msd"><cell role="msd">Vmis2p--n-----p-y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=plural Negative=no Aspect=progressive Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>برمي‌داشتيد/برداشت</cell></row>
+      <row role="msd"><cell role="msd">Vmis2p--y-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=plural Negative=yes Transitive=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>نشنيدين/شنيد</cell></row>
+      <row role="msd"><cell role="msd">Vmis2s--n------nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>4</cell>	<cell>4</cell><cell>رفتي/رفت ترسيدي/ترسيد ايستادي/ايستاد</cell></row>
+      <row role="msd"><cell role="msd">Vmis2s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>15</cell>	<cell>21</cell><cell>گفتي/گفت سپردي/سپرد درآوردي/درآورد</cell></row>
+      <row role="msd"><cell role="msd">Vmis2s--n------yn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=yes Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>آمديد/آمد</cell></row>
+      <row role="msd"><cell role="msd">Vmis2s--n------yy</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=singular Negative=no Courtesy=yes Transitive=yes</cell>	<cell>3</cell>	<cell>4</cell><cell>مي‌دانستيد/دانست داشتيد/داشت خريديد/خر</cell></row>
+      <row role="msd"><cell role="msd">Vmis2s--n-----pnn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=no</cell>	<cell>2</cell>	<cell>3</cell><cell>مي‌رفتي/رفت مي‌دويدي/دويد</cell></row>
+      <row role="msd"><cell role="msd">Vmis2s--n-----pny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=yes</cell>	<cell>5</cell>	<cell>7</cell><cell>مي‌کردي/کرد مي‌ديدي/ديد مي‌دانستي/دانست</cell></row>
+      <row role="msd"><cell role="msd">Vmis2s--n-----pyy</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=singular Negative=no Aspect=progressive Courtesy=yes Transitive=yes</cell>	<cell>1</cell>	<cell>2</cell><cell>مي‌دانستيد/دانست</cell></row>
+      <row role="msd"><cell role="msd">Vmis2s--y------nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نرفتي/رفت</cell></row>
+      <row role="msd"><cell role="msd">Vmis2s--y------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=second Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>3</cell>	<cell>4</cell><cell>نگذاشتي/گذاشت نکردي/کرد نخواستي/خواست</cell></row>
+      <row role="msd"><cell role="msd">Vmis3p--n-------n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=plural Negative=no Transitive=no</cell>	<cell>14</cell>	<cell>52</cell><cell>پرداختند/پرداخت ريختند/ريخت بازگشتند/بازگشت</cell></row>
+      <row role="msd"><cell role="msd">Vmis3p--n-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=plural Negative=no Transitive=yes</cell>	<cell>23</cell>	<cell>86</cell><cell>گذاشتند/گذاشت انداختند/انداخت آوردند/آورد</cell></row>
+      <row role="msd"><cell role="msd">Vmis3p--n-----p-n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=plural Negative=no Aspect=progressive Transitive=no</cell>	<cell>25</cell>	<cell>68</cell><cell>مي‌پرداختند/پرداخت مي‌شتافتند/شتافت مي‌دويدند/دويد</cell></row>
+      <row role="msd"><cell role="msd">Vmis3p--n-----p-y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=plural Negative=no Aspect=progressive Transitive=yes</cell>	<cell>46</cell>	<cell>139</cell><cell>مي‌ريختند/ريخت مي‌دوختند/دوخت برمي‌داشتند/برداشت</cell></row>
+      <row role="msd"><cell role="msd">Vmis3p--y-------n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=plural Negative=yes Transitive=no</cell>	<cell>3</cell>	<cell>3</cell><cell>نرفتند/رفت نداشتند/داشت نبودند/بود</cell></row>
+      <row role="msd"><cell role="msd">Vmis3p--y-------y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=plural Negative=yes Transitive=yes</cell>	<cell>1</cell>	<cell>20</cell><cell>نداشتند/داشت</cell></row>
+      <row role="msd"><cell role="msd">Vmis3p--y-----p-n</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=plural Negative=yes Aspect=progressive Transitive=no</cell>	<cell>1</cell>	<cell>1</cell><cell>نمي‌گذاشتند/گذاشت</cell></row>
+      <row role="msd"><cell role="msd">Vmis3p--y-----p-y</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=plural Negative=yes Aspect=progressive Transitive=yes</cell>	<cell>7</cell>	<cell>8</cell><cell>نمي‌پذيرفتند/پذيرفت نمي‌سپردند/سپرد نمي‌دانستند/دانست</cell></row>
+      <row role="msd"><cell role="msd">Vmis3s--n------nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=singular Negative=no Courtesy=no Transitive=no</cell>	<cell>56</cell>	<cell>446</cell><cell>خزيد جست انديشيد/انديش</cell></row>
+      <row role="msd"><cell role="msd">Vmis3s--n------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=singular Negative=no Courtesy=no Transitive=yes</cell>	<cell>86</cell>	<cell>1028</cell><cell>ريخت افکند افزود</cell></row>
+      <row role="msd"><cell role="msd">Vmis3s--n-----pnn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=no</cell>	<cell>59</cell>	<cell>248</cell><cell>مي‌غريد/غريد مي‌ترکيد/ترکيد برمي‌خورد/برخورد</cell></row>
+      <row role="msd"><cell role="msd">Vmis3s--n-----pny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=singular Negative=no Aspect=progressive Courtesy=no Transitive=yes</cell>	<cell>64</cell>	<cell>371</cell><cell>مي‌پنداشت/پنداشت مي‌پراند/پران مي‌ماليد/ماليد</cell></row>
+      <row role="msd"><cell role="msd">Vmis3s--y------nn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=singular Negative=yes Courtesy=no Transitive=no</cell>	<cell>7</cell>	<cell>35</cell><cell>نرسيد/رسيد نداشت/داشت برنگشت/برگشت</cell></row>
+      <row role="msd"><cell role="msd">Vmis3s--y------ny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=singular Negative=yes Courtesy=no Transitive=yes</cell>	<cell>8</cell>	<cell>91</cell><cell>نشناخت/شناخت نديد/ديد نخريد/خر</cell></row>
+      <row role="msd"><cell role="msd">Vmis3s--y-----pnn</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=singular Negative=yes Aspect=progressive Courtesy=no Transitive=no</cell>	<cell>12</cell>	<cell>16</cell><cell>نمي‌تابيد/تابيد نمي‌افتاد/افتاد نمي‌آمد/آمد</cell></row>
+      <row role="msd"><cell role="msd">Vmis3s--y-----pny</cell>	<cell role="verbose">Verb Type=main VForm=indicative Tense=past Person=third Number=singular Negative=yes Aspect=progressive Courtesy=no Transitive=yes</cell>	<cell>19</cell>	<cell>82</cell><cell>نمي‌شنيد/شنيد نمي‌شناخت/شناخت برنمي‌انگيخت/برانگيخت</cell></row>
+      <row role="msd"><cell role="msd">Afp</cell>	<cell role="verbose">Adjective Type=qualificative Degree=positive</cell>	<cell>1654</cell>	<cell>5248</cell><cell>موذي عاري سبيلو</cell></row>
+      <row role="msd"><cell role="msd">Afp---n</cell>	<cell role="verbose">Adjective Type=qualificative Degree=positive Definiteness=no</cell>	<cell>277</cell>	<cell>709</cell><cell>زنگداري/زنگدار تهوع‌آوري/تهوع‌آور برهنه‌اي/برهنه</cell></row>
+      <row role="msd"><cell role="msd">Afp--g</cell>	<cell role="verbose">Adjective Type=qualificative Degree=positive Case=genitive</cell>	<cell>498</cell>	<cell>935</cell><cell>رنگيِ/رنگي بي‌امانِ/بي‌امان بوکسورمانندِ/بوکسورمانند</cell></row>
+      <row role="msd"><cell role="msd">Afc</cell>	<cell role="verbose">Adjective Type=qualificative Degree=comparative</cell>	<cell>98</cell>	<cell>304</cell><cell>مطمئن‌تر/مطمئن عاقلانه‌تر/عاقلانه بدبوتر/بدبو</cell></row>
+      <row role="msd"><cell role="msd">Afc---n</cell>	<cell role="verbose">Adjective Type=qualificative Degree=comparative Definiteness=no</cell>	<cell>14</cell>	<cell>25</cell><cell>بلندتري/بلند انساني‌تري/انساني‌ آرام‌تري/آرام</cell></row>
+      <row role="msd"><cell role="msd">Afc--g</cell>	<cell role="verbose">Adjective Type=qualificative Degree=comparative Case=genitive</cell>	<cell>4</cell>	<cell>10</cell><cell>قوي‌ترِ/قوي بيشترِ/بيش اعظمِ/اعظم</cell></row>
+      <row role="msd"><cell role="msd">Afs</cell>	<cell role="verbose">Adjective Type=qualificative Degree=superlative</cell>	<cell>41</cell>	<cell>84</cell><cell>متعصّب‌ترين/متعصّب قديمي‌ترين/قديمي ترسناک‌ترين/ترسناک</cell></row>
+      <row role="msd"><cell role="msd">A-p</cell>	<cell role="verbose">Adjective Degree=positive</cell>	<cell>230</cell>	<cell>1231</cell><cell>تازه تار بسيج</cell></row>
+      <row role="msd"><cell role="msd">A-p--g</cell>	<cell role="verbose">Adjective Degree=positive Case=genitive</cell>	<cell>9</cell>	<cell>119</cell><cell>سرگرمِ/سرگرم روانهٔ/روانه حاويِ/حاوي</cell></row>
+      <row role="msd"><cell role="msd">A-c</cell>	<cell role="verbose">Adjective Degree=comparative</cell>	<cell>3</cell>	<cell>6</cell><cell>کمتر/کم نزديک‌تر/نزديک سست‌تر/سست</cell></row>
+      <row role="msd"><cell role="msd">Pd--s</cell>	<cell role="verbose">Pronoun Type=demonstrative Number=singular</cell>	<cell>32</cell>	<cell>432</cell><cell>همين‌قدر اين‌گونه اين‌طوري/اين‌طور</cell></row>
+      <row role="msd"><cell role="msd">Pd--p</cell>	<cell role="verbose">Pronoun Type=demonstrative Number=plural</cell>	<cell>2</cell>	<cell>2</cell><cell>همان‌ها/همان آنها</cell></row>
+      <row role="msd"><cell role="msd">Pd--s---n</cell>	<cell role="verbose">Pronoun Type=demonstrative Number=singular Clitic=no</cell>	<cell>6</cell>	<cell>880</cell><cell>همين‌طور آن‌که آن</cell></row>
+      <row role="msd"><cell role="msd">Pd--s---y</cell>	<cell role="verbose">Pronoun Type=demonstrative Number=singular Clitic=yes</cell>	<cell>3</cell>	<cell>129</cell><cell>يش/آن ش/آن اش/آن</cell></row>
+      <row role="msd"><cell role="msd">Pd--sa--y</cell>	<cell role="verbose">Pronoun Type=demonstrative Number=singular Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>13</cell><cell>ش/آن</cell></row>
+      <row role="msd"><cell role="msd">Pd--p---n</cell>	<cell role="verbose">Pronoun Type=demonstrative Number=plural Clitic=no</cell>	<cell>5</cell>	<cell>164</cell><cell>شون/آنها شان/آنها آنهايي/آنها</cell></row>
+      <row role="msd"><cell role="msd">Pd--p---y</cell>	<cell role="verbose">Pronoun Type=demonstrative Number=plural Clitic=yes</cell>	<cell>2</cell>	<cell>18</cell><cell>يشان/آنها شان/آنها</cell></row>
+      <row role="msd"><cell role="msd">Pd--pg--n</cell>	<cell role="verbose">Pronoun Type=demonstrative Number=plural Case=genitive Clitic=no</cell>	<cell>1</cell>	<cell>1</cell><cell>آنهايِ/آنها</cell></row>
+      <row role="msd"><cell role="msd">Py</cell>	<cell role="verbose">Pronoun Type=reciprocal</cell>	<cell>4</cell>	<cell>197</cell><cell>يگديگر همديگر هم</cell></row>
+      <row role="msd"><cell role="msd">Pi--s</cell>	<cell role="verbose">Pronoun Type=indefinite Number=singular</cell>	<cell>9</cell>	<cell>39</cell><cell>يکي/يک هرآنچه ديگري</cell></row>
+      <row role="msd"><cell role="msd">Pi--p</cell>	<cell role="verbose">Pronoun Type=indefinite Number=plural</cell>	<cell>12</cell>	<cell>145</cell><cell>بقيه برخي اين‌همه</cell></row>
+      <row role="msd"><cell role="msd">Pq--s</cell>	<cell role="verbose">Pronoun Type=interrogative Number=singular</cell>	<cell>7</cell>	<cell>112</cell><cell>کدام‌يک چيکار چه‌طور</cell></row>
+      <row role="msd"><cell role="msd">Px1-p---n</cell>	<cell role="verbose">Pronoun Type=reflexive Person=first Number=plural Clitic=no</cell>	<cell>2</cell>	<cell>14</cell><cell>خودمون/خودمان خودمان/خود</cell></row>
+      <row role="msd"><cell role="msd">Px1-s---n---------n</cell>	<cell role="verbose">Pronoun Type=reflexive Person=first Number=singular Clitic=no Courtesy=no</cell>	<cell>1</cell>	<cell>11</cell><cell>خودم/خود</cell></row>
+      <row role="msd"><cell role="msd">Px1-s---y---------n</cell>	<cell role="verbose">Pronoun Type=reflexive Person=first Number=singular Clitic=yes Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>م/خودم</cell></row>
+      <row role="msd"><cell role="msd">Px2-p---y</cell>	<cell role="verbose">Pronoun Type=reflexive Person=second Number=plural Clitic=yes</cell>	<cell>1</cell>	<cell>7</cell><cell>خودتان/خود</cell></row>
+      <row role="msd"><cell role="msd">Px2-s---n---------n</cell>	<cell role="verbose">Pronoun Type=reflexive Person=second Number=singular Clitic=no Courtesy=no</cell>	<cell>1</cell>	<cell>43</cell><cell>خودت/خود</cell></row>
+      <row role="msd"><cell role="msd">Px2-s---y---------n</cell>	<cell role="verbose">Pronoun Type=reflexive Person=second Number=singular Clitic=yes Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>ت/خود</cell></row>
+      <row role="msd"><cell role="msd">Px3-p---n</cell>	<cell role="verbose">Pronoun Type=reflexive Person=third Number=plural Clitic=no</cell>	<cell>1</cell>	<cell>13</cell><cell>خودشان/خود</cell></row>
+      <row role="msd"><cell role="msd">Px3-p---y</cell>	<cell role="verbose">Pronoun Type=reflexive Person=third Number=plural Clitic=yes</cell>	<cell>2</cell>	<cell>5</cell><cell>شان/خود خودشان/خود</cell></row>
+      <row role="msd"><cell role="msd">Px3-s---n---------n</cell>	<cell role="verbose">Pronoun Type=reflexive Person=third Number=singular Clitic=no Courtesy=no</cell>	<cell>1</cell>	<cell>66</cell><cell>خودش/خود</cell></row>
+      <row role="msd"><cell role="msd">Px3-s---y---------n</cell>	<cell role="verbose">Pronoun Type=reflexive Person=third Number=singular Clitic=yes Courtesy=no</cell>	<cell>1</cell>	<cell>1</cell><cell>ش/او</cell></row>
+      <row role="msd"><cell role="msd">Px------n</cell>	<cell role="verbose">Pronoun Type=reflexive Clitic=no</cell>	<cell>3</cell>	<cell>457</cell><cell>شان/خود خويش خود</cell></row>
+      <row role="msd"><cell role="msd">Px---g--n</cell>	<cell role="verbose">Pronoun Type=reflexive Case=genitive Clitic=no</cell>	<cell>1</cell>	<cell>52</cell><cell>خودِ/خود</cell></row>
+      <row role="msd"><cell role="msd">Px------y---------n</cell>	<cell role="verbose">Pronoun Type=reflexive Clitic=yes Courtesy=no</cell>	<cell>11</cell>	<cell>516</cell><cell>يم/خود ت/تو ات/خود</cell></row>
+      <row role="msd"><cell role="msd">Px------y</cell>	<cell role="verbose">Pronoun Type=reflexive Clitic=yes</cell>	<cell>6</cell>	<cell>52</cell><cell>يمان/خود يتان/خود تان/خود</cell></row>
+      <row role="msd"><cell role="msd">Pp1-s---n---------n</cell>	<cell role="verbose">Pronoun Type=personal Person=first Number=singular Clitic=no Courtesy=no</cell>	<cell>1</cell>	<cell>251</cell><cell>من</cell></row>
+      <row role="msd"><cell role="msd">Pp1-s---n---------y</cell>	<cell role="verbose">Pronoun Type=personal Person=first Number=singular Clitic=no Courtesy=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>ما</cell></row>
+      <row role="msd"><cell role="msd">Pp1-s---y---------n</cell>	<cell role="verbose">Pronoun Type=personal Person=first Number=singular Clitic=yes Courtesy=no</cell>	<cell>3</cell>	<cell>60</cell><cell>يم/من مِ/من م/من</cell></row>
+      <row role="msd"><cell role="msd">Pp1-sa--n</cell>	<cell role="verbose">Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=no</cell>	<cell>2</cell>	<cell>32</cell><cell>مرا/من م/من</cell></row>
+      <row role="msd"><cell role="msd">Pp1-sa--y---------n</cell>	<cell role="verbose">Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=yes Courtesy=no</cell>	<cell>1</cell>	<cell>16</cell><cell>م/من</cell></row>
+      <row role="msd"><cell role="msd">Pp1-p---n</cell>	<cell role="verbose">Pronoun Type=personal Person=first Number=plural Clitic=no</cell>	<cell>1</cell>	<cell>174</cell><cell>ما</cell></row>
+      <row role="msd"><cell role="msd">Pp1-p---y</cell>	<cell role="verbose">Pronoun Type=personal Person=first Number=plural Clitic=yes</cell>	<cell>2</cell>	<cell>2</cell><cell>يمان/خود مان/ما</cell></row>
+      <row role="msd"><cell role="msd">Pp3-s---n---------n</cell>	<cell role="verbose">Pronoun Type=personal Person=third Number=singular Clitic=no Courtesy=no</cell>	<cell>3</cell>	<cell>992</cell><cell>وي اون/او او</cell></row>
+      <row role="msd"><cell role="msd">Pp3-s---y---------n</cell>	<cell role="verbose">Pronoun Type=personal Person=third Number=singular Clitic=yes Courtesy=no</cell>	<cell>5</cell>	<cell>892</cell><cell>يش/او ش/خود اش/او</cell></row>
+      <row role="msd"><cell role="msd">Pp3-sa--y---------n</cell>	<cell role="verbose">Pronoun Type=personal Person=third Number=singular Case=accusative Clitic=yes Courtesy=no</cell>	<cell>3</cell>	<cell>44</cell><cell>يش/او ش/او اش/او</cell></row>
+      <row role="msd"><cell role="msd">Pp3-p---n</cell>	<cell role="verbose">Pronoun Type=personal Person=third Number=plural Clitic=no</cell>	<cell>6</cell>	<cell>504</cell><cell>اونا/آنها آنهايي/آنها آنان</cell></row>
+      <row role="msd"><cell role="msd">Pp3-p---y</cell>	<cell role="verbose">Pronoun Type=personal Person=third Number=plural Clitic=yes</cell>	<cell>4</cell>	<cell>106</cell><cell>يشان/آنها شون/خود شان/آنها</cell></row>
+      <row role="msd"><cell role="msd">Pp3-pa--y</cell>	<cell role="verbose">Pronoun Type=personal Person=third Number=plural Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>10</cell><cell>شان/آنها</cell></row>
+      <row role="msd"><cell role="msd">Pp2-s---n---------n</cell>	<cell role="verbose">Pronoun Type=personal Person=second Number=singular Clitic=no Courtesy=no</cell>	<cell>1</cell>	<cell>213</cell><cell>تو</cell></row>
+      <row role="msd"><cell role="msd">Pp2-s---n---------y</cell>	<cell role="verbose">Pronoun Type=personal Person=second Number=singular Clitic=no Courtesy=yes</cell>	<cell>1</cell>	<cell>56</cell><cell>شما</cell></row>
+      <row role="msd"><cell role="msd">Pp2-s---y---------n</cell>	<cell role="verbose">Pronoun Type=personal Person=second Number=singular Clitic=yes Courtesy=no</cell>	<cell>4</cell>	<cell>60</cell><cell>يت/تو ت/تو ات/تو</cell></row>
+      <row role="msd"><cell role="msd">Pp2-s---y---------y</cell>	<cell role="verbose">Pronoun Type=personal Person=second Number=singular Clitic=yes Courtesy=yes</cell>	<cell>3</cell>	<cell>11</cell><cell>يتان/تو تون/تو تان/تو</cell></row>
+      <row role="msd"><cell role="msd">Pp2-sa--n</cell>	<cell role="verbose">Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=no</cell>	<cell>1</cell>	<cell>2</cell><cell>ترا/تو</cell></row>
+      <row role="msd"><cell role="msd">Pp2-sa--y---------n</cell>	<cell role="verbose">Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=yes Courtesy=no</cell>	<cell>3</cell>	<cell>40</cell><cell>ِت/تو ت/تو ات/تو</cell></row>
+      <row role="msd"><cell role="msd">Pp2-sa--y---------y</cell>	<cell role="verbose">Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=yes Courtesy=yes</cell>	<cell>1</cell>	<cell>1</cell><cell>تان/تو</cell></row>
+      <row role="msd"><cell role="msd">Pp2-p---n</cell>	<cell role="verbose">Pronoun Type=personal Person=second Number=plural Clitic=no</cell>	<cell>3</cell>	<cell>73</cell><cell>شماها/شما شما اتان/شما</cell></row>
+      <row role="msd"><cell role="msd">Pp2-p---y</cell>	<cell role="verbose">Pronoun Type=personal Person=second Number=plural Clitic=yes</cell>	<cell>2</cell>	<cell>3</cell><cell>يتان/شما تان/شما</cell></row>
+      <row role="msd"><cell role="msd">Dd</cell>	<cell role="verbose">Determiner Type=demonstrative</cell>	<cell>23</cell>	<cell>1326</cell><cell>آن‌نوع آن‌دست آن</cell></row>
+      <row role="msd"><cell role="msd">Di</cell>	<cell role="verbose">Determiner Type=indefinite</cell>	<cell>57</cell>	<cell>1227</cell><cell>کليهٔ/کليه ساير انواعِ/نوع</cell></row>
+      <row role="msd"><cell role="msd">Dq</cell>	<cell role="verbose">Determiner Type=interrogative</cell>	<cell>8</cell>	<cell>163</cell><cell>چه‌مقدار چه‌جور چند</cell></row>
+      <row role="msd"><cell role="msd">De</cell>	<cell role="verbose">Determiner Type=exclamative</cell>	<cell>2</cell>	<cell>11</cell><cell>چه‌قدر چه</cell></row>
+      <row role="msd"><cell role="msd">Da</cell>	<cell role="verbose">Determiner Type=article</cell>	<cell>3</cell>	<cell>393</cell><cell>يکي/يک يک يه/يک</cell></row>
+      <row role="msd"><cell role="msd">Dx</cell>	<cell role="verbose">Determiner Type=exceptional</cell>	<cell>1</cell>	<cell>50</cell><cell>تنها</cell></row>
+      <row role="msd"><cell role="msd">R-p</cell>	<cell role="verbose">Adverb Degree=positive</cell>	<cell>427</cell>	<cell>4312</cell><cell>خيره تمام‌وقت بي‌شک</cell></row>
+      <row role="msd"><cell role="msd">R-p----g</cell>	<cell role="verbose">Adverb Degree=positive Case=genitive</cell>	<cell>19</cell>	<cell>65</cell><cell>پشتِ/پشت صرفِ/صرف جلويِ/جلو</cell></row>
+      <row role="msd"><cell role="msd">R-c</cell>	<cell role="verbose">Adverb Degree=comparative</cell>	<cell>22</cell>	<cell>145</cell><cell>بالاتر/بالا استوارتر/استوار آرام‌تر/آرام</cell></row>
+      <row role="msd"><cell role="msd">Spc</cell>	<cell role="verbose">Adposition Type=preposition Formation=compound</cell>	<cell>134</cell>	<cell>1038</cell><cell>از‌لايِ/ازلا ازلحاظِ/ازلحاظ ازجانبِ/ازجانب</cell></row>
+      <row role="msd"><cell role="msd">Sps</cell>	<cell role="verbose">Adposition Type=preposition Formation=simple</cell>	<cell>94</cell>	<cell>10419</cell><cell>پشتِ‌سر طي طرفِ/طرف</cell></row>
+      <row role="msd"><cell role="msd">Sts</cell>	<cell role="verbose">Adposition Type=postposition Formation=simple</cell>	<cell>4</cell>	<cell>2489</cell><cell>و/را رو/را را</cell></row>
+      <row role="msd"><cell role="msd">Ccc</cell>	<cell role="verbose">Conjunction Type=coordinating Formation=compound</cell>	<cell>7</cell>	<cell>26</cell><cell>برخلافِ/برخلاف برايِ‌همين آن‌چنانکه</cell></row>
+      <row role="msd"><cell role="msd">Ccs</cell>	<cell role="verbose">Conjunction Type=coordinating Formation=simple</cell>	<cell>18</cell>	<cell>5617</cell><cell>طيِّ/طيّ ضمناً بلکه</cell></row>
+      <row role="msd"><cell role="msd">Csc</cell>	<cell role="verbose">Conjunction Type=subordinating Formation=compound</cell>	<cell>43</cell>	<cell>242</cell><cell>به‌اين‌دليل‌که ازبس‌که ازآنجاکه</cell></row>
+      <row role="msd"><cell role="msd">Css</cell>	<cell role="verbose">Conjunction Type=subordinating Formation=simple</cell>	<cell>13</cell>	<cell>3086</cell><cell>حتي اگه/اگر اگر</cell></row>
+      <row role="msd"><cell role="msd">Mc</cell>	<cell role="verbose">Numeral Type=cardinal</cell>	<cell>96</cell>	<cell>1102</cell><cell>سيزده سه‌هزار بيست‌وپنج</cell></row>
+      <row role="msd"><cell role="msd">Mc----n</cell>	<cell role="verbose">Numeral Type=cardinal Definiteness=no</cell>	<cell>3</cell>	<cell>116</cell><cell>يکي/يک نيمي/نيم اندي/اند</cell></row>
+      <row role="msd"><cell role="msd">Mc--g</cell>	<cell role="verbose">Numeral Type=cardinal Case=genitive</cell>	<cell>11</cell>	<cell>35</cell><cell>دوِ/دو دويِ/دو دهِ/ده</cell></row>
+      <row role="msd"><cell role="msd">Mo</cell>	<cell role="verbose">Numeral Type=ordinal</cell>	<cell>13</cell>	<cell>77</cell><cell>هجدهم/هجده نهم/نه دهم/ده</cell></row>
+      <row role="msd"><cell role="msd">Mo----n</cell>	<cell role="verbose">Numeral Type=ordinal Definiteness=no</cell>	<cell>1</cell>	<cell>1</cell><cell>سومي/سه</cell></row>
+      <row role="msd"><cell role="msd">Mo--g</cell>	<cell role="verbose">Numeral Type=ordinal Case=genitive</cell>	<cell>6</cell>	<cell>13</cell><cell>چهارمِ/چهار هفدهمِ/هفده نوزدهمِ/نوزده</cell></row>
+      <row role="msd"><cell role="msd">Mf--g</cell>	<cell role="verbose">Numeral Type=fractal Case=genitive</cell>	<cell>2</cell>	<cell>6</cell><cell>يک‌چهارمِ/يک‌چهار يک‌پنجمِ/يک‌پنج</cell></row>
+      <row role="msd"><cell role="msd">Mr</cell>	<cell role="verbose">Numeral Type=ordinal2</cell>	<cell>9</cell>	<cell>73</cell><cell>هزارمين/هزار نهمين/نه دومين/دو</cell></row>
+      <row role="msd"><cell role="msd">I</cell>	<cell role="verbose">Interjection</cell>	<cell>25</cell>	<cell>218</cell><cell>مبادا راستي اوه</cell></row>
+      <row role="msd"><cell role="msd">Y</cell>	<cell role="verbose">Abbreviation</cell>	<cell>2</cell>	<cell>3</cell><cell>و ج</cell></row>
+      <row role="msd"><cell role="msd">X</cell>	<cell role="verbose">Residual</cell>	<cell>0</cell>	<cell>0</cell><cell>2+2=5</cell></row>
+    </table>
+  </div>
+</div>

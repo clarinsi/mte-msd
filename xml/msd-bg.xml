@@ -1,0 +1,1468 @@
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="bg" xml:id="msd-bg" xml:lang="en">
+  <head>Bulgarian Specifications</head>
+  <docAuthor>Radoslav Pavlov, L.Dimitrova, Ludmila Sinapova, Kiril Simov</docAuthor>
+  <docDate>2009-10-06</docDate>
+  <list type="gloss">
+    <label>Language Name:</label>
+    <item>Bulgarian</item>
+    <label>Code:</label>
+    <item>bg</item>
+    <label>Reference:</label>
+    <item>
+      <ref target="http://www.ethnologue.com/language/bul">Ethnologue</ref>
+    </item>
+  </list>
+  <divGen type="subtoc"/>
+  <div type="section" select="bg" xml:id="msd.categories-bg">
+    <head>Bulgarian Category Index</head>
+    <divGen type="msd.cats" select="bg"/>
+  </div>
+  <div type="section" select="bg" xml:id="msd.N-bg">
+    <head>Bulgarian Noun</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.N-bg">
+      <head>Bulgarian Specification for Noun</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Noun</cell>
+        <cell role="code" xml:lang="en">N</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">common</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">proper</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Gender</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">masculine</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">feminine</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">neuter</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">3</cell>
+        <cell role="name" xml:lang="en">Number</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">singular</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">plural</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">count</cell>
+              <cell role="code" xml:lang="en">t</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">4</cell>
+        <cell role="name" xml:lang="en">Case</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">nominative</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">vocative</cell>
+              <cell role="code" xml:lang="en">v</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">5</cell>
+        <cell role="name" xml:lang="en">Definiteness</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">short-art</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">full-art</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>POS</cell><cell>Type</cell><cell>Gend</cell><cell>Numb</cell><cell>Case</cell><cell>Def</cell><cell>Clit</cell><cell>Anim</cell><cell>OwnN</cell><cell>OwnP</cell><cell>OwdN</cell><cell>Examples</cell></row>
+<row><cell>N</cell><cell>[cp]</cell><cell>[mfn]</cell><cell>[sp]</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>narod, zhena, selo, Ivan, Penka</cell></row>
+<row><cell>N</cell><cell>[cp]</cell><cell>m</cell><cell>s</cell><cell>-</cell><cell>[sf]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>naroda, narodyt</cell></row>
+<row><cell>N</cell><cell>[cp]</cell><cell>[mf]</cell><cell>-</cell><cell>v</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>narode, zheno</cell></row>
+<row><cell>N</cell><cell>[cp]</cell><cell>[mfn]</cell><cell>p</cell><cell>-</cell><cell>y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>narodite, zhenite, selata</cell></row>
+<row><cell>N</cell><cell>[cp]</cell><cell>[fn]</cell><cell>s</cell><cell>-</cell><cell>y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>zhenata, seloto</cell></row>
+<row><cell>N</cell><cell>c</cell><cell>m</cell><cell>t</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>naroda</cell></row>
+</table>
+</div>
+  <divGen type="msd.lex" select="bg"/>
+  </div>
+  <div type="section" select="bg" xml:id="msd.V-bg">
+    <head>Bulgarian Verb</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.V-bg">
+      <head>Bulgarian Specification for Verb</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Verb</cell>
+        <cell role="code" xml:lang="en">V</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">main</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">auxiliary</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">VForm</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">indicative</cell>
+              <cell role="code" xml:lang="en">i</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">imperative</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">participle</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">gerund</cell>
+              <cell role="code" xml:lang="en">g</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">3</cell>
+        <cell role="name" xml:lang="en">Tense</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">present</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">imperfect</cell>
+              <cell role="code" xml:lang="en">i</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">past</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">aorist</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">4</cell>
+        <cell role="name" xml:lang="en">Person</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">first</cell>
+              <cell role="code" xml:lang="en">1</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">second</cell>
+              <cell role="code" xml:lang="en">2</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">third</cell>
+              <cell role="code" xml:lang="en">3</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">5</cell>
+        <cell role="name" xml:lang="en">Number</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">singular</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">plural</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">6</cell>
+        <cell role="name" xml:lang="en">Gender</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">masculine</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">feminine</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">neuter</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">7</cell>
+        <cell role="name" xml:lang="en">Voice</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">active</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">passive</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">9</cell>
+        <cell role="name" xml:lang="en">Definiteness</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">short-art</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">full-art</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>PoS</cell><cell>Type</cell><cell>VFrm</cell><cell>Tens</cell><cell>Pers</cell><cell>Numb</cell><cell>Gend</cell><cell>Voic</cell><cell>Neg</cell><cell>Def</cell><cell>Cl1</cell><cell>Case</cell><cell>An</cell><cell>Cl2</cell><cell>Example</cell></row>
+<row><cell>V</cell><cell>[ma]</cell><cell>i</cell><cell>[pai]</cell><cell>[123]</cell><cell>[sp]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govorya, sym</cell></row>
+<row><cell>V</cell><cell>[ma]</cell><cell>m</cell><cell>-</cell><cell>2</cell><cell>[sp]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govori, bydete</cell></row>
+<row><cell>V</cell><cell>m</cell><cell>p</cell><cell>[pai]</cell><cell>-</cell><cell>s</cell><cell>[mfn]</cell><cell>a</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govorest, govorila</cell></row>
+<row><cell>V</cell><cell>m</cell><cell>p</cell><cell>[pa]</cell><cell>-</cell><cell>s</cell><cell>m</cell><cell>a</cell><cell>-</cell><cell>[sf]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govorestiya, govorestiyat</cell></row>
+<row><cell>V</cell><cell>m</cell><cell>p</cell><cell>[pa]</cell><cell>-</cell><cell>s</cell><cell>[fn]</cell><cell>a</cell><cell>-</cell><cell>y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govorestta, govoriloto</cell></row>
+<row><cell>V</cell><cell>m</cell><cell>p</cell><cell>[pai]</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>a</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govoresti, govoreli</cell></row>
+<row><cell>V</cell><cell>m</cell><cell>p</cell><cell>[pa]</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>a</cell><cell>-</cell><cell>y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govoresti, govorilite</cell></row>
+<row><cell>V</cell><cell>m</cell><cell>p</cell><cell>s</cell><cell>-</cell><cell>s</cell><cell>[mfn]</cell><cell>p</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govoren, govorena</cell></row>
+<row><cell>V</cell><cell>m</cell><cell>p</cell><cell>s</cell><cell>-</cell><cell>s</cell><cell>m</cell><cell>p</cell><cell>-</cell><cell>[sf]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govoreniya, govoreniyat</cell></row>
+<row><cell>V</cell><cell>m</cell><cell>p</cell><cell>s</cell><cell>-</cell><cell>s</cell><cell>[fn]</cell><cell>p</cell><cell>-</cell><cell>y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govorenata, govorenoto</cell></row>
+<row><cell>V</cell><cell>m</cell><cell>p</cell><cell>s</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govoreni, govorenite</cell></row>
+<row><cell>V</cell><cell>a</cell><cell>p</cell><cell>[ai]</cell><cell>-</cell><cell>s</cell><cell>[mfn]</cell><cell>a</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>bil, bila</cell></row>
+<row><cell>V</cell><cell>a</cell><cell>p</cell><cell>[a]</cell><cell>-</cell><cell>s</cell><cell>m</cell><cell>a</cell><cell>-</cell><cell>[sf]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>biliya, biliyat</cell></row>
+<row><cell>V</cell><cell>a</cell><cell>p</cell><cell>[a]</cell><cell>-</cell><cell>s</cell><cell>[fn]</cell><cell>a</cell><cell>-</cell><cell>y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>bilata, biloto</cell></row>
+<row><cell>V</cell><cell>a</cell><cell>p</cell><cell>[ai]</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>a</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>bili</cell></row>
+<row><cell>V</cell><cell>a</cell><cell>p</cell><cell>[a]</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>a</cell><cell>-</cell><cell>y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>bilite</cell></row>
+<row><cell>V</cell><cell>[ma]</cell><cell>g</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>govorejki, bidejki</cell></row>
+</table>
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.A-bg">
+    <head>Bulgarian Adjective</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.A-bg">
+      <head>Bulgarian Specification for Adjective</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Adjective</cell>
+        <cell role="code" xml:lang="en">A</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">3</cell>
+        <cell role="name" xml:lang="en">Gender</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">masculine</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">feminine</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">neuter</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">4</cell>
+        <cell role="name" xml:lang="en">Number</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">singular</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">plural</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">6</cell>
+        <cell role="name" xml:lang="en">Definiteness</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">short-art</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">full-art</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>PoS</cell><cell>Type</cell><cell>Degr</cell><cell>Gend</cell><cell>Numb</cell><cell>Case</cell><cell>Def</cell><cell>Clit</cell><cell>An</cell><cell>Frm</cell><cell>OnN</cell><cell>OnP</cell><cell>OdN</cell><cell>Example</cell></row>
+<row><cell>A</cell><cell>-</cell><cell>-</cell><cell>[mfn]</cell><cell>s</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>beden, bedna</cell></row>
+<row><cell>A</cell><cell>-</cell><cell>-</cell><cell>m</cell><cell>s</cell><cell>-</cell><cell>[sf]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>bedniya, bedniyat</cell></row>
+<row><cell>A</cell><cell>-</cell><cell>-</cell><cell>[fn]</cell><cell>s</cell><cell>-</cell><cell>y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>bednata, bednoto</cell></row>
+<row><cell>A</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>bedni, bednite</cell></row>
+</table>
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.P-bg">
+    <head>Bulgarian Pronoun</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.P-bg">
+      <head>Bulgarian Specification for Pronoun</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Pronoun</cell>
+        <cell role="code" xml:lang="en">P</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">personal</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">demonstrative</cell>
+              <cell role="code" xml:lang="en">d</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">indefinite</cell>
+              <cell role="code" xml:lang="en">i</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">possessive</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">interrogative</cell>
+              <cell role="code" xml:lang="en">q</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">relative</cell>
+              <cell role="code" xml:lang="en">r</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">reflexive</cell>
+              <cell role="code" xml:lang="en">x</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">negative</cell>
+              <cell role="code" xml:lang="en">z</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">general</cell>
+              <cell role="code" xml:lang="en">g</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Person</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">first</cell>
+              <cell role="code" xml:lang="en">1</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">second</cell>
+              <cell role="code" xml:lang="en">2</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">third</cell>
+              <cell role="code" xml:lang="en">3</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">3</cell>
+        <cell role="name" xml:lang="en">Gender</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">masculine</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">feminine</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">neuter</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">4</cell>
+        <cell role="name" xml:lang="en">Number</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">singular</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">plural</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">5</cell>
+        <cell role="name" xml:lang="en">Case</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">nominative</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">dative</cell>
+              <cell role="code" xml:lang="en">d</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">accusative</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">8</cell>
+        <cell role="name" xml:lang="en">Clitic</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">9</cell>
+        <cell role="name" xml:lang="en">Referent_Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">personal</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">possessive</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">attributive</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">quantitative</cell>
+              <cell role="code" xml:lang="en">q</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">11</cell>
+        <cell role="name" xml:lang="en">Definiteness</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">short-art</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">full-art</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>PoS</cell><cell>Type</cell><cell>Pers</cell><cell>Gnd</cell><cell>Nmb</cell><cell>Case</cell><cell>OnN</cell><cell>OnG</cell><cell>Clt</cell><cell>RefT</cell><cell>SynT</cell><cell>Def</cell><cell>Example</cell></row>
+<row><cell>P</cell><cell>p</cell><cell>[12]</cell><cell>-</cell><cell>s</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>az, ti 	</cell></row>
+<row><cell>P</cell><cell>p</cell><cell>3</cell><cell>[mfn]</cell><cell>s</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>toj, tya, to 	</cell></row>
+<row><cell>P</cell><cell>p</cell><cell>[123]</cell><cell>-</cell><cell>p</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>nie, vie, te 	</cell></row>
+<row><cell>P</cell><cell>p</cell><cell>[12]</cell><cell>-</cell><cell>s</cell><cell>[ad]</cell><cell>-</cell><cell>-</cell><cell>[yn]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>mene, me, mi, mene me</cell></row>
+<row><cell>P</cell><cell>p</cell><cell>3</cell><cell>[mnf]</cell><cell>s</cell><cell>[ad]</cell><cell>-</cell><cell>-</cell><cell>[yn]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>nego, go, nego go</cell></row>
+<row><cell>P</cell><cell>p</cell><cell>[123]</cell><cell>-</cell><cell>p</cell><cell>[ad]</cell><cell>-</cell><cell>-</cell><cell>[yn]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>nas, ni, nas ni, nam</cell></row>
+<row><cell>P</cell><cell>d</cell><cell>-</cell><cell>[mfn]</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>tozi, tova</cell></row>
+<row><cell>P</cell><cell>d</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>tezi</cell></row>
+<row><cell>P</cell><cell>d</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>q</cell><cell>-</cell><cell>-</cell><cell>tolkova</cell></row>
+<row><cell>P</cell><cell>[iqrz]</cell><cell>-</cell><cell>m</cell><cell>s</cell><cell>[nad]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>nyakoj, nyakogo, nyakomu, nikoj</cell></row>
+<row><cell>P</cell><cell>[iqrz]</cell><cell>-</cell><cell>m</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>[as]</cell><cell>-</cell><cell>-</cell><cell>nyakakyv, netchij, nikakyv</cell></row>
+<row><cell>P</cell><cell>[iqrz]</cell><cell>-</cell><cell>[fn]</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>[pas]</cell><cell>-</cell><cell>-</cell><cell>nyakoya, nyakakva, nechiya</cell></row>
+<row><cell>P</cell><cell>[iqrz]</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>[pas]</cell><cell>-</cell><cell>-</cell><cell>nyakoi, nyakavi, netchii</cell></row>
+<row><cell>P</cell><cell>[iqrz]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>q</cell><cell>-</cell><cell>-</cell><cell>nyakolko, nikolko, kolko	</cell></row>
+<row><cell>P</cell><cell>s</cell><cell>[123]</cell><cell>m</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>[nsf]</cell><cell>moj, moya, moyat</cell></row>
+<row><cell>P</cell><cell>s</cell><cell>[123]</cell><cell>[fn]</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>[ny]</cell><cell>moya, moyata, tvoya</cell></row>
+<row><cell>P</cell><cell>s</cell><cell>[123]</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>n</cell><cell>-</cell><cell>-</cell><cell>[ny]</cell><cell>moi, moite, tvoi</cell></row>
+<row><cell>P</cell><cell>s</cell><cell>[123]</cell><cell>-</cell><cell>[sp]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>mi, ti, mu, j, ni, vi, im</cell></row>
+<row><cell>P</cell><cell>x</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>[ad]</cell><cell>-</cell><cell>-</cell><cell>[ny]</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>sebe, se, si, sebe si</cell></row>
+<row><cell>P</cell><cell>x</cell><cell>-</cell><cell>m</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>n</cell><cell>s</cell><cell>-</cell><cell>[nsf]</cell><cell>svoj, svoyat, svoya 	</cell></row>
+<row><cell>P</cell><cell>x</cell><cell>-</cell><cell>[fn]</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>n</cell><cell>s</cell><cell>-</cell><cell>[ny]</cell><cell>svoya, svoyata 	</cell></row>
+<row><cell>P</cell><cell>x</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>n</cell><cell>s</cell><cell>-</cell><cell>[ny]</cell><cell>svoi, svoite 	</cell></row>
+<row><cell>P</cell><cell>x</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>y</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>si</cell></row>
+<row><cell>P</cell><cell>g</cell><cell>-</cell><cell>m</cell><cell>s</cell><cell>[nad]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>vseki, vsekigo, vsekimu</cell></row>
+<row><cell>P</cell><cell>g</cell><cell>-</cell><cell>m</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>a</cell><cell>-</cell><cell>-</cell><cell>vsyakakyv</cell></row>
+<row><cell>P</cell><cell>g</cell><cell>-</cell><cell>[fn]</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>[pa]</cell><cell>-</cell><cell>-</cell><cell>vsyaka, vsyakakva</cell></row>
+<row><cell>P</cell><cell>g</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>[pa]</cell><cell>-</cell><cell>-</cell><cell>vsyakoi, vsyakakvi</cell></row>
+<row><cell>P</cell><cell>g</cell><cell>-</cell><cell>m</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>q</cell><cell>-</cell><cell>[sf]</cell><cell>vsitchkiya, vsitchikiyat</cell></row>
+<row><cell>P</cell><cell>g</cell><cell>-</cell><cell>[fn]</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>q</cell><cell>-</cell><cell>[ny]</cell><cell>vsitchka, vsitchkata</cell></row>
+<row><cell>P</cell><cell>g</cell><cell>-</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>q</cell><cell>-</cell><cell>[ny]</cell><cell>vsitchki, vsitchkite</cell></row>
+</table>				        
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.R-bg">
+    <head>Bulgarian Adverb</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.R-bg">
+      <head>Bulgarian Specification for Adverb</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Adverb</cell>
+        <cell role="code" xml:lang="en">R</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">general</cell>
+              <cell role="code" xml:lang="en">g</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">adjectival</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <div n="notes">
+<head>Notes</head>
+
+
+<p>Adverbs of type adjectival have the same form as adjectives in
+Gender = neuter, Person = 3, Number = singular.</p>
+</div>
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>POS</cell><cell>Type</cell><cell>Degr</cell><cell>Clct</cell><cell>Numb</cell><cell>Pers</cell><cell>Example</cell></row>
+<row><cell>R</cell><cell>g</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>tuk, mnogo</cell></row>
+<row><cell>R</cell><cell>a</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>umno, veselo, studeno</cell></row>
+</table>
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.S-bg">
+    <head>Bulgarian Adposition</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.S-bg">
+      <head>Bulgarian Specification for Adposition</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Adposition</cell>
+        <cell role="code" xml:lang="en">S</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">preposition</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>POS</cell><cell>Type</cell><cell>Form</cell><cell>Case</cell><cell>Cltc</cell><cell>Examples</cell></row>
+<row><cell>S</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>na, za, v, okolo, spored</cell></row>
+</table>
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.C-bg">
+    <head>Bulgarian Conjunction</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.C-bg">
+      <head>Bulgarian Specification for Conjunction</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Conjunction</cell>
+        <cell role="code" xml:lang="en">C</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">coordinating</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">subordinating</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Formation</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">simple</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">compound</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>PoS</cell><cell>Type</cell><cell>Form</cell><cell>CTyp</cell><cell>SubT</cell><cell>Clit</cell><cell>Numb</cell><cell>Pers</cell><cell>Examples</cell></row>
+<row><cell>C</cell><cell>c</cell><cell>[sc]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>i, a, ami, tche, tyj tche</cell></row>
+<row><cell>C</cell><cell>s</cell><cell>[sc]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>tche, da, kato, za da</cell></row>
+</table>
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.M-bg">
+    <head>Bulgarian Numeral</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.M-bg">
+      <head>Bulgarian Specification for Numeral</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Numeral</cell>
+        <cell role="code" xml:lang="en">M</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">cardinal</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">ordinal</cell>
+              <cell role="code" xml:lang="en">o</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Gender</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">masculine</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">feminine</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">neuter</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">3</cell>
+        <cell role="name" xml:lang="en">Number</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">singular</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">plural</cell>
+              <cell role="code" xml:lang="en">p</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">5</cell>
+        <cell role="name" xml:lang="en">Form</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">digit</cell>
+              <cell role="code" xml:lang="en">d</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">roman</cell>
+              <cell role="code" xml:lang="en">r</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">letter</cell>
+              <cell role="code" xml:lang="en">l</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">m-form</cell>
+              <cell role="code" xml:lang="en">m</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">approx</cell>
+              <cell role="code" xml:lang="en">a</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">6</cell>
+        <cell role="name" xml:lang="en">Definiteness</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">no</cell>
+              <cell role="code" xml:lang="en">n</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">yes</cell>
+              <cell role="code" xml:lang="en">y</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">short-art</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">full-art</cell>
+              <cell role="code" xml:lang="en">f</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>PoS</cell><cell>Type</cell><cell>Gend</cell><cell>Numb</cell><cell>Case</cell><cell>Frm</cell><cell>Def</cell><cell>Clit</cell><cell>Clas</cell><cell>Anim</cell><cell>OwnN</cell><cell>OwnP</cell><cell>OwdN</cell><cell>Example</cell></row>
+<row><cell>M</cell><cell>c</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>d</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>984 		</cell></row>
+<row><cell>M</cell><cell>c</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>r</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>X 			</cell></row>
+<row><cell>M</cell><cell>c</cell><cell>m</cell><cell>s</cell><cell>-</cell><cell>l</cell><cell>[nsf]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>din, ediniya, ediniyat</cell></row>
+<row><cell>M</cell><cell>c</cell><cell>[fn]</cell><cell>s</cell><cell>-</cell><cell>l</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>dna, ednata, edno, ednoto</cell></row>
+<row><cell>M</cell><cell>c</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>l</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>dni, ednite 	</cell></row>
+<row><cell>M</cell><cell>c</cell><cell>[mfn]</cell><cell>p</cell><cell>-</cell><cell>l</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>va, dvata, dve, dvete</cell></row>
+<row><cell>M</cell><cell>c</cell><cell>m</cell><cell>p</cell><cell>-</cell><cell>m</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>vama, dvamata, trima</cell></row>
+<row><cell>M</cell><cell>c</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>l</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>ri, trite, chetiri	</cell></row>
+<row><cell>M</cell><cell>c</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>a</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>totina, stotinata</cell></row>
+<row><cell>M</cell><cell>o</cell><cell>m</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>[nsf]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>pyrvi, pyrviya, pyrviyat</cell></row>
+<row><cell>M</cell><cell>o</cell><cell>[fn]</cell><cell>s</cell><cell>-</cell><cell>-</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>pyrva, pyrvata	</cell></row>
+<row><cell>M</cell><cell>o</cell><cell>-</cell><cell>p</cell><cell>-</cell><cell>-</cell><cell>[ny]</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>pyrvi, pyrvite	</cell></row>
+</table>
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.Q-bg">
+    <head>Bulgarian Particle</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.Q-bg">
+      <head>Bulgarian Specification for Particle</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Particle</cell>
+        <cell role="code" xml:lang="en">Q</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">1</cell>
+        <cell role="name" xml:lang="en">Type</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">negative</cell>
+              <cell role="code" xml:lang="en">z</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">general</cell>
+              <cell role="code" xml:lang="en">g</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">comparative</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">verbal</cell>
+              <cell role="code" xml:lang="en">v</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">interrogative</cell>
+              <cell role="code" xml:lang="en">q</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">modal</cell>
+              <cell role="code" xml:lang="en">o</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Formation</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">simple</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">compound</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    <div n="notes">
+<head>Notes</head>
+
+
+<p>In Bulgarian superlative particles  "po" and "naj" precede
+the superlative Forms of adjectives and adverbs:
+"po-hubav", "naj-hubav", "po-bavno", "naj-bavno".</p></div>
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>POS</cell><cell>Type</cell><cell>Form</cell><cell>Cltc</cell><cell>Examples</cell></row>
+<row><cell>Q</cell><cell>[go]</cell><cell>[sc]</cell><cell>-</cell><cell>a, be, neka, hajde de</cell></row>
+<row><cell>Q</cell><cell>[cvzq]</cell><cell>s</cell><cell>-</cell><cell>po, naj, ne, li, nali</cell></row>
+</table>
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.I-bg">
+    <head>Bulgarian Interjection</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.I-bg">
+      <head>Bulgarian Specification for Interjection</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Interjection</cell>
+        <cell role="code" xml:lang="en">I</cell>
+      </row>
+      <row role="attribute">
+        <cell role="position">2</cell>
+        <cell role="name" xml:lang="en">Formation</cell>
+        <cell role="values">
+          <table>
+            <row role="value">
+              <cell role="name" xml:lang="en">simple</cell>
+              <cell role="code" xml:lang="en">s</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">compound</cell>
+              <cell role="code" xml:lang="en">c</cell>
+            </row>
+          </table>
+        </cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>POS</cell><cell>Type</cell><cell>Formation</cell><cell>Examples</cell></row>
+<row><cell>I</cell><cell>-</cell><cell>s</cell><cell>o, hm-m, ha-ha, ah-lele, uvi</cell></row>
+<row><cell>I</cell><cell>-</cell><cell>c</cell><cell>diavol da go vzeme, ama rabota, bozhe moj</cell></row>
+</table>
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.Y-bg">
+    <head>Bulgarian Abbreviation</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.Y-bg">
+      <head>Bulgarian Specification for Abbreviation</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Abbreviation</cell>
+        <cell role="code" xml:lang="en">Y</cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>PoS</cell><cell>SynT</cell><cell>Gend</cell><cell>Numb</cell><cell>Case</cell><cell>Def</cell><cell>Examples</cell></row>
+<row><cell>Y</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>t.n., vzh., lat., razg...</cell></row>
+</table>
+</div>
+   <divGen type="msd.lex" select="bg"/>    
+  </div>
+  <div type="section" select="bg" xml:id="msd.X-bg">
+    <head>Bulgarian Residual</head>
+    <table n="msd.cat" select="bg" xml:id="msd.cat.X-bg">
+      <head>Bulgarian Specification for Residual</head>
+      <row role="type">
+        <cell role="position">0</cell>
+        <cell role="name" xml:lang="en">CATEGORY</cell>
+        <cell role="value" xml:lang="en">Residual</cell>
+        <cell role="code" xml:lang="en">X</cell>
+      </row>
+    </table>
+    
+    <div n="combinations">
+<head>Combinations</head>
+
+<table>
+<row><cell>PoS</cell><cell>Examples</cell></row>
+<row><cell>X</cell><cell>2+2=5</cell></row>
+</table>
+</div>
+<divGen type="msd.lex" select="bg"/>
+</div>
+
+  <div type="section" xml:id="msd.attributes-bg">
+    <head>Bulgarian Attribute Index</head>
+    <p>In this section all the attributes presented in the tables are listed in alphabetical
+        order.</p>
+    <divGen type="msd.atts" select="bg"/>
+  </div>
+  <div type="section" xml:id="msd.values-bg">
+    <head>Bulgarian Value Index</head>
+    <p>The values presented within the tables are, in the following, listed in alphabetical order;
+        the first column gives the name of the value, the second column its code and the third lists
+        attributes for which the value is appropriate.</p>
+    <divGen type="msd.vals" select="bg"/>
+  </div>
+    <div select="bg" type="section" xml:id="msd.msds-bg">
+        <head>Bulgarian MSD Index</head>
+        <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. 
+            In the table below, 
+            the first column gives the MSD, 
+            the second its expansion into a feature-structure,
+            the third gives the number of entries in the lexicon (54,823 entries),
+            and the fourth gives some examples as word-form/lemma. 
+            The list was extracted form the Bulgarian MULTEXT-East lexicon.
+        </p>
+        
+        <table n="msd.lex" xml:id="msd.lex-bg">
+            <head>MSD Table</head>
+            <row>
+                <cell role="label">MSD</cell>
+                <cell role="label">Features</cell>
+                <cell role="label">Lexical entries</cell>
+                <cell role="label">Examples of usage</cell>
+            </row>
+            <!-- LEXICAL MSD TABLE START -->
+<row role="msd"><cell role="msd">Ncm-v</cell>	<cell role="attval">Noun Type=common Gender=masculine Case=vocative</cell>	<cell>42</cell>	<cell>яде/яд, чукане/чукан, човече/човек, цвете/цвят, стане/стан, спомене/спомен</cell></row>
+<row role="msd"><cell role="msd">Ncms-n</cell>	<cell role="attval">Noun Type=common Gender=masculine Number=singular Definiteness=no</cell>	<cell>1785</cell>	<cell>ясновидец, ясен, януари, як, язовир, яд, юрофранк, юростерлинг</cell></row>
+<row role="msd"><cell role="msd">Ncms-s</cell>	<cell role="attval">Noun Type=common Gender=masculine Number=singular Definiteness=short-art</cell>	<cell>1009</cell>	<cell>яка/як, язовира/язовир, яда/яд, юргана/юрган, юношата/юноша, юбилея/юбилей</cell></row>
+<row role="msd"><cell role="msd">Ncms-f</cell>	<cell role="attval">Noun Type=common Gender=masculine Number=singular Definiteness=full-art</cell>	<cell>586</cell>	<cell>язовирът/язовир, югославянинът/югославянин, щатът/щат, щастливецът/щастливец</cell></row>
+<row role="msd"><cell role="msd">Ncmp-n</cell>	<cell role="attval">Noun Type=common Gender=masculine Number=plural Definiteness=no</cell>	<cell>1172</cell>	<cell>ясени/ясен, японци/японец, юристи/юрист, юноши/юноша, юмруци/юмрук</cell></row>
+<row role="msd"><cell role="msd">Ncmp-y</cell>	<cell role="attval">Noun Type=common Gender=masculine Number=plural Definiteness=yes</cell>	<cell>765</cell>	<cell>юрофилите/юрофили, юношите/юноша, юмруците/юмрук, югославяните/югославянин</cell></row>
+<row role="msd"><cell role="msd">Ncmt</cell>	<cell role="attval">Noun Type=common Gender=masculine Number=count</cell>	<cell>940</cell>	<cell>яка/як, язовира/язовир, яда/яд, юргана/юрган, юбилея/юбилей, ъгъла/ъгъл</cell></row>
+<row role="msd"><cell role="msd">Ncf-v</cell>	<cell role="attval">Noun Type=common Gender=feminine Case=vocative</cell>	<cell>32</cell>	<cell>устно/устна, тайно/тайна, Сюткйо/Сюткя, Сърбийо/Сърбия, съгласно/съгласна</cell></row>
+<row role="msd"><cell role="msd">Ncfs-n</cell>	<cell role="attval">Noun Type=common Gender=feminine Number=singular Definiteness=no</cell>	<cell>1875</cell>	<cell>яхния, яснота, ярост, ярка, яка, язва, ябълка, югославянка, щука</cell></row>
+<row role="msd"><cell role="msd">Ncfs-y</cell>	<cell role="attval">Noun Type=common Gender=feminine Number=singular Definiteness=yes</cell>	<cell>1238</cell>	<cell>яхнията/яхния, яснотата/яснота, яслата/ясла, яростта/ярост, ярката/ярка</cell></row>
+<row role="msd"><cell role="msd">Ncfp-n</cell>	<cell role="attval">Noun Type=common Gender=feminine Number=plural Definiteness=no</cell>	<cell>1079</cell>	<cell>ярки/ярка, японки/японка, яки/яка, ябълки/ябълка, юфки/юфка, югославянки/югославянка</cell></row>
+<row role="msd"><cell role="msd">Ncfp-y</cell>	<cell role="attval">Noun Type=common Gender=feminine Number=plural Definiteness=yes</cell>	<cell>603</cell>	<cell>югославянките/югославянка, щангите/щанга, шортите/шорти, шнолите/шнола</cell></row>
+<row role="msd"><cell role="msd">Ncns-n</cell>	<cell role="attval">Noun Type=common Gender=neuter Number=singular Definiteness=no</cell>	<cell>1403</cell>	<cell>ястие, яке, яйце, ядро, ядене, явяване, щракване, щракане, шумолене</cell></row>
+<row role="msd"><cell role="msd">Ncns-y</cell>	<cell role="attval">Noun Type=common Gender=neuter Number=singular Definiteness=yes</cell>	<cell>992</cell>	<cell>якето/яке, яйцето/яйце, ядрото/ядро, явяването/явяване, явления/явление</cell></row>
+<row role="msd"><cell role="msd">Ncnp-n</cell>	<cell role="attval">Noun Type=common Gender=neuter Number=plural Definiteness=no</cell>	<cell>432</cell>	<cell>якета/яке, яйца/яйце, ядра/ядро, яденета/ядене, школа/школо, шествия/шествие</cell></row>
+<row role="msd"><cell role="msd">Ncnp-y</cell>	<cell role="attval">Noun Type=common Gender=neuter Number=plural Definiteness=yes</cell>	<cell>296</cell>	<cell>яйцата/яйце, ъгълчетата/ъгълче, шосетата/шосе, школата/школо</cell></row>
+<row role="msd"><cell role="msd">Npms-n</cell>	<cell role="attval">Noun Type=proper Gender=masculine Number=singular Definiteness=no</cell>	<cell>1591</cell>	<cell>Яшмаков, Яушевац, Ясуо, Ясенов, Ян, Янчулев, Янкулов, Ян-Кржишчов</cell></row>
+<row role="msd"><cell role="msd">Npms-s</cell>	<cell role="attval">Noun Type=proper Gender=masculine Number=singular Definiteness=short-art</cell>	<cell>10</cell>	<cell>Шилигарника, Христа, Интернационала, Иисуса, Изтока, Запада, ВОДОЛЕЯ</cell></row>
+<row role="msd"><cell role="msd">Npms-f</cell>	<cell role="attval">Noun Type=proper Gender=masculine Number=singular Definiteness=full-art</cell>	<cell>6</cell>	<cell>СКОРПИОНЪТ, Олимпът, Мерцедесът, Западът, Дяконът, Богът</cell></row>
+<row role="msd"><cell role="msd">Npmp-n</cell>	<cell role="attval">Noun Type=proper Gender=masculine Number=plural Definiteness=no</cell>	<cell>17</cell>	<cell>Чапкънови, Сярови, Сергинови, Секюрити, Рупите, Рангелови, Парсънови</cell></row>
+<row role="msd"><cell role="msd">Npmp-y</cell>	<cell role="attval">Noun Type=proper Gender=masculine Number=plural Definiteness=yes</cell>	<cell>3</cell>	<cell>Филипините, БАЛКАНИТЕ, Балканите</cell></row>
+<row role="msd"><cell role="msd">Npfs-n</cell>	<cell role="attval">Noun Type=proper Gender=feminine Number=singular Definiteness=no</cell>	<cell>917</cell>	<cell>Япония, Янтра, Янкула, Янка, Яна, Якутия, Ява, ЯВАШЕВА, Юнионбанк</cell></row>
+<row role="msd"><cell role="msd">Npfs-y</cell>	<cell role="attval">Noun Type=proper Gender=feminine Number=singular Definiteness=yes</cell>	<cell>9</cell>	<cell>Магурата, Катето, Емата, Еврокомисията, ДЕВАТА, Девата, Василиевата</cell></row>
+<row role="msd"><cell role="msd">Npfp-n</cell>	<cell role="attval">Noun Type=proper Gender=feminine Number=plural Definiteness=no</cell>	<cell>5</cell>	<cell>Шиили, ПАРИ, Дюни, Арбанаси, Алиси</cell></row>
+<row role="msd"><cell role="msd">Npns-n</cell>	<cell role="attval">Noun Type=proper Gender=neuter Number=singular Definiteness=no</cell>	<cell>75</cell>	<cell>Чупето, Чикаго, Черноочане, Черноморие, Черниче, Хърватско, Химко</cell></row>
+<row role="msd"><cell role="msd">Npns-y</cell>	<cell role="attval">Noun Type=proper Gender=neuter Number=singular Definiteness=yes</cell>	<cell>3</cell>	<cell>Черноморието, Лудогорието, Зайченцето</cell></row>
+<row role="msd"><cell role="msd">Vmip1s</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=present Person=first Number=singular</cell>	<cell>950</cell>	<cell>ядна, явя, щукна, шумна, шмугна, шия, чуя, чукам, чудя</cell></row>
+<row role="msd"><cell role="msd">Vmip1p</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=present Person=first Number=plural</cell>	<cell>425</cell>	<cell>ядосваме/ядосвам, чукнем/чукна, чуем/чуя, чувстваме/чувствам</cell></row>
+<row role="msd"><cell role="msd">Vmip2s</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=present Person=second Number=singular</cell>	<cell>356</cell>	<cell>ядеш/ям, чукаш/чукам, чуеш/чуя, чудиш/чудя, чувстваш/чувствам</cell></row>
+<row role="msd"><cell role="msd">Vmip2p</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=present Person=second Number=plural</cell>	<cell>387</cell>	<cell>шантажирате/шантажирам, чуждите/чуждя, чуете/чуя, чудите/чудя</cell></row>
+<row role="msd"><cell role="msd">Vmip3s</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=present Person=third Number=singular</cell>	<cell>2475</cell>	<cell>яка/якам, ядосва/ядосвам, ядоса/ядосам, яде/ям, явява/явявам</cell></row>
+<row role="msd"><cell role="msd">Vmip3p</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=present Person=third Number=plural</cell>	<cell>1349</cell>	<cell>ядосват/ядосвам, явят/явя, явяват/явявам, шушукат/шушукам, шпионират/шпионирам</cell></row>
+<row role="msd"><cell role="msd">Vmii1s</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=imperfect Person=first Number=singular</cell>	<cell>324</cell>	<cell>ядосах/ядосам, шиех/шия, шепнех/шепна, чудех/чудя, чувствувах/чувствувам</cell></row>
+<row role="msd"><cell role="msd">Vmii1p</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=imperfect Person=first Number=plural</cell>	<cell>152</cell>	<cell>ядяхме/ям, шепнехме/шепна, чудехме/чудя, чувствахме/чувствам</cell></row>
+<row role="msd"><cell role="msd">Vmii2s</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular</cell>	<cell>928</cell>	<cell>шушукаше/шушукам, шептеше/шептя, шепнеше/шепна, чукаше/чукам</cell></row>
+<row role="msd"><cell role="msd">Vmii2p</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural</cell>	<cell>18</cell>	<cell>хвърляхте/хвърлям, търсехте/търся, спряхте/спра, разпитвахте/разпитвам</cell></row>
+<row role="msd"><cell role="msd">Vmii3s</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular</cell>	<cell>928</cell>	<cell>шушукаше/шушукам, шептеше/шептя, шепнеше/шепна, чукаше/чукам</cell></row>
+<row role="msd"><cell role="msd">Vmii3p</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural</cell>	<cell>682</cell>	<cell>ядяха/ям, явяваха/явявам, шпионираха/шпионирам, шиеха/шия, чудеха/чудя</cell></row>
+<row role="msd"><cell role="msd">Vmia1s</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=aorist Person=first Number=singular</cell>	<cell>531</cell>	<cell>ядох/ям, ядосах/ядосам, чух/чуя, чувствувах/чувствувам, чувствах/чувствам</cell></row>
+<row role="msd"><cell role="msd">Vmia1p</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=aorist Person=first Number=plural</cell>	<cell>225</cell>	<cell>щракнахме/щракна, чухме/чуя, чувствахме/чувствам, чувахме/чувам</cell></row>
+<row role="msd"><cell role="msd">Vmia2s</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=aorist Person=second Number=singular</cell>	<cell>2603</cell>	<cell>яка/якам, ядосва/ядосвам, ядоса/ядосам, ядна, яде/ям, явява/явявам</cell></row>
+<row role="msd"><cell role="msd">Vmia2p</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=aorist Person=second Number=plural</cell>	<cell>53</cell>	<cell>чухте/чуя, хвърляхте/хвърлям, уредихте/уредя, ударихте/ударя</cell></row>
+<row role="msd"><cell role="msd">Vmia3s</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular</cell>	<cell>2613</cell>	<cell>яка/якам, ядосва/ядосвам, ядоса/ядосам, ядна, яде/ям, явява/явявам</cell></row>
+<row role="msd"><cell role="msd">Vmia3p</cell>	<cell role="attval">Verb Type=main VForm=indicative Tense=aorist Person=third Number=plural</cell>	<cell>934</cell>	<cell>явяваха/явявам, явиха/явя, шпионираха/шпионирам, чуха/чуя, чувстваха/чувствам</cell></row>
+<row role="msd"><cell role="msd">Vmm-2s</cell>	<cell role="attval">Verb Type=main VForm=imperative Person=second Number=singular</cell>	<cell>929</cell>	<cell>яви/явя, щети/щетя, шумни/шумна, шуми/шумя, ширни/ширна, шикалкави/шикалкавя</cell></row>
+<row role="msd"><cell role="msd">Vmm-2p</cell>	<cell role="attval">Verb Type=main VForm=imperative Person=second Number=plural</cell>	<cell>132</cell>	<cell>чуйте/чуя, четете/чета, чакайте/чакам, царете/царя, хващайте/хващам</cell></row>
+<row role="msd"><cell role="msd">Vmpp-sma-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=no</cell>	<cell>106</cell>	<cell>чуващ/чувам, хленчещ/хленча, умиращ/умирам, тълкуващ/тълкувам</cell></row>
+<row role="msd"><cell role="msd">Vmpp-sma-s</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=short-art</cell>	<cell>34</cell>	<cell>царящия/царя, управляващия/управлявам, терзаещия/терзая, следващия/следвам</cell></row>
+<row role="msd"><cell role="msd">Vmpp-sma-f</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=full-art</cell>	<cell>16</cell>	<cell>управляващият/управлявам, умиращият/умирам, ужасяващият/ужасявам</cell></row>
+<row role="msd"><cell role="msd">Vmpp-sfa-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=no</cell>	<cell>124</cell>	<cell>целяща/целя, фрапираща/фрапирам, устремяваща/устремявам, управляваща/управлявам</cell></row>
+<row role="msd"><cell role="msd">Vmpp-sfa-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=yes</cell>	<cell>60</cell>	<cell>шумолящата/шумоля, утвърждаващата/утвърждавам, управляващата/управлявам</cell></row>
+<row role="msd"><cell role="msd">Vmpp-sna-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=present Number=singular Gender=neuter Voice=active Definiteness=no</cell>	<cell>57</cell>	<cell>учудващо/учудвам, ухаещо/ухая, упойващо/упойвам, умоляващо/умолявам</cell></row>
+<row role="msd"><cell role="msd">Vmpp-sna-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=present Number=singular Gender=neuter Voice=active Definiteness=yes</cell>	<cell>35</cell>	<cell>хранещото/храня, ужасяващото/ужасявам, тържествуващото/тържествувам</cell></row>
+<row role="msd"><cell role="msd">Vmpp-p-a-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=present Number=plural Voice=active Definiteness=no</cell>	<cell>148</cell>	<cell>целещи/целя, хлипащи/хлипам, характеризиращи/характеризирам, финансиращи/финансирам</cell></row>
+<row role="msd"><cell role="msd">Vmpp-p-a-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=present Number=plural Voice=active Definiteness=yes</cell>	<cell>73</cell>	<cell>учещите/уча, управляващите/управлявам, търкащите/търкам, тъмнеещите/тъмнея</cell></row>
+<row role="msd"><cell role="msd">Vmpi-sma-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=imperfect Number=singular Gender=masculine Voice=active Definiteness=no</cell>	<cell>247</cell>	<cell>щял/ща, чувствал/чувствам, чувал/чувам, членувал/членувам, чакал/чакам</cell></row>
+<row role="msd"><cell role="msd">Vmpi-sfa-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=imperfect Number=singular Gender=feminine Voice=active Definiteness=no</cell>	<cell>247</cell>	<cell>щяла/ща, шегувала/шегувам, чувала/чувам, чакала/чакам, целувала/целувам</cell></row>
+<row role="msd"><cell role="msd">Vmpi-sna-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=imperfect Number=singular Gender=neuter Voice=active Definiteness=no</cell>	<cell>117</cell>	<cell>щяло/ща, утихвало/утихвам, установявало/установявам, успяло/успя</cell></row>
+<row role="msd"><cell role="msd">Vmpi-sna-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=imperfect Number=singular Gender=neuter Voice=active Definiteness=yes</cell>	<cell>1</cell>	<cell>последвалото/последвам</cell></row>
+<row role="msd"><cell role="msd">Vmpi-p-a-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=imperfect Number=plural Voice=active Definiteness=no</cell>	<cell>258</cell>	<cell>щели/ща, чували/чувам, чакали/чакам, цензурирали/цензурирам, хранели/храня</cell></row>
+<row role="msd"><cell role="msd">Vmps-smp-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=past Number=singular Gender=masculine Voice=passive Definiteness=no</cell>	<cell>632</cell>	<cell>ядосан/ядосам, чут/чуя, червен/червя, цитиран/цитирам, цивилизован/цивилизовам</cell></row>
+<row role="msd"><cell role="msd">Vmps-smp-s</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=past Number=singular Gender=masculine Voice=passive Definiteness=short-art</cell>	<cell>216</cell>	<cell>четения/чета, червения/червя, цитирания/цитирам, формулирания/формулирам</cell></row>
+<row role="msd"><cell role="msd">Vmps-smp-f</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=past Number=singular Gender=masculine Voice=passive Definiteness=full-art</cell>	<cell>36</cell>	<cell>уточненият/уточня, търсеният/търся, смутеният/смутя, скопеният/скопя</cell></row>
+<row role="msd"><cell role="msd">Vmps-sfp-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=passive Definiteness=no</cell>	<cell>502</cell>	<cell>щурмувана/щурмувам, шарена/шаря, червена/червя, чакана/чакам</cell></row>
+<row role="msd"><cell role="msd">Vmps-sfp-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=passive Definiteness=yes</cell>	<cell>110</cell>	<cell>червената/червя, утроената/утроя, утвърдената/утвърдя, установената/установя</cell></row>
+<row role="msd"><cell role="msd">Vmps-snp-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=passive Definiteness=no</cell>	<cell>418</cell>	<cell>щадено/щадя, шокирано/шокирам, червено/червя, цитирано/цитирам</cell></row>
+<row role="msd"><cell role="msd">Vmps-snp-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=passive Definiteness=yes</cell>	<cell>94</cell>	<cell>червеното/червя, цитираното/цитирам, централизираното/централизирам</cell></row>
+<row role="msd"><cell role="msd">Vmps-p-p-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=past Number=plural Voice=passive Definiteness=no</cell>	<cell>663</cell>	<cell>шити/шия, шибани/шибам, шашнати/шашна, шарени/шаря, чути/чуя</cell></row>
+<row role="msd"><cell role="msd">Vmps-p-p-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=past Number=plural Voice=passive Definiteness=yes</cell>	<cell>205</cell>	<cell>червените/червя, херметизираните/херметизирам, учените/уча, утвърдените/утвърдя</cell></row>
+<row role="msd"><cell role="msd">Vmpa-sma-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=aorist Number=singular Gender=masculine Voice=active Definiteness=no</cell>	<cell>632</cell>	<cell>ял/ям, явил/явя, щял/ща, чул/чуя, чудил/чудя, чувствал/чувствам</cell></row>
+<row role="msd"><cell role="msd">Vmpa-sma-s</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=aorist Number=singular Gender=masculine Voice=active Definiteness=short-art</cell>	<cell>22</cell>	<cell>хлътналия/хлътна, устремилия/устремя, станалия/стана, приключилия/приключа</cell></row>
+<row role="msd"><cell role="msd">Vmpa-sma-f</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=aorist Number=singular Gender=masculine Voice=active Definiteness=full-art</cell>	<cell>7</cell>	<cell>събралият/събера, призналият/призная, починалият/почина, оказалият/окажа</cell></row>
+<row role="msd"><cell role="msd">Vmpa-sfa-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=aorist Number=singular Gender=feminine Voice=active Definiteness=no</cell>	<cell>571</cell>	<cell>щяла/ща, шупнала/шупна, шмугнала/шмугна, шегувала/шегувам, чула/чуя</cell></row>
+<row role="msd"><cell role="msd">Vmpa-sfa-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=aorist Number=singular Gender=feminine Voice=active Definiteness=yes</cell>	<cell>36</cell>	<cell>станалата/стана, смелата/смета, слегналата/слегна, свършилата/свърша</cell></row>
+<row role="msd"><cell role="msd">Vmpa-sna-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=aorist Number=singular Gender=neuter Voice=active Definiteness=no</cell>	<cell>257</cell>	<cell>щяло/ща, шурнало/шурна, червило/червя, чело/чета, хрумнало/хрумне</cell></row>
+<row role="msd"><cell role="msd">Vmpa-sna-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=aorist Number=singular Gender=neuter Voice=active Definiteness=yes</cell>	<cell>37</cell>	<cell>червилото/червя, челото/чета, станалото/стана, спрялото/спра</cell></row>
+<row role="msd"><cell role="msd">Vmpa-p-a-n</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=aorist Number=plural Voice=active Definiteness=no</cell>	<cell>583</cell>	<cell>щръкнали/щръкна, щели/ща, чули/чуя, чували/чувам, чели/чета, чакали/чакам</cell></row>
+<row role="msd"><cell role="msd">Vmpa-p-a-y</cell>	<cell role="attval">Verb Type=main VForm=participle Tense=aorist Number=plural Voice=active Definiteness=yes</cell>	<cell>46</cell>	<cell>явилите/явя, участвалите/участвам, събралите/събера, стеклите/стека</cell></row>
+<row role="msd"><cell role="msd">Vmg</cell>	<cell role="attval">Verb Type=main VForm=gerund</cell>	<cell>126</cell>	<cell>чакайки/чакам, целувайки/целувам, усещайки/усещам, удряйки/удрям</cell></row>
+<row role="msd"><cell role="msd">Vaip1s</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular</cell>	<cell>2</cell>	<cell>съм, бъда</cell></row>
+<row role="msd"><cell role="msd">Vaip1p</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural</cell>	<cell>2</cell>	<cell>сме/съм, бъдем/бъда</cell></row>
+<row role="msd"><cell role="msd">Vaip2s</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular</cell>	<cell>3</cell>	<cell>щеш/ща, си/съм, бъдеш/бъда</cell></row>
+<row role="msd"><cell role="msd">Vaip2p</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=plural</cell>	<cell>3</cell>	<cell>щете/ща, сте/съм, бъдете/бъда</cell></row>
+<row role="msd"><cell role="msd">Vaip3s</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular</cell>	<cell>3</cell>	<cell>ще/ща, е/съм, бъде/бъда</cell></row>
+<row role="msd"><cell role="msd">Vaip3p</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=plural</cell>	<cell>3</cell>	<cell>щат/ща, са, бъдат/бъда</cell></row>
+<row role="msd"><cell role="msd">Vaii1s</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=singular</cell>	<cell>2</cell>	<cell>щях/ща, бях/съм</cell></row>
+<row role="msd"><cell role="msd">Vaii1p</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=plural</cell>	<cell>3</cell>	<cell>щяхме/ща, онемяхме/онемея, бяхме/съм</cell></row>
+<row role="msd"><cell role="msd">Vaii2s</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=singular</cell>	<cell>2</cell>	<cell>щеше/ща, беше/съм</cell></row>
+<row role="msd"><cell role="msd">Vaii2p</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=plural</cell>	<cell>2</cell>	<cell>щяхте/ща, бяхте/съм</cell></row>
+<row role="msd"><cell role="msd">Vaii3s</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=singular</cell>	<cell>2</cell>	<cell>щеше/ща, беше/съм</cell></row>
+<row role="msd"><cell role="msd">Vaii3p</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=plural</cell>	<cell>3</cell>	<cell>щяха/ща, бяха/съм, бъдеха/бъда</cell></row>
+<row role="msd"><cell role="msd">Vaia1s</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=aorist Person=first Number=singular</cell>	<cell>3</cell>	<cell>щях/ща, бях/съм, бих/бъда</cell></row>
+<row role="msd"><cell role="msd">Vaia1p</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=aorist Person=first Number=plural</cell>	<cell>4</cell>	<cell>щяхме/ща, онемяхме/онемея, бяхме/съм, бихме/бъда</cell></row>
+<row role="msd"><cell role="msd">Vaia2s</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=aorist Person=second Number=singular</cell>	<cell>3</cell>	<cell>щеше/ща, би/бъда, бе/съм</cell></row>
+<row role="msd"><cell role="msd">Vaia2p</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=aorist Person=second Number=plural</cell>	<cell>3</cell>	<cell>щяхте/ща, бяхте/съм, бихте/бъда</cell></row>
+<row role="msd"><cell role="msd">Vaia3s</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=aorist Person=third Number=singular</cell>	<cell>3</cell>	<cell>щеше/ща, би/бъда, бе/съм</cell></row>
+<row role="msd"><cell role="msd">Vaia3p</cell>	<cell role="attval">Verb Type=auxiliary VForm=indicative Tense=aorist Person=third Number=plural</cell>	<cell>3</cell>	<cell>щяха/ща, бяха/съм, биха/бъда</cell></row>
+<row role="msd"><cell role="msd">Vam-2s</cell>	<cell role="attval">Verb Type=auxiliary VForm=imperative Person=second Number=singular</cell>	<cell>1</cell>	<cell>бъди/бъда</cell></row>
+<row role="msd"><cell role="msd">Vam-2p</cell>	<cell role="attval">Verb Type=auxiliary VForm=imperative Person=second Number=plural</cell>	<cell>1</cell>	<cell>щете/ща</cell></row>
+<row role="msd"><cell role="msd">Vapp-sma-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=no</cell>	<cell>1</cell>	<cell>бъдещ/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapp-sma-s</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=short-art</cell>	<cell>1</cell>	<cell>бъдещия/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapp-sma-f</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=full-art</cell>	<cell>1</cell>	<cell>бъдещият/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapp-sfa-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=no</cell>	<cell>1</cell>	<cell>бъдеща/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapp-sfa-y</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=yes</cell>	<cell>1</cell>	<cell>бъдещата/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapp-sna-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=neuter Voice=active Definiteness=no</cell>	<cell>1</cell>	<cell>бъдещо/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapi-sma-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=imperfect Number=singular Gender=masculine Voice=active Definiteness=no</cell>	<cell>1</cell>	<cell>бил/съм</cell></row>
+<row role="msd"><cell role="msd">Vapi-sfa-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=imperfect Number=singular Gender=feminine Voice=active Definiteness=no</cell>	<cell>1</cell>	<cell>била/съм</cell></row>
+<row role="msd"><cell role="msd">Vapi-sna-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=imperfect Number=singular Gender=neuter Voice=active Definiteness=no</cell>	<cell>1</cell>	<cell>било/съм</cell></row>
+<row role="msd"><cell role="msd">Vapi-p-a-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=imperfect Number=plural Voice=active Definiteness=no</cell>	<cell>1</cell>	<cell>били/съм</cell></row>
+<row role="msd"><cell role="msd">Vapa-sma-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=aorist Number=singular Gender=masculine Voice=active Definiteness=no</cell>	<cell>2</cell>	<cell>бил/съм, бил/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapa-sfa-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=aorist Number=singular Gender=feminine Voice=active Definiteness=no</cell>	<cell>2</cell>	<cell>била/съм, била/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapa-sna-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=aorist Number=singular Gender=neuter Voice=active Definiteness=no</cell>	<cell>2</cell>	<cell>било/съм, било/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapa-sna-y</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=aorist Number=singular Gender=neuter Voice=active Definiteness=yes</cell>	<cell>1</cell>	<cell>бъдещото/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapa-p-a-n</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=aorist Number=plural Voice=active Definiteness=no</cell>	<cell>3</cell>	<cell>бъдещи/бъда, били/съм, били/бъда</cell></row>
+<row role="msd"><cell role="msd">Vapa-p-a-y</cell>	<cell role="attval">Verb Type=auxiliary VForm=participle Tense=aorist Number=plural Voice=active Definiteness=yes</cell>	<cell>1</cell>	<cell>бъдещите/бъда</cell></row>
+<row role="msd"><cell role="msd">Vag</cell>	<cell role="attval">Verb Type=auxiliary VForm=gerund</cell>	<cell>1</cell>	<cell>бидейки/бъда</cell></row>
+<row role="msd"><cell role="msd">A---p-n</cell>	<cell role="attval">Adjective Number=plural Definiteness=no</cell>	<cell>1769</cell>	<cell>ясни/ясен, яростни/яростен, ярки/ярък, японски, яки/як, ядрени/ядрен</cell></row>
+<row role="msd"><cell role="msd">A---p-y</cell>	<cell role="attval">Adjective Number=plural Definiteness=yes</cell>	<cell>937</cell>	<cell>ясните/ясен, яркочервените/яркочервен, японските/японски, юридическите/юридически</cell></row>
+<row role="msd"><cell role="msd">A--ms-n</cell>	<cell role="attval">Adjective Gender=masculine Number=singular Definiteness=no</cell>	<cell>1440</cell>	<cell>ясен, ярък, яростен, японски, як, ябълков, юридически, юнски</cell></row>
+<row role="msd"><cell role="msd">A--ms-s</cell>	<cell role="attval">Adjective Gender=masculine Number=singular Definiteness=short-art</cell>	<cell>715</cell>	<cell>ясния/ясен, яростния/яростен, южноиндийския/южноиндийский, южния/южен</cell></row>
+<row role="msd"><cell role="msd">A--ms-f</cell>	<cell role="attval">Adjective Gender=masculine Number=singular Definiteness=full-art</cell>	<cell>348</cell>	<cell>юношеският/юношески, югославският/югославски, щастливият/щастлив</cell></row>
+<row role="msd"><cell role="msd">A--fs-n</cell>	<cell role="attval">Adjective Gender=feminine Number=singular Definiteness=no</cell>	<cell>1436</cell>	<cell>ясна/ясен, яркочервена/яркочервен, ярка/ярък, японска/японски</cell></row>
+<row role="msd"><cell role="msd">A--fs-y</cell>	<cell role="attval">Adjective Gender=feminine Number=singular Definiteness=yes</cell>	<cell>868</cell>	<cell>ясната/ясен, яростната/яростен, ярката/ярък, японската/японски</cell></row>
+<row role="msd"><cell role="msd">A--ns-n</cell>	<cell role="attval">Adjective Gender=neuter Number=singular Definiteness=no</cell>	<cell>1437</cell>	<cell>ячко/ячък, ясно/ясен, яростно/яростен, ярко/ярък, яркосиньо/яркосин</cell></row>
+<row role="msd"><cell role="msd">A--ns-y</cell>	<cell role="attval">Adjective Gender=neuter Number=singular Definiteness=yes</cell>	<cell>645</cell>	<cell>яростното/яростен, ядреното/ядрен, юнското/юнски, южното/южен</cell></row>
+<row role="msd"><cell role="msd">Pp1-sn</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=singular Case=nominative</cell>	<cell>1</cell>	<cell>аз</cell></row>
+<row role="msd"><cell role="msd">Pp1-sd--n</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=singular Case=dative Clitic=no</cell>	<cell>3</cell>	<cell>мене_ми, мене/аз, мен/аз</cell></row>
+<row role="msd"><cell role="msd">Pp1-sd--y</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=singular Case=dative Clitic=yes</cell>	<cell>1</cell>	<cell>ми/аз</cell></row>
+<row role="msd"><cell role="msd">Pp1-sa--n</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=no</cell>	<cell>3</cell>	<cell>мене_ме, мене/аз, мен/аз</cell></row>
+<row role="msd"><cell role="msd">Pp1-sa--y</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>ме/аз</cell></row>
+<row role="msd"><cell role="msd">Pp1-pn</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=plural Case=nominative</cell>	<cell>1</cell>	<cell>ние</cell></row>
+<row role="msd"><cell role="msd">Pp1-pd--n</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=plural Case=dative Clitic=no</cell>	<cell>2</cell>	<cell>нас_ни, нам</cell></row>
+<row role="msd"><cell role="msd">Pp1-pd--y</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=plural Case=dative Clitic=yes</cell>	<cell>1</cell>	<cell>ни/ние</cell></row>
+<row role="msd"><cell role="msd">Pp1-pa--n</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=plural Case=accusative Clitic=no</cell>	<cell>2</cell>	<cell>нас_ни, нас</cell></row>
+<row role="msd"><cell role="msd">Pp1-pa--y</cell>	<cell role="attval">Pronoun Type=personal Person=first Number=plural Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>ни/ние</cell></row>
+<row role="msd"><cell role="msd">Pp2-sn</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=singular Case=nominative</cell>	<cell>1</cell>	<cell>ти</cell></row>
+<row role="msd"><cell role="msd">Pp2-sd--n</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=singular Case=dative Clitic=no</cell>	<cell>4</cell>	<cell>теб, тебе_ти, тебе, вас_ви</cell></row>
+<row role="msd"><cell role="msd">Pp2-sd--y</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=singular Case=dative Clitic=yes</cell>	<cell>1</cell>	<cell>ти</cell></row>
+<row role="msd"><cell role="msd">Pp2-sa--n</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=no</cell>	<cell>4</cell>	<cell>теб, тебе_те, тебе, вас_ви</cell></row>
+<row role="msd"><cell role="msd">Pp2-sa--y</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>те/ти</cell></row>
+<row role="msd"><cell role="msd">Pp2-p---y</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=plural Clitic=yes</cell>	<cell>1</cell>	<cell>ви/вие</cell></row>
+<row role="msd"><cell role="msd">Pp2-pn</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=plural Case=nominative</cell>	<cell>1</cell>	<cell>вие</cell></row>
+<row role="msd"><cell role="msd">Pp2-pd--n</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=plural Case=dative Clitic=no</cell>	<cell>1</cell>	<cell>вам</cell></row>
+<row role="msd"><cell role="msd">Pp2-pa--n</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=plural Case=accusative Clitic=no</cell>	<cell>1</cell>	<cell>вас/вие</cell></row>
+<row role="msd"><cell role="msd">Pp2-pa--y</cell>	<cell role="attval">Pronoun Type=personal Person=second Number=plural Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>ви/вие</cell></row>
+<row role="msd"><cell role="msd">Pp3-pn</cell>	<cell role="attval">Pronoun Type=personal Person=third Number=plural Case=nominative</cell>	<cell>1</cell>	<cell>те</cell></row>
+<row role="msd"><cell role="msd">Pp3-pd--n</cell>	<cell role="attval">Pronoun Type=personal Person=third Number=plural Case=dative Clitic=no</cell>	<cell>2</cell>	<cell>тях_им, тям</cell></row>
+<row role="msd"><cell role="msd">Pp3-pd--y</cell>	<cell role="attval">Pronoun Type=personal Person=third Number=plural Case=dative Clitic=yes</cell>	<cell>1</cell>	<cell>им/те</cell></row>
+<row role="msd"><cell role="msd">Pp3-pa--n</cell>	<cell role="attval">Pronoun Type=personal Person=third Number=plural Case=accusative Clitic=no</cell>	<cell>2</cell>	<cell>тях, тях_ги</cell></row>
+<row role="msd"><cell role="msd">Pp3-pa--y</cell>	<cell role="attval">Pronoun Type=personal Person=third Number=plural Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>ги/те</cell></row>
+<row role="msd"><cell role="msd">Pp3msn</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative</cell>	<cell>1</cell>	<cell>той</cell></row>
+<row role="msd"><cell role="msd">Pp3msd--n</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=dative Clitic=no</cell>	<cell>2</cell>	<cell>нему, него_му</cell></row>
+<row role="msd"><cell role="msd">Pp3msd--y</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=dative Clitic=yes</cell>	<cell>2</cell>	<cell>нему, му/той</cell></row>
+<row role="msd"><cell role="msd">Pp3msa--n</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative Clitic=no</cell>	<cell>2</cell>	<cell>него/той, него_го</cell></row>
+<row role="msd"><cell role="msd">Pp3msa--y</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>го/той</cell></row>
+<row role="msd"><cell role="msd">Pp3fsn</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=feminine Number=singular Case=nominative</cell>	<cell>1</cell>	<cell>тя</cell></row>
+<row role="msd"><cell role="msd">Pp3fsd--y</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=feminine Number=singular Case=dative Clitic=yes</cell>	<cell>1</cell>	<cell>й/тя</cell></row>
+<row role="msd"><cell role="msd">Pp3fsa--n</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Clitic=no</cell>	<cell>2</cell>	<cell>нея_я, нея</cell></row>
+<row role="msd"><cell role="msd">Pp3fsa--y</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>я/тя</cell></row>
+<row role="msd"><cell role="msd">Pp3nsn</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=neuter Number=singular Case=nominative</cell>	<cell>1</cell>	<cell>то</cell></row>
+<row role="msd"><cell role="msd">Pp3nsd--n</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=neuter Number=singular Case=dative Clitic=no</cell>	<cell>1</cell>	<cell>него_му</cell></row>
+<row role="msd"><cell role="msd">Pp3nsd--y</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=neuter Number=singular Case=dative Clitic=yes</cell>	<cell>2</cell>	<cell>нему, му/то</cell></row>
+<row role="msd"><cell role="msd">Pp3nsa--n</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=neuter Number=singular Case=accusative Clitic=no</cell>	<cell>2</cell>	<cell>него/то, него_го</cell></row>
+<row role="msd"><cell role="msd">Pp3nsa--y</cell>	<cell role="attval">Pronoun Type=personal Person=third Gender=neuter Number=singular Case=accusative Clitic=yes</cell>	<cell>1</cell>	<cell>го/то</cell></row>
+<row role="msd"><cell role="msd">Pd-------q</cell>	<cell role="attval">Pronoun Type=demonstrative Referent_Type=quantitative</cell>	<cell>1</cell>	<cell>толкова</cell></row>
+<row role="msd"><cell role="msd">Pd--p----p</cell>	<cell role="attval">Pronoun Type=demonstrative Number=plural Referent_Type=personal</cell>	<cell>6</cell>	<cell>тия, тези, такива/такъв, ония/онзи, онез/онзи, онези/онзи</cell></row>
+<row role="msd"><cell role="msd">Pd-ms----p</cell>	<cell role="attval">Pronoun Type=demonstrative Gender=masculine Number=singular Referent_Type=personal</cell>	<cell>5</cell>	<cell>тоя, този, такъв, оня, онзи</cell></row>
+<row role="msd"><cell role="msd">Pd-fs----p</cell>	<cell role="attval">Pronoun Type=demonstrative Gender=feminine Number=singular Referent_Type=personal</cell>	<cell>5</cell>	<cell>тая, такава/такъв, тази, оная/онзи, онази</cell></row>
+<row role="msd"><cell role="msd">Pd-ns----p</cell>	<cell role="attval">Pronoun Type=demonstrative Gender=neuter Number=singular Referent_Type=personal</cell>	<cell>4</cell>	<cell>туй, това, такова/такъв, онова</cell></row>
+<row role="msd"><cell role="msd">Pi-------q</cell>	<cell role="attval">Pronoun Type=indefinite Referent_Type=quantitative</cell>	<cell>1</cell>	<cell>няколко</cell></row>
+<row role="msd"><cell role="msd">Pi--sn--nq-y</cell>	<cell role="attval">Pronoun Type=indefinite Number=singular Case=nominative Clitic=no Referent_Type=quantitative Definiteness=yes</cell>	<cell>2</cell>	<cell>няколкото, неколцина</cell></row>
+<row role="msd"><cell role="msd">Pi--p----p</cell>	<cell role="attval">Pronoun Type=indefinite Number=plural Referent_Type=personal</cell>	<cell>2</cell>	<cell>някои/някой, които_и_да_са</cell></row>
+<row role="msd"><cell role="msd">Pi--p----s</cell>	<cell role="attval">Pronoun Type=indefinite Number=plural Referent_Type=possessive</cell>	<cell>2</cell>	<cell>нечии/нечий, нечии</cell></row>
+<row role="msd"><cell role="msd">Pi--p----a</cell>	<cell role="attval">Pronoun Type=indefinite Number=plural Referent_Type=attributive</cell>	<cell>4</cell>	<cell>някакви/някакъв, каквито_и_да_са, еди-какви_си, еди-какви</cell></row>
+<row role="msd"><cell role="msd">Pi-ms----p</cell>	<cell role="attval">Pronoun Type=indefinite Gender=masculine Number=singular Referent_Type=personal</cell>	<cell>1</cell>	<cell>който_и_да_е</cell></row>
+<row role="msd"><cell role="msd">Pi-ms----s</cell>	<cell role="attval">Pronoun Type=indefinite Gender=masculine Number=singular Referent_Type=possessive</cell>	<cell>1</cell>	<cell>нечий</cell></row>
+<row role="msd"><cell role="msd">Pi-ms----a</cell>	<cell role="attval">Pronoun Type=indefinite Gender=masculine Number=singular Referent_Type=attributive</cell>	<cell>4</cell>	<cell>някакъв, какъвто_и_да_е, еди-какъв_си, еди-какъв</cell></row>
+<row role="msd"><cell role="msd">Pi-msn---p</cell>	<cell role="attval">Pronoun Type=indefinite Gender=masculine Number=singular Case=nominative Referent_Type=personal</cell>	<cell>3</cell>	<cell>някой, еди-кой_си, еди-кой</cell></row>
+<row role="msd"><cell role="msd">Pi-msd---p</cell>	<cell role="attval">Pronoun Type=indefinite Gender=masculine Number=singular Case=dative Referent_Type=personal</cell>	<cell>1</cell>	<cell>някому/някой</cell></row>
+<row role="msd"><cell role="msd">Pi-msa---p</cell>	<cell role="attval">Pronoun Type=indefinite Gender=masculine Number=singular Case=accusative Referent_Type=personal</cell>	<cell>1</cell>	<cell>някого/някой</cell></row>
+<row role="msd"><cell role="msd">Pi-fs----p</cell>	<cell role="attval">Pronoun Type=indefinite Gender=feminine Number=singular Referent_Type=personal</cell>	<cell>1</cell>	<cell>която_и_да_е</cell></row>
+<row role="msd"><cell role="msd">Pi-fs----s</cell>	<cell role="attval">Pronoun Type=indefinite Gender=feminine Number=singular Referent_Type=possessive</cell>	<cell>2</cell>	<cell>нечия, нечия/нечий</cell></row>
+<row role="msd"><cell role="msd">Pi-fs----a</cell>	<cell role="attval">Pronoun Type=indefinite Gender=feminine Number=singular Referent_Type=attributive</cell>	<cell>5</cell>	<cell>някаква/някакъв, накаква, каквато_и_да_е, еди-каква_си, еди-каква</cell></row>
+<row role="msd"><cell role="msd">Pi-fsn---p</cell>	<cell role="attval">Pronoun Type=indefinite Gender=feminine Number=singular Case=nominative Referent_Type=personal</cell>	<cell>1</cell>	<cell>някоя/някой</cell></row>
+<row role="msd"><cell role="msd">Pi-ns----p</cell>	<cell role="attval">Pronoun Type=indefinite Gender=neuter Number=singular Referent_Type=personal</cell>	<cell>1</cell>	<cell>което_и_да_е</cell></row>
+<row role="msd"><cell role="msd">Pi-ns----s</cell>	<cell role="attval">Pronoun Type=indefinite Gender=neuter Number=singular Referent_Type=possessive</cell>	<cell>2</cell>	<cell>нечие/нечий, нечие</cell></row>
+<row role="msd"><cell role="msd">Pi-ns----a</cell>	<cell role="attval">Pronoun Type=indefinite Gender=neuter Number=singular Referent_Type=attributive</cell>	<cell>5</cell>	<cell>някакво/някакъв, нещо, каквото_и_да_е, еди-какво_си, еди-какво</cell></row>
+<row role="msd"><cell role="msd">Pi-nsn---p</cell>	<cell role="attval">Pronoun Type=indefinite Gender=neuter Number=singular Case=nominative Referent_Type=personal</cell>	<cell>1</cell>	<cell>някое/някой</cell></row>
+<row role="msd"><cell role="msd">Ps1-s---y</cell>	<cell role="attval">Pronoun Type=possessive Person=first Number=singular Clitic=yes</cell>	<cell>2</cell>	<cell>ни/наш, ми/мой</cell></row>
+<row role="msd"><cell role="msd">Ps1-p---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=first Number=plural Clitic=no Definiteness=no</cell>	<cell>2</cell>	<cell>наши, мои</cell></row>
+<row role="msd"><cell role="msd">Ps1-p---n--y</cell>	<cell role="attval">Pronoun Type=possessive Person=first Number=plural Clitic=no Definiteness=yes</cell>	<cell>4</cell>	<cell>нашите/наши, мойте/мой, моите/мой, моите/мои</cell></row>
+<row role="msd"><cell role="msd">Ps1-p---y</cell>	<cell role="attval">Pronoun Type=possessive Person=first Number=plural Clitic=yes</cell>	<cell>2</cell>	<cell>ни/наш, ми/мой</cell></row>
+<row role="msd"><cell role="msd">Ps1ms---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=first Gender=masculine Number=singular Clitic=no Definiteness=no</cell>	<cell>2</cell>	<cell>наш, мой</cell></row>
+<row role="msd"><cell role="msd">Ps1ms---n--s</cell>	<cell role="attval">Pronoun Type=possessive Person=first Gender=masculine Number=singular Clitic=no Definiteness=short-art</cell>	<cell>2</cell>	<cell>нашия/наш, моя/мой</cell></row>
+<row role="msd"><cell role="msd">Ps1ms---n--f</cell>	<cell role="attval">Pronoun Type=possessive Person=first Gender=masculine Number=singular Clitic=no Definiteness=full-art</cell>	<cell>2</cell>	<cell>нашият/наш, моят/мой</cell></row>
+<row role="msd"><cell role="msd">Ps1fs---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=first Gender=feminine Number=singular Clitic=no Definiteness=no</cell>	<cell>2</cell>	<cell>наша, моя</cell></row>
+<row role="msd"><cell role="msd">Ps1fs---n--y</cell>	<cell role="attval">Pronoun Type=possessive Person=first Gender=feminine Number=singular Clitic=no Definiteness=yes</cell>	<cell>2</cell>	<cell>нашата/наша, моята/моя</cell></row>
+<row role="msd"><cell role="msd">Ps1ns---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=first Gender=neuter Number=singular Clitic=no Definiteness=no</cell>	<cell>2</cell>	<cell>наше, мое</cell></row>
+<row role="msd"><cell role="msd">Ps1ns---n--y</cell>	<cell role="attval">Pronoun Type=possessive Person=first Gender=neuter Number=singular Clitic=no Definiteness=yes</cell>	<cell>3</cell>	<cell>нашето/наше, мойто/мой, моето/мое</cell></row>
+<row role="msd"><cell role="msd">Ps2-s---y</cell>	<cell role="attval">Pronoun Type=possessive Person=second Number=singular Clitic=yes</cell>	<cell>2</cell>	<cell>ти, ви/ваш</cell></row>
+<row role="msd"><cell role="msd">Ps2-p---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=second Number=plural Clitic=no Definiteness=no</cell>	<cell>2</cell>	<cell>твои, ваши</cell></row>
+<row role="msd"><cell role="msd">Ps2-p---n--y</cell>	<cell role="attval">Pronoun Type=possessive Person=second Number=plural Clitic=no Definiteness=yes</cell>	<cell>2</cell>	<cell>твоите/твои, вашите/ваши</cell></row>
+<row role="msd"><cell role="msd">Ps2-p---y</cell>	<cell role="attval">Pronoun Type=possessive Person=second Number=plural Clitic=yes</cell>	<cell>2</cell>	<cell>ти, ви/ваш</cell></row>
+<row role="msd"><cell role="msd">Ps2ms---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=second Gender=masculine Number=singular Clitic=no Definiteness=no</cell>	<cell>2</cell>	<cell>твой, ваш</cell></row>
+<row role="msd"><cell role="msd">Ps2ms---n--s</cell>	<cell role="attval">Pronoun Type=possessive Person=second Gender=masculine Number=singular Clitic=no Definiteness=short-art</cell>	<cell>2</cell>	<cell>твоя/твой, вашия/ваш</cell></row>
+<row role="msd"><cell role="msd">Ps2ms---n--f</cell>	<cell role="attval">Pronoun Type=possessive Person=second Gender=masculine Number=singular Clitic=no Definiteness=full-art</cell>	<cell>1</cell>	<cell>твоят/твой</cell></row>
+<row role="msd"><cell role="msd">Ps2fs---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=second Gender=feminine Number=singular Clitic=no Definiteness=no</cell>	<cell>2</cell>	<cell>твоя, ваша</cell></row>
+<row role="msd"><cell role="msd">Ps2fs---n--y</cell>	<cell role="attval">Pronoun Type=possessive Person=second Gender=feminine Number=singular Clitic=no Definiteness=yes</cell>	<cell>2</cell>	<cell>твоята/твоя, вашата/ваша</cell></row>
+<row role="msd"><cell role="msd">Ps2ns---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=second Gender=neuter Number=singular Clitic=no Definiteness=no</cell>	<cell>2</cell>	<cell>твое, ваше</cell></row>
+<row role="msd"><cell role="msd">Ps2ns---n--y</cell>	<cell role="attval">Pronoun Type=possessive Person=second Gender=neuter Number=singular Clitic=no Definiteness=yes</cell>	<cell>2</cell>	<cell>твоето/твое, вашето/ваше</cell></row>
+<row role="msd"><cell role="msd">Ps3-s---y</cell>	<cell role="attval">Pronoun Type=possessive Person=third Number=singular Clitic=yes</cell>	<cell>3</cell>	<cell>му/негов, й/неин, им/техен</cell></row>
+<row role="msd"><cell role="msd">Ps3-p---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=third Number=plural Clitic=no Definiteness=no</cell>	<cell>3</cell>	<cell>техни/техен, нейни, негови</cell></row>
+<row role="msd"><cell role="msd">Ps3-p---n--y</cell>	<cell role="attval">Pronoun Type=possessive Person=third Number=plural Clitic=no Definiteness=yes</cell>	<cell>3</cell>	<cell>техните/техни, нейните/нейни, неговите/негови</cell></row>
+<row role="msd"><cell role="msd">Ps3-p---y</cell>	<cell role="attval">Pronoun Type=possessive Person=third Number=plural Clitic=yes</cell>	<cell>3</cell>	<cell>му/негов, й/неин, им/техен</cell></row>
+<row role="msd"><cell role="msd">Ps3ms---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=third Gender=masculine Number=singular Clitic=no Definiteness=no</cell>	<cell>3</cell>	<cell>техен, неин, негов</cell></row>
+<row role="msd"><cell role="msd">Ps3ms---n--s</cell>	<cell role="attval">Pronoun Type=possessive Person=third Gender=masculine Number=singular Clitic=no Definiteness=short-art</cell>	<cell>3</cell>	<cell>техния/техен, нейния/неин, неговия/негов</cell></row>
+<row role="msd"><cell role="msd">Ps3ms---n--f</cell>	<cell role="attval">Pronoun Type=possessive Person=third Gender=masculine Number=singular Clitic=no Definiteness=full-art</cell>	<cell>3</cell>	<cell>техният/техен, нейният/неин, неговият/негов</cell></row>
+<row role="msd"><cell role="msd">Ps3fs---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=third Gender=feminine Number=singular Clitic=no Definiteness=no</cell>	<cell>3</cell>	<cell>тяхна, нейна, негова</cell></row>
+<row role="msd"><cell role="msd">Ps3fs---n--y</cell>	<cell role="attval">Pronoun Type=possessive Person=third Gender=feminine Number=singular Clitic=no Definiteness=yes</cell>	<cell>3</cell>	<cell>тяхната/тяхна, нейната/нейна, неговата/негова</cell></row>
+<row role="msd"><cell role="msd">Ps3ns---n--n</cell>	<cell role="attval">Pronoun Type=possessive Person=third Gender=neuter Number=singular Clitic=no Definiteness=no</cell>	<cell>3</cell>	<cell>тяхно, нейно, негово</cell></row>
+<row role="msd"><cell role="msd">Ps3ns---n--y</cell>	<cell role="attval">Pronoun Type=possessive Person=third Gender=neuter Number=singular Clitic=no Definiteness=yes</cell>	<cell>3</cell>	<cell>тяхното/тяхно, нейното/нейно, неговото/негово</cell></row>
+<row role="msd"><cell role="msd">Pq-------q</cell>	<cell role="attval">Pronoun Type=interrogative Referent_Type=quantitative</cell>	<cell>1</cell>	<cell>колко</cell></row>
+<row role="msd"><cell role="msd">Pq--p----p</cell>	<cell role="attval">Pronoun Type=interrogative Number=plural Referent_Type=personal</cell>	<cell>1</cell>	<cell>кои/кой</cell></row>
+<row role="msd"><cell role="msd">Pq--p----s</cell>	<cell role="attval">Pronoun Type=interrogative Number=plural Referent_Type=possessive</cell>	<cell>1</cell>	<cell>чии</cell></row>
+<row role="msd"><cell role="msd">Pq--p----a</cell>	<cell role="attval">Pronoun Type=interrogative Number=plural Referent_Type=attributive</cell>	<cell>1</cell>	<cell>какви/какъв</cell></row>
+<row role="msd"><cell role="msd">Pq-ms----s</cell>	<cell role="attval">Pronoun Type=interrogative Gender=masculine Number=singular Referent_Type=possessive</cell>	<cell>1</cell>	<cell>чий</cell></row>
+<row role="msd"><cell role="msd">Pq-ms----a</cell>	<cell role="attval">Pronoun Type=interrogative Gender=masculine Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>какъв</cell></row>
+<row role="msd"><cell role="msd">Pq-msn---p</cell>	<cell role="attval">Pronoun Type=interrogative Gender=masculine Number=singular Case=nominative Referent_Type=personal</cell>	<cell>1</cell>	<cell>кой</cell></row>
+<row role="msd"><cell role="msd">Pq-msd---p</cell>	<cell role="attval">Pronoun Type=interrogative Gender=masculine Number=singular Case=dative Referent_Type=personal</cell>	<cell>1</cell>	<cell>кому/кой</cell></row>
+<row role="msd"><cell role="msd">Pq-msa---p</cell>	<cell role="attval">Pronoun Type=interrogative Gender=masculine Number=singular Case=accusative Referent_Type=personal</cell>	<cell>1</cell>	<cell>кого/кой</cell></row>
+<row role="msd"><cell role="msd">Pq-fs----p</cell>	<cell role="attval">Pronoun Type=interrogative Gender=feminine Number=singular Referent_Type=personal</cell>	<cell>1</cell>	<cell>коя/кой</cell></row>
+<row role="msd"><cell role="msd">Pq-fs----s</cell>	<cell role="attval">Pronoun Type=interrogative Gender=feminine Number=singular Referent_Type=possessive</cell>	<cell>2</cell>	<cell>чия, чия/чий</cell></row>
+<row role="msd"><cell role="msd">Pq-fs----a</cell>	<cell role="attval">Pronoun Type=interrogative Gender=feminine Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>каква/какъв</cell></row>
+<row role="msd"><cell role="msd">Pq-ns----p</cell>	<cell role="attval">Pronoun Type=interrogative Gender=neuter Number=singular Referent_Type=personal</cell>	<cell>1</cell>	<cell>кое/кой</cell></row>
+<row role="msd"><cell role="msd">Pq-ns----a</cell>	<cell role="attval">Pronoun Type=interrogative Gender=neuter Number=singular Referent_Type=attributive</cell>	<cell>2</cell>	<cell>кво, какво/какъв</cell></row>
+<row role="msd"><cell role="msd">Pr-------q</cell>	<cell role="attval">Pronoun Type=relative Referent_Type=quantitative</cell>	<cell>1</cell>	<cell>колкото</cell></row>
+<row role="msd"><cell role="msd">Pr--p----p</cell>	<cell role="attval">Pronoun Type=relative Number=plural Referent_Type=personal</cell>	<cell>1</cell>	<cell>които/който</cell></row>
+<row role="msd"><cell role="msd">Pr--p----s</cell>	<cell role="attval">Pronoun Type=relative Number=plural Referent_Type=possessive</cell>	<cell>1</cell>	<cell>чиито/чийто</cell></row>
+<row role="msd"><cell role="msd">Pr--p----a</cell>	<cell role="attval">Pronoun Type=relative Number=plural Referent_Type=attributive</cell>	<cell>1</cell>	<cell>каквито/какъвто</cell></row>
+<row role="msd"><cell role="msd">Pr-ms----s</cell>	<cell role="attval">Pronoun Type=relative Gender=masculine Number=singular Referent_Type=possessive</cell>	<cell>1</cell>	<cell>чийто</cell></row>
+<row role="msd"><cell role="msd">Pr-ms----a</cell>	<cell role="attval">Pronoun Type=relative Gender=masculine Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>какъвто</cell></row>
+<row role="msd"><cell role="msd">Pr-msn---p</cell>	<cell role="attval">Pronoun Type=relative Gender=masculine Number=singular Case=nominative Referent_Type=personal</cell>	<cell>1</cell>	<cell>който</cell></row>
+<row role="msd"><cell role="msd">Pr-msd---p</cell>	<cell role="attval">Pronoun Type=relative Gender=masculine Number=singular Case=dative Referent_Type=personal</cell>	<cell>1</cell>	<cell>комуто/който</cell></row>
+<row role="msd"><cell role="msd">Pr-msa---p</cell>	<cell role="attval">Pronoun Type=relative Gender=masculine Number=singular Case=accusative Referent_Type=personal</cell>	<cell>1</cell>	<cell>когото/който</cell></row>
+<row role="msd"><cell role="msd">Pr-fs----p</cell>	<cell role="attval">Pronoun Type=relative Gender=feminine Number=singular Referent_Type=personal</cell>	<cell>1</cell>	<cell>която/който</cell></row>
+<row role="msd"><cell role="msd">Pr-fs----s</cell>	<cell role="attval">Pronoun Type=relative Gender=feminine Number=singular Referent_Type=possessive</cell>	<cell>1</cell>	<cell>чиято/чийто</cell></row>
+<row role="msd"><cell role="msd">Pr-fs----a</cell>	<cell role="attval">Pronoun Type=relative Gender=feminine Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>каквато/какъвто</cell></row>
+<row role="msd"><cell role="msd">Pr-ns----p</cell>	<cell role="attval">Pronoun Type=relative Gender=neuter Number=singular Referent_Type=personal</cell>	<cell>1</cell>	<cell>което/който</cell></row>
+<row role="msd"><cell role="msd">Pr-ns----s</cell>	<cell role="attval">Pronoun Type=relative Gender=neuter Number=singular Referent_Type=possessive</cell>	<cell>1</cell>	<cell>чието/чийто</cell></row>
+<row role="msd"><cell role="msd">Pr-ns----a</cell>	<cell role="attval">Pronoun Type=relative Gender=neuter Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>каквото/какъвто</cell></row>
+<row role="msd"><cell role="msd">Px------ys</cell>	<cell role="attval">Pronoun Type=reflexive Clitic=yes Referent_Type=possessive</cell>	<cell>1</cell>	<cell>си</cell></row>
+<row role="msd"><cell role="msd">Px---d--np</cell>	<cell role="attval">Pronoun Type=reflexive Case=dative Clitic=no Referent_Type=personal</cell>	<cell>2</cell>	<cell>себе_си, себе</cell></row>
+<row role="msd"><cell role="msd">Px---d--yp</cell>	<cell role="attval">Pronoun Type=reflexive Case=dative Clitic=yes Referent_Type=personal</cell>	<cell>1</cell>	<cell>си</cell></row>
+<row role="msd"><cell role="msd">Px---a--np</cell>	<cell role="attval">Pronoun Type=reflexive Case=accusative Clitic=no Referent_Type=personal</cell>	<cell>2</cell>	<cell>себе_си, себе</cell></row>
+<row role="msd"><cell role="msd">Px---a--yp</cell>	<cell role="attval">Pronoun Type=reflexive Case=accusative Clitic=yes Referent_Type=personal</cell>	<cell>1</cell>	<cell>се</cell></row>
+<row role="msd"><cell role="msd">Px--p---ns-n</cell>	<cell role="attval">Pronoun Type=reflexive Number=plural Clitic=no Referent_Type=possessive Definiteness=no</cell>	<cell>1</cell>	<cell>свои</cell></row>
+<row role="msd"><cell role="msd">Px--p---ns-y</cell>	<cell role="attval">Pronoun Type=reflexive Number=plural Clitic=no Referent_Type=possessive Definiteness=yes</cell>	<cell>1</cell>	<cell>своите/свои</cell></row>
+<row role="msd"><cell role="msd">Px-ms---ns-n</cell>	<cell role="attval">Pronoun Type=reflexive Gender=masculine Number=singular Clitic=no Referent_Type=possessive Definiteness=no</cell>	<cell>1</cell>	<cell>свой</cell></row>
+<row role="msd"><cell role="msd">Px-ms---ns-s</cell>	<cell role="attval">Pronoun Type=reflexive Gender=masculine Number=singular Clitic=no Referent_Type=possessive Definiteness=short-art</cell>	<cell>1</cell>	<cell>своя/свой</cell></row>
+<row role="msd"><cell role="msd">Px-ms---ns-f</cell>	<cell role="attval">Pronoun Type=reflexive Gender=masculine Number=singular Clitic=no Referent_Type=possessive Definiteness=full-art</cell>	<cell>1</cell>	<cell>своят/свой</cell></row>
+<row role="msd"><cell role="msd">Px-fs---ns-n</cell>	<cell role="attval">Pronoun Type=reflexive Gender=feminine Number=singular Clitic=no Referent_Type=possessive Definiteness=no</cell>	<cell>1</cell>	<cell>своя</cell></row>
+<row role="msd"><cell role="msd">Px-fs---ns-y</cell>	<cell role="attval">Pronoun Type=reflexive Gender=feminine Number=singular Clitic=no Referent_Type=possessive Definiteness=yes</cell>	<cell>1</cell>	<cell>своята/своя</cell></row>
+<row role="msd"><cell role="msd">Px-ns---ns-n</cell>	<cell role="attval">Pronoun Type=reflexive Gender=neuter Number=singular Clitic=no Referent_Type=possessive Definiteness=no</cell>	<cell>1</cell>	<cell>свое</cell></row>
+<row role="msd"><cell role="msd">Px-ns---ns-y</cell>	<cell role="attval">Pronoun Type=reflexive Gender=neuter Number=singular Clitic=no Referent_Type=possessive Definiteness=yes</cell>	<cell>1</cell>	<cell>своето/свое</cell></row>
+<row role="msd"><cell role="msd">Pz-------q</cell>	<cell role="attval">Pronoun Type=negative Referent_Type=quantitative</cell>	<cell>1</cell>	<cell>николко</cell></row>
+<row role="msd"><cell role="msd">Pz--p----a</cell>	<cell role="attval">Pronoun Type=negative Number=plural Referent_Type=attributive</cell>	<cell>1</cell>	<cell>никакви/никакъв</cell></row>
+<row role="msd"><cell role="msd">Pz-ms----s</cell>	<cell role="attval">Pronoun Type=negative Gender=masculine Number=singular Referent_Type=possessive</cell>	<cell>1</cell>	<cell>ничий</cell></row>
+<row role="msd"><cell role="msd">Pz-ms----a</cell>	<cell role="attval">Pronoun Type=negative Gender=masculine Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>никакъв</cell></row>
+<row role="msd"><cell role="msd">Pz-msn---p</cell>	<cell role="attval">Pronoun Type=negative Gender=masculine Number=singular Case=nominative Referent_Type=personal</cell>	<cell>1</cell>	<cell>никой</cell></row>
+<row role="msd"><cell role="msd">Pz-msd---p</cell>	<cell role="attval">Pronoun Type=negative Gender=masculine Number=singular Case=dative Referent_Type=personal</cell>	<cell>1</cell>	<cell>никому/никой</cell></row>
+<row role="msd"><cell role="msd">Pz-msa---p</cell>	<cell role="attval">Pronoun Type=negative Gender=masculine Number=singular Case=accusative Referent_Type=personal</cell>	<cell>1</cell>	<cell>никого/никой</cell></row>
+<row role="msd"><cell role="msd">Pz-fs----p</cell>	<cell role="attval">Pronoun Type=negative Gender=feminine Number=singular Referent_Type=personal</cell>	<cell>1</cell>	<cell>никоя/никой</cell></row>
+<row role="msd"><cell role="msd">Pz-fs----a</cell>	<cell role="attval">Pronoun Type=negative Gender=feminine Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>никаква/никакъв</cell></row>
+<row role="msd"><cell role="msd">Pz-ns----a</cell>	<cell role="attval">Pronoun Type=negative Gender=neuter Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>никакво/никакъв</cell></row>
+<row role="msd"><cell role="msd">Pg--p----p</cell>	<cell role="attval">Pronoun Type=general Number=plural Referent_Type=personal</cell>	<cell>2</cell>	<cell>всякои, всякакви/всякакъв</cell></row>
+<row role="msd"><cell role="msd">Pg--p----a</cell>	<cell role="attval">Pronoun Type=general Number=plural Referent_Type=attributive</cell>	<cell>1</cell>	<cell>всякакви/всякакъв</cell></row>
+<row role="msd"><cell role="msd">Pg--p----q-n</cell>	<cell role="attval">Pronoun Type=general Number=plural Referent_Type=quantitative Definiteness=no</cell>	<cell>1</cell>	<cell>всички</cell></row>
+<row role="msd"><cell role="msd">Pg--p----q-y</cell>	<cell role="attval">Pronoun Type=general Number=plural Referent_Type=quantitative Definiteness=yes</cell>	<cell>1</cell>	<cell>всичките/всички</cell></row>
+<row role="msd"><cell role="msd">Pg-ms----a</cell>	<cell role="attval">Pronoun Type=general Gender=masculine Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>всякакъв</cell></row>
+<row role="msd"><cell role="msd">Pg-ms----q-s</cell>	<cell role="attval">Pronoun Type=general Gender=masculine Number=singular Referent_Type=quantitative Definiteness=short-art</cell>	<cell>1</cell>	<cell>всичкия</cell></row>
+<row role="msd"><cell role="msd">Pg-ms----q-f</cell>	<cell role="attval">Pronoun Type=general Gender=masculine Number=singular Referent_Type=quantitative Definiteness=full-art</cell>	<cell>2</cell>	<cell>всичкият/всичкия, всичкия</cell></row>
+<row role="msd"><cell role="msd">Pg-msn---p</cell>	<cell role="attval">Pronoun Type=general Gender=masculine Number=singular Case=nominative Referent_Type=personal</cell>	<cell>1</cell>	<cell>всеки</cell></row>
+<row role="msd"><cell role="msd">Pg-msn--na</cell>	<cell role="attval">Pronoun Type=general Gender=masculine Number=singular Case=nominative Clitic=no Referent_Type=attributive</cell>	<cell>1</cell>	<cell>всякакъв</cell></row>
+<row role="msd"><cell role="msd">Pg-msd---p</cell>	<cell role="attval">Pronoun Type=general Gender=masculine Number=singular Case=dative Referent_Type=personal</cell>	<cell>1</cell>	<cell>всекиму/всеки</cell></row>
+<row role="msd"><cell role="msd">Pg-msa---p</cell>	<cell role="attval">Pronoun Type=general Gender=masculine Number=singular Case=accusative Referent_Type=personal</cell>	<cell>1</cell>	<cell>всекиго/всеки</cell></row>
+<row role="msd"><cell role="msd">Pg-fs----p</cell>	<cell role="attval">Pronoun Type=general Gender=feminine Number=singular Referent_Type=personal</cell>	<cell>1</cell>	<cell>всяка</cell></row>
+<row role="msd"><cell role="msd">Pg-fs----a</cell>	<cell role="attval">Pronoun Type=general Gender=feminine Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>всякаква/всякакъв</cell></row>
+<row role="msd"><cell role="msd">Pg-fs----q-n</cell>	<cell role="attval">Pronoun Type=general Gender=feminine Number=singular Referent_Type=quantitative Definiteness=no</cell>	<cell>1</cell>	<cell>всичка</cell></row>
+<row role="msd"><cell role="msd">Pg-fs----q-y</cell>	<cell role="attval">Pronoun Type=general Gender=feminine Number=singular Referent_Type=quantitative Definiteness=yes</cell>	<cell>1</cell>	<cell>всичката/всичка</cell></row>
+<row role="msd"><cell role="msd">Pg-ns----p</cell>	<cell role="attval">Pronoun Type=general Gender=neuter Number=singular Referent_Type=personal</cell>	<cell>2</cell>	<cell>всяко, всякакво/всякакъв</cell></row>
+<row role="msd"><cell role="msd">Pg-ns----a</cell>	<cell role="attval">Pronoun Type=general Gender=neuter Number=singular Referent_Type=attributive</cell>	<cell>1</cell>	<cell>всякакво/всякакъв</cell></row>
+<row role="msd"><cell role="msd">Pg-ns----q-n</cell>	<cell role="attval">Pronoun Type=general Gender=neuter Number=singular Referent_Type=quantitative Definiteness=no</cell>	<cell>2</cell>	<cell>сичко, всичко</cell></row>
+<row role="msd"><cell role="msd">Pg-ns----q-y</cell>	<cell role="attval">Pronoun Type=general Gender=neuter Number=singular Referent_Type=quantitative Definiteness=yes</cell>	<cell>1</cell>	<cell>всичкото/всичко</cell></row>
+<row role="msd"><cell role="msd">Rg</cell>	<cell role="attval">Adverb Type=general</cell>	<cell>728</cell>	<cell>ячко, яздешком, яздешката, явно, яве, яваш, южно, що, що-годе</cell></row>
+<row role="msd"><cell role="msd">Ra</cell>	<cell role="attval">Adverb Type=adjectival</cell>	<cell>1410</cell>	<cell>ясно, яростно, ярко, яркосиньо, ядрено, явно, щателно, щастливо</cell></row>
+<row role="msd"><cell role="msd">Sp</cell>	<cell role="attval">Adposition Type=preposition</cell>	<cell>103</cell>	<cell>яко, чрез, у, със, с, срещу, сред, спрямо, спроти</cell></row>
+<row role="msd"><cell role="msd">Ccs</cell>	<cell role="attval">Conjunction Type=coordinating Formation=simple</cell>	<cell>75</cell>	<cell>я, що, щото, щом, чий, че, чегато, цър, хем</cell></row>
+<row role="msd"><cell role="msd">Ccc</cell>	<cell role="attval">Conjunction Type=coordinating Formation=compound</cell>	<cell>1</cell>	<cell>а_пък</cell></row>
+<row role="msd"><cell role="msd">Css</cell>	<cell role="attval">Conjunction Type=subordinating Formation=simple</cell>	<cell>19</cell>	<cell>я, щом, че, ту, тогава, сякаш, стига, след, преди</cell></row>
+<row role="msd"><cell role="msd">Csc</cell>	<cell role="attval">Conjunction Type=subordinating Formation=compound</cell>	<cell>23</cell>	<cell>щом_като, тъй_че, тъй_като, така_че, сякаш_че, стига_да, след_като</cell></row>
+<row role="msd"><cell role="msd">Mc---d</cell>	<cell role="attval">Numeral Type=cardinal Form=digit</cell>	<cell>1010</cell>	<cell>шест, 9-членното, 9_февруари, 9-ти_септември_1944, 9-ти, 9_септември_1944</cell></row>
+<row role="msd"><cell role="msd">Mc---r</cell>	<cell role="attval">Numeral Type=cardinal Form=roman</cell>	<cell>6</cell>	<cell>XX, XXI, VII, I, II, III</cell></row>
+<row role="msd"><cell role="msd">Mc-p-ln</cell>	<cell role="attval">Numeral Type=cardinal Number=plural Form=letter Definiteness=no</cell>	<cell>78</cell>	<cell>шест, шестте/шест, шестстотин, шест-седем, шестотин, шестнайсет</cell></row>
+<row role="msd"><cell role="msd">Mc-p-ly</cell>	<cell role="attval">Numeral Type=cardinal Number=plural Form=letter Definiteness=yes</cell>	<cell>12</cell>	<cell>шестдесетте/шестдесет, четиридесетте/четиридесет, трийсетте/трийсет</cell></row>
+<row role="msd"><cell role="msd">Mc-p-an</cell>	<cell role="attval">Numeral Type=cardinal Number=plural Form=approx Definiteness=no</cell>	<cell>7</cell>	<cell>трийсетина, стотина, петнадесетина, петдесетина, десетина, двамина</cell></row>
+<row role="msd"><cell role="msd">Mc-p-ay</cell>	<cell role="attval">Numeral Type=cardinal Number=plural Form=approx Definiteness=yes</cell>	<cell>4</cell>	<cell>четиримата/четирима, петнайсетина/петнайсет, десетината/десетина</cell></row>
+<row role="msd"><cell role="msd">Mcms-ln</cell>	<cell role="attval">Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=no</cell>	<cell>4</cell>	<cell>един-едничък, един-единствен, един, два-три</cell></row>
+<row role="msd"><cell role="msd">Mcms-ls</cell>	<cell role="attval">Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=short-art</cell>	<cell>2</cell>	<cell>десетия/десет, двайсетия/двайсет</cell></row>
+<row role="msd"><cell role="msd">Mcms-lf</cell>	<cell role="attval">Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=full-art</cell>	<cell>1</cell>	<cell>единият/един</cell></row>
+<row role="msd"><cell role="msd">Mcmp-ln</cell>	<cell role="attval">Numeral Type=cardinal Gender=masculine Number=plural Form=letter Definiteness=no</cell>	<cell>1</cell>	<cell>два</cell></row>
+<row role="msd"><cell role="msd">Mcmp-ly</cell>	<cell role="attval">Numeral Type=cardinal Gender=masculine Number=plural Form=letter Definiteness=yes</cell>	<cell>1</cell>	<cell>двата/два</cell></row>
+<row role="msd"><cell role="msd">Mcmp-mn</cell>	<cell role="attval">Numeral Type=cardinal Gender=masculine Number=plural Form=m-form Definiteness=no</cell>	<cell>1</cell>	<cell>двама</cell></row>
+<row role="msd"><cell role="msd">Mcmp-my</cell>	<cell role="attval">Numeral Type=cardinal Gender=masculine Number=plural Form=m-form Definiteness=yes</cell>	<cell>5</cell>	<cell>четирима, трима, тримата/трима, петимата/петима, двамата/двама</cell></row>
+<row role="msd"><cell role="msd">Mcfs-ln</cell>	<cell role="attval">Numeral Type=cardinal Gender=feminine Number=singular Form=letter Definiteness=no</cell>	<cell>7</cell>	<cell>хиляда, една-четвърт, една-пета, една, една-единствена/една-единствен</cell></row>
+<row role="msd"><cell role="msd">Mcfp-ln</cell>	<cell role="attval">Numeral Type=cardinal Gender=feminine Number=plural Form=letter Definiteness=no</cell>	<cell>1</cell>	<cell>две</cell></row>
+<row role="msd"><cell role="msd">Mcns-ln</cell>	<cell role="attval">Numeral Type=cardinal Gender=neuter Number=singular Form=letter Definiteness=no</cell>	<cell>3</cell>	<cell>едно, едно-единствено, две-три</cell></row>
+<row role="msd"><cell role="msd">Mcns-ly</cell>	<cell role="attval">Numeral Type=cardinal Gender=neuter Number=singular Form=letter Definiteness=yes</cell>	<cell>2</cell>	<cell>едното/един, двете/две</cell></row>
+<row role="msd"><cell role="msd">Mcnp-ln</cell>	<cell role="attval">Numeral Type=cardinal Gender=neuter Number=plural Form=letter Definiteness=no</cell>	<cell>1</cell>	<cell>две</cell></row>
+<row role="msd"><cell role="msd">Mo-p--n</cell>	<cell role="attval">Numeral Type=ordinal Number=plural Definiteness=no</cell>	<cell>2</cell>	<cell>трети, първи</cell></row>
+<row role="msd"><cell role="msd">Mo-p--y</cell>	<cell role="attval">Numeral Type=ordinal Number=plural Definiteness=yes</cell>	<cell>3</cell>	<cell>третите, първите/първи, вторите/втори</cell></row>
+<row role="msd"><cell role="msd">Moms--n</cell>	<cell role="attval">Numeral Type=ordinal Gender=masculine Number=singular Definiteness=no</cell>	<cell>32</cell>	<cell>шестнадесети, шести, шейсети, четвърти, тринайсети, тринадесети</cell></row>
+<row role="msd"><cell role="msd">Moms--s</cell>	<cell role="attval">Numeral Type=ordinal Gender=masculine Number=singular Definiteness=short-art</cell>	<cell>9</cell>	<cell>четиридесетия/четиридесети, третия/трети, седмия, първия/първи</cell></row>
+<row role="msd"><cell role="msd">Moms--f</cell>	<cell role="attval">Numeral Type=ordinal Gender=masculine Number=singular Definiteness=full-art</cell>	<cell>6</cell>	<cell>шестия/шести, третият/трети, първият/първи, деветия/девети, дванадесетият/дванадесети</cell></row>
+<row role="msd"><cell role="msd">Mofs--n</cell>	<cell role="attval">Numeral Type=ordinal Gender=feminine Number=singular Definiteness=no</cell>	<cell>10</cell>	<cell>шеста/шести, четиринадесети, трета, седма/седми, първа/първи</cell></row>
+<row role="msd"><cell role="msd">Mofs--y</cell>	<cell role="attval">Numeral Type=ordinal Gender=feminine Number=singular Definiteness=yes</cell>	<cell>7</cell>	<cell>шестнадесетата/шестнадесети, шестата/шести, третата/трети, първата/първи</cell></row>
+<row role="msd"><cell role="msd">Mons--n</cell>	<cell role="attval">Numeral Type=ordinal Gender=neuter Number=singular Definiteness=no</cell>	<cell>3</cell>	<cell>трето, трето/трети, първо/първи</cell></row>
+<row role="msd"><cell role="msd">Mons--y</cell>	<cell role="attval">Numeral Type=ordinal Gender=neuter Number=singular Definiteness=yes</cell>	<cell>10</cell>	<cell>шестото/шести, третото/трети, седмото/седми, първото/първи, петото/пети</cell></row>
+<row role="msd"><cell role="msd">Qzs</cell>	<cell role="attval">Particle Type=negative Formation=simple</cell>	<cell>2</cell>	<cell>нито, не</cell></row>
+<row role="msd"><cell role="msd">Qgs</cell>	<cell role="attval">Particle Type=general Formation=simple</cell>	<cell>117</cell>	<cell>я, ще, чисто, че, чак, ц, хубаво, холан, хе</cell></row>
+<row role="msd"><cell role="msd">Qgc</cell>	<cell role="attval">Particle Type=general Formation=compound</cell>	<cell>3</cell>	<cell>ей-тъй, ей-сега, а_бе</cell></row>
+<row role="msd"><cell role="msd">Qcs</cell>	<cell role="attval">Particle Type=comparative Formation=simple</cell>	<cell>6</cell>	<cell>по-, по, най-, най, годе, -годе</cell></row>
+<row role="msd"><cell role="msd">Qvs</cell>	<cell role="attval">Particle Type=verbal Formation=simple</cell>	<cell>4</cell>	<cell>ще, си, се, да</cell></row>
+<row role="msd"><cell role="msd">Qqs</cell>	<cell role="attval">Particle Type=interrogative Formation=simple</cell>	<cell>3</cell>	<cell>нима, ли, дали</cell></row>
+<row role="msd"><cell role="msd">Qos</cell>	<cell role="attval">Particle Type=modal Formation=simple</cell>	<cell>8</cell>	<cell>хайде, уж, нека, нали, дори, де, би, айде</cell></row>
+<row role="msd"><cell role="msd">I-s</cell>	<cell role="attval">Interjection Formation=simple</cell>	<cell>169</cell>	<cell>я, ясно, язък, ядец, яаа, ъъ, ъхъ, щрак, шшт</cell></row>
+<row role="msd"><cell role="msd">I-c</cell>	<cell role="attval">Interjection Formation=compound</cell>	<cell>4</cell>	<cell>хайде_де, къде-къде, кой_знае, има-няма</cell></row>
+<row role="msd"><cell role="msd">Y</cell>	<cell role="attval">Abbreviation</cell>	<cell>377</cell>	<cell>Ю., ЮАР, щ.д., ч., ЧССР, чл., ЧЗИБ, Ц., ЦУМ</cell></row>
+<row role="msd"><cell role="msd">X</cell>	<cell role="attval">Residual</cell>	<cell>1</cell>	<cell>2+2=5</cell></row>
+
+            <!-- LEXICAL MSD TABLE END -->
+        </table>
+    </div>
+</div>

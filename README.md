@@ -1,0 +1,2 @@
+# MULTEXT-East morphosyntactic specifications
+
