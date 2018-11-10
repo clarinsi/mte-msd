@@ -1,9 +1,13 @@
 #! /usr/local/bin/perl
-# From an example MULTEXT-type lexicon makes TEI table with 
-# a) MSDs, b) their expansions to features, 
-# c) type and d) token counts (if they are included in the lexicon)
-# f) localised MSD, g) localised features (if they are localised in the specifications)
+# From an example MULTEXT-type lexicon makes TEI table where each row containsŽ:
+# a) MSD (in English)
+# b) its expansions to features (in English)
+# c) type count (i.e. how many times this MSD appears in the lexicon
+# d) token counts (if they are included in the lexicon)
+# f) localised MSD (if MSDs are localised in the specifications)
+# g) localised features (if features are localised in the specifications)
 # h) examples of usage
+# NB: the langauge(s) that have f) and/or g) are explicitly coded below
 #
 use utf8;
 binmode(STDIN,'utf8');
@@ -46,7 +50,8 @@ foreach my $msd (sort keys %types) {
     print OUT "$msd\n"
 }
 close OUT;
-#and dress them as an XML table that expand understands
+
+#Dress them as an XML table that expand understands
 $COMMAND = "$DRESS < $tmpDir/msd.lst > $tmpDir/msds.xml";
 if (system($COMMAND)) {
     print STDERR "ERROR with $COMMAND!\n"
@@ -68,23 +73,44 @@ while (<TBL>) {
 close TBL;
 
 #Get localised MSD and expansion to features
-$OPTIONS = "output='id msd attval' localise=$lang";
-$COMMAND = "$SAXON specs=$specFile $OPTIONS -xsl:$EXPAND $tmpDir/msds.xml > $tmpDir/expand2.tbl";
-if (system($COMMAND)) {
-    print STDERR "ERROR with $COMMAND!\n"
-}
-close TBL;
-if (-z "$tmpDir/expand2.tbl") {$localised = 0}
-else {
-    $localised = 1;
+#Localisations are available only for a few languages
+#Here they are listed explicitly!
+if ($lang eq 'sl') {
+    $OPTIONS = "output='id msd attval' localise=$lang";
+    $COMMAND = "$SAXON specs=$specFile $OPTIONS -xsl:$EXPAND $tmpDir/msds.xml > $tmpDir/expand2.tbl";
+    if (system($COMMAND)) {
+	print STDERR "ERROR with $COMMAND!\n"
+    }
+    open TBL, '<:utf8', "$tmpDir/expand2.tbl";
     while (<TBL>) {
 	chomp;
 	my ($msd, $msd_loc, $feats_loc) = split /\t/;
-	$localised = 1; #if one is localised, they all should be!
-	$msd_loc{$msd_en} = $msd_loc;
-	$feats_loc{$msd_en} = $long_loc;
+	$msd_loc{$msd} = $msd_loc;
+	$feats_loc{$msd} = $feats_loc;
     }
     close TBL;
+    $localised_feats = 1;
+    $localised_msds = 1;
+}
+elsif ($lang eq 'sk' or $lang eq 'uk') {
+    $OPTIONS = "output='id attval' localise=$lang";
+    $COMMAND = "$SAXON specs=$specFile $OPTIONS -xsl:$EXPAND $tmpDir/msds.xml > $tmpDir/expand2.tbl";
+    if (system($COMMAND)) {
+	print STDERR "ERROR with $COMMAND!\n"
+    }
+    open TBL, '<:utf8', "$tmpDir/expand2.tbl";
+    while (<TBL>) {
+	chomp;
+	my ($msd, $feats_loc) = split /\t/;
+	$feats_loc{$msd} = $feats_loc;
+    }
+    close TBL;
+    $localised_feats = 1;
+    $localised_msds = 0;
+}
+else {
+    $localised_feats = 0;
+    $localised_msds = 0;
 }
 
 $NS = 'xmlns="http://www.tei-c.org/ns/1.0"';
@@ -94,10 +120,8 @@ print "    <row role=\"header\">\n";
 print "      <cell role=\"label\">MSD</cell>\n";
 print "      <cell role=\"label\">Features</cell>\n";
 #Assume that localisation is into the langauge that the specs are describing!
-if ($localised) {
-    print "      <cell role=\"label\">MSD ($lang)</cell>\n";
-    print "      <cell role=\"label\">Features ($lang)</cell>\n";
-}
+print "      <cell role=\"label\">MSD ($lang)</cell>\n" if $localised_msds;
+print "      <cell role=\"label\">Features ($lang)</cell>\n" if $localised_feats;
 print "      <cell role=\"label\">Types</cell>\n";
 print "      <cell role=\"label\">Tokens</cell>\n" if $tokcount;
 print "      <cell role=\"label\">Examples</cell>\n";
@@ -105,13 +129,11 @@ print "    </row>\n";
 
 foreach my $col (sort keys %collate) {
     $msd = $collate{$col};
-    print "    <row>";
+    print "    <row role=\"msd\">";
     print "<cell role=\"msd\" xml:lang=\"en\">$msd</cell>";
     print "<cell role=\"attval\" xml:lang=\"en\">$feats{$msd}</cell>";
-    if ($localised) {
-	print "<cell role=\"msd\" xml:lang=\"$lang\">$msd_loc{$msd}</cell>";
-	print "<cell role=\"attval\" xml:lang=\"$lang\">$feats_loc{$msd}</cell>"
-    }
+    print "<cell role=\"msd\" xml:lang=\"$lang\">$msd_loc{$msd}</cell>" if $localised_msds;
+    print "<cell role=\"attval\" xml:lang=\"$lang\">$feats_loc{$msd}</cell>" if $localised_feats;
     print "<cell>$types{$msd}</cell>";
     print "<cell>$tokens{$msd}</cell>" if $tokcount;
     my $exas = join(", ", @{$lex{$msd}});
