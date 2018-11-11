@@ -10,7 +10,7 @@ use File::Spec;
 use FindBin qw($Bin);
 use File::Temp qw/ tempfile tempdir /;  #creation of tmp files and directory
 $tmpDir = "$Bin/tmp";
-my $tempdir = tempdir(DIR => $tmpDir, CLEANUP => 1);
+my $tempdir = tempdir(DIR => $tmpDir, CLEANUP => 0);
 
 GetOptions("specs=s"   => \$specF,     #File with common specifications
 	   "infiles=s" => \$inFileS,   #Files with language specific specifications
@@ -30,6 +30,7 @@ my $SAXON   = "java -jar /home/tomaz/bin/saxon9he.jar";
 my $EXPAND  = "$Bin/msd-expand2text.xsl";
 my $CONVERT = "$Bin/msd-convert2text.xsl";
 my $FSLIB   = "$Bin/msd-fslib.xsl";
+my $FSEXP   = "$Bin/expand-fs.xsl";
 my $DRESS   = "$Bin/dress-msd.pl";
 #my JING = 'java -jar /usr/local/bin/jing.jar'; #Not used
 
@@ -63,6 +64,10 @@ foreach $inF (@infiles) {
     $COMMAND = "$SAXON -xsl:$FSLIB $inFile";
     #print STDERR "INFO1: doing $COMMAND\n";
     run_command("$COMMAND > $tmp6", $tmp6);
+
+    $tmp7 = "$outDir/msd-fslib2-$lg.xml";
+    $COMMAND = "$SAXON -xsl:$FSEXP $inFile";
+    run_command("$COMMAND > $tmp7", $tmp7);
 
     ### Hopefully no longer needed!
     # #if ($lg eq 'sl' or $lg eq 'sk' or $lg eq 'uk') {
