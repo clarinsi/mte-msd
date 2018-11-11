@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://nl.ijs.si/tei/schema/mte/mte_tei.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="msd-spec" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="msd-spec" xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -128,26 +126,26 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <!--SLAVIC MACROLANGUAGE--><language xml:id="hbs" ident="sh">Serbo-Croatian</language>
-        <!--INDO-EUROPEAN (OTHER)--><language xml:id="sq" ident="sq">Albanian</language>
-        <!--SLAVIC--><language xml:id="bs" ident="bg">Bosnian</language>
-        <!--SLAVIC--><language xml:id="bg" ident="bg">Bulgarian</language>
-        <!--ESKIMO--><language xml:id="ce" ident="ce">Chechen</language>
-        <!--SLAVIC--><language xml:id="cs" ident="cs">Czech</language>
-        <!--GERMANIC--><language xml:id="en" ident="en">English</language>
-        <!--FINNO-UGRIC--><language xml:id="et" ident="et">Estonian</language>
-        <!--INDO-IRANIAN--><language xml:id="fa" ident="fa">Persian</language>
-        <!--SLAVIC--><language xml:id="hr" ident="hr">Croatian</language>
-        <!--FINNO-UGRIC--><language xml:id="hu" ident="hu">Hungarian</language>
-        <!--SLAVIC--><language xml:id="mk" ident="mk">Macedonian</language>
-        <!--SLAVIC--><language xml:id="pl" ident="pl">Polish</language>
-        <!--ROMANCE--><language xml:id="ro" ident="ro">Romanian</language>
-        <!--SLAVIC--><language xml:id="ru" ident="ru">Russian</language>
-        <!--SLAVIC--><language xml:id="uk" ident="uk">Ukrainian</language>
-        <!--SLAVIC--><language xml:id="sk" ident="sk">Slovak</language>
-        <!--SLAVIC--><language xml:id="sl" ident="sl">Slovene</language>
-        <!--DIALECT OF SLOVENE--><language xml:id="sl-rozaj" ident="sl-rozaj">Resian</language>
-        <!--SLAVIC--><language xml:id="sr" ident="sr">Serbian</language>
+        <language xml:id="hbs" ident="sh">Serbo-Croatian</language>
+        <language xml:id="sq" ident="sq">Albanian</language>
+        <language xml:id="bs" ident="bg">Bosnian</language>
+        <language xml:id="bg" ident="bg">Bulgarian</language>
+        <language xml:id="ce" ident="ce">Chechen</language>
+        <language xml:id="cs" ident="cs">Czech</language>
+        <language xml:id="en" ident="en">English</language>
+        <language xml:id="et" ident="et">Estonian</language>
+        <language xml:id="fa" ident="fa">Persian</language>
+        <language xml:id="hr" ident="hr">Croatian</language>
+        <language xml:id="hu" ident="hu">Hungarian</language>
+        <language xml:id="mk" ident="mk">Macedonian</language>
+        <language xml:id="pl" ident="pl">Polish</language>
+        <language xml:id="ro" ident="ro">Romanian</language>
+        <language xml:id="ru" ident="ru">Russian</language>
+        <language xml:id="uk" ident="uk">Ukrainian</language>
+        <language xml:id="sk" ident="sk">Slovak</language>
+        <language xml:id="sl" ident="sl">Slovene</language>
+        <language xml:id="sl-rozaj" ident="sl-rozaj">Resian</language>
+        <language xml:id="sr" ident="sr">Serbian</language>
       </langUsage>
     </profileDesc>
     <revisionDesc>
@@ -403,16 +401,7 @@
                   and Evaluation, LREC'10</title>
               <date>2010</date>
             </bibl>
-            <!--
-CHIARCOS, Christian, ERJAVEC, Tomaž. OWL/DL formalization of the MULTEXT-East morphosyntactic specifications. V: 5th Linguistic Annotation Workshop, June 23, 2011, Portland, Oregon. LAW V. Portland: Association for Computational Linguistics, 2011, str. 11-20. http://www.aclweb.org/anthology-new/W/W11/W11-0402.pdf. 
-
- ERJAVEC, Tomaž. MULTEXT-east morphosyntactic specifications : towards version 4. V: GARABÍK, Radovan (ur.). MONDILEX Third Open Workshop, Bratislava, Slovakia, 15-16 April, 2009. Metalanguage and encoding scheme design for digital lexicography : innovative solutions for lexical entry design in Slavic lexicography : proceedings. Bratislava: L'. Štúr Institute of Linguistic, Slovak Academy of Sciences, 2009, str. 59-70
-
- ERJAVEC, Tomaž. MULTEXT-East and TEIand TEI : an investigation of a schema for language engineering and corpus linguistics. V: TUFIŞ, Dan (ur.), FORASCU, Corina (ur.). Multilinguality and interoperability in language processing with emphasis on Romanian. Bucureşti: Editura Academiei Române, cop. 2010, str. 19-47.
-
-V3??
-
--->
+            
             <bibl xml:id="bib.mte-slav">
               <author>Tomaž Erjavec, Cvetana Krstev, Vladimır Petkevič, Kiril Simov, Marko Tadić,
                 and Duško Vitas</author>
@@ -7168,44 +7157,39 @@ V3??
                 <cell role="name">CATEGORY</cell>
                 <cell role="value">Punctuation</cell>
                 <cell role="code">Z</cell>
-                <cell role="lang">hr</cell>
-                <cell role="lang">ce</cell>
+                <cell role="lang">en</cell>
+                <cell role="lang">ro</cell>
                 <cell role="lang">sl</cell>
+                <cell role="lang">cs</cell>
+                <cell role="lang">bg</cell>
+                <cell role="lang">mk</cell>
+                <cell role="lang">et</cell>
+                <cell role="lang">hu</cell>
+                <cell role="lang">hr</cell>
+                <cell role="lang">sr</cell>
+                <cell role="lang">sl-rozaj</cell>
+                <cell role="lang">fa</cell>
+                <cell role="lang">ru</cell>
+                <cell role="lang">uk</cell>
+                <cell role="lang">pl</cell>
+                <cell role="lang">sk</cell>
+                <cell role="lang">ce</cell>
                 <cell role="lang">bs</cell>
-              </row>
-              <row role="attribute">
-                <cell role="position">1</cell>
-                <cell role="name">Type</cell>
-                <cell>
-                  <table>
-                    <row role="value">
-                      <cell role="name">punctuation</cell>
-                      <cell role="code">p</cell>
-                      <cell role="lang">ce</cell>
-                    </row>
-                    <row role="value">
-                      <cell role="name">sentence_end</cell>
-                      <cell role="code">s</cell>
-                      <cell role="lang">ce</cell>
-                    </row>
-                  </table>
-                </cell>
               </row>
             </table>
             <div>
               <head>Notes</head>
               <list>
                 <item>Due to popular demand (i.e. Vladimir Benko:),
-              punctuation has been introduced into the specifications in Version 5.
-              Even though MULTEXT(-East) specifications and the MSDs
-              are meant to describe the morphosyntax of words rather
-              than act directly as corpus tags, they are nevetheless
-              often used for exactly this purpose.  This means, that
-              punctuation is tagged in each corpus differently, and
-              these specifications have so far given no explanatin
-              how.  Therefore, this Z category is provisionaly
-              introduced; it is currently used only by a few langauges.</item>
-                <item>The sentence end is meant for TreeTagger and RFTagger by Helmut Schmid. However, this type might be reconsidered, as end of sentence is better expressed with XML elements, e.g. &lt;s&gt;</item>
+                punctuation has been introduced into the
+                specifications in Version 5.  Even though
+                MULTEXT(-East) specifications and the MSDs are meant
+                to describe the morphosyntax of words rather than act
+                directly as corpus tags, they are nevetheless often
+                used for exactly this purpose.  This means that
+                punctuation was tagged in each corpus differently,
+                leading to inconsistences.  Therefore, the Z category
+                was introduced.</item>
               </list>
             </div>
           </div>
@@ -7285,24 +7269,24 @@ V3??
       </div>
       <div type="part" xml:id="msd.lang-specific">
         <head>Language Specific MULTEXT Specifications</head>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-en.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ro.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-pl.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-cs.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sk.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl-rozaj.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hr.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sr.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bs.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ru.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-uk.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-mk.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bg.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-fa.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-et.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hu.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ce.spc.xml"/>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
       </div>
     </body>
   </text>

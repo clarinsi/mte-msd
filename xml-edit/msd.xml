@@ -7168,44 +7168,39 @@ V3??
                 <cell role="name">CATEGORY</cell>
                 <cell role="value">Punctuation</cell>
                 <cell role="code">Z</cell>
-                <cell role="lang">hr</cell>
-                <cell role="lang">ce</cell>
+                <cell role="lang">en</cell>
+                <cell role="lang">ro</cell>
                 <cell role="lang">sl</cell>
+                <cell role="lang">cs</cell>
+                <cell role="lang">bg</cell>
+                <cell role="lang">mk</cell>
+                <cell role="lang">et</cell>
+                <cell role="lang">hu</cell>
+                <cell role="lang">hr</cell>
+                <cell role="lang">sr</cell>
+                <cell role="lang">sl-rozaj</cell>
+                <cell role="lang">fa</cell>
+                <cell role="lang">ru</cell>
+                <cell role="lang">uk</cell>
+                <cell role="lang">pl</cell>
+                <cell role="lang">sk</cell>
+                <cell role="lang">ce</cell>
                 <cell role="lang">bs</cell>
-              </row>
-              <row role="attribute">
-                <cell role="position">1</cell>
-                <cell role="name">Type</cell>
-                <cell>
-                  <table>
-                    <row role="value">
-                      <cell role="name">punctuation</cell>
-                      <cell role="code">p</cell>
-                      <cell role="lang">ce</cell>
-                    </row>
-                    <row role="value">
-                      <cell role="name">sentence_end</cell>
-                      <cell role="code">s</cell>
-                      <cell role="lang">ce</cell>
-                    </row>
-                  </table>
-                </cell>
               </row>
             </table>
             <div>
               <head>Notes</head>
               <list>
                 <item>Due to popular demand (i.e. Vladimir Benko:),
-              punctuation has been introduced into the specifications in Version 5.
-              Even though MULTEXT(-East) specifications and the MSDs
-              are meant to describe the morphosyntax of words rather
-              than act directly as corpus tags, they are nevetheless
-              often used for exactly this purpose.  This means, that
-              punctuation is tagged in each corpus differently, and
-              these specifications have so far given no explanatin
-              how.  Therefore, this Z category is provisionaly
-              introduced; it is currently used only by a few langauges.</item>
-                <item>The sentence end is meant for TreeTagger and RFTagger by Helmut Schmid. However, this type might be reconsidered, as end of sentence is better expressed with XML elements, e.g. &lt;s&gt;</item>
+                punctuation has been introduced into the
+                specifications in Version 5.  Even though
+                MULTEXT(-East) specifications and the MSDs are meant
+                to describe the morphosyntax of words rather than act
+                directly as corpus tags, they are nevetheless often
+                used for exactly this purpose.  This means that
+                punctuation was tagged in each corpus differently,
+                leading to inconsistences.  Therefore, the Z category
+                was introduced.</item>
               </list>
             </div>
           </div>

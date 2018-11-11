@@ -2065,8 +2065,8 @@
   </div>
     <div select="hu" type="section" xml:id="msd.msds-hu">
         <head>Hungarian MSD Index</head>
-        <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (64,003 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Czech MULTEXT-East lexicon.</p>
-      <p>Note that for Hungarian, the number of theoretically possible MSDs represented in this index is much greater than those found in the lexicon.</p>
+        <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (64,003 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Hungarian MULTEXT-East lexicon.</p>
+	     <p>Note that for Hungarian, the number of theoretically possible MSDs represented in this index is much greater than those found in the lexicon.</p>
         
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hu.msd.xml"/>
    </div>
