@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
   xmlns="http://www.tei-c.org/ns/1.0" 
-  exclude-result-prefixes="tei xd">
+  exclude-result-prefixes="tei xd xi">
   <xd:doc type="stylesheet">
     <xd:desc>
       <xd:p>Stylesheet for converting MULTEXT-East morphosyntactic specifications.
@@ -229,7 +230,11 @@
     <xsl:copy/>
   </xsl:template>
 
-  <!-- Returns the languages that a particular cat table has localisations for;
+  <xsl:template match="xi:*">
+    <xsl:copy-of select="."/>
+  </xsl:template>
+
+    <!-- Returns the languages that a particular cat table has localisations for;
        in common tables, returns '? '-->
   <xsl:template name="cat-langs">
     <xsl:choose>
