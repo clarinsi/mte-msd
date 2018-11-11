@@ -1,28 +1,35 @@
+#Validate XML of xml-edit and xml
 val:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
+## TESTING SCRIPTS
+# Test generation of tables
+tst-tbls:
+	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-hu.spc.xml -outdir tmp
 # Test generation of the feature-structure libraries
 tst-fs:
-	$s -xsl:bin/msd-fslib.xsl xml/msd-en.xml > tmp/fslib-en.xml
-	$s -xsl:bin/check-links.xsl tmp/fslib-en.xml
-	$s -xsl:bin/expand-fs.xsl tmp/fslib-en.xml > tmp/fslib2-en.xml
-	$s -xsl:bin/msd-fslib.xsl xml/msd-sl.xml > tmp/fslib-sl.xml
+	$s -xsl:bin/msd-fslib.xsl xml/msd-sl.spc.xml > tmp/fslib-sl.xml
 	$s -xsl:bin/check-links.xsl tmp/fslib-sl.xml
 	$s -xsl:bin/expand-fs.xsl tmp/fslib-sl.xml > tmp/fslib2-sl.xml
-# Test generation of tables for a couple of languages
-tst-tbls:
-	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-en.xml -outdir tmp
-	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-sl.xml -outdir tmp
 # Test generation of MSD index for a couple of languages
 tst-indx:
-	bin/msd-index.pl en xml-edit/msd-en.xml < xml-edit/msd-en.wfl.txt > tmp/msd-en.msd.xml
-	bin/msd-index.pl sl xml-edit/msd-sl.xml < xml-edit/msd-sl.wfl.txt > tmp/msd-sl.msd.xml
+	bin/msd-index.pl en xml-edit/msd-en.spc.xml < xml-edit/msd-en.wfl.txt > tmp/msd-en.msd.xml
+	bin/msd-index.pl sl xml-edit/msd-sl.spc.xml < xml-edit/msd-sl.wfl.txt > tmp/msd-sl.msd.xml
 
 ###PROCESSING THE XML SOURCE
 nohup:
 	nohup time make all > nohup.all &
-all:	htm tbls
+all:	cast-all htm tbls
+
+# Put the publishable part of the resources on the Web
+W = /net/mantra/project/www-nl/www/ME/V6/msd
+mount:
+	rm -fr $W/*
+	cp -r xml $W
+	cp -r html $W
+	cp -r tables $W
+	cp -r schema $W
 
 # Generate (in parallel) all the language tables
 tbls:
@@ -36,17 +43,10 @@ htm:
 	$s -xi -xsl:bin/msd-spec2prn.xsl xml/msd.xml | $s splitLevel=1 - -xsl:bin/msd-prn2html.xsl 
 	cp html/msd.html html/index.html
 
-W = /net/mantra/project/www-nl/www/ME/V6
-mount:
-	rm -fr $W/*
-	cp -r xml $W
-	cp -r html $W
-	cp -r tables $W
-	cp -r schema $W
-#
+# Convert all editable specifications to their final (and redundant) form
 cast-all:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
-	cp xml-edit/msd.xml xml/msd.xml
+	$s -xsl:bin/msd-castspecs.xsl xml-edit/msd.xml > xml/msd.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-bg.spc.xml > xml/msd-bg.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-bs.spc.xml > xml/msd-bs.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-ce.spc.xml > xml/msd-ce.spc.xml
@@ -66,8 +66,6 @@ cast-all:
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sr.spc.xml > xml/msd-sr.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-uk.spc.xml > xml/msd-uk.spc.xml
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
-
-
 
 #### ADDING A NEW LANGUAGE
 ## Take a new language $L section
