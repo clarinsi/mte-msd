@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="en" xml:id="msd-en" xml:lang="en">
-  <head>English Specifications</head>
-  <docAuthor>Nancy Ide, Greg Priest-Dorman, Tomaž Erjavec, Tamas Varadi</docAuthor>
-  <docDate>2018-11-11</docDate>
-  <list type="gloss">
+<?xml version="1.0" encoding="utf-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="en"
+     xml:id="msd-en"
+     xml:lang="en">
+   <head>English Specifications</head>
+   <docAuthor>Nancy Ide, Greg Priest-Dorman, Tomaž Erjavec, Tamas Varadi</docAuthor>
+   <docDate>2018-11-11</docDate>
+   <list type="gloss">
       <label>Language Name:</label>
       <item>English</item>
       <label>Code:</label>
@@ -11,13 +14,101 @@
       <item>
          <ref target="http://www.ethnologue.com/language/eng">Ethnologue</ref>
       </item>
-  </list>
-  <divGen type="subtoc"/>
-  <div type="section" select="en" xml:id="msd.categories-en">
+   </list>
+   <divGen type="subtoc"/>
+   <div type="section" select="en" xml:id="msd.categories-en">
       <head>English Category Index</head>
-      <divGen type="msd.cats" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.N-en">
+      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-en">
+         <head>Table of categories</head>
+         <table>
+            <row role="label">
+               <cell>CATEGORY (en)</cell>
+               <cell>Value (en)</cell>
+               <cell>Code (en)</cell>
+               <cell>Attributes</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Noun</cell>
+               <cell>N</cell>
+               <cell role="attno">3</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Verb</cell>
+               <cell>V</cell>
+               <cell role="attno">5</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Adjective</cell>
+               <cell>A</cell>
+               <cell role="attno">2</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Pronoun</cell>
+               <cell>P</cell>
+               <cell role="attno">8</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Determiner</cell>
+               <cell>D</cell>
+               <cell role="attno">6</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Adverb</cell>
+               <cell>R</cell>
+               <cell role="attno">3</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Adposition</cell>
+               <cell>S</cell>
+               <cell role="attno">1</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Conjunction</cell>
+               <cell>C</cell>
+               <cell role="attno">2</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Numeral</cell>
+               <cell>M</cell>
+               <cell role="attno">1</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Interjection</cell>
+               <cell>I</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Abbreviation</cell>
+               <cell>Y</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Residual</cell>
+               <cell>X</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Punctuation</cell>
+               <cell>Z</cell>
+               <cell role="attno">0</cell>
+            </row>
+         </table>
+      </tei:div>
+   </div>
+   <div type="section" select="en" xml:id="msd.N-en">
       <head>English Noun</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.N-en">
          <head>Specification for English Noun</head>
@@ -80,10 +171,135 @@
             </cell>
          </row>
       </table>
-    
-      <divGen type="msd.lex" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.V-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (19)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Nc</cell>
+               <cell>Noun Type=common</cell>
+               <cell>4</cell>
+               <cell>Portuguese, o, Flemish, Dutch</cell>
+            </row>
+            <row>
+               <cell>Nc-s</cell>
+               <cell>Noun Type=common Number=singular</cell>
+               <cell>115</cell>
+               <cell>winner, wholesaler, welder, ward, Vietnamese</cell>
+            </row>
+            <row>
+               <cell>Nc-p</cell>
+               <cell>Noun Type=common Number=plural</cell>
+               <cell>88</cell>
+               <cell>winners/winner, wholesalers/wholesaler, welders/welder, wards/ward, victims/victim</cell>
+            </row>
+            <row>
+               <cell>Ncm</cell>
+               <cell>Noun Type=common Gender=masculine</cell>
+               <cell>5</cell>
+               <cell>Taiwanese, Sudanese, next-of-kin, eldest, deceased</cell>
+            </row>
+            <row>
+               <cell>Ncms</cell>
+               <cell>Noun Type=common Gender=masculine Number=singular</cell>
+               <cell>118</cell>
+               <cell>widower, welterweight, volunteer, viscount, vice-chairman</cell>
+            </row>
+            <row>
+               <cell>Ncmp</cell>
+               <cell>Noun Type=common Gender=masculine Number=plural</cell>
+               <cell>85</cell>
+               <cell>widowers/widower, welterweights/welterweight, viscounts/viscount, tenors/tenor, teamsters/teamster</cell>
+            </row>
+            <row>
+               <cell>Ncf</cell>
+               <cell>Noun Type=common Gender=feminine</cell>
+               <cell>5</cell>
+               <cell>Taiwanese, Sudanese, next-of-kin, eldest, deceased</cell>
+            </row>
+            <row>
+               <cell>Ncfs</cell>
+               <cell>Noun Type=common Gender=feminine Number=singular</cell>
+               <cell>119</cell>
+               <cell>wren, woman, wife, widow, whore</cell>
+            </row>
+            <row>
+               <cell>Ncfp</cell>
+               <cell>Noun Type=common Gender=feminine Number=plural</cell>
+               <cell>82</cell>
+               <cell>wrens/wren, women/woman, wives/wife, widows/widow, whores/whore</cell>
+            </row>
+            <row>
+               <cell>Ncn</cell>
+               <cell>Noun Type=common Gender=neuter</cell>
+               <cell>82</cell>
+               <cell>zebra, youth, yen, works, winnings</cell>
+            </row>
+            <row>
+               <cell>Ncns</cell>
+               <cell>Noun Type=common Gender=neuter Number=singular</cell>
+               <cell>11786</cell>
+               <cell>zoo, zoom, zoology, zoologist, zone</cell>
+            </row>
+            <row>
+               <cell>Ncnp</cell>
+               <cell>Noun Type=common Gender=neuter Number=plural</cell>
+               <cell>9696</cell>
+               <cell>zoos/zoo, zooms/zoom, zoologists/zoologist, zones/zone, zombies/zombie</cell>
+            </row>
+            <row>
+               <cell>Np</cell>
+               <cell>Noun Type=proper</cell>
+               <cell>1087</cell>
+               <cell>Zurich, Zulu, Zug, Zion, Zimbabwe</cell>
+            </row>
+            <row>
+               <cell>Np-s</cell>
+               <cell>Noun Type=proper Number=singular</cell>
+               <cell>1</cell>
+               <cell>nazi</cell>
+            </row>
+            <row>
+               <cell>Np-p</cell>
+               <cell>Noun Type=proper Number=plural</cell>
+               <cell>1</cell>
+               <cell>nazis</cell>
+            </row>
+            <row>
+               <cell>Npms</cell>
+               <cell>Noun Type=proper Gender=masculine Number=singular</cell>
+               <cell>4</cell>
+               <cell>tom, oliver, norman, martin</cell>
+            </row>
+            <row>
+               <cell>Npfs</cell>
+               <cell>Noun Type=proper Gender=feminine Number=singular</cell>
+               <cell>1</cell>
+               <cell>julia</cell>
+            </row>
+            <row>
+               <cell>Npns</cell>
+               <cell>Noun Type=proper Gender=neuter Number=singular</cell>
+               <cell>85</cell>
+               <cell>Yule, Xmas, winston, wilsher, Whitsun</cell>
+            </row>
+            <row>
+               <cell>Npnp</cell>
+               <cell>Noun Type=proper Gender=neuter Number=plural</cell>
+               <cell>2</cell>
+               <cell>Olympics, negroids/negroid</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.V-en">
       <head>English Verb</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.V-en">
          <head>Specification for English Verb</head>
@@ -196,7 +412,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>These tags do not attempt to represent distinctions found in the various compound verb-forms. These are composed of a sequence of auxiliary and non-finite verb as follows:</p>
          <table>
             <row>
@@ -230,10 +445,201 @@
          </table>
          <p>So there is no "aspect" attribute or "future" value, for example.</p>
       </div>
-    
-      <divGen type="msd.lex" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.A-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (30)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Vmip</cell>
+               <cell>Verb Type=main VForm=indicative Tense=present</cell>
+               <cell>3</cell>
+               <cell>nose, lacquered/lacquer, daren't/dare+not</cell>
+            </row>
+            <row>
+               <cell>Vmip-p</cell>
+               <cell>Verb Type=main VForm=indicative Tense=present Number=plural</cell>
+               <cell>4105</cell>
+               <cell>zoom, zip, zigzag, yodel, yield</cell>
+            </row>
+            <row>
+               <cell>Vmip1s</cell>
+               <cell>Verb Type=main VForm=indicative Tense=present Person=first Number=singular</cell>
+               <cell>4104</cell>
+               <cell>zoom, zip, zigzag, yodel, yield</cell>
+            </row>
+            <row>
+               <cell>Vmip2s</cell>
+               <cell>Verb Type=main VForm=indicative Tense=present Person=second Number=singular</cell>
+               <cell>4105</cell>
+               <cell>zoom, zip, zigzag, yodel, yield</cell>
+            </row>
+            <row>
+               <cell>Vmip3s</cell>
+               <cell>Verb Type=main VForm=indicative Tense=present Person=third Number=singular</cell>
+               <cell>4103</cell>
+               <cell>zooms/zoom, zips/zip, zigzags/zigzag, yodels/yodel, yields/yield</cell>
+            </row>
+            <row>
+               <cell>Vmis</cell>
+               <cell>Verb Type=main VForm=indicative Tense=past</cell>
+               <cell>4159</cell>
+               <cell>zoomed/zoom, zipped/zip, zigzagged/zigzag, yodelled/yodel, yielded/yield</cell>
+            </row>
+            <row>
+               <cell>Vmis-p</cell>
+               <cell>Verb Type=main VForm=indicative Tense=past Number=plural</cell>
+               <cell>2</cell>
+               <cell>weren't/be+not, were/be</cell>
+            </row>
+            <row>
+               <cell>Vmis1s</cell>
+               <cell>Verb Type=main VForm=indicative Tense=past Person=first Number=singular</cell>
+               <cell>3</cell>
+               <cell>wass/be, wasn't/be+not, was/be</cell>
+            </row>
+            <row>
+               <cell>Vmis2s</cell>
+               <cell>Verb Type=main VForm=indicative Tense=past Person=second Number=singular</cell>
+               <cell>2</cell>
+               <cell>weren't/be+not, were/be</cell>
+            </row>
+            <row>
+               <cell>Vmis3s</cell>
+               <cell>Verb Type=main VForm=indicative Tense=past Person=third Number=singular</cell>
+               <cell>3</cell>
+               <cell>wass/be, wasn't/be+not, was/be</cell>
+            </row>
+            <row>
+               <cell>Vmcs</cell>
+               <cell>Verb Type=main VForm=conditional Tense=past</cell>
+               <cell>1</cell>
+               <cell>weren't/be+not</cell>
+            </row>
+            <row>
+               <cell>Vmn</cell>
+               <cell>Verb Type=main VForm=infinitive</cell>
+               <cell>4105</cell>
+               <cell>zoom, zip, zigzag, yodel, yield</cell>
+            </row>
+            <row>
+               <cell>Vmnp</cell>
+               <cell>Verb Type=main VForm=infinitive Tense=present</cell>
+               <cell>1</cell>
+               <cell>be</cell>
+            </row>
+            <row>
+               <cell>Vmpp</cell>
+               <cell>Verb Type=main VForm=participle Tense=present</cell>
+               <cell>4118</cell>
+               <cell>zooming/zoom, zipping/zip, zigzagging/zigzag, yodelling/yodel, yielding/yield</cell>
+            </row>
+            <row>
+               <cell>Vmps</cell>
+               <cell>Verb Type=main VForm=participle Tense=past</cell>
+               <cell>4168</cell>
+               <cell>zoomed/zoom, zipped/zip, zigzagged/zigzag, yodelled/yodel, yielded/yield</cell>
+            </row>
+            <row>
+               <cell>Vaip</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=present</cell>
+               <cell>3</cell>
+               <cell>oughter/have, 'A/have, 'a/have</cell>
+            </row>
+            <row>
+               <cell>Vaip-p</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=present Number=plural</cell>
+               <cell>14</cell>
+               <cell>'ve/have, 're/be, haven't/have+not, have, dont/do</cell>
+            </row>
+            <row>
+               <cell>Vaip1s</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular</cell>
+               <cell>13</cell>
+               <cell>'ve/have, 'm/be, haven't/have+not, have, dont/do</cell>
+            </row>
+            <row>
+               <cell>Vaip2s</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular</cell>
+               <cell>13</cell>
+               <cell>'re/be, haven't/have+not, have, dont/do, don't/do+not</cell>
+            </row>
+            <row>
+               <cell>Vaip3s</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular</cell>
+               <cell>12</cell>
+               <cell>'s/have, 's/be, isn't/be+not, is/be, hasn't/have+not</cell>
+            </row>
+            <row>
+               <cell>Vais</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=past</cell>
+               <cell>7</cell>
+               <cell>hadn't/have+not, had/have, didnt/do+not, didn't/do+not, did/do</cell>
+            </row>
+            <row>
+               <cell>Vais-p</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=past Number=plural</cell>
+               <cell>2</cell>
+               <cell>weren't/be+not, were/be</cell>
+            </row>
+            <row>
+               <cell>Vais1s</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=past Person=first Number=singular</cell>
+               <cell>3</cell>
+               <cell>wass/be, wasn't/be+not, was/be</cell>
+            </row>
+            <row>
+               <cell>Vais2s</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=past Person=second Number=singular</cell>
+               <cell>2</cell>
+               <cell>weren't/be+not, were/be</cell>
+            </row>
+            <row>
+               <cell>Vais3s</cell>
+               <cell>Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=singular</cell>
+               <cell>3</cell>
+               <cell>wass/be, wasn't/be+not, was/be</cell>
+            </row>
+            <row>
+               <cell>Vacs</cell>
+               <cell>Verb Type=auxiliary VForm=conditional Tense=past</cell>
+               <cell>1</cell>
+               <cell>were/be</cell>
+            </row>
+            <row>
+               <cell>Van</cell>
+               <cell>Verb Type=auxiliary VForm=infinitive</cell>
+               <cell>8</cell>
+               <cell>have, do, d', be, 'Ave</cell>
+            </row>
+            <row>
+               <cell>Vapp</cell>
+               <cell>Verb Type=auxiliary VForm=participle Tense=present</cell>
+               <cell>3</cell>
+               <cell>having/have, doing/do, being/be</cell>
+            </row>
+            <row>
+               <cell>Vaps</cell>
+               <cell>Verb Type=auxiliary VForm=participle Tense=past</cell>
+               <cell>2</cell>
+               <cell>done/do, been/be</cell>
+            </row>
+            <row>
+               <cell>Voip</cell>
+               <cell>Verb Type=modal VForm=indicative Tense=present</cell>
+               <cell>22</cell>
+               <cell>would, wouldn't/would+not, won't/will+not, will, should</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.A-en">
       <head>English Adjective</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.A-en">
          <head>Specification for English Adjective</head>
@@ -278,15 +684,49 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>Gender, number and case irrelevant for English.</p>
          <p>Attributive/predicative distinction reflects positional constraints - some adjectives ('mere', 'utter', etc.) only appear in prenominal position, while others ('awake', 'devoid', etc.) only appear in predicative position. Most can appear in either.</p>
          <p>Since many English comparatives and superlatives are formed with more/most, "positive" cannot be interpreted as "neither comparative nor superlative". See "Adverbs".</p>
       </div>
-    
-      <divGen type="msd.lex" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.P-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (4)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Af</cell>
+               <cell>Adjective Type=qualificative</cell>
+               <cell>865</cell>
+               <cell>zany, young, yellow, yeasty, wry</cell>
+            </row>
+            <row>
+               <cell>Afp</cell>
+               <cell>Adjective Type=qualificative Degree=positive</cell>
+               <cell>8533</cell>
+               <cell>zoological, zonal, Zionist, Zimbabwean, zigzag</cell>
+            </row>
+            <row>
+               <cell>Afc</cell>
+               <cell>Adjective Type=qualificative Degree=comparative</cell>
+               <cell>919</cell>
+               <cell>zanier/zany, younger/young, yellower/yellow, yeastier/yeasty, wrinklier/wrinkly</cell>
+            </row>
+            <row>
+               <cell>Afs</cell>
+               <cell>Adjective Type=qualificative Degree=superlative</cell>
+               <cell>723</cell>
+               <cell>zaniest/zany, youngest/young, yellowest/yellow, wriest/wry, worthiest/worthy</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.P-en">
       <head>English Pronoun</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.P-en">
          <head>Specification for English Pronoun</head>
@@ -455,14 +895,300 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>"General" pronouns are those which are not personal, possessive, demonstrative or reflexive. The choice of these four categories is based on distributional facts, though at a rather high level of abstraction. They enter into anaphoric dependencies which are signalled morphosyntactically and are therefore (in principle) more amenable to automatic detection. Most general pronouns do not, although they too sometimes encode number information.</p>
          <p>"WH" attribute added to allow for combination of possessive and WH in "whose".</p>
       </div>
-    
-      <divGen type="msd.lex" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.D-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (46)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Pp---------------r</cell>
+               <cell>Pronoun Type=personal Wh_Type=relative</cell>
+               <cell>2</cell>
+               <cell>who, whoever</cell>
+            </row>
+            <row>
+               <cell>Pp---------------q</cell>
+               <cell>Pronoun Type=personal Wh_Type=question</cell>
+               <cell>2</cell>
+               <cell>who, whoever</cell>
+            </row>
+            <row>
+               <cell>Pp---a-----------r</cell>
+               <cell>Pronoun Type=personal Case=accusative Wh_Type=relative</cell>
+               <cell>1</cell>
+               <cell>whom</cell>
+            </row>
+            <row>
+               <cell>Pp---a-----------q</cell>
+               <cell>Pronoun Type=personal Case=accusative Wh_Type=question</cell>
+               <cell>1</cell>
+               <cell>whom</cell>
+            </row>
+            <row>
+               <cell>Pp--sn</cell>
+               <cell>Pronoun Type=personal Number=singular Case=nominative</cell>
+               <cell>1</cell>
+               <cell>me</cell>
+            </row>
+            <row>
+               <cell>Pp--pn</cell>
+               <cell>Pronoun Type=personal Number=plural Case=nominative</cell>
+               <cell>1</cell>
+               <cell>they</cell>
+            </row>
+            <row>
+               <cell>Pp1-sn</cell>
+               <cell>Pronoun Type=personal Person=first Number=singular Case=nominative</cell>
+               <cell>1</cell>
+               <cell>I</cell>
+            </row>
+            <row>
+               <cell>Pp1-pn</cell>
+               <cell>Pronoun Type=personal Person=first Number=plural Case=nominative</cell>
+               <cell>1</cell>
+               <cell>we</cell>
+            </row>
+            <row>
+               <cell>Pp1-pa</cell>
+               <cell>Pronoun Type=personal Person=first Number=plural Case=accusative</cell>
+               <cell>1</cell>
+               <cell>us</cell>
+            </row>
+            <row>
+               <cell>Pp2</cell>
+               <cell>Pronoun Type=personal Person=second</cell>
+               <cell>1</cell>
+               <cell>you</cell>
+            </row>
+            <row>
+               <cell>Pp2--a</cell>
+               <cell>Pronoun Type=personal Person=second Case=accusative</cell>
+               <cell>1</cell>
+               <cell>thee/you</cell>
+            </row>
+            <row>
+               <cell>Pp2-p</cell>
+               <cell>Pronoun Type=personal Person=second Number=plural</cell>
+               <cell>1</cell>
+               <cell>thou</cell>
+            </row>
+            <row>
+               <cell>Pp3-pa</cell>
+               <cell>Pronoun Type=personal Person=third Number=plural Case=accusative</cell>
+               <cell>3</cell>
+               <cell>them, 'Em/them, 'em/them</cell>
+            </row>
+            <row>
+               <cell>Pp3ms</cell>
+               <cell>Pronoun Type=personal Person=third Gender=masculine Number=singular</cell>
+               <cell>1</cell>
+               <cell>one</cell>
+            </row>
+            <row>
+               <cell>Pp3msn</cell>
+               <cell>Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative</cell>
+               <cell>1</cell>
+               <cell>he</cell>
+            </row>
+            <row>
+               <cell>Pp3msa</cell>
+               <cell>Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative</cell>
+               <cell>5</cell>
+               <cell>'Im/him, 'im/him, him, 'E/he, 'e/he</cell>
+            </row>
+            <row>
+               <cell>Pp3fs</cell>
+               <cell>Pronoun Type=personal Person=third Gender=feminine Number=singular</cell>
+               <cell>1</cell>
+               <cell>one</cell>
+            </row>
+            <row>
+               <cell>Pp3fsn</cell>
+               <cell>Pronoun Type=personal Person=third Gender=feminine Number=singular Case=nominative</cell>
+               <cell>1</cell>
+               <cell>she</cell>
+            </row>
+            <row>
+               <cell>Pp3fsa</cell>
+               <cell>Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative</cell>
+               <cell>3</cell>
+               <cell>her, 'Er/her, 'er/her</cell>
+            </row>
+            <row>
+               <cell>Pp3ns</cell>
+               <cell>Pronoun Type=personal Person=third Gender=neuter Number=singular</cell>
+               <cell>1</cell>
+               <cell>it</cell>
+            </row>
+            <row>
+               <cell>Ps3</cell>
+               <cell>Pronoun Type=possessive Person=third</cell>
+               <cell>1</cell>
+               <cell>yours</cell>
+            </row>
+            <row>
+               <cell>Ps3--------------r</cell>
+               <cell>Pronoun Type=possessive Person=third Wh_Type=relative</cell>
+               <cell>1</cell>
+               <cell>whose</cell>
+            </row>
+            <row>
+               <cell>Ps3--------------q</cell>
+               <cell>Pronoun Type=possessive Person=third Wh_Type=question</cell>
+               <cell>1</cell>
+               <cell>whose</cell>
+            </row>
+            <row>
+               <cell>Ps3---s</cell>
+               <cell>Pronoun Type=possessive Person=third Owner_Number=singular</cell>
+               <cell>1</cell>
+               <cell>mine</cell>
+            </row>
+            <row>
+               <cell>Ps3---sm</cell>
+               <cell>Pronoun Type=possessive Person=third Owner_Number=singular Owner_Gender=masculine</cell>
+               <cell>2</cell>
+               <cell>'is/his, his</cell>
+            </row>
+            <row>
+               <cell>Ps3---sf</cell>
+               <cell>Pronoun Type=possessive Person=third Owner_Number=singular Owner_Gender=feminine</cell>
+               <cell>1</cell>
+               <cell>hers</cell>
+            </row>
+            <row>
+               <cell>Ps3---p</cell>
+               <cell>Pronoun Type=possessive Person=third Owner_Number=plural</cell>
+               <cell>2</cell>
+               <cell>theirs, ours</cell>
+            </row>
+            <row>
+               <cell>Px1-s</cell>
+               <cell>Pronoun Type=reflexive Person=first Number=singular</cell>
+               <cell>1</cell>
+               <cell>myself</cell>
+            </row>
+            <row>
+               <cell>Px1-p</cell>
+               <cell>Pronoun Type=reflexive Person=first Number=plural</cell>
+               <cell>1</cell>
+               <cell>ourselves</cell>
+            </row>
+            <row>
+               <cell>Px2-s</cell>
+               <cell>Pronoun Type=reflexive Person=second Number=singular</cell>
+               <cell>1</cell>
+               <cell>yourself</cell>
+            </row>
+            <row>
+               <cell>Px2-p</cell>
+               <cell>Pronoun Type=reflexive Person=second Number=plural</cell>
+               <cell>1</cell>
+               <cell>yourselves</cell>
+            </row>
+            <row>
+               <cell>Px3-s</cell>
+               <cell>Pronoun Type=reflexive Person=third Number=singular</cell>
+               <cell>2</cell>
+               <cell>oneself, meself</cell>
+            </row>
+            <row>
+               <cell>Px3-p</cell>
+               <cell>Pronoun Type=reflexive Person=third Number=plural</cell>
+               <cell>1</cell>
+               <cell>themselves</cell>
+            </row>
+            <row>
+               <cell>Px3ms</cell>
+               <cell>Pronoun Type=reflexive Person=third Gender=masculine Number=singular</cell>
+               <cell>3</cell>
+               <cell>isself/himself, 'isself/himself, himself</cell>
+            </row>
+            <row>
+               <cell>Px3fs</cell>
+               <cell>Pronoun Type=reflexive Person=third Gender=feminine Number=singular</cell>
+               <cell>1</cell>
+               <cell>herself</cell>
+            </row>
+            <row>
+               <cell>Px3ns</cell>
+               <cell>Pronoun Type=reflexive Person=third Gender=neuter Number=singular</cell>
+               <cell>1</cell>
+               <cell>itself</cell>
+            </row>
+            <row>
+               <cell>Pg3--------------r</cell>
+               <cell>Pronoun Type=general Person=third Wh_Type=relative</cell>
+               <cell>3</cell>
+               <cell>which, whichever, whatever</cell>
+            </row>
+            <row>
+               <cell>Pg3--------------q</cell>
+               <cell>Pronoun Type=general Person=third Wh_Type=question</cell>
+               <cell>4</cell>
+               <cell>which, whichever, what, whatever</cell>
+            </row>
+            <row>
+               <cell>Pg3-s</cell>
+               <cell>Pronoun Type=general Person=third Number=singular</cell>
+               <cell>1</cell>
+               <cell>another</cell>
+            </row>
+            <row>
+               <cell>Pg3-p</cell>
+               <cell>Pronoun Type=general Person=third Number=plural</cell>
+               <cell>2</cell>
+               <cell>several, others</cell>
+            </row>
+            <row>
+               <cell>Pg3ms</cell>
+               <cell>Pronoun Type=general Person=third Gender=masculine Number=singular</cell>
+               <cell>5</cell>
+               <cell>someone, somebody, no-one, nobody, anybody</cell>
+            </row>
+            <row>
+               <cell>Pg3fs</cell>
+               <cell>Pronoun Type=general Person=third Gender=feminine Number=singular</cell>
+               <cell>5</cell>
+               <cell>someone, somebody, no-one, nobody, anybody</cell>
+            </row>
+            <row>
+               <cell>Pg3n</cell>
+               <cell>Pronoun Type=general Person=third Gender=neuter</cell>
+               <cell>5</cell>
+               <cell>some, none, most, any, all</cell>
+            </row>
+            <row>
+               <cell>Pg3ns</cell>
+               <cell>Pronoun Type=general Person=third Gender=neuter Number=singular</cell>
+               <cell>14</cell>
+               <cell>tis/this, this, that, something, nothing</cell>
+            </row>
+            <row>
+               <cell>Pg3np</cell>
+               <cell>Pronoun Type=general Person=third Gender=neuter Number=plural</cell>
+               <cell>5</cell>
+               <cell>those, these, many, few, both</cell>
+            </row>
+            <row>
+               <cell>Pt3</cell>
+               <cell>Pronoun Type=ex-there Person=third</cell>
+               <cell>1</cell>
+               <cell>there</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.D-en">
       <head>English Determiner</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.D-en">
          <head>Specification for English Determiner</head>
@@ -589,10 +1315,117 @@
          <head>Notes</head>
          <p>Definite and indefinite articles represented as values of "Type".</p>
       </div>
-    
-      <divGen type="msd.lex" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.R-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (16)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Dd</cell>
+               <cell>Determiner Type=demonstrative</cell>
+               <cell>1</cell>
+               <cell>the</cell>
+            </row>
+            <row>
+               <cell>Di</cell>
+               <cell>Determiner Type=indefinite</cell>
+               <cell>2</cell>
+               <cell>an/a, a</cell>
+            </row>
+            <row>
+               <cell>Ds--------r</cell>
+               <cell>Determiner Type=possessive Wh_Type=relative</cell>
+               <cell>1</cell>
+               <cell>whose</cell>
+            </row>
+            <row>
+               <cell>Ds--------q</cell>
+               <cell>Determiner Type=possessive Wh_Type=question</cell>
+               <cell>1</cell>
+               <cell>whose</cell>
+            </row>
+            <row>
+               <cell>Ds1---s</cell>
+               <cell>Determiner Type=possessive Person=first Owner_Number=singular</cell>
+               <cell>1</cell>
+               <cell>my</cell>
+            </row>
+            <row>
+               <cell>Ds1---p</cell>
+               <cell>Determiner Type=possessive Person=first Owner_Number=plural</cell>
+               <cell>1</cell>
+               <cell>our</cell>
+            </row>
+            <row>
+               <cell>Ds2</cell>
+               <cell>Determiner Type=possessive Person=second</cell>
+               <cell>1</cell>
+               <cell>your</cell>
+            </row>
+            <row>
+               <cell>Ds3---sm</cell>
+               <cell>Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=masculine</cell>
+               <cell>2</cell>
+               <cell>'is/his, his</cell>
+            </row>
+            <row>
+               <cell>Ds3---sf</cell>
+               <cell>Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=feminine</cell>
+               <cell>3</cell>
+               <cell>her, 'Er/her, 'er/her</cell>
+            </row>
+            <row>
+               <cell>Ds3---sn</cell>
+               <cell>Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=neuter</cell>
+               <cell>1</cell>
+               <cell>its</cell>
+            </row>
+            <row>
+               <cell>Ds3---p</cell>
+               <cell>Determiner Type=possessive Person=third Owner_Number=plural</cell>
+               <cell>1</cell>
+               <cell>their</cell>
+            </row>
+            <row>
+               <cell>Dg</cell>
+               <cell>Determiner Type=general</cell>
+               <cell>4</cell>
+               <cell>some, no, each, any</cell>
+            </row>
+            <row>
+               <cell>Dg--------r</cell>
+               <cell>Determiner Type=general Wh_Type=relative</cell>
+               <cell>2</cell>
+               <cell>which, whichever</cell>
+            </row>
+            <row>
+               <cell>Dg--------q</cell>
+               <cell>Determiner Type=general Wh_Type=question</cell>
+               <cell>4</cell>
+               <cell>which, whichever, what, whatever</cell>
+            </row>
+            <row>
+               <cell>Dg--s</cell>
+               <cell>Determiner Type=general Number=singular</cell>
+               <cell>10</cell>
+               <cell>tis/this, this, that, neither, much</cell>
+            </row>
+            <row>
+               <cell>Dg--p</cell>
+               <cell>Determiner Type=general Number=plural</cell>
+               <cell>10</cell>
+               <cell>those, these, such, other, most</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.R-en">
       <head>English Adverb</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.R-en">
          <head>Specification for English Adverb</head>
@@ -657,12 +1490,77 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>No distinction has been made between different types of "modifier" adverbs ("sentence-modifying", "VP-modifying", etc.), since their distributions overlap considerably.</p>
       </div>
-      <divGen type="msd.lex" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.S-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (9)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>R-p---q</cell>
+               <cell>Adverb Degree=positive Wh_Type=question</cell>
+               <cell>3</cell>
+               <cell>'Ow, 'ow, how</cell>
+            </row>
+            <row>
+               <cell>Rmp</cell>
+               <cell>Adverb Type=modifier Degree=positive</cell>
+               <cell>3882</cell>
+               <cell>zoologically, zealously, zanily, youthfully, youngly</cell>
+            </row>
+            <row>
+               <cell>Rmp---r</cell>
+               <cell>Adverb Type=modifier Degree=positive Wh_Type=relative</cell>
+               <cell>3</cell>
+               <cell>where, whereupon, when</cell>
+            </row>
+            <row>
+               <cell>Rmp---q</cell>
+               <cell>Adverb Type=modifier Degree=positive Wh_Type=question</cell>
+               <cell>3</cell>
+               <cell>why, where, when</cell>
+            </row>
+            <row>
+               <cell>Rmc</cell>
+               <cell>Adverb Type=modifier Degree=comparative</cell>
+               <cell>2</cell>
+               <cell>worse, better</cell>
+            </row>
+            <row>
+               <cell>Rms</cell>
+               <cell>Adverb Type=modifier Degree=superlative</cell>
+               <cell>2</cell>
+               <cell>worst, best</cell>
+            </row>
+            <row>
+               <cell>Rsp</cell>
+               <cell>Adverb Type=specifier Degree=positive</cell>
+               <cell>5</cell>
+               <cell>very, too, so, much, as</cell>
+            </row>
+            <row>
+               <cell>Rsc</cell>
+               <cell>Adverb Type=specifier Degree=comparative</cell>
+               <cell>2</cell>
+               <cell>more, less</cell>
+            </row>
+            <row>
+               <cell>Rss</cell>
+               <cell>Adverb Type=specifier Degree=superlative</cell>
+               <cell>2</cell>
+               <cell>most, least</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.S-en">
       <head>English Adposition</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.S-en">
          <head>Specification for English Adposition</head>
@@ -694,10 +1592,33 @@
          <p>Postpositions are rare in English.</p>
          <p>"possessive" 's and ' might be considered postpositions, especially if the alternative is to assign them to the unique membership class (where by definition they would be unrelated).</p>
       </div>
-    
-      <divGen type="msd.lex" select="en"/>
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (2)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Sp</cell>
+               <cell>Adposition Type=preposition</cell>
+               <cell>89</cell>
+               <cell>with, without, within, vis-à-vis, via</cell>
+            </row>
+            <row>
+               <cell>St</cell>
+               <cell>Adposition Type=postposition</cell>
+               <cell>5</cell>
+               <cell>'s/have, notwithstanding, '/have, away, ago</cell>
+            </row>
+         </table>
+      </div>
    </div>
-  <div type="section" select="en" xml:id="msd.C-en">
+   <div type="section" select="en" xml:id="msd.C-en">
       <head>English Conjunction</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.C-en">
          <head>Specification for English Conjunction</head>
@@ -742,13 +1663,47 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>Subordinating conjunctions are often identical to prepositions (before, after, since, ...).</p>
       </div>
-    
-      <divGen type="msd.lex" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.M-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (4)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Cc</cell>
+               <cell>Conjunction Type=coordinating</cell>
+               <cell>1</cell>
+               <cell>as</cell>
+            </row>
+            <row>
+               <cell>Cc-i</cell>
+               <cell>Conjunction Type=coordinating Coord_Type=initial</cell>
+               <cell>2</cell>
+               <cell>neither, either</cell>
+            </row>
+            <row>
+               <cell>Cc-n</cell>
+               <cell>Conjunction Type=coordinating Coord_Type=non-initial</cell>
+               <cell>5</cell>
+               <cell>than, or, nor, but, and</cell>
+            </row>
+            <row>
+               <cell>Cs</cell>
+               <cell>Conjunction Type=subordinating</cell>
+               <cell>52</cell>
+               <cell>yet, whilst, while, whether, where</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.M-en">
       <head>English Numeral</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.M-en">
          <head>Specification for English Numeral</head>
@@ -777,13 +1732,35 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>These have not been subsumed under adjectives, pronouns, determiners, etc. because the internal structure of complex numerals is idiosyncratic.</p>
       </div>
-    
-      <divGen type="msd.lex" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.I-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (2)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Mc</cell>
+               <cell>Numeral Type=cardinal</cell>
+               <cell>40</cell>
+               <cell>zero, two, twenty, twenty-seven, twenty-five</cell>
+            </row>
+            <row>
+               <cell>Mo</cell>
+               <cell>Numeral Type=ordinal</cell>
+               <cell>33</cell>
+               <cell>twentieth, twelfth, trillionth, thousandth, thirtieth</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.I-en">
       <head>English Interjection</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.I-en">
          <head>Specification for English Interjection</head>
@@ -794,11 +1771,27 @@
             <cell role="code" xml:lang="en">I</cell>
          </row>
       </table>
-    
-    
-      <divGen type="msd.lex" select="en"/>
-  </div>
-  <div type="section" select="en" xml:id="msd.Y-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (1)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>I</cell>
+               <cell>Interjection</cell>
+               <cell>14</cell>
+               <cell>oh-o-o-o-oh, oh, hullo, hi, 'em</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.Y-en">
       <head>English Abbreviation</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.Y-en">
          <head>Specification for English Abbreviation</head>
@@ -809,11 +1802,27 @@
             <cell role="code" xml:lang="en">Y</cell>
          </row>
       </table>
-    
-      <divGen type="msd.lex" select="en"/>
-    
-  </div>
-  <div type="section" select="en" xml:id="msd.X-en">
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (1)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Y</cell>
+               <cell>Abbreviation</cell>
+               <cell>1</cell>
+               <cell>Dr.</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="en" xml:id="msd.X-en">
       <head>English Residual</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.X-en">
          <head>Specification for English Residual</head>
@@ -824,8 +1833,8 @@
             <cell role="code" xml:lang="en">X</cell>
          </row>
       </table>
-  </div>
-  <div type="section" select="en" xml:id="msd.Z-en">
+   </div>
+   <div type="section" select="en" xml:id="msd.Z-en">
       <head>English Punctuation</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.Z-en">
          <head>English Specification for Punctuation</head>
@@ -836,166 +1845,1518 @@
             <cell role="code" xml:lang="en">Z</cell>
          </row>
       </table>
-      <divGen xml:id="msd.Z-en.lexicon" type="msd.lex" select="en"/>
+      <div type="section">
+         <head>MSD Index</head>
+         <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+         <table>
+            <head>MSDs (1)</head>
+            <row role="header">
+               <cell role="label">MSD</cell>
+               <cell role="label">Features</cell>
+               <cell role="label">Types</cell>
+               <cell role="label">Examples</cell>
+            </row>
+            <row>
+               <cell>Z</cell>
+               <cell>Punctuation</cell>
+               <cell>10</cell>
+               <cell>), (, ", ., ..</cell>
+            </row>
+         </table>
+      </div>
    </div>
    <div type="section" xml:id="msd.attributes-en">
       <head>English Attribute Index</head>
       <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
-      <divGen type="msd.atts" select="en"/>
-  </div>
-  <div type="section" xml:id="msd.values-en">
+      <div xml:id="msd.atts-en">
+         <head>Table of attributes</head>
+         <table>
+            <row role="label">
+               <cell>Attribute (en)</cell>
+               <cell>Category (en)</cell>
+               <cell role="code">Position</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Coord_Type</cell>
+               <cell>Conjunction</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Degree</cell>
+               <cell>Adverb</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Gender</cell>
+               <cell>Noun</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Gender</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Determiner</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Noun</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Verb</cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Owner_Gender</cell>
+               <cell>Determiner</cell>
+               <cell role="position">7</cell>
+            </row>
+            <row role="data">
+               <cell>Owner_Gender</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">7</cell>
+            </row>
+            <row role="data">
+               <cell>Owner_Number</cell>
+               <cell>Determiner</cell>
+               <cell role="position">6</cell>
+            </row>
+            <row role="data">
+               <cell>Owner_Number</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">6</cell>
+            </row>
+            <row role="data">
+               <cell>Person</cell>
+               <cell>Determiner</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Person</cell>
+               <cell>Verb</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Adjective</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Adposition</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Conjunction</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Determiner</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Noun</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Verb</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Wh_Type</cell>
+               <cell>Adverb</cell>
+               <cell role="position">6</cell>
+            </row>
+            <row role="data">
+               <cell>Wh_Type</cell>
+               <cell>Determiner</cell>
+               <cell role="position">10</cell>
+            </row>
+            <row role="data">
+               <cell>Wh_Type</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">17</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" xml:id="msd.values-en">
       <head>English Value Index</head>
       <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
-      <divGen type="msd.vals" select="en"/>
-  </div>
-    <div select="en" type="section" xml:id="msd.msds-en">
-        <head>English MSD Index</head>
-        <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
-        
-        <table xml:id="msd.lex-en" xml:lang="en" select="en" n="msd.lex" xml:base="msd-en.msd.xml">
-  <head>MSD Index</head>
-    <row role="header">
-      <cell role="label">MSD</cell>
-      <cell role="label">Features</cell>
-      <cell role="label">Types</cell>
-      <cell role="label">Examples</cell>
-    </row>
-    <row role="msd"><cell role="msd" xml:lang="en">Nc</cell><cell role="attval" xml:lang="en">Noun Type=common</cell><cell>4</cell><cell xml:lang="en">Portuguese, o, Flemish, Dutch</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Nc-s</cell><cell role="attval" xml:lang="en">Noun Type=common Number=singular</cell><cell>115</cell><cell xml:lang="en">winner, wholesaler, welder, ward, Vietnamese</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Nc-p</cell><cell role="attval" xml:lang="en">Noun Type=common Number=plural</cell><cell>88</cell><cell xml:lang="en">winners/winner, wholesalers/wholesaler, welders/welder, wards/ward, victims/victim</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ncm</cell><cell role="attval" xml:lang="en">Noun Type=common Gender=masculine</cell><cell>5</cell><cell xml:lang="en">Taiwanese, Sudanese, next-of-kin, eldest, deceased</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ncms</cell><cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular</cell><cell>118</cell><cell xml:lang="en">widower, welterweight, volunteer, viscount, vice-chairman</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ncmp</cell><cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural</cell><cell>85</cell><cell xml:lang="en">widowers/widower, welterweights/welterweight, viscounts/viscount, tenors/tenor, teamsters/teamster</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ncf</cell><cell role="attval" xml:lang="en">Noun Type=common Gender=feminine</cell><cell>5</cell><cell xml:lang="en">Taiwanese, Sudanese, next-of-kin, eldest, deceased</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ncfs</cell><cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular</cell><cell>119</cell><cell xml:lang="en">wren, woman, wife, widow, whore</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ncfp</cell><cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural</cell><cell>82</cell><cell xml:lang="en">wrens/wren, women/woman, wives/wife, widows/widow, whores/whore</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ncn</cell><cell role="attval" xml:lang="en">Noun Type=common Gender=neuter</cell><cell>82</cell><cell xml:lang="en">zebra, youth, yen, works, winnings</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ncns</cell><cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular</cell><cell>11786</cell><cell xml:lang="en">zoo, zoom, zoology, zoologist, zone</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ncnp</cell><cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=plural</cell><cell>9696</cell><cell xml:lang="en">zoos/zoo, zooms/zoom, zoologists/zoologist, zones/zone, zombies/zombie</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Np</cell><cell role="attval" xml:lang="en">Noun Type=proper</cell><cell>1087</cell><cell xml:lang="en">Zurich, Zulu, Zug, Zion, Zimbabwe</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Np-s</cell><cell role="attval" xml:lang="en">Noun Type=proper Number=singular</cell><cell>1</cell><cell xml:lang="en">nazi</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Np-p</cell><cell role="attval" xml:lang="en">Noun Type=proper Number=plural</cell><cell>1</cell><cell xml:lang="en">nazis</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Npms</cell><cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=singular</cell><cell>4</cell><cell xml:lang="en">tom, oliver, norman, martin</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Npfs</cell><cell role="attval" xml:lang="en">Noun Type=proper Gender=feminine Number=singular</cell><cell>1</cell><cell xml:lang="en">julia</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Npns</cell><cell role="attval" xml:lang="en">Noun Type=proper Gender=neuter Number=singular</cell><cell>85</cell><cell xml:lang="en">Yule, Xmas, winston, wilsher, Whitsun</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Npnp</cell><cell role="attval" xml:lang="en">Noun Type=proper Gender=neuter Number=plural</cell><cell>2</cell><cell xml:lang="en">Olympics, negroids/negroid</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmip</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present</cell><cell>3</cell><cell xml:lang="en">nose, lacquered/lacquer, daren't/dare+not</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmip-p</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present Number=plural</cell><cell>4105</cell><cell xml:lang="en">zoom, zip, zigzag, yodel, yield</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmip1s</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present Person=first Number=singular</cell><cell>4104</cell><cell xml:lang="en">zoom, zip, zigzag, yodel, yield</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmip2s</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present Person=second Number=singular</cell><cell>4105</cell><cell xml:lang="en">zoom, zip, zigzag, yodel, yield</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmip3s</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present Person=third Number=singular</cell><cell>4103</cell><cell xml:lang="en">zooms/zoom, zips/zip, zigzags/zigzag, yodels/yodel, yields/yield</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmis</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past</cell><cell>4159</cell><cell xml:lang="en">zoomed/zoom, zipped/zip, zigzagged/zigzag, yodelled/yodel, yielded/yield</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmis-p</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past Number=plural</cell><cell>2</cell><cell xml:lang="en">weren't/be+not, were/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmis1s</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past Person=first Number=singular</cell><cell>3</cell><cell xml:lang="en">wass/be, wasn't/be+not, was/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmis2s</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past Person=second Number=singular</cell><cell>2</cell><cell xml:lang="en">weren't/be+not, were/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmis3s</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past Person=third Number=singular</cell><cell>3</cell><cell xml:lang="en">wass/be, wasn't/be+not, was/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmcs</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=conditional Tense=past</cell><cell>1</cell><cell xml:lang="en">weren't/be+not</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmn</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=infinitive</cell><cell>4105</cell><cell xml:lang="en">zoom, zip, zigzag, yodel, yield</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmnp</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=infinitive Tense=present</cell><cell>1</cell><cell xml:lang="en">be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmpp</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=participle Tense=present</cell><cell>4118</cell><cell xml:lang="en">zooming/zoom, zipping/zip, zigzagging/zigzag, yodelling/yodel, yielding/yield</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vmps</cell><cell role="attval" xml:lang="en">Verb Type=main VForm=participle Tense=past</cell><cell>4168</cell><cell xml:lang="en">zoomed/zoom, zipped/zip, zigzagged/zigzag, yodelled/yodel, yielded/yield</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vaip</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present</cell><cell>3</cell><cell xml:lang="en">oughter/have, 'A/have, 'a/have</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vaip-p</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present Number=plural</cell><cell>14</cell><cell xml:lang="en">'ve/have, 're/be, haven't/have+not, have, dont/do</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vaip1s</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular</cell><cell>13</cell><cell xml:lang="en">'ve/have, 'm/be, haven't/have+not, have, dont/do</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vaip2s</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular</cell><cell>13</cell><cell xml:lang="en">'re/be, haven't/have+not, have, dont/do, don't/do+not</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vaip3s</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular</cell><cell>12</cell><cell xml:lang="en">'s/have, 's/be, isn't/be+not, is/be, hasn't/have+not</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vais</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past</cell><cell>7</cell><cell xml:lang="en">hadn't/have+not, had/have, didnt/do+not, didn't/do+not, did/do</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vais-p</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past Number=plural</cell><cell>2</cell><cell xml:lang="en">weren't/be+not, were/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vais1s</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past Person=first Number=singular</cell><cell>3</cell><cell xml:lang="en">wass/be, wasn't/be+not, was/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vais2s</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past Person=second Number=singular</cell><cell>2</cell><cell xml:lang="en">weren't/be+not, were/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vais3s</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=singular</cell><cell>3</cell><cell xml:lang="en">wass/be, wasn't/be+not, was/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vacs</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=conditional Tense=past</cell><cell>1</cell><cell xml:lang="en">were/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Van</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=infinitive</cell><cell>8</cell><cell xml:lang="en">have, do, d', be, 'Ave</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vapp</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=participle Tense=present</cell><cell>3</cell><cell xml:lang="en">having/have, doing/do, being/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Vaps</cell><cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=participle Tense=past</cell><cell>2</cell><cell xml:lang="en">done/do, been/be</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Voip</cell><cell role="attval" xml:lang="en">Verb Type=modal VForm=indicative Tense=present</cell><cell>22</cell><cell xml:lang="en">would, wouldn't/would+not, won't/will+not, will, should</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Af</cell><cell role="attval" xml:lang="en">Adjective Type=qualificative</cell><cell>865</cell><cell xml:lang="en">zany, young, yellow, yeasty, wry</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Afp</cell><cell role="attval" xml:lang="en">Adjective Type=qualificative Degree=positive</cell><cell>8533</cell><cell xml:lang="en">zoological, zonal, Zionist, Zimbabwean, zigzag</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Afc</cell><cell role="attval" xml:lang="en">Adjective Type=qualificative Degree=comparative</cell><cell>919</cell><cell xml:lang="en">zanier/zany, younger/young, yellower/yellow, yeastier/yeasty, wrinklier/wrinkly</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Afs</cell><cell role="attval" xml:lang="en">Adjective Type=qualificative Degree=superlative</cell><cell>723</cell><cell xml:lang="en">zaniest/zany, youngest/young, yellowest/yellow, wriest/wry, worthiest/worthy</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp---------------r</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Wh_Type=relative</cell><cell>2</cell><cell xml:lang="en">who, whoever</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp---------------q</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Wh_Type=question</cell><cell>2</cell><cell xml:lang="en">who, whoever</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp---a-----------r</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Case=accusative Wh_Type=relative</cell><cell>1</cell><cell xml:lang="en">whom</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp---a-----------q</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Case=accusative Wh_Type=question</cell><cell>1</cell><cell xml:lang="en">whom</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp--sn</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Number=singular Case=nominative</cell><cell>1</cell><cell xml:lang="en">me</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp--pn</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Number=plural Case=nominative</cell><cell>1</cell><cell xml:lang="en">they</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp1-sn</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=singular Case=nominative</cell><cell>1</cell><cell xml:lang="en">I</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp1-pn</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=plural Case=nominative</cell><cell>1</cell><cell xml:lang="en">we</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp1-pa</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=plural Case=accusative</cell><cell>1</cell><cell xml:lang="en">us</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp2</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=second</cell><cell>1</cell><cell xml:lang="en">you</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp2--a</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=second Case=accusative</cell><cell>1</cell><cell xml:lang="en">thee/you</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp2-p</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=second Number=plural</cell><cell>1</cell><cell xml:lang="en">thou</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp3-pa</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Number=plural Case=accusative</cell><cell>3</cell><cell xml:lang="en">them, 'Em/them, 'em/them</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp3ms</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=masculine Number=singular</cell><cell>1</cell><cell xml:lang="en">one</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp3msn</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative</cell><cell>1</cell><cell xml:lang="en">he</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp3msa</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative</cell><cell>5</cell><cell xml:lang="en">'Im/him, 'im/him, him, 'E/he, 'e/he</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp3fs</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=feminine Number=singular</cell><cell>1</cell><cell xml:lang="en">one</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp3fsn</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=feminine Number=singular Case=nominative</cell><cell>1</cell><cell xml:lang="en">she</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp3fsa</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative</cell><cell>3</cell><cell xml:lang="en">her, 'Er/her, 'er/her</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pp3ns</cell><cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=neuter Number=singular</cell><cell>1</cell><cell xml:lang="en">it</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ps3</cell><cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third</cell><cell>1</cell><cell xml:lang="en">yours</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ps3--------------r</cell><cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Wh_Type=relative</cell><cell>1</cell><cell xml:lang="en">whose</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ps3--------------q</cell><cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Wh_Type=question</cell><cell>1</cell><cell xml:lang="en">whose</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ps3---s</cell><cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Owner_Number=singular</cell><cell>1</cell><cell xml:lang="en">mine</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ps3---sm</cell><cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Owner_Number=singular Owner_Gender=masculine</cell><cell>2</cell><cell xml:lang="en">'is/his, his</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ps3---sf</cell><cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Owner_Number=singular Owner_Gender=feminine</cell><cell>1</cell><cell xml:lang="en">hers</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ps3---p</cell><cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Owner_Number=plural</cell><cell>2</cell><cell xml:lang="en">theirs, ours</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Px1-s</cell><cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=first Number=singular</cell><cell>1</cell><cell xml:lang="en">myself</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Px1-p</cell><cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=first Number=plural</cell><cell>1</cell><cell xml:lang="en">ourselves</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Px2-s</cell><cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=second Number=singular</cell><cell>1</cell><cell xml:lang="en">yourself</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Px2-p</cell><cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=second Number=plural</cell><cell>1</cell><cell xml:lang="en">yourselves</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Px3-s</cell><cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Number=singular</cell><cell>2</cell><cell xml:lang="en">oneself, meself</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Px3-p</cell><cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Number=plural</cell><cell>1</cell><cell xml:lang="en">themselves</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Px3ms</cell><cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Gender=masculine Number=singular</cell><cell>3</cell><cell xml:lang="en">isself/himself, 'isself/himself, himself</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Px3fs</cell><cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Gender=feminine Number=singular</cell><cell>1</cell><cell xml:lang="en">herself</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Px3ns</cell><cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Gender=neuter Number=singular</cell><cell>1</cell><cell xml:lang="en">itself</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pg3--------------r</cell><cell role="attval" xml:lang="en">Pronoun Type=general Person=third Wh_Type=relative</cell><cell>3</cell><cell xml:lang="en">which, whichever, whatever</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pg3--------------q</cell><cell role="attval" xml:lang="en">Pronoun Type=general Person=third Wh_Type=question</cell><cell>4</cell><cell xml:lang="en">which, whichever, what, whatever</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pg3-s</cell><cell role="attval" xml:lang="en">Pronoun Type=general Person=third Number=singular</cell><cell>1</cell><cell xml:lang="en">another</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pg3-p</cell><cell role="attval" xml:lang="en">Pronoun Type=general Person=third Number=plural</cell><cell>2</cell><cell xml:lang="en">several, others</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pg3ms</cell><cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=masculine Number=singular</cell><cell>5</cell><cell xml:lang="en">someone, somebody, no-one, nobody, anybody</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pg3fs</cell><cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=feminine Number=singular</cell><cell>5</cell><cell xml:lang="en">someone, somebody, no-one, nobody, anybody</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pg3n</cell><cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=neuter</cell><cell>5</cell><cell xml:lang="en">some, none, most, any, all</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pg3ns</cell><cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=neuter Number=singular</cell><cell>14</cell><cell xml:lang="en">tis/this, this, that, something, nothing</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pg3np</cell><cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=neuter Number=plural</cell><cell>5</cell><cell xml:lang="en">those, these, many, few, both</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Pt3</cell><cell role="attval" xml:lang="en">Pronoun Type=ex-there Person=third</cell><cell>1</cell><cell xml:lang="en">there</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Dd</cell><cell role="attval" xml:lang="en">Determiner Type=demonstrative</cell><cell>1</cell><cell xml:lang="en">the</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Di</cell><cell role="attval" xml:lang="en">Determiner Type=indefinite</cell><cell>2</cell><cell xml:lang="en">an/a, a</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ds--------r</cell><cell role="attval" xml:lang="en">Determiner Type=possessive Wh_Type=relative</cell><cell>1</cell><cell xml:lang="en">whose</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ds--------q</cell><cell role="attval" xml:lang="en">Determiner Type=possessive Wh_Type=question</cell><cell>1</cell><cell xml:lang="en">whose</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ds1---s</cell><cell role="attval" xml:lang="en">Determiner Type=possessive Person=first Owner_Number=singular</cell><cell>1</cell><cell xml:lang="en">my</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ds1---p</cell><cell role="attval" xml:lang="en">Determiner Type=possessive Person=first Owner_Number=plural</cell><cell>1</cell><cell xml:lang="en">our</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ds2</cell><cell role="attval" xml:lang="en">Determiner Type=possessive Person=second</cell><cell>1</cell><cell xml:lang="en">your</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ds3---sm</cell><cell role="attval" xml:lang="en">Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=masculine</cell><cell>2</cell><cell xml:lang="en">'is/his, his</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ds3---sf</cell><cell role="attval" xml:lang="en">Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=feminine</cell><cell>3</cell><cell xml:lang="en">her, 'Er/her, 'er/her</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ds3---sn</cell><cell role="attval" xml:lang="en">Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=neuter</cell><cell>1</cell><cell xml:lang="en">its</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Ds3---p</cell><cell role="attval" xml:lang="en">Determiner Type=possessive Person=third Owner_Number=plural</cell><cell>1</cell><cell xml:lang="en">their</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Dg</cell><cell role="attval" xml:lang="en">Determiner Type=general</cell><cell>4</cell><cell xml:lang="en">some, no, each, any</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Dg--------r</cell><cell role="attval" xml:lang="en">Determiner Type=general Wh_Type=relative</cell><cell>2</cell><cell xml:lang="en">which, whichever</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Dg--------q</cell><cell role="attval" xml:lang="en">Determiner Type=general Wh_Type=question</cell><cell>4</cell><cell xml:lang="en">which, whichever, what, whatever</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Dg--s</cell><cell role="attval" xml:lang="en">Determiner Type=general Number=singular</cell><cell>10</cell><cell xml:lang="en">tis/this, this, that, neither, much</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Dg--p</cell><cell role="attval" xml:lang="en">Determiner Type=general Number=plural</cell><cell>10</cell><cell xml:lang="en">those, these, such, other, most</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">R-p---q</cell><cell role="attval" xml:lang="en">Adverb Degree=positive Wh_Type=question</cell><cell>3</cell><cell xml:lang="en">'Ow, 'ow, how</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Rmp</cell><cell role="attval" xml:lang="en">Adverb Type=modifier Degree=positive</cell><cell>3882</cell><cell xml:lang="en">zoologically, zealously, zanily, youthfully, youngly</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Rmp---r</cell><cell role="attval" xml:lang="en">Adverb Type=modifier Degree=positive Wh_Type=relative</cell><cell>3</cell><cell xml:lang="en">where, whereupon, when</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Rmp---q</cell><cell role="attval" xml:lang="en">Adverb Type=modifier Degree=positive Wh_Type=question</cell><cell>3</cell><cell xml:lang="en">why, where, when</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Rmc</cell><cell role="attval" xml:lang="en">Adverb Type=modifier Degree=comparative</cell><cell>2</cell><cell xml:lang="en">worse, better</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Rms</cell><cell role="attval" xml:lang="en">Adverb Type=modifier Degree=superlative</cell><cell>2</cell><cell xml:lang="en">worst, best</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Rsp</cell><cell role="attval" xml:lang="en">Adverb Type=specifier Degree=positive</cell><cell>5</cell><cell xml:lang="en">very, too, so, much, as</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Rsc</cell><cell role="attval" xml:lang="en">Adverb Type=specifier Degree=comparative</cell><cell>2</cell><cell xml:lang="en">more, less</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Rss</cell><cell role="attval" xml:lang="en">Adverb Type=specifier Degree=superlative</cell><cell>2</cell><cell xml:lang="en">most, least</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Sp</cell><cell role="attval" xml:lang="en">Adposition Type=preposition</cell><cell>89</cell><cell xml:lang="en">with, without, within, vis-à-vis, via</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">St</cell><cell role="attval" xml:lang="en">Adposition Type=postposition</cell><cell>5</cell><cell xml:lang="en">'s/have, notwithstanding, '/have, away, ago</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Cc</cell><cell role="attval" xml:lang="en">Conjunction Type=coordinating</cell><cell>1</cell><cell xml:lang="en">as</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Cc-i</cell><cell role="attval" xml:lang="en">Conjunction Type=coordinating Coord_Type=initial</cell><cell>2</cell><cell xml:lang="en">neither, either</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Cc-n</cell><cell role="attval" xml:lang="en">Conjunction Type=coordinating Coord_Type=non-initial</cell><cell>5</cell><cell xml:lang="en">than, or, nor, but, and</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Cs</cell><cell role="attval" xml:lang="en">Conjunction Type=subordinating</cell><cell>52</cell><cell xml:lang="en">yet, whilst, while, whether, where</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Mc</cell><cell role="attval" xml:lang="en">Numeral Type=cardinal</cell><cell>40</cell><cell xml:lang="en">zero, two, twenty, twenty-seven, twenty-five</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Mo</cell><cell role="attval" xml:lang="en">Numeral Type=ordinal</cell><cell>33</cell><cell xml:lang="en">twentieth, twelfth, trillionth, thousandth, thirtieth</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">I</cell><cell role="attval" xml:lang="en">Interjection</cell><cell>14</cell><cell xml:lang="en">oh-o-o-o-oh, oh, hullo, hi, 'em</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Y</cell><cell role="attval" xml:lang="en">Abbreviation</cell><cell>1</cell><cell xml:lang="en">Dr.</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">X</cell><cell role="attval" xml:lang="en">Residual</cell><cell>1</cell><cell xml:lang="en">2+2=5</cell></row>
-    <row role="msd"><cell role="msd" xml:lang="en">Z</cell><cell role="attval" xml:lang="en">Punctuation</cell><cell>10</cell><cell xml:lang="en">), (, ", ., ..</cell></row>
-</table>
-    </div>
+      <div xml:id="msd.vals-en">
+         <head>Table of values</head>
+         <table>
+            <row role="label">
+               <cell>Value (en)</cell>
+               <cell>Code (en)</cell>
+               <cell>Attribute (en)</cell>
+               <cell>Category (en)</cell>
+            </row>
+            <row>
+               <cell>accusative</cell>
+               <cell>a</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>auxiliary</cell>
+               <cell>a</cell>
+               <cell>Type</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>base</cell>
+               <cell>b</cell>
+               <cell>Type</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>cardinal</cell>
+               <cell>c</cell>
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>common</cell>
+               <cell>c</cell>
+               <cell>Type</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>comparative</cell>
+               <cell>c</cell>
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>comparative</cell>
+               <cell>c</cell>
+               <cell>Degree</cell>
+               <cell>Adverb</cell>
+            </row>
+            <row>
+               <cell>conditional</cell>
+               <cell>c</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>coordinating</cell>
+               <cell>c</cell>
+               <cell>Type</cell>
+               <cell>Conjunction</cell>
+            </row>
+            <row>
+               <cell>demonstrative</cell>
+               <cell>d</cell>
+               <cell>Type</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>ex-there</cell>
+               <cell>t</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>feminine</cell>
+               <cell>f</cell>
+               <cell>Gender</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>feminine</cell>
+               <cell>f</cell>
+               <cell>Gender</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>feminine</cell>
+               <cell>f</cell>
+               <cell>Owner_Gender</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>feminine</cell>
+               <cell>f</cell>
+               <cell>Owner_Gender</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>first</cell>
+               <cell>1</cell>
+               <cell>Person</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>first</cell>
+               <cell>1</cell>
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>first</cell>
+               <cell>1</cell>
+               <cell>Person</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>general</cell>
+               <cell>g</cell>
+               <cell>Type</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>general</cell>
+               <cell>g</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>indefinite</cell>
+               <cell>i</cell>
+               <cell>Type</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>indicative</cell>
+               <cell>i</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>infinitive</cell>
+               <cell>n</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>initial</cell>
+               <cell>i</cell>
+               <cell>Coord_Type</cell>
+               <cell>Conjunction</cell>
+            </row>
+            <row>
+               <cell>interrogative</cell>
+               <cell>q</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>main</cell>
+               <cell>m</cell>
+               <cell>Type</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>masculine</cell>
+               <cell>m</cell>
+               <cell>Gender</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>masculine</cell>
+               <cell>m</cell>
+               <cell>Gender</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>masculine</cell>
+               <cell>m</cell>
+               <cell>Owner_Gender</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>masculine</cell>
+               <cell>m</cell>
+               <cell>Owner_Gender</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>modal</cell>
+               <cell>o</cell>
+               <cell>Type</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>modifier</cell>
+               <cell>m</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+            </row>
+            <row>
+               <cell>neuter</cell>
+               <cell>n</cell>
+               <cell>Gender</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>neuter</cell>
+               <cell>n</cell>
+               <cell>Gender</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>neuter</cell>
+               <cell>n</cell>
+               <cell>Owner_Gender</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>non-initial</cell>
+               <cell>n</cell>
+               <cell>Coord_Type</cell>
+               <cell>Conjunction</cell>
+            </row>
+            <row>
+               <cell>ordinal</cell>
+               <cell>o</cell>
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>participle</cell>
+               <cell>p</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>past</cell>
+               <cell>s</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>personal</cell>
+               <cell>p</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Owner_Number</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Owner_Number</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>positive</cell>
+               <cell>p</cell>
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>positive</cell>
+               <cell>p</cell>
+               <cell>Degree</cell>
+               <cell>Adverb</cell>
+            </row>
+            <row>
+               <cell>possessive</cell>
+               <cell>s</cell>
+               <cell>Type</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>possessive</cell>
+               <cell>s</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>postposition</cell>
+               <cell>t</cell>
+               <cell>Type</cell>
+               <cell>Adposition</cell>
+            </row>
+            <row>
+               <cell>preposition</cell>
+               <cell>p</cell>
+               <cell>Type</cell>
+               <cell>Adposition</cell>
+            </row>
+            <row>
+               <cell>present</cell>
+               <cell>p</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>proper</cell>
+               <cell>p</cell>
+               <cell>Type</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>qualificative</cell>
+               <cell>f</cell>
+               <cell>Type</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>question</cell>
+               <cell>q</cell>
+               <cell>Wh_Type</cell>
+               <cell>Adverb</cell>
+            </row>
+            <row>
+               <cell>question</cell>
+               <cell>q</cell>
+               <cell>Wh_Type</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>question</cell>
+               <cell>q</cell>
+               <cell>Wh_Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>reflexive</cell>
+               <cell>x</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>relative</cell>
+               <cell>r</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>relative</cell>
+               <cell>r</cell>
+               <cell>Wh_Type</cell>
+               <cell>Adverb</cell>
+            </row>
+            <row>
+               <cell>relative</cell>
+               <cell>r</cell>
+               <cell>Wh_Type</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>relative</cell>
+               <cell>r</cell>
+               <cell>Wh_Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>second</cell>
+               <cell>2</cell>
+               <cell>Person</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>second</cell>
+               <cell>2</cell>
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>second</cell>
+               <cell>2</cell>
+               <cell>Person</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Owner_Number</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Owner_Number</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>specifier</cell>
+               <cell>s</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+            </row>
+            <row>
+               <cell>subordinating</cell>
+               <cell>s</cell>
+               <cell>Type</cell>
+               <cell>Conjunction</cell>
+            </row>
+            <row>
+               <cell>superlative</cell>
+               <cell>s</cell>
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>superlative</cell>
+               <cell>s</cell>
+               <cell>Degree</cell>
+               <cell>Adverb</cell>
+            </row>
+            <row>
+               <cell>third</cell>
+               <cell>3</cell>
+               <cell>Person</cell>
+               <cell>Determiner</cell>
+            </row>
+            <row>
+               <cell>third</cell>
+               <cell>3</cell>
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>third</cell>
+               <cell>3</cell>
+               <cell>Person</cell>
+               <cell>Verb</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div select="en" type="section" xml:id="msd.msds-en">
+      <head>English MSD Index</head>
+      <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
+      <table xml:id="msd.lex-en" xml:lang="en" select="en" n="msd.lex"
+             xml:base="msd-en.msd.xml">
+         <head>MSD Index (136)</head>
+         <row role="header">
+            <cell role="label">MSD</cell>
+            <cell role="label">Features</cell>
+            <cell role="label">Types</cell>
+            <cell role="label">Examples</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Nc</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common</cell>
+            <cell>4</cell>
+            <cell xml:lang="en">Portuguese, o, Flemish, Dutch</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Nc-s</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Number=singular</cell>
+            <cell>115</cell>
+            <cell xml:lang="en">winner, wholesaler, welder, ward, Vietnamese</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Nc-p</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Number=plural</cell>
+            <cell>88</cell>
+            <cell xml:lang="en">winners/winner, wholesalers/wholesaler, welders/welder, wards/ward, victims/victim</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ncm</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">Taiwanese, Sudanese, next-of-kin, eldest, deceased</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ncms</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular</cell>
+            <cell>118</cell>
+            <cell xml:lang="en">widower, welterweight, volunteer, viscount, vice-chairman</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ncmp</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural</cell>
+            <cell>85</cell>
+            <cell xml:lang="en">widowers/widower, welterweights/welterweight, viscounts/viscount, tenors/tenor, teamsters/teamster</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ncf</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">Taiwanese, Sudanese, next-of-kin, eldest, deceased</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ncfs</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular</cell>
+            <cell>119</cell>
+            <cell xml:lang="en">wren, woman, wife, widow, whore</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ncfp</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural</cell>
+            <cell>82</cell>
+            <cell xml:lang="en">wrens/wren, women/woman, wives/wife, widows/widow, whores/whore</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ncn</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter</cell>
+            <cell>82</cell>
+            <cell xml:lang="en">zebra, youth, yen, works, winnings</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ncns</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular</cell>
+            <cell>11786</cell>
+            <cell xml:lang="en">zoo, zoom, zoology, zoologist, zone</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ncnp</cell>
+            <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=plural</cell>
+            <cell>9696</cell>
+            <cell xml:lang="en">zoos/zoo, zooms/zoom, zoologists/zoologist, zones/zone, zombies/zombie</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Np</cell>
+            <cell role="attval" xml:lang="en">Noun Type=proper</cell>
+            <cell>1087</cell>
+            <cell xml:lang="en">Zurich, Zulu, Zug, Zion, Zimbabwe</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Np-s</cell>
+            <cell role="attval" xml:lang="en">Noun Type=proper Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">nazi</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Np-p</cell>
+            <cell role="attval" xml:lang="en">Noun Type=proper Number=plural</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">nazis</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Npms</cell>
+            <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=singular</cell>
+            <cell>4</cell>
+            <cell xml:lang="en">tom, oliver, norman, martin</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Npfs</cell>
+            <cell role="attval" xml:lang="en">Noun Type=proper Gender=feminine Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">julia</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Npns</cell>
+            <cell role="attval" xml:lang="en">Noun Type=proper Gender=neuter Number=singular</cell>
+            <cell>85</cell>
+            <cell xml:lang="en">Yule, Xmas, winston, wilsher, Whitsun</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Npnp</cell>
+            <cell role="attval" xml:lang="en">Noun Type=proper Gender=neuter Number=plural</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">Olympics, negroids/negroid</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmip</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">nose, lacquered/lacquer, daren't/dare+not</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmip-p</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present Number=plural</cell>
+            <cell>4105</cell>
+            <cell xml:lang="en">zoom, zip, zigzag, yodel, yield</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmip1s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present Person=first Number=singular</cell>
+            <cell>4104</cell>
+            <cell xml:lang="en">zoom, zip, zigzag, yodel, yield</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmip2s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present Person=second Number=singular</cell>
+            <cell>4105</cell>
+            <cell xml:lang="en">zoom, zip, zigzag, yodel, yield</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmip3s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=present Person=third Number=singular</cell>
+            <cell>4103</cell>
+            <cell xml:lang="en">zooms/zoom, zips/zip, zigzags/zigzag, yodels/yodel, yields/yield</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmis</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past</cell>
+            <cell>4159</cell>
+            <cell xml:lang="en">zoomed/zoom, zipped/zip, zigzagged/zigzag, yodelled/yodel, yielded/yield</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmis-p</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past Number=plural</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">weren't/be+not, were/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmis1s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past Person=first Number=singular</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">wass/be, wasn't/be+not, was/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmis2s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past Person=second Number=singular</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">weren't/be+not, were/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmis3s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=past Person=third Number=singular</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">wass/be, wasn't/be+not, was/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmcs</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=conditional Tense=past</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">weren't/be+not</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmn</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=infinitive</cell>
+            <cell>4105</cell>
+            <cell xml:lang="en">zoom, zip, zigzag, yodel, yield</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmnp</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=infinitive Tense=present</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmpp</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=participle Tense=present</cell>
+            <cell>4118</cell>
+            <cell xml:lang="en">zooming/zoom, zipping/zip, zigzagging/zigzag, yodelling/yodel, yielding/yield</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vmps</cell>
+            <cell role="attval" xml:lang="en">Verb Type=main VForm=participle Tense=past</cell>
+            <cell>4168</cell>
+            <cell xml:lang="en">zoomed/zoom, zipped/zip, zigzagged/zigzag, yodelled/yodel, yielded/yield</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vaip</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">oughter/have, 'A/have, 'a/have</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vaip-p</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present Number=plural</cell>
+            <cell>14</cell>
+            <cell xml:lang="en">'ve/have, 're/be, haven't/have+not, have, dont/do</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vaip1s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular</cell>
+            <cell>13</cell>
+            <cell xml:lang="en">'ve/have, 'm/be, haven't/have+not, have, dont/do</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vaip2s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular</cell>
+            <cell>13</cell>
+            <cell xml:lang="en">'re/be, haven't/have+not, have, dont/do, don't/do+not</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vaip3s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular</cell>
+            <cell>12</cell>
+            <cell xml:lang="en">'s/have, 's/be, isn't/be+not, is/be, hasn't/have+not</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vais</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past</cell>
+            <cell>7</cell>
+            <cell xml:lang="en">hadn't/have+not, had/have, didnt/do+not, didn't/do+not, did/do</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vais-p</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past Number=plural</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">weren't/be+not, were/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vais1s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past Person=first Number=singular</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">wass/be, wasn't/be+not, was/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vais2s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past Person=second Number=singular</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">weren't/be+not, were/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vais3s</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=singular</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">wass/be, wasn't/be+not, was/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vacs</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=conditional Tense=past</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">were/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Van</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=infinitive</cell>
+            <cell>8</cell>
+            <cell xml:lang="en">have, do, d', be, 'Ave</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vapp</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=participle Tense=present</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">having/have, doing/do, being/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Vaps</cell>
+            <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=participle Tense=past</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">done/do, been/be</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Voip</cell>
+            <cell role="attval" xml:lang="en">Verb Type=modal VForm=indicative Tense=present</cell>
+            <cell>22</cell>
+            <cell xml:lang="en">would, wouldn't/would+not, won't/will+not, will, should</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Af</cell>
+            <cell role="attval" xml:lang="en">Adjective Type=qualificative</cell>
+            <cell>865</cell>
+            <cell xml:lang="en">zany, young, yellow, yeasty, wry</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Afp</cell>
+            <cell role="attval" xml:lang="en">Adjective Type=qualificative Degree=positive</cell>
+            <cell>8533</cell>
+            <cell xml:lang="en">zoological, zonal, Zionist, Zimbabwean, zigzag</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Afc</cell>
+            <cell role="attval" xml:lang="en">Adjective Type=qualificative Degree=comparative</cell>
+            <cell>919</cell>
+            <cell xml:lang="en">zanier/zany, younger/young, yellower/yellow, yeastier/yeasty, wrinklier/wrinkly</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Afs</cell>
+            <cell role="attval" xml:lang="en">Adjective Type=qualificative Degree=superlative</cell>
+            <cell>723</cell>
+            <cell xml:lang="en">zaniest/zany, youngest/young, yellowest/yellow, wriest/wry, worthiest/worthy</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp---------------r</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Wh_Type=relative</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">who, whoever</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp---------------q</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Wh_Type=question</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">who, whoever</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp---a-----------r</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Case=accusative Wh_Type=relative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">whom</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp---a-----------q</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Case=accusative Wh_Type=question</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">whom</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp--sn</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Number=singular Case=nominative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">me</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp--pn</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Number=plural Case=nominative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">they</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp1-sn</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=singular Case=nominative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">I</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp1-pn</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=plural Case=nominative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">we</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp1-pa</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=plural Case=accusative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">us</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp2</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=second</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">you</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp2--a</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=second Case=accusative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">thee/you</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp2-p</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=second Number=plural</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">thou</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp3-pa</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Number=plural Case=accusative</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">them, 'Em/them, 'em/them</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp3ms</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=masculine Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">one</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp3msn</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">he</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp3msa</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">'Im/him, 'im/him, him, 'E/he, 'e/he</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp3fs</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=feminine Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">one</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp3fsn</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=feminine Number=singular Case=nominative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">she</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp3fsa</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">her, 'Er/her, 'er/her</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pp3ns</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=neuter Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">it</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ps3</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">yours</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ps3--------------r</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Wh_Type=relative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">whose</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ps3--------------q</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Wh_Type=question</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">whose</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ps3---s</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Owner_Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">mine</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ps3---sm</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Owner_Number=singular Owner_Gender=masculine</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">'is/his, his</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ps3---sf</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Owner_Number=singular Owner_Gender=feminine</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">hers</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ps3---p</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Owner_Number=plural</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">theirs, ours</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Px1-s</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=first Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">myself</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Px1-p</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=first Number=plural</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">ourselves</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Px2-s</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=second Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">yourself</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Px2-p</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=second Number=plural</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">yourselves</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Px3-s</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Number=singular</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">oneself, meself</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Px3-p</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Number=plural</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">themselves</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Px3ms</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Gender=masculine Number=singular</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">isself/himself, 'isself/himself, himself</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Px3fs</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Gender=feminine Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">herself</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Px3ns</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=reflexive Person=third Gender=neuter Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">itself</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pg3--------------r</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=general Person=third Wh_Type=relative</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">which, whichever, whatever</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pg3--------------q</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=general Person=third Wh_Type=question</cell>
+            <cell>4</cell>
+            <cell xml:lang="en">which, whichever, what, whatever</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pg3-s</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=general Person=third Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">another</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pg3-p</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=general Person=third Number=plural</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">several, others</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pg3ms</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=masculine Number=singular</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">someone, somebody, no-one, nobody, anybody</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pg3fs</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=feminine Number=singular</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">someone, somebody, no-one, nobody, anybody</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pg3n</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=neuter</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">some, none, most, any, all</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pg3ns</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=neuter Number=singular</cell>
+            <cell>14</cell>
+            <cell xml:lang="en">tis/this, this, that, something, nothing</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pg3np</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=general Person=third Gender=neuter Number=plural</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">those, these, many, few, both</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Pt3</cell>
+            <cell role="attval" xml:lang="en">Pronoun Type=ex-there Person=third</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">there</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Dd</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=demonstrative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">the</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Di</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=indefinite</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">an/a, a</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ds--------r</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=possessive Wh_Type=relative</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">whose</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ds--------q</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=possessive Wh_Type=question</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">whose</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ds1---s</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=possessive Person=first Owner_Number=singular</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">my</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ds1---p</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=possessive Person=first Owner_Number=plural</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">our</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ds2</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=possessive Person=second</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">your</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ds3---sm</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=masculine</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">'is/his, his</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ds3---sf</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=feminine</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">her, 'Er/her, 'er/her</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ds3---sn</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=neuter</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">its</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Ds3---p</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=possessive Person=third Owner_Number=plural</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">their</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Dg</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=general</cell>
+            <cell>4</cell>
+            <cell xml:lang="en">some, no, each, any</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Dg--------r</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=general Wh_Type=relative</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">which, whichever</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Dg--------q</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=general Wh_Type=question</cell>
+            <cell>4</cell>
+            <cell xml:lang="en">which, whichever, what, whatever</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Dg--s</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=general Number=singular</cell>
+            <cell>10</cell>
+            <cell xml:lang="en">tis/this, this, that, neither, much</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Dg--p</cell>
+            <cell role="attval" xml:lang="en">Determiner Type=general Number=plural</cell>
+            <cell>10</cell>
+            <cell xml:lang="en">those, these, such, other, most</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">R-p---q</cell>
+            <cell role="attval" xml:lang="en">Adverb Degree=positive Wh_Type=question</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">'Ow, 'ow, how</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Rmp</cell>
+            <cell role="attval" xml:lang="en">Adverb Type=modifier Degree=positive</cell>
+            <cell>3882</cell>
+            <cell xml:lang="en">zoologically, zealously, zanily, youthfully, youngly</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Rmp---r</cell>
+            <cell role="attval" xml:lang="en">Adverb Type=modifier Degree=positive Wh_Type=relative</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">where, whereupon, when</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Rmp---q</cell>
+            <cell role="attval" xml:lang="en">Adverb Type=modifier Degree=positive Wh_Type=question</cell>
+            <cell>3</cell>
+            <cell xml:lang="en">why, where, when</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Rmc</cell>
+            <cell role="attval" xml:lang="en">Adverb Type=modifier Degree=comparative</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">worse, better</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Rms</cell>
+            <cell role="attval" xml:lang="en">Adverb Type=modifier Degree=superlative</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">worst, best</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Rsp</cell>
+            <cell role="attval" xml:lang="en">Adverb Type=specifier Degree=positive</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">very, too, so, much, as</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Rsc</cell>
+            <cell role="attval" xml:lang="en">Adverb Type=specifier Degree=comparative</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">more, less</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Rss</cell>
+            <cell role="attval" xml:lang="en">Adverb Type=specifier Degree=superlative</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">most, least</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Sp</cell>
+            <cell role="attval" xml:lang="en">Adposition Type=preposition</cell>
+            <cell>89</cell>
+            <cell xml:lang="en">with, without, within, vis-à-vis, via</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">St</cell>
+            <cell role="attval" xml:lang="en">Adposition Type=postposition</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">'s/have, notwithstanding, '/have, away, ago</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Cc</cell>
+            <cell role="attval" xml:lang="en">Conjunction Type=coordinating</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">as</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Cc-i</cell>
+            <cell role="attval" xml:lang="en">Conjunction Type=coordinating Coord_Type=initial</cell>
+            <cell>2</cell>
+            <cell xml:lang="en">neither, either</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Cc-n</cell>
+            <cell role="attval" xml:lang="en">Conjunction Type=coordinating Coord_Type=non-initial</cell>
+            <cell>5</cell>
+            <cell xml:lang="en">than, or, nor, but, and</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Cs</cell>
+            <cell role="attval" xml:lang="en">Conjunction Type=subordinating</cell>
+            <cell>52</cell>
+            <cell xml:lang="en">yet, whilst, while, whether, where</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Mc</cell>
+            <cell role="attval" xml:lang="en">Numeral Type=cardinal</cell>
+            <cell>40</cell>
+            <cell xml:lang="en">zero, two, twenty, twenty-seven, twenty-five</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Mo</cell>
+            <cell role="attval" xml:lang="en">Numeral Type=ordinal</cell>
+            <cell>33</cell>
+            <cell xml:lang="en">twentieth, twelfth, trillionth, thousandth, thirtieth</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">I</cell>
+            <cell role="attval" xml:lang="en">Interjection</cell>
+            <cell>14</cell>
+            <cell xml:lang="en">oh-o-o-o-oh, oh, hullo, hi, 'em</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Y</cell>
+            <cell role="attval" xml:lang="en">Abbreviation</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">Dr.</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">X</cell>
+            <cell role="attval" xml:lang="en">Residual</cell>
+            <cell>1</cell>
+            <cell xml:lang="en">2+2=5</cell>
+         </row>
+         <row role="msd">
+            <cell role="msd" xml:lang="en">Z</cell>
+            <cell role="attval" xml:lang="en">Punctuation</cell>
+            <cell>10</cell>
+            <cell xml:lang="en">), (, ", ., ..</cell>
+         </row>
+      </table>
+   </div>
 </div>

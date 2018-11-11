@@ -1,6 +1,3 @@
-expa:
-	$s -xi -xsl:bin/msd-spec2prn.xsl xml-edit/msd-bg.spc.xml > tmp/msd-bg.spc.xml
-
 val:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
@@ -22,6 +19,55 @@ tst-indx:
 	bin/msd-index.pl en xml-edit/msd-en.xml < xml-edit/msd-en.wfl.txt > tmp/msd-en.msd.xml
 	bin/msd-index.pl sl xml-edit/msd-sl.xml < xml-edit/msd-sl.wfl.txt > tmp/msd-sl.msd.xml
 
+###PROCESSING THE XML SOURCE
+nohup:
+	nohup time make all > nohup.all &
+all:	htm tbls
+
+# Generate (in parallel) all the language tables
+tbls:
+	ls -d xml/msd-*.spc.xml | parallel --gnu --halt 0 --jobs 20 \
+	bin/msd-tables.pl -specs xml/msd.xml -infiles {} -outdir tables
+
+# Make HTML version of the specifications
+htm:
+	rm -f html/*
+	$s language=eng localisation=en -xsl:bin/teiHeader2html.xsl xml/msd.xml
+	$s -xi -xsl:bin/msd-spec2prn.xsl xml/msd.xml | $s splitLevel=1 - -xsl:bin/msd-prn2html.xsl 
+	cp html/msd.html html/index.html
+
+W = /net/mantra/project/www-nl/www/ME/V6
+mount:
+	rm -fr $W/*
+	cp -r xml $W
+	cp -r html $W
+	cp -r tables $W
+	cp -r schema $W
+#
+cast-all:
+	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
+	cp xml-edit/msd.xml xml/msd.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-bg.spc.xml > xml/msd-bg.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-bs.spc.xml > xml/msd-bs.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-ce.spc.xml > xml/msd-ce.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-cs.spc.xml > xml/msd-cs.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-en.spc.xml > xml/msd-en.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-et.spc.xml > xml/msd-et.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-fa.spc.xml > xml/msd-fa.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-hr.spc.xml > xml/msd-hr.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-hu.spc.xml > xml/msd-hu.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-mk.spc.xml > xml/msd-mk.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-pl.spc.xml > xml/msd-pl.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-ro.spc.xml > xml/msd-ro.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-ru.spc.xml > xml/msd-ru.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sk.spc.xml > xml/msd-sk.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sl-rozaj.spc.xml > xml/msd-sl-rozaj.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sl.spc.xml > xml/msd-sl.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sr.spc.xml > xml/msd-sr.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-uk.spc.xml > xml/msd-uk.spc.xml
+	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
+
+
 
 #### ADDING A NEW LANGUAGE
 ## Take a new language $L section
@@ -40,9 +86,8 @@ new-msd:
 new-merge:
 	$s add=../xml-edit/msd-$L.spc.xml -xsl:bin/msd-merge.xsl xml/msd.xml \
 	> xml-edit/msd_with_$L.xml 2> xml-edit/msd-$L.log
-# Cooks specs from xml-edit/ and puts them into xml/
-#STUB! should include .msd.xml and do tei2prn!
-new-copy:
+# Processes specs from xml-edit/ and puts them into xml/
+new-cast:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd-bg.spc.xml xml/msd-bg2.spc.xml
 
 #XML validate TEI source
@@ -50,55 +95,6 @@ new-val:
 	# $s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | rnv schema/mte_tei.rnc
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
 
-
-###PROCESSING THE XML SOURCE
-nohup:
-	nohup time make all > nohup.all &
-all:	htm tbls
-
-# Generate (in parallel) all the language tables
-tbls:
-	ls -d xml/msd-*.xml | parallel --gnu --halt 0 --jobs 20 \
-	bin/msd-tables.pl -specs xml/msd.xml -infiles {} -outdir tables
-
-# Make HTML version of the specifications
-htm:
-	rm -f html/*
-	$s language=eng localisation=en -xsl:bin/teiHeader2html.xsl xml/msd.xml
-	$s -xi -xsl:bin/msd-spec2prn.xsl xml/msd.xml | $s splitLevel=1 - -xsl:bin/msd-prn2html.xsl 
-	cp html/msd.html html/index.html
-
-W = /net/mantra/project/www-nl/www/ME/V6
-mount:
-	rm -fr $W/*
-	cp -r xml $W
-	cp -r html $W
-	cp -r tables $W
-	cp -r schema $W
-
-cast-all:
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
-	cp xml-edit/msd.xml xml/msd.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-bg.spc.xml > xml/msd-bg.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-bg.spc.xml > xml/msd-bg.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-bs.spc.xml > xml/msd-bs.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-ce.spc.xml > xml/msd-ce.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-cs.spc.xml > xml/msd-cs.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-en.spc.xml > xml/msd-en.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-et.spc.xml > xml/msd-et.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-fa.spc.xml > xml/msd-fa.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-hr.spc.xml > xml/msd-hr.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-hu.spc.xml > xml/msd-hu.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-mk.spc.xml > xml/msd-mk.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-pl.spc.xml > xml/msd-pl.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-ro.spc.xml > xml/msd-ro.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-ru.spc.xml > xml/msd-ru.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-sk.spc.xml > xml/msd-sk.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-sl-rozaj.spc.xml > xml/msd-sl-rozaj.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-sl.spc.xml > xml/msd-sl.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-sr.spc.xml > xml/msd-sr.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-uk.spc.xml > xml/msd-uk.spc.xml
-	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
 ##############################################3
 #Saxon for funny files (large text nodes, long UTF-8 chars
