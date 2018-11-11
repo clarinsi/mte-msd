@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="bs"
+     xml:id="msd-bs"
+     xml:lang="en">
+  <head>Bosnian Specifications</head>
+  <docAuthor>Tomaž Erjavec, Nikola Ljubešić</docAuthor>
+  <docDate>2018-11-11</docDate>
+  <list type="gloss">
+      <label>Language Name:</label>
+      <item>Bosnian</item>
+      <label>Code:</label>
+      <item>bs</item>
+      <label>Reference:</label>
+      <item>
+         <ref target="http://www.ethnologue.com/language/bos">Ethnologue</ref>
+      </item>
+  </list>
+  <divGen type="subtoc"/>
+  <div xml:id="msd-bs.introduction">
+      <head>Introduction to Bosnian Specifications</head>
+      <p>
+      These specifications collate data on Bosnian, Serbian and Croatian language, in particular
+      the manually annotated Croatian and Serbian SETimes datasets; a collection of tweets; and 
+      the Serbian and Croatian inflectional lexica
+      <ref target="http://hdl.handle.net/11356/1056">hrLex</ref> and
+      <ref target="http://hdl.handle.net/11356/1057">srLex</ref>.
+    </p>
+  </div>
+  <div type="section" select="bs" xml:id="msd.categories-bs">
+      <head>Bosnian Category Index</head>
+      <divGen type="msd.cats" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.N-bs">
+      <head>Bosnian Noun</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.N-bs">
+         <head>Specification for Bosnian Noun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Noun</cell>
+            <cell role="code" xml:lang="en">N</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">common</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proper</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.V-bs">
+      <head>Bosnian Verb</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.V-bs">
+         <head>Specification for Bosnian Verb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Verb</cell>
+            <cell role="code" xml:lang="en">V</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">main</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">auxiliary</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">copula</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">VForm</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">infinitive</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">participle</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">present</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">future</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperative</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">aorist</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperfect</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Negative</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.A-bs">
+      <head>Bosnian Adjective</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.A-bs">
+         <head>Specification for Bosnian Adjective</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adjective</cell>
+            <cell role="code" xml:lang="en">A</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">participle</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">7</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.P-bs">
+      <head>Bosnian Pronoun</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.P-bs">
+         <head>Specification for Bosnian Pronoun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Pronoun</cell>
+            <cell role="code" xml:lang="en">P</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">personal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">demonstrative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indefinite</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">interrogative</cell>
+                     <cell role="code" xml:lang="en">q</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">relative</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">reflexive</cell>
+                     <cell role="code" xml:lang="en">x</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.R-bs">
+      <head>Bosnian Adverb</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.R-bs">
+         <head>Specification for Bosnian Adverb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adverb</cell>
+            <cell role="code" xml:lang="en">R</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">participle</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.S-bs">
+      <head>Bosnian Adposition</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.S-bs">
+         <head>Specification for Bosnian Adposition</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adposition</cell>
+            <cell role="code" xml:lang="en">S</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.C-bs">
+      <head>Bosnian Conjunction</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.C-bs">
+         <head>Specification for Bosnian Conjunction</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Conjunction</cell>
+            <cell role="code" xml:lang="en">C</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">coordinating</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subordinating</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.M-bs">
+      <head>Bosnian Numeral</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.M-bs">
+         <head>Specification for Bosnian Numeral</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Numeral</cell>
+            <cell role="code" xml:lang="en">M</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Form</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">digit</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">roman</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">letter</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">cardinal</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ordinal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">multiple</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">special</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.Q-bs">
+      <head>Bosnian Particle</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.Q-bs">
+         <head>Specification for Bosnian Particle</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Particle</cell>
+            <cell role="code" xml:lang="en">Q</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">interrogative</cell>
+                     <cell role="code" xml:lang="en">q</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">modal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">affirmative</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.I-bs">
+      <head>Bosnian Interjection</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.I-bs">
+         <head>Specification for Bosnian Interjection</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Interjection</cell>
+            <cell role="code" xml:lang="en">I</cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.Y-bs">
+      <head>Bosnian Abbreviation</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.Y-bs">
+         <head>Specification for Bosnian Abbreviation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Abbreviation</cell>
+            <cell role="code" xml:lang="en">Y</cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.X-bs">
+      <head>Bosnian Residual</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.X-bs">
+         <head>Specification for Bosnian Residual</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Residual</cell>
+            <cell role="code" xml:lang="en">X</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="sl">vrsta</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">foreign</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">web</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">emo</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">hashtag</cell>
+                     <cell role="code" xml:lang="en">h</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">at</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" select="bs" xml:id="msd.Z-bs">
+      <head>Bosnian Punctuation</head>
+      <table n="msd.cat" select="bs" xml:id="msd.cat.Z-bs">
+         <head>Specification for Bosnian Punctuation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Punctuation</cell>
+            <cell role="code" xml:lang="en">Z</cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="bs"/>
+  </div>
+  <div type="section" xml:id="msd.attributes-bs">
+      <head>Bosnian Attribute Index</head>
+      <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
+      <divGen type="msd.atts" select="bs"/>
+  </div>
+  <div type="section" xml:id="msd.values-bs">
+      <head>Bosnian Value Index</head>
+      <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
+      <divGen type="msd.vals" select="bs"/>
+  </div>
+  <div select="bs" type="section" xml:id="msd.msds-bs">
+      <head>Bosnian MSD Index</head>
+        <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. 
+            In the table below, 
+            the first column gives the MSD, 
+            the second its expansion into a feature-structure,
+            the third gives the number of entries in the lexicon,
+            and the fourth gives some examples as word-form/lemma. 
+            The list was extracted form the the manually annotated Croatian and Serbian SETimes datasets, a collection of tweets and 
+	    the Serbian and Croatian inflectional lexica 
+	    <ref target="http://hdl.handle.net/11356/1056">hrLex</ref> and
+	    <ref target="http://hdl.handle.net/11356/1057">srLex</ref>.
+        </p>
+        
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bs.msd.xml"/>
+    </div>
+  </div>

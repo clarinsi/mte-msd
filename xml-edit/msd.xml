@@ -4,9 +4,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MULTEXT-East Morphosyntactic Specifications Version 6</title>
+        <title>MULTEXT-East Morphosyntactic Specifications</title>
         <respStmt>
-          <name>Tomaž Erjavec, IJS</name>
+          <name>Tomaž Erjavec</name>
           <resp>Editor</resp>
         </respStmt>
         <respStmt select="bs">
@@ -94,26 +94,29 @@
         <p>Version 6 "CLARIN"</p>
       </editionStmt>
       <publicationStmt>
-        <distributor>MULTEXT-East Web site</distributor>
+        <distributor>MULTEXT-East Web sites</distributor>
         <address>
-          <addrLine>http://nl.ijs.si/ME/V5/msd/</addrLine>
+          <addrLine>http://nl.ijs.si/ME/V6/mte-msd</addrLine>
+          <addrLine>https://github.com/clarinsi/mte-msd</addrLine>
         </address>
         <availability status="free">
           <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
         </availability>
-        <date>2018-11-06</date>
+        <date>2018-11-11</date>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>MULTEXT-East Morphosyntactic Specifications, Version 4</title>
+            <title>MULTEXT-East Morphosyntactic Specifications, Versions 3, 4, 5</title>
           </titleStmt>
           <publicationStmt>
             <distributor>MULTEXT-East Web site</distributor>
             <address>
-              <addrLine>http://nl.ijs.si/ME/V4/msd/</addrLine>
+              <addrLine>http://nl.ijs.si/ME/</addrLine>
             </address>
+            <date when="2004-05-13">May 13th, 2004</date>
             <date when="2010-05-02">May 2nd, 2010</date>
+            <date when="2016-06-20">June 20th, 2016</date>
           </publicationStmt>
         </biblFull>
       </sourceDesc>
@@ -125,6 +128,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
+        <!--SLAVIC MACROLANGUAGE--><language xml:id="hbs" ident="sh">Serbo-Croatian</language>
         <!--INDO-EUROPEAN (OTHER)--><language xml:id="sq" ident="sq">Albanian</language>
         <!--SLAVIC--><language xml:id="bs" ident="bg">Bosnian</language>
         <!--SLAVIC--><language xml:id="bg" ident="bg">Bulgarian</language>
@@ -140,47 +144,14 @@
         <!--ROMANCE--><language xml:id="ro" ident="ro">Romanian</language>
         <!--SLAVIC--><language xml:id="ru" ident="ru">Russian</language>
         <!--SLAVIC--><language xml:id="uk" ident="uk">Ukrainian</language>
-        <!--SLAVIC--><!--language xml:id="sh" ident="sh">Serbo-Croatian</language-->
         <!--SLAVIC--><language xml:id="sk" ident="sk">Slovak</language>
         <!--SLAVIC--><language xml:id="sl" ident="sl">Slovene</language>
         <!--DIALECT OF SLOVENE--><language xml:id="sl-rozaj" ident="sl-rozaj">Resian</language>
         <!--SLAVIC--><language xml:id="sr" ident="sr">Serbian</language>
-        <!--SLAVIC--><!--language xml:id="be" ident="be">Byelorussian</language-->
-        <!--CELTIC--><!--language xml:id="br" ident="br">Breton</language-->
-        <!--ROMANCE--><!--language xml:id="ca" ident="ca">Catalan</language-->
-	<!--ROMANCE--><!--language xml:id="co" ident="co">Corsican</language-->
-        <!--CELTIC--><!--language xml:id="cy" ident="cy">Welsh</language-->
-        <!--GERMANIC--><!--language xml:id="da" ident="da">Danish</language-->
-        <!--GERMANIC--><!--language xml:id="de" ident="de">German</language-->
-        <!--GREEK--><!--language xml:id="el" ident="el">Greek</language-->
-        <!--ROMANCE--><!--language xml:id="es" ident="es">Spanish</language-->
-        <!--BASQUE--><!--language xml:id="eu" ident="eu">Basque</language-->
-        <!--FINNO-UGRIC--><!--language xml:id="fi" ident="fi">Finnish</language-->
-        <!--ROMANCE--><!--language xml:id="fr" ident="fr">French</language-->
-        <!--CELTIC--><!--language xml:id="ga" ident="ga">Irish</language-->
-        <!--CELTIC--><!--language xml:id="gd" ident="gd">Scots Gaelic</language-->
-        <!--ROMANCE--><!--language xml:id="gl" ident="gl">Galician</language-->
-        <!--INDO-EUROPEAN (OTHER)--><!--language xml:id="hy" ident="hy">Armenian</language-->
-        <!--ESKIMO--><!--language xml:id="ik" ident="ik">Inupiak</language-->
-        <!--GERMANIC--><!--language xml:id="is" ident="is">Icelandic</language-->
-        <!--ROMANCE--><!--language xml:id="it" ident="it">Italian</language-->
-        <!--GERMANIC--><!--language xml:id="ji" ident="ji">Yiddish</language-->
-        <!--CAUCASIAN--><!--language xml:id="ka" ident="ka">Georgian/Ibero</language-->
-        <!--NORTHEAST CAUCASIAN--><!--language xml:id="kl" ident="kl">Greenlandic</language-->
-        <!--BALTIC--><!--language xml:id="lt" ident="lt">Lithuanian</language-->
-        <!--BALTIC--><!--language xml:id="lv" ident="lv">Latvian;Lettish</language-->
-        <!--ROMANCE--><!--language xml:id="mo" ident="mo">Moldavian</language-->
-        <!--GERMANIC--><!--language xml:id="nl" ident="nl">Dutch</language-->
-        <!--GERMANIC--><!--language xml:id="no" ident="no">Norwegian</language-->
-        <!--ROMANCE--><!--language xml:id="oc" ident="oc">Occitan</language-->
-        <!--ROMANCE--><!--language xml:id="pt" ident="pt">Portuguese</language-->
-        <!--ROMANCE--><!--language xml:id="rm" ident="rm">Rhaeto-Romance</language-->
-        <!--GERMANIC--><!--language xml:id="sv" ident="sv">Swedish</language-->
-        <!--TURKIC/ALTAIC--><!--language xml:id="tr" ident="tr">Turkish</language-->
-        <!--TURKIC/ALTAIC--><!--language xml:id="tt" ident="tt">Tatar</language-->
       </langUsage>
     </profileDesc>
     <revisionDesc>
+      <change when="2018-11-01">ET, add punctuation and change format to lang.spec. sections.</change>
       <change when="2018-11-06">ET, start working on V6.</change>
       <change when="2016-06-20">ET, details.</change>
       <change when="2016-06-15">ET, new version of Slovene specifications, added Bosnian.</change>
@@ -209,7 +180,7 @@
           Morphosyntactic Specifications</titlePart>
         </docTitle>
         <docEdition><ref target="http://nl.ijs.si/ME/V5/">Version 6</ref></docEdition>
-        <docDate>2018-09-06</docDate>
+        <docDate>2018-11-11</docDate>
         <lb/>
         <byline>Editor:
         <name>Tomaž Erjavec</name></byline>
@@ -7314,24 +7285,24 @@ V3??
       </div>
       <div type="part" xml:id="msd.lang-specific">
         <head>Language Specific MULTEXT Specifications</head>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-en.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ro.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-pl.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-cs.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sk.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl-rozaj.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hr.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sr.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bs.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ru.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-uk.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-mk.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bg.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-fa.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-et.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hu.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ce.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-en.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ro.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-pl.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-cs.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sk.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl-rozaj.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hr.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sr.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bs.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ru.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-uk.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-mk.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bg.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-fa.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-et.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hu.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ce.spc.xml"/>
       </div>
     </body>
   </text>

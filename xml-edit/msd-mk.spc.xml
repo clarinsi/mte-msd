@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="mk"
+     xml:id="msd-mk"
+     xml:lang="en">
+  <head>Macedonian Specifications</head>
+  <docAuthor>Katerina Čundeva-Zdravkova</docAuthor>
+  <docDate>2018-11-11</docDate>
+  <list type="gloss">
+      <label>Language Name:</label>
+      <item>Macedonian</item>
+      <label>Code:</label>
+      <item>mk</item>
+      <label>Reference:</label>
+      <item>
+         <ref target="http://www.ethnologue.com/show_iso639.asp?code=mk">Ethnologue</ref>
+      </item>
+  </list>
+  <divGen type="subtoc"/>
+  <div type="section" select="mk" xml:id="msd.categories-mk">
+      <head>Macedonian Category Index</head>
+      <divGen type="msd.cats" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.N-mk">
+      <head>Macedonian Noun</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.N-mk">
+         <head>Specification for Macedonian Noun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Noun</cell>
+            <cell role="code" xml:lang="en">N</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">common</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proper</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">count</cell>
+                     <cell role="code" xml:lang="en">t</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">oblique</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proximal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">distal</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Collective plural has been removed for the sake of compatibility with other Slavic languages. It is considered as derivation, thus collective plurals are separate entries in the dictionary.</item>
+            <item>Two vocative forms exist with same MSD, e.g. narode / narodu (narod) are both Ncmsvn.</item>
+         </list>
+      </div>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.V-mk">
+      <head>Macedonian Verb</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.V-mk">
+         <head>Specification for Macedonian Verb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Verb</cell>
+            <cell role="code" xml:lang="en">V</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">main</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">auxiliary</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">modal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">VForm</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indicative</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperative</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">participle</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Tense</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">present</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperfect</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">aorist</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">7</cell>
+            <cell role="name" xml:lang="en">Voice</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">active</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">passive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">8</cell>
+            <cell role="name" xml:lang="en">Negative</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">14</cell>
+            <cell role="name" xml:lang="en">Aspect</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">progressive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">perfective</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>We distinguish three types of verbs: main, auxiliary and modal. The word bi is considered as particle, rather than verb copula.</item>
+            <item>Verb forms gerund and adverbial participle are taken to be separate (noun and adverb) lemmas.</item>
+            <item>Two types of (adjectival) participles exist: active and passive. Active corresponds to Macedonian L-form and passive to verbal adjective, neuter gender, singular. For example, nosel is encoded as VForm=Participle, Voice=Active, nosen as VForm=participle, Voice=Passive.</item>
+            <item>The passive participle is used in verbal forms with the auxiliary ima / nema (eng. to have, to have not). The verbal adjective, in case it is used out of this construction, is considered as separate lemma.</item>
+            <item>In cases where a lemma (and its wordforms) can be both progressive and perfective, Aspects is given the value ?-?, in order to avoid excessive ambiguity in the lexicon.</item>
+         </list>
+      </div>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.A-mk">
+      <head>Macedonian Adjective</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.A-mk">
+         <head>Specification for Macedonian Adjective</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adjective</cell>
+            <cell role="code" xml:lang="en">A</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">qualificative</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ordinal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">elative</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proximal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">distal</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Negative adjectives are product of derivation, thus they belong to other types.</item>
+            <item>Words like moj, tvoj (eng. my, your) are considered possessive pronouns.</item>
+            <item>Words like prv, vtor (eng. first, second) are considered ordinal numerals.</item>
+            <item>Adverbs like mnogu, malku, nekolku are also considered adjectives, in cases they are used before nouns.</item>
+         </list>
+      </div>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.P-mk">
+      <head>Macedonian Pronoun</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.P-mk">
+         <head>Specification for Macedonian Pronoun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Pronoun</cell>
+            <cell role="code" xml:lang="en">P</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">personal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">demonstrative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indefinite</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">interrogative</cell>
+                     <cell role="code" xml:lang="en">q</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">relative</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">reflexive</cell>
+                     <cell role="code" xml:lang="en">x</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Owner_Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">7</cell>
+            <cell role="name" xml:lang="en">Owner_Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">8</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">11</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proximal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">distal</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>The possessive pronouns like moj, tvoj, negov are considered as pronouns.</item>
+            <item>The attributes Owner_Number and Owner_Gender are used for the pronoun negov. For other pronouns, ? is used.</item>
+         </list>
+      </div>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.R-mk">
+      <head>Macedonian Adverb</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.R-mk">
+         <head>Specification for Macedonian Adverb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adverb</cell>
+            <cell role="code" xml:lang="en">R</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">adjectival</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">verbal</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">elative</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Verbal adverbs (gerunds) like odejkji are not considered as verbal forms, but as separate adverbial non inflective lemmas</item>
+            <item>The adjectival adverbs (dobro, ispituvački) have the same adjective forms. Ambiguity is expected.</item>
+            <item>The adverbs that come sometimes before nouns (mnogu, malku, nekolku) can have definiteness in their inflectional paradigm. That is why these adverbs are considered as adjectives as well.</item>
+         </list>
+      </div>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.S-mk">
+      <head>Macedonian Adposition</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.S-mk">
+         <head>Specification for Macedonian Adposition</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adposition</cell>
+            <cell role="code" xml:lang="en">S</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">preposition</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.C-mk">
+      <head>Macedonian Conjunction</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.C-mk">
+         <head>Specification for Macedonian Conjunction</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Conjunction</cell>
+            <cell role="code" xml:lang="en">C</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">coordinating</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subordinating</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.M-mk">
+      <head>Macedonian Numeral</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.M-mk">
+         <head>Specification for Macedonian Numeral</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Numeral</cell>
+            <cell role="code" xml:lang="en">M</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">cardinal</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ordinal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">collect</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">special</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Form</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">digit</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">roman</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">letter</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proximal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">distal</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>The ordinal numerals have the same inflectional characteristics as adjectives.</item>
+         </list>
+      </div>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.Q-mk">
+      <head>Macedonian Particle</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.Q-mk">
+         <head>Specification for Macedonian Particle</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Particle</cell>
+            <cell role="code" xml:lang="en">Q</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.I-mk">
+      <head>Macedonian Interjection</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.I-mk">
+         <head>Specification for Macedonian Interjection</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Interjection</cell>
+            <cell role="code" xml:lang="en">I</cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.Y-mk">
+      <head>Macedonian Abbreviation</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.Y-mk">
+         <head>Specification for Macedonian Abbreviation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Abbreviation</cell>
+            <cell role="code" xml:lang="en">Y</cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.X-mk">
+      <head>Macedonian Residual</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.X-mk">
+         <head>Specification for Macedonian Residual</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Residual</cell>
+            <cell role="code" xml:lang="en">X</cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="mk"/>
+  </div>
+  <div type="section" select="mk" xml:id="msd.Z-mk">
+      <head>Macedonian Punctuation</head>
+      <table n="msd.cat" select="mk" xml:id="msd.cat.Z-mk">
+         <head>Macedonian Specification for Punctuation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Punctuation</cell>
+            <cell role="code" xml:lang="en">Z</cell>
+         </row>
+      </table>
+      <divGen xml:id="msd.Z-mk.lexicon" type="msd.lex" select="mk"/>
+   </div>
+   <div type="section" xml:id="msd.attributes-mk">
+      <head>Macedonian Attribute Index</head>
+      <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
+      <divGen type="msd.atts" select="mk"/>
+  </div>
+  <div type="section" xml:id="msd.values-mk">
+      <head>Macedonian Value Index</head>
+      <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
+      <divGen type="msd.vals" select="mk"/>
+  </div>
+  <div select="mk" type="section" xml:id="msd.msds-mk">
+        <head>Macedonian MSD Index</head>
+        <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (1,323,718 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Macedonian MULTEXT-East lexicon.</p>
+        
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-mk.msd.xml"/>
+    </div>
+</div>

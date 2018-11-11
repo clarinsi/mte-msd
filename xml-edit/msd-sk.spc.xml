@@ -1,0 +1,3718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="sk"
+     xml:id="msd-sk"
+     xml:lang="en">
+    <head>Slovak Specifications</head>
+    <docAuthor>Radovan Garabík</docAuthor>
+    <docDate>2018-11-11</docDate>
+    <list type="gloss">
+        <label>Language Name:</label>
+        <item>Slovak</item>
+        <label>Code:</label>
+        <item>sk</item>
+        <label>Reference:</label>
+        <item>
+            <ref target="http://www.ethnologue.com/language/slk">Ethnologue</ref>
+        </item>
+    </list>
+    <div xml:id="msd-sk.introduction">
+        <head>Introduction to Slovak Specifications</head>
+        <p>This morphosyntactic tagset has been inspired by Czech tables, created by
+            Vladimír Petkevič, with the use of Slovak morphosyntactic classification
+            developed for the <ref target="http://korpus.juls.savba.sk/">Slovak National Corpus</ref>. 
+            The lexicon (size 2471926 entries) and corpus have been converted form the 
+            tagset used for the Slovak National Corpus by an automatic procedure.
+        </p>
+      <div>
+        <head>Notable differences when compared to the Czech version</head>
+        <list>
+            <item>SK: Verbs in infinitive have Voice='-' <lb/>
+                CS: Verbs in infinitive have Voice='a' (active) 
+            </item>
+            
+            <item>SK: Past active participle is not present in contemporary language<lb/>
+                CS: Past active participle is marked as qualificative adjective 
+            </item>
+            
+            <item>SK: Personal and demonstrative 3rd person pronouns have different lemmas for different genders<lb/>
+                CS: Personal 3rd person pronouns have common masculine lemma <emph>on, ten</emph> 
+                regardless of pronoun gender
+            </item>
+            
+            <item>SK: there is no clitic morpheme 's' for verbs <lb/>
+                CS: 2nd Person singular present tense  of the auxiliary Verb  "být" with clitic morpheme 's' has Clitic_s attribute set to 'yes'
+            </item>
+            
+            <item>SK: Negative adjectives have negative lemma and negativeness is not marked otherwise.<lb/>
+                CS: Negative  adjectives have positive lemma and negativeness is not marked otherwise. 
+            </item>
+            
+            <item>SK: Negative verbs have negative lemma <lb/>
+                CS: Negative verbs have positive lemma 
+            </item>
+            
+            <item>SK: Vocative is morphologically identical with nominative, with
+                the exception of several nouns and (substandard usage of) some
+                proper names, and is marked according to its syntactic role.<lb/>
+                CS: Vocative in singular is a full-featured case, in plural it is
+                morphologically identical with nominative 
+            </item>
+            
+            <item>SK: Conjuctions cannot have number nor person<lb/>
+                CS: Some conjuctions can be marked for number and person 
+            </item>
+            
+            <item>SK: relative and interrogative pronouns are conflated into one
+                category (r)<lb/>
+                CS: relative and interrogative pronouns are two different categories 
+            </item>
+            
+            <item>SK: Archaic short form of verbal adjectives survives only in some words,
+                and only in nominative (dlžen, vinen...). These are not distinguished from
+                adjectives proper.<lb/>
+                CS: Short form of verbal adjectives are classified as verbs, passive 
+                participles category 
+            </item>
+            
+            <item>SK: Verbs have Aspect category<lb/>
+                CS: Aspect is omitted 
+            </item>
+            
+            <item>SK: 'adverb prepositions' (po, na, do...) are marked as residuals (X)<lb/>
+                CS: 'adverb prepositions' (na, do...) are (mistakenly) marked as their homonymous prepositions 
+            </item>
+            
+            <item>SK: prepositions agglutinated with pronoun have lemmas containing preposition and base pronoun form connected by underscore ('naň' --&gt; 'na_on')<lb/>
+                CS: prepositions agglutinated with pronoun have lemma identical
+                with their form.
+            </item>
+        </list>
+      </div>
+    </div>
+    <divGen type="subtoc"/>
+    <div type="section" select="sk" xml:id="msd.categories-sk">
+        <head>Slovak Category Index</head>
+        <divGen type="msd.cats" select="sk"/>
+        
+    </div>
+    <div type="section" select="sk" xml:id="msd.N-sk">
+        <head>Slovak Noun</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.N-sk">
+            <head>Specification for Slovak Noun</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Noun</cell>
+                <cell role="value" xml:lang="sk">Podstatné_meno</cell>
+                <cell role="code" xml:lang="en">N</cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">1</cell>
+                <cell role="name" xml:lang="en">Type</cell>
+                <cell role="name" xml:lang="sk">Typ</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">common</cell>
+                            <cell role="name" xml:lang="sk">všeobecné</cell>
+                            <cell role="code" xml:lang="en">c</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">proper</cell>
+                            <cell role="name" xml:lang="sk">vlastné</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">2</cell>
+                <cell role="name" xml:lang="en">Gender</cell>
+                <cell role="name" xml:lang="sk">Rod</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">masculine</cell>
+                            <cell role="name" xml:lang="sk">mužský</cell>
+                            <cell role="code" xml:lang="en">m</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">feminine</cell>
+                            <cell role="name" xml:lang="sk">ženský</cell>
+                            <cell role="code" xml:lang="en">f</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">neuter</cell>
+                            <cell role="name" xml:lang="sk">stredný</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">3</cell>
+                <cell role="name" xml:lang="en">Number</cell>
+                <cell role="name" xml:lang="sk">Číslo</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">singular</cell>
+                            <cell role="name" xml:lang="sk">jednotné</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">plural</cell>
+                            <cell role="name" xml:lang="sk">množné</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">4</cell>
+                <cell role="name" xml:lang="en">Case</cell>
+                <cell role="name" xml:lang="sk">Pád</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">nominative</cell>
+                            <cell role="name" xml:lang="sk">nominatív</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">genitive</cell>
+                            <cell role="name" xml:lang="sk">genitív</cell>
+                            <cell role="code" xml:lang="en">g</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">dative</cell>
+                            <cell role="name" xml:lang="sk">datív</cell>
+                            <cell role="code" xml:lang="en">d</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">accusative</cell>
+                            <cell role="name" xml:lang="sk">akuzatív</cell>
+                            <cell role="code" xml:lang="en">a</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">vocative</cell>
+                            <cell role="name" xml:lang="sk">vokatív</cell>
+                            <cell role="code" xml:lang="en">v</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">locative</cell>
+                            <cell role="name" xml:lang="sk">lokál</cell>
+                            <cell role="code" xml:lang="en">l</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">instrumental</cell>
+                            <cell role="name" xml:lang="sk">inštrumentál</cell>
+                            <cell role="code" xml:lang="en">i</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">7</cell>
+                <cell role="name" xml:lang="en">Animate</cell>
+                <cell role="name" xml:lang="sk">Životné</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">no</cell>
+                            <cell role="name" xml:lang="sk">nie</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">yes</cell>
+                            <cell role="name" xml:lang="sk">áno</cell>
+                            <cell role="code" xml:lang="en">y</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+        </table>
+        <div n="notes">
+            <head>Notes</head>
+            <list>
+                <item>Slovak distinguishes masculine animate (Animate=yes above) and masculine inanimate (Animate=no) Gender. Masculine inanimate nouns always have the same form in the nominative and accusative case, whereas masculine animate nouns have predominantly the same form in the genitive and accusative case. Masculine animate nouns and masculine inanimate nouns differ in accusative singular, nominative (vocative) and accusative plural only.</item>
+            <item>Slovak distinguishes 7 cases, the locative case being obligatorily prepositional. Vocative is identical with nominative, with the exception of several nouns and (substandard usage of) some proper names. Here, vocative is marked according to its syntactic role.</item>
+            <item>Verbal nouns are classified as nouns.</item>
+            <item>Adjectival nouns (gazdiná, hostinský) are classified as nouns. Sometimes the distinction between noun and adjective is not as clear as we want (obchodný cestujúci).</item>
+        </list>
+        </div>
+        
+        <div n="combinations">
+            <head>Combinations</head>
+            
+            <table>
+                <row>
+                    <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Gend</cell>
+               <cell>Numb</cell>
+               <cell>Case</cell>
+               <cell>Anim</cell>
+               <cell>Examples</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>p</cell>
+               <cell>m</cell>
+               <cell>[sp]</cell>
+               <cell>[ngdavli]</cell>
+               <cell>y</cell>
+               <cell>Pavol, Pavlovia</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>p</cell>
+               <cell>m</cell>
+               <cell>[sp]</cell>
+               <cell>[ngdavli]</cell>
+               <cell>n</cell>
+               <cell>Žiar, Žiare</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>p</cell>
+               <cell>f</cell>
+               <cell>[sp]</cell>
+               <cell>[ngdavli]</cell>
+               <cell>-</cell>
+               <cell>Lenka, Lenky</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>[sp]</cell>
+               <cell>[ngdavli]</cell>
+               <cell>-</cell>
+               <cell>Branisko, Braniská</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>chlap, dub</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>chlapa, dubu/dube</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>chlapovi, dubu</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>y</cell>
+               <cell>chlapa,</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>n</cell>
+               <cell>dub</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>v</cell>
+               <cell>-</cell>
+               <cell>chlape, dub</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>chlapovi, dube</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>chlapom, dubom</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>y</cell>
+               <cell>roboti</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>n</cell>
+               <cell>roboty</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>robotov</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>robotom</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>a</cell>
+               <cell>y</cell>
+               <cell>robotov</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>a</cell>
+               <cell>n</cell>
+               <cell>roboty</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>v</cell>
+               <cell>y</cell>
+               <cell>roboti</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>v</cell>
+               <cell>n</cell>
+               <cell>roboty</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>robotoch</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>robotmi</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>žena, mesto</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>ženy, mesta</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>žene mestu</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>ženu mesto</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>v</cell>
+               <cell>-</cell>
+               <cell>žena mesto</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>žene meste</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>ženou mestom</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>ženy mestá</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>žien miest</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>ženám mestám</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>ženy mestá</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>v</cell>
+               <cell>-</cell>
+               <cell>ženy mestá</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>ženách mestách</cell>
+                </row>
+                <row>
+                    <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>ženami mestami</cell>
+                </row>
+            </table>
+            
+        </div>
+        <divGen type="msd.lex" select="sk"/>
+    </div>
+    <div type="section" select="sk" xml:id="msd.V-sk">
+        <head>Slovak Verb</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.V-sk">
+            <head>Specification for Slovak Verb</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Verb</cell>
+                <cell role="value" xml:lang="sk">Sloveso</cell>
+                <cell role="code" xml:lang="en">V</cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">1</cell>
+                <cell role="name" xml:lang="en">Type</cell>
+                <cell role="name" xml:lang="sk">Typ</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">main</cell>
+                            <cell role="name" xml:lang="sk">plnovýznamové</cell>
+                            <cell role="code" xml:lang="en">m</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">auxiliary</cell>
+                            <cell role="name" xml:lang="sk">pomocné</cell>
+                            <cell role="code" xml:lang="en">a</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">modal</cell>
+                            <cell role="name" xml:lang="sk">modálne</cell>
+                            <cell role="code" xml:lang="en">o</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">copula</cell>
+                            <cell role="name" xml:lang="sk">spona</cell>
+                            <cell role="code" xml:lang="en">c</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">2</cell>
+                <cell role="name" xml:lang="en">VForm</cell>
+                <cell role="name" xml:lang="sk">Slovesná_forma</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">indicative</cell>
+                            <cell role="name" xml:lang="sk">indikatív</cell>
+                            <cell role="code" xml:lang="en">i</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">imperative</cell>
+                            <cell role="name" xml:lang="sk">rozkazovací_spôsob</cell>
+                            <cell role="code" xml:lang="en">m</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">conditional</cell>
+                            <cell role="name" xml:lang="sk">podmieňovacia_častica</cell>
+                            <cell role="code" xml:lang="en">c</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">infinitive</cell>
+                            <cell role="name" xml:lang="sk">neurčitok</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">participle</cell>
+                            <cell role="name" xml:lang="sk">príčastie</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">transgressive</cell>
+                            <cell role="name" xml:lang="sk">prechodník</cell>
+                            <cell role="code" xml:lang="en">t</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">3</cell>
+                <cell role="name" xml:lang="en">Tense</cell>
+                <cell role="name" xml:lang="sk">Čas</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">present</cell>
+                            <cell role="name" xml:lang="sk">prítomný</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">future</cell>
+                            <cell role="name" xml:lang="sk">budúci</cell>
+                            <cell role="code" xml:lang="en">f</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">past</cell>
+                            <cell role="name" xml:lang="sk">minulý</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">4</cell>
+                <cell role="name" xml:lang="en">Person</cell>
+                <cell role="name" xml:lang="sk">Osoba</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">first</cell>
+                            <cell role="name" xml:lang="sk">prvá</cell>
+                            <cell role="code" xml:lang="en">1</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">second</cell>
+                            <cell role="name" xml:lang="sk">druhá</cell>
+                            <cell role="code" xml:lang="en">2</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">third</cell>
+                            <cell role="name" xml:lang="sk">tretia</cell>
+                            <cell role="code" xml:lang="en">3</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">5</cell>
+                <cell role="name" xml:lang="en">Number</cell>
+                <cell role="name" xml:lang="sk">Číslo</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">singular</cell>
+                            <cell role="name" xml:lang="sk">jednotné</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">plural</cell>
+                            <cell role="name" xml:lang="sk">množné</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">6</cell>
+                <cell role="name" xml:lang="en">Gender</cell>
+                <cell role="name" xml:lang="sk">Rod</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">masculine</cell>
+                            <cell role="name" xml:lang="sk">mužský</cell>
+                            <cell role="code" xml:lang="en">m</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">feminine</cell>
+                            <cell role="name" xml:lang="sk">ženský</cell>
+                            <cell role="code" xml:lang="en">f</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">neuter</cell>
+                            <cell role="name" xml:lang="sk">stredný</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">8</cell>
+                <cell role="name" xml:lang="en">Negative</cell>
+                <cell role="name" xml:lang="sk">Zápor</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">no</cell>
+                            <cell role="name" xml:lang="sk">nie</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">yes</cell>
+                            <cell role="name" xml:lang="sk">áno</cell>
+                            <cell role="code" xml:lang="en">y</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">14</cell>
+                <cell role="name" xml:lang="en">Aspect</cell>
+                <cell role="name" xml:lang="sk">vid</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">progressive</cell>
+                            <cell role="name" xml:lang="sk">nedokonavý</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">perfective</cell>
+                            <cell role="name" xml:lang="sk">dokonavý</cell>
+                            <cell role="code" xml:lang="en">e</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">ambivalent</cell>
+                            <cell role="name" xml:lang="sk">obojaký</cell>
+                            <cell role="code" xml:lang="en">a</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+        </table>
+        <div n="notes">
+            <head>Notes</head>
+            <list>
+            <item>The verb "byť" (E. "to be") in all its functions is characte- rized as Type=c (i.e. the copula), which clearly is an over- simplification because the verb has more meanings (auxiliary etc.).</item>
+            <item>Auxiliary verbs (Type=a) include neither the verb "byť" (see above), nor the modal verbs, and are limited to "mať"</item>
+            <item>The 'past participle' in Slovak is used for expressing compound active past Tense and is encoded as: Type=p(articiple), Tense=pa(s)t.</item>
+            <item>Adjectival active and passive participles, e.g. "stojaci" (E. "standing") or "urobený" (E. "made" or "done", cf. Note 4 above) are classified as (qualificative) adjectives.</item>
+            <item>Negative verbs are marked as Negative=y, whereas non-negative verbs are marked as Negative=n.</item>
+            <item>The term transgressive roughly corresponds to the term 'verbal participle'. The transgressives have present tense, and do not distinguish any other categories except for negativeness.</item>
+            <item>Gender and Animate values correspond to those associated with Nouns and are necessary to account properly for agreement.</item>
+            <item>Gender manifests itself in past participles only.</item>
+            <item>Normally, verbs form the future tense periphrastically by auxiliary "byť" (E. "to be") plus infinitive of the main verb. In addition to the copula, there are, however, some verbs which form future tense non-periphrastically, i.e. synthetically (Verbs of motion). Such verbal forms are marked as Tense=f.</item>
+            <item>Some modal and auxiliary verbs do not form imperative and transgressive.</item>
+            <item>Verbs form negative by prefix 'ne-', with the exception of the verb "byť" (E. "to be") which forms the neagative in indicative by using separate particle "nie", e.g. "nie je" (is not). Here, "je" would be marked as negative, despite having positive form.</item>
+        </list>
+        </div>
+        <div n="combinations">
+            <head>Combinations</head>
+            
+            <table>
+                <row>
+                    <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>VFrm</cell>
+               <cell>Tense</cell>
+               <cell>Person</cell>
+               <cell>Number</cell>
+               <cell>Gender</cell>
+               <cell>Negation</cell>
+               <cell>Animacy</cell>
+               <cell>Aspect</cell>
+               <cell>Examples</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>prať, neprať</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>a</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>mať, nemať</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>o</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>musieť, nemusieť</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>byť, nebyť</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>c</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>by</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>i</cell>
+               <cell>f</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>budem, budeš, bude</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>i</cell>
+               <cell>f</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nebudu, nebudeš, nebude</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>i</cell>
+               <cell>f</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>budeme, budete, budú</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>i</cell>
+               <cell>f</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nebudeme, nebudete, nebudú</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>f</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>poletím, poletíš, poletí</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>f</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nepoletím, nepoletíš, nepoletí</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>f</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>poletíme, poletíte, poletí</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>f</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nepoletíme, nepoletíte, nepoletí</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>som, si, je</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>som, si, je, niet, *neni</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>sme, ste, sú</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>sme, ste, sú</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>triem, trieš, trie</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>netriem, netrieš, netrie</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>trieme, triete, trú</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>netrieme, netriete, netrú</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>a</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>mám, máš, má</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>a</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nemám, nemáš, nemá</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>a</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>máme, máte, majú</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>a</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nemáme, nemáte, nemajú</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>musím, musíš, musí</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nemusím, nemusíš, nemusí</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>musíme, musíte, musia</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[123]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nemusíme, nemusíte, nemusia</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>1</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>buďme!, nebuďme!</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>buď!, buďte!</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nebuď!, nebuďte!</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>1</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>pracujme!, nepracujme!</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>pracuj!, pracujte!</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nepracuj!, nepracujte!</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>bol, bola, bolo</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nebol, nebola, nebolo</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>m</cell>
+               <cell>n</cell>
+               <cell>[yn]</cell>
+               <cell>[pea]</cell>
+               <cell>boli</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>y</cell>
+               <cell>[yn]</cell>
+               <cell>[pea]</cell>
+               <cell>neboli</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>a</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>mal, mala, malo</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>a</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nemal, nemala, nemalo</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>a</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>n</cell>
+               <cell>[yn]</cell>
+               <cell>[pea]</cell>
+               <cell>mali</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>a</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>y</cell>
+               <cell>[yn]</cell>
+               <cell>[pea]</cell>
+               <cell>nemali</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>musel, musela, muselo</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nemusel, nemusela, nemuselo</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>n</cell>
+               <cell>[yn]</cell>
+               <cell>[pea]</cell>
+               <cell>museli</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>robil, robila, robilo</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>nerobil, nerobila, nerobilo</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>n</cell>
+               <cell>[yn]</cell>
+               <cell>[pea]</cell>
+               <cell>robili</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>y</cell>
+               <cell>[yn]</cell>
+               <cell>[pea]</cell>
+               <cell>nerobili</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>c</cell>
+               <cell>t</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>[pea]</cell>
+               <cell>súc, nesúc</cell>
+                </row>
+                <row>
+                    <cell>V</cell>
+               <cell>m</cell>
+               <cell>t</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>[pea]</cell>
+               <cell>robiac</cell>
+                </row>
+            </table>
+        </div>
+        <divGen type="msd.lex" select="sk"/>
+    </div>
+    <div type="section" select="sk" xml:id="msd.A-sk">
+        <head>Slovak Adjective</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.A-sk">
+            <head>Specification for Slovak Adjective</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Adjective</cell>
+                <cell role="value" xml:lang="sk">Prídavné_meno</cell>
+                <cell role="code" xml:lang="en">A</cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">1</cell>
+                <cell role="name" xml:lang="en">Type</cell>
+                <cell role="name" xml:lang="sk">Typ</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">qualificative</cell>
+                            <cell role="name" xml:lang="sk">kvalitatívne</cell>
+                            <cell role="code" xml:lang="en">f</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">possessive</cell>
+                            <cell role="name" xml:lang="sk">privlastňovacie</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">2</cell>
+                <cell role="name" xml:lang="en">Degree</cell>
+                <cell role="name" xml:lang="sk">Stupeň</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">positive</cell>
+                            <cell role="name" xml:lang="sk">prvý</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">comparative</cell>
+                            <cell role="name" xml:lang="sk">druhý</cell>
+                            <cell role="code" xml:lang="en">c</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">superlative</cell>
+                            <cell role="name" xml:lang="sk">tretí</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">3</cell>
+                <cell role="name" xml:lang="en">Gender</cell>
+                <cell role="name" xml:lang="sk">Rod</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">masculine</cell>
+                            <cell role="name" xml:lang="sk">mužský</cell>
+                            <cell role="code" xml:lang="en">m</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">feminine</cell>
+                            <cell role="name" xml:lang="sk">ženský</cell>
+                            <cell role="code" xml:lang="en">f</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">neuter</cell>
+                            <cell role="name" xml:lang="sk">stredný</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">4</cell>
+                <cell role="name" xml:lang="en">Number</cell>
+                <cell role="name" xml:lang="sk">Číslo</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">singular</cell>
+                            <cell role="name" xml:lang="sk">jednotné</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">plural</cell>
+                            <cell role="name" xml:lang="sk">množné</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">5</cell>
+                <cell role="name" xml:lang="en">Case</cell>
+                <cell role="name" xml:lang="sk">Pád</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">nominative</cell>
+                            <cell role="name" xml:lang="sk">nominatív</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">genitive</cell>
+                            <cell role="name" xml:lang="sk">genitív</cell>
+                            <cell role="code" xml:lang="en">g</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">dative</cell>
+                            <cell role="name" xml:lang="sk">datív</cell>
+                            <cell role="code" xml:lang="en">d</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">accusative</cell>
+                            <cell role="name" xml:lang="sk">akuzatív</cell>
+                            <cell role="code" xml:lang="en">a</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">vocative</cell>
+                            <cell role="name" xml:lang="sk">vokatív</cell>
+                            <cell role="code" xml:lang="en">v</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">locative</cell>
+                            <cell role="name" xml:lang="sk">lokál</cell>
+                            <cell role="code" xml:lang="en">l</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">instrumental</cell>
+                            <cell role="name" xml:lang="sk">inštrumentál</cell>
+                            <cell role="code" xml:lang="en">i</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">8</cell>
+                <cell role="name" xml:lang="en">Animate</cell>
+                <cell role="name" xml:lang="sk">Životné</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">no</cell>
+                            <cell role="name" xml:lang="sk">nie</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">yes</cell>
+                            <cell role="name" xml:lang="sk">áno</cell>
+                            <cell role="code" xml:lang="en">y</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+        </table>
+        <div n="notes">
+            <head>Notes</head>
+            
+            <list>
+                <item>Two deverbative adjectival participles, i.e. past passive participle and present active participle are not distinguished. They are conflated in the 'qualificative' value of the Type attribute (Type=f). Past active participle is for all purposes dead in Slovak, although the form sometimes appears in metalanguage usage.</item>
+                <item>Only qualificative (and passive participle) Adjectives can be specified for Degree.</item>
+                <item>The attributes Gender, Number, Case and Animate correspond to the same categories within the nouns. They are necessary for the proper account of agreement of adjectives with nouns.</item>
+                <item>Archaic short form of adjectives survives only in some words, and only in nominative (dlžen, vinen...). These are not distinguished.</item>
+                <item>The qualificative adjectives which have no degrees of comparison have the Degree value equal to p(ositive).</item>
+                <item>Negative adjectives have negative lemma and negativeness is not marked otherwise.</item>
+                <item>Adjectival nouns (gazdiná, hostinský) are classified as nouns. Sometimes the distinction between a noun and an adjective is not as clear as we want (obchodný cestujúci).</item>
+            </list>
+            
+        </div>
+        <div n="combinations">
+            <head>Combinations</head>
+            
+            <table>
+                <row>
+                    <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Degr</cell>
+               <cell>Gend</cell>
+               <cell>Numb</cell>
+               <cell>Case</cell>
+               <cell>Anim</cell>
+               <cell>Examples</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>otcov</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>otcovho</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>otcovmu</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>y</cell>
+               <cell>otcovho</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>n</cell>
+               <cell>otcov</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>v</cell>
+               <cell>-</cell>
+               <cell>otcov!</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>otcovom</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>otcovým</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>y</cell>
+               <cell>otcovi</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>n</cell>
+               <cell>otcove</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>otcových</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>otcovým</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>a</cell>
+               <cell>y</cell>
+               <cell>otcových</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>a</cell>
+               <cell>n</cell>
+               <cell>otcove</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>v</cell>
+               <cell>y</cell>
+               <cell>otcovi!</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>v</cell>
+               <cell>n</cell>
+               <cell>otcove!</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>otcových</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>otcovými</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>otcova, otcovo/otcove</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>otcovej, otcovho/otcového</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>otcovej, otcovmu/otcovému</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>otcovu, otcovo/otcove</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>v</cell>
+               <cell>-</cell>
+               <cell>otcova, otcovo/otcove</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>otcovej, otcovom</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>otcovou, otcovým</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>otcove</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>otcových</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>otcovým</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>otcove</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>v</cell>
+               <cell>-</cell>
+               <cell>otcove</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>otcových</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>otcovými</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>dobrý</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>dobrého</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>dobrému</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>y</cell>
+               <cell>dobrého</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>n</cell>
+               <cell>dobrý</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>v</cell>
+               <cell>-</cell>
+               <cell>dobrý!</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>dobrom</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>dobrým</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>y</cell>
+               <cell>dobrí</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>n</cell>
+               <cell>dobré</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>dobrých</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>dobrým</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>a</cell>
+               <cell>y</cell>
+               <cell>dobrých</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>a</cell>
+               <cell>n</cell>
+               <cell>dobré</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>v</cell>
+               <cell>y</cell>
+               <cell>dobrí</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>v</cell>
+               <cell>n</cell>
+               <cell>dobré</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>dobrých</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>dobrými</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>dobrá, dobré</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>dobré, dobrého</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>dobré, dobrému</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>dobrou, dobré</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>v</cell>
+               <cell>-</cell>
+               <cell>dobrá!, dobré!</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>dobré, dobrém</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>dobrou, dobrým</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>dobré, dobrá</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>dobrých</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>dobrým</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>dobré</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>v</cell>
+               <cell>-</cell>
+               <cell>dobré</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>dobrých</cell>
+                </row>
+                <row>
+                    <cell>A</cell>
+               <cell>f</cell>
+               <cell>[pcs]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>dobrými</cell>
+                </row>
+            </table>
+        </div>
+        <divGen type="msd.lex" select="sk"/>
+         
+    </div>
+    <div type="section" select="sk" xml:id="msd.P-sk">
+        <head>Slovak Pronoun</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.P-sk">
+            <head>Specification for Slovak Pronoun</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Pronoun</cell>
+                <cell role="value" xml:lang="sk">Zámeno</cell>
+                <cell role="code" xml:lang="en">P</cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">1</cell>
+                <cell role="name" xml:lang="en">Type</cell>
+                <cell role="name" xml:lang="sk">Typ</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">personal</cell>
+                            <cell role="name" xml:lang="sk">osobné</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">demonstrative</cell>
+                            <cell role="name" xml:lang="sk">ukazovacie</cell>
+                            <cell role="code" xml:lang="en">d</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">indefinite</cell>
+                            <cell role="name" xml:lang="sk">neurčité</cell>
+                            <cell role="code" xml:lang="en">i</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">possessive</cell>
+                            <cell role="name" xml:lang="sk">privlastňovacie</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">interrogative</cell>
+                            <cell role="name" xml:lang="sk">opytovacie</cell>
+                            <cell role="code" xml:lang="en">q</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">reflexive</cell>
+                            <cell role="name" xml:lang="sk">zvratné</cell>
+                            <cell role="code" xml:lang="en">x</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">negative</cell>
+                            <cell role="name" xml:lang="sk">záporné</cell>
+                            <cell role="code" xml:lang="en">z</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">general</cell>
+                            <cell role="name" xml:lang="sk">všeobecné</cell>
+                            <cell role="code" xml:lang="en">g</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">2</cell>
+                <cell role="name" xml:lang="en">Person</cell>
+                <cell role="name" xml:lang="sk">Osoba</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">first</cell>
+                            <cell role="name" xml:lang="sk">prvá</cell>
+                            <cell role="code" xml:lang="en">1</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">second</cell>
+                            <cell role="name" xml:lang="sk">druhá</cell>
+                            <cell role="code" xml:lang="en">2</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">third</cell>
+                            <cell role="name" xml:lang="sk">tretia</cell>
+                            <cell role="code" xml:lang="en">3</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">3</cell>
+                <cell role="name" xml:lang="en">Gender</cell>
+                <cell role="name" xml:lang="sk">Rod</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">masculine</cell>
+                            <cell role="name" xml:lang="sk">mužský</cell>
+                            <cell role="code" xml:lang="en">m</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">feminine</cell>
+                            <cell role="name" xml:lang="sk">ženský</cell>
+                            <cell role="code" xml:lang="en">f</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">neuter</cell>
+                            <cell role="name" xml:lang="sk">stredný</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">4</cell>
+                <cell role="name" xml:lang="en">Number</cell>
+                <cell role="name" xml:lang="sk">Číslo</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">singular</cell>
+                            <cell role="name" xml:lang="sk">jednotné</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">plural</cell>
+                            <cell role="name" xml:lang="sk">množné</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">5</cell>
+                <cell role="name" xml:lang="en">Case</cell>
+                <cell role="name" xml:lang="sk">Pád</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">nominative</cell>
+                            <cell role="name" xml:lang="sk">nominatív</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">genitive</cell>
+                            <cell role="name" xml:lang="sk">genitív</cell>
+                            <cell role="code" xml:lang="en">g</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">dative</cell>
+                            <cell role="name" xml:lang="sk">datív</cell>
+                            <cell role="code" xml:lang="en">d</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">accusative</cell>
+                            <cell role="name" xml:lang="sk">akuzatív</cell>
+                            <cell role="code" xml:lang="en">a</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">vocative</cell>
+                            <cell role="name" xml:lang="sk">vokatív</cell>
+                            <cell role="code" xml:lang="en">v</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">locative</cell>
+                            <cell role="name" xml:lang="sk">lokál</cell>
+                            <cell role="code" xml:lang="en">l</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">instrumental</cell>
+                            <cell role="name" xml:lang="sk">inštrumentál</cell>
+                            <cell role="code" xml:lang="en">i</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">6</cell>
+                <cell role="name" xml:lang="en">Owner_Number</cell>
+                <cell role="name" xml:lang="sk">Číslo_vlastníka</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">singular</cell>
+                            <cell role="name" xml:lang="sk">jednotné</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">plural</cell>
+                            <cell role="name" xml:lang="sk">množné</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">8</cell>
+                <cell role="name" xml:lang="en">Clitic</cell>
+                <cell role="name" xml:lang="sk">príklonka</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">no</cell>
+                            <cell role="name" xml:lang="sk">nie</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">yes</cell>
+                            <cell role="name" xml:lang="sk">áno</cell>
+                            <cell role="code" xml:lang="en">y</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">9</cell>
+                <cell role="name" xml:lang="en">Referent_Type</cell>
+                <cell role="name" xml:lang="sk">Typ_referenta</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">personal</cell>
+                            <cell role="name" xml:lang="sk">osobné</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">possessive</cell>
+                            <cell role="name" xml:lang="sk">privlastňovacie</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">10</cell>
+                <cell role="name" xml:lang="en">Syntactic_Type</cell>
+                <cell role="name" xml:lang="sk">Typ_syntaxe</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">nominal</cell>
+                            <cell role="name" xml:lang="sk">syntaktické_substantívum</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">adjectival</cell>
+                            <cell role="name" xml:lang="sk">syntaktické_adjektívum</cell>
+                            <cell role="code" xml:lang="en">a</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">12</cell>
+                <cell role="name" xml:lang="en">Animate</cell>
+                <cell role="name" xml:lang="sk">Životné</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">no</cell>
+                            <cell role="name" xml:lang="sk">nie</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">yes</cell>
+                            <cell role="name" xml:lang="sk">áno</cell>
+                            <cell role="code" xml:lang="en">y</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+        </table>
+        <div n="notes">
+            <head>Notes</head>
+            <list>
+                <item>Gender, Number, Case and Animate correspond to the same categories as specified for nouns. They are necessary for the proper account of agreement of adjectival pronouns with Nouns.</item>
+                <item>Type=reflexive ecompasses all reflexive pronouns (sa, sebe, si, svoj, seba) as well as "sa" in its role as the obligatory particle of reflexive verbs. Personal and possessive reflexives are further distinguished via the Referent_Type attribute. "sa" in all its roles will be marked as the reflexive personal clitic pronoun.</item>
+                <item>Pronouns are distinguished between having a (syntactically) nominal and (syntactically) adjectival function. All pronominal types except the demonstrative and possessive one can be nominal, and all except for the personal one can be adjectival.</item>
+                <item>Referent_Type is used to distinguish personal reflexives (which include "sa" in all its functions) from the possesive reflexives ("svoj").</item>
+                <item>Negative and general pronouns ("general" Pronouns concern the Pronouns like "všetci" [E. "all"], "každý" [E. "every"] etc.) are important from the viewpoint of their syntactic distribution.</item>
+                <item>The Clitic attribute distinguishes clitical vs. nonclitical pronominal forms, e.g. "ti" vs. "tebe".</item>
+                <item>Owner_Number concern the possessor's number.</item>
+                <item>Owner_Gender is not marked.</item>
+                <item>'ty' (E. 'you') is usually vocative. Many other pronouns can be marked as vocative because of their syntactical position, e.g. in 'môj bože' (E. 'my god'), 'môj' is vocative.</item>
+                <item>'ten', 'tá', 'to', 'on', 'ona', 'ono' (3rd person demostrative and personal pronouns) have separate lemmas for each gender.</item>
+            </list>
+        </div>
+        <div n="combinations">
+            <head>Combinations</head>
+            
+            <table>
+                <row>
+                    <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Pers</cell>
+               <cell>Gend</cell>
+               <cell>Numb</cell>
+               <cell>Case</cell>
+               <cell>Ow N</cell>
+               <cell>Ow G</cell>
+               <cell>Clit</cell>
+               <cell>Ref</cell>
+               <cell>Syn</cell>
+               <cell>Anim</cell>
+               <cell>Examples</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>sa</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ga]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>seba</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>si</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[dl]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>sebe</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>sebou</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>all</cell>
+               <cell>any</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>[ny-]</cell>
+               <cell>svoj</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>p</cell>
+               <cell>1</cell>
+               <cell>-</cell>
+               <cell>[sp]</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>ja, my</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>-</cell>
+               <cell>[sp]</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>ty, vy</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>p</cell>
+               <cell>3</cell>
+               <cell>[mfn]</cell>
+               <cell>[sp]</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>on, oni, ony, ona</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>s</cell>
+               <cell>1</cell>
+               <cell>[mfn]</cell>
+               <cell>all</cell>
+               <cell>all</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>[ny-]</cell>
+               <cell>môj, náš</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>s</cell>
+               <cell>2</cell>
+               <cell>[mfn]</cell>
+               <cell>all</cell>
+               <cell>all</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>[ny-]</cell>
+               <cell>tvoj, váš</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>s</cell>
+               <cell>3</cell>
+               <cell>[mfn]</cell>
+               <cell>all</cell>
+               <cell>all</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>[ny-]</cell>
+               <cell>jeho, ich</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>s</cell>
+               <cell>3</cell>
+               <cell>[mfn]</cell>
+               <cell>all</cell>
+               <cell>all</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>jej, ich</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>all</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>[ny-]</cell>
+               <cell>ten, tento, tamten, taký, onaký</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>niekdo, nejaký, bohviekto, hocikto, hocičo, niečo</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sp]</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>[ny-]</cell>
+               <cell>ktovieaký, hocijaký</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>kto, čo</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sp]</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>[ny-]</cell>
+               <cell>aký, čí, ktorý</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>nikto, nič</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sp]</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>[ny-]</cell>
+               <cell>žiadny, nijaký</cell>
+                </row>
+                <row>
+                    <cell>P</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sp]</cell>
+               <cell>all</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>[ny-]</cell>
+               <cell>každý</cell>
+                </row>
+            </table>
+        </div>
+        <divGen type="msd.lex" select="sk"/>
+         
+    </div>
+    <div type="section" select="sk" xml:id="msd.R-sk">
+        <head>Slovak Adverb</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.R-sk">
+            <head>Specification for Slovak Adverb</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Adverb</cell>
+                <cell role="value" xml:lang="sk">Príslovka</cell>
+                <cell role="code" xml:lang="en">R</cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">2</cell>
+                <cell role="name" xml:lang="en">Degree</cell>
+                <cell role="name" xml:lang="sk">Stupeň</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">positive</cell>
+                            <cell role="name" xml:lang="sk">prvý</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">comparative</cell>
+                            <cell role="name" xml:lang="sk">druhý</cell>
+                            <cell role="code" xml:lang="en">c</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">superlative</cell>
+                            <cell role="name" xml:lang="sk">tretí</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+        </table>
+        <div n="notes">
+            <head>Notes</head>
+            <list>
+                <item>Particles form a separate part of speech category (see below) as is customary in Slovak grammars.</item>
+                <item>The adverbs which have no degrees of comparison have the Degree value equal to p(ositive) – similarly as adjectives.</item>
+            </list>
+        </div>
+        <div n="combinations">
+            <head>Combinations</head>
+            
+            <table>
+                <row>
+                    <cell>Pos</cell>
+               <cell>Type</cell>
+               <cell>Deg</cell>
+               <cell>Examples</cell>
+                </row>
+                <row>
+                    <cell>R</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>dobre</cell>
+                </row>
+                <row>
+                    <cell>R</cell>
+               <cell>-</cell>
+               <cell>c</cell>
+               <cell>lepšie</cell>
+                </row>
+                <row>
+                    <cell>R</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>najlepšie</cell>
+                </row>
+                <row>
+                    <cell>R</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>krížom</cell>
+                </row>
+            </table>
+        </div>
+        <divGen type="msd.lex" select="sk"/>
+         
+    </div>
+    <div type="section" select="sk" xml:id="msd.S-sk">
+        <head>Slovak Adposition</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.S-sk">
+            <head>Specification for Slovak Adposition</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Adposition</cell>
+                <cell role="value" xml:lang="sk">Adpozícia</cell>
+                <cell role="code" xml:lang="en">S</cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">1</cell>
+                <cell role="name" xml:lang="en">Type</cell>
+                <cell role="name" xml:lang="sk">Typ</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">preposition</cell>
+                            <cell role="name" xml:lang="sk">predložka</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">2</cell>
+                <cell role="name" xml:lang="en">Formation</cell>
+                <cell role="name" xml:lang="sk">Formácia</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">simple</cell>
+                            <cell role="name" xml:lang="sk">jednoduchá</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">compound</cell>
+                            <cell role="name" xml:lang="sk">zložená</cell>
+                            <cell role="code" xml:lang="en">c</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">3</cell>
+                <cell role="name" xml:lang="en">Case</cell>
+                <cell role="name" xml:lang="sk">Pád</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">genitive</cell>
+                            <cell role="name" xml:lang="sk">genitív</cell>
+                            <cell role="code" xml:lang="en">g</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">dative</cell>
+                            <cell role="name" xml:lang="sk">datív</cell>
+                            <cell role="code" xml:lang="en">d</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">accusative</cell>
+                            <cell role="name" xml:lang="sk">akuzatív</cell>
+                            <cell role="code" xml:lang="en">a</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">locative</cell>
+                            <cell role="name" xml:lang="sk">lokál</cell>
+                            <cell role="code" xml:lang="en">l</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">instrumental</cell>
+                            <cell role="name" xml:lang="sk">inštrumentál</cell>
+                            <cell role="code" xml:lang="en">i</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+        </table>
+        <div n="notes">
+            <head>Notes</head>
+            <list>
+                <item>Slovak has only prepositions, no postpositions.</item>
+                <item>For the disambiguation of word forms belonging to declension parts of speech it seems necessary to include the information about the case which each preposition requires.</item>
+                <item>A preposition can be contracted with a pronoun; such a preposition has Formation=c(ompound).</item>
+                <item>Prepositions can be vocalized (v-&gt;ve) if following word starts with certain consonant. These are not specially marked.</item>
+            </list>
+        </div>
+        <div n="combinations">
+            <head>Combinations</head>
+            
+            <table>
+                <row>
+                    <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Form</cell>
+               <cell>Case</cell>
+               <cell>Examples</cell>
+                </row>
+                <row>
+                    <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>g</cell>
+               <cell>bez, okrem</cell>
+                </row>
+                <row>
+                    <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>d</cell>
+               <cell>k, proti</cell>
+                </row>
+                <row>
+                    <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>pre</cell>
+                </row>
+                <row>
+                    <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>l</cell>
+               <cell>o, v, pri</cell>
+                </row>
+                <row>
+                    <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>i</cell>
+               <cell>s, pod</cell>
+                </row>
+                <row>
+                    <cell>S</cell>
+               <cell>p</cell>
+               <cell>c</cell>
+               <cell>-</cell>
+               <cell>naň</cell>
+                </row>
+            </table>
+            
+        </div>
+        <divGen type="msd.lex" select="sk"/>
+         
+    </div>
+    <div type="section" select="sk" xml:id="msd.C-sk">
+        <head>Slovak Conjunction</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.C-sk">
+            <head>Specification for Slovak Conjunction</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Conjunction</cell>
+                <cell role="value" xml:lang="sk">Spojka</cell>
+                <cell role="code" xml:lang="en">C</cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">1</cell>
+                <cell role="name" xml:lang="en">Type</cell>
+                <cell role="name" xml:lang="sk">Typ</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">coordinating</cell>
+                            <cell role="name" xml:lang="sk">priraďovacia</cell>
+                            <cell role="code" xml:lang="en">c</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">subordinating</cell>
+                            <cell role="name" xml:lang="sk">podraďovacia</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+        </table>
+        <div n="notes">
+            <head>Notes</head>
+            
+            <p>1. The class of two-part Conjunctions has not been introduced.</p>
+            
+        </div>
+        <div n="combinations">
+            <head>Combinations</head>
+            
+            <table>
+                <row>
+                    <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Numb</cell>
+               <cell>Pers</cell>
+               <cell>Examples</cell>
+                </row>
+                <row>
+                    <cell>C</cell>
+               <cell>c</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a, i, aj, ani</cell>
+                </row>
+                <row>
+                    <cell>C</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>že, pretože, či, aby, keby</cell>
+                </row>
+            </table>
+        </div>
+        <divGen type="msd.lex" select="sk"/>
+         
+    </div>
+    <div type="section" select="sk" xml:id="msd.M-sk">
+        <head>Slovak Numeral</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.M-sk">
+            <head>Specification for Slovak Numeral</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Numeral</cell>
+                <cell role="value" xml:lang="sk">Číslovka</cell>
+                <cell role="code" xml:lang="en">M</cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">1</cell>
+                <cell role="name" xml:lang="en">Type</cell>
+                <cell role="name" xml:lang="sk">Typ</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">cardinal</cell>
+                            <cell role="name" xml:lang="sk">základná</cell>
+                            <cell role="code" xml:lang="en">c</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">ordinal</cell>
+                            <cell role="name" xml:lang="sk">radová</cell>
+                            <cell role="code" xml:lang="en">o</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">multiple</cell>
+                            <cell role="name" xml:lang="sk">násobná</cell>
+                            <cell role="code" xml:lang="en">m</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">special</cell>
+                            <cell role="name" xml:lang="sk">druhová</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">2</cell>
+                <cell role="name" xml:lang="en">Gender</cell>
+                <cell role="name" xml:lang="sk">Rod</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">masculine</cell>
+                            <cell role="name" xml:lang="sk">mužský</cell>
+                            <cell role="code" xml:lang="en">m</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">feminine</cell>
+                            <cell role="name" xml:lang="sk">ženský</cell>
+                            <cell role="code" xml:lang="en">f</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">neuter</cell>
+                            <cell role="name" xml:lang="sk">stredný</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">3</cell>
+                <cell role="name" xml:lang="en">Number</cell>
+                <cell role="name" xml:lang="sk">Číslo</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">singular</cell>
+                            <cell role="name" xml:lang="sk">jednotné</cell>
+                            <cell role="code" xml:lang="en">s</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">plural</cell>
+                            <cell role="name" xml:lang="sk">množné</cell>
+                            <cell role="code" xml:lang="en">p</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">4</cell>
+                <cell role="name" xml:lang="en">Case</cell>
+                <cell role="name" xml:lang="sk">Pád</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">nominative</cell>
+                            <cell role="name" xml:lang="sk">nominatív</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">genitive</cell>
+                            <cell role="name" xml:lang="sk">genitív</cell>
+                            <cell role="code" xml:lang="en">g</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">dative</cell>
+                            <cell role="name" xml:lang="sk">datív</cell>
+                            <cell role="code" xml:lang="en">d</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">accusative</cell>
+                            <cell role="name" xml:lang="sk">akuzatív</cell>
+                            <cell role="code" xml:lang="en">a</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">vocative</cell>
+                            <cell role="name" xml:lang="sk">vokatív</cell>
+                            <cell role="code" xml:lang="en">v</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">locative</cell>
+                            <cell role="name" xml:lang="sk">lokál</cell>
+                            <cell role="code" xml:lang="en">l</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">instrumental</cell>
+                            <cell role="name" xml:lang="sk">inštrumentál</cell>
+                            <cell role="code" xml:lang="en">i</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">5</cell>
+                <cell role="name" xml:lang="en">Form</cell>
+                <cell role="name" xml:lang="sk">Forma</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">digit</cell>
+                            <cell role="name" xml:lang="sk">arabská</cell>
+                            <cell role="code" xml:lang="en">d</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">roman</cell>
+                            <cell role="name" xml:lang="sk">rímska</cell>
+                            <cell role="code" xml:lang="en">r</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">letter</cell>
+                            <cell role="name" xml:lang="sk">slovná</cell>
+                            <cell role="code" xml:lang="en">l</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">8</cell>
+                <cell role="name" xml:lang="en">Class</cell>
+                <cell role="name" xml:lang="sk">Trieda</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">definite1</cell>
+                            <cell role="name" xml:lang="sk">určitá</cell>
+                            <cell role="code" xml:lang="en">1</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">definite234</cell>
+                            <cell role="name" xml:lang="sk">určitá234</cell>
+                            <cell role="code" xml:lang="en">4</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">definite</cell>
+                            <cell role="name" xml:lang="sk">určitá</cell>
+                            <cell role="code" xml:lang="en">f</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">demonstrative</cell>
+                            <cell role="name" xml:lang="sk">ukazovacie</cell>
+                            <cell role="code" xml:lang="en">d</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">indefinite</cell>
+                            <cell role="name" xml:lang="sk">neurčité</cell>
+                            <cell role="code" xml:lang="en">i</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">interrogative</cell>
+                            <cell role="name" xml:lang="sk">opytovacie</cell>
+                            <cell role="code" xml:lang="en">q</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+            <row role="attribute">
+                <cell role="position">9</cell>
+                <cell role="name" xml:lang="en">Animate</cell>
+                <cell role="name" xml:lang="sk">Životné</cell>
+                <cell role="values">
+                    <table>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">no</cell>
+                            <cell role="name" xml:lang="sk">nie</cell>
+                            <cell role="code" xml:lang="en">n</cell>
+                        </row>
+                        <row role="value">
+                            <cell role="name" xml:lang="en">yes</cell>
+                            <cell role="name" xml:lang="sk">áno</cell>
+                            <cell role="code" xml:lang="en">y</cell>
+                        </row>
+                    </table>
+                </cell>
+            </row>
+        </table>
+        <div n="notes">
+            <head>Notes</head>
+            <list>   
+                <item>1. Numerals have been specified as a separate category because of their specific syntactic distribution. We have specified two syntactic classifications by means of the attributes Type and Class; they concern different syntactic distributions. For instance "niekoľko" (E. "several") will be characterized as: Type: cardinal, Class: indefinite. Note that difference between pronouns and these classes of numerals is fuzzy and many are indeed classified as pronouns.</item>
+                <item>Among the definite numbers there are four subclasses (definite1, definite2, definite34, definite) which differ in their syntactic distribution and contain the following numerals: {1}, {2,3,4}, {5,6,...}</item>
+                <item>Gender, Number and Case correspond to the same categories as specified for nouns. They are necessary for the proper account of agreement of numerals with nouns.</item>
+            </list>
+        </div>
+        <div n="combinations">
+            <head>Combinations</head>
+            
+            <table>
+                <row>
+                    <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Gend</cell>
+               <cell>Numb</cell>
+               <cell>Case</cell>
+               <cell>Form</cell>
+               <cell>Class</cell>
+               <cell>Anim</cell>
+               <cell>Examples</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>d</cell>
+               <cell>[14f]</cell>
+               <cell>-</cell>
+               <cell>56</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>r</cell>
+               <cell>[14f]</cell>
+               <cell>-</cell>
+               <cell>MVIII</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>s</cell>
+               <cell>any</cell>
+               <cell>l</cell>
+               <cell>1</cell>
+               <cell>-</cell>
+               <cell>jeden, jedna, jedno</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>p</cell>
+               <cell>any</cell>
+               <cell>l</cell>
+               <cell>2</cell>
+               <cell>-</cell>
+               <cell>dva, dve</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>c</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>any</cell>
+               <cell>l</cell>
+               <cell>3</cell>
+               <cell>-</cell>
+               <cell>tri, štyri</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>c</cell>
+               <cell>n</cell>
+               <cell>[sp]</cell>
+               <cell>any</cell>
+               <cell>l</cell>
+               <cell>f</cell>
+               <cell>-</cell>
+               <cell>päť, desať, päťdesiať</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>c</cell>
+               <cell>n</cell>
+               <cell>[sp]</cell>
+               <cell>any</cell>
+               <cell>l</cell>
+               <cell>[diq]</cell>
+               <cell>-</cell>
+               <cell>toľko, niekoľko, koľko</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>o</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>any</cell>
+               <cell>l</cell>
+               <cell>any</cell>
+               <cell>[ny-]</cell>
+               <cell>prvý, druhý</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>m</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>l</cell>
+               <cell>any</cell>
+               <cell>-</cell>
+               <cell>dvakrát, päťkrát, niekoľkokrát</cell>
+                </row>
+                <row>
+                    <cell>M</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>n</cell>
+               <cell>l</cell>
+               <cell>any</cell>
+               <cell>[ny-]</cell>
+               <cell>dvoje, troje, pätoro</cell>
+                </row>
+            </table>
+            <p>Note: In the Combinations above, 'any' is a variable standing for any admissible value.</p>
+        </div>
+        <divGen type="msd.lex" select="sk"/>
+         
+    </div>
+    <div type="section" select="sk" xml:id="msd.Q-sk">
+        <head>Slovak Particle</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.Q-sk">
+            <head>Specification for Slovak Particle</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Particle</cell>
+                <cell role="value" xml:lang="sk">Častica</cell>
+                <cell role="code" xml:lang="en">Q</cell>
+            </row>
+        </table>
+        <divGen type="msd.lex" select="sk"/>
+    </div>
+    <div type="section" select="sk" xml:id="msd.I-sk">
+        <head>Slovak Interjection</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.I-sk">
+            <head>Specification for Slovak Interjection</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Interjection</cell>
+                <cell role="value" xml:lang="sk">Citoslovce</cell>
+                <cell role="code" xml:lang="en">I</cell>
+            </row>
+        </table>
+        <divGen type="msd.lex" select="sk"/>
+    </div>
+    <div type="section" select="sk" xml:id="msd.Y-sk">
+        <head>Slovak Abbreviation</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.Y-sk">
+            <head>Specification for Slovak Abbreviation</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Abbreviation</cell>
+                <cell role="value" xml:lang="sk">Skratka</cell>
+                <cell role="code" xml:lang="en">Y</cell>
+            </row>
+        </table>
+        <divGen type="msd.lex" select="sk"/>
+    </div>
+    <div type="section" select="sk" xml:id="msd.X-sk">
+        <head>Slovak Residual</head>
+        <table n="msd.cat" select="sk" xml:id="msd.cat.X-sk">
+            <head>Specification for Slovak Residual</head>
+            <row role="type">
+                <cell role="position">0</cell>
+                <cell role="name" xml:lang="en">CATEGORY</cell>
+                <cell role="name" xml:lang="sk">Kategória</cell>
+                <cell role="value" xml:lang="en">Residual</cell>
+                <cell role="value" xml:lang="sk">Rezíduum</cell>
+                <cell role="code" xml:lang="en">X</cell>
+            </row>
+        </table>
+        
+        <div n="notes">
+            <head>Notes</head>
+            <list>
+                <item>Special 'adverb prepositions' 'po, na, do', encountered in expressions like 'po anglicky', 'na zeleno', 'do modra' are classified as residuals. Traditional Slovak grammars do not like to consider them separate words, but more like modifiers of a following adverb.</item>
+            </list>
+        </div>
+        <divGen type="msd.lex" select="sk"/>
+    </div>
+    
+    <div type="section" select="sk" xml:id="msd.Z-sk">
+      <head>Slovak Punctuation</head>
+      <table n="msd.cat" select="sk" xml:id="msd.cat.Z-sk">
+         <head>Slovak Specification for Punctuation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Punctuation</cell>
+            <cell role="code" xml:lang="en">Z</cell>
+         </row>
+      </table>
+      <divGen xml:id="msd.Z-sk.lexicon" type="msd.lex" select="sk"/>
+   </div>
+   <div type="section" xml:id="msd.attributes-sk">
+        <head>Slovak Attribute Index</head>
+        <p>In this section all the attributes presented in the tables are listed in alphabetical order. //For some attributes which are not self-explanatory, a brief description of their semantics is provided.//</p>
+        <divGen type="msd.atts" select="sk"/>
+    </div>
+    <div type="section" xml:id="msd.values-sk">
+        <head>Slovak Value Index</head>
+        <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
+        <divGen type="msd.vals" select="sk"/>
+    </div>
+    <div select="sk" type="section" xml:id="msd.msds-sk">
+        <head>Slovak MSD Index</head>
+        <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (2.471,926 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Slovak MULTEXT-East lexicon.</p>
+        
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sk.msd.xml"/>
+    </div>
+</div>

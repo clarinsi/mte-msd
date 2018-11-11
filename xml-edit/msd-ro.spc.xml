@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="ro"
+     xml:id="msd-ro"
+     xml:lang="en">
+  <head>Romanian Specifications</head>
+  <docAuthor>Dan Tufiş, Anna Maria Barbu</docAuthor>
+  <docDate>2018-11-11</docDate>
+  <list type="gloss">
+      <label>Language Name:</label>
+      <item>Romanian</item>
+      <label>Code:</label>
+      <item>ro</item>
+      <label>Reference:</label>
+      <item>
+         <ref target="http://www.ethnologue.com/language/ron">Ethnologue</ref>
+      </item>
+  </list>
+  <divGen type="subtoc"/>
+  <div type="section" select="ro" xml:id="msd.categories-ro">
+      <head>Romanian Category Index</head>
+      <divGen type="msd.cats" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.N-ro">
+      <head>Romanian Noun</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.N-ro">
+         <head>Specification for Romanian Noun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Noun</cell>
+            <cell role="code" xml:lang="en">N</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">common</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proper</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">direct</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">oblique</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Gender:<lb/>
+In Romanian the declension of a neuter noun always follows in singular
+a masculine paradigm and in plural a feminine one. Specific
+implementations could take advantage of this rule and by organizing
+the paradigmatic space in partial paradigms (masc-sing, masc-pl,
+fem-sing, fem-pl) to get rid of neuter value for the gender attribute.</item>
+            <item>Case:<lb/>
+There are five functional cases in Romanian (nominative, genitive,
+dative, accusative and vocative) but they are expressed by at most
+three syncretic forms for each number: 1. nominative-accusative;
+2. genitive-dative; 3. vocative. The ambiguity of a syncretic case
+form may be solved at the syntactic level. 
+At the word level, the distinction between the three syncretic forms
+is possible only for the definite nouns. Masculine indefinite nouns
+are not differentiated by case (except, sometimes for vocative. The
+feminine indefinite nouns have different forms in singular for
+nominative-accusative, genitive-dative and vocative, but the
+genitive-dative singular forms are also indistinguishable from the
+plural forms:<lb/>
+fată (nominative-accusative, vocative singular, indefinite)<lb/>
+fato (vocative singular, indefinite)<lb/>
+fete (genitive-dative singular, nominative-accusative, <lb/>
+       genitive-dative, vocative plural, indefinite)<lb/>
+băiat(nominative-accusative, genitive-dative, vocative <lb/>
+       singular, indefinite)<lb/>
+băiete (vocative singular, indefinite)<lb/>
+băieţi (nominative-accusative, genitive-dative, vocative,<lb/>
+       plural, indefinite)</item>
+            <item>Definiteness:<lb/>
+In Romanian, nouns can be marked for definiteness with the enclitic
+definite article.</item>
+            <item>Clitic:<lb/>
+See discussion on Verb clitics.
+</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.V-ro">
+      <head>Romanian Verb</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.V-ro">
+         <head>Specification for Romanian Verb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Verb</cell>
+            <cell role="code" xml:lang="en">V</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">main</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">auxiliary</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">modal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">copula</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">VForm</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indicative</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subjunctive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperative</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">infinitive</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">participle</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">gerund</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Tense</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">present</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperfect</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">past</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">pluperfect</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">10</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>VForm:<lb/>
+Traditionally, Romanian linguistics distinguishes between predicative
+and non-predicative moods. This distinction may be easily mapped into
+finite/non-finite dichotomy: indicative, subjunctive and imperative
+are finite; infinitive, participle and gerund are non-finite (only
+synthetic (non-compound) moods were mentioned; we use the opposition
+synthetic-analytic to distinguish between concatenative (synthetic)
+and compound (analytic) morpho-lexical phenomena).
+As only synthetic forms were considered, the values conditional and
+presumptive for the VForm attribute were left out in Romanian. Another
+value for VForm which was left out is the Supine. It appears mostly
+with a preposition, except for a few intransitive verbs when they are
+subordinated to the impersonal verb a trebui (must). Only the
+preposition allows for differentiating a supine from a
+participle-masculine-singular.</item>
+            <item>Tense:<lb/>
+The synthetic values for the attribute Tense, as listed in the table
+below, apply to the indicative mood. The value p (present) is used
+also for subjunctive and infinitive. All the other moods either have
+no tense or have compound form tenses.</item>
+            <item>Person:<lb/>
+The following features are pertinent to those moods which permit an
+adjectival use, i.e. participle and gerund. However, the adjectival
+use of gerund is extremely rare (o mână tremurndă
+- a shaking hand) and therefore gender and number apply mainly for the
+participle.</item>
+            <item>Clitic:<lb/>
+The cliticization phenomenon in Romanian is not restricted to
+verb-pronoun relationship, but may also be observed with the (main)
+verb and the auxiliary, the noun or adjective with pronoun, with noun
+or adjective with copula, pronoun with auxiliary, preposition with
+(indefinite) article, numeral or (indefinite) pronoun, negative adverb
+with verb, auxiliary or pronoun, and some others (mainly created
+through the contracted forms of the verb "a fi"-to be). We restrict
+ourselves to considering only the graphically marked clicitizations.
+In such cases, the two, three or (sometimes) four constituents of a
+cliticized word-form are always separated by a hyphen. Omitting the
+hyphen in such cases is an unacceptable error in written Romanian.
+The examples below illustrate the specific types of cliticization we
+will consider:
+<table>
+                  <row>
+                     <cell>dă-mi-l!</cell>                  
+                     <cell>(you give +to me+it/him = give it/him to me)</cell>
+                  </row>
+                  <row>
+                     <cell>lăsatu-ne-ai</cell>              
+                     <cell>(left + us+ you have = you have left us)</cell>
+                  </row>
+                  <row>
+                     <cell>sparge-ţi-s-ar lampa</cell>      
+                     <cell>(break + your + s-part-conj + has lamp = I wish your lamp would break)</cell>
+                  </row>
+                  <row>
+                     <cell>soră-mii</cell>                  
+                     <cell>(sister + my = to my sister)</cell>
+                  </row>
+                  <row>
+                     <cell>faţa-i</cell>                    
+                     <cell>(his/her face | the face is)</cell>
+                  </row>
+                  <row>
+                     <cell>roşu-i</cell>                    
+                     <cell>(his/her red | the red is)</cell>
+                  </row>
+                  <row>
+                     <cell>m-au</cell>                      
+                     <cell>(me + they have)</cell>
+                  </row>
+                  <row>
+                     <cell>într-o gaură</cell>              
+                     <cell>(in + a hole)</cell>
+                  </row>
+                  <row>
+                     <cell>într-o oră</cell>                
+                     <cell>(in + one hour)</cell>
+                  </row>
+                  <row>
+                     <cell>într-unele</cell>                
+                     <cell>(into + some of)</cell>
+                  </row>
+                  <row>
+                     <cell>n-aud</cell>                     
+                     <cell>(not + I hear = I do not hear)</cell>
+                  </row>
+                  <row>
+                     <cell>n-am</cell>                      
+                     <cell>(not + I/we have = I have not)</cell>
+                  </row>
+                  <row>
+                     <cell>nu-mi</cell>                     
+                     <cell>(not + to me).</cell>
+                  </row>
+               </table>
+The order in which different constituents of a cliticized form appear
+is governed by precise morphological rules. For instance, the
+auxiliaries always appear in the last position. The main verbs, except
+those beginning either with the letter "a" or the letter î and
+the contracted forms (-s and -i) of the verb "a fi"- to be, always
+appear in the first position, nouns and adjectives always precede the
+cliticized pronouns, the negative adverbial particles nu- and n- only
+appear in the first position, and so on.  However, in order to reduce
+spurious ambiguity in morpho-lexical encoding, we considered the
+attribute Clitic as relevant only in those cases where the
+clicitization phenomenon resulted in graphemic modification of the
+cliticized term (e.g. the epenthetic u in the gerund form ªridicându-lº)
+</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.A-ro">
+      <head>Romanian Adjective</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.A-ro">
+         <head>Specification for Romanian Adjective</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adjective</cell>
+            <cell role="code" xml:lang="en">A</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">qualificative</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">direct</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">oblique</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">7</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Type: Although it is not common practice in Romanian linguistics, one could make the distinction between qualificative and determinative adjectives. However, the attribute-value pairs proposed in this section are appropriate for the qualificative adjectives.</item>
+            <item>Degree: The default value is positive; adjectives have also comparative and superlative degrees, but in most of the cases they are expressed by means of analytical forms (e.g. comp. mai bun (better), superl. cel mai bun (the best)). A few adjectives have intrinsic etymological comparative or superlative meanings (e.g. comparatives: anterior, major; superlatives: optim, maxim, extrem etc.). The prefixes super-, extra-, ultra- etc., are quite productive in forming the quasi-analytic1 superlatives. Adjectives are characterized by gender, number and case.</item>
+            <item>Case: The adjectives present the same case syncretism as the nouns, except for few adjectives that have an additional special form for Genitive-Dative cases in plural (e.g. G.D.pl. multor).</item>
+            <item>Definiteness: In noun-adjective construction, the definite article may attach enclitically to either adjectives or modified nouns (never to both of them). If present, the definite article attaches to the right of the first word in the sequence, e.g. Bunul om (The kind man) v.s. Omul bun. (The kind man)</item>
+            <item>Clitic: See discussion on Verb clitics.</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.P-ro">
+      <head>Romanian Pronoun</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.P-ro">
+         <head>Specification for Romanian Pronoun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Pronoun</cell>
+            <cell role="code" xml:lang="en">P</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">personal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">demonstrative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indefinite</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">reflexive</cell>
+                     <cell role="code" xml:lang="en">x</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">int-rel</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+	    
+            
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">direct</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">oblique</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Owner_Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">8</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">14</cell>
+            <cell role="name" xml:lang="en">Pronoun_Form</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">strong</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">weak</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Type: In Romanian it is worth differentiating the negative pronoun from other indefinite pronouns: a negative pronoun cannot be an argument for a verb unless the verb itself is negated too (e.g. Nu am văzut pe nimeni / *Am văzut pe nimeni).</item>
+            <item>Case: For the second person of the personal pronoun in both singular and plural there is the vocative case too. The direct and oblique values are needed for the syncretic causal forms of the other pronouns than the personal ones.</item>
+            <item>Owner_Number: This attribute is meaningful for the Possessive pronouns and refers to the grammatical number of the possessor. The gramatical number of the possesed object(s) is expressed by the attribute Number.</item>
+            <item>Owner_Gender: This attribute is irrelevant for Romanian.</item>
+            <item>Clitic: See discussion on Verb clitics.</item>
+            <item>Pronoun_Form: For Romanian we need an attribute (called Pronoun_Form) to make the distinction between strong and weak forms of the same pronoun. All the weak forms can be adjoined to the adjacent words both proclitically or enclitically. In such cases the junction is always graphically marked by a hyphen between the pronoun and the neighboring word. The hyphen also marks possible elisions from either pronoun or the adjacent word. Although in traditional grammar books the demonstrative, int_rel and indefinite pronouns are not characterised by person, in our dictionaries they are recorded (for reasons beyond morpho-lexical encoding) as 3rd person (the same as nouns). However, for the automatic tagging this value has been marked as irrelevant.</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.D-ro">
+      <head>Romanian Determiner</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.D-ro">
+         <head>Specification for Romanian Determiner</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Determiner</cell>
+            <cell role="code" xml:lang="en">D</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">demonstrative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indefinite</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">int-rel</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">emphatic</cell>
+                     <cell role="code" xml:lang="en">h</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">direct</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">oblique</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Owner_Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">8</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">9</cell>
+            <cell role="name" xml:lang="en">Modific_Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">prenomin</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">postnomin</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Type: The need for a negative value of the determiners' Type attribute is argued on the same lines as in the section on pronoun' s Type. In Romanian the negative determiner is expressed by the unit nici + indefinite article (e.g. nici un, nici o). In Romanian, there are specific forms for the so-called emphatic determiner, which may accompany both a noun and a personal pronoun: fata însăşi (the girl herself), also ea însăşi (she herself).</item>
+            <item>Person: This attribute is meaningful for the Possessive determiners and refers to the grammatical person of the possessor.</item>
+            <item>Owner_Number: This attribute is meaningful for the Possessive determiners and refers to the grammatical number of the possessor.</item>
+            <item>Owner_Gender: This attribute is irrelevant for Romanian.</item>
+            <item>Clitic: See discussion on Verb clitics.</item>
+            <item>Modific_Type: As mentioned in the corresponding section on Pronoun, the Modific_Type attribute is relevant for some determiners too. The prenominal determiner always precedes the noun (e.g.acest băiat - this boy), whereas the postnominal determiner appears only after the noun (e.g. băiatul acesta - this boy).</item>
+            <item>Although in traditional grammar books the demonstrative, indefinite and int_rel determiners are not characterised by person, in our dictionaries they are recorded (for reasons beyond morpho-lexical encoding) as 3rd person (the same as nouns). However, for the automatic tagging this value has been marked as irrelevant.</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.T-ro">
+      <head>Romanian Article</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.T-ro">
+         <head>Specification for Romanian Article</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Article</cell>
+            <cell role="code" xml:lang="en">T</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">definite</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indefinite</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">demonstrative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">direct</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">oblique</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Type: Although it presents only a few items, the article in Romanian has four types, unlike in most of the European languages. Beside the two recommended types: definite and indefinite which have the generally known semantic value, Romanian uses two additional types of articles, which are semantically subordinated to the definite article but which have special forms and meanings: (1) the possessive article (also called genitival article) is an element in the structure of the possessive pronoun, of the ordinal numeral (e.g. al meu (mine) and al treilea (the third)), and of the indefinite genitive forms of the nouns (e.g. capitol al cărţii (chapter of the book)). (2) the demonstrative article links a definite noun to its determinants, links a numeral or an adjective to a noun, and it is a constituent part of the relative superlative (e.g. fata cea mare (the elder girl), cel lenes, (the lazy), respectively prietenul cel mai bun (the best friend)).</item>
+            <item>Note that the definite article has only enclitic forms, except for one proclitical form (lui + proper noun: lui Ion).</item>
+            <item>Clitic: The inflected forms of the foreign-origin words (mainly nouns) not fully assimilated, are usually written with a hyphen between the base-form and the inflectional ending. In our encoding, we classified these endings (which are supposed to be split by the segmenter) as clitic articles (clitic attribute is always "y") which can be either definite (type=f, "-istul") or indefinite (type=i, "ist") and are characterised by gender (gender=m, "ist"; gender=f, "istă"), number (number=s, "ist"; number=p, "işti") and case (case=r, "istul"; case=o, "istului").</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.R-ro">
+      <head>Romanian Adverb</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.R-ro">
+         <head>Specification for Romanian Adverb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adverb</cell>
+            <cell role="code" xml:lang="en">R</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">particle</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">modifier</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">int-rel</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">portmanteau</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Type: The distinction proposed here considers the principal syntactic properties of the adverbs. For Romanian, the general type includes most of the pronominal adverbs (demonstrative: aici (here), indefinite: oriunde (anywhere)). As argued before for pronouns and determiners, a distinct negative value is needed for adverbs as well (nicăieri - nowhere, niciodată - never). The particle type covers those adverbs which can dislocate verbal compound forms (ex. Ea a tot cântat -- She has ever sung) or mark degrees (ex. circa (about), foarte (very), prea (too)). Such adverbs are cam, mai, prea, şi, tot, foarte etc. A useful distinction in Romanian considers the adverbs which can have predicative role, that is they can govern a subordinate sentence (ex. Fireşte că o ştiu -- Certainly I know it). Here (for uniformity within a multilingual environment), they are squeezed into the modifier class. No formal distinction is made between the interrogative adverbs and the relative ones. The "portmanteau" type of adverb was introduced to cover some few words which can be both adverbs and conjunctions (with adverbial reading more frequent). This was necessary for tagging purposes.</item>
+            <item>Degree: In Romanian, the comparative and superlative of adverbs is formed analytically with mai (puţin), cel mai (puţin), foarte: ex. mai repede (faster), cel mai devreme (at the earliest). Nonetheless there are some adverbs with comparative or superlative meaning (ex. optim, ulterior,. definitiv). These adverbs can be used for expressing the absolute superlative of other adverbs or adjectives: ex. extrem de bine, formidabil de frumos.</item>
+            <item>Clitic: See discussion on Verb clitics.</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.S-ro">
+      <head>Romanian Adposition</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.S-ro">
+         <head>Specification for Romanian Adposition</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adposition</cell>
+            <cell role="code" xml:lang="en">S</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">preposition</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Type: It is the preposition type which is only pertinent to Romanian, although some intercalating adpositions may be seen as a sort of circumposition, for instance între...şi... (between..and...).</item>
+            <item>Formation: In Romanian there is a distinct class of compound prepositions. Each of them forms a formal and semantic unit, although graphically they stay unfused, e.g. de la, pe la, de pe, etc.</item>
+            <item>Case: This attribute marks the subcategorisation properties of the adpositions.</item>
+            <item>Clitic: See discussion on Verb clitics.</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.C-ro">
+      <head>Romanian Conjunction</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.C-ro">
+         <head>Specification for Romanian Conjunction</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Conjunction</cell>
+            <cell role="code" xml:lang="en">C</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">coordinating</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subordinating</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">portmanteau</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Coord_Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">repetit</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">correlat</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Sub_Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Type:<lb/>
+The distinction between coordinating and subordinating conjunctions is
+pertinent to Romanian as well.
+The "portmanteau" type of conjunction applies only to the word "şi"
+which can be both a coordonating conjunction and an adverb. The
+distinctionamong these interpretations is rather tricky for the
+average native speaker and was a constant source of noise in automatic
+tagging. Therefore, for the sake of automatic processing we defined this
+"portmanteau" type value.</item>
+            <item>Formation:<lb/>
+As with prepositions, we can distinguish  two kinds of conjunctions in
+Romanian:
+(1) simple conjunctions: e.g. şi,dar,deşi  etc.
+(2) conjunctions formed periphrastically, with some word/phrase combined
+  by a conjunction: din moment ce, fără să,
+  fat,ă de cum etc.</item>
+            <item>Coord_Type:<lb/>
+In Romanian, there are three kinds of conjunctions depending on their
+usage: as such or together with other conjunctions or adverbs:
+(1) simple, between conjuncts: Ion ori Maria (John or Mary);
+(2) repetitive, before each conjunct: fie  Ion fie  Maria fie...
+  (either John or Mary or...)
+(3) correlative, before a conjoined phrase, it requires specific
+  coordinators between conjuncts: atât mama cât şi
+  tata (both mother and father).</item>
+            <item>With respect to the place of the conjunctions, most of them stay before the conjunct, except for: aşadar, deci (so), dar, însă (but), dacă (if), which also appear with expressive value inside the conjoined sentence.</item>
+            <item>Sub_Type:<lb/>
+In Romanian, each conjunction requires another mood, so that the
+diversity may be controlled by subcategorisation rules.
+This attribute distinguishes among the positive and negative
+conjunctions, providing means to control verbal double negation, (as
+in case of the negative pronouns, determiners and adverbs): nici NU am
+venit, nimeni NU vorbeşte, nici_un tren N-a trecut,
+nicăieri N-am văzut</item>
+            <item>Clitic:<lb/>
+See discussion on Verb clitics.</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.M-ro">
+      <head>Romanian Numeral</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.M-ro">
+         <head>Specification for Romanian Numeral</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Numeral</cell>
+            <cell role="code" xml:lang="en">M</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">cardinal</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ordinal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">fractal</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">multiple</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">collect</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">direct</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">oblique</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Form</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">digit</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">roman</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">letter</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">both</cell>
+                     <cell role="code" xml:lang="en">b</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">7</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item> Type:<lb/>
+Traditional Romanian grammars usually distinguish seven numeral types,
+where five of them have specific forms and the other two are obtained
+by composition.
+The first group is made up by the following numeral types: cardinal
+(trei-three), ordinal (al treilea-the third), fractional (treime-one
+third), multiple (întreit-trine), collective
+(amândoi-both).
+The second group contains the numeral types which are composed by
+means of other parts of speech: distributive (câte trei-...each
+three...), adverbial (de trei ori-thrice) and again the collective
+numeral which also has compound forms (toţi trei-all three).
+Nonetheless, as the numerals of the second group have a weak syntactic
+cohesion, namely each composition element may be regarded as an
+element of the sentence, with its own grammatical function, these last
+numeral types are irrelevant for the morphosyntactic annotation.</item>
+            <item>In Romanian (as in many other languages) several numerals have noun behaviour (some grammarians classify such numerals as nouns) with gender and declension of their own, which they preserve even in the composition of the superior order numerals; these are, for instance, sută (hundred), mie (thousand), milion (million) and miliard (billion). In a sentence most numerals may fulfill the function of other parts of speech like noun, determiner or adverb.</item>
+            <item>Definiteness:<lb/>
+By virtue of their noun or adjective value, some numerals may take the
+enclitic article (prim/primul - first/the first). Consequently for the
+Romanian, definiteness attribute helps distinguish the enclitic forms
+from the other forms.</item>
+            <item>Clitic: <lb/>
+See discussion on Verb clitics.</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.Q-ro">
+      <head>Romanian Particle</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.Q-ro">
+         <head>Specification for Romanian Particle</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Particle</cell>
+            <cell role="code" xml:lang="en">Q</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">infinitive</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subjunctive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">aspect</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">future</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.I-ro">
+      <head>Romanian Interjection</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.I-ro">
+         <head>Specification for Romanian Interjection</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Interjection</cell>
+            <cell role="code" xml:lang="en">I</cell>
+         </row>
+      </table>
+    
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.Y-ro">
+      <head>Romanian Abbreviation</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.Y-ro">
+         <head>Specification for Romanian Abbreviation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Abbreviation</cell>
+            <cell role="code" xml:lang="en">Y</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Syntactic_Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominal</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">verbal</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">adjectival</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">adverbial</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">pronominal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">direct</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">oblique</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Syntactic_Type: useful for specifying the grammatical category of an abbreviation. Although the values for this attribute could range over the part of speech categories in the language, in Romanian most of the abbreviations falls into noun class.</item>
+         </list>
+      </div>
+    
+      <divGen type="msd.lex" select="ro"/>
+  </div>
+  <div type="section" select="ro" xml:id="msd.X-ro">
+      <head>Romanian Residual</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.X-ro">
+         <head>Specification for Romanian Residual</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Residual</cell>
+            <cell role="code" xml:lang="en">X</cell>
+         </row>
+      </table>
+      <divGen type="msd.lex" select="ro"/>
+    
+    
+   </div>
+  <div type="section" select="ro" xml:id="msd.Z-ro">
+      <head>Romanian Punctuation</head>
+      <table n="msd.cat" select="ro" xml:id="msd.cat.Z-ro">
+         <head>Romanian Specification for Punctuation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Punctuation</cell>
+            <cell role="code" xml:lang="en">Z</cell>
+         </row>
+      </table>
+      <divGen xml:id="msd.Z-ro.lexicon" type="msd.lex" select="ro"/>
+   </div>
+   <div type="section" xml:id="msd.attributes-ro">
+      <head>Romanian Attribute Index</head>
+      <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
+      <divGen type="msd.atts" select="ro"/>
+  </div>
+  <div type="section" xml:id="msd.values-ro">
+      <head>Romanian Value Index</head>
+      <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
+      <divGen type="msd.vals" select="ro"/>
+  </div>
+    <div select="ro" type="section" xml:id="msd.msds-ro">
+        <head>Romanian MSD Index</head>
+        <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (428,093 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Romanian MULTEXT-East lexicon.</p>
+        
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ro.msd.xml"/>
+  </div>
+</div>

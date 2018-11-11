@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="sl"
+     xml:id="msd-sl"
+     xml:lang="en">
+  <head>Slovene Specifications</head>
+  <docAuthor>Tomaž Erjavec, Simon Krek</docAuthor>
+  <docDate>2018-11-11</docDate>
+  <list type="gloss">
+      <label>Language Name:</label>
+      <item>Slovene</item>
+      <label>Code:</label>
+      <item>sl</item>
+      <label>Reference:</label>
+      <item>
+         <ref target="http://www.ethnologue.com/language/slv">Ethnologue</ref>
+      </item>
+  </list>
+  <divGen type="subtoc"/>
+  <div xml:id="msd-sl.introduction">
+      <head>Introduction to Slovene Specifications</head>
+        <p>
+          These specifications for Slovene are based on of the <ref target="http://nl.ijs.si/jos/josMSD-en.html">morphosyntactic specifications for Slovene</ref> which were developed in the
+          scope of the <ref target="http://nl.ijs.si/jos/index-en.html">JOS project</ref>.  The JOS specifications were themselves based
+          on the MULTEXT-East specifications for Slovene, Version 3,
+          but introduced a number of changes, e.g. certain attributes
+          or their values, allowed combinations of attribute-values,
+          as well as the lexical assignment of MSD to particular words
+          or word groups.  Furthermore, they re-ordered some
+          attributes to allow for more compact encoding on MSDs.
+        </p>
+        <p>In contrast to V4 (and JOS specifications) of the Slovene specifications the present ones introduce some new values for Residual Type attribute and a new tag for Punctuation.</p>
+       </div>
+       <div type="section" select="sl" xml:id="msd.categories-sl">
+         <head>Slovene Category Index</head>
+         <divGen type="msd.cats" select="sl"/>
+       </div>
+       <div type="section" select="sl" xml:id="msd.N-sl">
+          <head>Slovene Noun</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.N-sl">
+            <head>Specification for Slovene Noun</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">samostalnik</cell>
+              <cell role="code" xml:lang="sl">S</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Noun</cell>
+              <cell role="code" xml:lang="en">N</cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">1</cell>
+              <cell role="name" xml:lang="sl">vrsta</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">občno_ime</cell>
+                    <cell role="code" xml:lang="sl">o</cell>
+                    <cell role="name" xml:lang="en">common</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">lastno_ime</cell>
+                    <cell role="code" xml:lang="sl">l</cell>
+                    <cell role="name" xml:lang="en">proper</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">2</cell>
+              <cell role="name" xml:lang="sl">spol</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">moški</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">masculine</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ženski</cell>
+                    <cell role="code" xml:lang="sl">z</cell>
+                    <cell role="name" xml:lang="en">feminine</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">srednji</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">neuter</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">3</cell>
+              <cell role="name" xml:lang="sl">število</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ednina</cell>
+                    <cell role="code" xml:lang="sl">e</cell>
+                    <cell role="name" xml:lang="en">singular</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dvojina</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dual</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">množina</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">plural</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">4</cell>
+              <cell role="name" xml:lang="sl">sklon</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">imenovalnik</cell>
+                    <cell role="code" xml:lang="sl">i</cell>
+                    <cell role="name" xml:lang="en">nominative</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">rodilnik</cell>
+                    <cell role="code" xml:lang="sl">r</cell>
+                    <cell role="name" xml:lang="en">genitive</cell>
+                    <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dajalnik</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dative</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">tožilnik</cell>
+                    <cell role="code" xml:lang="sl">t</cell>
+                    <cell role="name" xml:lang="en">accusative</cell>
+                    <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">mestnik</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">locative</cell>
+                    <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">orodnik</cell>
+                    <cell role="code" xml:lang="sl">o</cell>
+                    <cell role="name" xml:lang="en">instrumental</cell>
+                    <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">5</cell>
+              <cell role="name" xml:lang="sl">živost</cell>
+              <cell role="name" xml:lang="en">Animate</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ne</cell>
+                    <cell role="code" xml:lang="sl">n</cell>
+                    <cell role="name" xml:lang="en">no</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">da</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">yes</cell>
+                    <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+          <list>
+            <item>glagolniki so označeni kot samostalniki</item>
+            <item>živost je navedena samo pri tožilniku ednine samostalnikov moškega spola</item>
+            <item>kot občni samostalnik so označujeni tudi citatno pisane samostalnike iz drugih jezikov</item>
+            <item>kot občna so označena tudi kratična imena tipa <hi>WAP, GPRS, USB</hi>
+            </item>
+            <item>nesklonljivi prilastki tipa <hi>solo, neto, bruto</hi> ipd. so samostalniki, kadar so sklonljivi (npr. <hi>solo</hi>), sicer so pridevniki</item>
+            <item>posamostaljeni pridevniki so označeni kot pridevniki, ne kot samostalniki</item>
+          </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.V-sl">
+          <head>Slovene Verb</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.V-sl">
+            <head>Specification for Slovene Verb</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">glagol</cell>
+              <cell role="code" xml:lang="sl">G</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Verb</cell>
+              <cell role="code" xml:lang="en">V</cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">1</cell>
+              <cell role="name" xml:lang="sl">vrsta</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">glavni</cell>
+                    <cell role="code" xml:lang="sl">g</cell>
+                    <cell role="name" xml:lang="en">main</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">pomožni</cell>
+                    <cell role="code" xml:lang="sl">p</cell>
+                    <cell role="name" xml:lang="en">auxiliary</cell>
+                    <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">2</cell>
+              <cell role="name" xml:lang="sl">vid</cell>
+              <cell role="name" xml:lang="en">Aspect</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dovršni</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">perfective</cell>
+                    <cell role="code" xml:lang="en">e</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">nedovršni</cell>
+                    <cell role="code" xml:lang="sl">n</cell>
+                    <cell role="name" xml:lang="en">progressive</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dvovidski</cell>
+                    <cell role="code" xml:lang="sl">v</cell>
+                    <cell role="name" xml:lang="en">biaspectual</cell>
+                    <cell role="code" xml:lang="en">b</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">3</cell>
+              <cell role="name" xml:lang="sl">oblika</cell>
+              <cell role="name" xml:lang="en">VForm</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">nedoločnik</cell>
+                    <cell role="code" xml:lang="sl">n</cell>
+                    <cell role="name" xml:lang="en">infinitive</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">namenilnik</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">supine</cell>
+                    <cell role="code" xml:lang="en">u</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">deležnik</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">participle</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">sedanjik</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">present</cell>
+                    <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">prihodnjik</cell>
+                    <cell role="code" xml:lang="sl">p</cell>
+                    <cell role="name" xml:lang="en">future</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">pogojnik</cell>
+                    <cell role="code" xml:lang="sl">g</cell>
+                    <cell role="name" xml:lang="en">conditional</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">velelnik</cell>
+                    <cell role="code" xml:lang="sl">v</cell>
+                    <cell role="name" xml:lang="en">imperative</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">4</cell>
+              <cell role="name" xml:lang="sl">oseba</cell>
+              <cell role="name" xml:lang="en">Person</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">prva</cell>
+                    <cell role="code" xml:lang="sl">p</cell>
+                    <cell role="name" xml:lang="en">first</cell>
+                    <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">druga</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">second</cell>
+                    <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">tretja</cell>
+                    <cell role="code" xml:lang="sl">t</cell>
+                    <cell role="name" xml:lang="en">third</cell>
+                    <cell role="code" xml:lang="en">3</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">5</cell>
+              <cell role="name" xml:lang="sl">število</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ednina</cell>
+                    <cell role="code" xml:lang="sl">e</cell>
+                    <cell role="name" xml:lang="en">singular</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">množina</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">plural</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dvojina</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dual</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">6</cell>
+              <cell role="name" xml:lang="sl">spol</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">moški</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">masculine</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ženski</cell>
+                    <cell role="code" xml:lang="sl">z</cell>
+                    <cell role="name" xml:lang="en">feminine</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">srednji</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">neuter</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">7</cell>
+              <cell role="name" xml:lang="sl">nikalnost</cell>
+              <cell role="name" xml:lang="en">Negative</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">nezanikani</cell>
+                    <cell role="code" xml:lang="sl">n</cell>
+                    <cell role="name" xml:lang="en">no</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">zanikani</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">yes</cell>
+                    <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>pomožni glagol je samo glagol <hi>biti</hi>, tako v funkciji tvorjenja časov, kot tudi kot glagol obstajanja</item>
+              <item>glagol <hi>biti</hi> nima pripisanega vida</item>
+              <item>pogojnik je označujen samo pri obliki <hi>bi</hi>.</item>
+              <item>lastnost nikalnosti imajo samo trije glagoli: <hi>biti, imeti, hoteti</hi>, in sicer samo pri glagolskih oblikah sedanjika in prihodnjika</item>
+              <item>kot deležnike so označujeni samo opisni deležniki na <hi>–l</hi> v funkciji tvorjenja časov</item>
+              <item>trpni deležniki na <hi>–n/-t</hi> so označeni kot deležniški pridevniki</item>
+              <item>deležja so označena v okviru besedne vrste prislov</item>
+              <item>glagolniki so označeni kot samostalniki</item>
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.A-sl">
+          <head>Slovene Adjective</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.A-sl">
+            <head>Specification for Slovene Adjective</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">pridevnik</cell>
+              <cell role="code" xml:lang="sl">P</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Adjective</cell>
+              <cell role="code" xml:lang="en">A</cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">1</cell>
+              <cell role="name" xml:lang="sl">vrsta</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">splošni</cell>
+                    <cell role="code" xml:lang="sl">p</cell>
+                    <cell role="name" xml:lang="en">general</cell>
+                    <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">svojilni</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">possessive</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">deležniški</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">participle</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">2</cell>
+              <cell role="name" xml:lang="sl">stopnja</cell>
+              <cell role="name" xml:lang="en">Degree</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">nedoločeno</cell>
+                    <cell role="code" xml:lang="sl">n</cell>
+                    <cell role="name" xml:lang="en">positive</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">primernik</cell>
+                    <cell role="code" xml:lang="sl">p</cell>
+                    <cell role="name" xml:lang="en">comparative</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">presežnik</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">superlative</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">3</cell>
+              <cell role="name" xml:lang="sl">spol</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">moški</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">masculine</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ženski</cell>
+                    <cell role="code" xml:lang="sl">z</cell>
+                    <cell role="name" xml:lang="en">feminine</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">srednji</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">neuter</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">4</cell>
+              <cell role="name" xml:lang="sl">število</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ednina</cell>
+                    <cell role="code" xml:lang="sl">e</cell>
+                    <cell role="name" xml:lang="en">singular</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dvojina</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dual</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">množina</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">plural</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">5</cell>
+              <cell role="name" xml:lang="sl">sklon</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">imenovalnik</cell>
+                    <cell role="code" xml:lang="sl">i</cell>
+                    <cell role="name" xml:lang="en">nominative</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">rodilnik</cell>
+                    <cell role="code" xml:lang="sl">r</cell>
+                    <cell role="name" xml:lang="en">genitive</cell>
+                    <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dajalnik</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dative</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">tožilnik</cell>
+                    <cell role="code" xml:lang="sl">t</cell>
+                    <cell role="name" xml:lang="en">accusative</cell>
+                    <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">mestnik</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">locative</cell>
+                    <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">orodnik</cell>
+                    <cell role="code" xml:lang="sl">o</cell>
+                    <cell role="name" xml:lang="en">instrumental</cell>
+                    <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">6</cell>
+              <cell role="name" xml:lang="sl">določnost</cell>
+              <cell role="name" xml:lang="en">Definiteness</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ne</cell>
+                    <cell role="code" xml:lang="sl">n</cell>
+                    <cell role="name" xml:lang="en">no</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">da</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">yes</cell>
+                    <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>pridevniki, ki označujejo splošno svojino, npr. <hi>državni denar</hi> (= denar države), <hi>cerkvena posest</hi> (= posest cerkve),
+                so označeni kot splošni (p), pridevniki na <hi>–ov/-ev</hi> so načeloma označujeni za svojilne, tudi če pomensko izražajo splošno svojino</item>
+              <item>trpni deležniki glagolov na <hi>–n/-t</hi> so označeni kot deležniški pridevniki</item>
+              <item>deležniški pridevniki, tvorjene iz zanikanih glagolov ali glagolskih zvez, so označujeni kot splošni: <hi>nedokončan, nedovoljen, ...</hi>
+            </item>
+              <item>posamostaljeni pridevniki so označeni kot pridevniki, ne kot samostalniki</item>
+              <item>nedoločena stopnja označuje pridevnike, ki niso stopnjevani, torej »osnovnike«</item>
+              <item>lastnost <hi>stopnja</hi> je pri svojilnih pridevnikih vselej nedoločeno (n)</item>
+              <item>lastnost <hi>določnost</hi> imajo vse tri vrste pridevnikov, prisotna pa je samo pri moškem spolu ednine v imenovalniku in 
+                sinkretičnem tožilniku.</item>
+              <item>nesklonljivi prilastki tipa <hi>solo, neto, bruto</hi> ipd. so samostalniki, kadar so sklonljivi (npr. <hi>solo</hi>), sicer so pridevniki</item>
+              </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.R-sl">
+          <head>Slovene Adverb</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.R-sl">
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">prislov</cell>
+              <cell role="code" xml:lang="sl">R</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Adverb</cell>
+              <cell role="code" xml:lang="en">R</cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">1</cell>
+              <cell role="name" xml:lang="sl">vrsta</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">splošni</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">general</cell>
+                    <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">deležje</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">participle</cell>
+                    <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">2</cell>
+              <cell role="name" xml:lang="sl">stopnja</cell>
+              <cell role="name" xml:lang="en">Degree</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">nedoločeno</cell>
+                    <cell role="code" xml:lang="sl">n</cell>
+                    <cell role="name" xml:lang="en">positive</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">primernik</cell>
+                    <cell role="code" xml:lang="sl">r</cell>
+                    <cell role="name" xml:lang="en">comparative</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">presežnik</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">superlative</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>povedkovniki, torej prislovi v povedni (brezosebni) rabi so označeni kot prislov</item>
+              <item>lastnost <hi>deležje</hi> načeloma dobijo vsa slovenska deležja</item>              
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.P-sl">
+          <head>Slovene Pronoun</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.P-sl">
+            <head>Specification for Slovene Pronoun</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">zaimek</cell>
+              <cell role="code" xml:lang="sl">Z</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Pronoun</cell>
+              <cell role="code" xml:lang="en">P</cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">1</cell>
+              <cell role="name" xml:lang="sl">vrsta</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">osebni</cell>
+                    <cell role="code" xml:lang="sl">o</cell>
+                    <cell role="name" xml:lang="en">personal</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">svojilni</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">possessive</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">kazalni</cell>
+                    <cell role="code" xml:lang="sl">k</cell>
+                    <cell role="name" xml:lang="en">demonstrative</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">oziralni</cell>
+                    <cell role="code" xml:lang="sl">z</cell>
+                    <cell role="name" xml:lang="en">relative</cell>
+                    <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">povratni</cell>
+                    <cell role="code" xml:lang="sl">p</cell>
+                    <cell role="name" xml:lang="en">reflexive</cell>
+                    <cell role="code" xml:lang="en">x</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">celostni</cell>
+                    <cell role="code" xml:lang="sl">c</cell>
+                    <cell role="name" xml:lang="en">general</cell>
+                    <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">vprašalni</cell>
+                    <cell role="code" xml:lang="sl">v</cell>
+                    <cell role="name" xml:lang="en">interrogative</cell>
+                    <cell role="code" xml:lang="en">q</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">nedoločni</cell>
+                    <cell role="code" xml:lang="sl">n</cell>
+                    <cell role="name" xml:lang="en">indefinite</cell>
+                    <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">nikalni</cell>
+                    <cell role="code" xml:lang="sl">l</cell>
+                    <cell role="name" xml:lang="en">negative</cell>
+                    <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">2</cell>
+              <cell role="name" xml:lang="sl">oseba</cell>
+              <cell role="name" xml:lang="en">Person</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">prva</cell>
+                    <cell role="code" xml:lang="sl">p</cell>
+                    <cell role="name" xml:lang="en">first</cell>
+                    <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">druga</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">second</cell>
+                    <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">tretja</cell>
+                    <cell role="code" xml:lang="sl">t</cell>
+                    <cell role="name" xml:lang="en">third</cell>
+                    <cell role="code" xml:lang="en">3</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">3</cell>
+              <cell role="name" xml:lang="sl">spol</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">moški</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">masculine</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ženski</cell>
+                    <cell role="code" xml:lang="sl">z</cell>
+                    <cell role="name" xml:lang="en">feminine</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">srednji</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">neuter</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">4</cell>
+              <cell role="name" xml:lang="sl">število</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ednina</cell>
+                    <cell role="code" xml:lang="sl">e</cell>
+                    <cell role="name" xml:lang="en">singular</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dvojina</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dual</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">množina</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">plural</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">5</cell>
+              <cell role="name" xml:lang="sl">sklon</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">imenovalnik</cell>
+                    <cell role="code" xml:lang="sl">i</cell>
+                    <cell role="name" xml:lang="en">nominative</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">rodilnik</cell>
+                    <cell role="code" xml:lang="sl">r</cell>
+                    <cell role="name" xml:lang="en">genitive</cell>
+                    <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dajalnik</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dative</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">tožilnik</cell>
+                    <cell role="code" xml:lang="sl">t</cell>
+                    <cell role="name" xml:lang="en">accusative</cell>
+                    <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">mestnik</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">locative</cell>
+                    <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">orodnik</cell>
+                    <cell role="code" xml:lang="sl">o</cell>
+                    <cell role="name" xml:lang="en">instrumental</cell>
+                    <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">6</cell>
+              <cell role="name" xml:lang="sl">število_svojine</cell>
+              <cell role="name" xml:lang="en">Owner_Number</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ednina</cell>
+                    <cell role="code" xml:lang="sl">e</cell>
+                    <cell role="name" xml:lang="en">singular</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dvojina</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dual</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">množina</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">plural</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">7</cell>
+              <cell role="name" xml:lang="sl">spol_svojine</cell>
+              <cell role="name" xml:lang="en">Owner_Gender</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">moški</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">masculine</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ženski</cell>
+                    <cell role="code" xml:lang="sl">z</cell>
+                    <cell role="name" xml:lang="en">feminine</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">srednji</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">neuter</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">8</cell>
+              <cell role="name" xml:lang="sl">naslonskost</cell>
+              <cell role="name" xml:lang="en">Clitic</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">klitična</cell>
+                    <cell role="code" xml:lang="sl">k</cell>
+                    <cell role="name" xml:lang="en">yes</cell>
+                    <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">navezna</cell>
+                    <cell role="code" xml:lang="sl">z</cell>
+                    <cell role="name" xml:lang="en">bound</cell>
+                    <cell role="code" xml:lang="en">b</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>Zaimek je zaprta beseda vrsta, zato so kot zaimki označene le pojavnice v okviru osnovnih oblik, ki so navedene v leksikonu</item>
+              <item>prislovne vprašalnice oz. vprašalni prislovni zaimki so vedno označeni kot prislovi 
+                (<hi>čemu, kako, kam, kdaj, kje, kod, kolikič, koliko, kolikokrat, počemu, zakaj</hi>)</item>
+              <item>kot prislovi so označeni tudi drugi prislovni zaimki (<hi>toliko, kdovekoliko, količkaj, kolikanj,</hi> itd.)</item>
+              <item>vsi vprašalni zaimki, ki so po obliki enaki bodisi nedoločnim ali oziralnim, so označeni kot vprašalni, ne glede na njihov pomen ali vlogo</item>
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.M-sl">
+          <head>Slovene Numeral</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.M-sl">
+            <head>Specification for Slovene Numeral</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">števnik</cell>
+              <cell role="code" xml:lang="sl">K</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Numeral</cell>
+              <cell role="code" xml:lang="en">M</cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">1</cell>
+              <cell role="name" xml:lang="sl">zapis</cell>
+              <cell role="name" xml:lang="en">Form</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">arabski</cell>
+                    <cell role="code" xml:lang="sl">a</cell>
+                    <cell role="name" xml:lang="en">digit</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">rimski</cell>
+                    <cell role="code" xml:lang="sl">r</cell>
+                    <cell role="name" xml:lang="en">roman</cell>
+                    <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">besedni</cell>
+                    <cell role="code" xml:lang="sl">b</cell>
+                    <cell role="name" xml:lang="en">letter</cell>
+                    <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">2</cell>
+              <cell role="name" xml:lang="sl">vrsta</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">glavni</cell>
+                    <cell role="code" xml:lang="sl">g</cell>
+                    <cell role="name" xml:lang="en">cardinal</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">vrstilni</cell>
+                    <cell role="code" xml:lang="sl">v</cell>
+                    <cell role="name" xml:lang="en">ordinal</cell>
+                    <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">zaimkovni</cell>
+                    <cell role="code" xml:lang="sl">z</cell>
+                    <cell role="name" xml:lang="en">pronominal</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">drugi</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">special</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">3</cell>
+              <cell role="name" xml:lang="sl">spol</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">moški</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">masculine</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ženski</cell>
+                    <cell role="code" xml:lang="sl">z</cell>
+                    <cell role="name" xml:lang="en">feminine</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">srednji</cell>
+                    <cell role="code" xml:lang="sl">s</cell>
+                    <cell role="name" xml:lang="en">neuter</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">4</cell>
+              <cell role="name" xml:lang="sl">število</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ednina</cell>
+                    <cell role="code" xml:lang="sl">e</cell>
+                    <cell role="name" xml:lang="en">singular</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dvojina</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dual</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">množina</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">plural</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">5</cell>
+              <cell role="name" xml:lang="sl">sklon</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">imenovalnik</cell>
+                    <cell role="code" xml:lang="sl">i</cell>
+                    <cell role="name" xml:lang="en">nominative</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">rodilnik</cell>
+                    <cell role="code" xml:lang="sl">r</cell>
+                    <cell role="name" xml:lang="en">genitive</cell>
+                    <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dajalnik</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dative</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">tožilnik</cell>
+                    <cell role="code" xml:lang="sl">t</cell>
+                    <cell role="name" xml:lang="en">accusative</cell>
+                    <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">mestnik</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">locative</cell>
+                    <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">orodnik</cell>
+                    <cell role="code" xml:lang="sl">o</cell>
+                    <cell role="name" xml:lang="en">instrumental</cell>
+                    <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">6</cell>
+              <cell role="name" xml:lang="sl">določnost</cell>
+              <cell role="name" xml:lang="en">Definiteness</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">ne</cell>
+                    <cell role="code" xml:lang="sl">n</cell>
+                    <cell role="name" xml:lang="en">no</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">da</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">yes</cell>
+                    <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>kot arabski števniki so označene cifre, pa tudi vsako besedo, ki vsebuje cifre: oznake za datum, še rezultate, številke publikacij, številke za ure z dvopičjem/piko vmes in vsa druga arabska števila, ki nimajo 'regularno' postavljene vejice in pike</item>
+              <item>besedni števniki nad pet nimajo označenega spola)</item>
+              <item>med zaimkovne števnike spadata samo lemi <hi>en</hi> (ter varianta <hi>eden</hi>) ter <hi>drug</hi>, 
+                in sicer ne glede na to, ali je njun pomen v stavku zaimkovni ali števniški (<hi>en</hi> je v tem primeru po pomenu glavni, 
+                <hi>drug</hi> pa vrstilni števnik)</item>
+              
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.S-sl">
+          <head>Slovene Preposition</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.S-sl">
+            <head>Specification for Slovene Preposition</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">predlog</cell>
+              <cell role="code" xml:lang="sl">D</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Adposition</cell>
+              <cell role="code" xml:lang="en">S</cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">1</cell>
+              <cell role="name" xml:lang="sl">sklon</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">imenovalnik</cell>
+                    <cell role="code" xml:lang="sl">i</cell>
+                    <cell role="name" xml:lang="en">nominative</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">rodilnik</cell>
+                    <cell role="code" xml:lang="sl">r</cell>
+                    <cell role="name" xml:lang="en">genitive</cell>
+                    <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">dajalnik</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">dative</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">tožilnik</cell>
+                    <cell role="code" xml:lang="sl">t</cell>
+                    <cell role="name" xml:lang="en">accusative</cell>
+                    <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">mestnik</cell>
+                    <cell role="code" xml:lang="sl">m</cell>
+                    <cell role="name" xml:lang="en">locative</cell>
+                    <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">orodnik</cell>
+                    <cell role="code" xml:lang="sl">o</cell>
+                    <cell role="name" xml:lang="en">instrumental</cell>
+                    <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>kot predlogi so označene le pojavnice, ki so navedene v leksikonu</item>
+              <item>predlogi, ki imajo skupno lemo s prislovi, so: <hi>čez, blizu, glede, križem, mimo, nasproti, okoli, okrog, poleg, povrh, povrhu, proti, skozi, širom, tostran, vštric, za, znotraj, zraven, zunaj</hi>
+            </item>
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.C-sl">
+          <head>Slovene Conjunction</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.C-sl">
+            <head>Specification for Slovene Conjunction</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">veznik</cell>
+              <cell role="code" xml:lang="sl">V</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Conjunction</cell>
+              <cell role="code" xml:lang="en">C</cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">1</cell>
+              <cell role="name" xml:lang="sl">vrsta</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">priredni</cell>
+                    <cell role="code" xml:lang="sl">p</cell>
+                    <cell role="name" xml:lang="en">coordinating</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">podredni</cell>
+                    <cell role="code" xml:lang="sl">d</cell>
+                    <cell role="name" xml:lang="en">subordinating</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>kot vezniki so označene le pojavnice, ki so navedene v leksikonu</item>
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.Q-sl">
+          <head>Slovene Particle</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.Q-sl">
+            <head>Specification for Slovene Particle</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">členek</cell>
+              <cell role="code" xml:lang="sl">L</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Particle</cell>
+              <cell role="code" xml:lang="en">Q</cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>kot členki so označene le pojavnice, ki so navedene v leksikonu</item>
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.I-sl">
+          <head>Slovene Interjection</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.I-sl">
+            <head>Specification for Slovene Interjection</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">medmet</cell>
+              <cell role="code" xml:lang="sl">M</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Interjection</cell>
+              <cell role="code" xml:lang="en">I</cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>kot medmet so označene besede, ki so onomatopoetske v smislu, da posnemajo bodisi človeške neartikulirane glasove (smeh, krike itd.) ali kakšne druge zvoke iz okolja (živalski glasovi, zvoki strojev itd.)</item>
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.Y-sl">
+          <head>Slovene Abbreviation</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.Y-sl">
+            <head>Specification for Slovene Abbreviation</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">okrajšava</cell>
+              <cell role="code" xml:lang="sl">O</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Abbreviation</cell>
+              <cell role="code" xml:lang="en">Y</cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>kot okrajšave so načeloma označene okrajšane besede in kratice (<hi>npr., itd. št., ing., mag., CO2, Feb, Avs, M2, Pe, EUR, USD</hi>)</item>
+              <item>če je okrajšava sklanjana in v besedilu funkcionira kot samostalnik, jo označimo kot samostalnik</item>
+              <item>kratice (akronimi) so označeni kot samostalnike (<hi>NUK, NAMA, Mors</hi> itd.)</item>
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+        <div type="section" select="sl" xml:id="msd.X-sl">
+          <head>Slovene Residual</head>
+          <table n="msd.cat" select="sl" xml:id="msd.cat.X-sl">
+            <head>Specification for Slovene Residual</head>
+            <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">neuvrščeno</cell>
+              <cell role="code" xml:lang="sl">N</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Residual</cell>
+              <cell role="code" xml:lang="en">X</cell>
+            </row>
+            <row role="attribute">
+              <cell role="position">1</cell>
+              <cell role="name" xml:lang="sl">vrsta</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">tujejezično</cell>
+                    <cell role="code" xml:lang="sl">j</cell>
+                    <cell role="name" xml:lang="en">foreign</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">tipkarska</cell>
+                    <cell role="code" xml:lang="sl">t</cell>
+                    <cell role="name" xml:lang="en">typo</cell>
+                    <cell role="code" xml:lang="en">t</cell>
+                  </row>
+		                <row role="value">
+		                   <cell role="name" xml:lang="sl">splet</cell>
+		                   <cell role="code" xml:lang="sl">w</cell>
+		                   <cell role="name" xml:lang="en">web</cell>
+		                   <cell role="code" xml:lang="en">w</cell>
+		                </row>
+		                <row role="value">
+		                   <cell role="name" xml:lang="sl">emo</cell>
+		                   <cell role="code" xml:lang="sl">e</cell>
+		                   <cell role="name" xml:lang="en">emo</cell>
+		                   <cell role="code" xml:lang="en">e</cell>
+		                </row>
+		                <row role="value">
+		                   <cell role="name" xml:lang="sl">ključnik</cell>
+		                   <cell role="code" xml:lang="sl">h</cell>
+		                   <cell role="name" xml:lang="en">hashtag</cell>
+		                   <cell role="code" xml:lang="en">h</cell>
+		                </row>
+		                <row role="value">
+		                   <cell role="name" xml:lang="sl">afna</cell>
+		                   <cell role="code" xml:lang="sl">a</cell>
+		                   <cell role="name" xml:lang="en">at</cell>
+		                   <cell role="code" xml:lang="en">a</cell>
+		                </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="sl">program</cell>
+                    <cell role="code" xml:lang="sl">p</cell>
+                    <cell role="name" xml:lang="en">program</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <p xml:lang="sl">Opombe:
+            <list>
+              <item>kot neuvrščene po jeziku so označene besede v daljših citati v tujem jeziku; to ne velja za posamezne besede tujega izvora, ki funkcionirajo v slovenskem besedilu in imajo slovenska obrazila, te označujemo z oznako za ustrezno besedno vrsto</item>
+              <item>kot neuvrščene po tipkarski napaki označimo samo tipkarske napake, ne pa besed zapisanih z nestandardnim zapisom</item>
+              <item>kot neuvrščene po spletu označimo e-poštne naslove in URLje</item>
+              <item>kot neuvrščene po emo označimo emotikone in emodžije</item>
+              <item>kot neuvrščene po tipkarski napaki označimo samo tipkarske napake, ne pa besed zapisanih z nestandardnim zapisom</item>
+              <item>kot neuvrščene po ključniku označimo besede, ki se zančenjajo s "#" in se uporabljajo npr. v tvitih kot ključna beseda</item>
+              <item>kot neuvrščene po afni označimo besede, ki se zančenjajo s "@" in se uporabljajo npr. v tvitih, da določijo naslovnika</item>
+	      
+	           <item>kot neuvrščene po programu označimo tiste besede, ki jih je program napačno tokeniziral, npr. <hi>info@[Np] siol.net[Np]</hi>
+            </item>            
+            </list>
+          </p>
+          <divGen type="msd.lex" select="sl"/>
+        </div>
+	  <div type="section" select="sl" xml:id="msd.Z-sl">
+	     <head>Slovene Punctuation</head>
+	     <table n="msd.cat" select="sl" xml:id="msd.cat.Z-sl">
+	        <head>Specification for Slovene Punctuation</head>
+	        <row role="type">
+              <cell role="position">0</cell>
+              <cell role="name" xml:lang="sl">besedna_vrsta</cell>
+              <cell role="value" xml:lang="sl">ločilo</cell>
+              <cell role="code" xml:lang="sl">U</cell>
+              <cell role="name" xml:lang="en">CATEGORY</cell>
+              <cell role="value" xml:lang="en">Punctuation</cell>
+              <cell role="code" xml:lang="en">Z</cell>
+	        </row>
+	     </table>
+	     <divGen type="msd.lex" select="sl"/>
+	  </div>
+	
+	  <div type="section" xml:id="msd.attributes-sl">
+	     <head>Slovene Attribute Index</head>
+          <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
+	     <divGen type="msd.atts" select="sl"/>
+	  </div>
+	
+	  <div type="section" xml:id="msd.values-sl">
+	     <head>Slovene Value Index</head>
+          <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
+	     <divGen type="msd.vals" select="sl"/>
+	  </div>
+	  <div select="sl" type="section" xml:id="msd.msds-sl">
+	     <head>Slovene MSD Index</head>
+          <p xml:lang="en">This index gives the complete list of
+          morphosyntactic descriptions (MSDs) and their features, in
+          Slovene and English.
+          The first and third column give the MSD, and 
+          the second and fourth their expansion to features.
+          The fifth gives the number of 
+          word types tagged with this MSD in the 
+          Gigafida corpus with a small corpus of Tweets.
+          The last column gives up to 10 examples of the usage of the MSD in the form word-form/lemma. 
+          Where the word-form and lemma are identical, lemma is written as an equal sign.
+          The examples were automatically extracted from 
+          (1) the <ref target="http://www.gigafida.net/">Gigafida</ref> corpus
+          (2) the <ref target="http://hdl.handle.net/11356/1039">Sloleks</ref> lexicon
+          (3) a small manually validated corpus of Slovene tweets developed in the scope of the
+	  <ref target="http://nl.ijs.si/janes/">Janes</ref> project.
+          It should be noted (1) contains some errors of tagging or lemmatisation, 
+          so not all examples are necessarily correct.
+          </p>
+          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl.msd.xml"/>
+        </div>
+      </div>

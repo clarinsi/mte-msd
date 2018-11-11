@@ -1,0 +1,2721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="uk"
+     xml:id="msd-uk"
+     xml:lang="en">
+   <head>Ukrainian Specifications</head>
+   <docAuthor>Natalia Kotsyba, Igor Shevchenko, Ivan Derzhanski, Andriy Mykulyak</docAuthor>
+   <docDate>2018-11-11</docDate>
+   <list type="gloss">
+      <label>Language Name:</label>
+      <item>Ukrainian</item>
+      <label>Code:</label>
+      <item>uk</item>
+      <label>Reference:</label>
+      <item>
+         <ref target="http://www.ethnologue.com/language/ukr">Ethnologue</ref>
+      </item>
+   </list>
+   <divGen type="subtoc"/>
+   <div xml:id="msd-uk.introduction">
+      <head>Introduction to Ukrainian Specifications</head>
+      <p>The current specifications are based on the Ukrainian Grammatical Dictionary (UGD) developed in ULIF NASU
+by Igor V. Shevchenko (<ref target="http://lcorp.ulif.org.ua/dictua">http://lcorp.ulif.org.ua/dictua</ref>), 
+and a morphological analyzer (<ref target="http://www.domeczek.pl/~polukr/ugtag">UGTag</ref>)
+which uses an extended version of the UGD. The additional features in comparison with the UGD embrace: 
+the degree attribute for adjectives and adverbs full paradigms of adjectival participles, pronouns as a separate 
+part of speech with detailed semantic categorization, etc. Morfosyntactic data were also rearranged in the UGTag 
+to better reflect MULTEXT-East categorisations. </p>
+   </div>
+   <div type="section" xml:id="msd.categories-uk" select="uk">
+     <head>Ukrainian Category Index</head>
+     <divGen type="msd.cats" select="uk"/>
+   </div>
+   <div select="uk" type="section" xml:id="msd.N-uk">
+     <head>Ukrainian Noun</head>
+     <table n="msd.cat" xml:id="msd.cat.N-uk" select="uk">
+         <head>Specification for UkrainianNoun</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Noun</cell>
+            <cell role="value" xml:lang="uk">Іменник</cell>
+            <cell role="code" xml:lang="en">N</cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">1</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="uk">тип</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">common</cell>
+                     <cell role="name" xml:lang="uk">загальний</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proper</cell>
+                     <cell role="name" xml:lang="uk">власна_назва</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">2</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="name" xml:lang="uk">рід</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="name" xml:lang="uk">чоловічий</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="name" xml:lang="uk">жіночий</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="name" xml:lang="uk">середній</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">common</cell>
+                     <cell role="name" xml:lang="uk">загальний</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">3</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+            <cell role="name" xml:lang="uk">число</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="uk">однина</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="uk">множина</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">4</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="uk">відмінок</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="uk">називний</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="uk">родовий</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="uk">давальний</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="name" xml:lang="uk">знахідний</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="uk">орудний</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="name" xml:lang="uk">місцевий</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="name" xml:lang="uk">кличний</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">5</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="name" xml:lang="uk">істота</cell>
+            <cell role="data">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="uk">ні</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="uk">так</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+          <div>
+          <head>Notes</head>
+          <list>
+            <item>Ukrainian pluralia tantum nouns are not encoded directly but can be identified by the absence of a value of Gender ("-").</item>
+            <item>The Gender value "common" is assigned to nouns that can combine with adjectives in either feminine or masculine,e.g. <hi>сирота</hi>
+             or either neutral or masculine gender, e.g. <hi>Самоа</hi>.</item>
+          </list>
+        </div>
+            <div xml:id="msd.N-uk.combinations" n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>POS</cell>
+               <cell>Type</cell> 
+               <cell>Gender</cell> 
+               <cell>Number</cell> 
+               <cell>Case</cell> 
+               <cell>Animate</cell> 
+               <cell>example</cell>
+            </row>
+            <row>
+               <cell>N</cell> 
+               <cell>p</cell> 
+               <cell>n</cell> 
+               <cell>p</cell> 
+               <cell>ngdailv</cell> 
+               <cell>n</cell> 
+               <cell>Азовське</cell>
+            </row>
+            <row>
+               <cell>N</cell> 
+               <cell>p</cell> 
+               <cell>c</cell> 
+               <cell>s</cell> 
+               <cell>ngdailv</cell> 
+               <cell>n</cell> 
+               <cell>Самоа</cell>
+            </row>
+            <row>
+               <cell>N</cell> 
+               <cell>p</cell> 
+               <cell>mf</cell> 
+               <cell>sp</cell> 
+               <cell>ngdailv</cell> 
+               <cell>ny</cell> 
+               <cell>Марія, Ігор, Білинські</cell>
+            </row>
+            <row>
+               <cell>N</cell> 
+               <cell>c</cell> 
+               <cell>cfmn</cell> 
+               <cell>sp</cell> 
+               <cell>ngdailv</cell> 
+               <cell>yn</cell> 
+               <cell>лікар, ялина, вікно, сирота, роки</cell>
+            </row>
+            <row>
+               <cell>N</cell> 
+               <cell>cp</cell> 
+               <cell>-</cell> 
+               <cell>p</cell> 
+               <cell>ngdailv</cell> 
+               <cell>yn</cell> 
+               <cell>сани, Бережани</cell>
+            </row>
+            <row>
+               <cell>N</cell> 
+               <cell>p</cell> 
+               <cell>n</cell> 
+               <cell>s</cell> 
+               <cell>ngdailv</cell> 
+               <cell>yn</cell> 
+               <cell>Здвиження</cell>
+            </row>
+         </table>
+      </div>
+        <divGen xml:id="msd.N-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+      
+      
+        <div select="uk" type="section" xml:id="msd.V-uk">
+        <head>Ukrainian Verb</head>
+        <table n="msd.cat" xml:id="msd.cat.V-uk" select="uk">
+            <head>Specification for UkrainianVerb</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Verb</cell>
+            <cell role="value" xml:lang="uk">Дієслово</cell>
+            <cell role="code" xml:lang="en">V</cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">1</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="uk">тип</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">main</cell>
+                     <cell role="name" xml:lang="uk">основне</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">auxiliary</cell>
+                     <cell role="name" xml:lang="uk">допоміжне</cell>
+                    <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">2</cell>
+              <cell role="name" xml:lang="en">Aspect</cell>
+            <cell role="name" xml:lang="uk">вид</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">progressive</cell>
+                     <cell role="name" xml:lang="uk">недоконаний</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">perfective</cell>
+                     <cell role="name" xml:lang="uk">доконаний</cell>
+                    <cell role="code" xml:lang="en">e</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">biaspectual</cell>
+                     <cell role="name" xml:lang="uk">двовидове</cell>
+                    <cell role="code" xml:lang="en">b</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">3</cell>
+              <cell role="name" xml:lang="en">VForm</cell>
+            <cell role="name" xml:lang="uk">форма</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">indicative</cell>
+                     <cell role="name" xml:lang="uk">дійсна</cell>
+                    <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">imperative</cell>
+                     <cell role="name" xml:lang="uk">наказова</cell>
+                    <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">infinitive</cell>
+                     <cell role="name" xml:lang="uk">неозначена</cell>
+                    <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">impersonal</cell>
+                     <cell role="name" xml:lang="uk">безособова</cell>
+                    <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">gerund</cell>
+                     <cell role="name" xml:lang="uk">дієприслівник</cell>
+                    <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">4</cell>
+              <cell role="name" xml:lang="en">Tense</cell>
+            <cell role="name" xml:lang="uk">час</cell>
+                  <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">present</cell>
+                     <cell role="name" xml:lang="uk">теперішній</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">future</cell>
+                     <cell role="name" xml:lang="uk">майбутній</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">past</cell>
+                     <cell role="name" xml:lang="uk">минулий</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">5</cell>
+              <cell role="name" xml:lang="en">Person</cell>
+            <cell role="name" xml:lang="uk">особа</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="name" xml:lang="uk">перша</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="name" xml:lang="uk">друга</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="name" xml:lang="uk">третя</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">6</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+            <cell role="name" xml:lang="uk">число</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="uk">однина</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="uk">множина</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+             <row role="attribute">
+              <cell xml:lang="en" role="position">7</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="name" xml:lang="uk">рід</cell>
+              <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="name" xml:lang="uk">чоловічий</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="name" xml:lang="uk">жіночий</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="name" xml:lang="uk">середній</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            </table>
+            <div>
+          <head>Notes</head>
+          <list>
+            <item>Gerunds are not differentiated, but could be treated as a special class of nouns, nota bene: they possess aspect.</item>
+            <item>No voice for Ukrainian as all verbal forms are active (adjectival/attributive participles are treated as adjectives).</item>
+            <item>The impersonal VForm (o) is characterized by the ending <hi>-то/-но</hi>. It exists in other Slavic languages as well, 
+            although in most of them it coincides with the neutral form of the passive adjectival participle and is classified as such.
+            In Ukrainian, as well as in Polish, the attributive form is different from the predicative one, cf. in Ukrainian <hi>писане правило</hi> 
+            (a written rule) vs <hi>писано правило</hi> (a rule was/is written).</item>
+          </list>
+        </div>
+        <div xml:id="msd.V-uk.combinations" n="combinations">
+        <head>Combinations</head>
+         <table>
+            <row>
+               <cell>POS</cell> 
+               <cell>Type</cell> 
+               <cell>Aspect</cell> 
+               <cell>VForm</cell> 
+               <cell>Tense</cell> 
+               <cell>Person</cell> 
+               <cell>Number</cell> 
+               <cell>Gender</cell> 
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>i</cell> 
+               <cell>f</cell> 
+               <cell>123</cell> 
+               <cell>sp</cell> 
+               <cell/> 
+               <cell>буду, будеш, буде, будемо, будете, будуть</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>i</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>є</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>i</cell> 
+               <cell>p</cell> 
+               <cell>2</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>єси</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>i</cell> 
+               <cell>p</cell> 
+               <cell>3</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>суть</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>i</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>s</cell> 
+               <cell>mfn</cell> 
+               <cell>був, була, було</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>i</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>були</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>m</cell> 
+               <cell/> 
+               <cell>12</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>будьмо, будьте</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>m</cell> 
+               <cell/> 
+               <cell>2</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>будь</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>n</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>бути</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>g</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>будучи</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>a</cell> 
+               <cell>p</cell> 
+               <cell>g</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>бувши</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>e</cell> 
+               <cell>g</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зробивши</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>e</cell> 
+               <cell>i</cell> 
+               <cell>f</cell> 
+               <cell>123</cell> 
+               <cell>sp</cell> 
+               <cell/> 
+               <cell>зроблю, зробиш, зробить, зробимо, зробите, зроблять</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>e</cell> 
+               <cell>i</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>зробили</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>e</cell> 
+               <cell>i</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>s</cell> 
+               <cell>mfn</cell> 
+               <cell>зробив, зробила, зробило</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>e</cell> 
+               <cell>m</cell> 
+               <cell/> 
+               <cell>12</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>зробімо, зробіть, зробіте</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>e</cell> 
+               <cell>m</cell> 
+               <cell/> 
+               <cell>2</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>зроби</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>e</cell> 
+               <cell>no</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зробити, зроблено</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>pb</cell> 
+               <cell>g</cell> 
+               <cell>ps</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>роблячи, робивши</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>pb</cell> 
+               <cell>i</cell> 
+               <cell>f</cell> 
+               <cell>123</cell> 
+               <cell>sp</cell> 
+               <cell/> 
+               <cell>робитиму, робитимеш, робитиме, робитимемо, робитимете, робитимуть</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>pb</cell> 
+               <cell>i</cell> 
+               <cell>p</cell> 
+               <cell>123</cell> 
+               <cell>sp</cell> 
+               <cell/> 
+               <cell>роблю, робиш, робить, робимо, робите, роблять</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>pb</cell> 
+               <cell>i</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>робили</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>pb</cell> 
+               <cell>i</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>s</cell> 
+               <cell>mfn</cell> 
+               <cell>робив, робила, робило</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>pb</cell> 
+               <cell>m</cell> 
+               <cell/> 
+               <cell>12</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>робімо, робіть</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>pb</cell> 
+               <cell>m</cell> 
+               <cell/> 
+               <cell>2</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>роби</cell>
+            </row>
+            <row>
+               <cell>V</cell> 
+               <cell>m</cell> 
+               <cell>pb</cell> 
+               <cell>no</cell> 
+               <cell/> 
+               <cell>2</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>робити, роблено</cell>
+            </row>
+         </table>
+        </div>
+        <divGen xml:id="msd.V-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+      
+      <div select="uk" type="section" xml:id="msd.A-uk">
+        <head>Ukrainian Adjective</head>
+        <table n="msd.cat" xml:id="msd.cat.A-uk" select="uk">
+            <head>Specification for UkrainianAdjective</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Adjective</cell>
+            <cell role="value" xml:lang="uk">Прикметник</cell>
+            <cell role="code" xml:lang="en">A</cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">1</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="uk">тип</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">qualificative</cell>
+                     <cell role="name" xml:lang="uk">якісний</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">ordinal</cell>
+                     <cell role="name" xml:lang="uk">відносний</cell>
+                    <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">participle</cell>
+                     <cell role="name" xml:lang="uk">дієприкметник</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">2</cell>
+              <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="name" xml:lang="uk">ступінь</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="name" xml:lang="uk">основний</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="name" xml:lang="uk">вищий</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="name" xml:lang="uk">найвищий</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">3</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="name" xml:lang="uk">рід</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="name" xml:lang="uk">чоловічий</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="name" xml:lang="uk">жіночий</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="name" xml:lang="uk">середній</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">common</cell>
+                     <cell role="name" xml:lang="uk">загальний</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">4</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+            <cell role="name" xml:lang="uk">число</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="uk">однина</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="uk">множина</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">5</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="uk">відмінок</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="uk">називний</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="uk">родовий</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="uk">давальний</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="name" xml:lang="uk">знахідний</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="uk">орудний</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="name" xml:lang="uk">місцевий</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">6</cell>
+              <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="name" xml:lang="uk">форма</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">short-art</cell>
+                     <cell role="name" xml:lang="uk">стягнена</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">full-art</cell>
+                     <cell role="name" xml:lang="uk">нестягнена</cell>
+                    <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">7</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="name" xml:lang="uk">істота</cell>
+            <cell role="data">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="uk">ні</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="uk">так</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">8</cell>
+              <cell role="name" xml:lang="en">Aspect</cell>
+            <cell role="name" xml:lang="uk">вид</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">progressive</cell>
+                     <cell role="name" xml:lang="uk">недоконаний</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">perfective</cell>
+                     <cell role="name" xml:lang="uk">доконаний</cell>
+                    <cell role="code" xml:lang="en">e</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">biaspectual</cell>
+                     <cell role="name" xml:lang="uk">двовидове</cell>
+                    <cell role="code" xml:lang="en">b</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">9</cell>
+              <cell role="name" xml:lang="en">Voice</cell>
+            <cell role="name" xml:lang="uk">стан</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">active</cell>
+                     <cell role="name" xml:lang="uk">активний</cell>
+                    <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">passive</cell>
+                     <cell role="name" xml:lang="uk">пасивний</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+        <row role="attribute">
+            <cell xml:lang="en" role="position">10</cell>
+            <cell role="name" xml:lang="en">Tense</cell>
+            <cell role="name" xml:lang="uk">час</cell>
+            <cell role="data">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">present</cell>
+                     <cell role="name" xml:lang="uk">теперішній</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">past</cell>
+                     <cell role="name" xml:lang="uk">минулий</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+        <div>
+          <head>Notes</head>
+          <list>
+            <item>Relative adjectives (Ukr. <hi>відносні прикметники</hi>) are here labelled "o(rdinal)" for the sake of continuity 
+            with the Slovene tagset, where this term translates Slovene <hi>vrstni (pridevniki)</hi>.</item>
+            <item>The feature "Animate" is used to differentiate between two accusative masculine forms.</item>
+            <item>Adjectival participles are grouped with adjectives and are characterized by voice, quasi-tense and aspect.</item>
+            <item>NB: Although active adjectival participles are considered ungrammatical, being a consequence of russification, they still can be found in the language use. Thus, they are not generated by the Ukrainian grammatical dictionary but codes for them are foreseen in the UGTag and the present MSD index.</item>
+          </list>
+        </div>
+                <div xml:id="msd.A-uk.combinations" n="combinations">
+              <head>Combinations</head>
+              <table>
+            <row>
+               <cell>POS</cell> 
+               <cell>Type</cell> 
+               <cell>Degree</cell> 
+               <cell>Gender</cell> 
+               <cell>Number</cell> 
+               <cell>Case</cell> 
+               <cell>Definiteness</cell> 
+               <cell>Animate</cell> 
+               <cell>Aspect</cell> 
+               <cell>Voice</cell> 
+               <cell>Tense</cell> 
+               <cell>Example</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>f</cell> 
+               <cell>p</cell> 
+               <cell>m</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зелен</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>f</cell> 
+               <cell>pcs</cell> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>ngdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зелений, зеленого, зеленому, зеленим, зеленому</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>f</cell> 
+               <cell>pcs</cell> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>f</cell> 
+               <cell>yn</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зеленого, зелений</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>f</cell> 
+               <cell>pcs</cell> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>n</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зелені, зеленії</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>f</cell> 
+               <cell>pcs</cell> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>f</cell> 
+               <cell>y</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зелених</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>f</cell> 
+               <cell>pcs</cell> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>sf</cell> 
+               <cell>n</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зелені, зеленії</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>f</cell> 
+               <cell>pcs</cell> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зелених, зеленим, зеленими, зелених</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>f</cell> 
+               <cell>pcs</cell> 
+               <cell>fn</cell> 
+               <cell>s</cell> 
+               <cell>na</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зелена, зелене, зелену, зелене, зеленая, зеленеє, зеленую, зеленеє</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>f</cell> 
+               <cell>pcs</cell> 
+               <cell>fn</cell> 
+               <cell>s</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>зеленої, зеленій, зеленою, зеленій, зеленого, зеленому, зеленим, зеленому</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>o</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>n</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>місцевий, мамин</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>o</cell> 
+               <cell/> 
+               <cell>fn</cell> 
+               <cell>s</cell> 
+               <cell>na</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>мамина, дорослую, татове</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>o</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>n</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>льняні, дорослії</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>o</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>s</cell> 
+               <cell>y</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>університетського</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>o</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>s</cell> 
+               <cell>y</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>шкільних</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>o</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>sf</cell> 
+               <cell>n</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>мамин, університетський</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>o</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>sf</cell> 
+               <cell>n</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>шкільні, льнянії</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>o</cell> 
+               <cell/> 
+               <cell>mfn</cell> 
+               <cell>s</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>маминому, льняним</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>o</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>лісових, лісовими</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>n</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>a</cell> 
+               <cell>ps</cell> 
+               <cell>пишучий, робивший</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>f</cell> 
+               <cell>yn</cell> 
+               <cell>pb</cell> 
+               <cell>a</cell> 
+               <cell>ps</cell> 
+               <cell>пишучого, робившого, пишучий, робивший</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>fn</cell> 
+               <cell>s</cell> 
+               <cell>na</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>a</cell> 
+               <cell>ps</cell> 
+               <cell>пишуча, пишучу, робивша</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>mfn</cell> 
+               <cell>s</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>a</cell> 
+               <cell>ps</cell> 
+               <cell>пишучому, робившого</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>f</cell> 
+               <cell>y</cell> 
+               <cell>pb</cell> 
+               <cell>a</cell> 
+               <cell>ps</cell> 
+               <cell>квітнучих, роблячих, писавших</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>sf</cell> 
+               <cell>n</cell> 
+               <cell>pb</cell> 
+               <cell>a</cell> 
+               <cell>ps</cell> 
+               <cell>квітучії, квітучі</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>n</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>a</cell> 
+               <cell>ps</cell> 
+               <cell>квітучії, квітучі</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>a</cell> 
+               <cell>ps</cell> 
+               <cell>квітнучих, квітнучим, квітнучими, квітнучих</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>n</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell>e</cell> 
+               <cell>ap</cell> 
+               <cell/> 
+               <cell>зроблений, зробивший</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>f</cell> 
+               <cell>yn</cell> 
+               <cell>e</cell> 
+               <cell>ap</cell> 
+               <cell/> 
+               <cell>зробленого, зробившого, зроблений, зробивший</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>fn</cell> 
+               <cell>s</cell> 
+               <cell>na</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell>e</cell> 
+               <cell>ap</cell> 
+               <cell/> 
+               <cell>зроблена, зробившу</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>mfn</cell> 
+               <cell>s</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell>e</cell> 
+               <cell>ap</cell> 
+               <cell/> 
+               <cell>зробленим, зробившому</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>f</cell> 
+               <cell>y</cell> 
+               <cell>e</cell> 
+               <cell>ap</cell> 
+               <cell/> 
+               <cell>зроблених, зробивших</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>sf</cell> 
+               <cell>n</cell> 
+               <cell>e</cell> 
+               <cell>ap</cell> 
+               <cell/> 
+               <cell>зробленії, зробивші</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>n</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell>e</cell> 
+               <cell>ap</cell> 
+               <cell/> 
+               <cell>зробленії, зробивші</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell>e</cell> 
+               <cell>ap</cell> 
+               <cell/> 
+               <cell>зробленим, зробленими, зроблених</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>n</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>писаний</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>f</cell> 
+               <cell>yn</cell> 
+               <cell>pb</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>писаного, писаний</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>fn</cell> 
+               <cell>s</cell> 
+               <cell>na</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>писане, писаная, писанеє, писаную</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>mfn</cell> 
+               <cell>s</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>писаним</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>f</cell> 
+               <cell>y</cell> 
+               <cell>pb</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>писаних</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>sf</cell> 
+               <cell>n</cell> 
+               <cell>pb</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>писані, писанії</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>n</cell> 
+               <cell>sf</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>писані, писанії</cell>
+            </row>
+            <row>
+               <cell>A</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>gdil</cell> 
+               <cell>f</cell> 
+               <cell/> 
+               <cell>pb</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>писаним, писаними, писаних</cell>
+            </row>
+         </table>
+              </div>
+        <divGen xml:id="msd.A-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+      
+      
+      <div select="uk" type="section" xml:id="msd.P-uk">
+        <head>Ukrainian Pronoun</head>
+        <table n="msd.cat" xml:id="msd.cat.P-uk" select="uk">
+            <head>Specification for UkrainianPronoun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Pronoun</cell>
+            <cell role="value" xml:lang="uk">Займенник</cell>
+            <cell role="code" xml:lang="en">P</cell>
+         </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">1</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="uk">тип</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">personal</cell>
+                     <cell role="name" xml:lang="uk">особовий</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">demonstrative</cell>
+                     <cell role="name" xml:lang="uk">вказівний</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indefinite</cell>
+                     <cell role="name" xml:lang="uk">неозначений</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="name" xml:lang="uk">присвійний</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">interrogative</cell>
+                     <cell role="name" xml:lang="uk">питальний</cell>
+                     <cell role="code" xml:lang="en">q</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">relative</cell>
+                     <cell role="name" xml:lang="uk">відносний</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">reflexive</cell>
+                     <cell role="name" xml:lang="uk">зворотній</cell>
+                     <cell role="code" xml:lang="en">x</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="name" xml:lang="uk">заперечний</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="name" xml:lang="uk">загальний</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">emphatic</cell>
+                     <cell role="name" xml:lang="uk">наголошений</cell>
+                     <cell role="code" xml:lang="en">h</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Referent_Type</cell>
+            <cell role="name" xml:lang="uk">додатковий_тип</cell>
+            <cell role="data">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="name" xml:lang="uk">присвійний</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">3</cell>
+              <cell role="name" xml:lang="en">Person</cell>
+            <cell role="name" xml:lang="uk">особа</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="name" xml:lang="uk">перша</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="name" xml:lang="uk">друга</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="name" xml:lang="uk">третя</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">4</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="name" xml:lang="uk">рід</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="name" xml:lang="uk">чоловічий</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="name" xml:lang="uk">жіночий</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="name" xml:lang="uk">середній</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+        <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="name" xml:lang="uk">істота</cell>
+            <cell role="data">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="uk">так</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="uk">ні</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">6</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+            <cell role="name" xml:lang="uk">число</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="uk">однина</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="uk">множина</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">7</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="uk">відмінок</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="uk">називний</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="uk">родовий</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="uk">давальний</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="name" xml:lang="uk">знахідний</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="uk">орудний</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="name" xml:lang="uk">місцевий</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">8</cell>
+            <cell role="name" xml:lang="en">Syntactic_Type</cell>
+            <cell role="name" xml:lang="uk">синтактичний_тип</cell>
+            <cell role="data">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominal</cell>
+                     <cell role="name" xml:lang="uk">іменник</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">adjectival</cell>
+                     <cell role="name" xml:lang="uk">прикметник</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">adverbial</cell>
+                     <cell role="name" xml:lang="uk">прислівник</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+          <div>
+          <head>Notes</head>
+          <list>
+            <item>Many pronouns can be assigned to more than one Type. The Referent_Type feature is used to show the additional feature, like possessiveness or personality. The main type is defined according to the grammatical tradition. Note: there is no PRONOUN as POS in the Ukrainian Grammatical Dictionary, pro-nouns are a class of nouns. The Syntactic_Type shows further POS distribution.</item>
+            <item>The emp(h)atic Type of Pronoun is used for pronoun forms <hi>ні"кому, ні"чому, ні"чим, ні"кого</hi>, etc.,
+             with complex meanings like "there is nobody/nothing (to do sth/to use for doing sth, etc.)". 
+            Orthographically these are identical forms of negative nominal pronouns <hi>ніхто, ніщо</hi> "nobody, nothing" in oblique cases, 
+            however, with differing accent. They are referred to as either separate pronoun lexemes or predicatives in grammars. 
+            All Ukrainian emphatic pronoun forms include negation.</item>
+          </list>
+        </div>
+                <div xml:id="msd.P-uk.combinations" n="combinations">
+                <head>Combinations</head>
+               <table>
+            <row>
+               <cell>POS</cell> 
+               <cell>Type</cell> 
+               <cell>Ref_Type</cell> 
+               <cell>Person</cell> 
+               <cell>Gender</cell> 
+               <cell>Animate</cell> 
+               <cell>Number</cell> 
+               <cell>Case</cell> 
+               <cell>Synt_Type</cell> 
+               <cell>Example</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>12</cell> 
+               <cell/> 
+               <cell>y</cell> 
+               <cell>sp</cell> 
+               <cell>ngdail</cell> 
+               <cell>n</cell> 
+               <cell>я, мене, ти, тобі, ми, нами, ви, вас</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>3</cell> 
+               <cell>mfn</cell> 
+               <cell/> 
+               <cell>s</cell> 
+               <cell>ngdail</cell> 
+               <cell>n</cell> 
+               <cell>він, вона, воно, його, її, йому, ним, нею, ньому, ній</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>p</cell> 
+               <cell/> 
+               <cell>3</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>ngdail</cell> 
+               <cell>n</cell> 
+               <cell>вони, їх, їм, ними, них</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>disqrzgx</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell/> 
+               <cell>s</cell> 
+               <cell>ngdil</cell> 
+               <cell>a</cell> 
+               <cell>такий, цього</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>disqrzgx</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>fn</cell> 
+               <cell/> 
+               <cell>s</cell> 
+               <cell>ngdail</cell> 
+               <cell>a</cell> 
+               <cell>така, цього, цій, оте</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>disqrzgx</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>ngdil</cell> 
+               <cell>a</cell> 
+               <cell>такі, таких, цим</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>disqrzgx</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>yn</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>a</cell> 
+               <cell>того, такого, тих, таких, той</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>disqrzgx</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>yn</cell> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>a</cell> 
+               <cell>тих, ті</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>diqrzg</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>r</cell> 
+               <cell>так, отак</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>diqrzg</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>n</cell> 
+               <cell>n</cell> 
+               <cell>s</cell> 
+               <cell>ngdail</cell> 
+               <cell>n</cell> 
+               <cell>такого, сьому, цим, то</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>iqrz</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>y</cell> 
+               <cell>s</cell> 
+               <cell>ngdail</cell> 
+               <cell>n</cell> 
+               <cell>будь-кого, комусь</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>iqrxz</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell/> 
+               <cell>s</cell> 
+               <cell>ngdil</cell> 
+               <cell>a</cell> 
+               <cell>чийсь, будь-чийого, чиєму-небудь</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>iqrxz</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>fn</cell> 
+               <cell/> 
+               <cell>s</cell> 
+               <cell>ngdail</cell> 
+               <cell>a</cell> 
+               <cell>чиєсь, чиясь, будь-чийого, чиєму-небудь</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>iqrxz</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>p</cell> 
+               <cell>ngdil</cell> 
+               <cell>a</cell> 
+               <cell>чиїсь</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>iqrxz</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell>m</cell> 
+               <cell>yn</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>a</cell> 
+               <cell>чийогось, чийсь</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>iqrxz</cell> 
+               <cell>s</cell> 
+               <cell/> 
+               <cell/> 
+               <cell>y</cell> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>a</cell> 
+               <cell>чиїхось, чиїсь</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>x</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>y</cell> 
+               <cell/> 
+               <cell>gdail</cell> 
+               <cell>n</cell> 
+               <cell>себе, собі, себе, собою, собі</cell>
+            </row>
+            <row>
+               <cell>P</cell> 
+               <cell>h</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>ny</cell> 
+               <cell/> 
+               <cell>dail</cell> 
+               <cell>n</cell> 
+               <cell>нікого, нікому, ніким, нічого, нічому, нічим</cell>
+            </row>
+         </table>
+      </div>
+        <divGen xml:id="msd.P-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+      
+      
+      <div select="uk" type="section" xml:id="msd.R-uk">
+        <head>Ukrainian Adverb</head>
+        <table n="msd.cat" xml:id="msd.cat.R-uk" select="uk">
+            <head>Specification for UkrainianAdverb</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Adverb</cell>
+            <cell role="value" xml:lang="uk">Прислівник</cell>
+            <cell role="code" xml:lang="en">R</cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">1</cell>
+              <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="name" xml:lang="uk">ступінь</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="name" xml:lang="uk">основний</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="name" xml:lang="uk">вищий</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="name" xml:lang="uk">найвищий</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+                <div xml:id="msd.R-uk.combinations" n="combinations">
+                <head>Combinations</head>
+               <table>
+            <row>
+               <cell>POS</cell> 
+               <cell>Degree</cell> 
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>R</cell> 
+               <cell/> 
+               <cell>фіолетово</cell>
+            </row>
+            <row>
+               <cell>R</cell> 
+               <cell>pcs</cell> 
+               <cell>добре, краще, найліпше</cell>
+            </row>
+         </table>
+               </div>
+        <divGen xml:id="msd.R-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+      
+      <div select="uk" type="section" xml:id="msd.S-uk">
+        <head>Ukrainian Adposition</head>
+        <table n="msd.cat" xml:id="msd.cat.S-uk" select="uk">
+            <head>Specification for UkrainianAdposition</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Adposition</cell>
+            <cell role="value" xml:lang="uk">Прийменник</cell>
+            <cell role="code" xml:lang="en">S</cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">1</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="uk">тип</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">preposition</cell>
+                     <cell role="name" xml:lang="uk">прийменник</cell>
+                    <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">2</cell>
+              <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="name" xml:lang="uk">форма</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="name" xml:lang="uk">простий</cell>
+                    <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="name" xml:lang="uk">складений</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">3</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="uk">відмінок</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="uk">родовий</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="uk">давальний</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="name" xml:lang="uk">знахідний</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="uk">орудний</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="name" xml:lang="uk">місцевий</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+                <div xml:id="msd.S-uk.combinations" n="combinations">
+                <head>Combinations</head>
+                <table>
+            <row>
+               <cell>POS</cell> 
+               <cell>Form</cell> 
+               <cell>Case</cell> 
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>S</cell> 
+               <cell>sc</cell> 
+               <cell>gdail</cell> 
+               <cell>з-під, для, завдяки, на, з, в</cell>
+            </row>
+         </table>
+                </div>
+        <divGen xml:id="msd.S-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+      
+      
+      <div select="uk" type="section" xml:id="msd.C-uk">
+        <head>Ukrainian Conjunction</head>
+        <table n="msd.cat" xml:id="msd.cat.C-uk" select="uk">
+            <head>Specification for UkrainianConjunction</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Conjunction</cell>
+            <cell role="value" xml:lang="uk">Сполучник</cell>
+            <cell role="code" xml:lang="en">C</cell>
+            </row>
+        <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="uk">тип</cell>
+            <cell role="data">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">coordinating</cell>
+                     <cell role="name" xml:lang="uk">сурядний</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subordinating</cell>
+                     <cell role="name" xml:lang="uk">підрядний</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+        </row>
+              <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="name" xml:lang="uk">форма</cell>
+            <cell role="data">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="name" xml:lang="uk">простий</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="name" xml:lang="uk">складений</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+            <div xml:id="msd.C-uk.combinations" n="combinations">
+            <head>Combinations</head>
+            <table>
+            <row>
+               <cell>POS</cell> 
+               <cell>Type</cell> 
+               <cell>Formation</cell> 
+               <cell>example</cell>
+            </row>
+            <row>
+               <cell>C</cell> 
+               <cell>cs</cell> 
+               <cell>cs</cell> 
+               <cell>адже, тому що, однак, при цьому</cell>
+            </row>
+         </table>
+            </div>
+      <divGen xml:id="msd.C-uk.lexicon" type="msd.lex" select="uk"/>
+    </div>
+    
+    
+    <div select="uk" type="section" xml:id="msd.M-uk">
+        <head>Ukrainian Numeral</head>
+        <table n="msd.cat" xml:id="msd.cat.M-uk" select="uk">
+            <head>Specification for UkrainianNumeral</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Numeral</cell>
+            <cell role="value" xml:lang="uk">Числівник</cell>
+            <cell role="code" xml:lang="en">M</cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">1</cell>
+              <cell role="name" xml:lang="en">Form</cell>
+            <cell role="name" xml:lang="uk">форма</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">digit</cell>
+                     <cell role="name" xml:lang="uk">цифра</cell>
+                    <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">roman</cell>
+                     <cell role="name" xml:lang="uk">римська</cell>
+                    <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">letter</cell>
+                     <cell role="name" xml:lang="uk">літера</cell>
+                    <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">2</cell>
+              <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="uk">тип</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">cardinal</cell>
+                     <cell role="name" xml:lang="uk">кількісний</cell>
+                    <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                    <cell role="name" xml:lang="en">ordinal</cell>
+                     <cell role="name" xml:lang="uk">порядковий</cell>
+                    <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">3</cell>
+              <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="name" xml:lang="uk">рід</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="name" xml:lang="uk">чоловічий</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="name" xml:lang="uk">жіночий</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="name" xml:lang="uk">середній</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">4</cell>
+              <cell role="name" xml:lang="en">Number</cell>
+            <cell role="name" xml:lang="uk">число</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="uk">однина</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="uk">множина</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">5</cell>
+              <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="uk">відмінок</cell>
+              <cell role="values">
+                <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="uk">називний</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="uk">родовий</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="uk">давальний</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="name" xml:lang="uk">знахідний</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="uk">орудний</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="name" xml:lang="uk">місцевий</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+            <row role="attribute">
+              <cell xml:lang="en" role="position">6</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="name" xml:lang="uk">істота</cell>
+            <cell role="data">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="uk">ні</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="uk">так</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                </table>
+              </cell>
+            </row>
+          </table>
+                <div xml:id="msd.M-uk.combinations" n="combinations">
+                <head>Combinations</head>
+                <table>
+            <row>
+               <cell>POS</cell> 
+               <cell>Form</cell> 
+               <cell>Type</cell> 
+               <cell>Gender</cell> 
+               <cell>Number</cell> 
+               <cell>Case</cell> 
+               <cell>Animate</cell> 
+               <cell>example</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>dr</cell> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell/> 
+               <cell>742, II, XI, LV</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>o</cell> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>ngdil</cell> 
+               <cell/> 
+               <cell>перший, сьомого, двадцятому</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>o</cell> 
+               <cell>fn</cell> 
+               <cell>s</cell> 
+               <cell>ngdail</cell> 
+               <cell/> 
+               <cell>перша, сьомій, двадцяте</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>o</cell> 
+               <cell>-</cell> 
+               <cell>p</cell> 
+               <cell>ngdil</cell> 
+               <cell/> 
+               <cell>десяті, третіми</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>o</cell> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>yn</cell> 
+               <cell>другого, шостого, перший</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>o</cell> 
+               <cell>-</cell> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>yn</cell> 
+               <cell>восьмих, десяті</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>c</cell> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>ngdil</cell> 
+               <cell/> 
+               <cell>один, одним, одному</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>c</cell> 
+               <cell>fn</cell> 
+               <cell>s</cell> 
+               <cell>ngdail</cell> 
+               <cell/> 
+               <cell>одна, одне, одній, одним, одному</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>c</cell> 
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>a</cell> 
+               <cell>y</cell> 
+               <cell>одного, один</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>c</cell> 
+               <cell>mfn</cell> 
+               <cell>p</cell> 
+               <cell>na</cell> 
+               <cell/> 
+               <cell>два, дві</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>c</cell> 
+               <cell>-</cell> 
+               <cell>p</cell> 
+               <cell>a</cell> 
+               <cell>yn</cell> 
+               <cell>двох, одні, одні-однісінькі</cell>
+            </row>
+            <row>
+               <cell>M</cell> 
+               <cell>l</cell> 
+               <cell>c</cell> 
+               <cell>-</cell> 
+               <cell>p</cell> 
+               <cell>ngdail</cell> 
+               <cell/> 
+               <cell>трьох, чотирьом, шістьма, сімом, трьома</cell>
+            </row>
+         </table>
+                </div>
+        <divGen xml:id="msd.M-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+      
+      <div select="uk" type="section" xml:id="msd.Q-uk">
+        <head>Ukrainian Particle</head>
+        <table n="msd.cat" xml:id="msd.cat.Q-uk" select="uk">
+            <head>Specification for UkrainianParticle</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Particle</cell>
+            <cell role="value" xml:lang="uk">Частка</cell>
+            <cell role="code" xml:lang="en">Q</cell>
+            </row>
+          </table>
+        <divGen xml:id="msd.Q-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+      <div select="uk" type="section" xml:id="msd.I-uk">
+        <head>Ukrainian Interjection</head>
+        <table n="msd.cat" xml:id="msd.cat.I-uk" select="uk">
+            <head>Specification for UkrainianInterjection</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Interjection</cell>
+            <cell role="value" xml:lang="uk">Вигук</cell>
+            <cell role="code" xml:lang="en">I</cell>
+            </row>
+          </table>
+        <divGen xml:id="msd.I-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+      <div select="uk" type="section" xml:id="msd.Y-uk">
+        <head>Ukrainian Abbreviation</head>
+        <table n="msd.cat" xml:id="msd.cat.Y-uk" select="uk">
+            <head>Specification for UkrainianAbbreviation</head>
+            <row role="type">
+            <cell xml:lang="en" role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Abbreviation</cell>
+            <cell role="value" xml:lang="uk">Скорочення</cell>
+            <cell role="code" xml:lang="en">Y</cell>
+            </row>
+          </table>
+        <divGen xml:id="msd.Y-uk.lexicon" type="msd.lex" select="uk"/>
+      </div>
+    <div type="section" select="uk" xml:id="msd.X-uk">
+      <head>Ukrainian Residual</head>
+      <table n="msd.cat" select="uk" xml:id="msd.cat.X-uk">
+        <head>Specification for UkrainianResidual</head>
+        <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
+            <cell role="value" xml:lang="en">Residual</cell>
+            <cell role="value" xml:lang="uk">Залишок</cell>
+            <cell role="code" xml:lang="en">X</cell>
+        </row>
+      </table>
+      <divGen xml:id="msd.X-uk.lexicon" type="msd.lex" select="uk"/>
+    </div>
+   <div type="section" select="uk" xml:id="msd.Z-uk">
+      <head>Ukrainian Punctuation</head>
+      <table n="msd.cat" select="uk" xml:id="msd.cat.Z-uk">
+         <head>Ukrainian Specification for Punctuation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Punctuation</cell>
+            <cell role="code" xml:lang="en">Z</cell>
+         </row>
+      </table>
+      <divGen xml:id="msd.Z-uk.lexicon" type="msd.lex" select="uk"/>
+   </div>
+   <div select="uk" type="section" xml:id="msd.attributes-uk">
+      <head>Ukrainian Attribute Index</head>
+      <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
+      <divGen type="msd.atts" select="uk"/>
+  </div>
+  <div select="uk" type="section" xml:id="msd.values-uk">
+      <head>Ukrainian Value Index</head>
+      <p>The values presented within the tables are, in the following, listed by categories; the first column gives the name of the value, the second column its code and the third lists the attributes for which the value is appropriate.</p>
+      <divGen type="msd.vals" select="uk"/>
+  </div>
+  <div select="uk" type="section" xml:id="msd.msds-uk">
+      <head>Ukrainian MSD Index</head>
+      <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third the number of word tokens (100% = 3,684,440 tokens) tagged with this MSD, and the fourth gives some examples as word-form/lemma. The list was extracted with the help of the UGTag program based on the extended version of the Ukrainian Grammatical Dictionary.</p>
+          <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-uk.msd.xml"/>
+        </div>
+</div>

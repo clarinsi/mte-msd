@@ -1,0 +1,4551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language"
+     select="sl-rozaj"
+     xml:id="msd-sl-rozaj"
+     xml:lang="en">
+  <head>Resian Specifications</head>
+  <docAuthor>Han Steenwijk, Dipartimento di Lingue e Letterature Anglo-Germaniche e Slave, Padova University</docAuthor>
+  <docDate>2018-11-11</docDate>
+  <list type="gloss">
+      <label>Language Name:</label>
+      <item>Resian</item>
+      <label>Code:</label>
+      <item>sl-rozaj</item>
+      <label>Reference:</label>
+      <item>
+         <ref target="http://www.iana.org/assignments/lang-tags/sl-rozaj">IANA</ref>
+      </item>
+  </list>
+  <divGen type="subtoc"/>
+  <div type="section" select="sl-rozaj" xml:id="msd.categories-rozaj">
+      <head>Resian Category Index</head>
+      <list>
+         <item>The order of the categories is different from the one in the common tables for MULTEXT-East languages and follows that for standard Slovene.</item>
+         <item>The category Article is, unlike in Slovene, clearly established for Resian and therefore added to the table of categories.</item>
+      </list>
+      <divGen type="msd.cats" select="sl-rozaj"/>
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.N-sl-rozaj">
+      <head>Resian Noun</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.N-sl-rozaj">
+         <head>Specification for Resian Noun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Noun</cell>
+            <cell role="code" xml:lang="en">N</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">common</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proper</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dual</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">collective</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">7</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>The value 'collective' for Number can only occur with the nominative case of masculine common nouns (Ncmln).</item>
+            <item>Animacy can also be marked on neuter singular accusative Nouns.</item>
+            <item>The feminine declension masculine noun has only one Ncmsa, that is marked as animate: oćo / father is Ncmsa--y.</item>
+         </list>
+      </div>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Gend</cell>
+               <cell>Numb</cell>
+               <cell>Case</cell>
+               <cell>Def</cell>
+               <cell>Cltc</cell>
+               <cell>Anim</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>stöl, stolä, lïpa, lïpi, jabulku, jabulki</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kjüčavi, kjüče</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>lïpe, jabulke</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>stolä, ..., lïpi, ..., jabulku, ...</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>c</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>stöl, tale, muža, taleta</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>c</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>lïpo</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>stole, stolä, lïpe, lïpi, jabulke, jabulki</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[ngdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>Rozajän, ..., Marïca, ..., Byrdu, ...</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>p</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>Rim, Rozajana</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>p</cell>
+               <cell>[fn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>Marïco, Byrdu</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>Rozajane, Rozajana, Klüže</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.V-sl-rozaj">
+      <head>Resian Verb</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.V-sl-rozaj">
+         <head>Specification for Resian Verb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Verb</cell>
+            <cell role="code" xml:lang="en">V</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">main</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">auxiliary</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">modal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">copula</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">VForm</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indicative</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subjunctive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperative</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">infinitive</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">participle</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">supine</cell>
+                     <cell role="code" xml:lang="en">u</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Tense</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">present</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperfect</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">future</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">past</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">aorist</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dual</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">collective</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">7</cell>
+            <cell role="name" xml:lang="en">Voice</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">active</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">passive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">8</cell>
+            <cell role="name" xml:lang="en">Negative</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">14</cell>
+            <cell role="name" xml:lang="en">Aspect</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">progressive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">perfective</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">15</cell>
+            <cell role="name" xml:lang="en">Courtesy</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+ 
+            <item>Verbs that can be of more than one Type are tagged according to their actual function, eg. byt / to be can be main, copula or auxiliary.</item>
+ 
+            <item>Adverbial participles like standard Slovene 'leže' / lying down are not attested for Resian.</item>
+ 
+            <item>Negative is always marked as 'n' except for two verbs: 'nïman' / not to have, 'nïsi' / not to be.</item>
+ 
+            <item>The subjunctive is formally identical to the imperative, with one form for the three persons in the singular and the forms for the 2nd and 3rd person plural being identical.</item>
+ 
+            <item>The aorist is encountered sporadically in historical texts only.</item>
+ 
+            <item>The attribute Courtesy is only relevant for the 2nd person plural, where forms in '-ta' refer to a plural subject and '-të' to a singular subject. For Slovene this attribute is not used, even though the distinction is made in a similar manner.</item>
+         </list>
+      </div>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>VFrm</cell>
+               <cell>Tens</cell>
+               <cell>Pers</cell>
+               <cell>Numb</cell>
+               <cell>Gend</cell>
+               <cell>Voic</cell>
+               <cell>Neg</cell>
+               <cell>Def</cell>
+               <cell>Cli</cell>
+               <cell>Cas</cell>
+               <cell>Ani</cell>
+               <cell>Cli</cell>
+               <cell>Aspe</cell>
+               <cell>Cour</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>byt</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>1</cell>
+               <cell>[pd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>bodimö, bodiwa</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>[ms]</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>bodi, bodita</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>[ms]</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>[ny]</cell>
+               <cell>bodita, boditë</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>[13]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>bodi, bodita</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>i</cell>
+               <cell>[fia]</cell>
+               <cell>[13]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>bon, bo, bomö, bowa..., bëšon, bëšë, bëšamö..., (no aorist examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>i</cell>
+               <cell>[fia]</cell>
+               <cell>2</cell>
+               <cell>[sd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>boš, bota, bëšë, bëšta, (no aorist examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>i</cell>
+               <cell>[fia]</cell>
+               <cell>2</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>[ny]</cell>
+               <cell>bota, botë, bëšta, bëštë, (no aorist examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[13]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>nïsi, ..., si, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>nïsi, nïsta, si, sta</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>[ny]</cell>
+               <cell>nïsta, nïstë, sta, stë</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[spdl]</cell>
+               <cell>m</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>bil, bila, bili, bile</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>[ca]</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[spd]</cell>
+               <cell>[fn]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>bila, bilu, bili, bile</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>tët, morët (no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>1</cell>
+               <cell>[pd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>morëjmö, morëjwa (no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>[ms]</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>morëj, morëjta (no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>[ms]</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>[ny]</cell>
+               <cell>morëjta, morëjtë (no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>[13]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>morëj, morëjta (no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>[ia]</cell>
+               <cell>[13]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>tëšon, tëšë, tëšamö... (no perfective or aorist examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>[ia]</cell>
+               <cell>2</cell>
+               <cell>[sd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>tëšë, tëšta (no perfective or aorist examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>[ia]</cell>
+               <cell>2</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>[ny]</cell>
+               <cell>tëšta, tëštë (no perfective or aorist examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[13]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>nïman, ..., man, ... (no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>nïmaš, nïmata, maš, mata (no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>[ny]</cell>
+               <cell>nïmata, nïmatë, mata, matë (no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[spdl]</cell>
+               <cell>m</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>tël, tëla, tëli, tële(no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[spd]</cell>
+               <cell>[fn]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>tëla, tëlu, tëli, tële (no perfective examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[spdl]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[spd]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>delat, zdelat</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>u</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>spat (no perfective example)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>1</cell>
+               <cell>[pd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>delajmö, ..., zdelajmö, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>[ms]</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>delej, ..., zdelej, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>[ms]</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>[ny]</cell>
+               <cell>delajta, delajtë, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>[13]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>delej, delajta, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>[ia]</cell>
+               <cell>[13]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>diwašon, diwašë, ... (no perfective or aorist examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>[ia]</cell>
+               <cell>2</cell>
+               <cell>[sd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>diwašë, diwašta (no perfective or aorist examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>[ia]</cell>
+               <cell>2</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>[ny]</cell>
+               <cell>diwašta, diwaštë (no perfective or aorist examples)</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>[13]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>nïman, ..., zdilan, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>[sd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>nïmaš, ..., zdilaš, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>p</cell>
+               <cell>2</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>[ny]</cell>
+               <cell>nïmata, ..., zdilata, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[spdl]</cell>
+               <cell>m</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>delal, delala, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[spd]</cell>
+               <cell>[fn]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>delala, delalu, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[spdl]</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>uwdilan, uwdilani, ...</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[spd]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pe]</cell>
+               <cell>-</cell>
+               <cell>uwdilana, uwdilanu, ...</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.A-sl-rozaj">
+      <head>Resian Adjective</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.A-sl-rozaj">
+         <head>Specification for Resian Adjective</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adjective</cell>
+            <cell role="code" xml:lang="en">A</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">qualificative</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ordinal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">elative</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">diminutive</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dual</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">collective</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">8</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>Uninflecting adjectives distinguish only Type. Their Degree is always positive, eg. 'duji' / wild and 'sadoć' / sitting are Afp.</item>
+            <item>The value 'diminutive' for Degree is relevant for derivated adjectives that end with the suffix '-ić'.</item>
+            <item>There are no 'archaic' indefinite forms that distinguish accent position.</item>
+         </list>
+      </div>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Degr</cell>
+               <cell>Gend</cell>
+               <cell>Numb</cell>
+               <cell>Case</cell>
+               <cell>Def</cell>
+               <cell>Cltc</cell>
+               <cell>Anim</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>n</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>böguw, bögavi, bögawu, bögavë</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>[mn]</cell>
+               <cell>d</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>f</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>bögawa (no dual example)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>bögavi, bögave</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>bögave</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>bögavaga, ... (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>bögavi, bögavë, bögavaga</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>bögawo</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>s</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>bögave (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>militar</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>rozajanski, ... (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>rozajanski, rozajanske</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>rozajanske</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>rozajanskaga, rozajanskimu, ... (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>rozajanski, rozajanskë, rozajanskaga</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>rozajansko</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>o</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>rozajanske (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>duji, frëšk</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>zalën, zalanä, zalanö, ..., zalëni, ... (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>p</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>zaliny, zalane, zalëni, zalëne</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>p</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>zalane, zalëne</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>p</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>zalën, zalanö, zalaniga, ...</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>p</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>zalano, zalëno</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>d</cell>
+               <cell>a</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>p</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>zalaniga, ...., zalënaga, ... (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>[csed]</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>liwči, liwčaga, ..., najliwči, ..., priliwči, ..., lipići, ... (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>[csed]</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>liwči, ..., liwče, ...</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>[csed]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>liwče, ...</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>[csed]</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>liwčaga, liwčimu, ... (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>[csed]</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>liwči, liwčë, liwčaga, ...</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>[csed]</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>liwčo, ...</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>f</cell>
+               <cell>[csed]</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>liwče, ... (no dual examples)</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.P-sl-rozaj">
+      <head>Resian Pronoun</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.P-sl-rozaj">
+         <head>Specification for Resian Pronoun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Pronoun</cell>
+            <cell role="code" xml:lang="en">P</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">personal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">demonstrative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indefinite</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">interrogative</cell>
+                     <cell role="code" xml:lang="en">q</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">relative</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">reflexive</cell>
+                     <cell role="code" xml:lang="en">x</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dual</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">collective</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Owner_Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dual</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">7</cell>
+            <cell role="name" xml:lang="en">Owner_Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">8</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">bound</cell>
+                     <cell role="code" xml:lang="en">b</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">9</cell>
+            <cell role="name" xml:lang="en">Referent_Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">personal</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">10</cell>
+            <cell role="name" xml:lang="en">Syntactic_Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominal</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">adjectival</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">11</cell>
+            <cell role="name" xml:lang="en">Definiteness</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">12</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+ 
+            <item>The taxonomy for Type is in concordance with the grammatical analysis of Resian, be it that 'other' here appears as the value 'general'.</item>
+ 
+            <item>No pronouns with the formant 'koli' are attested in Resian.</item>
+ 
+            <item>In the modern language 'swöj' / own is an adjective.</item>
+         </list>
+      </div>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Pers</cell>
+               <cell>Gend</cell>
+               <cell>Numb</cell>
+               <cell>Case</cell>
+               <cell>PosN</cell>
+               <cell>PosG</cell>
+               <cell>Clc</cell>
+               <cell>Ref</cell>
+               <cell>Syn</cell>
+               <cell>Def</cell>
+               <cell>Ani</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>y</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>se, si</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[gdali]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[yb]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>se, si, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[gdali]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>sabe, sabë, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>x</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>p</cell>
+               <cell>[12]</cell>
+               <cell>-</cell>
+               <cell>[spd]</cell>
+               <cell>[ngdali]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[nyb]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>mle, mlë, ..., näs, ..., me, ..., nas</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>p</cell>
+               <cell>3</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[ngdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[nyb]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>njagä, njimü, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>p</cell>
+               <cell>3</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[nyb]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>ga, ji, njaga</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>p</cell>
+               <cell>3</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[nyb]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>nju, jo, njo</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[12]</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>möj, ..., twöj, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[12]</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>mujy, me, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[12]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>me, tve</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[12]</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>miga, ..., tviga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[12]</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>möj, mö, miga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[12]</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>mo, two</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[12]</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>[spd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>me, ..., tve, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[3]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>[mfn]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>njagä, nji</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[3]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[pd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>njy, njü</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>jse, ..., jte, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>jsï, jse, jtï, jte</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>jse, jte</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>jsogä, ..., jtogä, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>jse, jsö, jsogä, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>jso, jto</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>jse, ..., jte, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ngdali]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>du, kej, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kiri, ..., kak, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kiri, kire, kaki, kake</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kire, kake</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kiraga, ..., kakaga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>kiri, kirë, kiraga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kiro, kako</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>i</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kire, ..., kake, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ngdali]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>du, koj, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kiri, ..., kak, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kiri, kire, kaki, kake</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kire, kake</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kiraga, ..., kakaga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>kiri, kirë, kiraga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kiro, kako</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>q</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>kire, ..., kake, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>ki</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ngdali]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>dur, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>(no examples)</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ngdali]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>nišći, ..., nikar</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>nidan, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>nini, nine</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>nine</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>ninaga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>nini, ninë, ninaga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>nino</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>z</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>nine, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>vys, ..., wsak, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>wsy, wse, wsaki, wsake</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>wse, wsake</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>wsiga, ..., wsakaga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>vys, wsë, wsiga, ...</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>wso, wsako</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>g</cell>
+               <cell>-</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[an]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>wse, ..., wsake, ...</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.T-sl-rozaj">
+      <head>Resian Article</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.T-sl-rozaj">
+         <head>Specification for Resian Article</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Article</cell>
+            <cell role="code" xml:lang="en">T</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">definite</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indefinite</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dual</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">collective</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+            <item>The category Article is clearly established for Resian and therefore added to the table of categories for Slovene.</item>
+ 
+            <item>The definite article is 'te ta tö' and formally distinct from the demonstrative pronoun from which it derived: 'jte jta jtö'.</item>
+ 
+            <item>The indefinite pronoun is 'din na nö' and formally distinct from the numeral from which it derived: 'dyn dnä dnö'.</item>
+         </list>
+      </div>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Gend</cell>
+               <cell>Numb</cell>
+               <cell>Case</cell>
+               <cell>Cltc</cell>
+               <cell>Anim</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>T</cell>
+               <cell>[fi]</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>te, din, ... (no dual examples)</cell>
+            </row>
+            <row>
+               <cell>T</cell>
+               <cell>[fi]</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>ti, te, ni, ne</cell>
+            </row>
+            <row>
+               <cell>T</cell>
+               <cell>[fi]</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>te, ne</cell>
+            </row>
+            <row>
+               <cell>T</cell>
+               <cell>[fi]</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>toga, timu, ..., noga, numu, ...</cell>
+            </row>
+            <row>
+               <cell>T</cell>
+               <cell>[fi]</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>te, tö, toga, din, nö, noga</cell>
+            </row>
+            <row>
+               <cell>T</cell>
+               <cell>[fi]</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>to, no</cell>
+            </row>
+            <row>
+               <cell>T</cell>
+               <cell>[fi]</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>te, ne (no dual examples)</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.R-sl-rozaj">
+      <head>Resian Adverb</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.R-sl-rozaj">
+         <head>Specification for Resian Adverb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adverb</cell>
+            <cell role="code" xml:lang="en">R</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">elative</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+ 
+            <item>Adverbial participles like standard Slovene 'leže' / lying down are not attested for Resian.</item>
+         </list>
+      </div>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Degr</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>R</cell>
+               <cell>g</cell>
+               <cell>p</cell>
+               <cell>löpu</cell>
+            </row>
+            <row>
+               <cell>R</cell>
+               <cell>g</cell>
+               <cell>c</cell>
+               <cell>liwčë</cell>
+            </row>
+            <row>
+               <cell>R</cell>
+               <cell>g</cell>
+               <cell>s</cell>
+               <cell>najliwčë</cell>
+            </row>
+            <row>
+               <cell>R</cell>
+               <cell>g</cell>
+               <cell>e</cell>
+               <cell>(no examples)</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.S-sl-rozaj">
+      <head>Resian Adposition</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.S-sl-rozaj">
+         <head>Specification for Resian Adposition</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Adposition</cell>
+            <cell role="code" xml:lang="en">S</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">preposition</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+ 
+            <item>All adpositions are prepositions.</item>
+ 
+            <item>Compound prepositions, like ta-na / in, at are tagged as such.</item>
+ 
+            <item>The preposition fra / among requires the nominative case.</item>
+         </list>
+      </div>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Form</cell>
+               <cell>Case</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>c</cell>
+               <cell>-</cell>
+               <cell>ta-za</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>c</cell>
+               <cell>g</cell>
+               <cell>ta-stran, ta-mi (sridi od)</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>c</cell>
+               <cell>d</cell>
+               <cell>ta-par</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>c</cell>
+               <cell>a</cell>
+               <cell>ta-na, ta-prid, ta-w, ta-za, ...</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>c</cell>
+               <cell>l</cell>
+               <cell>ta-na, ta-w, ta-po</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>c</cell>
+               <cell>i</cell>
+               <cell>ta-pod, ta-prid, ta-za, ...</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>za</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>n</cell>
+               <cell>fra</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>g</cell>
+               <cell>čenče, wod, ...</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>d</cell>
+               <cell>küntra, ...</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>na, prid, w, za, ...</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>l</cell>
+               <cell>na, w, po, ...</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>p</cell>
+               <cell>s</cell>
+               <cell>i</cell>
+               <cell>pod, prid, za, ...</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.C-sl-rozaj">
+      <head>Resian Conjunction</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.C-sl-rozaj">
+         <head>Specification for Resian Conjunction</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Conjunction</cell>
+            <cell role="code" xml:lang="en">C</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">coordinating</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subordinating</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Formation</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">simple</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">compound</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+ 
+            <item>Compound conjunctions, like za wojo ki / because are tagged as such.</item>
+         </list>
+      </div>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Form</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>C</cell>
+               <cell>c</cell>
+               <cell>s</cell>
+               <cell>anu, aliböj, ...</cell>
+            </row>
+            <row>
+               <cell>C</cell>
+               <cell>s</cell>
+               <cell>s</cell>
+               <cell>da, ći, ko, ...</cell>
+            </row>
+            <row>
+               <cell>C</cell>
+               <cell>c</cell>
+               <cell>c</cell>
+               <cell>invëci ki, ...</cell>
+            </row>
+            <row>
+               <cell>C</cell>
+               <cell>s</cell>
+               <cell>c</cell>
+               <cell>za wojo ki, ...</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.M-sl-rozaj">
+      <head>Resian Numeral</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.M-sl-rozaj">
+         <head>Specification for Resian Numeral</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Numeral</cell>
+            <cell role="code" xml:lang="en">M</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">cardinal</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ordinal</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Gender</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">masculine</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">feminine</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">neuter</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dual</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">collective</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">accusative</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">locative</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Form</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">digit</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">roman</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">letter</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">9</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="values">
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+ 
+            <item>A division of numerals according to their nominal, adjectival or adverbial function is not usual in Resian grammar.</item>
+ 
+            <item>No multiple or special numerals are attested in Resian.</item>
+         </list>
+      </div>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Type</cell>
+               <cell>Gend</cell>
+               <cell>Numb</cell>
+               <cell>Case</cell>
+               <cell>Form</cell>
+               <cell>Def</cell>
+               <cell>Clt</cell>
+               <cell>Cls</cell>
+               <cell>Anm</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>d</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>1984, ...</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>r</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>MCMXXCIV, ...</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>dyn, dnä, dnö, ...</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>dny, dne</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>dne</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>dnogä, dnumü, ...</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>dyn, dnö, dnogä</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>dno</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>dne</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>-</cell>
+               <cell>[na]</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>dva, dvi</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[gdli]</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>dvëma, ...</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>[mfn]</cell>
+               <cell>-</cell>
+               <cell>n</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>trïji, trï, štirji, štiri</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>c</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>trï, štiri, pet, šejst, ...</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>o</cell>
+               <cell>[mfn]</cell>
+               <cell>[sd]</cell>
+               <cell>n</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>pyrvi, pyrwa, pyrvë, ...</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>o</cell>
+               <cell>m</cell>
+               <cell>[pl]</cell>
+               <cell>n</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>pyrvi, pyrve</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>o</cell>
+               <cell>[fn]</cell>
+               <cell>p</cell>
+               <cell>n</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>pyrve</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>o</cell>
+               <cell>[mfn]</cell>
+               <cell>[spd]</cell>
+               <cell>[gdli]</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>pyrvaga, pyrvimu, ...</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>o</cell>
+               <cell>[mn]</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+               <cell>pyrvi, pyrvë, pyrvaga</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>o</cell>
+               <cell>f</cell>
+               <cell>s</cell>
+               <cell>a</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>pyrwo</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>o</cell>
+               <cell>[mfn]</cell>
+               <cell>[pd]</cell>
+               <cell>a</cell>
+               <cell>l</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>pyrve</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.Q-sl-rozaj">
+      <head>Resian Particle</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.Q-sl-rozaj">
+         <head>Specification for Resian Particle</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Particle</cell>
+            <cell role="code" xml:lang="en">Q</cell>
+         </row>
+      </table>
+    
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>Q</cell>
+               <cell>ba, baj, ...</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.I-sl-rozaj">
+      <head>Resian Interjection</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.I-sl-rozaj">
+         <head>Specification for Resian Interjection</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Interjection</cell>
+            <cell role="code" xml:lang="en">I</cell>
+         </row>
+      </table>
+    
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>I</cell>
+               <cell>në, na, nu, ...</cell>
+            </row>
+         </table>
+      </div>
+    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.Y-sl-rozaj">
+      <head>Resian Abbreviation</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.Y-sl-rozaj">
+         <head>Specification for Resian Abbreviation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Abbreviation</cell>
+            <cell role="code" xml:lang="en">Y</cell>
+         </row>
+      </table>
+    
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>Y</cell>
+               <cell>(no examples)</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.X-sl-rozaj">
+      <head>Resian Residual</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.X-sl-rozaj">
+         <head>Specification for Resian Residual</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Residual</cell>
+            <cell role="code" xml:lang="en">X</cell>
+         </row>
+      </table>
+      <div n="combinations">
+         <head>Combinations</head>
+         <table>
+            <row>
+               <cell>PoS</cell>
+               <cell>Examples</cell>
+            </row>
+            <row>
+               <cell>X</cell>
+               <cell>(no examples)</cell>
+            </row>
+         </table>
+      </div>
+      <divGen type="msd.lex" select="sl-rozaj"/>    
+   </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.Z-sl-rozaj">
+      <head>Resian Punctuation</head>
+      <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.Z-sl-rozaj">
+         <head>Resian Specification for Punctuation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="value" xml:lang="en">Punctuation</cell>
+            <cell role="code" xml:lang="en">Z</cell>
+         </row>
+      </table>
+      <divGen xml:id="msd.Z-sl-rozaj.lexicon" type="msd.lex" select="sl-rozaj"/>
+   </div>
+   <div type="section" select="sl-rozaj" xml:id="msd.attributes-sl-rozaj">
+      <head>Resian Attribute Index</head>
+      <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
+      <list>
+         <item>It Courtesy is only relevant for the 2nd person plural, where forms in '-ta' refer to a plural subject and '-të' to a singular subject. For Slovene this attribute is not used, even though the distinction is made in a similar manner.</item>
+      </list>
+      <divGen type="msd.atts" select="sl-rozaj"/>
+  </div>
+  <div type="section" select="sl-rozaj" xml:id="msd.values-sl-rozaj">
+      <head>Resian Value Index</head>
+      <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
+      <divGen type="msd.vals" select="sl-rozaj"/>
+  </div>
+   <div select="sl-rozaj" type="section" xml:id="msd.msds-sl-rozaj">
+      <head>Resian MSD Index</head>
+      <p xml:lang="en">This index gives the list of corpus attested morphosyntactic descriptions and their features. The first column gives the MSD, the second its expansion into a feature-structure, the third the number of word tokens and the fourth the number of word types tagged with this MSD, with the fifth giving some examples as word-form/lemma, where the latter is omitted when the two are identical.</p>
+  
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl-rozaj.msd.xml"/>
+   </div>
+</div>
