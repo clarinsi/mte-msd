@@ -4,7 +4,7 @@
      xml:lang="en">
   <head>Czech Specifications</head>
   <docAuthor>Vladimír Petkevič, Faculty of Philosophy, Charles University, Prague.</docAuthor>
-  <docDate>2018-11-11</docDate>
+  <docDate>2018-11-12</docDate>
   <list type="gloss">
       <label>Language Name:</label>
       <item>Czech</item>
@@ -146,7 +146,6 @@ Skoumalová. For all errors solely the author is to blame.
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. Czech distinguishes masculine animate (Animate=yes above) and masculine inanimate (Animate=no) Gender. Masculine inani- mate Nouns always have the same form in the nominative and ac- cusative Case, whereas masculine animate Nouns have predomi- nantly the same form in the genitive and accusative Case. Mas- culine animate Nouns and masculine inanimate Nouns differ in accusative singular and nominative plural only.</p>
          <p>2. The dual Number manifests itself only in the instrumental Case of several Nouns denoting dual parts of the human body.</p>
          <p>3. Czech distinguishes 7 cases, the locative Case being obligato- rily prepositional. With most paradigms, the form of the voca- tive differs from that of the nominative in singular; in plu- ral the form of the vocative is identical to that of the nomi- native for all the paradigms.</p>
@@ -764,7 +763,6 @@ Skoumalová. For all errors solely the author is to blame.
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. The verb "být" (E. "to be") in all its functions is characte- rized as Type=c (i.e. the copula), which clearly is an over- simplification because the verb has more meanings (auxiliary etc.).</p>
          <p>2. Auxiliary verbs (Type=a) include neither the verb "být" (see above), nor the modal verbs.</p>
          <p>3. The 'past participle' in Czech is used for expressing compound active past Tense and is encoded as: Type=p(articiple), Tense=p(ast), Voice=a(ctive).</p>
@@ -2440,7 +2438,6 @@ Skoumalová. For all errors solely the author is to blame.
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. Three deverbative adjectival participles, i.e. past active participle, passive participle and present active participle are not distinguished. They are conflated in the 'qualifica- tive' value of the Type attribute (Type=f).</p>
          <p>2. Only qualificative (and passive participle) Adjectives can be specified for Degree and for nominal (short) Form.</p>
          <p>3. The attributes Gender, Number, Case and Animate correspond to the same categories within the Nouns. They are necessary for the proper account of agreement of Adjectives with Nouns.</p>
@@ -3629,7 +3626,6 @@ Skoumalová. For all errors solely the author is to blame.
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. Gender, Number, Case and Animate correspond to the same categories as specified for Nouns. They are necessary for the proper account of agreement of adjectival Pronouns with Nouns.</p>
          <p>2. Type=reflexive ecompasses all reflexive pronouns (ªseº, ªsebeº, ªsiº, ªsvůjº) as well as "se" in its role as the obligatory particle of reflexive verbs. Personal and possessive reflexives are further distinguished via the Referent_Type attribute. "se" in all its roles will be marked as the reflexive personal clitic pronoun.</p>
          <p>3. Pronouns are distinguished between having a (syntactically) nominal and (syntactically) adjectival function. All pronominal types except the demonstrative and possessive one can be nominal, and all except for the personal one can be adjectival.</p>
@@ -4133,7 +4129,6 @@ Skoumalová. For all errors solely the author is to blame.
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. The  classification  given  above  is considerably simplified  as
    compared  to traditional  Czech grammars.  There can  be other
    classifications as well, eg.:<lb/>
@@ -4256,7 +4251,6 @@ Skoumalová. For all errors solely the author is to blame.
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. Czech has only Prepositions, no postpositions.</p>
          <p>2. For the disambiguation of word forms belonging to declension parts of speech it seems necessary to include the information about the case which each Preposition requires.</p>
          <p>3. A preposition can be contracted with a pronoun; such a preposition has Formation=c(ompound).</p>
@@ -4382,7 +4376,6 @@ Skoumalová. For all errors solely the author is to blame.
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. Conjunctions "abych", "abys", ..., "kdybych", ... are composed of the Conjunction "aby" or "kdyby" and the conditional particle ªbyº ("bych", "bys", "by", "bychom", "byste"). These Conjunctions are therefore specified for Person and Number for the sake of agreement relation.</p>
          <p>2. The class of two-part Conjunctions has not been introduced.</p>
       </div>
@@ -4644,7 +4637,6 @@ Skoumalová. For all errors solely the author is to blame.
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. Numerals have been specified as a separate category because of their specific syntactic distribution. We have specified two syntactic classifications by means of the attributes Type and Class; they concern different syntactic distributions. For instance "několik" (E. "several") will be characterized as: Type: cardinal Class: indefinite</p>
          <p>2. Among the definite numbers there are four subclasses (definite1, definite2, definite34, definite) which differ in their syntactic distribution and contain the following Numerals: {1}, {2}, {3,4}, {5,6,...}</p>
          <p>3. Gender, Number and Case correspond to the same categories as specified for Nouns. They are necessary for the proper account of agreement of Numerals with Nouns.</p>
@@ -4911,7 +4903,7 @@ Skoumalová. For all errors solely the author is to blame.
   <div type="section" select="cs" xml:id="msd.Z-cs">
       <head>Czech Punctuation</head>
       <table n="msd.cat" select="cs" xml:id="msd.cat.Z-cs">
-         <head>Czech Specification for Punctuation</head>
+         <head>Specification for Czech Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

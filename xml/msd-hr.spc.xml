@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Croatian Specifications</head>
    <docAuthor>Tomaž Erjavec, Nikola Ljubešić</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Croatian</item>
@@ -31,7 +31,7 @@
    </div>
    <div type="section" select="hr" xml:id="msd.categories-hr">
       <head>Croatian Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-hr">
+      <div xml:id="msd.cats-hr">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -119,7 +119,7 @@
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div type="section" select="hr" xml:id="msd.N-hr">
       <head>Croatian Noun</head>

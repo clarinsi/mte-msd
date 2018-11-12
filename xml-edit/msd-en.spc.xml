@@ -4,7 +4,7 @@
      xml:lang="en">
   <head>English Specifications</head>
   <docAuthor>Nancy Ide, Greg Priest-Dorman, Tomaž Erjavec, Tamas Varadi</docAuthor>
-  <docDate>2018-11-11</docDate>
+  <docDate>2018-11-12</docDate>
   <list type="gloss">
       <label>Language Name:</label>
       <item>English</item>
@@ -199,7 +199,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>These tags do not attempt to represent distinctions found in the various compound verb-forms. These are composed of a sequence of auxiliary and non-finite verb as follows:</p>
          <table>
             <row>
@@ -281,7 +280,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>Gender, number and case irrelevant for English.</p>
          <p>Attributive/predicative distinction reflects positional constraints - some adjectives ('mere', 'utter', etc.) only appear in prenominal position, while others ('awake', 'devoid', etc.) only appear in predicative position. Most can appear in either.</p>
          <p>Since many English comparatives and superlatives are formed with more/most, "positive" cannot be interpreted as "neither comparative nor superlative". See "Adverbs".</p>
@@ -458,7 +456,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>"General" pronouns are those which are not personal, possessive, demonstrative or reflexive. The choice of these four categories is based on distributional facts, though at a rather high level of abstraction. They enter into anaphoric dependencies which are signalled morphosyntactically and are therefore (in principle) more amenable to automatic detection. Most general pronouns do not, although they too sometimes encode number information.</p>
          <p>"WH" attribute added to allow for combination of possessive and WH in "whose".</p>
       </div>
@@ -660,7 +657,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>No distinction has been made between different types of "modifier" adverbs ("sentence-modifying", "VP-modifying", etc.), since their distributions overlap considerably.</p>
       </div>
       <divGen type="msd.lex" select="en"/>
@@ -745,7 +741,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>Subordinating conjunctions are often identical to prepositions (before, after, since, ...).</p>
       </div>
     
@@ -780,7 +775,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>These have not been subsumed under adjectives, pronouns, determiners, etc. because the internal structure of complex numerals is idiosyncratic.</p>
       </div>
     
@@ -831,7 +825,7 @@
   <div type="section" select="en" xml:id="msd.Z-en">
       <head>English Punctuation</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.Z-en">
-         <head>English Specification for Punctuation</head>
+         <head>Specification for English Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

@@ -5,7 +5,7 @@
      xml:lang="en">
    <head>Resian Specifications</head>
    <docAuthor>Han Steenwijk, Dipartimento di Lingue e Letterature Anglo-Germaniche e Slave, Padova University</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Resian</item>
@@ -23,7 +23,7 @@
          <item>The order of the categories is different from the one in the common tables for MULTEXT-East languages and follows that for standard Slovene.</item>
          <item>The category Article is, unlike in Slovene, clearly established for Resian and therefore added to the table of categories.</item>
       </list>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-sl-rozaj">
+      <div xml:id="msd.cats-sl-rozaj">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -117,7 +117,7 @@
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div type="section" select="sl-rozaj" xml:id="msd.N-sl-rozaj">
       <head>Resian Noun</head>
@@ -7831,7 +7831,7 @@
    <div type="section" select="sl-rozaj" xml:id="msd.Z-sl-rozaj">
       <head>Resian Punctuation</head>
       <table n="msd.cat" select="sl-rozaj" xml:id="msd.cat.Z-sl-rozaj">
-         <head>Resian Specification for Punctuation</head>
+         <head>Specification for Resian Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

@@ -778,7 +778,7 @@
                <p>Each category is a feature-structure type, i.e. it introduces attribute value pairs. The
             equivalence of a particular attribute-value at a particular position in a
             morpho-syntactic description is thus defined only with respect to a given category. </p>
-               <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats">
+               <div xml:id="msd.cats">
                   <head>Table of categories</head>
                   <table>
                      <row role="label">
@@ -1202,7 +1202,7 @@
                         <cell role="lang">ce</cell>
                      </row>
                   </table>
-               </tei:div>
+               </div>
             </div>
             <div type="section" xml:id="msd.att-val">
                <head>Attributes and values</head>

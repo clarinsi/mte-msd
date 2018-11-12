@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Macedonian Specifications</head>
    <docAuthor>Katerina Čundeva-Zdravkova</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Macedonian</item>
@@ -18,7 +18,7 @@
    <divGen type="subtoc"/>
    <div type="section" select="mk" xml:id="msd.categories-mk">
       <head>Macedonian Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-mk">
+      <div xml:id="msd.cats-mk">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -106,7 +106,7 @@
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div type="section" select="mk" xml:id="msd.N-mk">
       <head>Macedonian Noun</head>
@@ -5836,7 +5836,7 @@
    <div type="section" select="mk" xml:id="msd.Z-mk">
       <head>Macedonian Punctuation</head>
       <table n="msd.cat" select="mk" xml:id="msd.cat.Z-mk">
-         <head>Macedonian Specification for Punctuation</head>
+         <head>Specification for Macedonian Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

@@ -4,7 +4,7 @@
      xml:lang="en">
   <head>Hungarian Specifications</head>
   <docAuthor>László Tihanyi, Tamás Váradi, Csaba Oravecz</docAuthor>
-  <docDate>2018-11-11</docDate>
+  <docDate>2018-11-12</docDate>
   <list type="gloss">
       <label>Language Name:</label>
       <item>Hungarian</item>
@@ -352,7 +352,6 @@
       </div>
       <div type="section">
          <head>Compounding</head>
-
          <p>Compounding is handled in a very similar way to derivation. The rightmost word class is always the resulting one. If it contains some derivation as well then the result is the word class that the derivation determines.</p>
          <p>Examples:</p>
          <list type="ordered">
@@ -716,7 +715,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. 1s2s is a special form for definitness, in which the speaker's person is first singular (I) and the target of the transitivity is second singular (you).</p>
          <p>2. A Hungarian main verb has 3(Person)*2(Number)*4(Present indicative, Present imperativ, Present conditional,Past indicative)*2(Transitivity) +4(1s2s)+7(Infinitive)=59 different forms.</p>
       </div>
@@ -1009,7 +1007,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. Adjectives have the same suffixes that Nouns have plus Degree. Thus the number of possibble forms is 3*924=2772.</p>
          <p>2. Types like ordinal and cardinal are grouped as numerals.</p>
       </div>
@@ -1517,7 +1514,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. The modifier -e question word (the only Hungarian clitic) is attached to the preceding word with a hyphen.</p>
          <p>2. Some adverbs may have degree, but these do not formulate a special class. Presently we cannot give a criteria for this.</p>
       </div>
@@ -1593,7 +1589,6 @@
       </table>
       <div n="notes">
          <head>Notes</head>
-
          <p>1. Some of them require a suffix on the preceding noun (e.g. asztal+on túl[S]) while others do not (e.g. asztal[N] mellett[S]). This feature is not represented here.</p>
       </div>
       <div n="combinations">
@@ -2043,7 +2038,7 @@
   <div type="section" select="hu" xml:id="msd.Z-hu">
       <head>Hungarian Punctuation</head>
       <table n="msd.cat" select="hu" xml:id="msd.cat.Z-hu">
-         <head>Hungarian Specification for Punctuation</head>
+         <head>Specification for Hungarian Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

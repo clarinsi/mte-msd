@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Czech Specifications</head>
    <docAuthor>Vladimír Petkevič, Faculty of Philosophy, Charles University, Prague.</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Czech</item>
@@ -23,7 +23,7 @@ Skoumalová. For all errors solely the author is to blame.
    <divGen type="subtoc"/>
    <div type="section" select="cs" xml:id="msd.categories-cs">
       <head>Czech Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-cs">
+      <div xml:id="msd.cats-cs">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -111,7 +111,7 @@ Skoumalová. For all errors solely the author is to blame.
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div type="section" select="cs" xml:id="msd.N-cs">
       <head>Czech Noun</head>
@@ -13681,7 +13681,7 @@ Skoumalová. For all errors solely the author is to blame.
    <div type="section" select="cs" xml:id="msd.Z-cs">
       <head>Czech Punctuation</head>
       <table n="msd.cat" select="cs" xml:id="msd.cat.Z-cs">
-         <head>Czech Specification for Punctuation</head>
+         <head>Specification for Czech Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Ukrainian Specifications</head>
    <docAuthor>Natalia Kotsyba, Igor Shevchenko, Ivan Derzhanski, Andriy Mykulyak</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Ukrainian</item>
@@ -28,7 +28,7 @@ to better reflect MULTEXT-East categorisations. </p>
    </div>
    <div type="section" xml:id="msd.categories-uk" select="uk">
       <head>Ukrainian Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-uk">
+      <div xml:id="msd.cats-uk">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -158,7 +158,7 @@ to better reflect MULTEXT-East categorisations. </p>
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div select="uk" type="section" xml:id="msd.N-uk">
       <head>Ukrainian Noun</head>
@@ -11639,7 +11639,7 @@ to better reflect MULTEXT-East categorisations. </p>
    <div type="section" select="uk" xml:id="msd.Z-uk">
       <head>Ukrainian Punctuation</head>
       <table n="msd.cat" select="uk" xml:id="msd.cat.Z-uk">
-         <head>Ukrainian Specification for Punctuation</head>
+         <head>Specification for Ukrainian Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

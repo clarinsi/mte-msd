@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Polish Specifications</head>
    <docAuthor>Natalia Kotsyba, Ivan Derzhanski, Adam Radziszewski</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Polish</item>
@@ -27,7 +27,7 @@ some of them were presented as a combination of selected values and attributes o
    </div>
    <div type="section" xml:id="msd.categories-pl" select="pl">
       <head>Polish Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-pl">
+      <div xml:id="msd.cats-pl">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -115,7 +115,7 @@ some of them were presented as a combination of selected values and attributes o
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div select="pl" type="section" xml:id="msd.N-pl">
       <head>Polish Noun</head>
@@ -10829,7 +10829,7 @@ some of them were presented as a combination of selected values and attributes o
    <div type="section" select="pl" xml:id="msd.Z-pl">
       <head>Polish Punctuation</head>
       <table n="msd.cat" select="pl" xml:id="msd.cat.Z-pl">
-         <head>Polish Specification for Punctuation</head>
+         <head>Specification for Polish Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

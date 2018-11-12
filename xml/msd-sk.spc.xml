@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Slovak Specifications</head>
    <docAuthor>Radovan Garabík</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Slovak</item>
@@ -80,7 +80,7 @@
    <divGen type="subtoc"/>
    <div type="section" select="sk" xml:id="msd.categories-sk">
       <head>Slovak Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-sk">
+      <div xml:id="msd.cats-sk">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -210,7 +210,7 @@
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div type="section" select="sk" xml:id="msd.N-sk">
       <head>Slovak Noun</head>
@@ -15223,7 +15223,7 @@
    <div type="section" select="sk" xml:id="msd.Z-sk">
       <head>Slovak Punctuation</head>
       <table n="msd.cat" select="sk" xml:id="msd.cat.Z-sk">
-         <head>Slovak Specification for Punctuation</head>
+         <head>Specification for Slovak Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

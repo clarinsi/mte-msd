@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Serbian Specifications</head>
    <docAuthor>Cvetana Krstev, Duško Vitas</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Serbian</item>
@@ -35,7 +35,7 @@ Jožef Stefan Institute, Ljubljana, Slovenia.
    </div>
    <div type="section" select="sr" xml:id="msd.categories-sr">
       <head>Serbian Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-sr">
+      <div xml:id="msd.cats-sr">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -123,7 +123,7 @@ Jožef Stefan Institute, Ljubljana, Slovenia.
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div type="section" select="sr" xml:id="msd.N-sr">
       <head>Serbian Noun</head>
@@ -9018,7 +9018,7 @@ Jožef Stefan Institute, Ljubljana, Slovenia.
    <div type="section" select="sr" xml:id="msd.Z-sr">
       <head>Serbian Punctuation</head>
       <table n="msd.cat" select="sr" xml:id="msd.cat.Z-sr">
-         <head>Serbian Specification for Punctuation</head>
+         <head>Specification for Serbian Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

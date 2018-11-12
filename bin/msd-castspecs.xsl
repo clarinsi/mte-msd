@@ -24,7 +24,7 @@
     <xsl:variable name="langs">
       <xsl:call-template name="cat-langs"/>
     </xsl:variable>
-    <tei:div>
+    <div>
       <xsl:call-template name="div-atts"/>
       <head>Table of categories</head>
       <table>
@@ -56,7 +56,7 @@
           </row>
         </xsl:for-each>
       </table>
-    </tei:div>
+    </div>
   </xsl:template>
 
   <xd:doc><xd:desc>

@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Bulgarian Specifications</head>
    <docAuthor>Radoslav Pavlov, L.Dimitrova, Ludmila Sinapova, Kiril Simov</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Bulgarian</item>
@@ -18,7 +18,7 @@
    <divGen type="subtoc"/>
    <div type="section" select="bg" xml:id="msd.categories-bg">
       <head>Bulgarian Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-bg">
+      <div xml:id="msd.cats-bg">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -106,7 +106,7 @@
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div type="section" select="bg" xml:id="msd.N-bg">
       <head>Bulgarian Noun</head>
@@ -4533,7 +4533,7 @@
    <div type="section" select="bg" xml:id="msd.Z-bg">
       <head>Bulgarian Punctuation</head>
       <table n="msd.cat" select="bg" xml:id="msd.cat.Z-bg">
-         <head>Bulgarian Specification for Punctuation</head>
+         <head>Specification for Bulgarian Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

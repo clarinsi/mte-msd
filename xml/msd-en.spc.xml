@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>English Specifications</head>
    <docAuthor>Nancy Ide, Greg Priest-Dorman, Tomaž Erjavec, Tamas Varadi</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>English</item>
@@ -18,7 +18,7 @@
    <divGen type="subtoc"/>
    <div type="section" select="en" xml:id="msd.categories-en">
       <head>English Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-en">
+      <div xml:id="msd.cats-en">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -106,7 +106,7 @@
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div type="section" select="en" xml:id="msd.N-en">
       <head>English Noun</head>
@@ -1837,7 +1837,7 @@
    <div type="section" select="en" xml:id="msd.Z-en">
       <head>English Punctuation</head>
       <table n="msd.cat" select="en" xml:id="msd.cat.Z-en">
-         <head>English Specification for Punctuation</head>
+         <head>Specification for English Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>

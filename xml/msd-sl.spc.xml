@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Slovene Specifications</head>
    <docAuthor>Tomaž Erjavec, Simon Krek</docAuthor>
-   <docDate>2018-11-11</docDate>
+   <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Slovene</item>
@@ -32,7 +32,7 @@
    </div>
    <div type="section" select="sl" xml:id="msd.categories-sl">
       <head>Slovene Category Index</head>
-      <tei:div xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="msd.cats-sl">
+      <div xml:id="msd.cats-sl">
          <head>Table of categories</head>
          <table>
             <row role="label">
@@ -162,7 +162,7 @@
                <cell role="attno">0</cell>
             </row>
          </table>
-      </tei:div>
+      </div>
    </div>
    <div type="section" select="sl" xml:id="msd.N-sl">
       <head>Slovene Noun</head>
