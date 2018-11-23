@@ -4,6 +4,10 @@ val:
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
 ## TESTING SCRIPTS
+# Test generation of new draft language specific section
+tst-split:
+	$s in-langs='sl sr ro' out-lang='sq' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-sq.spc.xml
+
 # Test generation of tables
 tst-tbls:
 	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-hu.spc.xml -outdir tmp
