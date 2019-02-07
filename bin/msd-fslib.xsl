@@ -241,7 +241,7 @@
     position (number): Position number;
     code (number):Code of the value;
     attribute (number): Name of the attribute;
-    value (number:: Name of the value.</xd:p>
+    value (number): Name of the value.</xd:p>
   </xd:desc></xd:doc>
   <xsl:template name="feature">
     <xsl:param name="id"/>

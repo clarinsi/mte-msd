@@ -169,7 +169,7 @@
           <xsl:call-template name="message">
             <xsl:with-param name="msg" select="concat('removed from ',$message-str)"/>
           </xsl:call-template>
-          <xsl:if test="not(normalize-space(tei:cell[@role='lang'][. != $lang]))">
+          <xsl:if test="not(normalize-space(tei:cell[@role='lang'][. != $lang][1]))">
             <xsl:call-template name="message">
               <xsl:with-param name="level">WARN</xsl:with-param>
               <xsl:with-param name="msg"
