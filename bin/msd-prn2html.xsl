@@ -29,7 +29,7 @@
   <xsl:param name="splitLevel">1</xsl:param>
   <xsl:param name="verbose">false</xsl:param>
   
-  <xsl:param name="teiHeaderFile">teiHeader.html</xsl:param>
+  <xsl:param name="teiHeaderFile">MULTEXT-East-header-en.html</xsl:param>
   
   <xsl:output method="xhtml" omit-xml-declaration="yes" encoding="utf-8"/>
   <xsl:template match="tei:divGen[@type='toc']">
