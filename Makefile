@@ -52,12 +52,12 @@ cast-all:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
 	$s -xsl:bin/msd-castspecs.xsl xml-edit/msd.xml > xml/msd.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-bg.spc.xml > xml/msd-bg.spc.xml
-	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-bs.spc.xml > xml/msd-bs.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-ce.spc.xml > xml/msd-ce.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-cs.spc.xml > xml/msd-cs.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-en.spc.xml > xml/msd-en.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-et.spc.xml > xml/msd-et.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-fa.spc.xml > xml/msd-fa.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-hbs.spc.xml > xml/msd-hbs.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-hr.spc.xml > xml/msd-hr.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-hu.spc.xml > xml/msd-hu.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-mk.spc.xml > xml/msd-mk.spc.xml
@@ -72,25 +72,28 @@ cast-all:
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
 #### ADDING A NEW LANGUAGE
-## Take a new language $L section
-L = sq
+## Take the specifications for the new language:
+NL = hbs
+## then
 ## create a MSD index for it
 ## and merge its features into the section with common tables
-## complains if this leads to errors
-## If necessary, can first make an example lexicon for the specifications on the basis of a full lexicon
-## Takes examples from the start of the lexicon, so it should be appropriatelly sorted!
+## (complains if this leads to errors)
+
+## If necessary, first make the example lexicon on the basis of a full lexicon
+## (takes examples from the start of the lexicon, so it should be appropriatelly sorted!)
 new-lex:
-	cat < /xxx//wfl-$L.txt | bin/wfl2exa.pl 5 > xml-edit/msd-sl.wfl.txt
+	cat < /xxx//wfl-${NL}.txt | bin/wfl2exa.pl 5 > xml-edit/msd-${NL}.wfl.txt
+
 ## Make a new MSD index on the basis of the example lexicon
-new-msd:
-	bin/msd-index.pl $L xml-edit/msd-$L.xml < xml-edit/msd-$L.wfl.txt > xml-edit/msd-$L.msd.xml
+new-msds:
+	bin/msd-index.pl ${NL} xml-edit/msd-${NL}.xml < xml-edit/msd-${NL}.wfl.txt > xml-edit/msd-${NL}.msd.xml
 ## Merge the language specific section with the common one
 new-merge:
-	$s add=../xml-edit/msd-$L.spc.xml -xsl:bin/msd-merge.xsl xml/msd.xml \
-	> xml-edit/msd_with_$L.xml 2> xml-edit/msd-$L.log
+	$s add=../xml-edit/msd-${NL}.spc.xml -xsl:bin/msd-merge.xsl xml-edit/msd.xml \
+	> xml-edit/msd_with_${NL}.xml 2> xml-edit/msd-${NL}.log
 # Processes specs from xml-edit/ and puts them into xml/
 new-cast:
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-bg.spc.xml xml/msd-bg2.spc.xml
+	$s -xi -xsl:bin/copy.xsl xml-edit/msd-${NL}.spc.xml xml/msd-${NL}2.spc.xml
 
 #XML validate TEI source
 new-val:
