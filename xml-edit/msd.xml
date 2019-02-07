@@ -10,7 +10,7 @@
           <resp>Editor</resp>
         </respStmt>
         <respStmt select="bg">
-          <name>Radoslav Pavlov, L.Dimitrova, Ludmila Sinapova, Kiril Simov</name>
+          <name>Radoslav Pavlov</name>, <name>L.Dimitrova</name>, <name>Ludmila Sinapova</name>, <name>Kiril Simov</name>
           <resp>Bulgarian specifications</resp>
         </respStmt>
         <respStmt select="ce">
@@ -26,7 +26,7 @@
           <resp>Czech specifications</resp>
         </respStmt>
         <respStmt select="en">
-          <name>Nancy Ide, Greg Priest-Dorman, Tomaž Erjavec, Tamas Varadi</name>
+          <name>Nancy Ide</name>, <name>Greg Priest-Dorman</name>, <name>Tomaž Erjavec</name>, <name>Tamas Varadi</name>
           <resp>English specifications</resp>
         </respStmt>
         <respStmt select="et">
@@ -34,7 +34,7 @@
           <resp>Estonian specifications</resp>
         </respStmt>
         <respStmt select="hu">
-          <name>Laszlo Tihanyi, Tamas Varadi</name>
+          <name>Laszlo Tihanyi</name>, <name>Tamas Varadi</name>
           <resp>Hungarian specifications</resp>
         </respStmt>
         <respStmt select="mk">
@@ -46,7 +46,7 @@
           <resp>Persian specifications</resp>
         </respStmt>
         <respStmt select="pl">
-          <name>Natalia Kotsyba, Ivan Derzhanski, Adam Radziszewski</name>
+          <name>Natalia Kotsyba</name>, <name>Ivan Derzhanski</name>, <name>Adam Radziszewski</name>
           <resp>Polish specifications</resp>
         </respStmt>
         <respStmt select="sl-rozaj">
@@ -54,19 +54,19 @@
           <resp>Resian specifications</resp>
         </respStmt>
         <respStmt select="ro">
-          <name>Dan Tufiş, Anna Maria Barbu</name>
+          <name>Dan Tufiş</name>, <name>Anna Maria Barbu</name>
           <resp>Romanian specifications</resp>
         </respStmt>
         <respStmt select="ru">
-          <name>Serge Sharoff, Mikhail Kopotev, Tomaž Erjavec, Anna Feldman, Dagmar Divjak</name>
+          <name>Serge Sharoff</name>, <name>Mikhail Kopotev</name>, <name>Tomaž Erjavec</name>, <name>Anna Feldman</name>, <name>Dagmar Divjak</name>
           <resp>Russian specifications</resp>
         </respStmt>
         <respStmt select="hbs">
-          <name>Tomaž Erjavec, Nikola Ljubešić</name>
+          <name>Tomaž Erjavec</name>, <name>Nikola Ljubešić</name>
           <resp>Serbo-Croatian specifications</resp>
         </respStmt>
         <respStmt select="sr">
-          <name>Cvetana Krstev, Duško Vitas</name>
+          <name>Cvetana Krstev</name>, <name>Duško Vitas</name>
           <resp>Serbian specifications</resp>
         </respStmt>
         <respStmt select="sk">
@@ -74,11 +74,11 @@
           <resp>Slovak specifications</resp>
         </respStmt>
         <respStmt select="sl">
-          <name>Tomaž Erjavec, Simon Krek, Peter Holozan, Vojko Gorjanc, Marko Stabej</name>
+          <name>Tomaž Erjavec</name>, <name>Simon Krek</name>, <name>Peter Holozan</name>, <name>Vojko Gorjanc</name>, <name>Marko Stabej</name>
           <resp>Slovene specifications</resp>
         </respStmt>
         <respStmt select="uk">
-          <name>Natalia Kotsyba, Igor Shevchenko, Ivan Derzhanski</name>
+          <name>Natalia Kotsyba</name>, <name>Igor Shevchenko</name>, <name>Ivan Derzhanski</name>
           <resp>Ukrainian specifications</resp>
         </respStmt>
         <funder>EU FP5 Copernicus Project COP106 "MULTEXT-East"</funder>
@@ -94,10 +94,10 @@
         <p>Version 6 "CLARIN"</p>
       </editionStmt>
       <publicationStmt>
-        <distributor>MULTEXT-East Web site</distributor>
+        <distributor><ref target="http://nl.ijs.si/ME/">MULTEXT-East Web site</ref></distributor>
         <address>
-          <addrLine>http://nl.ijs.si/ME/V6/mte-msd</addrLine>
-          <addrLine>https://github.com/clarinsi/mte-msd</addrLine>
+          <addrLine><ref target="http://nl.ijs.si/ME/V6/mte-msd">http://nl.ijs.si/ME/V6/mte-msd</ref></addrLine>
+          <addrLine><ref target="https://github.com/clarinsi/mte-msd">https://github.com/clarinsi/mte-msd</ref></addrLine>
         </address>
         <availability status="free">
           <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
@@ -107,12 +107,12 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title>MULTEXT-East Morphosyntactic Specifications, Versions 3, 4, 5</title>
+            <title>MULTEXT-East Morphosyntactic Specifications, Versions 4 &amp; 5</title>
           </titleStmt>
           <publicationStmt>
             <distributor>MULTEXT-East Web site</distributor>
             <address>
-              <addrLine>http://nl.ijs.si/ME/</addrLine>
+              <addrLine><ref target="http://nl.ijs.si/ME/">http://nl.ijs.si/ME/</ref></addrLine>
             </address>
             <date when="2004-05-13">May 13th, 2004</date>
             <date when="2010-05-02">May 2nd, 2010</date>
