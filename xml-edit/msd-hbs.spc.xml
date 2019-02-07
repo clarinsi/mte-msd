@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="bs"
-     xml:id="msd-bs"
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="hbs"
+     xml:id="msd-hbs"
      xml:lang="en">
-  <head>Bosnian Specifications</head>
+  <head>Serbo-Croatian Specifications</head>
   <docAuthor>Tomaž Erjavec, Nikola Ljubešić</docAuthor>
-  <docDate>2018-11-12</docDate>
+  <docDate>2019-02-07</docDate>
   <list type="gloss">
       <label>Language Name:</label>
-      <item>Bosnian</item>
+      <item>Serbo-Croatian macrolanguage</item>
       <label>Code:</label>
-      <item>bs</item>
+      <item>hbs</item>
       <label>Reference:</label>
       <item>
-         <ref target="http://www.ethnologue.com/language/bos">Ethnologue</ref>
+         <ref target="http://www.ethnologue.com/language/hbs">Ethnologue</ref>
       </item>
   </list>
   <divGen type="subtoc"/>
-  <div xml:id="msd-bs.introduction">
-      <head>Introduction to Bosnian Specifications</head>
-      <p>
-      These specifications collate data on Bosnian, Serbian and Croatian language, in particular
-      the manually annotated Croatian and Serbian SETimes datasets; a collection of tweets; and 
+  <div xml:id="msd-hbs.introduction">
+      <head>Introduction to Serbo-Croatian Specifications</head>
+      <p>These specifications collate data on Serbo-Croatian, in particular
+	the manually annotated Croatian and Serbian SETimes datasets; a collection of tweets; and 
       the Serbian and Croatian inflectional lexica
       <ref target="http://hdl.handle.net/11356/1056">hrLex</ref> and
       <ref target="http://hdl.handle.net/11356/1057">srLex</ref>.
     </p>
   </div>
-  <div type="section" select="bs" xml:id="msd.categories-bs">
-      <head>Bosnian Category Index</head>
-      <divGen type="msd.cats" select="bs"/>
+  <div type="section" select="hbs" xml:id="msd.categories-hbs">
+      <head>Serbo-Croatian Category Index</head>
+      <divGen type="msd.cats" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.N-bs">
-      <head>Bosnian Noun</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.N-bs">
-         <head>Specification for Bosnian Noun</head>
+  <div type="section" select="hbs" xml:id="msd.N-hbs">
+      <head>Serbo-Croatian Noun</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.N-hbs">
+         <head>Specification for Serbo-Croatian Noun</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -145,12 +144,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.V-bs">
-      <head>Bosnian Verb</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.V-bs">
-         <head>Specification for Bosnian Verb</head>
+  <div type="section" select="hbs" xml:id="msd.V-hbs">
+      <head>Serbo-Croatian Verb</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.V-hbs">
+         <head>Specification for Serbo-Croatian Verb</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -286,12 +285,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.A-bs">
-      <head>Bosnian Adjective</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.A-bs">
-         <head>Specification for Bosnian Adjective</head>
+  <div type="section" select="hbs" xml:id="msd.A-hbs">
+      <head>Serbo-Croatian Adjective</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.A-hbs">
+         <head>Specification for Serbo-Croatian Adjective</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -443,12 +442,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.P-bs">
-      <head>Bosnian Pronoun</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.P-bs">
-         <head>Specification for Bosnian Pronoun</head>
+  <div type="section" select="hbs" xml:id="msd.P-hbs">
+      <head>Serbo-Croatian Pronoun</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.P-hbs">
+         <head>Specification for Serbo-Croatian Pronoun</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -600,12 +599,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.R-bs">
-      <head>Bosnian Adverb</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.R-bs">
-         <head>Specification for Bosnian Adverb</head>
+  <div type="section" select="hbs" xml:id="msd.R-hbs">
+      <head>Serbo-Croatian Adverb</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.R-hbs">
+         <head>Specification for Serbo-Croatian Adverb</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -649,12 +648,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.S-bs">
-      <head>Bosnian Adposition</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.S-bs">
-         <head>Specification for Bosnian Adposition</head>
+  <div type="section" select="hbs" xml:id="msd.S-hbs">
+      <head>Serbo-Croatian Adposition</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.S-hbs">
+         <head>Specification for Serbo-Croatian Adposition</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -690,12 +689,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.C-bs">
-      <head>Bosnian Conjunction</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.C-bs">
-         <head>Specification for Bosnian Conjunction</head>
+  <div type="section" select="hbs" xml:id="msd.C-hbs">
+      <head>Serbo-Croatian Conjunction</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.C-hbs">
+         <head>Specification for Serbo-Croatian Conjunction</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -735,12 +734,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.M-bs">
-      <head>Bosnian Numeral</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.M-bs">
-         <head>Specification for Bosnian Numeral</head>
+  <div type="section" select="hbs" xml:id="msd.M-hbs">
+      <head>Serbo-Croatian Numeral</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.M-hbs">
+         <head>Specification for Serbo-Croatian Numeral</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -880,12 +879,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.Q-bs">
-      <head>Bosnian Particle</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.Q-bs">
-         <head>Specification for Bosnian Particle</head>
+  <div type="section" select="hbs" xml:id="msd.Q-hbs">
+      <head>Serbo-Croatian Particle</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.Q-hbs">
+         <head>Specification for Serbo-Croatian Particle</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -917,12 +916,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.I-bs">
-      <head>Bosnian Interjection</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.I-bs">
-         <head>Specification for Bosnian Interjection</head>
+  <div type="section" select="hbs" xml:id="msd.I-hbs">
+      <head>Serbo-Croatian Interjection</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.I-hbs">
+         <head>Specification for Serbo-Croatian Interjection</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -930,12 +929,12 @@
             <cell role="code" xml:lang="en">I</cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.Y-bs">
-      <head>Bosnian Abbreviation</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.Y-bs">
-         <head>Specification for Bosnian Abbreviation</head>
+  <div type="section" select="hbs" xml:id="msd.Y-hbs">
+      <head>Serbo-Croatian Abbreviation</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.Y-hbs">
+         <head>Specification for Serbo-Croatian Abbreviation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -943,12 +942,12 @@
             <cell role="code" xml:lang="en">Y</cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.X-bs">
-      <head>Bosnian Residual</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.X-bs">
-         <head>Specification for Bosnian Residual</head>
+  <div type="section" select="hbs" xml:id="msd.X-hbs">
+      <head>Serbo-Croatian Residual</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.X-hbs">
+         <head>Specification for Serbo-Croatian Residual</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -957,7 +956,6 @@
          </row>
          <row role="attribute">
             <cell role="position">1</cell>
-            <cell role="name" xml:lang="sl">vrsta</cell>
             <cell role="name" xml:lang="en">Type</cell>
             <cell role="values">
                <table>
@@ -985,12 +983,12 @@
             </cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" select="bs" xml:id="msd.Z-bs">
-      <head>Bosnian Punctuation</head>
-      <table n="msd.cat" select="bs" xml:id="msd.cat.Z-bs">
-         <head>Specification for Bosnian Punctuation</head>
+  <div type="section" select="hbs" xml:id="msd.Z-hbs">
+      <head>Serbo-Croatian Punctuation</head>
+      <table n="msd.cat" select="hbs" xml:id="msd.cat.Z-hbs">
+         <head>Specification for Serbo-Croatian Punctuation</head>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
@@ -998,20 +996,20 @@
             <cell role="code" xml:lang="en">Z</cell>
          </row>
       </table>
-      <divGen type="msd.lex" select="bs"/>
+      <divGen type="msd.lex" select="hbs"/>
   </div>
-  <div type="section" xml:id="msd.attributes-bs">
-      <head>Bosnian Attribute Index</head>
+  <div type="section" xml:id="msd.attributes-hbs">
+      <head>Serbo-Croatian Attribute Index</head>
       <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
-      <divGen type="msd.atts" select="bs"/>
+      <divGen type="msd.atts" select="hbs"/>
   </div>
-  <div type="section" xml:id="msd.values-bs">
-      <head>Bosnian Value Index</head>
+  <div type="section" xml:id="msd.values-hbs">
+      <head>Serbo-Croatian Value Index</head>
       <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
-      <divGen type="msd.vals" select="bs"/>
+      <divGen type="msd.vals" select="hbs"/>
   </div>
-  <div select="bs" type="section" xml:id="msd.msds-bs">
-      <head>Bosnian MSD Index</head>
+  <div select="hbs" type="section" xml:id="msd.msds-hbs">
+      <head>Serbo-Croatian MSD Index</head>
         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. 
             In the table below, 
             the first column gives the MSD, 
@@ -1024,6 +1022,6 @@
 	    <ref target="http://hdl.handle.net/11356/1057">srLex</ref>.
         </p>
         
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bs.msd.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hbs.msd.xml"/>
     </div>
   </div>
