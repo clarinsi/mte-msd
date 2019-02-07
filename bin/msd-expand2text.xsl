@@ -92,7 +92,10 @@
       select="$specs"/></xsl:message>
     </xsl:if>
     <xsl:if test="not(//tei:table//tei:cell[@role='msd'])">
-      <xsl:message terminate="yes">No MSDs found in input file!</xsl:message>
+      <xsl:message terminate="yes">
+	<xsl:text>No MSDs found in input file </xsl:text>
+	<xsl:value-of select="//tei:div[@xml:id][1]/@xml:id"/>
+      </xsl:message>
     </xsl:if>
     <xsl:if test="not(tei:*/@xml:lang)">
       <xsl:message terminate="yes">Localisation language (@xml:lang) not specified in MSD
