@@ -9,10 +9,6 @@
           <name>Tomaž Erjavec</name>
           <resp>Editor</resp>
         </respStmt>
-        <respStmt select="bs">
-          <name>Tomaž Erjavec, Nikola Ljubešić</name>
-          <resp>Bosnian specifications</resp>
-        </respStmt>
         <respStmt select="bg">
           <name>Radoslav Pavlov, L.Dimitrova, Ludmila Sinapova, Kiril Simov</name>
           <resp>Bulgarian specifications</resp>
@@ -22,7 +18,7 @@
           <resp>Chechen specifications</resp>
         </respStmt>
         <respStmt select="hr">
-          <name>Tomaž Erjavec, Nikola Ljubešić</name>
+          <name>Marko Tadić</name>
           <resp>Croatian specifications</resp>
         </respStmt>
         <respStmt select="cs">
@@ -65,6 +61,10 @@
           <name>Serge Sharoff, Mikhail Kopotev, Tomaž Erjavec, Anna Feldman, Dagmar Divjak</name>
           <resp>Russian specifications</resp>
         </respStmt>
+        <respStmt select="hbs">
+          <name>Tomaž Erjavec, Nikola Ljubešić</name>
+          <resp>Serbo-Croatian specifications</resp>
+        </respStmt>
         <respStmt select="sr">
           <name>Cvetana Krstev, Duško Vitas</name>
           <resp>Serbian specifications</resp>
@@ -94,7 +94,7 @@
         <p>Version 6 "CLARIN"</p>
       </editionStmt>
       <publicationStmt>
-        <distributor>MULTEXT-East Web sites</distributor>
+        <distributor>MULTEXT-East Web site</distributor>
         <address>
           <addrLine>http://nl.ijs.si/ME/V6/mte-msd</addrLine>
           <addrLine>https://github.com/clarinsi/mte-msd</addrLine>
@@ -102,7 +102,7 @@
         <availability status="free">
           <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
         </availability>
-        <date>2018-11-11</date>
+        <date>2019-02-07</date>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -130,7 +130,6 @@
       <langUsage>
         <!--SLAVIC MACROLANGUAGE--><language xml:id="hbs" ident="sh">Serbo-Croatian</language>
         <!--INDO-EUROPEAN (OTHER)--><language xml:id="sq" ident="sq">Albanian</language>
-        <!--SLAVIC--><language xml:id="bs" ident="bg">Bosnian</language>
         <!--SLAVIC--><language xml:id="bg" ident="bg">Bulgarian</language>
         <!--ESKIMO--><language xml:id="ce" ident="ce">Chechen</language>
         <!--SLAVIC--><language xml:id="cs" ident="cs">Czech</language>
@@ -151,6 +150,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
+      <change when="2019-02-07">ET, revert Croatian to V4, change Bosnian to Serbo-Croatian.</change>
       <change when="2018-11-11">ET, add punctuation and change format of lang.spec. sections.</change>
       <change when="2018-11-06">ET, start working on V6.</change>
       <change when="2016-06-20">ET, details.</change>
@@ -180,28 +180,26 @@
           Morphosyntactic Specifications</titlePart>
         </docTitle>
         <docEdition><ref target="http://nl.ijs.si/ME/V5/">Version 6</ref></docEdition>
-        <docDate>2018-11-11</docDate>
+        <docDate>2019-02-07</docDate>
         <lb/>
         <byline>Editor:
         <name>Tomaž Erjavec</name></byline>
-        <byline><ref target="#msd-bs">Bosnian specifications</ref>:
-          <name>Tomaž Erjavec, Nikola Ljubešić</name></byline>
         <byline><ref target="#msd-bg">Bulgarian specifications</ref>:
-          <name>Radoslav Pavlov</name>,
-          <name>Ludmila Dimitrova</name>,
-          <name>Ludmila Sinapova</name>,
-          <name>Kiril Simov</name></byline>
+        <name>Radoslav Pavlov</name>,
+        <name>Ludmila Dimitrova</name>,
+        <name>Ludmila Sinapova</name>,
+        <name>Kiril Simov</name></byline>
         <byline><ref target="#msd-ce">Chechen specifications</ref>:
-          <name>Dietmar Fiesel</name></byline>
+        <name>Dietmar Fiesel</name></byline>
         <byline><ref target="#msd-hr">Croatian specifications</ref>:
-          <name>Tomaž Erjavec, Nikola Ljubešić</name></byline>
+        <name>Marko Tadić</name></byline>
         <byline><ref target="#msd-cs">Czech specifications</ref>:
-          <name>Vladimír Petkevič</name></byline>
+        <name>Vladimír Petkevič</name></byline>
         <byline><ref target="#msd-en">English specifications</ref>:
-          <name>Nancy Ide</name>,
-          <name>Greg Priest-Dorman</name>,
-          <name>Tomaž Erjavec</name>,
-          <name>Tamas Varadi</name></byline>
+        <name>Nancy Ide</name>,
+        <name>Greg Priest-Dorman</name>,
+        <name>Tomaž Erjavec</name>,
+        <name>Tamas Varadi</name></byline>
         <byline><ref target="#msd-et">Estonian specifications</ref>:
         <name>Heiki-Jaan Kaalep </name></byline>
         <byline><ref target="#msd-hu">Hungarian specifications</ref>:
@@ -227,6 +225,8 @@
         <name>Tomaž Erjavec</name>,
         <name>Anna Feldman</name>,
         <name>Dagmar Divjak</name></byline>
+        <byline><ref target="#msd-hbs">Serbo-Croatian specifications</ref>:
+        <name>Tomaž Erjavec, Nikola Ljubešić</name></byline>
         <byline><ref target="#msd-sr">Serbian specifications</ref>:
         <name>Cvetana Krstev</name>,
         <name>Duško Vitas</name></byline>
@@ -243,57 +243,57 @@
       <div type="section" xml:id="msd.foreword">
         <head>Foreword</head>
         <p>The purpose of this document is to provide harmonised lexical specifications for 
-          eighteen languages: 
-          Bosnian, 
-          Bulgarian, 
-          Chechen, 
-          Croatian, 
-          Czech, 
-          Estonian, 
-          English, 
-          Hungarian, 
-          Macedonian, 
-          Persian,
-          Polish,
-          Romanian, 
-          Russian, 
-          Ukrainian, 
-          Serbian, 
-          Slovak,
-          Slovene, and the 
-          Resian dialect of Slovene.
+        eighteen languages:
+        Bulgarian, 
+        Chechen, 
+        Croatian, 
+        Czech, 
+        Estonian, 
+        English, 
+        Hungarian, 
+        Macedonian, 
+        Persian,
+        Polish,
+        Romanian, 
+        Russian, 
+        Ukrainian, 
+        Serbo-Croatian macrolanguage, 
+        Serbian, 
+        Slovak,
+        Slovene, and the 
+        Resian dialect of Slovene.
         </p>
         <p>These specifications are based on the proposals for lexicon specifications presented in
-          the MULTEXT D1-6-1B Deliverable of the MULTEXT Project [<ref target="#bib.mt-D161B">mt:D161B</ref>] and in the Eagles documents of the Lexicon sub-group on Morphosyntactic
-          annotation [<ref target="#bib.eagles-morphsyn">eagles:morphsyn</ref>], [<ref target="#bib.eagles-morphana">eagles:morphana</ref>].</p>
+        the MULTEXT D1-6-1B Deliverable of the MULTEXT Project [<ref target="#bib.mt-D161B">mt:D161B</ref>] and in the Eagles documents of the Lexicon sub-group on Morphosyntactic
+        annotation [<ref target="#bib.eagles-morphsyn">eagles:morphsyn</ref>], [<ref target="#bib.eagles-morphana">eagles:morphana</ref>].</p>
         <p>These specifications were first made in the scope of the MULTEXT-East project, as the
-          project report D11F, and were, slightly modified, made available on the TELRI CD-ROM "A
-          Compendium of Multilingual Resources" [<ref target="#bib.telri-CD">telri:CD</ref>], [<ref target="#bib.lrec98-mtelex">lrec98:mtelex</ref>].</p>
+        project report D11F, and were, slightly modified, made available on the TELRI CD-ROM "A
+        Compendium of Multilingual Resources" [<ref target="#bib.telri-CD">telri:CD</ref>], [<ref target="#bib.lrec98-mtelex">lrec98:mtelex</ref>].</p>
         <p>The second version, the so called "Concede edition" [<ref target="#bib.elsnews01-v2">elsnews01:v2</ref>], [<ref target="#bib.mte-nlprs">mte:nlprs</ref>] offered the addition of
-          a new language, Croatian, and additions (for Romanian and Slovene) to the common tables in
-          terms of attributes and values. The tables for Slovene have also been localised. The
-          format of the specification had been improved, by converting the master LaTeX document to
-          Latin-2 encoding. Finally, the common tables had been made
-          available additionally in XML, as a TEI feature libraries &lt;fLib&gt;, one for
-          each PoS.</p>
+        a new language, Croatian, and additions (for Romanian and Slovene) to the common tables in
+        terms of attributes and values. The tables for Slovene have also been localised. The
+        format of the specification had been improved, by converting the master LaTeX document to
+        Latin-2 encoding. Finally, the common tables had been made
+        available additionally in XML, as a TEI feature libraries &lt;fLib&gt;, one for
+        each PoS.</p>
         <p>In Version 3 [<ref target="#bib.mte-slav">mte:slav</ref>] some minor errors found in the
-          Concede edition were fixed; this version also added two more specifications: for Serbian,
-          and for a dialect of Slovene, Resian.</p>
+        Concede edition were fixed; this version also added two more specifications: for Serbian,
+        and for a dialect of Slovene, Resian.</p>
         <p>In Version 4, the "MONDILEX edition" 
-          [<ref target="#bib.mte-v4">V4</ref>]
-          the specifications have been re-cast in XML, in TEI P5.
-          This offeres many possibilities for improvement, such as automatically producing derived
-          tables. Six new languages were also added, in particular Russian, Macedonian and Persian, and, 
-          due to the support of the EU MONDILEX project, Slovak, Polish and Ukrainian. 
+        [<ref target="#bib.mte-v4">V4</ref>]
+        the specifications have been re-cast in XML, in TEI P5.
+        This offeres many possibilities for improvement, such as automatically producing derived
+        tables. Six new languages were also added, in particular Russian, Macedonian and Persian, and, 
+        due to the support of the EU MONDILEX project, Slovak, Polish and Ukrainian. 
         </p>
         <p>In Version 5, a new category "Z" has been added for punctuation;
-	new values of the Residual Type have been added for CMC texts;
-	two new languages, Bosnian and Chechen, have been added;
-	and the Croatian and Slovene specifications have been changed.
-	However, this version never made it beyond the "DRAFT" status.
+        new values of the Residual Type have been added for CMC texts;
+        two new languages, Bosnian and Chechen, have been added;
+        and the Croatian and Slovene specifications have been changed.
+        However, this version never made it beyond the "DRAFT" status.
         </p>
         <p>In the present Version 6 the TEI encoding has been updated, as have the conversion scripts.
-	...
+        ...
         </p>
         <p>Pisa, October 1995</p>
         <p>Ljubljana, December 1997 (V1)</p>
@@ -311,80 +311,79 @@
         <div type="section" xml:id="msd.description">
           <head>Description of the proposal</head>
           <p>The proposal is encoded as a TEI P5 document, and split into several parts. The common part defines the 
-            features used for describing the morphosyntactic properties of the languages. 
-            In this it follows the MULTEXT table format, which defines attribute-values pairs, 
-            with their respective codes used to mark them in the lexicons. The common part is followed by language particular parts, 
-            each giving the details about a particular language.</p>
+          features used for describing the morphosyntactic properties of the languages. 
+          In this it follows the MULTEXT table format, which defines attribute-values pairs, 
+          with their respective codes used to mark them in the lexicons. The common part is followed by language particular parts, 
+          each giving the details about a particular language.</p>
           <p>This representation, with the concrete applications which display and exemplify the
-            attributes and values and provide their internal constraints and relationships, makes
-            the proposal self-explanatory. Other groups can easily test the specifications on their
-            language, simply by following the method of the applications. The possibility of
-            incorporating idiosyncratic classes and distinctions after the common core features
-            makes the proposal relatively adaptable and flexible, without compromising
-            compatibility.</p>
+          attributes and values and provide their internal constraints and relationships, makes
+          the proposal self-explanatory. Other groups can easily test the specifications on their
+          language, simply by following the method of the applications. The possibility of
+          incorporating idiosyncratic classes and distinctions after the common core features
+          makes the proposal relatively adaptable and flexible, without compromising
+          compatibility.</p>
         </div>
         <div type="section" xml:id="msd.lexicons">
           <head>Lexicons</head>
           <p>The specifications presented here have been used in the encoding of word-form lexica of
-            the languages. These lexica contain one entry per line, where an entry has the following
-            form:</p>
+          the languages. These lexica contain one entry per line, where an entry has the following
+          form:</p>
           <p> word-form &lt;TAB&gt; lemma &lt;TAB&gt; <emph rend="bold">morphosyntactic description</emph></p>
           <p>This reports describes the morphosyntactic descriptions used in the lexica and also in
-            the annotated multilingual corpus.</p>
+          the annotated multilingual corpus.</p>
         </div>
         <div type="section" xml:id="msd.notation">
           <head>Notation</head>
           <p>In MULTEXT the notation has been chosen following current practices for NLP, where
-            information is represented in attribute-value formalisms and following the idea that it
-            should also be self-informative for human understanding. At the same time, a relativelly
-            compact encoding was maintained. The notation format has the following main
-            characteristics: <list><item>attributes are marked by positions;</item><item>values are represented by a single character;</item><item>a special marker reflects the non applicability of a given attribute.</item></list></p>
+          information is represented in attribute-value formalisms and following the idea that it
+          should also be self-informative for human understanding. At the same time, a relativelly
+          compact encoding was maintained. The notation format has the following main
+          characteristics: <list><item>attributes are marked by positions;</item><item>values are represented by a single character;</item><item>a special marker reflects the non applicability of a given attribute.</item></list></p>
           <p>These characteristics make the proposed lexical notation similar to attribute-value
-            pairs used in unification based formalisms (see the MULTEXT D1-6-1B Deliverable [<ref target="#bib.mt-D161B">mt:D161B</ref>] for further details).</p>
+          pairs used in unification based formalisms (see the MULTEXT D1-6-1B Deliverable [<ref target="#bib.mt-D161B">mt:D161B</ref>] for further details).</p>
           <p>The linear strings of characters representing the morphosyntactic descriptions are
-            constructed following the philosophy of the Intermediate Format proposed in the Eagles
-            Corpus proposal [<ref target="#bib.eagles-morphana">eagles:morphana</ref>], i.e. of having
-            agreed symbols in predefined and fixed positions: the positions of a string of
-            characters are numbered 0, 1, 2, etc. in the following way: <list><item>the agreed character at position 0 encodes part-of-speech;</item><item>each character at position 1, 2, n, encodes the value of one attribute (person,
-                gender, number, etc.);</item><item>if an attribute does not apply, the corresponding position in the string
-                contains a special marker, the hyphen (<q>-</q>).</item></list></p>
+          constructed following the philosophy of the Intermediate Format proposed in the Eagles
+          Corpus proposal [<ref target="#bib.eagles-morphana">eagles:morphana</ref>], i.e. of having
+          agreed symbols in predefined and fixed positions: the positions of a string of
+          characters are numbered 0, 1, 2, etc. in the following way: <list><item>the agreed character at position 0 encodes part-of-speech;</item><item>each character at position 1, 2, n, encodes the value of one attribute (person,
+          gender, number, etc.);</item><item>if an attribute does not apply, the corresponding position in the string
+          contains a special marker, the hyphen (<q>-</q>).</item></list></p>
           <p>Example: <hi>Ncms- (Noun, common, masculine, singular, nocase)</hi></p>
           <p>This notation adopts the Eagles Intermediate Format with a small revision: the
-            Intermediate Format encodes information by means of digits, while in MULTEXT characters
-            of a mnemonic nature are preferred.</p>
+          Intermediate Format encodes information by means of digits, while in MULTEXT characters
+          of a mnemonic nature are preferred.</p>
           <p>The marker <q>-</q> has a special semantics and means 'not-applicable'. It is used in
-            the following cases: <list><item>not relevant <emph>to a particular language</emph>, e.g. Gender to Estonian;</item><item>not applicable <emph>to a particular combination of attribute-values</emph>,
-                i.e. although the attribute is used by a category in a given language it does not
-                apply to a particular subclass of the category; e.g., Person applies to Pronouns,
-                but not to the Type demonstrative;</item><item>not applicable <emph>to a particular lexical item</emph>, i.e. although the
-                attribute applies to the rest of its paradigm, e.g., Gender in the paradigm of
-                English Personal Pronouns applies only to the 3rd person, <hi> I, you</hi> vs. <hi>
-                  she, he</hi>).</item></list></p>
+          the following cases:
+          <list>
+            <item>not relevant <emph>to a particular language</emph>, e.g. Gender to Estonian;</item><item>not applicable <emph>to a particular combination of attribute-values</emph>, i.e. although the attribute is used by a category in a given language it does not apply to a particular subclass of the category; e.g., Person applies to Pronouns, but not to the Type demonstrative;</item>
+            <item>not applicable <emph>to a particular lexical item</emph>, i.e. although the attribute applies to the rest of its paradigm, e.g., Gender in the paradigm of English Personal Pronouns applies only to the 3rd person, <hi> I, you</hi> vs. <hi>she, he</hi>).</item>
+          </list>
+          </p>
           <p>Finally, it should be noted that in the lexica trailing hyphens have been omitted, as
-            this often leads to a more compact encoding. Hence codes like <hi>Ncms-</hi> are written
-            as <hi>Ncms</hi>.</p>
+          this often leads to a more compact encoding. Hence codes like <hi>Ncms-</hi> are written
+          as <hi>Ncms</hi>.</p>
         </div>
         <div type="section" xml:id="msd.organisation">
           <head>Organisation of the language-specific chapters</head>
           <p>The language application parts present the
-            specifications category by category and are structured as follows:</p>
+          specifications category by category and are structured as follows:</p>
           <list type="ordered">
             <item>a chapter describing the features and values pertinent to a given category in the
-              form of tables with examples from the language in question; these tables have been
-              mostly automatically generated from the common tables. The language specific tables,
-              however, do often have significant additional information, e.g. examples or
-              localisation of names.</item>
+            form of tables with examples from the language in question; these tables have been
+            mostly automatically generated from the common tables. The language specific tables,
+            however, do often have significant additional information, e.g. examples or
+            localisation of names.</item>
             <item>a chapter providing the allowed combinations of values for the particular
-              language, which is, in some cases, supplemented by c) a list of examples from the
-              lexicon or corpus. Two different strategies of displaying combinations have been
-              followed: <list><item>all the <emph> admitted </emph> combinations are provided together with an
-                  example. This has the disadvantage of producing big lists, given the high number
-                  of features and values to combine together, but the advantage of providing the
-                  only legal combinations with the relevant constraints in the application of some
-                  features/values in presence of other features or values or combination of them
-                  (see e.g. Gender in Personal Pronouns).</item><item>a mathematical expression (essentially a regular expression) describing the
-                  combinations is provided, which can subsequently used to generate <emph> all
-                  </emph> combinations, possibly including some which are not valid.</item></list></item>
+            language, which is, in some cases, supplemented by c) a list of examples from the
+            lexicon or corpus. Two different strategies of displaying combinations have been
+            followed: <list><item>all the <emph> admitted </emph> combinations are provided together with an
+            example. This has the disadvantage of producing big lists, given the high number
+            of features and values to combine together, but the advantage of providing the
+            only legal combinations with the relevant constraints in the application of some
+            features/values in presence of other features or values or combination of them
+            (see e.g. Gender in Personal Pronouns).</item><item>a mathematical expression (essentially a regular expression) describing the
+            combinations is provided, which can subsequently used to generate <emph> all
+            </emph> combinations, possibly including some which are not valid.</item></list></item>
           </list>
         </div>
         <div type="section" xml:id="msd.bibliography">
@@ -400,32 +399,32 @@
               <author>Tomaž Erjavec</author>
               <title>MULTEXT-East Version 4: Multilingual Morphosyntactic Specifications, Lexicons and Corpora</title>
               <title>In Proceedings of the Seventh International Conference on Language Resources
-                  and Evaluation, LREC'10</title>
+              and Evaluation, LREC'10</title>
               <date>2010</date>
             </bibl>
             <!--
-CHIARCOS, Christian, ERJAVEC, Tomaž. OWL/DL formalization of the MULTEXT-East morphosyntactic specifications. V: 5th Linguistic Annotation Workshop, June 23, 2011, Portland, Oregon. LAW V. Portland: Association for Computational Linguistics, 2011, str. 11-20. http://www.aclweb.org/anthology-new/W/W11/W11-0402.pdf. 
-
- ERJAVEC, Tomaž. MULTEXT-east morphosyntactic specifications : towards version 4. V: GARABÍK, Radovan (ur.). MONDILEX Third Open Workshop, Bratislava, Slovakia, 15-16 April, 2009. Metalanguage and encoding scheme design for digital lexicography : innovative solutions for lexical entry design in Slavic lexicography : proceedings. Bratislava: L'. Štúr Institute of Linguistic, Slovak Academy of Sciences, 2009, str. 59-70
-
- ERJAVEC, Tomaž. MULTEXT-East and TEIand TEI : an investigation of a schema for language engineering and corpus linguistics. V: TUFIŞ, Dan (ur.), FORASCU, Corina (ur.). Multilinguality and interoperability in language processing with emphasis on Romanian. Bucureşti: Editura Academiei Române, cop. 2010, str. 19-47.
-
-V3??
-
--->
+                CHIARCOS, Christian, ERJAVEC, Tomaž. OWL/DL formalization of the MULTEXT-East morphosyntactic specifications. V: 5th Linguistic Annotation Workshop, June 23, 2011, Portland, Oregon. LAW V. Portland: Association for Computational Linguistics, 2011, str. 11-20. http://www.aclweb.org/anthology-new/W/W11/W11-0402.pdf. 
+                
+                ERJAVEC, Tomaž. MULTEXT-east morphosyntactic specifications : towards version 4. V: GARABÍK, Radovan (ur.). MONDILEX Third Open Workshop, Bratislava, Slovakia, 15-16 April, 2009. Metalanguage and encoding scheme design for digital lexicography : innovative solutions for lexical entry design in Slavic lexicography : proceedings. Bratislava: L'. Štúr Institute of Linguistic, Slovak Academy of Sciences, 2009, str. 59-70
+                
+                ERJAVEC, Tomaž. MULTEXT-East and TEIand TEI : an investigation of a schema for language engineering and corpus linguistics. V: TUFIŞ, Dan (ur.), FORASCU, Corina (ur.). Multilinguality and interoperability in language processing with emphasis on Romanian. Bucureşti: Editura Academiei Române, cop. 2010, str. 19-47.
+                
+                V3??
+                
+            -->
             <bibl xml:id="bib.mte-slav">
               <author>Tomaž Erjavec, Cvetana Krstev, Vladimır Petkevič, Kiril Simov, Marko Tadić,
-                and Duško Vitas</author>
+              and Duško Vitas</author>
               <title>The MULTEXT-East Morphosyntactic Specifications for Slavic Languages. </title>
               <title>In Proceedings of the EACL 2003 Workshop on Morphological Processing of Slavic
-                Languages, pages 25-32, Budapest</title>
+              Languages, pages 25-32, Budapest</title>
               <date>2003</date>
             </bibl>
             <bibl xml:id="bib.mte-nlprs">
               <author>Tomaž Erjavec</author>
               <title>Harmonised Morphosyntactic Tagging for Seven Languages and Orwell's 1984. </title>
               <title>In 6th Natural Language Processing Pacific Rim Symposium, NLPRS'01, pages
-                487-492, Tokyo</title>
+              487-492, Tokyo</title>
               <date>2001</date>
             </bibl>
             <bibl xml:id="bib.elsnews01-v2">
@@ -444,14 +443,14 @@ V3??
             <bibl xml:id="bib.lrec98-mtelex">
               <author>Nancy Ide, Dan Tufiş, and Tomaž Erjavec</author>
               <title>Development and Assessment of Common Lexical Specifications for Six Central and
-                Eastern European Languages. </title>
+              Eastern European Languages. </title>
               <publisher>ELRA</publisher>
               <date>1998</date>
             </bibl>
             <bibl xml:id="bib.eagles-morphsyn">
               <editor>Nicoletta Calzolari and Monica Monachini</editor>
               <title>Synopsis and comparison of morphosyntactic phenomena encoded in lexicons and
-                corpora: A common proposal and applications to european languages.</title>
+              corpora: A common proposal and applications to european languages.</title>
               <publisher>ILC, Pisa</publisher>
               <date>1996</date>
             </bibl>
@@ -468,7 +467,7 @@ V3??
             <bibl xml:id="bib.mt-D161B">
               <editor>Nuria Bel, Nicoletta Calzolari, and Monica Monachini</editor>
               <title>Common specifications and notation for lexicon encoding and preliminary
-                proposal for the tagsets.</title>
+              proposal for the tagsets.</title>
               <title>MULTEXT Deliverable D1.6.1B</title>
               <publisher>ILC, Pisa</publisher>
               <date>1995</date>
@@ -507,11 +506,11 @@ V3??
         <div type="section" xml:id="msd.languages">
           <head>Languages</head>
           <p>This section details the languages currently covered by the specifications. The first
-            column defines the cannonical ordering of the languages. In the current specification
-            they are grouped together by language family. The codes follow ISO 639 two-letter codes
-            for languages. For each language we note which language family it belongs to and the
-            link the the respective entry in the <ref target="http://www.ethnologue.com/">Ethnologue
-              database</ref>.</p>
+          column defines the cannonical ordering of the languages. In the current specification
+          they are grouped together by language family. The codes follow ISO 639 two-letter codes
+          for languages. For each language we note which language family it belongs to and the
+          link the the respective entry in the <ref target="http://www.ethnologue.com/">Ethnologue
+          database</ref>.</p>
           <table xml:id="msd.langs">
             <head>Languages covered by the specification</head>
             <row role="label">
@@ -593,13 +592,24 @@ V3??
               <cell role="name">
                 <ref target="#msd-sl-rozaj">Resian</ref>
               </cell>
-              <cell role="note">dialect of Slovene</cell>
+              <cell role="note">Dialect of Slovene</cell>
               <cell role="ref">
                 <ref target="http://www.iana.org/assignments/lang-tags/sl-rozaj">IANA</ref>
               </cell>
             </row>
             <row role="lang">
               <cell role="position">8</cell>
+              <cell role="code">hbs</cell>
+              <cell role="name">
+                <ref target="#msd-hbs">Serbo-Croatian Macrolanguage</ref>
+              </cell>
+              <cell role="note">South West Slavic</cell>
+              <cell role="ref">
+                <ref target="http://www.ethnologue.com/language/hbs">Ethnologue</ref>
+              </cell>
+            </row>
+            <row role="lang">
+              <cell role="position">9</cell>
               <cell role="code">hr</cell>
               <cell role="name">
                 <ref target="#msd-hr">Croatian</ref>
@@ -610,7 +620,7 @@ V3??
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">9</cell>
+              <cell role="position">10</cell>
               <cell role="code">sr</cell>
               <cell role="name">
                 <ref target="#msd-sr">Serbian</ref>
@@ -618,17 +628,6 @@ V3??
               <cell role="note">South West Slavic</cell>
               <cell role="ref">
                 <ref target="http://www.ethnologue.com/language/srp">Ethnologue</ref>
-              </cell>
-            </row>
-            <row role="lang">
-              <cell role="position">10</cell>
-              <cell role="code">bs</cell>
-              <cell role="name">
-                <ref target="#msd-bs">Bosnian</ref>
-              </cell>
-              <cell role="note">South West Slavic</cell>
-              <cell role="ref">
-                <ref target="http://www.ethnologue.com/language/bos">Ethnologue</ref>
               </cell>
             </row>
             <row role="lang">
@@ -724,27 +723,27 @@ V3??
         <div type="section" xml:id="msd.categories">
           <head>Categories</head>
           <p>Each category is a feature-structure type, i.e. it introduces attribute value pairs. The
-            equivalence of a particular attribute-value at a particular position in a
-            morpho-syntactic description is thus defined only with respect to a given category. </p>
+          equivalence of a particular attribute-value at a particular position in a
+          morpho-syntactic description is thus defined only with respect to a given category. </p>
           <divGen type="msd.cats"/>
         </div>
         <div type="section" xml:id="msd.att-val">
           <head>Attributes and values</head>
           <p>The common MULTEXT-East tables of attribute values are given for all categories above
-            and have a rigid structure, which makes them suitable for automatically verifying the
-            conformance of a particular morphosyntactic description with the tables, or for
-            expanding a morphosyntactic description into its more verbose form.</p>
+          and have a rigid structure, which makes them suitable for automatically verifying the
+          conformance of a particular morphosyntactic description with the tables, or for
+          expanding a morphosyntactic description into its more verbose form.</p>
           <p>This formal part is given as a table, having the following columns:
-              <list type="ordered"><item><emph rend="bold">Position</emph> gives the position of the attribute in the
-                string of the morphosyntactic description;</item><item><emph rend="bold">Attribute</emph> gives the name of the attribute;</item><item><emph rend="bold">Value</emph> gives the name and one-letter code of the
-                attribute-value;</item><item>a column for each of the languages. For easier comparison between them they have
-                been grouped by language family: first English as the 'hub' language, then Romance
-                (Romanian), followed by Slavic (Slovene, Czech, Bulgarian), and finaly Finno-Ungric
-                (Estonian, Hungarian). Croatian, Serbian and Resian have been added later, and not
-                yet properly grouped.</item></list></p>
+          <list type="ordered"><item><emph rend="bold">Position</emph> gives the position of the attribute in the
+          string of the morphosyntactic description;</item><item><emph rend="bold">Attribute</emph> gives the name of the attribute;</item><item><emph rend="bold">Value</emph> gives the name and one-letter code of the
+          attribute-value;</item><item>a column for each of the languages. For easier comparison between them they have
+          been grouped by language family: first English as the 'hub' language, then Romance
+          (Romanian), followed by Slavic (Slovene, Czech, Bulgarian), and finaly Finno-Ungric
+          (Estonian, Hungarian). Croatian, Serbian and Resian have been added later, and not
+          yet properly grouped.</item></list></p>
           <p>The language columns define (by marking with 'x'), in the first line, whether the
-            category is used by the language, and in subsequent lines, which attribute-values a
-            particular language uses.</p>
+          category is used by the language, and in subsequent lines, which attribute-values a
+          particular language uses.</p>
           <div type="section" xml:id="msd.N">
             <head>Noun</head>
             <table n="msd.cat" xml:lang="en" xml:id="msd.cat.N">
@@ -771,7 +770,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -798,7 +797,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">proper</cell>
@@ -820,7 +819,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">gerund</cell>
@@ -851,7 +850,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">feminine</cell>
@@ -869,7 +868,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">neuter</cell>
@@ -887,7 +886,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">common</cell>
@@ -923,7 +922,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">plural</cell>
@@ -945,7 +944,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dual</cell>
@@ -991,7 +990,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">genitive</cell>
@@ -1009,7 +1008,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dative</cell>
@@ -1025,7 +1024,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">accusative</cell>
@@ -1040,7 +1039,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">vocative</cell>
@@ -1056,7 +1055,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">locative</cell>
@@ -1071,7 +1070,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">instrumental</cell>
@@ -1087,7 +1086,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">direct</cell>
@@ -1316,7 +1315,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">yes</cell>
@@ -1330,7 +1329,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -1499,9 +1498,9 @@ V3??
               <head>Notes</head>
               <list>
                 <item>In the Romanian case system the value 'direct' conflates 'nominative' and
-                  'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</item>
+                'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</item>
                 <item>In the Macedonian case system the value 'oblique' conflates archaic forms of
-                 'genitive', 'dative' and 'accusative'.</item>
+                'genitive', 'dative' and 'accusative'.</item>
               </list>
             </div>
           </div>
@@ -1531,7 +1530,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -1558,7 +1557,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">auxiliary</cell>
@@ -1580,7 +1579,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">modal</cell>
@@ -1594,6 +1593,7 @@ V3??
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Verb/Type=modal--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">copula</cell>
@@ -1605,7 +1605,7 @@ V3??
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">base</cell>
@@ -1643,6 +1643,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
+                      <!--hr added to feature Verb/VForm=indicative--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">subjunctive</cell>
@@ -1670,7 +1671,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">conditional</cell>
@@ -1684,6 +1685,7 @@ V3??
                       <cell role="lang">ru</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Verb/VForm=conditional--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">infinitive</cell>
@@ -1702,7 +1704,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">participle</cell>
@@ -1721,7 +1723,7 @@ V3??
                       <cell role="lang">ru</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">gerund</cell>
@@ -1762,16 +1764,14 @@ V3??
                     <row role="value">
                       <cell role="name">present</cell>
                       <cell role="code">r</cell>
-                      <cell role="lang">sl</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Verb/VForm=present--><cell role="lang">sl</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">future</cell>
                       <cell role="code">f</cell>
-                      <cell role="lang">sl</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Verb/VForm=future--><cell role="lang">sl</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">interrogative</cell>
@@ -1801,14 +1801,12 @@ V3??
                     <row role="value">
                       <cell role="name">aorist</cell>
                       <cell role="code">a</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Verb/VForm=aorist--><cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">imperfect</cell>
                       <cell role="code">e</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Verb/VForm=imperfect--><cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -1836,6 +1834,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
+                      <!--hr added to feature Verb/Tense=present--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">imperfect</cell>
@@ -1847,6 +1846,7 @@ V3??
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ce</cell>
+                      <!--hr added to feature Verb/Tense=imperfect--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">future</cell>
@@ -1859,6 +1859,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
+                      <!--hr added to feature Verb/Tense=future--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">past</cell>
@@ -1876,6 +1877,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Verb/Tense=past--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">pluperfect</cell>
@@ -1883,6 +1885,7 @@ V3??
                       <cell role="lang">ro</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ce</cell>
+                      <!--hr added to feature Verb/Tense=pluperfect--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">aorist</cell>
@@ -1891,6 +1894,7 @@ V3??
                       <cell role="lang">mk</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
+                      <!--hr added to feature Verb/Tense=aorist--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">recent_past</cell>
@@ -1934,7 +1938,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">second</cell>
@@ -1955,7 +1959,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">third</cell>
@@ -1976,7 +1980,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -2005,7 +2009,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">plural</cell>
@@ -2026,7 +2030,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dual</cell>
@@ -2062,7 +2066,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">feminine</cell>
@@ -2079,7 +2083,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">neuter</cell>
@@ -2096,7 +2100,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -2116,6 +2120,7 @@ V3??
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Verb/Voice=active--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">passive</cell>
@@ -2127,6 +2132,7 @@ V3??
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Verb/Voice=passive--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">medial</cell>
@@ -2153,7 +2159,7 @@ V3??
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">yes</cell>
@@ -2167,7 +2173,7 @@ V3??
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -2512,7 +2518,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -2534,6 +2540,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Adjective/Type=qualificative--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">indefinite</cell>
@@ -2550,7 +2557,7 @@ V3??
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">ordinal</cell>
@@ -2563,18 +2570,16 @@ V3??
                     <row role="value">
                       <cell role="name">participle</cell>
                       <cell role="code">p</cell>
-                      <cell role="lang">uk</cell>
+                      <!--hr removed from feature Adjective/Type=participle--><cell role="lang">uk</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">pl</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">general</cell>
                       <cell role="code">g</cell>
-                      <cell role="lang">sl</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Adjective/Type=general--><cell role="lang">sl</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -2603,7 +2608,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">comparative</cell>
@@ -2624,7 +2629,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">superlative</cell>
@@ -2644,7 +2649,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">elative</cell>
@@ -2681,7 +2686,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">feminine</cell>
@@ -2698,7 +2703,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">neuter</cell>
@@ -2715,7 +2720,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">common</cell>
@@ -2747,7 +2752,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">plural</cell>
@@ -2766,7 +2771,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dual</cell>
@@ -2803,7 +2808,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">genitive</cell>
@@ -2820,7 +2825,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dative</cell>
@@ -2835,7 +2840,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">accusative</cell>
@@ -2850,7 +2855,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">vocative</cell>
@@ -2860,7 +2865,7 @@ V3??
                       <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">locative</cell>
@@ -2874,7 +2879,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">instrumental</cell>
@@ -2889,7 +2894,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">direct</cell>
@@ -3043,7 +3048,7 @@ V3??
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">yes</cell>
@@ -3056,7 +3061,7 @@ V3??
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">short-art</cell>
@@ -3120,7 +3125,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">uk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">yes</cell>
@@ -3132,7 +3137,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">uk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -3346,11 +3351,11 @@ V3??
               <head>Notes</head>
               <list>
                 <item>In the Romanian case system the value 'direct' conflates 'nominative' and
-                  'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</item>
+                'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</item>
                 <item>For
-              Macedonian, the definiteness attributes can take the values: non definite (no),
-              generally definite (yes), definite at short visible distance (proximal), and definite
-              at longer visible distance (distal).</item>
+                Macedonian, the definiteness attributes can take the values: non definite (no),
+                generally definite (yes), definite at short visible distance (proximal), and definite
+                at longer visible distance (distal).</item>
               </list>
             </div>
           </div>
@@ -3380,7 +3385,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -3407,7 +3412,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">demonstrative</cell>
@@ -3428,7 +3433,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">indefinite</cell>
@@ -3449,7 +3454,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">possessive</cell>
@@ -3470,7 +3475,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">interrogative</cell>
@@ -3491,7 +3496,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">relative</cell>
@@ -3509,7 +3514,7 @@ V3??
                       <cell role="lang">ru</cell>
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">exclamative</cell>
@@ -3535,7 +3540,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">reciprocal</cell>
@@ -3632,7 +3637,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">second</cell>
@@ -3654,7 +3659,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">third</cell>
@@ -3676,7 +3681,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -3702,7 +3707,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">feminine</cell>
@@ -3720,7 +3725,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">neuter</cell>
@@ -3738,7 +3743,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -3768,7 +3773,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">plural</cell>
@@ -3790,7 +3795,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dual</cell>
@@ -3837,7 +3842,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">genitive</cell>
@@ -3856,7 +3861,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dative</cell>
@@ -3875,7 +3880,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">accusative</cell>
@@ -3895,7 +3900,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">vocative</cell>
@@ -3905,7 +3910,7 @@ V3??
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">locative</cell>
@@ -3920,7 +3925,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">instrumental</cell>
@@ -3936,7 +3941,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">direct</cell>
@@ -4102,6 +4107,7 @@ V3??
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Pronoun/Owner_Number=singular--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">plural</cell>
@@ -4115,6 +4121,7 @@ V3??
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Pronoun/Owner_Number=plural--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dual</cell>
@@ -4139,6 +4146,7 @@ V3??
                       <cell role="lang">mk</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
+                      <!--hr added to feature Pronoun/Owner_Gender=masculine--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">feminine</cell>
@@ -4149,6 +4157,7 @@ V3??
                       <cell role="lang">mk</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
+                      <!--hr added to feature Pronoun/Owner_Gender=feminine--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">neuter</cell>
@@ -4158,6 +4167,7 @@ V3??
                       <cell role="lang">mk</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
+                      <!--hr added to feature Pronoun/Owner_Gender=neuter--><cell role="lang">hr</cell>
                     </row>
                   </table>
                 </cell>
@@ -4179,6 +4189,7 @@ V3??
                       <cell role="lang">fa</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Pronoun/Clitic=no--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">yes</cell>
@@ -4193,6 +4204,7 @@ V3??
                       <cell role="lang">fa</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Pronoun/Clitic=yes--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">bound</cell>
@@ -4221,6 +4233,7 @@ V3??
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Pronoun/Referent_Type=personal--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">possessive</cell>
@@ -4231,6 +4244,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Pronoun/Referent_Type=possessive--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">attributive</cell>
@@ -4260,6 +4274,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">uk</cell>
+                      <!--hr added to feature Pronoun/Syntactic_Type=nominal--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">adjectival</cell>
@@ -4271,6 +4286,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">uk</cell>
+                      <!--hr added to feature Pronoun/Syntactic_Type=adjectival--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">adverbial</cell>
@@ -4343,7 +4359,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">yes</cell>
@@ -4356,7 +4372,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -4515,11 +4531,11 @@ V3??
               <head>Notes</head>
               <list>
                 <item>In the Romanian case system the value 'direct' conflates 'nominative' and
-                  'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</item>
+                'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</item>
                 <item>For
-              Macedonian, the definiteness attributes can take the values: non definite (no),
-              generally definite (yes), definite at short visible distance (proximal), and definite
-              at longer visible distance (distal).</item>
+                Macedonian, the definiteness attributes can take the values: non definite (no),
+                generally definite (yes), definite at short visible distance (proximal), and definite
+                at longer visible distance (distal).</item>
               </list>
             </div>
           </div>
@@ -4796,7 +4812,7 @@ V3??
               </row>
             </table>
             <p>Notes: In the Romanian case system the value 'direct' conflates 'nominative' and
-              'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</p>
+            'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</p>
           </div>
           <div type="section" xml:id="msd.T">
             <head>Article</head>
@@ -4985,7 +5001,7 @@ V3??
               </row>
             </table>
             <p>Notes: In the Romanian case system the value 'direct' conflates 'nominative' and
-              'accusative', while the value 'oblique' conflates 'genitive' and 'dative'. </p>
+            'accusative', while the value 'oblique' conflates 'genitive' and 'dative'. </p>
           </div>
           <div type="section" xml:id="msd.R">
             <head>Adverb</head>
@@ -5013,7 +5029,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -5032,7 +5048,7 @@ V3??
                       <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">particle</cell>
@@ -5096,9 +5112,8 @@ V3??
                     <row role="value">
                       <cell role="name">participle</cell>
                       <cell role="code">r</cell>
-                      <cell role="lang">sl</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Adverb/Type=participle--><cell role="lang">sl</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -5125,7 +5140,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">comparative</cell>
@@ -5144,7 +5159,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">superlative</cell>
@@ -5162,7 +5177,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">elative</cell>
@@ -5306,7 +5321,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -5329,6 +5344,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Adposition/Type=preposition--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">postposition</cell>
@@ -5359,6 +5375,7 @@ V3??
                       <cell role="lang">ru</cell>
                       <cell role="lang">uk</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Adposition/Formation=simple--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">compound</cell>
@@ -5372,6 +5389,7 @@ V3??
                       <cell role="lang">ru</cell>
                       <cell role="lang">uk</cell>
                       <cell role="lang">sk</cell>
+                      <!--hr added to feature Adposition/Formation=compound--><cell role="lang">hr</cell>
                     </row>
                   </table>
                 </cell>
@@ -5400,7 +5418,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dative</cell>
@@ -5415,7 +5433,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">accusative</cell>
@@ -5430,7 +5448,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">locative</cell>
@@ -5444,7 +5462,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">instrumental</cell>
@@ -5458,7 +5476,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -5509,7 +5527,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -5534,7 +5552,7 @@ V3??
                       <cell role="lang">ru</cell>
                       <cell role="lang">uk</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">subordinating</cell>
@@ -5554,7 +5572,7 @@ V3??
                       <cell role="lang">fa</cell>
                       <cell role="lang">uk</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">portmanteau</cell>
@@ -5582,7 +5600,7 @@ V3??
                       <cell role="lang">ru</cell>
                       <cell role="lang">fa</cell>
                       <cell role="lang">uk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">compound</cell>
@@ -5597,7 +5615,7 @@ V3??
                       <cell role="lang">ru</cell>
                       <cell role="lang">fa</cell>
                       <cell role="lang">uk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -5758,7 +5776,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -5785,7 +5803,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">ordinal</cell>
@@ -5807,7 +5825,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">fractal</cell>
@@ -5825,7 +5843,7 @@ V3??
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">collect</cell>
@@ -5845,7 +5863,7 @@ V3??
                       <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">ordinal2</cell>
@@ -5880,7 +5898,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">feminine</cell>
@@ -5897,7 +5915,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">neuter</cell>
@@ -5914,7 +5932,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -5942,7 +5960,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">plural</cell>
@@ -5962,7 +5980,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dual</cell>
@@ -6000,7 +6018,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">genitive</cell>
@@ -6018,7 +6036,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dative</cell>
@@ -6034,7 +6052,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">accusative</cell>
@@ -6049,14 +6067,14 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">vocative</cell>
                       <cell role="code">v</cell>
                       <cell role="lang">hr</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">locative</cell>
@@ -6071,7 +6089,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">instrumental</cell>
@@ -6087,7 +6105,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">direct</cell>
@@ -6264,7 +6282,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">roman</cell>
@@ -6284,7 +6302,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">letter</cell>
@@ -6304,7 +6322,7 @@ V3??
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">both</cell>
@@ -6464,7 +6482,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">yes</cell>
@@ -6477,7 +6495,7 @@ V3??
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -6561,7 +6579,7 @@ V3??
               </row>
             </table>
             <p>Notes: In the Romanian case system the value 'direct' conflates 'nominative' and
-              'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</p>
+            'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</p>
           </div>
           <div type="section" xml:id="msd.Q">
             <head>Particle</head>
@@ -6585,7 +6603,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -6599,7 +6617,7 @@ V3??
                       <cell role="lang">bg</cell>
                       <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">infinitive</cell>
@@ -6642,7 +6660,7 @@ V3??
                       <cell role="lang">bg</cell>
                       <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">modal</cell>
@@ -6650,14 +6668,14 @@ V3??
                       <cell role="lang">bg</cell>
                       <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">affirmative</cell>
                       <cell role="code">r</cell>
                       <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -6742,7 +6760,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -6773,6 +6791,7 @@ V3??
                       <cell role="lang">bg</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Interjection/Formation=simple--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">compound</cell>
@@ -6780,6 +6799,7 @@ V3??
                       <cell role="lang">bg</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Interjection/Formation=compound--><cell role="lang">hr</cell>
                     </row>
                   </table>
                 </cell>
@@ -6811,7 +6831,7 @@ V3??
                 <cell role="lang">uk</cell>
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -6825,6 +6845,7 @@ V3??
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Syntactic_Type=nominal--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">verbal</cell>
@@ -6845,6 +6866,7 @@ V3??
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Syntactic_Type=adverbial--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">pronominal</cell>
@@ -6865,6 +6887,7 @@ V3??
                       <cell role="lang">ro</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Gender=masculine--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">feminine</cell>
@@ -6872,6 +6895,7 @@ V3??
                       <cell role="lang">ro</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Gender=feminine--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">neuter</cell>
@@ -6879,6 +6903,7 @@ V3??
                       <cell role="lang">ro</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Gender=neuter--><cell role="lang">hr</cell>
                     </row>
                   </table>
                 </cell>
@@ -6895,6 +6920,7 @@ V3??
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Number=singular--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">plural</cell>
@@ -6903,6 +6929,7 @@ V3??
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Number=plural--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">paucal</cell>
@@ -6924,6 +6951,7 @@ V3??
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Case=nominative--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">genitive</cell>
@@ -6931,30 +6959,35 @@ V3??
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Case=genitive--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dative</cell>
                       <cell role="code">d</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Case=dative--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">accusative</cell>
                       <cell role="code">a</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Case=accusative--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">locative</cell>
                       <cell role="code">l</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Case=locative--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">instrumental</cell>
                       <cell role="code">i</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
+                      <!--hr added to feature Abbreviation/Case=instrumental--><cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">direct</cell>
@@ -7062,7 +7095,7 @@ V3??
               <head>Notes</head>
               <list>
                 <item>In the Romanian case system the value 'direct' conflates 'nominative' and
-                  'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</item>
+                'accusative', while the value 'oblique' conflates 'genitive' and 'dative'.</item>
               </list>
             </div>
           </div>
@@ -7092,7 +7125,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
               <row role="attribute">
                 <cell role="position">1</cell>
@@ -7102,10 +7135,9 @@ V3??
                     <row role="value">
                       <cell role="name">foreign</cell>
                       <cell role="code">f</cell>
-                      <cell role="lang">sl</cell>
+                      <!--hr removed from feature Residual/Type=foreign--><cell role="lang">sl</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">bs</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">typo</cell>
@@ -7120,30 +7152,26 @@ V3??
                     <row role="value">
                       <cell role="name">web</cell>
                       <cell role="code">w</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">sl</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Residual/Type=web--><cell role="lang">sl</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">emo</cell>
                       <cell role="code">e</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">sl</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Residual/Type=emo--><cell role="lang">sl</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">hashtag</cell>
                       <cell role="code">h</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">sl</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Residual/Type=hashtag--><cell role="lang">sl</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                     <row role="value">
                       <cell role="name">at</cell>
                       <cell role="code">a</cell>
-                      <cell role="lang">hr</cell>
-                      <cell role="lang">sl</cell>
-                      <cell role="lang">bs</cell>
+                      <!--hr removed from feature Residual/Type=at--><cell role="lang">sl</cell>
+                      <cell role="lang">hbs</cell>
                     </row>
                   </table>
                 </cell>
@@ -7185,7 +7213,7 @@ V3??
                 <cell role="lang">pl</cell>
                 <cell role="lang">sk</cell>
                 <cell role="lang">ce</cell>
-                <cell role="lang">bs</cell>
+                <cell role="lang">hbs</cell>
               </row>
             </table>
             <div>
@@ -7208,73 +7236,73 @@ V3??
         <div type="section" xml:id="msd.attributes">
           <head>Attribute Index</head>
           <p>In this section all the attributes presented in the tables are listed in
-                alphabetical order. For some attributes which are not self-explanatory, a brief
-                description of their semantics is provided.</p>
+          alphabetical order. For some attributes which are not self-explanatory, a brief
+          description of their semantics is provided.</p>
           <divGen type="msd.atts"/>
           <div type="subsection">
             <head>Notes</head>
             <list type="gloss">
               <label>Class:</label>
               <item>distinguishes subtypes of Numerals in Czech which have a distinct syntactic
-                  distributions: e.g. subclasses for 1, 2, 3&amp;4, etc. are distinguished.</item>
+              distributions: e.g. subclasses for 1, 2, 3&amp;4, etc. are distinguished.</item>
               <label>Clitic_s:</label>
               <item>the 'yes' value of the Clitic_s attribute denotes Czech pronouns having the
-                  clitic morpheme 's' appended as a suffix.</item>
+              clitic morpheme 's' appended as a suffix.</item>
               <label>Definiteness:</label>
               <item>corresponds to the definite and indefinite article in English, which is
-                  expressed in the Slavic languages by suffixes. For Bulgarian singular masculine
-                  there are two forms: full article and short article (full is used when a
-                  sing.masc. form is the syntactic subject of the clause, otherwise short article is
-                  used). The distinction full vs. short is not made for feminine, neuter and plural
-                  forms. Definiteness is also used in Romanian.</item>
+              expressed in the Slavic languages by suffixes. For Bulgarian singular masculine
+              there are two forms: full article and short article (full is used when a
+              sing.masc. form is the syntactic subject of the clause, otherwise short article is
+              used). The distinction full vs. short is not made for feminine, neuter and plural
+              forms. Definiteness is also used in Romanian.</item>
               <label>Form:</label>
               <item>used to distinguish different forms of numerals (Roman, digit, 'letter') and
-                  in Bulgarian also for the semantic distinction between numerals that refer to male
-                  persons (but not children) or groups of male+female.</item>
+              in Bulgarian also for the semantic distinction between numerals that refer to male
+              persons (but not children) or groups of male+female.</item>
               <label>Formation:</label>
               <item>refers to the graphical components: simple, i.e. consisting of one word;
-                  compound, i.e. consisting of more than one word.</item>
+              compound, i.e. consisting of more than one word.</item>
               <label>Modific_Type:</label>
               <item>refers to the prenominal or postnominal positions of Determiners which
-                  distinguish different forms in Romanian.</item>
+              distinguish different forms in Romanian.</item>
               <label>Negative:</label>
               <item>the value 'yes' encodes negative verbal word-forms in Slavic languages and
-                  Estonian.</item>
+              Estonian.</item>
               <label>Owned_Number:</label>
               <item>in the Hungarian system, different word-forms are distinguished for nominals
-                  on the basis of so called 'anaphoric possessive' number, i.e. the number of the
-                  thing(s) possessed by the nominal in question.</item>
+              on the basis of so called 'anaphoric possessive' number, i.e. the number of the
+              thing(s) possessed by the nominal in question.</item>
               <label>Owner_Gender:</label>
               <item>used to encode the Gender of the possessor in Pronouns and (in Romanian)
-                  Determiners.</item>
+              Determiners.</item>
               <label>Owner_Number:</label>
               <item>used to specify the possessor number in Pronouns, as well as (in Romanian) in
-                  Determiners, and (in Hungarian) in Adjectives and Nouns.</item>
+              Determiners, and (in Hungarian) in Adjectives and Nouns.</item>
               <label>Owner_Person:</label>
               <item>used to specify the possessor person in in Hungarian in Adjectives and Nouns.</item>
               <label>Pronoun_Form:</label>
               <item>used to encode weak and strong pronouns in Romanian.</item>
               <label>Referent_Type:</label>
               <item>used to distinguish reflexive personal from reflexive possessive pronouns in
-                  the Slavic languages. In Bulgarian, it also describes a subdivision on the basis
-                  of semantic features which have effect on the morpho-syntactic paradigm, e.g.
-                  quantitative: the pronoun refers to quantity, etc.</item>
+              the Slavic languages. In Bulgarian, it also describes a subdivision on the basis
+              of semantic features which have effect on the morpho-syntactic paradigm, e.g.
+              quantitative: the pronoun refers to quantity, etc.</item>
               <label>Sub_Type:</label>
               <item>used in Romanian to distinguish negative from positive Conjunctions.</item>
               <label>Syntactic_Type:</label>
               <item>used to distinguish the nominal and adjectival function of Pronouns in
-                  Croatian, Resian and Czech. Furthermore, in Slovene and Serbian, the adverbial
-                  function of certain Pronouns is distinguished. Also used in Abbreviations to
-                  signal the Part of Speech of the abbreviation; currently used only by Romanian and
-                  Estonian.</item>
+              Croatian, Resian and Czech. Furthermore, in Slovene and Serbian, the adverbial
+              function of certain Pronouns is distinguished. Also used in Abbreviations to
+              signal the Part of Speech of the abbreviation; currently used only by Romanian and
+              Estonian.</item>
             </list>
           </div>
         </div>
         <div type="section" xml:id="msd.values">
           <head>Value Index</head>
           <p>The values presented within the tables are, in the following, listed in alphabetical
-              order; the first column gives the name of the value, the second column its code and
-              the third lists attributes for which the value is appropriate.</p>
+          order; the first column gives the name of the value, the second column its code and
+          the third lists attributes for which the value is appropriate.</p>
           <divGen type="msd.vals"/>
         </div>
       </div>
@@ -7287,9 +7315,9 @@ V3??
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sk.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl-rozaj.spc.xml"/>
+        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hbs.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hr.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sr.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bs.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ru.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-uk.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-mk.spc.xml"/>
