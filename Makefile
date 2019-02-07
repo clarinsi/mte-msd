@@ -23,17 +23,19 @@ tst-indx:
 
 ###PROCESSING THE XML SOURCE
 nohup:
-	nohup time make all > nohup.all &
+	date > nohup.out
+	nohup time make all >> nohup.all &
 all:	cast-all htm tbls
+xall:	cast-all htm tbls mount
 
 # Put the publishable part of the resources on the Web
-W = /net/mantra/project/www-nl/www/ME/V6/msd
+NL = /net/mantra/project/www-nl/www/ME/V6/msd
 mount:
-	rm -fr $W/*
-	cp -r xml $W
-	cp -r html $W
-	cp -r tables $W
-	cp -r schema $W
+	rm -fr ${NL}/*
+	cp -r xml ${NL}
+	cp -r html ${NL}
+	cp -r tables ${NL}
+	cp -r schema ${NL}
 
 # Generate (in parallel) all the language tables
 tbls:
