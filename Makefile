@@ -86,7 +86,7 @@ new-lex:
 
 ## Make a new MSD index on the basis of the example lexicon
 new-msds:
-	bin/msd-index.pl ${NL} xml-edit/msd-${NL}.xml < xml-edit/msd-${NL}.wfl.txt > xml-edit/msd-${NL}.msd.xml
+	bin/msd-index.pl ${NL} xml-edit/msd-${NL}.spc.xml < xml-edit/msd-${NL}.wfl.txt > xml-edit/msd-${NL}.msd.xml
 ## Merge the language specific section with the common one
 new-merge:
 	$s add=../xml-edit/msd-${NL}.spc.xml -xsl:bin/msd-merge.xsl xml-edit/msd.xml \
