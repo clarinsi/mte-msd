@@ -126,11 +126,11 @@ foreach $inF (@infiles) {
     $tmp6 = `$COMMAND`;
     open(O,">$outDir/msd-canon-$lg.tbl") or die "Cant open $outDir/msd-canon-$lg.tbl";
     binmode(O,'utf8');
-    $i = 0;
     $tmp_canon = '';
     @ll = split(/\n/,$tmp5);
+    $i = 0;
     foreach my $l (split(/\n/,$tmp6)) {
-	if ($l eq $ll[$i]) {$tmp_canon .= "$l\n"}
+	if ($ll[$i] and $l eq $ll[$i]) {$tmp_canon .= "$l\n"}
 	else {$tmp_canon .= "$l\t$ll[$i]\n"}
 	$i++;
     }
@@ -141,16 +141,16 @@ foreach $inF (@infiles) {
     # run_command("cut -f3 < $outDir/msd-canon-$lg.tbl | $DRESS $lg | $SAXON $cspecs $common $check -xsl:$EXPAND - > $tmp9", $tmp9);
 }
 
-#$expan = `$SAXON $canon $modes $langs $msdsp -xsl:msd-expand.xsl $specFile`;
-# foreach (split('\n',$expan)) {
-#     if (/./) {
-# 	chomp;
-# 	s|<.+?>||g;
-# 	($coll,$rest) = /(.+?)\t(.+)/;
-# 	$sort{$coll} = $rest;
-# 	print "$sort{$coll}\n";
-#     }
-# }
+    # $expan = `$SAXON $canon $modes $langs $msdsp -xsl:msd-expand.xsl $specFile`;
+    # foreach (split('\n',$expan)) {
+    #   if (/./) {
+    #     chomp;
+    # 	  s|<.+?>||g;
+    # 	  ($coll,$rest) = /(.+?)\t(.+)/;
+    # 	  $sort{$coll} = $rest;
+    # 	  print "$sort{$coll}\n";
+    #   }
+    # }
 sub run_command {
     my $cmd  =  shift;
     my $msg = shift;

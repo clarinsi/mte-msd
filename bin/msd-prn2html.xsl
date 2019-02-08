@@ -19,7 +19,7 @@
   <xsl:param name="urlChunkPrefix">#</xsl:param>
   <xsl:param name="outputEncoding">utf-8</xsl:param>
   <xsl:param name="outputDir">html</xsl:param>
-  <!--xsl:param name="cssFile">tei.css</xsl:param-->
+  <xsl:param name="cssFile">mte.css</xsl:param>
   <xsl:param name="STDOUT">false</xsl:param>
   <xsl:param name="useIDs">true</xsl:param>
   <xsl:param name="outputName">msd</xsl:param>

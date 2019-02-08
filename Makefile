@@ -48,6 +48,7 @@ htm:
 	$s language=eng localisation=en -xsl:bin/teiHeader2html.xsl xml/msd.xml
 	$s -xi -xsl:bin/msd-spec2prn.xsl xml/msd.xml | $s splitLevel=1 - -xsl:bin/msd-prn2html.xsl
 	cp html/msd.html html/index.html
+	cp mte.css html/
 
 # Convert all editable specifications to their final (and redundant) form
 cast-all:
