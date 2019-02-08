@@ -3,8 +3,8 @@
      xml:id="msd-hbs"
      xml:lang="en">
    <head>Serbo-Croatian Specifications</head>
-   <docAuthor>Tomaž Erjavec, Nikola Ljubešić</docAuthor>
-   <docDate>2019-02-07</docDate>
+   <docAuthor>Tomaž Erjavec</docAuthor>
+   <docDate>2019-02-08</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Serbo-Croatian macrolanguage</item>
@@ -18,11 +18,10 @@
    <divGen type="subtoc"/>
    <div xml:id="msd-hbs.introduction">
       <head>Introduction to Serbo-Croatian Specifications</head>
-      <p>These specifications collate data on Serbo-Croatian, in particular
-	the manually annotated Croatian and Serbian SETimes datasets; a collection of tweets; and 
-      the Serbian and Croatian inflectional lexica
-      <ref target="http://hdl.handle.net/11356/1056">hrLex</ref> and
-      <ref target="http://hdl.handle.net/11356/1057">srLex</ref>.
+      <p>These specifications collate data on Serbo-Croatian, taken as a macrolanguage, covering the languages of Croatia, Serbia, Bosnian and Herzegovina, and Montenegro.
+      The lexical base for these specifications are the Serbian and Croatian inflectional lexica
+      <ref target="http://hdl.handle.net/11356/1072">hrLex</ref> and
+      <ref target="http://hdl.handle.net/11356/1073">srLex</ref>.
     </p>
    </div>
    <div type="section" select="hbs" xml:id="msd.categories-hbs">

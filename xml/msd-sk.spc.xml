@@ -18,62 +18,62 @@
    <div xml:id="msd-sk.introduction">
       <head>Introduction to Slovak Specifications</head>
       <p>This morphosyntactic tagset has been inspired by Czech tables, created by
-            Vladimír Petkevič, with the use of Slovak morphosyntactic classification
-            developed for the <ref target="http://korpus.juls.savba.sk/">Slovak National Corpus</ref>. 
-            The lexicon (size 2471926 entries) and corpus have been converted form the 
-            tagset used for the Slovak National Corpus by an automatic procedure.
-        </p>
+    Vladimír Petkevič, with the use of Slovak morphosyntactic classification
+    developed for the <ref target="http://korpus.juls.savba.sk/">Slovak National Corpus</ref>. 
+    The lexicon (size 2471926 entries) and corpus have been converted form the 
+    tagset used for the Slovak National Corpus by an automatic procedure.
+    </p>
       <div>
          <head>Notable differences when compared to the Czech version</head>
          <list>
             <item>SK: Verbs in infinitive have Voice='-' <lb/>
-                CS: Verbs in infinitive have Voice='a' (active) 
-            </item>
+        CS: Verbs in infinitive have Voice='a' (active) 
+        </item>
             <item>SK: Past active participle is not present in contemporary language<lb/>
-                CS: Past active participle is marked as qualificative adjective 
-            </item>
+        CS: Past active participle is marked as qualificative adjective 
+        </item>
             <item>SK: Personal and demonstrative 3rd person pronouns have different lemmas for different genders<lb/>
-                CS: Personal 3rd person pronouns have common masculine lemma <emph>on, ten</emph> 
-                regardless of pronoun gender
-            </item>
+        CS: Personal 3rd person pronouns have common masculine lemma <emph>on, ten</emph> 
+        regardless of pronoun gender
+        </item>
             <item>SK: there is no clitic morpheme 's' for verbs <lb/>
-                CS: 2nd Person singular present tense  of the auxiliary Verb  "být" with clitic morpheme 's' has Clitic_s attribute set to 'yes'
-            </item>
+        CS: 2nd Person singular present tense  of the auxiliary Verb  "být" with clitic morpheme 's' has Clitic_s attribute set to 'yes'
+        </item>
             <item>SK: Negative adjectives have negative lemma and negativeness is not marked otherwise.<lb/>
-                CS: Negative  adjectives have positive lemma and negativeness is not marked otherwise. 
-            </item>
+        CS: Negative  adjectives have positive lemma and negativeness is not marked otherwise. 
+        </item>
             <item>SK: Negative verbs have negative lemma <lb/>
-                CS: Negative verbs have positive lemma 
-            </item>
+        CS: Negative verbs have positive lemma 
+        </item>
             <item>SK: Vocative is morphologically identical with nominative, with
-                the exception of several nouns and (substandard usage of) some
-                proper names, and is marked according to its syntactic role.<lb/>
-                CS: Vocative in singular is a full-featured case, in plural it is
-                morphologically identical with nominative 
-            </item>
+        the exception of several nouns and (substandard usage of) some
+        proper names, and is marked according to its syntactic role.<lb/>
+        CS: Vocative in singular is a full-featured case, in plural it is
+        morphologically identical with nominative 
+        </item>
             <item>SK: Conjuctions cannot have number nor person<lb/>
-                CS: Some conjuctions can be marked for number and person 
-            </item>
+        CS: Some conjuctions can be marked for number and person 
+        </item>
             <item>SK: relative and interrogative pronouns are conflated into one
-                category (r)<lb/>
-                CS: relative and interrogative pronouns are two different categories 
-            </item>
+        category (r)<lb/>
+        CS: relative and interrogative pronouns are two different categories 
+        </item>
             <item>SK: Archaic short form of verbal adjectives survives only in some words,
-                and only in nominative (dlžen, vinen...). These are not distinguished from
-                adjectives proper.<lb/>
-                CS: Short form of verbal adjectives are classified as verbs, passive 
-                participles category 
-            </item>
+        and only in nominative (dlžen, vinen...). These are not distinguished from
+        adjectives proper.<lb/>
+        CS: Short form of verbal adjectives are classified as verbs, passive 
+        participles category 
+        </item>
             <item>SK: Verbs have Aspect category<lb/>
-                CS: Aspect is omitted 
-            </item>
+        CS: Aspect is omitted 
+        </item>
             <item>SK: 'adverb prepositions' (po, na, do...) are marked as residuals (X)<lb/>
-                CS: 'adverb prepositions' (na, do...) are (mistakenly) marked as their homonymous prepositions 
-            </item>
+        CS: 'adverb prepositions' (na, do...) are (mistakenly) marked as their homonymous prepositions 
+        </item>
             <item>SK: prepositions agglutinated with pronoun have lemmas containing preposition and base pronoun form connected by underscore ('naň' --&gt; 'na_on')<lb/>
-                CS: prepositions agglutinated with pronoun have lemma identical
-                with their form.
-            </item>
+        CS: prepositions agglutinated with pronoun have lemma identical
+        with their form.
+        </item>
          </list>
       </div>
    </div>
@@ -204,8 +204,8 @@
                <cell>CATEGORY</cell>
                <cell>Punctuation</cell>
                <cell>Z</cell>
-               <cell>(en)</cell>
-               <cell>(en)</cell>
+               <cell>Kategória</cell>
+               <cell>Interpunkcia</cell>
                <cell>(en)</cell>
                <cell role="attno">0</cell>
             </row>
@@ -15227,7 +15227,9 @@
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="sk">Kategória</cell>
             <cell role="value" xml:lang="en">Punctuation</cell>
+            <cell role="value" xml:lang="sk">Interpunkcia</cell>
             <cell role="code" xml:lang="en">Z</cell>
          </row>
       </table>

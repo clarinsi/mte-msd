@@ -18,13 +18,9 @@
    <divGen type="subtoc"/>
    <div xml:id="msd-uk.introduction">
       <head>Introduction to Ukrainian Specifications</head>
-      <p>The current specifications are based on the Ukrainian Grammatical Dictionary (UGD) developed in ULIF NASU
-by Igor V. Shevchenko (<ref target="http://lcorp.ulif.org.ua/dictua">http://lcorp.ulif.org.ua/dictua</ref>), 
-and a morphological analyzer (<ref target="http://www.domeczek.pl/~polukr/ugtag">UGTag</ref>)
-which uses an extended version of the UGD. The additional features in comparison with the UGD embrace: 
-the degree attribute for adjectives and adverbs full paradigms of adjectival participles, pronouns as a separate 
-part of speech with detailed semantic categorization, etc. Morfosyntactic data were also rearranged in the UGTag 
-to better reflect MULTEXT-East categorisations. </p>
+      <p>The current specifications are based on the Ukrainian Grammatical Dictionary (UGD) developed in ULIF NASU by Igor V. Shevchenko (<ref target="http://lcorp.ulif.org.ua/dictua">http://lcorp.ulif.org.ua/dictua</ref>), and a morphological analyzer (<ref target="http://www.domeczek.pl/~polukr/ugtag">UGTag</ref>)
+    which uses an extended version of the UGD. The additional features in comparison with the UGD embrace: the degree attribute for adjectives and adverbs full paradigms of adjectival participles, pronouns as a separate part of speech with detailed semantic categorization, etc. Morfosyntactic data were also rearranged in the UGTag 
+    to better reflect MULTEXT-East categorisations.</p>
    </div>
    <div type="section" xml:id="msd.categories-uk" select="uk">
       <head>Ukrainian Category Index</head>
@@ -152,8 +148,8 @@ to better reflect MULTEXT-East categorisations. </p>
                <cell>CATEGORY</cell>
                <cell>Punctuation</cell>
                <cell>Z</cell>
-               <cell>(en)</cell>
-               <cell>(en)</cell>
+               <cell>частина_мови</cell>
+               <cell>Пунктуація</cell>
                <cell>(en)</cell>
                <cell role="attno">0</cell>
             </row>
@@ -308,7 +304,7 @@ to better reflect MULTEXT-East categorisations. </p>
          <list>
             <item>Ukrainian pluralia tantum nouns are not encoded directly but can be identified by the absence of a value of Gender ("-").</item>
             <item>The Gender value "common" is assigned to nouns that can combine with adjectives in either feminine or masculine,e.g. <hi>сирота</hi>
-             or either neutral or masculine gender, e.g. <hi>Самоа</hi>.</item>
+        or either neutral or masculine gender, e.g. <hi>Самоа</hi>.</item>
          </list>
       </div>
       <div xml:id="msd.N-uk.combinations" n="combinations">
@@ -2148,10 +2144,7 @@ to better reflect MULTEXT-East categorisations. </p>
          <list>
             <item>Gerunds are not differentiated, but could be treated as a special class of nouns, nota bene: they possess aspect.</item>
             <item>No voice for Ukrainian as all verbal forms are active (adjectival/attributive participles are treated as adjectives).</item>
-            <item>The impersonal VForm (o) is characterized by the ending <hi>-то/-но</hi>. It exists in other Slavic languages as well, 
-            although in most of them it coincides with the neutral form of the passive adjectival participle and is classified as such.
-            In Ukrainian, as well as in Polish, the attributive form is different from the predicative one, cf. in Ukrainian <hi>писане правило</hi> 
-            (a written rule) vs <hi>писано правило</hi> (a rule was/is written).</item>
+            <item>The impersonal VForm (o) is characterized by the ending <hi>-то/-но</hi>. It exists in other Slavic languages as well, although in most of them it coincides with the neutral form of the passive adjectival participle and is classified as such. In Ukrainian, as well as in Polish, the attributive form is different from the predicative one, cf. in Ukrainian <hi>писане правило</hi> (a written rule) vs <hi>писано правило</hi> (a rule was/is written).</item>
          </list>
       </div>
       <div xml:id="msd.V-uk.combinations" n="combinations">
@@ -3290,7 +3283,7 @@ to better reflect MULTEXT-East categorisations. </p>
          <head>Notes</head>
          <list>
             <item>Relative adjectives (Ukr. <hi>відносні прикметники</hi>) are here labelled "o(rdinal)" for the sake of continuity 
-            with the Slovene tagset, where this term translates Slovene <hi>vrstni (pridevniki)</hi>.</item>
+        with the Slovene tagset, where this term translates Slovene <hi>vrstni (pridevniki)</hi>.</item>
             <item>The feature "Animate" is used to differentiate between two accusative masculine forms.</item>
             <item>Adjectival participles are grouped with adjectives and are characterized by voice, quasi-tense and aspect.</item>
             <item>NB: Although active adjectival participles are considered ungrammatical, being a consequence of russification, they still can be found in the language use. Thus, they are not generated by the Ukrainian grammatical dictionary but codes for them are foreseen in the UGTag and the present MSD index.</item>
@@ -6867,10 +6860,10 @@ to better reflect MULTEXT-East categorisations. </p>
          <list>
             <item>Many pronouns can be assigned to more than one Type. The Referent_Type feature is used to show the additional feature, like possessiveness or personality. The main type is defined according to the grammatical tradition. Note: there is no PRONOUN as POS in the Ukrainian Grammatical Dictionary, pro-nouns are a class of nouns. The Syntactic_Type shows further POS distribution.</item>
             <item>The emp(h)atic Type of Pronoun is used for pronoun forms <hi>ні"кому, ні"чому, ні"чим, ні"кого</hi>, etc.,
-             with complex meanings like "there is nobody/nothing (to do sth/to use for doing sth, etc.)". 
-            Orthographically these are identical forms of negative nominal pronouns <hi>ніхто, ніщо</hi> "nobody, nothing" in oblique cases, 
-            however, with differing accent. They are referred to as either separate pronoun lexemes or predicatives in grammars. 
-            All Ukrainian emphatic pronoun forms include negation.</item>
+        with complex meanings like "there is nobody/nothing (to do sth/to use for doing sth, etc.)". 
+        Orthographically these are identical forms of negative nominal pronouns <hi>ніхто, ніщо</hi> "nobody, nothing" in oblique cases, 
+        however, with differing accent. They are referred to as either separate pronoun lexemes or predicatives in grammars. 
+        All Ukrainian emphatic pronoun forms include negation.</item>
          </list>
       </div>
       <div xml:id="msd.P-uk.combinations" n="combinations">
@@ -11643,7 +11636,9 @@ to better reflect MULTEXT-East categorisations. </p>
          <row role="type">
             <cell role="position">0</cell>
             <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="uk">частина_мови</cell>
             <cell role="value" xml:lang="en">Punctuation</cell>
+            <cell role="value" xml:lang="uk">Пунктуація</cell>
             <cell role="code" xml:lang="en">Z</cell>
          </row>
       </table>
