@@ -29,12 +29,24 @@
   <xsl:param name="splitLevel">1</xsl:param>
   <xsl:param name="verbose">false</xsl:param>
   
-  <xsl:param name="teiHeaderFile">MULTEXT-East-header-en.html</xsl:param>
+  <xsl:param name="teiHeader-HTML">MULTEXT-East-header-en.html</xsl:param>
+  <xsl:param name="teiHeader-XML">../xml/msd.xml</xsl:param>
   
   <xsl:output method="xhtml" omit-xml-declaration="yes" encoding="utf-8"/>
   <xsl:template match="tei:divGen[@type='toc']">
-    <xsl:if test="normalize-space($teiHeaderFile)">
-      <a href="{$teiHeaderFile}">TEI Header</a>
+    <xsl:if test="normalize-space($teiHeader-HTML) or normalize-space($teiHeader-XML)">
+      <xsl:text>TEI Header: </xsl:text>
+      <xsl:if test="normalize-space($teiHeader-HTML)">
+	<xsl:text>[</xsl:text>
+	<a href="{$teiHeader-HTML}">HTML</a>
+	<xsl:text>]</xsl:text>
+      </xsl:if>
+      <xsl:text>&#32;</xsl:text>
+      <xsl:if test="normalize-space($teiHeader-XML)">
+	<xsl:text>[</xsl:text>
+	<a href="{$teiHeader-XML}">XML</a>
+	<xsl:text>]</xsl:text>
+      </xsl:if>
     </xsl:if>
     <a name="TOC"> </a>
     <h2>
