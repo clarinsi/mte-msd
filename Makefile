@@ -29,13 +29,13 @@ all:	cast-all htm tbls mount
 xall:	cast-all htm tbls mount
 
 # Put the publishable part of the resources on the Web
-NL = /net/mantra/project/www-nl/www/ME/V6/msd
+WWW = /net/mantra/project/www-nl/www/ME/V6/msd
 mount:
-	rm -fr ${NL}/*
-	cp -r xml ${NL}
-	cp -r html ${NL}
-	cp -r tables ${NL}
-	cp -r schema ${NL}
+	rm -fr ${WWW}/*
+	cp -r xml ${WWW}
+	cp -r html ${WWW}
+	cp -r tables ${WWW}
+	cp -r schema ${WWW}
 
 # Generate (in parallel) all the language tables
 tbls:
