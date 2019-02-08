@@ -13,7 +13,8 @@ tst-tbls:
 	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-hu.spc.xml -outdir tmp
 # Test generation of the feature-structure libraries
 tst-fs:
-	$s -xsl:bin/msd-fslib.xsl xml/msd-sl.spc.xml > tmp/fslib-sl.xml
+	$s select=en -xsl:bin/msd-fslib.xsl xml/msd-en.spc.xml > tmp/fslib-en.xml
+	$s select=sl -xsl:bin/msd-fslib.xsl xml/msd-sl.spc.xml > tmp/fslib-sl.xml
 	$s -xsl:bin/check-links.xsl tmp/fslib-sl.xml
 	$s -xsl:bin/expand-fs.xsl tmp/fslib-sl.xml > tmp/fslib2-sl.xml
 # Test generation of MSD index for a couple of languages

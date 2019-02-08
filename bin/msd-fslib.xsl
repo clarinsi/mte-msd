@@ -46,11 +46,7 @@
     </xsl:if>
   </xsl:param>
 
-  <xsl:output 
-    method="xml" 
-    indent="yes" 
-    omit-xml-declaration="yes"
-  />
+  <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
   <xsl:strip-space elements="tei:*"/>
   <xsl:key name="id" match="tei:*" use="@xml:id"/>
   
@@ -64,7 +60,6 @@
 	<xsl:value-of select="tei:*[@xml:id]/@xml:id"/>
       </xsl:message>
     </xsl:if>
-
     <xsl:comment>Automatically generated from XML source - edit at you own risk!</xsl:comment>
     <xsl:text>&#10;</xsl:text>
     <div>
@@ -202,7 +197,6 @@
         </xsl:call-template>
       </xsl:variable>
       <xsl:for-each select="tei:cell/tei:table/tei:row[@role='value']">
-
 	<xsl:variable name="code">
           <xsl:call-template name="cell">
             <xsl:with-param name="col">code</xsl:with-param>
@@ -215,7 +209,6 @@
             <xsl:with-param name="lan" select="$lang2"/>
           </xsl:call-template>
 	</xsl:variable>
-
         <xsl:call-template name="feature">
 	  <xsl:with-param name="id" select="et:feat-id($catcode, $position, $code, $lang1)"/>
 	  <xsl:with-param name="corresp">
@@ -260,11 +253,6 @@
         <xsl:attribute name="xml:lang">
           <xsl:value-of select="$lang1"/>
         </xsl:attribute>
-        <xsl:if test="$select">
-          <xsl:attribute name="select">
-            <xsl:value-of select="$select"/>
-          </xsl:attribute>
-        </xsl:if>
         <symbol value="{$value}"/>
       </f>
     </xsl:if>
@@ -368,9 +356,6 @@
       <xsl:attribute name="xml:lang" select="$lang1"/>
       <xsl:if test="normalize-space($corresp)">
 	<xsl:attribute name="corresp" select="concat('#',$corresp)"/>
-      </xsl:if>
-      <xsl:if test="$select">
-        <xsl:attribute name="select" select="$select"/>
       </xsl:if>
       <xsl:attribute name="feats">
         <xsl:call-template name="msdfs-feature">

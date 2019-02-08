@@ -61,7 +61,7 @@ foreach $inF (@infiles) {
     # run_command("$SAXON $lspecs $check $EXPAND $inFile > $tmp0", $tmp0);
 
     $tmp6 = "$outDir/msd-fslib-$lg.xml";
-    $COMMAND = "$SAXON -xsl:$FSLIB $inFile";
+    $COMMAND = "$SAXON select=$lg -xsl:$FSLIB $inFile";
     #print STDERR "INFO1: doing $COMMAND\n";
     run_command("$COMMAND > $tmp6", $tmp6);
 
