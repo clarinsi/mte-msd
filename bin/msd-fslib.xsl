@@ -14,7 +14,6 @@
       The feature-structure library gives the list of MSDs with pointers to their attribute-value definitions.
       Supports localisation, i.e. can output the libraries in different languages.</xd:p>
       <xd:p>Author: Tomaž Erjavec tomaz.erjavec@ijs.si</xd:p>
-      <xd:p>Date: 2018-11-06</xd:p>
     </xd:desc>
   </xd:doc>
   
@@ -38,8 +37,7 @@
   <xsl:param name="lang1">en</xsl:param>
 
   <xd:doc><xd:desc>
-    <xd:p>If the specifications also has a localisation,
-    output that as well and connect the two.</xd:p>
+    <xd:p>If the specifications also has a localisation, output that as well and connect the two.</xd:p>
   </xd:desc></xd:doc>
   <xsl:param name="lang2">
     <xsl:if test="//tei:cell[@role='msd'][@xml:lang and @xml:lang != $lang1]">
@@ -61,7 +59,10 @@
   </xd:desc></xd:doc>
   <xsl:template match="/">
     <xsl:if test="not(normalize-space($msds)) and not(//tei:cell[@role='msd'])">
-      <xsl:message terminate="yes">No list of MSDs as parameter or in input file!</xsl:message>
+      <xsl:message terminate="yes">
+	<xsl:text>No list of MSDs as parameter nor in input file </xsl:text>
+	<xsl:value-of select="tei:*[@xml:id]/@xml:id"/>
+      </xsl:message>
     </xsl:if>
 
     <xsl:comment>Automatically generated from XML source - edit at you own risk!</xsl:comment>

@@ -66,7 +66,7 @@ foreach $inF (@infiles) {
     run_command("$COMMAND > $tmp6", $tmp6);
 
     $tmp7 = "$outDir/msd-fslib2-$lg.xml";
-    $COMMAND = "$SAXON -xsl:$FSEXP $inFile";
+    $COMMAND = "$SAXON -xsl:$FSEXP $tmp6";
     run_command("$COMMAND > $tmp7", $tmp7);
 
     ### Hopefully no longer needed!
@@ -96,7 +96,8 @@ foreach $inF (@infiles) {
 	binmode(O,'utf8');
 	foreach my $l (split(/\n/,$tmp1)) {
 	    $ll = <O>;
-	    $tmp_human .= "$l\t$ll"
+	    if ($l eq $ll) {$tmp_human .= "$l"}
+	    else {$tmp_human .= "$l\t$ll"}
 	}
 	close O;
     }
@@ -129,7 +130,9 @@ foreach $inF (@infiles) {
     $tmp_canon = '';
     @ll = split(/\n/,$tmp5);
     foreach my $l (split(/\n/,$tmp6)) {
-	$tmp_canon .= "$l\t$ll[$i++]\n"
+	if ($l eq $ll[$i]) {$tmp_canon .= "$l\n"}
+	else {$tmp_canon .= "$l\t$ll[$i]\n"}
+	$i++;
     }
     print O $tmp_canon;
     close O;

@@ -25,7 +25,7 @@ tst-indx:
 nohup:
 	date > nohup.out
 	nohup time make all >> nohup.all &
-all:	cast-all htm tbls
+all:	cast-all htm tbls mount
 xall:	cast-all htm tbls mount
 
 # Put the publishable part of the resources on the Web
