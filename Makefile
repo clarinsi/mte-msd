@@ -23,7 +23,7 @@ tst-indx:
 
 ###PROCESSING THE XML SOURCE
 nohup:
-	date > nohup.out
+	date > nohup.all
 	nohup time make all >> nohup.all &
 all:	cast-all htm tbls mount
 xall:	cast-all htm tbls mount
@@ -46,7 +46,7 @@ tbls:
 htm:
 	rm -f html/*
 	$s language=eng localisation=en -xsl:bin/teiHeader2html.xsl xml/msd.xml
-	$s -xi -xsl:bin/msd-spec2prn.xsl xml/msd.xml | $s splitLevel=1 - -xsl:bin/msd-prn2html.xsl 
+	$s -xi -xsl:bin/msd-spec2prn.xsl xml/msd.xml | $s splitLevel=1 - -xsl:bin/msd-prn2html.xsl
 	cp html/msd.html html/index.html
 
 # Convert all editable specifications to their final (and redundant) form
