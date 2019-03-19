@@ -7,10 +7,12 @@ val:
 # Test generation of new draft language specific section
 tst-split:
 	$s in-langs='sl sr ro' out-lang='sq' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-sq.spc.xml
-
+# Test generation of fsLib
+tst-lib:
+	$s select=sl -xsl:bin/msd-fslib.xsl xml/msd-sl.spc.xml > tmp/msd-fslib-sl.xml
 # Test generation of tables
 tst-tbls:
-	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-hu.spc.xml -outdir tmp
+	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-sl.spc.xml -outdir tmp
 # Test generation of the feature-structure libraries
 tst-fs:
 	$s select=en -xsl:bin/msd-fslib.xsl xml/msd-en.spc.xml > tmp/fslib-en.xml

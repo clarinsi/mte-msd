@@ -188,7 +188,7 @@
       <xsl:variable name="attribute">
         <xsl:call-template name="cell">
           <xsl:with-param name="col">name</xsl:with-param>
-        <xsl:with-param name="lan" select="$select"/>
+          <xsl:with-param name="lan" select="$lang1"/>
         </xsl:call-template>
       </xsl:variable>
       <xsl:variable name="position">

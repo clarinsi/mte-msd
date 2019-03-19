@@ -62,7 +62,7 @@ foreach $inF (@infiles) {
 
     $tmp6 = "$outDir/msd-fslib-$lg.xml";
     $COMMAND = "$SAXON select=$lg -xsl:$FSLIB $inFile";
-    #print STDERR "INFO1: doing $COMMAND\n";
+    #print STDERR "INFO1: doing $COMMAND > $tmp6\n";
     run_command("$COMMAND > $tmp6", $tmp6);
 
     $tmp7 = "$outDir/msd-fslib2-$lg.xml";
@@ -82,6 +82,7 @@ foreach $inF (@infiles) {
     $COMMAND = "$SAXON $lspecs $chuman $clocal -xsl:$EXPAND $inFile";
     #print STDERR "INFO3: doing $COMMAND\n";
     $tmp1 = `$COMMAND`;
+    #Languages with feature localisations
     if ($lg eq 'sl' or $lg eq 'sk' or $lg eq 'uk') {
 	$tmp2 = "$tempdir/msd-loc.tmp";
 	if ($lg eq 'sl') {
