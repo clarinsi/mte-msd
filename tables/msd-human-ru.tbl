@@ -1,0 +1,580 @@
+01N010000000000	Nc	Noun common	Noun Type=common
+01N010002010000	Nc-pn	Noun common plural nominative	Noun Type=common Number=plural Case=nominative
+01N010002020000	Nc-pg	Noun common plural genitive	Noun Type=common Number=plural Case=genitive
+01N010002030000	Nc-pd	Noun common plural dative	Noun Type=common Number=plural Case=dative
+01N010002040000	Nc-pa	Noun common plural accusative	Noun Type=common Number=plural Case=accusative
+01N010002060000	Nc-pl	Noun common plural locative	Noun Type=common Number=plural Case=locative
+01N010002070000	Nc-pi	Noun common plural instrumental	Noun Type=common Number=plural Case=instrumental
+01N010101010100	Ncmsnn	Noun common masculine singular nominative -Animate	Noun Type=common Gender=masculine Number=singular Case=nominative Animate=no
+01N010101010200	Ncmsny	Noun common masculine singular nominative +Animate	Noun Type=common Gender=masculine Number=singular Case=nominative Animate=yes
+01N010101020100	Ncmsgn	Noun common masculine singular genitive -Animate	Noun Type=common Gender=masculine Number=singular Case=genitive Animate=no
+01N010101020200	Ncmsgy	Noun common masculine singular genitive +Animate	Noun Type=common Gender=masculine Number=singular Case=genitive Animate=yes
+01N010101030100	Ncmsdn	Noun common masculine singular dative -Animate	Noun Type=common Gender=masculine Number=singular Case=dative Animate=no
+01N010101030200	Ncmsdy	Noun common masculine singular dative +Animate	Noun Type=common Gender=masculine Number=singular Case=dative Animate=yes
+01N010101040100	Ncmsan	Noun common masculine singular accusative -Animate	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=no
+01N010101040200	Ncmsay	Noun common masculine singular accusative +Animate	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=yes
+01N010101050200	Ncmsvy	Noun common masculine singular vocative +Animate	Noun Type=common Gender=masculine Number=singular Case=vocative Animate=yes
+01N010101060100	Ncmsln	Noun common masculine singular locative -Animate	Noun Type=common Gender=masculine Number=singular Case=locative Animate=no
+01N010101060200	Ncmsly	Noun common masculine singular locative +Animate	Noun Type=common Gender=masculine Number=singular Case=locative Animate=yes
+01N010101070100	Ncmsin	Noun common masculine singular instrumental -Animate	Noun Type=common Gender=masculine Number=singular Case=instrumental Animate=no
+01N010101070200	Ncmsiy	Noun common masculine singular instrumental +Animate	Noun Type=common Gender=masculine Number=singular Case=instrumental Animate=yes
+01N010102010100	Ncmpnn	Noun common masculine plural nominative -Animate	Noun Type=common Gender=masculine Number=plural Case=nominative Animate=no
+01N010102010200	Ncmpny	Noun common masculine plural nominative +Animate	Noun Type=common Gender=masculine Number=plural Case=nominative Animate=yes
+01N010102020100	Ncmpgn	Noun common masculine plural genitive -Animate	Noun Type=common Gender=masculine Number=plural Case=genitive Animate=no
+01N010102020200	Ncmpgy	Noun common masculine plural genitive +Animate	Noun Type=common Gender=masculine Number=plural Case=genitive Animate=yes
+01N010102030100	Ncmpdn	Noun common masculine plural dative -Animate	Noun Type=common Gender=masculine Number=plural Case=dative Animate=no
+01N010102030200	Ncmpdy	Noun common masculine plural dative +Animate	Noun Type=common Gender=masculine Number=plural Case=dative Animate=yes
+01N010102040100	Ncmpan	Noun common masculine plural accusative -Animate	Noun Type=common Gender=masculine Number=plural Case=accusative Animate=no
+01N010102040200	Ncmpay	Noun common masculine plural accusative +Animate	Noun Type=common Gender=masculine Number=plural Case=accusative Animate=yes
+01N010102060100	Ncmpln	Noun common masculine plural locative -Animate	Noun Type=common Gender=masculine Number=plural Case=locative Animate=no
+01N010102060200	Ncmply	Noun common masculine plural locative +Animate	Noun Type=common Gender=masculine Number=plural Case=locative Animate=yes
+01N010102070100	Ncmpin	Noun common masculine plural instrumental -Animate	Noun Type=common Gender=masculine Number=plural Case=instrumental Animate=no
+01N010102070200	Ncmpiy	Noun common masculine plural instrumental +Animate	Noun Type=common Gender=masculine Number=plural Case=instrumental Animate=yes
+01N010201010100	Ncfsnn	Noun common feminine singular nominative -Animate	Noun Type=common Gender=feminine Number=singular Case=nominative Animate=no
+01N010201010200	Ncfsny	Noun common feminine singular nominative +Animate	Noun Type=common Gender=feminine Number=singular Case=nominative Animate=yes
+01N010201020100	Ncfsgn	Noun common feminine singular genitive -Animate	Noun Type=common Gender=feminine Number=singular Case=genitive Animate=no
+01N010201020200	Ncfsgy	Noun common feminine singular genitive +Animate	Noun Type=common Gender=feminine Number=singular Case=genitive Animate=yes
+01N010201030100	Ncfsdn	Noun common feminine singular dative -Animate	Noun Type=common Gender=feminine Number=singular Case=dative Animate=no
+01N010201030200	Ncfsdy	Noun common feminine singular dative +Animate	Noun Type=common Gender=feminine Number=singular Case=dative Animate=yes
+01N010201040100	Ncfsan	Noun common feminine singular accusative -Animate	Noun Type=common Gender=feminine Number=singular Case=accusative Animate=no
+01N010201040200	Ncfsay	Noun common feminine singular accusative +Animate	Noun Type=common Gender=feminine Number=singular Case=accusative Animate=yes
+01N010201050200	Ncfsvy	Noun common feminine singular vocative +Animate	Noun Type=common Gender=feminine Number=singular Case=vocative Animate=yes
+01N010201060100	Ncfsln	Noun common feminine singular locative -Animate	Noun Type=common Gender=feminine Number=singular Case=locative Animate=no
+01N010201060200	Ncfsly	Noun common feminine singular locative +Animate	Noun Type=common Gender=feminine Number=singular Case=locative Animate=yes
+01N010201070100	Ncfsin	Noun common feminine singular instrumental -Animate	Noun Type=common Gender=feminine Number=singular Case=instrumental Animate=no
+01N010201070200	Ncfsiy	Noun common feminine singular instrumental +Animate	Noun Type=common Gender=feminine Number=singular Case=instrumental Animate=yes
+01N010202010100	Ncfpnn	Noun common feminine plural nominative -Animate	Noun Type=common Gender=feminine Number=plural Case=nominative Animate=no
+01N010202010200	Ncfpny	Noun common feminine plural nominative +Animate	Noun Type=common Gender=feminine Number=plural Case=nominative Animate=yes
+01N010202020100	Ncfpgn	Noun common feminine plural genitive -Animate	Noun Type=common Gender=feminine Number=plural Case=genitive Animate=no
+01N010202020200	Ncfpgy	Noun common feminine plural genitive +Animate	Noun Type=common Gender=feminine Number=plural Case=genitive Animate=yes
+01N010202030100	Ncfpdn	Noun common feminine plural dative -Animate	Noun Type=common Gender=feminine Number=plural Case=dative Animate=no
+01N010202030200	Ncfpdy	Noun common feminine plural dative +Animate	Noun Type=common Gender=feminine Number=plural Case=dative Animate=yes
+01N010202040100	Ncfpan	Noun common feminine plural accusative -Animate	Noun Type=common Gender=feminine Number=plural Case=accusative Animate=no
+01N010202040200	Ncfpay	Noun common feminine plural accusative +Animate	Noun Type=common Gender=feminine Number=plural Case=accusative Animate=yes
+01N010202060100	Ncfpln	Noun common feminine plural locative -Animate	Noun Type=common Gender=feminine Number=plural Case=locative Animate=no
+01N010202060200	Ncfply	Noun common feminine plural locative +Animate	Noun Type=common Gender=feminine Number=plural Case=locative Animate=yes
+01N010202070100	Ncfpin	Noun common feminine plural instrumental -Animate	Noun Type=common Gender=feminine Number=plural Case=instrumental Animate=no
+01N010202070200	Ncfpiy	Noun common feminine plural instrumental +Animate	Noun Type=common Gender=feminine Number=plural Case=instrumental Animate=yes
+01N010301010100	Ncnsnn	Noun common neuter singular nominative -Animate	Noun Type=common Gender=neuter Number=singular Case=nominative Animate=no
+01N010301010200	Ncnsny	Noun common neuter singular nominative +Animate	Noun Type=common Gender=neuter Number=singular Case=nominative Animate=yes
+01N010301020100	Ncnsgn	Noun common neuter singular genitive -Animate	Noun Type=common Gender=neuter Number=singular Case=genitive Animate=no
+01N010301020200	Ncnsgy	Noun common neuter singular genitive +Animate	Noun Type=common Gender=neuter Number=singular Case=genitive Animate=yes
+01N010301030100	Ncnsdn	Noun common neuter singular dative -Animate	Noun Type=common Gender=neuter Number=singular Case=dative Animate=no
+01N010301030200	Ncnsdy	Noun common neuter singular dative +Animate	Noun Type=common Gender=neuter Number=singular Case=dative Animate=yes
+01N010301040100	Ncnsan	Noun common neuter singular accusative -Animate	Noun Type=common Gender=neuter Number=singular Case=accusative Animate=no
+01N010301040200	Ncnsay	Noun common neuter singular accusative +Animate	Noun Type=common Gender=neuter Number=singular Case=accusative Animate=yes
+01N010301060100	Ncnsln	Noun common neuter singular locative -Animate	Noun Type=common Gender=neuter Number=singular Case=locative Animate=no
+01N010301060200	Ncnsly	Noun common neuter singular locative +Animate	Noun Type=common Gender=neuter Number=singular Case=locative Animate=yes
+01N010301070100	Ncnsin	Noun common neuter singular instrumental -Animate	Noun Type=common Gender=neuter Number=singular Case=instrumental Animate=no
+01N010301070200	Ncnsiy	Noun common neuter singular instrumental +Animate	Noun Type=common Gender=neuter Number=singular Case=instrumental Animate=yes
+01N010302010100	Ncnpnn	Noun common neuter plural nominative -Animate	Noun Type=common Gender=neuter Number=plural Case=nominative Animate=no
+01N010302010200	Ncnpny	Noun common neuter plural nominative +Animate	Noun Type=common Gender=neuter Number=plural Case=nominative Animate=yes
+01N010302020100	Ncnpgn	Noun common neuter plural genitive -Animate	Noun Type=common Gender=neuter Number=plural Case=genitive Animate=no
+01N010302020200	Ncnpgy	Noun common neuter plural genitive +Animate	Noun Type=common Gender=neuter Number=plural Case=genitive Animate=yes
+01N010302030100	Ncnpdn	Noun common neuter plural dative -Animate	Noun Type=common Gender=neuter Number=plural Case=dative Animate=no
+01N010302030200	Ncnpdy	Noun common neuter plural dative +Animate	Noun Type=common Gender=neuter Number=plural Case=dative Animate=yes
+01N010302040100	Ncnpan	Noun common neuter plural accusative -Animate	Noun Type=common Gender=neuter Number=plural Case=accusative Animate=no
+01N010302040200	Ncnpay	Noun common neuter plural accusative +Animate	Noun Type=common Gender=neuter Number=plural Case=accusative Animate=yes
+01N010302060100	Ncnpln	Noun common neuter plural locative -Animate	Noun Type=common Gender=neuter Number=plural Case=locative Animate=no
+01N010302060200	Ncnply	Noun common neuter plural locative +Animate	Noun Type=common Gender=neuter Number=plural Case=locative Animate=yes
+01N010302070100	Ncnpin	Noun common neuter plural instrumental -Animate	Noun Type=common Gender=neuter Number=plural Case=instrumental Animate=no
+01N010302070200	Ncnpiy	Noun common neuter plural instrumental +Animate	Noun Type=common Gender=neuter Number=plural Case=instrumental Animate=yes
+01N010401010200	Nccsny	Noun common common singular nominative +Animate	Noun Type=common Gender=common Number=singular Case=nominative Animate=yes
+01N010401020200	Nccsgy	Noun common common singular genitive +Animate	Noun Type=common Gender=common Number=singular Case=genitive Animate=yes
+01N010401030200	Nccsdy	Noun common common singular dative +Animate	Noun Type=common Gender=common Number=singular Case=dative Animate=yes
+01N010401040200	Nccsay	Noun common common singular accusative +Animate	Noun Type=common Gender=common Number=singular Case=accusative Animate=yes
+01N010401070200	Nccsiy	Noun common common singular instrumental +Animate	Noun Type=common Gender=common Number=singular Case=instrumental Animate=yes
+01N010402010200	Nccpny	Noun common common plural nominative +Animate	Noun Type=common Gender=common Number=plural Case=nominative Animate=yes
+01N010402020200	Nccpgy	Noun common common plural genitive +Animate	Noun Type=common Gender=common Number=plural Case=genitive Animate=yes
+01N010402030200	Nccpdy	Noun common common plural dative +Animate	Noun Type=common Gender=common Number=plural Case=dative Animate=yes
+01N010402040200	Nccpay	Noun common common plural accusative +Animate	Noun Type=common Gender=common Number=plural Case=accusative Animate=yes
+01N010402060200	Nccply	Noun common common plural locative +Animate	Noun Type=common Gender=common Number=plural Case=locative Animate=yes
+01N010402070200	Nccpiy	Noun common common plural instrumental +Animate	Noun Type=common Gender=common Number=plural Case=instrumental Animate=yes
+01N020101010100	Npmsnn	Noun proper masculine singular nominative -Animate	Noun Type=proper Gender=masculine Number=singular Case=nominative Animate=no
+01N020101010200	Npmsny	Noun proper masculine singular nominative +Animate	Noun Type=proper Gender=masculine Number=singular Case=nominative Animate=yes
+01N020101020200	Npmsgy	Noun proper masculine singular genitive +Animate	Noun Type=proper Gender=masculine Number=singular Case=genitive Animate=yes
+01N020101030200	Npmsdy	Noun proper masculine singular dative +Animate	Noun Type=proper Gender=masculine Number=singular Case=dative Animate=yes
+01N020101040100	Npmsan	Noun proper masculine singular accusative -Animate	Noun Type=proper Gender=masculine Number=singular Case=accusative Animate=no
+01N020101040200	Npmsay	Noun proper masculine singular accusative +Animate	Noun Type=proper Gender=masculine Number=singular Case=accusative Animate=yes
+01N020101060200	Npmsly	Noun proper masculine singular locative +Animate	Noun Type=proper Gender=masculine Number=singular Case=locative Animate=yes
+01N020101070200	Npmsiy	Noun proper masculine singular instrumental +Animate	Noun Type=proper Gender=masculine Number=singular Case=instrumental Animate=yes
+01N020102010200	Npmpny	Noun proper masculine plural nominative +Animate	Noun Type=proper Gender=masculine Number=plural Case=nominative Animate=yes
+01N020102020200	Npmpgy	Noun proper masculine plural genitive +Animate	Noun Type=proper Gender=masculine Number=plural Case=genitive Animate=yes
+01N020102030200	Npmpdy	Noun proper masculine plural dative +Animate	Noun Type=proper Gender=masculine Number=plural Case=dative Animate=yes
+01N020102040200	Npmpay	Noun proper masculine plural accusative +Animate	Noun Type=proper Gender=masculine Number=plural Case=accusative Animate=yes
+01N020102060200	Npmply	Noun proper masculine plural locative +Animate	Noun Type=proper Gender=masculine Number=plural Case=locative Animate=yes
+01N020102070200	Npmpiy	Noun proper masculine plural instrumental +Animate	Noun Type=proper Gender=masculine Number=plural Case=instrumental Animate=yes
+01N020201010200	Npfsny	Noun proper feminine singular nominative +Animate	Noun Type=proper Gender=feminine Number=singular Case=nominative Animate=yes
+01N020201020200	Npfsgy	Noun proper feminine singular genitive +Animate	Noun Type=proper Gender=feminine Number=singular Case=genitive Animate=yes
+01N020201030200	Npfsdy	Noun proper feminine singular dative +Animate	Noun Type=proper Gender=feminine Number=singular Case=dative Animate=yes
+01N020201040200	Npfsay	Noun proper feminine singular accusative +Animate	Noun Type=proper Gender=feminine Number=singular Case=accusative Animate=yes
+01N020201060100	Npfsln	Noun proper feminine singular locative -Animate	Noun Type=proper Gender=feminine Number=singular Case=locative Animate=no
+01N020201060200	Npfsly	Noun proper feminine singular locative +Animate	Noun Type=proper Gender=feminine Number=singular Case=locative Animate=yes
+01N020201070200	Npfsiy	Noun proper feminine singular instrumental +Animate	Noun Type=proper Gender=feminine Number=singular Case=instrumental Animate=yes
+01N020202020200	Npfpgy	Noun proper feminine plural genitive +Animate	Noun Type=proper Gender=feminine Number=plural Case=genitive Animate=yes
+01N020202030200	Npfpdy	Noun proper feminine plural dative +Animate	Noun Type=proper Gender=feminine Number=plural Case=dative Animate=yes
+01N020202040200	Npfpay	Noun proper feminine plural accusative +Animate	Noun Type=proper Gender=feminine Number=plural Case=accusative Animate=yes
+01N020202070200	Npfpiy	Noun proper feminine plural instrumental +Animate	Noun Type=proper Gender=feminine Number=plural Case=instrumental Animate=yes
+01N020401010200	Npcsny	Noun proper common singular nominative +Animate	Noun Type=proper Gender=common Number=singular Case=nominative Animate=yes
+01N020401020200	Npcsgy	Noun proper common singular genitive +Animate	Noun Type=proper Gender=common Number=singular Case=genitive Animate=yes
+01N020401030200	Npcsdy	Noun proper common singular dative +Animate	Noun Type=proper Gender=common Number=singular Case=dative Animate=yes
+01N020401040200	Npcsay	Noun proper common singular accusative +Animate	Noun Type=proper Gender=common Number=singular Case=accusative Animate=yes
+01N020401060200	Npcsly	Noun proper common singular locative +Animate	Noun Type=proper Gender=common Number=singular Case=locative Animate=yes
+01N020401070200	Npcsiy	Noun proper common singular instrumental +Animate	Noun Type=proper Gender=common Number=singular Case=instrumental Animate=yes
+01N020402010200	Npcpny	Noun proper common plural nominative +Animate	Noun Type=proper Gender=common Number=plural Case=nominative Animate=yes
+01N020402020200	Npcpgy	Noun proper common plural genitive +Animate	Noun Type=proper Gender=common Number=plural Case=genitive Animate=yes
+01N020402040200	Npcpay	Noun proper common plural accusative +Animate	Noun Type=proper Gender=common Number=plural Case=accusative Animate=yes
+01N020402070200	Npcpiy	Noun proper common plural instrumental +Animate	Noun Type=proper Gender=common Number=plural Case=instrumental Animate=yes
+02V01000000000000000000	Vm	Verb main	Verb Type=main
+02V01000000000000000003	Vm--------d	Verb main dative	Verb Type=main Case=dative
+02V01000000000000020000	Vm------f	Verb main full-art	Verb Type=main Definiteness=full-art
+02V01000000000003020000	Vm-----mf	Verb main medial full-art	Verb Type=main Voice=medial Definiteness=full-art
+02V01000000010300000003	Vm---sn---d	Verb main singular neuter dative	Verb Type=main Number=singular Gender=neuter Case=dative
+02V01000001020000000100	Vm--1p---p	Verb main first plural progressive	Verb Type=main Person=first Number=plural Aspect=progressive
+02V01000100010101020101	Vm-p-smafpn	Verb main present singular masculine active full-art progressive nominative	Verb Type=main Tense=present Number=singular Gender=masculine Voice=active Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100010102020101	Vm-p-smpfpn	Verb main present singular masculine passive full-art progressive nominative	Verb Type=main Tense=present Number=singular Gender=masculine Voice=passive Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100010103020101	Vm-p-smmfpn	Verb main present singular masculine medial full-art progressive nominative	Verb Type=main Tense=present Number=singular Gender=masculine Voice=medial Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100010201020101	Vm-p-sfafpn	Verb main present singular feminine active full-art progressive nominative	Verb Type=main Tense=present Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100010201020104	Vm-p-sfafpa	Verb main present singular feminine active full-art progressive accusative	Verb Type=main Tense=present Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=progressive Case=accusative
+02V01000100010202010100	Vm-p-sfpsp	Verb main present singular feminine passive short-art progressive	Verb Type=main Tense=present Number=singular Gender=feminine Voice=passive Definiteness=short-art Aspect=progressive
+02V01000100010202020101	Vm-p-sfpfpn	Verb main present singular feminine passive full-art progressive nominative	Verb Type=main Tense=present Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100010202020104	Vm-p-sfpfpa	Verb main present singular feminine passive full-art progressive accusative	Verb Type=main Tense=present Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=progressive Case=accusative
+02V01000100010203020101	Vm-p-sfmfpn	Verb main present singular feminine medial full-art progressive nominative	Verb Type=main Tense=present Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100010203020104	Vm-p-sfmfpa	Verb main present singular feminine medial full-art progressive accusative	Verb Type=main Tense=present Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=progressive Case=accusative
+02V01000100010301020101	Vm-p-snafpn	Verb main present singular neuter active full-art progressive nominative	Verb Type=main Tense=present Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100010301020102	Vm-p-snafpg	Verb main present singular neuter active full-art progressive genitive	Verb Type=main Tense=present Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=genitive
+02V01000100010301020103	Vm-p-snafpd	Verb main present singular neuter active full-art progressive dative	Verb Type=main Tense=present Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=dative
+02V01000100010302010100	Vm-p-snpsp	Verb main present singular neuter passive short-art progressive	Verb Type=main Tense=present Number=singular Gender=neuter Voice=passive Definiteness=short-art Aspect=progressive
+02V01000100010302020101	Vm-p-snpfpn	Verb main present singular neuter passive full-art progressive nominative	Verb Type=main Tense=present Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100010302020102	Vm-p-snpfpg	Verb main present singular neuter passive full-art progressive genitive	Verb Type=main Tense=present Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=genitive
+02V01000100010302020103	Vm-p-snpfpd	Verb main present singular neuter passive full-art progressive dative	Verb Type=main Tense=present Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=dative
+02V01000100010303020101	Vm-p-snmfpn	Verb main present singular neuter medial full-art progressive nominative	Verb Type=main Tense=present Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100010303020102	Vm-p-snmfpg	Verb main present singular neuter medial full-art progressive genitive	Verb Type=main Tense=present Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=progressive Case=genitive
+02V01000100010303020103	Vm-p-snmfpd	Verb main present singular neuter medial full-art progressive dative	Verb Type=main Tense=present Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=progressive Case=dative
+02V01000100020001020101	Vm-p-p-afpn	Verb main present plural active full-art progressive nominative	Verb Type=main Tense=present Number=plural Voice=active Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100020001020106	Vm-p-p-afpi	Verb main present plural active full-art progressive instrumental	Verb Type=main Tense=present Number=plural Voice=active Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000100020002010100	Vm-p-p-psp	Verb main present plural passive short-art progressive	Verb Type=main Tense=present Number=plural Voice=passive Definiteness=short-art Aspect=progressive
+02V01000100020002020101	Vm-p-p-pfpn	Verb main present plural passive full-art progressive nominative	Verb Type=main Tense=present Number=plural Voice=passive Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100020002020106	Vm-p-p-pfpi	Verb main present plural passive full-art progressive instrumental	Verb Type=main Tense=present Number=plural Voice=passive Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000100020003020101	Vm-p-p-mfpn	Verb main present plural medial full-art progressive nominative	Verb Type=main Tense=present Number=plural Voice=medial Definiteness=full-art Aspect=progressive Case=nominative
+02V01000100020003020106	Vm-p-p-mfpi	Verb main present plural medial full-art progressive instrumental	Verb Type=main Tense=present Number=plural Voice=medial Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000100020301020106	Vm-p-pnafpi	Verb main present plural neuter active full-art progressive instrumental	Verb Type=main Tense=present Number=plural Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000100020302020106	Vm-p-pnpfpi	Verb main present plural neuter passive full-art progressive instrumental	Verb Type=main Tense=present Number=plural Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000100020303020106	Vm-p-pnmfpi	Verb main present plural neuter medial full-art progressive instrumental	Verb Type=main Tense=present Number=plural Gender=neuter Voice=medial Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000101010001000100	Vm-p1s-a-p	Verb main present first singular active progressive	Verb Type=main Tense=present Person=first Number=singular Voice=active Aspect=progressive
+02V01000101020001000100	Vm-p1p-a-p	Verb main present first plural active progressive	Verb Type=main Tense=present Person=first Number=plural Voice=active Aspect=progressive
+02V01000102010001000100	Vm-p2s-a-p	Verb main present second singular active progressive	Verb Type=main Tense=present Person=second Number=singular Voice=active Aspect=progressive
+02V01000102020001000100	Vm-p2p-a-p	Verb main present second plural active progressive	Verb Type=main Tense=present Person=second Number=plural Voice=active Aspect=progressive
+02V01000103010001000100	Vm-p3s-a-p	Verb main present third singular active progressive	Verb Type=main Tense=present Person=third Number=singular Voice=active Aspect=progressive
+02V01000103010003000100	Vm-p3s-m-p	Verb main present third singular medial progressive	Verb Type=main Tense=present Person=third Number=singular Voice=medial Aspect=progressive
+02V01000103020001000100	Vm-p3p-a-p	Verb main present third plural active progressive	Verb Type=main Tense=present Person=third Number=plural Voice=active Aspect=progressive
+02V01000201010001000200	Vm-f1s-a-e	Verb main future first singular active perfective	Verb Type=main Tense=future Person=first Number=singular Voice=active Aspect=perfective
+02V01000201020001000200	Vm-f1p-a-e	Verb main future first plural active perfective	Verb Type=main Tense=future Person=first Number=plural Voice=active Aspect=perfective
+02V01000202010001000200	Vm-f2s-a-e	Verb main future second singular active perfective	Verb Type=main Tense=future Person=second Number=singular Voice=active Aspect=perfective
+02V01000202010003000200	Vm-f2s-m-e	Verb main future second singular medial perfective	Verb Type=main Tense=future Person=second Number=singular Voice=medial Aspect=perfective
+02V01000202020001000200	Vm-f2p-a-e	Verb main future second plural active perfective	Verb Type=main Tense=future Person=second Number=plural Voice=active Aspect=perfective
+02V01000203010001000200	Vm-f3s-a-e	Verb main future third singular active perfective	Verb Type=main Tense=future Person=third Number=singular Voice=active Aspect=perfective
+02V01000203020001000200	Vm-f3p-a-e	Verb main future third plural active perfective	Verb Type=main Tense=future Person=third Number=plural Voice=active Aspect=perfective
+02V01000300010101000100	Vm-s-sma-p	Verb main past singular masculine active progressive	Verb Type=main Tense=past Number=singular Gender=masculine Voice=active Aspect=progressive
+02V01000300010101000200	Vm-s-sma-e	Verb main past singular masculine active perfective	Verb Type=main Tense=past Number=singular Gender=masculine Voice=active Aspect=perfective
+02V01000300010101020100	Vm-s-smafp	Verb main past singular masculine active full-art progressive	Verb Type=main Tense=past Number=singular Gender=masculine Voice=active Definiteness=full-art Aspect=progressive
+02V01000300010101020101	Vm-s-smafpn	Verb main past singular masculine active full-art progressive nominative	Verb Type=main Tense=past Number=singular Gender=masculine Voice=active Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300010101020200	Vm-s-smafe	Verb main past singular masculine active full-art perfective	Verb Type=main Tense=past Number=singular Gender=masculine Voice=active Definiteness=full-art Aspect=perfective
+02V01000300010101020201	Vm-s-smafen	Verb main past singular masculine active full-art perfective nominative	Verb Type=main Tense=past Number=singular Gender=masculine Voice=active Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300010102010100	Vm-s-smpsp	Verb main past singular masculine passive short-art progressive	Verb Type=main Tense=past Number=singular Gender=masculine Voice=passive Definiteness=short-art Aspect=progressive
+02V01000300010102010200	Vm-s-smpse	Verb main past singular masculine passive short-art perfective	Verb Type=main Tense=past Number=singular Gender=masculine Voice=passive Definiteness=short-art Aspect=perfective
+02V01000300010102020101	Vm-s-smpfpn	Verb main past singular masculine passive full-art progressive nominative	Verb Type=main Tense=past Number=singular Gender=masculine Voice=passive Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300010102020201	Vm-s-smpfen	Verb main past singular masculine passive full-art perfective nominative	Verb Type=main Tense=past Number=singular Gender=masculine Voice=passive Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300010103020101	Vm-s-smmfpn	Verb main past singular masculine medial full-art progressive nominative	Verb Type=main Tense=past Number=singular Gender=masculine Voice=medial Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300010103020201	Vm-s-smmfen	Verb main past singular masculine medial full-art perfective nominative	Verb Type=main Tense=past Number=singular Gender=masculine Voice=medial Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300010201000100	Vm-s-sfa-p	Verb main past singular feminine active progressive	Verb Type=main Tense=past Number=singular Gender=feminine Voice=active Aspect=progressive
+02V01000300010201000200	Vm-s-sfa-e	Verb main past singular feminine active perfective	Verb Type=main Tense=past Number=singular Gender=feminine Voice=active Aspect=perfective
+02V01000300010201020101	Vm-s-sfafpn	Verb main past singular feminine active full-art progressive nominative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300010201020104	Vm-s-sfafpa	Verb main past singular feminine active full-art progressive accusative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=progressive Case=accusative
+02V01000300010201020200	Vm-s-sfafe	Verb main past singular feminine active full-art perfective	Verb Type=main Tense=past Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=perfective
+02V01000300010201020201	Vm-s-sfafen	Verb main past singular feminine active full-art perfective nominative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300010201020204	Vm-s-sfafea	Verb main past singular feminine active full-art perfective accusative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=perfective Case=accusative
+02V01000300010202010100	Vm-s-sfpsp	Verb main past singular feminine passive short-art progressive	Verb Type=main Tense=past Number=singular Gender=feminine Voice=passive Definiteness=short-art Aspect=progressive
+02V01000300010202010200	Vm-s-sfpse	Verb main past singular feminine passive short-art perfective	Verb Type=main Tense=past Number=singular Gender=feminine Voice=passive Definiteness=short-art Aspect=perfective
+02V01000300010202020101	Vm-s-sfpfpn	Verb main past singular feminine passive full-art progressive nominative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300010202020104	Vm-s-sfpfpa	Verb main past singular feminine passive full-art progressive accusative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=progressive Case=accusative
+02V01000300010202020201	Vm-s-sfpfen	Verb main past singular feminine passive full-art perfective nominative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300010202020204	Vm-s-sfpfea	Verb main past singular feminine passive full-art perfective accusative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=perfective Case=accusative
+02V01000300010203020101	Vm-s-sfmfpn	Verb main past singular feminine medial full-art progressive nominative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300010203020104	Vm-s-sfmfpa	Verb main past singular feminine medial full-art progressive accusative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=progressive Case=accusative
+02V01000300010203020201	Vm-s-sfmfen	Verb main past singular feminine medial full-art perfective nominative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300010203020204	Vm-s-sfmfea	Verb main past singular feminine medial full-art perfective accusative	Verb Type=main Tense=past Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=perfective Case=accusative
+02V01000300010301000100	Vm-s-sna-p	Verb main past singular neuter active progressive	Verb Type=main Tense=past Number=singular Gender=neuter Voice=active Aspect=progressive
+02V01000300010301000200	Vm-s-sna-e	Verb main past singular neuter active perfective	Verb Type=main Tense=past Number=singular Gender=neuter Voice=active Aspect=perfective
+02V01000300010301020101	Vm-s-snafpn	Verb main past singular neuter active full-art progressive nominative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300010301020102	Vm-s-snafpg	Verb main past singular neuter active full-art progressive genitive	Verb Type=main Tense=past Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=genitive
+02V01000300010301020103	Vm-s-snafpd	Verb main past singular neuter active full-art progressive dative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=dative
+02V01000300010301020201	Vm-s-snafen	Verb main past singular neuter active full-art perfective nominative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300010301020202	Vm-s-snafeg	Verb main past singular neuter active full-art perfective genitive	Verb Type=main Tense=past Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=perfective Case=genitive
+02V01000300010301020203	Vm-s-snafed	Verb main past singular neuter active full-art perfective dative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=perfective Case=dative
+02V01000300010302010100	Vm-s-snpsp	Verb main past singular neuter passive short-art progressive	Verb Type=main Tense=past Number=singular Gender=neuter Voice=passive Definiteness=short-art Aspect=progressive
+02V01000300010302010200	Vm-s-snpse	Verb main past singular neuter passive short-art perfective	Verb Type=main Tense=past Number=singular Gender=neuter Voice=passive Definiteness=short-art Aspect=perfective
+02V01000300010302020101	Vm-s-snpfpn	Verb main past singular neuter passive full-art progressive nominative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300010302020102	Vm-s-snpfpg	Verb main past singular neuter passive full-art progressive genitive	Verb Type=main Tense=past Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=genitive
+02V01000300010302020103	Vm-s-snpfpd	Verb main past singular neuter passive full-art progressive dative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=dative
+02V01000300010302020201	Vm-s-snpfen	Verb main past singular neuter passive full-art perfective nominative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300010302020202	Vm-s-snpfeg	Verb main past singular neuter passive full-art perfective genitive	Verb Type=main Tense=past Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=perfective Case=genitive
+02V01000300010302020203	Vm-s-snpfed	Verb main past singular neuter passive full-art perfective dative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=perfective Case=dative
+02V01000300010303020101	Vm-s-snmfpn	Verb main past singular neuter medial full-art progressive nominative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300010303020102	Vm-s-snmfpg	Verb main past singular neuter medial full-art progressive genitive	Verb Type=main Tense=past Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=progressive Case=genitive
+02V01000300010303020201	Vm-s-snmfen	Verb main past singular neuter medial full-art perfective nominative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300010303020202	Vm-s-snmfeg	Verb main past singular neuter medial full-art perfective genitive	Verb Type=main Tense=past Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=perfective Case=genitive
+02V01000300010303020203	Vm-s-snmfed	Verb main past singular neuter medial full-art perfective dative	Verb Type=main Tense=past Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=perfective Case=dative
+02V01000300020001000100	Vm-s-p-a-p	Verb main past plural active progressive	Verb Type=main Tense=past Number=plural Voice=active Aspect=progressive
+02V01000300020001000200	Vm-s-p-a-e	Verb main past plural active perfective	Verb Type=main Tense=past Number=plural Voice=active Aspect=perfective
+02V01000300020001020100	Vm-s-p-afp	Verb main past plural active full-art progressive	Verb Type=main Tense=past Number=plural Voice=active Definiteness=full-art Aspect=progressive
+02V01000300020001020101	Vm-s-p-afpn	Verb main past plural active full-art progressive nominative	Verb Type=main Tense=past Number=plural Voice=active Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300020001020106	Vm-s-p-afpi	Verb main past plural active full-art progressive instrumental	Verb Type=main Tense=past Number=plural Voice=active Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000300020001020200	Vm-s-p-afe	Verb main past plural active full-art perfective	Verb Type=main Tense=past Number=plural Voice=active Definiteness=full-art Aspect=perfective
+02V01000300020001020201	Vm-s-p-afen	Verb main past plural active full-art perfective nominative	Verb Type=main Tense=past Number=plural Voice=active Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300020001020206	Vm-s-p-afei	Verb main past plural active full-art perfective instrumental	Verb Type=main Tense=past Number=plural Voice=active Definiteness=full-art Aspect=perfective Case=instrumental
+02V01000300020002010100	Vm-s-p-psp	Verb main past plural passive short-art progressive	Verb Type=main Tense=past Number=plural Voice=passive Definiteness=short-art Aspect=progressive
+02V01000300020002010200	Vm-s-p-pse	Verb main past plural passive short-art perfective	Verb Type=main Tense=past Number=plural Voice=passive Definiteness=short-art Aspect=perfective
+02V01000300020002020101	Vm-s-p-pfpn	Verb main past plural passive full-art progressive nominative	Verb Type=main Tense=past Number=plural Voice=passive Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300020002020106	Vm-s-p-pfpi	Verb main past plural passive full-art progressive instrumental	Verb Type=main Tense=past Number=plural Voice=passive Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000300020002020201	Vm-s-p-pfen	Verb main past plural passive full-art perfective nominative	Verb Type=main Tense=past Number=plural Voice=passive Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300020002020206	Vm-s-p-pfei	Verb main past plural passive full-art perfective instrumental	Verb Type=main Tense=past Number=plural Voice=passive Definiteness=full-art Aspect=perfective Case=instrumental
+02V01000300020003000200	Vm-s-p-m-e	Verb main past plural medial perfective	Verb Type=main Tense=past Number=plural Voice=medial Aspect=perfective
+02V01000300020003020101	Vm-s-p-mfpn	Verb main past plural medial full-art progressive nominative	Verb Type=main Tense=past Number=plural Voice=medial Definiteness=full-art Aspect=progressive Case=nominative
+02V01000300020003020106	Vm-s-p-mfpi	Verb main past plural medial full-art progressive instrumental	Verb Type=main Tense=past Number=plural Voice=medial Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000300020003020201	Vm-s-p-mfen	Verb main past plural medial full-art perfective nominative	Verb Type=main Tense=past Number=plural Voice=medial Definiteness=full-art Aspect=perfective Case=nominative
+02V01000300020003020206	Vm-s-p-mfei	Verb main past plural medial full-art perfective instrumental	Verb Type=main Tense=past Number=plural Voice=medial Definiteness=full-art Aspect=perfective Case=instrumental
+02V01000300020301020106	Vm-s-pnafpi	Verb main past plural neuter active full-art progressive instrumental	Verb Type=main Tense=past Number=plural Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000300020301020206	Vm-s-pnafei	Verb main past plural neuter active full-art perfective instrumental	Verb Type=main Tense=past Number=plural Gender=neuter Voice=active Definiteness=full-art Aspect=perfective Case=instrumental
+02V01000300020302020106	Vm-s-pnpfpi	Verb main past plural neuter passive full-art progressive instrumental	Verb Type=main Tense=past Number=plural Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=instrumental
+02V01000300020302020206	Vm-s-pnpfei	Verb main past plural neuter passive full-art perfective instrumental	Verb Type=main Tense=past Number=plural Gender=neuter Voice=passive Definiteness=full-art Aspect=perfective Case=instrumental
+02V01000300020303020206	Vm-s-pnmfei	Verb main past plural neuter medial full-art perfective instrumental	Verb Type=main Tense=past Number=plural Gender=neuter Voice=medial Definiteness=full-art Aspect=perfective Case=instrumental
+02V01010000000000000000	Vmi	Verb main indicative	Verb Type=main VForm=indicative
+02V01010000000003000000	Vmi----m	Verb main indicative medial	Verb Type=main VForm=indicative Voice=medial
+02V01010000010301000100	Vmi--sna-p	Verb main indicative singular neuter active progressive	Verb Type=main VForm=indicative Number=singular Gender=neuter Voice=active Aspect=progressive
+02V01010000010301000200	Vmi--sna-e	Verb main indicative singular neuter active perfective	Verb Type=main VForm=indicative Number=singular Gender=neuter Voice=active Aspect=perfective
+02V01010000010303000100	Vmi--snm-p	Verb main indicative singular neuter medial progressive	Verb Type=main VForm=indicative Number=singular Gender=neuter Voice=medial Aspect=progressive
+02V01010000010303000200	Vmi--snm-e	Verb main indicative singular neuter medial perfective	Verb Type=main VForm=indicative Number=singular Gender=neuter Voice=medial Aspect=perfective
+02V01010001010001000100	Vmi-1s-a-p	Verb main indicative first singular active progressive	Verb Type=main VForm=indicative Person=first Number=singular Voice=active Aspect=progressive
+02V01010001010001000200	Vmi-1s-a-e	Verb main indicative first singular active perfective	Verb Type=main VForm=indicative Person=first Number=singular Voice=active Aspect=perfective
+02V01010001010003000200	Vmi-1s-m-e	Verb main indicative first singular medial perfective	Verb Type=main VForm=indicative Person=first Number=singular Voice=medial Aspect=perfective
+02V01010001020001000100	Vmi-1p-a-p	Verb main indicative first plural active progressive	Verb Type=main VForm=indicative Person=first Number=plural Voice=active Aspect=progressive
+02V01010001020001000200	Vmi-1p-a-e	Verb main indicative first plural active perfective	Verb Type=main VForm=indicative Person=first Number=plural Voice=active Aspect=perfective
+02V01010001020003000200	Vmi-1p-m-e	Verb main indicative first plural medial perfective	Verb Type=main VForm=indicative Person=first Number=plural Voice=medial Aspect=perfective
+02V01010002020001000100	Vmi-2p-a-p	Verb main indicative second plural active progressive	Verb Type=main VForm=indicative Person=second Number=plural Voice=active Aspect=progressive
+02V01010002020001000200	Vmi-2p-a-e	Verb main indicative second plural active perfective	Verb Type=main VForm=indicative Person=second Number=plural Voice=active Aspect=perfective
+02V01010002020003000100	Vmi-2p-m-p	Verb main indicative second plural medial progressive	Verb Type=main VForm=indicative Person=second Number=plural Voice=medial Aspect=progressive
+02V01010002020003000200	Vmi-2p-m-e	Verb main indicative second plural medial perfective	Verb Type=main VForm=indicative Person=second Number=plural Voice=medial Aspect=perfective
+02V01010101010001000100	Vmip1s-a-p	Verb main indicative present first singular active progressive	Verb Type=main VForm=indicative Tense=present Person=first Number=singular Voice=active Aspect=progressive
+02V01010101010003000100	Vmip1s-m-p	Verb main indicative present first singular medial progressive	Verb Type=main VForm=indicative Tense=present Person=first Number=singular Voice=medial Aspect=progressive
+02V01010101020001000100	Vmip1p-a-p	Verb main indicative present first plural active progressive	Verb Type=main VForm=indicative Tense=present Person=first Number=plural Voice=active Aspect=progressive
+02V01010101020003000100	Vmip1p-m-p	Verb main indicative present first plural medial progressive	Verb Type=main VForm=indicative Tense=present Person=first Number=plural Voice=medial Aspect=progressive
+02V01010101020102010100	Vmip1pmpsp	Verb main indicative present first plural masculine passive short-art progressive	Verb Type=main VForm=indicative Tense=present Person=first Number=plural Gender=masculine Voice=passive Definiteness=short-art Aspect=progressive
+02V01010102010001000100	Vmip2s-a-p	Verb main indicative present second singular active progressive	Verb Type=main VForm=indicative Tense=present Person=second Number=singular Voice=active Aspect=progressive
+02V01010102010003000100	Vmip2s-m-p	Verb main indicative present second singular medial progressive	Verb Type=main VForm=indicative Tense=present Person=second Number=singular Voice=medial Aspect=progressive
+02V01010102020001000100	Vmip2p-a-p	Verb main indicative present second plural active progressive	Verb Type=main VForm=indicative Tense=present Person=second Number=plural Voice=active Aspect=progressive
+02V01010102020003000100	Vmip2p-m-p	Verb main indicative present second plural medial progressive	Verb Type=main VForm=indicative Tense=present Person=second Number=plural Voice=medial Aspect=progressive
+02V01010103010001000100	Vmip3s-a-p	Verb main indicative present third singular active progressive	Verb Type=main VForm=indicative Tense=present Person=third Number=singular Voice=active Aspect=progressive
+02V01010103010003000100	Vmip3s-m-p	Verb main indicative present third singular medial progressive	Verb Type=main VForm=indicative Tense=present Person=third Number=singular Voice=medial Aspect=progressive
+02V01010103020001000100	Vmip3p-a-p	Verb main indicative present third plural active progressive	Verb Type=main VForm=indicative Tense=present Person=third Number=plural Voice=active Aspect=progressive
+02V01010103020003000100	Vmip3p-m-p	Verb main indicative present third plural medial progressive	Verb Type=main VForm=indicative Tense=present Person=third Number=plural Voice=medial Aspect=progressive
+02V01010201010001000100	Vmif1s-a-p	Verb main indicative future first singular active progressive	Verb Type=main VForm=indicative Tense=future Person=first Number=singular Voice=active Aspect=progressive
+02V01010201010001000200	Vmif1s-a-e	Verb main indicative future first singular active perfective	Verb Type=main VForm=indicative Tense=future Person=first Number=singular Voice=active Aspect=perfective
+02V01010201010003000200	Vmif1s-m-e	Verb main indicative future first singular medial perfective	Verb Type=main VForm=indicative Tense=future Person=first Number=singular Voice=medial Aspect=perfective
+02V01010201020001000100	Vmif1p-a-p	Verb main indicative future first plural active progressive	Verb Type=main VForm=indicative Tense=future Person=first Number=plural Voice=active Aspect=progressive
+02V01010201020001000200	Vmif1p-a-e	Verb main indicative future first plural active perfective	Verb Type=main VForm=indicative Tense=future Person=first Number=plural Voice=active Aspect=perfective
+02V01010201020003000200	Vmif1p-m-e	Verb main indicative future first plural medial perfective	Verb Type=main VForm=indicative Tense=future Person=first Number=plural Voice=medial Aspect=perfective
+02V01010202010001000100	Vmif2s-a-p	Verb main indicative future second singular active progressive	Verb Type=main VForm=indicative Tense=future Person=second Number=singular Voice=active Aspect=progressive
+02V01010202010001000200	Vmif2s-a-e	Verb main indicative future second singular active perfective	Verb Type=main VForm=indicative Tense=future Person=second Number=singular Voice=active Aspect=perfective
+02V01010202010003000200	Vmif2s-m-e	Verb main indicative future second singular medial perfective	Verb Type=main VForm=indicative Tense=future Person=second Number=singular Voice=medial Aspect=perfective
+02V01010202020001000100	Vmif2p-a-p	Verb main indicative future second plural active progressive	Verb Type=main VForm=indicative Tense=future Person=second Number=plural Voice=active Aspect=progressive
+02V01010202020001000200	Vmif2p-a-e	Verb main indicative future second plural active perfective	Verb Type=main VForm=indicative Tense=future Person=second Number=plural Voice=active Aspect=perfective
+02V01010202020003000200	Vmif2p-m-e	Verb main indicative future second plural medial perfective	Verb Type=main VForm=indicative Tense=future Person=second Number=plural Voice=medial Aspect=perfective
+02V01010203010001000100	Vmif3s-a-p	Verb main indicative future third singular active progressive	Verb Type=main VForm=indicative Tense=future Person=third Number=singular Voice=active Aspect=progressive
+02V01010203010001000200	Vmif3s-a-e	Verb main indicative future third singular active perfective	Verb Type=main VForm=indicative Tense=future Person=third Number=singular Voice=active Aspect=perfective
+02V01010203010003000200	Vmif3s-m-e	Verb main indicative future third singular medial perfective	Verb Type=main VForm=indicative Tense=future Person=third Number=singular Voice=medial Aspect=perfective
+02V01010203020001000100	Vmif3p-a-p	Verb main indicative future third plural active progressive	Verb Type=main VForm=indicative Tense=future Person=third Number=plural Voice=active Aspect=progressive
+02V01010203020001000200	Vmif3p-a-e	Verb main indicative future third plural active perfective	Verb Type=main VForm=indicative Tense=future Person=third Number=plural Voice=active Aspect=perfective
+02V01010203020003000200	Vmif3p-m-e	Verb main indicative future third plural medial perfective	Verb Type=main VForm=indicative Tense=future Person=third Number=plural Voice=medial Aspect=perfective
+02V01010300010101000100	Vmis-sma-p	Verb main indicative past singular masculine active progressive	Verb Type=main VForm=indicative Tense=past Number=singular Gender=masculine Voice=active Aspect=progressive
+02V01010300010101000200	Vmis-sma-e	Verb main indicative past singular masculine active perfective	Verb Type=main VForm=indicative Tense=past Number=singular Gender=masculine Voice=active Aspect=perfective
+02V01010300010103000100	Vmis-smm-p	Verb main indicative past singular masculine medial progressive	Verb Type=main VForm=indicative Tense=past Number=singular Gender=masculine Voice=medial Aspect=progressive
+02V01010300010103000200	Vmis-smm-e	Verb main indicative past singular masculine medial perfective	Verb Type=main VForm=indicative Tense=past Number=singular Gender=masculine Voice=medial Aspect=perfective
+02V01010300010201000100	Vmis-sfa-p	Verb main indicative past singular feminine active progressive	Verb Type=main VForm=indicative Tense=past Number=singular Gender=feminine Voice=active Aspect=progressive
+02V01010300010201000200	Vmis-sfa-e	Verb main indicative past singular feminine active perfective	Verb Type=main VForm=indicative Tense=past Number=singular Gender=feminine Voice=active Aspect=perfective
+02V01010300010203000100	Vmis-sfm-p	Verb main indicative past singular feminine medial progressive	Verb Type=main VForm=indicative Tense=past Number=singular Gender=feminine Voice=medial Aspect=progressive
+02V01010300010203000200	Vmis-sfm-e	Verb main indicative past singular feminine medial perfective	Verb Type=main VForm=indicative Tense=past Number=singular Gender=feminine Voice=medial Aspect=perfective
+02V01010300010301000100	Vmis-sna-p	Verb main indicative past singular neuter active progressive	Verb Type=main VForm=indicative Tense=past Number=singular Gender=neuter Voice=active Aspect=progressive
+02V01010300010301000200	Vmis-sna-e	Verb main indicative past singular neuter active perfective	Verb Type=main VForm=indicative Tense=past Number=singular Gender=neuter Voice=active Aspect=perfective
+02V01010300010303000100	Vmis-snm-p	Verb main indicative past singular neuter medial progressive	Verb Type=main VForm=indicative Tense=past Number=singular Gender=neuter Voice=medial Aspect=progressive
+02V01010300010303000200	Vmis-snm-e	Verb main indicative past singular neuter medial perfective	Verb Type=main VForm=indicative Tense=past Number=singular Gender=neuter Voice=medial Aspect=perfective
+02V01010300020001000100	Vmis-p-a-p	Verb main indicative past plural active progressive	Verb Type=main VForm=indicative Tense=past Number=plural Voice=active Aspect=progressive
+02V01010300020001000200	Vmis-p-a-e	Verb main indicative past plural active perfective	Verb Type=main VForm=indicative Tense=past Number=plural Voice=active Aspect=perfective
+02V01010300020003000100	Vmis-p-m-p	Verb main indicative past plural medial progressive	Verb Type=main VForm=indicative Tense=past Number=plural Voice=medial Aspect=progressive
+02V01010300020003000200	Vmis-p-m-e	Verb main indicative past plural medial perfective	Verb Type=main VForm=indicative Tense=past Number=plural Voice=medial Aspect=perfective
+02V01010303020102010200	Vmis3pmpse	Verb main indicative past third plural masculine passive short-art perfective	Verb Type=main VForm=indicative Tense=past Person=third Number=plural Gender=masculine Voice=passive Definiteness=short-art Aspect=perfective
+02V01020001020001000100	Vmm-1p-a-p	Verb main imperative first plural active progressive	Verb Type=main VForm=imperative Person=first Number=plural Voice=active Aspect=progressive
+02V01020001020001000200	Vmm-1p-a-e	Verb main imperative first plural active perfective	Verb Type=main VForm=imperative Person=first Number=plural Voice=active Aspect=perfective
+02V01020002010001000100	Vmm-2s-a-p	Verb main imperative second singular active progressive	Verb Type=main VForm=imperative Person=second Number=singular Voice=active Aspect=progressive
+02V01020002010001000200	Vmm-2s-a-e	Verb main imperative second singular active perfective	Verb Type=main VForm=imperative Person=second Number=singular Voice=active Aspect=perfective
+02V01020002010003000100	Vmm-2s-m-p	Verb main imperative second singular medial progressive	Verb Type=main VForm=imperative Person=second Number=singular Voice=medial Aspect=progressive
+02V01020002010003000200	Vmm-2s-m-e	Verb main imperative second singular medial perfective	Verb Type=main VForm=imperative Person=second Number=singular Voice=medial Aspect=perfective
+02V01020002020001000100	Vmm-2p-a-p	Verb main imperative second plural active progressive	Verb Type=main VForm=imperative Person=second Number=plural Voice=active Aspect=progressive
+02V01020002020001000200	Vmm-2p-a-e	Verb main imperative second plural active perfective	Verb Type=main VForm=imperative Person=second Number=plural Voice=active Aspect=perfective
+02V01020002020003000100	Vmm-2p-m-p	Verb main imperative second plural medial progressive	Verb Type=main VForm=imperative Person=second Number=plural Voice=medial Aspect=progressive
+02V01020002020003000200	Vmm-2p-m-e	Verb main imperative second plural medial perfective	Verb Type=main VForm=imperative Person=second Number=plural Voice=medial Aspect=perfective
+02V01040000000001000100	Vmn----a-p	Verb main infinitive active progressive	Verb Type=main VForm=infinitive Voice=active Aspect=progressive
+02V01040000000001000200	Vmn----a-e	Verb main infinitive active perfective	Verb Type=main VForm=infinitive Voice=active Aspect=perfective
+02V01040000000003000100	Vmn----m-p	Verb main infinitive medial progressive	Verb Type=main VForm=infinitive Voice=medial Aspect=progressive
+02V01040000000003000200	Vmn----m-e	Verb main infinitive medial perfective	Verb Type=main VForm=infinitive Voice=medial Aspect=perfective
+02V01050100010201020101	Vmpp-sfafpn	Verb main participle present singular feminine active full-art progressive nominative	Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=progressive Case=nominative
+02V01050100010201020104	Vmpp-sfafpa	Verb main participle present singular feminine active full-art progressive accusative	Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=progressive Case=accusative
+02V01050100010201020106	Vmpp-sfafpi	Verb main participle present singular feminine active full-art progressive instrumental	Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=progressive Case=instrumental
+02V01050100010202020101	Vmpp-sfpfpn	Verb main participle present singular feminine passive full-art progressive nominative	Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=progressive Case=nominative
+02V01050100010202020106	Vmpp-sfpfpi	Verb main participle present singular feminine passive full-art progressive instrumental	Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=progressive Case=instrumental
+02V01050100010203020106	Vmpp-sfmfpi	Verb main participle present singular feminine medial full-art progressive instrumental	Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=progressive Case=instrumental
+02V01050100010301020105	Vmpp-snafpl	Verb main participle present singular neuter active full-art progressive locative	Verb Type=main VForm=participle Tense=present Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=locative
+02V01050100010302010100	Vmpp-snpsp	Verb main participle present singular neuter passive short-art progressive	Verb Type=main VForm=participle Tense=present Number=singular Gender=neuter Voice=passive Definiteness=short-art Aspect=progressive
+02V01050100010302020105	Vmpp-snpfpl	Verb main participle present singular neuter passive full-art progressive locative	Verb Type=main VForm=participle Tense=present Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=locative
+02V01050100010303020105	Vmpp-snmfpl	Verb main participle present singular neuter medial full-art progressive locative	Verb Type=main VForm=participle Tense=present Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=progressive Case=locative
+02V01050100020001020102	Vmpp-p-afpg	Verb main participle present plural active full-art progressive genitive	Verb Type=main VForm=participle Tense=present Number=plural Voice=active Definiteness=full-art Aspect=progressive Case=genitive
+02V01050100020002020102	Vmpp-p-pfpg	Verb main participle present plural passive full-art progressive genitive	Verb Type=main VForm=participle Tense=present Number=plural Voice=passive Definiteness=full-art Aspect=progressive Case=genitive
+02V01050100020003020102	Vmpp-p-mfpg	Verb main participle present plural medial full-art progressive genitive	Verb Type=main VForm=participle Tense=present Number=plural Voice=medial Definiteness=full-art Aspect=progressive Case=genitive
+02V01050300010102010200	Vmps-smpse	Verb main participle past singular masculine passive short-art perfective	Verb Type=main VForm=participle Tense=past Number=singular Gender=masculine Voice=passive Definiteness=short-art Aspect=perfective
+02V01050300010201020106	Vmps-sfafpi	Verb main participle past singular feminine active full-art progressive instrumental	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=progressive Case=instrumental
+02V01050300010201020206	Vmps-sfafei	Verb main participle past singular feminine active full-art perfective instrumental	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=active Definiteness=full-art Aspect=perfective Case=instrumental
+02V01050300010202010200	Vmps-sfpse	Verb main participle past singular feminine passive short-art perfective	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=passive Definiteness=short-art Aspect=perfective
+02V01050300010202020106	Vmps-sfpfpi	Verb main participle past singular feminine passive full-art progressive instrumental	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=progressive Case=instrumental
+02V01050300010202020201	Vmps-sfpfen	Verb main participle past singular feminine passive full-art perfective nominative	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=perfective Case=nominative
+02V01050300010202020204	Vmps-sfpfea	Verb main participle past singular feminine passive full-art perfective accusative	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=perfective Case=accusative
+02V01050300010202020206	Vmps-sfpfei	Verb main participle past singular feminine passive full-art perfective instrumental	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=passive Definiteness=full-art Aspect=perfective Case=instrumental
+02V01050300010203020106	Vmps-sfmfpi	Verb main participle past singular feminine medial full-art progressive instrumental	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=progressive Case=instrumental
+02V01050300010203020204	Vmps-sfmfea	Verb main participle past singular feminine medial full-art perfective accusative	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=perfective Case=accusative
+02V01050300010203020206	Vmps-sfmfei	Verb main participle past singular feminine medial full-art perfective instrumental	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=medial Definiteness=full-art Aspect=perfective Case=instrumental
+02V01050300010301020105	Vmps-snafpl	Verb main participle past singular neuter active full-art progressive locative	Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=progressive Case=locative
+02V01050300010301020205	Vmps-snafel	Verb main participle past singular neuter active full-art perfective locative	Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=active Definiteness=full-art Aspect=perfective Case=locative
+02V01050300010302020105	Vmps-snpfpl	Verb main participle past singular neuter passive full-art progressive locative	Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=progressive Case=locative
+02V01050300010302020205	Vmps-snpfel	Verb main participle past singular neuter passive full-art perfective locative	Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=passive Definiteness=full-art Aspect=perfective Case=locative
+02V01050300010303020105	Vmps-snmfpl	Verb main participle past singular neuter medial full-art progressive locative	Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=progressive Case=locative
+02V01050300010303020205	Vmps-snmfel	Verb main participle past singular neuter medial full-art perfective locative	Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=medial Definiteness=full-art Aspect=perfective Case=locative
+02V01050300020001020102	Vmps-p-afpg	Verb main participle past plural active full-art progressive genitive	Verb Type=main VForm=participle Tense=past Number=plural Voice=active Definiteness=full-art Aspect=progressive Case=genitive
+02V01050300020001020202	Vmps-p-afeg	Verb main participle past plural active full-art perfective genitive	Verb Type=main VForm=participle Tense=past Number=plural Voice=active Definiteness=full-art Aspect=perfective Case=genitive
+02V01050300020002020102	Vmps-p-pfpg	Verb main participle past plural passive full-art progressive genitive	Verb Type=main VForm=participle Tense=past Number=plural Voice=passive Definiteness=full-art Aspect=progressive Case=genitive
+02V01050300020002020202	Vmps-p-pfeg	Verb main participle past plural passive full-art perfective genitive	Verb Type=main VForm=participle Tense=past Number=plural Voice=passive Definiteness=full-art Aspect=perfective Case=genitive
+02V01050300020003020102	Vmps-p-mfpg	Verb main participle past plural medial full-art progressive genitive	Verb Type=main VForm=participle Tense=past Number=plural Voice=medial Definiteness=full-art Aspect=progressive Case=genitive
+02V01050300020003020202	Vmps-p-mfeg	Verb main participle past plural medial full-art perfective genitive	Verb Type=main VForm=participle Tense=past Number=plural Voice=medial Definiteness=full-art Aspect=perfective Case=genitive
+02V01060000000001000100	Vmg----a-p	Verb main gerund active progressive	Verb Type=main VForm=gerund Voice=active Aspect=progressive
+02V01060000000001000200	Vmg----a-e	Verb main gerund active perfective	Verb Type=main VForm=gerund Voice=active Aspect=perfective
+02V01060000000003000100	Vmg----m-p	Verb main gerund medial progressive	Verb Type=main VForm=gerund Voice=medial Aspect=progressive
+02V01060000000003000200	Vmg----m-e	Verb main gerund medial perfective	Verb Type=main VForm=gerund Voice=medial Aspect=perfective
+02V01060100000001000100	Vmgp---a-p	Verb main gerund present active progressive	Verb Type=main VForm=gerund Tense=present Voice=active Aspect=progressive
+02V01060100000003000100	Vmgp---m-p	Verb main gerund present medial progressive	Verb Type=main VForm=gerund Tense=present Voice=medial Aspect=progressive
+02V01060200000001000200	Vmgf---a-e	Verb main gerund future active perfective	Verb Type=main VForm=gerund Tense=future Voice=active Aspect=perfective
+02V01060300000001000200	Vmgs---a-e	Verb main gerund past active perfective	Verb Type=main VForm=gerund Tense=past Voice=active Aspect=perfective
+02V01060300000003000200	Vmgs---m-e	Verb main gerund past medial perfective	Verb Type=main VForm=gerund Tense=past Voice=medial Aspect=perfective
+03A010100000000	Afp	Adjective qualificative positive	Adjective Type=qualificative Degree=positive
+03A010100020001	Afp-p-s	Adjective qualificative positive plural short-art	Adjective Type=qualificative Degree=positive Number=plural Definiteness=short-art
+03A010100020100	Afp-pn	Adjective qualificative positive plural nominative	Adjective Type=qualificative Degree=positive Number=plural Case=nominative
+03A010100020102	Afp-pnf	Adjective qualificative positive plural nominative full-art	Adjective Type=qualificative Degree=positive Number=plural Case=nominative Definiteness=full-art
+03A010100020200	Afp-pg	Adjective qualificative positive plural genitive	Adjective Type=qualificative Degree=positive Number=plural Case=genitive
+03A010100020202	Afp-pgf	Adjective qualificative positive plural genitive full-art	Adjective Type=qualificative Degree=positive Number=plural Case=genitive Definiteness=full-art
+03A010100020300	Afp-pd	Adjective qualificative positive plural dative	Adjective Type=qualificative Degree=positive Number=plural Case=dative
+03A010100020302	Afp-pdf	Adjective qualificative positive plural dative full-art	Adjective Type=qualificative Degree=positive Number=plural Case=dative Definiteness=full-art
+03A010100020400	Afp-pa	Adjective qualificative positive plural accusative	Adjective Type=qualificative Degree=positive Number=plural Case=accusative
+03A010100020402	Afp-paf	Adjective qualificative positive plural accusative full-art	Adjective Type=qualificative Degree=positive Number=plural Case=accusative Definiteness=full-art
+03A010100020500	Afp-pl	Adjective qualificative positive plural locative	Adjective Type=qualificative Degree=positive Number=plural Case=locative
+03A010100020502	Afp-plf	Adjective qualificative positive plural locative full-art	Adjective Type=qualificative Degree=positive Number=plural Case=locative Definiteness=full-art
+03A010100020600	Afp-pi	Adjective qualificative positive plural instrumental	Adjective Type=qualificative Degree=positive Number=plural Case=instrumental
+03A010100020602	Afp-pif	Adjective qualificative positive plural instrumental full-art	Adjective Type=qualificative Degree=positive Number=plural Case=instrumental Definiteness=full-art
+03A010101010001	Afpms-s	Adjective qualificative positive masculine singular short-art	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Definiteness=short-art
+03A010101010100	Afpmsn	Adjective qualificative positive masculine singular nominative	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=nominative
+03A010101010102	Afpmsnf	Adjective qualificative positive masculine singular nominative full-art	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=full-art
+03A010101010200	Afpmsg	Adjective qualificative positive masculine singular genitive	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=genitive
+03A010101010202	Afpmsgf	Adjective qualificative positive masculine singular genitive full-art	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=genitive Definiteness=full-art
+03A010101010300	Afpmsd	Adjective qualificative positive masculine singular dative	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=dative
+03A010101010302	Afpmsdf	Adjective qualificative positive masculine singular dative full-art	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=dative Definiteness=full-art
+03A010101010400	Afpmsa	Adjective qualificative positive masculine singular accusative	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=accusative
+03A010101010402	Afpmsaf	Adjective qualificative positive masculine singular accusative full-art	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=full-art
+03A010101010500	Afpmsl	Adjective qualificative positive masculine singular locative	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=locative
+03A010101010502	Afpmslf	Adjective qualificative positive masculine singular locative full-art	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=locative Definiteness=full-art
+03A010101010600	Afpmsi	Adjective qualificative positive masculine singular instrumental	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=instrumental
+03A010101010602	Afpmsif	Adjective qualificative positive masculine singular instrumental full-art	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=instrumental Definiteness=full-art
+03A010102010001	Afpfs-s	Adjective qualificative positive feminine singular short-art	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Definiteness=short-art
+03A010102010002	Afpfs-f	Adjective qualificative positive feminine singular full-art	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Definiteness=full-art
+03A010102010100	Afpfsn	Adjective qualificative positive feminine singular nominative	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=nominative
+03A010102010102	Afpfsnf	Adjective qualificative positive feminine singular nominative full-art	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=full-art
+03A010102010200	Afpfsg	Adjective qualificative positive feminine singular genitive	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=genitive
+03A010102010202	Afpfsgf	Adjective qualificative positive feminine singular genitive full-art	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=full-art
+03A010102010300	Afpfsd	Adjective qualificative positive feminine singular dative	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=dative
+03A010102010302	Afpfsdf	Adjective qualificative positive feminine singular dative full-art	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=dative Definiteness=full-art
+03A010102010400	Afpfsa	Adjective qualificative positive feminine singular accusative	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=accusative
+03A010102010402	Afpfsaf	Adjective qualificative positive feminine singular accusative full-art	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=accusative Definiteness=full-art
+03A010102010500	Afpfsl	Adjective qualificative positive feminine singular locative	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=locative
+03A010102010502	Afpfslf	Adjective qualificative positive feminine singular locative full-art	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=locative Definiteness=full-art
+03A010102010600	Afpfsi	Adjective qualificative positive feminine singular instrumental	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=instrumental
+03A010102010602	Afpfsif	Adjective qualificative positive feminine singular instrumental full-art	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=instrumental Definiteness=full-art
+03A010103010001	Afpns-s	Adjective qualificative positive neuter singular short-art	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Definiteness=short-art
+03A010103010100	Afpnsn	Adjective qualificative positive neuter singular nominative	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=nominative
+03A010103010102	Afpnsnf	Adjective qualificative positive neuter singular nominative full-art	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=full-art
+03A010103010200	Afpnsg	Adjective qualificative positive neuter singular genitive	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=genitive
+03A010103010202	Afpnsgf	Adjective qualificative positive neuter singular genitive full-art	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=genitive Definiteness=full-art
+03A010103010300	Afpnsd	Adjective qualificative positive neuter singular dative	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=dative
+03A010103010302	Afpnsdf	Adjective qualificative positive neuter singular dative full-art	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=dative Definiteness=full-art
+03A010103010400	Afpnsa	Adjective qualificative positive neuter singular accusative	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=accusative
+03A010103010402	Afpnsaf	Adjective qualificative positive neuter singular accusative full-art	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=accusative Definiteness=full-art
+03A010103010500	Afpnsl	Adjective qualificative positive neuter singular locative	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=locative
+03A010103010502	Afpnslf	Adjective qualificative positive neuter singular locative full-art	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=locative Definiteness=full-art
+03A010103010600	Afpnsi	Adjective qualificative positive neuter singular instrumental	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=instrumental
+03A010103010602	Afpnsif	Adjective qualificative positive neuter singular instrumental full-art	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Case=instrumental Definiteness=full-art
+03A010103020602	Afpnpif	Adjective qualificative positive neuter plural instrumental full-art	Adjective Type=qualificative Degree=positive Gender=neuter Number=plural Case=instrumental Definiteness=full-art
+03A010200000000	Afc	Adjective qualificative comparative	Adjective Type=qualificative Degree=comparative
+03A010200000002	Afc---f	Adjective qualificative comparative full-art	Adjective Type=qualificative Degree=comparative Definiteness=full-art
+04P00000000000000	P	Pronoun	Pronoun
+04P00000000020000	P----g	Pronoun genitive	Pronoun Case=genitive
+04P00000000030000	P----d	Pronoun dative	Pronoun Case=dative
+04P00000000040000	P----a	Pronoun accusative	Pronoun Case=accusative
+04P00000000060000	P----l	Pronoun locative	Pronoun Case=locative
+04P00000000070000	P----i	Pronoun instrumental	Pronoun Case=instrumental
+04P00000001020000	P---sg	Pronoun singular genitive	Pronoun Number=singular Case=genitive
+04P00000002010000	P---pn	Pronoun plural nominative	Pronoun Number=plural Case=nominative
+04P00000002010002	P---pn-y	Pronoun plural nominative +Animate	Pronoun Number=plural Case=nominative Animate=yes
+04P00000002020000	P---pg	Pronoun plural genitive	Pronoun Number=plural Case=genitive
+04P00000002030000	P---pd	Pronoun plural dative	Pronoun Number=plural Case=dative
+04P00000002040000	P---pa	Pronoun plural accusative	Pronoun Number=plural Case=accusative
+04P00000002060000	P---pl	Pronoun plural locative	Pronoun Number=plural Case=locative
+04P00000002070000	P---pi	Pronoun plural instrumental	Pronoun Number=plural Case=instrumental
+04P00000101010000	P--msn	Pronoun masculine singular nominative	Pronoun Gender=masculine Number=singular Case=nominative
+04P00000101010002	P--msn-y	Pronoun masculine singular nominative +Animate	Pronoun Gender=masculine Number=singular Case=nominative Animate=yes
+04P00000101020000	P--msg	Pronoun masculine singular genitive	Pronoun Gender=masculine Number=singular Case=genitive
+04P00000101030000	P--msd	Pronoun masculine singular dative	Pronoun Gender=masculine Number=singular Case=dative
+04P00000101040000	P--msa	Pronoun masculine singular accusative	Pronoun Gender=masculine Number=singular Case=accusative
+04P00000101060000	P--msl	Pronoun masculine singular locative	Pronoun Gender=masculine Number=singular Case=locative
+04P00000101070000	P--msi	Pronoun masculine singular instrumental	Pronoun Gender=masculine Number=singular Case=instrumental
+04P00000101070002	P--msi-y	Pronoun masculine singular instrumental +Animate	Pronoun Gender=masculine Number=singular Case=instrumental Animate=yes
+04P00000201010000	P--fsn	Pronoun feminine singular nominative	Pronoun Gender=feminine Number=singular Case=nominative
+04P00000201020000	P--fsg	Pronoun feminine singular genitive	Pronoun Gender=feminine Number=singular Case=genitive
+04P00000201030000	P--fsd	Pronoun feminine singular dative	Pronoun Gender=feminine Number=singular Case=dative
+04P00000201040000	P--fsa	Pronoun feminine singular accusative	Pronoun Gender=feminine Number=singular Case=accusative
+04P00000201060000	P--fsl	Pronoun feminine singular locative	Pronoun Gender=feminine Number=singular Case=locative
+04P00000201070000	P--fsi	Pronoun feminine singular instrumental	Pronoun Gender=feminine Number=singular Case=instrumental
+04P00000301010000	P--nsn	Pronoun neuter singular nominative	Pronoun Gender=neuter Number=singular Case=nominative
+04P00000301020000	P--nsg	Pronoun neuter singular genitive	Pronoun Gender=neuter Number=singular Case=genitive
+04P00000301030000	P--nsd	Pronoun neuter singular dative	Pronoun Gender=neuter Number=singular Case=dative
+04P00000301030001	P--nsd-n	Pronoun neuter singular dative -Animate	Pronoun Gender=neuter Number=singular Case=dative Animate=no
+04P00000301040000	P--nsa	Pronoun neuter singular accusative	Pronoun Gender=neuter Number=singular Case=accusative
+04P00000301060000	P--nsl	Pronoun neuter singular locative	Pronoun Gender=neuter Number=singular Case=locative
+04P00000301060001	P--nsl-n	Pronoun neuter singular locative -Animate	Pronoun Gender=neuter Number=singular Case=locative Animate=no
+04P00000301070000	P--nsi	Pronoun neuter singular instrumental	Pronoun Gender=neuter Number=singular Case=instrumental
+04P00000301070001	P--nsi-n	Pronoun neuter singular instrumental -Animate	Pronoun Gender=neuter Number=singular Case=instrumental Animate=no
+04P00010001010000	P-1-sn	Pronoun first singular nominative	Pronoun Person=first Number=singular Case=nominative
+04P00010001020000	P-1-sg	Pronoun first singular genitive	Pronoun Person=first Number=singular Case=genitive
+04P00010001030000	P-1-sd	Pronoun first singular dative	Pronoun Person=first Number=singular Case=dative
+04P00010001040000	P-1-sa	Pronoun first singular accusative	Pronoun Person=first Number=singular Case=accusative
+04P00010001060000	P-1-sl	Pronoun first singular locative	Pronoun Person=first Number=singular Case=locative
+04P00010001070000	P-1-si	Pronoun first singular instrumental	Pronoun Person=first Number=singular Case=instrumental
+04P00010002010000	P-1-pn	Pronoun first plural nominative	Pronoun Person=first Number=plural Case=nominative
+04P00010002020000	P-1-pg	Pronoun first plural genitive	Pronoun Person=first Number=plural Case=genitive
+04P00010002030000	P-1-pd	Pronoun first plural dative	Pronoun Person=first Number=plural Case=dative
+04P00010002040000	P-1-pa	Pronoun first plural accusative	Pronoun Person=first Number=plural Case=accusative
+04P00010002060000	P-1-pl	Pronoun first plural locative	Pronoun Person=first Number=plural Case=locative
+04P00010002070000	P-1-pi	Pronoun first plural instrumental	Pronoun Person=first Number=plural Case=instrumental
+04P00020001010000	P-2-sn	Pronoun second singular nominative	Pronoun Person=second Number=singular Case=nominative
+04P00020001020000	P-2-sg	Pronoun second singular genitive	Pronoun Person=second Number=singular Case=genitive
+04P00020001030000	P-2-sd	Pronoun second singular dative	Pronoun Person=second Number=singular Case=dative
+04P00020001040000	P-2-sa	Pronoun second singular accusative	Pronoun Person=second Number=singular Case=accusative
+04P00020001060000	P-2-sl	Pronoun second singular locative	Pronoun Person=second Number=singular Case=locative
+04P00020001070000	P-2-si	Pronoun second singular instrumental	Pronoun Person=second Number=singular Case=instrumental
+04P00020002010000	P-2-pn	Pronoun second plural nominative	Pronoun Person=second Number=plural Case=nominative
+04P00020002020000	P-2-pg	Pronoun second plural genitive	Pronoun Person=second Number=plural Case=genitive
+04P00020002030000	P-2-pd	Pronoun second plural dative	Pronoun Person=second Number=plural Case=dative
+04P00020002040000	P-2-pa	Pronoun second plural accusative	Pronoun Person=second Number=plural Case=accusative
+04P00020002060000	P-2-pl	Pronoun second plural locative	Pronoun Person=second Number=plural Case=locative
+04P00020002070000	P-2-pi	Pronoun second plural instrumental	Pronoun Person=second Number=plural Case=instrumental
+04P00030002010000	P-3-pn	Pronoun third plural nominative	Pronoun Person=third Number=plural Case=nominative
+04P00030002020000	P-3-pg	Pronoun third plural genitive	Pronoun Person=third Number=plural Case=genitive
+04P00030002030000	P-3-pd	Pronoun third plural dative	Pronoun Person=third Number=plural Case=dative
+04P00030002040000	P-3-pa	Pronoun third plural accusative	Pronoun Person=third Number=plural Case=accusative
+04P00030002060000	P-3-pl	Pronoun third plural locative	Pronoun Person=third Number=plural Case=locative
+04P00030002070000	P-3-pi	Pronoun third plural instrumental	Pronoun Person=third Number=plural Case=instrumental
+04P00030101010000	P-3msn	Pronoun third masculine singular nominative	Pronoun Person=third Gender=masculine Number=singular Case=nominative
+04P00030101020000	P-3msg	Pronoun third masculine singular genitive	Pronoun Person=third Gender=masculine Number=singular Case=genitive
+04P00030101030000	P-3msd	Pronoun third masculine singular dative	Pronoun Person=third Gender=masculine Number=singular Case=dative
+04P00030101040000	P-3msa	Pronoun third masculine singular accusative	Pronoun Person=third Gender=masculine Number=singular Case=accusative
+04P00030101060000	P-3msl	Pronoun third masculine singular locative	Pronoun Person=third Gender=masculine Number=singular Case=locative
+04P00030101070000	P-3msi	Pronoun third masculine singular instrumental	Pronoun Person=third Gender=masculine Number=singular Case=instrumental
+04P00030201010000	P-3fsn	Pronoun third feminine singular nominative	Pronoun Person=third Gender=feminine Number=singular Case=nominative
+04P00030201020000	P-3fsg	Pronoun third feminine singular genitive	Pronoun Person=third Gender=feminine Number=singular Case=genitive
+04P00030201030000	P-3fsd	Pronoun third feminine singular dative	Pronoun Person=third Gender=feminine Number=singular Case=dative
+04P00030201040000	P-3fsa	Pronoun third feminine singular accusative	Pronoun Person=third Gender=feminine Number=singular Case=accusative
+04P00030201060000	P-3fsl	Pronoun third feminine singular locative	Pronoun Person=third Gender=feminine Number=singular Case=locative
+04P00030201070000	P-3fsi	Pronoun third feminine singular instrumental	Pronoun Person=third Gender=feminine Number=singular Case=instrumental
+04P00030301010000	P-3nsn	Pronoun third neuter singular nominative	Pronoun Person=third Gender=neuter Number=singular Case=nominative
+04P00030301060000	P-3nsl	Pronoun third neuter singular locative	Pronoun Person=third Gender=neuter Number=singular Case=locative
+05R00	R	Adverb	Adverb
+06S010001	Sp-g	Adposition preposition genitive	Adposition Type=preposition Case=genitive
+06S010002	Sp-d	Adposition preposition dative	Adposition Type=preposition Case=dative
+06S010003	Sp-a	Adposition preposition accusative	Adposition Type=preposition Case=accusative
+06S010004	Sp-l	Adposition preposition locative	Adposition Type=preposition Case=locative
+06S010005	Sp-i	Adposition preposition instrumental	Adposition Type=preposition Case=instrumental
+06S010200	Spc	Adposition preposition compound	Adposition Type=preposition Formation=compound
+07C00000000	C	Conjunction	Conjunction
+08M010000000000000000	Mc	Numeral cardinal	Numeral Type=cardinal
+08M010000010000000000	Mc--n	Numeral cardinal nominative	Numeral Type=cardinal Case=nominative
+08M010000020000000000	Mc--g	Numeral cardinal genitive	Numeral Type=cardinal Case=genitive
+08M010000030000000000	Mc--d	Numeral cardinal dative	Numeral Type=cardinal Case=dative
+08M010000040000000000	Mc--a	Numeral cardinal accusative	Numeral Type=cardinal Case=accusative
+08M010000050000000000	Mc--l	Numeral cardinal locative	Numeral Type=cardinal Case=locative
+08M010000060000000000	Mc--i	Numeral cardinal instrumental	Numeral Type=cardinal Case=instrumental
+08M010001000000000000	Mc-s	Numeral cardinal singular	Numeral Type=cardinal Number=singular
+08M010100010000000000	Mcm-n	Numeral cardinal masculine nominative	Numeral Type=cardinal Gender=masculine Case=nominative
+08M010100030000000000	Mcm-d	Numeral cardinal masculine dative	Numeral Type=cardinal Gender=masculine Case=dative
+08M010100040000000000	Mcm-a	Numeral cardinal masculine accusative	Numeral Type=cardinal Gender=masculine Case=accusative
+08M010100060000000000	Mcm-i	Numeral cardinal masculine instrumental	Numeral Type=cardinal Gender=masculine Case=instrumental
+08M010200010000000000	Mcf-n	Numeral cardinal feminine nominative	Numeral Type=cardinal Gender=feminine Case=nominative
+08M010200020000000000	Mcf-g	Numeral cardinal feminine genitive	Numeral Type=cardinal Gender=feminine Case=genitive
+08M010200030000000000	Mcf-d	Numeral cardinal feminine dative	Numeral Type=cardinal Gender=feminine Case=dative
+08M010200040000000000	Mcf-a	Numeral cardinal feminine accusative	Numeral Type=cardinal Gender=feminine Case=accusative
+08M010200050000000000	Mcf-l	Numeral cardinal feminine locative	Numeral Type=cardinal Gender=feminine Case=locative
+08M010200060000000000	Mcf-i	Numeral cardinal feminine instrumental	Numeral Type=cardinal Gender=feminine Case=instrumental
+08M010300010000000000	Mcn-n	Numeral cardinal neuter nominative	Numeral Type=cardinal Gender=neuter Case=nominative
+08M010300020000000000	Mcn-g	Numeral cardinal neuter genitive	Numeral Type=cardinal Gender=neuter Case=genitive
+08M010300030000000000	Mcn-d	Numeral cardinal neuter dative	Numeral Type=cardinal Gender=neuter Case=dative
+08M010300040000000000	Mcn-a	Numeral cardinal neuter accusative	Numeral Type=cardinal Gender=neuter Case=accusative
+08M010300050000000000	Mcn-l	Numeral cardinal neuter locative	Numeral Type=cardinal Gender=neuter Case=locative
+08M010300060000000000	Mcn-i	Numeral cardinal neuter instrumental	Numeral Type=cardinal Gender=neuter Case=instrumental
+08M020000000000000000	Mo	Numeral ordinal	Numeral Type=ordinal
+08M020000020000000000	Mo--g	Numeral ordinal genitive	Numeral Type=ordinal Case=genitive
+08M020002010000000000	Mo-pn	Numeral ordinal plural nominative	Numeral Type=ordinal Number=plural Case=nominative
+08M020002020000000000	Mo-pg	Numeral ordinal plural genitive	Numeral Type=ordinal Number=plural Case=genitive
+08M020002030000000000	Mo-pd	Numeral ordinal plural dative	Numeral Type=ordinal Number=plural Case=dative
+08M020002040000000000	Mo-pa	Numeral ordinal plural accusative	Numeral Type=ordinal Number=plural Case=accusative
+08M020002050000000000	Mo-pl	Numeral ordinal plural locative	Numeral Type=ordinal Number=plural Case=locative
+08M020002060000000000	Mo-pi	Numeral ordinal plural instrumental	Numeral Type=ordinal Number=plural Case=instrumental
+08M020101010000000000	Momsn	Numeral ordinal masculine singular nominative	Numeral Type=ordinal Gender=masculine Number=singular Case=nominative
+08M020101020000000000	Momsg	Numeral ordinal masculine singular genitive	Numeral Type=ordinal Gender=masculine Number=singular Case=genitive
+08M020101030000000000	Momsd	Numeral ordinal masculine singular dative	Numeral Type=ordinal Gender=masculine Number=singular Case=dative
+08M020101040000000000	Momsa	Numeral ordinal masculine singular accusative	Numeral Type=ordinal Gender=masculine Number=singular Case=accusative
+08M020101050000000000	Momsl	Numeral ordinal masculine singular locative	Numeral Type=ordinal Gender=masculine Number=singular Case=locative
+08M020101060000000000	Momsi	Numeral ordinal masculine singular instrumental	Numeral Type=ordinal Gender=masculine Number=singular Case=instrumental
+08M020201010000000000	Mofsn	Numeral ordinal feminine singular nominative	Numeral Type=ordinal Gender=feminine Number=singular Case=nominative
+08M020201020000000000	Mofsg	Numeral ordinal feminine singular genitive	Numeral Type=ordinal Gender=feminine Number=singular Case=genitive
+08M020201030000000000	Mofsd	Numeral ordinal feminine singular dative	Numeral Type=ordinal Gender=feminine Number=singular Case=dative
+08M020201040000000000	Mofsa	Numeral ordinal feminine singular accusative	Numeral Type=ordinal Gender=feminine Number=singular Case=accusative
+08M020201050000000000	Mofsl	Numeral ordinal feminine singular locative	Numeral Type=ordinal Gender=feminine Number=singular Case=locative
+08M020201050000000001	Mofsl----n	Numeral ordinal feminine singular locative -Animate	Numeral Type=ordinal Gender=feminine Number=singular Case=locative Animate=no
+08M020201060000000000	Mofsi	Numeral ordinal feminine singular instrumental	Numeral Type=ordinal Gender=feminine Number=singular Case=instrumental
+08M020301010000000000	Monsn	Numeral ordinal neuter singular nominative	Numeral Type=ordinal Gender=neuter Number=singular Case=nominative
+08M020301010000000001	Monsn----n	Numeral ordinal neuter singular nominative -Animate	Numeral Type=ordinal Gender=neuter Number=singular Case=nominative Animate=no
+08M020301020000000000	Monsg	Numeral ordinal neuter singular genitive	Numeral Type=ordinal Gender=neuter Number=singular Case=genitive
+08M020301020000000001	Monsg----n	Numeral ordinal neuter singular genitive -Animate	Numeral Type=ordinal Gender=neuter Number=singular Case=genitive Animate=no
+08M020301030000000000	Monsd	Numeral ordinal neuter singular dative	Numeral Type=ordinal Gender=neuter Number=singular Case=dative
+08M020301040000000000	Monsa	Numeral ordinal neuter singular accusative	Numeral Type=ordinal Gender=neuter Number=singular Case=accusative
+08M020301050000000000	Monsl	Numeral ordinal neuter singular locative	Numeral Type=ordinal Gender=neuter Number=singular Case=locative
+08M020301060000000000	Monsi	Numeral ordinal neuter singular instrumental	Numeral Type=ordinal Gender=neuter Number=singular Case=instrumental
+08M020302020000000001	Monpg----n	Numeral ordinal neuter plural genitive -Animate	Numeral Type=ordinal Gender=neuter Number=plural Case=genitive Animate=no
+08M020302030000000001	Monpd----n	Numeral ordinal neuter plural dative -Animate	Numeral Type=ordinal Gender=neuter Number=plural Case=dative Animate=no
+08M020302040000000001	Monpa----n	Numeral ordinal neuter plural accusative -Animate	Numeral Type=ordinal Gender=neuter Number=plural Case=accusative Animate=no
+09Q00	Q	Particle	Particle
+10I0000	I	Interjection	Interjection
+12X	X	Residual	Residual
+13Z	Z	Punctuation	Punctuation

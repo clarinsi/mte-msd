@@ -1,0 +1,643 @@
+01N01000000	Nc	Noun common	Noun Type=common
+01N01000101	Nc-sn	Noun common singular nominative	Noun Type=common Number=singular Case=nominative
+01N01000102	Nc-sg	Noun common singular genitive	Noun Type=common Number=singular Case=genitive
+01N01000103	Nc-s1	Noun common singular partitive	Noun Type=common Number=singular Case=partitive
+01N01000104	Nc-sx	Noun common singular illative	Noun Type=common Number=singular Case=illative
+01N01000105	Nc-s2	Noun common singular inessive	Noun Type=common Number=singular Case=inessive
+01N01000106	Nc-se	Noun common singular elative	Noun Type=common Number=singular Case=elative
+01N01000107	Nc-st	Noun common singular allative	Noun Type=common Number=singular Case=allative
+01N01000108	Nc-s3	Noun common singular adessive	Noun Type=common Number=singular Case=adessive
+01N01000109	Nc-sb	Noun common singular ablative	Noun Type=common Number=singular Case=ablative
+01N01000110	Nc-s4	Noun common singular translative	Noun Type=common Number=singular Case=translative
+01N01000111	Nc-s9	Noun common singular terminative	Noun Type=common Number=singular Case=terminative
+01N01000112	Nc-sw	Noun common singular essive	Noun Type=common Number=singular Case=essive
+01N01000113	Nc-s5	Noun common singular abessive	Noun Type=common Number=singular Case=abessive
+01N01000114	Nc-sk	Noun common singular komitative	Noun Type=common Number=singular Case=komitative
+01N01000115	Nc-s7	Noun common singular aditive	Noun Type=common Number=singular Case=aditive
+01N01000201	Nc-pn	Noun common plural nominative	Noun Type=common Number=plural Case=nominative
+01N01000202	Nc-pg	Noun common plural genitive	Noun Type=common Number=plural Case=genitive
+01N01000203	Nc-p1	Noun common plural partitive	Noun Type=common Number=plural Case=partitive
+01N01000204	Nc-px	Noun common plural illative	Noun Type=common Number=plural Case=illative
+01N01000205	Nc-p2	Noun common plural inessive	Noun Type=common Number=plural Case=inessive
+01N01000206	Nc-pe	Noun common plural elative	Noun Type=common Number=plural Case=elative
+01N01000207	Nc-pt	Noun common plural allative	Noun Type=common Number=plural Case=allative
+01N01000208	Nc-p3	Noun common plural adessive	Noun Type=common Number=plural Case=adessive
+01N01000209	Nc-pb	Noun common plural ablative	Noun Type=common Number=plural Case=ablative
+01N01000210	Nc-p4	Noun common plural translative	Noun Type=common Number=plural Case=translative
+01N01000211	Nc-p9	Noun common plural terminative	Noun Type=common Number=plural Case=terminative
+01N01000212	Nc-pw	Noun common plural essive	Noun Type=common Number=plural Case=essive
+01N01000213	Nc-p5	Noun common plural abessive	Noun Type=common Number=plural Case=abessive
+01N01000214	Nc-pk	Noun common plural komitative	Noun Type=common Number=plural Case=komitative
+01N02000101	Np-sn	Noun proper singular nominative	Noun Type=proper Number=singular Case=nominative
+01N02000102	Np-sg	Noun proper singular genitive	Noun Type=proper Number=singular Case=genitive
+01N02000103	Np-s1	Noun proper singular partitive	Noun Type=proper Number=singular Case=partitive
+01N02000104	Np-sx	Noun proper singular illative	Noun Type=proper Number=singular Case=illative
+01N02000105	Np-s2	Noun proper singular inessive	Noun Type=proper Number=singular Case=inessive
+01N02000106	Np-se	Noun proper singular elative	Noun Type=proper Number=singular Case=elative
+01N02000107	Np-st	Noun proper singular allative	Noun Type=proper Number=singular Case=allative
+01N02000108	Np-s3	Noun proper singular adessive	Noun Type=proper Number=singular Case=adessive
+01N02000109	Np-sb	Noun proper singular ablative	Noun Type=proper Number=singular Case=ablative
+01N02000110	Np-s4	Noun proper singular translative	Noun Type=proper Number=singular Case=translative
+01N02000111	Np-s9	Noun proper singular terminative	Noun Type=proper Number=singular Case=terminative
+01N02000112	Np-sw	Noun proper singular essive	Noun Type=proper Number=singular Case=essive
+01N02000113	Np-s5	Noun proper singular abessive	Noun Type=proper Number=singular Case=abessive
+01N02000114	Np-sk	Noun proper singular komitative	Noun Type=proper Number=singular Case=komitative
+01N02000115	Np-s7	Noun proper singular aditive	Noun Type=proper Number=singular Case=aditive
+01N02000201	Np-pn	Noun proper plural nominative	Noun Type=proper Number=plural Case=nominative
+01N02000202	Np-pg	Noun proper plural genitive	Noun Type=proper Number=plural Case=genitive
+01N02000203	Np-p1	Noun proper plural partitive	Noun Type=proper Number=plural Case=partitive
+01N02000204	Np-px	Noun proper plural illative	Noun Type=proper Number=plural Case=illative
+01N02000205	Np-p2	Noun proper plural inessive	Noun Type=proper Number=plural Case=inessive
+01N02000207	Np-pt	Noun proper plural allative	Noun Type=proper Number=plural Case=allative
+01N02000208	Np-p3	Noun proper plural adessive	Noun Type=proper Number=plural Case=adessive
+01N02000209	Np-pb	Noun proper plural ablative	Noun Type=proper Number=plural Case=ablative
+01N02000211	Np-p9	Noun proper plural terminative	Noun Type=proper Number=plural Case=terminative
+02V0100000000000001000000	Vm------n	Verb main -Negative	Verb Type=main Negative=no
+02V0101010000000102000000	Vmip---ay	Verb main indicative present active +Negative	Verb Type=main VForm=indicative Tense=present Voice=active Negative=yes
+02V0101010000000201000000	Vmip---pn	Verb main indicative present passive -Negative	Verb Type=main VForm=indicative Tense=present Voice=passive Negative=no
+02V0101010000000202000000	Vmip---py	Verb main indicative present passive +Negative	Verb Type=main VForm=indicative Tense=present Voice=passive Negative=yes
+02V0101010101000101000000	Vmip1s-an	Verb main indicative present first singular active -Negative	Verb Type=main VForm=indicative Tense=present Person=first Number=singular Voice=active Negative=no
+02V0101010102000101000000	Vmip1p-an	Verb main indicative present first plural active -Negative	Verb Type=main VForm=indicative Tense=present Person=first Number=plural Voice=active Negative=no
+02V0101010201000101000000	Vmip2s-an	Verb main indicative present second singular active -Negative	Verb Type=main VForm=indicative Tense=present Person=second Number=singular Voice=active Negative=no
+02V0101010202000101000000	Vmip2p-an	Verb main indicative present second plural active -Negative	Verb Type=main VForm=indicative Tense=present Person=second Number=plural Voice=active Negative=no
+02V0101010301000101000000	Vmip3s-an	Verb main indicative present third singular active -Negative	Verb Type=main VForm=indicative Tense=present Person=third Number=singular Voice=active Negative=no
+02V0101010302000101000000	Vmip3p-an	Verb main indicative present third plural active -Negative	Verb Type=main VForm=indicative Tense=present Person=third Number=plural Voice=active Negative=no
+02V0101020000000102000000	Vmii---ay	Verb main indicative imperfect active +Negative	Verb Type=main VForm=indicative Tense=imperfect Voice=active Negative=yes
+02V0101020000000201000000	Vmii---pn	Verb main indicative imperfect passive -Negative	Verb Type=main VForm=indicative Tense=imperfect Voice=passive Negative=no
+02V0101020000000202000000	Vmii---py	Verb main indicative imperfect passive +Negative	Verb Type=main VForm=indicative Tense=imperfect Voice=passive Negative=yes
+02V0101020101000101000000	Vmii1s-an	Verb main indicative imperfect first singular active -Negative	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=singular Voice=active Negative=no
+02V0101020102000101000000	Vmii1p-an	Verb main indicative imperfect first plural active -Negative	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=plural Voice=active Negative=no
+02V0101020201000101000000	Vmii2s-an	Verb main indicative imperfect second singular active -Negative	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular Voice=active Negative=no
+02V0101020202000101000000	Vmii2p-an	Verb main indicative imperfect second plural active -Negative	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural Voice=active Negative=no
+02V0101020301000101000000	Vmii3s-an	Verb main indicative imperfect third singular active -Negative	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular Voice=active Negative=no
+02V0101020302000101000000	Vmii3p-an	Verb main indicative imperfect third plural active -Negative	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural Voice=active Negative=no
+02V0102010000000201000000	Vmmp---pn	Verb main imperative present passive -Negative	Verb Type=main VForm=imperative Tense=present Voice=passive Negative=no
+02V0102010000000202000000	Vmmp---py	Verb main imperative present passive +Negative	Verb Type=main VForm=imperative Tense=present Voice=passive Negative=yes
+02V0102010102000101000000	Vmmp1p-an	Verb main imperative present first plural active -Negative	Verb Type=main VForm=imperative Tense=present Person=first Number=plural Voice=active Negative=no
+02V0102010102000102000000	Vmmp1p-ay	Verb main imperative present first plural active +Negative	Verb Type=main VForm=imperative Tense=present Person=first Number=plural Voice=active Negative=yes
+02V0102010201000101000000	Vmmp2s-an	Verb main imperative present second singular active -Negative	Verb Type=main VForm=imperative Tense=present Person=second Number=singular Voice=active Negative=no
+02V0102010201000102000000	Vmmp2s-ay	Verb main imperative present second singular active +Negative	Verb Type=main VForm=imperative Tense=present Person=second Number=singular Voice=active Negative=yes
+02V0102010202000101000000	Vmmp2p-an	Verb main imperative present second plural active -Negative	Verb Type=main VForm=imperative Tense=present Person=second Number=plural Voice=active Negative=no
+02V0102010202000102000000	Vmmp2p-ay	Verb main imperative present second plural active +Negative	Verb Type=main VForm=imperative Tense=present Person=second Number=plural Voice=active Negative=yes
+02V0102010301000101000000	Vmmp3s-an	Verb main imperative present third singular active -Negative	Verb Type=main VForm=imperative Tense=present Person=third Number=singular Voice=active Negative=no
+02V0102010301000102000000	Vmmp3s-ay	Verb main imperative present third singular active +Negative	Verb Type=main VForm=imperative Tense=present Person=third Number=singular Voice=active Negative=yes
+02V0102010302000101000000	Vmmp3p-an	Verb main imperative present third plural active -Negative	Verb Type=main VForm=imperative Tense=present Person=third Number=plural Voice=active Negative=no
+02V0102010302000102000000	Vmmp3p-ay	Verb main imperative present third plural active +Negative	Verb Type=main VForm=imperative Tense=present Person=third Number=plural Voice=active Negative=yes
+02V0103010000000102000000	Vmcp---ay	Verb main conditional present active +Negative	Verb Type=main VForm=conditional Tense=present Voice=active Negative=yes
+02V0103010000000201000000	Vmcp---pn	Verb main conditional present passive -Negative	Verb Type=main VForm=conditional Tense=present Voice=passive Negative=no
+02V0103010000000202000000	Vmcp---py	Verb main conditional present passive +Negative	Verb Type=main VForm=conditional Tense=present Voice=passive Negative=yes
+02V0103010101000101000000	Vmcp1s-an	Verb main conditional present first singular active -Negative	Verb Type=main VForm=conditional Tense=present Person=first Number=singular Voice=active Negative=no
+02V0103010102000101000000	Vmcp1p-an	Verb main conditional present first plural active -Negative	Verb Type=main VForm=conditional Tense=present Person=first Number=plural Voice=active Negative=no
+02V0103010201000101000000	Vmcp2s-an	Verb main conditional present second singular active -Negative	Verb Type=main VForm=conditional Tense=present Person=second Number=singular Voice=active Negative=no
+02V0103010202000101000000	Vmcp2p-an	Verb main conditional present second plural active -Negative	Verb Type=main VForm=conditional Tense=present Person=second Number=plural Voice=active Negative=no
+02V0103010301000101000000	Vmcp3s-an	Verb main conditional present third singular active -Negative	Verb Type=main VForm=conditional Tense=present Person=third Number=singular Voice=active Negative=no
+02V0103010302000101000000	Vmcp3p-an	Verb main conditional present third plural active -Negative	Verb Type=main VForm=conditional Tense=present Person=third Number=plural Voice=active Negative=no
+02V0103030000000102000000	Vmcs---ay	Verb main conditional past active +Negative	Verb Type=main VForm=conditional Tense=past Voice=active Negative=yes
+02V0103030000000201000000	Vmcs---pn	Verb main conditional past passive -Negative	Verb Type=main VForm=conditional Tense=past Voice=passive Negative=no
+02V0103030000000202000000	Vmcs---py	Verb main conditional past passive +Negative	Verb Type=main VForm=conditional Tense=past Voice=passive Negative=yes
+02V0103030101000101000000	Vmcs1s-an	Verb main conditional past first singular active -Negative	Verb Type=main VForm=conditional Tense=past Person=first Number=singular Voice=active Negative=no
+02V0103030102000101000000	Vmcs1p-an	Verb main conditional past first plural active -Negative	Verb Type=main VForm=conditional Tense=past Person=first Number=plural Voice=active Negative=no
+02V0103030201000101000000	Vmcs2s-an	Verb main conditional past second singular active -Negative	Verb Type=main VForm=conditional Tense=past Person=second Number=singular Voice=active Negative=no
+02V0103030202000101000000	Vmcs2p-an	Verb main conditional past second plural active -Negative	Verb Type=main VForm=conditional Tense=past Person=second Number=plural Voice=active Negative=no
+02V0103030301000101000000	Vmcs3s-an	Verb main conditional past third singular active -Negative	Verb Type=main VForm=conditional Tense=past Person=third Number=singular Voice=active Negative=no
+02V0103030302000101000000	Vmcs3p-an	Verb main conditional past third plural active -Negative	Verb Type=main VForm=conditional Tense=past Person=third Number=plural Voice=active Negative=no
+02V0104000000000000000000	Vmn	Verb main infinitive	Verb Type=main VForm=infinitive
+02V0105010000000100000000	Vmpp---a	Verb main participle present active	Verb Type=main VForm=participle Tense=present Voice=active
+02V0105010000000200000000	Vmpp---p	Verb main participle present passive	Verb Type=main VForm=participle Tense=present Voice=passive
+02V0105030000000100000000	Vmps---a	Verb main participle past active	Verb Type=main VForm=participle Tense=past Voice=active
+02V0105030000000200000000	Vmps---p	Verb main participle past passive	Verb Type=main VForm=participle Tense=past Voice=passive
+02V0106000000000000000000	Vmg	Verb main gerund	Verb Type=main VForm=gerund
+02V0107000000000100000001	Vmu----a---x	Verb main supine active illative	Verb Type=main VForm=supine Voice=active Case=illative
+02V0107000000000100000002	Vmu----a---2	Verb main supine active inessive	Verb Type=main VForm=supine Voice=active Case=inessive
+02V0107000000000100000003	Vmu----a---e	Verb main supine active elative	Verb Type=main VForm=supine Voice=active Case=elative
+02V0107000000000100000004	Vmu----a---4	Verb main supine active translative	Verb Type=main VForm=supine Voice=active Case=translative
+02V0107000000000100000005	Vmu----a---5	Verb main supine active abessive	Verb Type=main VForm=supine Voice=active Case=abessive
+02V0107000000000200000000	Vmu----p	Verb main supine passive	Verb Type=main VForm=supine Voice=passive
+02V0108010000000101000000	Vmqp---an	Verb main quotative present active -Negative	Verb Type=main VForm=quotative Tense=present Voice=active Negative=no
+02V0108010000000102000000	Vmqp---ay	Verb main quotative present active +Negative	Verb Type=main VForm=quotative Tense=present Voice=active Negative=yes
+02V0108010000000201000000	Vmqp---pn	Verb main quotative present passive -Negative	Verb Type=main VForm=quotative Tense=present Voice=passive Negative=no
+02V0108010000000202000000	Vmqp---py	Verb main quotative present passive +Negative	Verb Type=main VForm=quotative Tense=present Voice=passive Negative=yes
+02V0108030000000201000000	Vmqs---pn	Verb main quotative past passive -Negative	Verb Type=main VForm=quotative Tense=past Voice=passive Negative=no
+02V0108030000000202000000	Vmqs---py	Verb main quotative past passive +Negative	Verb Type=main VForm=quotative Tense=past Voice=passive Negative=yes
+02V0200000000000002000000	Va------y	Verb auxiliary +Negative	Verb Type=auxiliary Negative=yes
+02V0201010000000102000000	Vaip---ay	Verb auxiliary indicative present active +Negative	Verb Type=auxiliary VForm=indicative Tense=present Voice=active Negative=yes
+02V0201010000000201000000	Vaip---pn	Verb auxiliary indicative present passive -Negative	Verb Type=auxiliary VForm=indicative Tense=present Voice=passive Negative=no
+02V0201010000000202000000	Vaip---py	Verb auxiliary indicative present passive +Negative	Verb Type=auxiliary VForm=indicative Tense=present Voice=passive Negative=yes
+02V0201010101000101000000	Vaip1s-an	Verb auxiliary indicative present first singular active -Negative	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular Voice=active Negative=no
+02V0201010102000101000000	Vaip1p-an	Verb auxiliary indicative present first plural active -Negative	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural Voice=active Negative=no
+02V0201010201000101000000	Vaip2s-an	Verb auxiliary indicative present second singular active -Negative	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular Voice=active Negative=no
+02V0201010202000101000000	Vaip2p-an	Verb auxiliary indicative present second plural active -Negative	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=plural Voice=active Negative=no
+02V0201010301000101000000	Vaip3s-an	Verb auxiliary indicative present third singular active -Negative	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular Voice=active Negative=no
+02V0201010302000101000000	Vaip3p-an	Verb auxiliary indicative present third plural active -Negative	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=plural Voice=active Negative=no
+02V0201020000000102000000	Vaii---ay	Verb auxiliary indicative imperfect active +Negative	Verb Type=auxiliary VForm=indicative Tense=imperfect Voice=active Negative=yes
+02V0201020000000201000000	Vaii---pn	Verb auxiliary indicative imperfect passive -Negative	Verb Type=auxiliary VForm=indicative Tense=imperfect Voice=passive Negative=no
+02V0201020000000202000000	Vaii---py	Verb auxiliary indicative imperfect passive +Negative	Verb Type=auxiliary VForm=indicative Tense=imperfect Voice=passive Negative=yes
+02V0201020101000101000000	Vaii1s-an	Verb auxiliary indicative imperfect first singular active -Negative	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=singular Voice=active Negative=no
+02V0201020102000101000000	Vaii1p-an	Verb auxiliary indicative imperfect first plural active -Negative	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=plural Voice=active Negative=no
+02V0201020201000101000000	Vaii2s-an	Verb auxiliary indicative imperfect second singular active -Negative	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=singular Voice=active Negative=no
+02V0201020202000101000000	Vaii2p-an	Verb auxiliary indicative imperfect second plural active -Negative	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=plural Voice=active Negative=no
+02V0201020301000101000000	Vaii3s-an	Verb auxiliary indicative imperfect third singular active -Negative	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=singular Voice=active Negative=no
+02V0201020302000101000000	Vaii3p-an	Verb auxiliary indicative imperfect third plural active -Negative	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=plural Voice=active Negative=no
+02V0202010000000202000000	Vamp---py	Verb auxiliary imperative present passive +Negative	Verb Type=auxiliary VForm=imperative Tense=present Voice=passive Negative=yes
+02V0202010102000101000000	Vamp1p-an	Verb auxiliary imperative present first plural active -Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=first Number=plural Voice=active Negative=no
+02V0202010102000102000000	Vamp1p-ay	Verb auxiliary imperative present first plural active +Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=first Number=plural Voice=active Negative=yes
+02V0202010201000101000000	Vamp2s-an	Verb auxiliary imperative present second singular active -Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=singular Voice=active Negative=no
+02V0202010201000102000000	Vamp2s-ay	Verb auxiliary imperative present second singular active +Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=singular Voice=active Negative=yes
+02V0202010202000101000000	Vamp2p-an	Verb auxiliary imperative present second plural active -Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=plural Voice=active Negative=no
+02V0202010202000102000000	Vamp2p-ay	Verb auxiliary imperative present second plural active +Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=plural Voice=active Negative=yes
+02V0202010301000101000000	Vamp3s-an	Verb auxiliary imperative present third singular active -Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=third Number=singular Voice=active Negative=no
+02V0202010301000102000000	Vamp3s-ay	Verb auxiliary imperative present third singular active +Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=third Number=singular Voice=active Negative=yes
+02V0202010302000101000000	Vamp3p-an	Verb auxiliary imperative present third plural active -Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=third Number=plural Voice=active Negative=no
+02V0202010302000102000000	Vamp3p-ay	Verb auxiliary imperative present third plural active +Negative	Verb Type=auxiliary VForm=imperative Tense=present Person=third Number=plural Voice=active Negative=yes
+02V0203010000000102000000	Vacp---ay	Verb auxiliary conditional present active +Negative	Verb Type=auxiliary VForm=conditional Tense=present Voice=active Negative=yes
+02V0203010101000101000000	Vacp1s-an	Verb auxiliary conditional present first singular active -Negative	Verb Type=auxiliary VForm=conditional Tense=present Person=first Number=singular Voice=active Negative=no
+02V0203010102000101000000	Vacp1p-an	Verb auxiliary conditional present first plural active -Negative	Verb Type=auxiliary VForm=conditional Tense=present Person=first Number=plural Voice=active Negative=no
+02V0203010201000101000000	Vacp2s-an	Verb auxiliary conditional present second singular active -Negative	Verb Type=auxiliary VForm=conditional Tense=present Person=second Number=singular Voice=active Negative=no
+02V0203010202000101000000	Vacp2p-an	Verb auxiliary conditional present second plural active -Negative	Verb Type=auxiliary VForm=conditional Tense=present Person=second Number=plural Voice=active Negative=no
+02V0203010301000101000000	Vacp3s-an	Verb auxiliary conditional present third singular active -Negative	Verb Type=auxiliary VForm=conditional Tense=present Person=third Number=singular Voice=active Negative=no
+02V0203010302000101000000	Vacp3p-an	Verb auxiliary conditional present third plural active -Negative	Verb Type=auxiliary VForm=conditional Tense=present Person=third Number=plural Voice=active Negative=no
+02V0203030000000102000000	Vacs---ay	Verb auxiliary conditional past active +Negative	Verb Type=auxiliary VForm=conditional Tense=past Voice=active Negative=yes
+02V0203030101000101000000	Vacs1s-an	Verb auxiliary conditional past first singular active -Negative	Verb Type=auxiliary VForm=conditional Tense=past Person=first Number=singular Voice=active Negative=no
+02V0203030102000101000000	Vacs1p-an	Verb auxiliary conditional past first plural active -Negative	Verb Type=auxiliary VForm=conditional Tense=past Person=first Number=plural Voice=active Negative=no
+02V0203030201000101000000	Vacs2s-an	Verb auxiliary conditional past second singular active -Negative	Verb Type=auxiliary VForm=conditional Tense=past Person=second Number=singular Voice=active Negative=no
+02V0203030202000101000000	Vacs2p-an	Verb auxiliary conditional past second plural active -Negative	Verb Type=auxiliary VForm=conditional Tense=past Person=second Number=plural Voice=active Negative=no
+02V0203030301000101000000	Vacs3s-an	Verb auxiliary conditional past third singular active -Negative	Verb Type=auxiliary VForm=conditional Tense=past Person=third Number=singular Voice=active Negative=no
+02V0203030302000101000000	Vacs3p-an	Verb auxiliary conditional past third plural active -Negative	Verb Type=auxiliary VForm=conditional Tense=past Person=third Number=plural Voice=active Negative=no
+02V0204000000000000000000	Van	Verb auxiliary infinitive	Verb Type=auxiliary VForm=infinitive
+02V0205010000000100000000	Vapp---a	Verb auxiliary participle present active	Verb Type=auxiliary VForm=participle Tense=present Voice=active
+02V0205030000000100000000	Vaps---a	Verb auxiliary participle past active	Verb Type=auxiliary VForm=participle Tense=past Voice=active
+02V0205030000000200000000	Vaps---p	Verb auxiliary participle past passive	Verb Type=auxiliary VForm=participle Tense=past Voice=passive
+02V0206000000000000000000	Vag	Verb auxiliary gerund	Verb Type=auxiliary VForm=gerund
+02V0207000000000100000001	Vau----a---x	Verb auxiliary supine active illative	Verb Type=auxiliary VForm=supine Voice=active Case=illative
+02V0207000000000100000002	Vau----a---2	Verb auxiliary supine active inessive	Verb Type=auxiliary VForm=supine Voice=active Case=inessive
+02V0207000000000100000003	Vau----a---e	Verb auxiliary supine active elative	Verb Type=auxiliary VForm=supine Voice=active Case=elative
+02V0207000000000100000005	Vau----a---5	Verb auxiliary supine active abessive	Verb Type=auxiliary VForm=supine Voice=active Case=abessive
+02V0208010000000101000000	Vaqp---an	Verb auxiliary quotative present active -Negative	Verb Type=auxiliary VForm=quotative Tense=present Voice=active Negative=no
+02V0208010000000102000000	Vaqp---ay	Verb auxiliary quotative present active +Negative	Verb Type=auxiliary VForm=quotative Tense=present Voice=active Negative=yes
+02V0301010000000102000000	Voip---ay	Verb modal indicative present active +Negative	Verb Type=modal VForm=indicative Tense=present Voice=active Negative=yes
+02V0301010000000201000000	Voip---pn	Verb modal indicative present passive -Negative	Verb Type=modal VForm=indicative Tense=present Voice=passive Negative=no
+02V0301010000000202000000	Voip---py	Verb modal indicative present passive +Negative	Verb Type=modal VForm=indicative Tense=present Voice=passive Negative=yes
+02V0301010101000101000000	Voip1s-an	Verb modal indicative present first singular active -Negative	Verb Type=modal VForm=indicative Tense=present Person=first Number=singular Voice=active Negative=no
+02V0301010102000101000000	Voip1p-an	Verb modal indicative present first plural active -Negative	Verb Type=modal VForm=indicative Tense=present Person=first Number=plural Voice=active Negative=no
+02V0301010201000101000000	Voip2s-an	Verb modal indicative present second singular active -Negative	Verb Type=modal VForm=indicative Tense=present Person=second Number=singular Voice=active Negative=no
+02V0301010202000101000000	Voip2p-an	Verb modal indicative present second plural active -Negative	Verb Type=modal VForm=indicative Tense=present Person=second Number=plural Voice=active Negative=no
+02V0301010301000101000000	Voip3s-an	Verb modal indicative present third singular active -Negative	Verb Type=modal VForm=indicative Tense=present Person=third Number=singular Voice=active Negative=no
+02V0301010302000101000000	Voip3p-an	Verb modal indicative present third plural active -Negative	Verb Type=modal VForm=indicative Tense=present Person=third Number=plural Voice=active Negative=no
+02V0301020000000102000000	Voii---ay	Verb modal indicative imperfect active +Negative	Verb Type=modal VForm=indicative Tense=imperfect Voice=active Negative=yes
+02V0301020000000201000000	Voii---pn	Verb modal indicative imperfect passive -Negative	Verb Type=modal VForm=indicative Tense=imperfect Voice=passive Negative=no
+02V0301020000000202000000	Voii---py	Verb modal indicative imperfect passive +Negative	Verb Type=modal VForm=indicative Tense=imperfect Voice=passive Negative=yes
+02V0301020101000101000000	Voii1s-an	Verb modal indicative imperfect first singular active -Negative	Verb Type=modal VForm=indicative Tense=imperfect Person=first Number=singular Voice=active Negative=no
+02V0301020102000101000000	Voii1p-an	Verb modal indicative imperfect first plural active -Negative	Verb Type=modal VForm=indicative Tense=imperfect Person=first Number=plural Voice=active Negative=no
+02V0301020201000101000000	Voii2s-an	Verb modal indicative imperfect second singular active -Negative	Verb Type=modal VForm=indicative Tense=imperfect Person=second Number=singular Voice=active Negative=no
+02V0301020202000101000000	Voii2p-an	Verb modal indicative imperfect second plural active -Negative	Verb Type=modal VForm=indicative Tense=imperfect Person=second Number=plural Voice=active Negative=no
+02V0301020301000101000000	Voii3s-an	Verb modal indicative imperfect third singular active -Negative	Verb Type=modal VForm=indicative Tense=imperfect Person=third Number=singular Voice=active Negative=no
+02V0301020302000101000000	Voii3p-an	Verb modal indicative imperfect third plural active -Negative	Verb Type=modal VForm=indicative Tense=imperfect Person=third Number=plural Voice=active Negative=no
+02V0302010102000101000000	Vomp1p-an	Verb modal imperative present first plural active -Negative	Verb Type=modal VForm=imperative Tense=present Person=first Number=plural Voice=active Negative=no
+02V0302010102000102000000	Vomp1p-ay	Verb modal imperative present first plural active +Negative	Verb Type=modal VForm=imperative Tense=present Person=first Number=plural Voice=active Negative=yes
+02V0302010201000101000000	Vomp2s-an	Verb modal imperative present second singular active -Negative	Verb Type=modal VForm=imperative Tense=present Person=second Number=singular Voice=active Negative=no
+02V0302010201000102000000	Vomp2s-ay	Verb modal imperative present second singular active +Negative	Verb Type=modal VForm=imperative Tense=present Person=second Number=singular Voice=active Negative=yes
+02V0302010202000101000000	Vomp2p-an	Verb modal imperative present second plural active -Negative	Verb Type=modal VForm=imperative Tense=present Person=second Number=plural Voice=active Negative=no
+02V0302010202000102000000	Vomp2p-ay	Verb modal imperative present second plural active +Negative	Verb Type=modal VForm=imperative Tense=present Person=second Number=plural Voice=active Negative=yes
+02V0302010301000101000000	Vomp3s-an	Verb modal imperative present third singular active -Negative	Verb Type=modal VForm=imperative Tense=present Person=third Number=singular Voice=active Negative=no
+02V0302010301000102000000	Vomp3s-ay	Verb modal imperative present third singular active +Negative	Verb Type=modal VForm=imperative Tense=present Person=third Number=singular Voice=active Negative=yes
+02V0302010302000101000000	Vomp3p-an	Verb modal imperative present third plural active -Negative	Verb Type=modal VForm=imperative Tense=present Person=third Number=plural Voice=active Negative=no
+02V0302010302000102000000	Vomp3p-ay	Verb modal imperative present third plural active +Negative	Verb Type=modal VForm=imperative Tense=present Person=third Number=plural Voice=active Negative=yes
+02V0303010000000102000000	Vocp---ay	Verb modal conditional present active +Negative	Verb Type=modal VForm=conditional Tense=present Voice=active Negative=yes
+02V0303010000000201000000	Vocp---pn	Verb modal conditional present passive -Negative	Verb Type=modal VForm=conditional Tense=present Voice=passive Negative=no
+02V0303010000000202000000	Vocp---py	Verb modal conditional present passive +Negative	Verb Type=modal VForm=conditional Tense=present Voice=passive Negative=yes
+02V0303010101000101000000	Vocp1s-an	Verb modal conditional present first singular active -Negative	Verb Type=modal VForm=conditional Tense=present Person=first Number=singular Voice=active Negative=no
+02V0303010102000101000000	Vocp1p-an	Verb modal conditional present first plural active -Negative	Verb Type=modal VForm=conditional Tense=present Person=first Number=plural Voice=active Negative=no
+02V0303010201000101000000	Vocp2s-an	Verb modal conditional present second singular active -Negative	Verb Type=modal VForm=conditional Tense=present Person=second Number=singular Voice=active Negative=no
+02V0303010202000101000000	Vocp2p-an	Verb modal conditional present second plural active -Negative	Verb Type=modal VForm=conditional Tense=present Person=second Number=plural Voice=active Negative=no
+02V0303010301000101000000	Vocp3s-an	Verb modal conditional present third singular active -Negative	Verb Type=modal VForm=conditional Tense=present Person=third Number=singular Voice=active Negative=no
+02V0303010302000101000000	Vocp3p-an	Verb modal conditional present third plural active -Negative	Verb Type=modal VForm=conditional Tense=present Person=third Number=plural Voice=active Negative=no
+02V0303030000000102000000	Vocs---ay	Verb modal conditional past active +Negative	Verb Type=modal VForm=conditional Tense=past Voice=active Negative=yes
+02V0303030000000201000000	Vocs---pn	Verb modal conditional past passive -Negative	Verb Type=modal VForm=conditional Tense=past Voice=passive Negative=no
+02V0303030000000202000000	Vocs---py	Verb modal conditional past passive +Negative	Verb Type=modal VForm=conditional Tense=past Voice=passive Negative=yes
+02V0303030101000101000000	Vocs1s-an	Verb modal conditional past first singular active -Negative	Verb Type=modal VForm=conditional Tense=past Person=first Number=singular Voice=active Negative=no
+02V0303030102000101000000	Vocs1p-an	Verb modal conditional past first plural active -Negative	Verb Type=modal VForm=conditional Tense=past Person=first Number=plural Voice=active Negative=no
+02V0303030201000101000000	Vocs2s-an	Verb modal conditional past second singular active -Negative	Verb Type=modal VForm=conditional Tense=past Person=second Number=singular Voice=active Negative=no
+02V0303030202000101000000	Vocs2p-an	Verb modal conditional past second plural active -Negative	Verb Type=modal VForm=conditional Tense=past Person=second Number=plural Voice=active Negative=no
+02V0303030301000101000000	Vocs3s-an	Verb modal conditional past third singular active -Negative	Verb Type=modal VForm=conditional Tense=past Person=third Number=singular Voice=active Negative=no
+02V0303030302000101000000	Vocs3p-an	Verb modal conditional past third plural active -Negative	Verb Type=modal VForm=conditional Tense=past Person=third Number=plural Voice=active Negative=no
+02V0304000000000000000000	Von	Verb modal infinitive	Verb Type=modal VForm=infinitive
+02V0305010000000100000000	Vopp---a	Verb modal participle present active	Verb Type=modal VForm=participle Tense=present Voice=active
+02V0305010000000200000000	Vopp---p	Verb modal participle present passive	Verb Type=modal VForm=participle Tense=present Voice=passive
+02V0305030000000100000000	Vops---a	Verb modal participle past active	Verb Type=modal VForm=participle Tense=past Voice=active
+02V0305030000000200000000	Vops---p	Verb modal participle past passive	Verb Type=modal VForm=participle Tense=past Voice=passive
+02V0306000000000000000000	Vog	Verb modal gerund	Verb Type=modal VForm=gerund
+02V0307000000000100000001	Vou----a---x	Verb modal supine active illative	Verb Type=modal VForm=supine Voice=active Case=illative
+02V0307000000000100000002	Vou----a---2	Verb modal supine active inessive	Verb Type=modal VForm=supine Voice=active Case=inessive
+02V0307000000000100000003	Vou----a---e	Verb modal supine active elative	Verb Type=modal VForm=supine Voice=active Case=elative
+02V0307000000000100000004	Vou----a---4	Verb modal supine active translative	Verb Type=modal VForm=supine Voice=active Case=translative
+02V0307000000000100000005	Vou----a---5	Verb modal supine active abessive	Verb Type=modal VForm=supine Voice=active Case=abessive
+02V0308010000000101000000	Voqp---an	Verb modal quotative present active -Negative	Verb Type=modal VForm=quotative Tense=present Voice=active Negative=no
+02V0308010000000102000000	Voqp---ay	Verb modal quotative present active +Negative	Verb Type=modal VForm=quotative Tense=present Voice=active Negative=yes
+02V0308010000000201000000	Voqp---pn	Verb modal quotative present passive -Negative	Verb Type=modal VForm=quotative Tense=present Voice=passive Negative=no
+02V0308010000000202000000	Voqp---py	Verb modal quotative present passive +Negative	Verb Type=modal VForm=quotative Tense=present Voice=passive Negative=yes
+03A0001000000	A-p	Adjective positive	Adjective Degree=positive
+03A0001000101	A-p-sn	Adjective positive singular nominative	Adjective Degree=positive Number=singular Case=nominative
+03A0001000102	A-p-sg	Adjective positive singular genitive	Adjective Degree=positive Number=singular Case=genitive
+03A0001000103	A-p-s1	Adjective positive singular partitive	Adjective Degree=positive Number=singular Case=partitive
+03A0001000104	A-p-sx	Adjective positive singular illative	Adjective Degree=positive Number=singular Case=illative
+03A0001000105	A-p-s2	Adjective positive singular inessive	Adjective Degree=positive Number=singular Case=inessive
+03A0001000106	A-p-se	Adjective positive singular elative	Adjective Degree=positive Number=singular Case=elative
+03A0001000107	A-p-st	Adjective positive singular allative	Adjective Degree=positive Number=singular Case=allative
+03A0001000108	A-p-s3	Adjective positive singular adessive	Adjective Degree=positive Number=singular Case=adessive
+03A0001000109	A-p-sb	Adjective positive singular ablative	Adjective Degree=positive Number=singular Case=ablative
+03A0001000110	A-p-s4	Adjective positive singular translative	Adjective Degree=positive Number=singular Case=translative
+03A0001000111	A-p-s9	Adjective positive singular terminative	Adjective Degree=positive Number=singular Case=terminative
+03A0001000112	A-p-sw	Adjective positive singular essive	Adjective Degree=positive Number=singular Case=essive
+03A0001000113	A-p-s5	Adjective positive singular abessive	Adjective Degree=positive Number=singular Case=abessive
+03A0001000114	A-p-sk	Adjective positive singular komitative	Adjective Degree=positive Number=singular Case=komitative
+03A0001000115	A-p-s7	Adjective positive singular aditive	Adjective Degree=positive Number=singular Case=aditive
+03A0001000201	A-p-pn	Adjective positive plural nominative	Adjective Degree=positive Number=plural Case=nominative
+03A0001000202	A-p-pg	Adjective positive plural genitive	Adjective Degree=positive Number=plural Case=genitive
+03A0001000203	A-p-p1	Adjective positive plural partitive	Adjective Degree=positive Number=plural Case=partitive
+03A0001000204	A-p-px	Adjective positive plural illative	Adjective Degree=positive Number=plural Case=illative
+03A0001000205	A-p-p2	Adjective positive plural inessive	Adjective Degree=positive Number=plural Case=inessive
+03A0001000206	A-p-pe	Adjective positive plural elative	Adjective Degree=positive Number=plural Case=elative
+03A0001000207	A-p-pt	Adjective positive plural allative	Adjective Degree=positive Number=plural Case=allative
+03A0001000208	A-p-p3	Adjective positive plural adessive	Adjective Degree=positive Number=plural Case=adessive
+03A0001000209	A-p-pb	Adjective positive plural ablative	Adjective Degree=positive Number=plural Case=ablative
+03A0001000210	A-p-p4	Adjective positive plural translative	Adjective Degree=positive Number=plural Case=translative
+03A0001000211	A-p-p9	Adjective positive plural terminative	Adjective Degree=positive Number=plural Case=terminative
+03A0001000212	A-p-pw	Adjective positive plural essive	Adjective Degree=positive Number=plural Case=essive
+03A0001000214	A-p-pk	Adjective positive plural komitative	Adjective Degree=positive Number=plural Case=komitative
+03A0002000101	A-c-sn	Adjective comparative singular nominative	Adjective Degree=comparative Number=singular Case=nominative
+03A0002000102	A-c-sg	Adjective comparative singular genitive	Adjective Degree=comparative Number=singular Case=genitive
+03A0002000103	A-c-s1	Adjective comparative singular partitive	Adjective Degree=comparative Number=singular Case=partitive
+03A0002000104	A-c-sx	Adjective comparative singular illative	Adjective Degree=comparative Number=singular Case=illative
+03A0002000105	A-c-s2	Adjective comparative singular inessive	Adjective Degree=comparative Number=singular Case=inessive
+03A0002000106	A-c-se	Adjective comparative singular elative	Adjective Degree=comparative Number=singular Case=elative
+03A0002000107	A-c-st	Adjective comparative singular allative	Adjective Degree=comparative Number=singular Case=allative
+03A0002000108	A-c-s3	Adjective comparative singular adessive	Adjective Degree=comparative Number=singular Case=adessive
+03A0002000109	A-c-sb	Adjective comparative singular ablative	Adjective Degree=comparative Number=singular Case=ablative
+03A0002000110	A-c-s4	Adjective comparative singular translative	Adjective Degree=comparative Number=singular Case=translative
+03A0002000112	A-c-sw	Adjective comparative singular essive	Adjective Degree=comparative Number=singular Case=essive
+03A0002000113	A-c-s5	Adjective comparative singular abessive	Adjective Degree=comparative Number=singular Case=abessive
+03A0002000114	A-c-sk	Adjective comparative singular komitative	Adjective Degree=comparative Number=singular Case=komitative
+03A0002000201	A-c-pn	Adjective comparative plural nominative	Adjective Degree=comparative Number=plural Case=nominative
+03A0002000202	A-c-pg	Adjective comparative plural genitive	Adjective Degree=comparative Number=plural Case=genitive
+03A0002000203	A-c-p1	Adjective comparative plural partitive	Adjective Degree=comparative Number=plural Case=partitive
+03A0002000204	A-c-px	Adjective comparative plural illative	Adjective Degree=comparative Number=plural Case=illative
+03A0002000205	A-c-p2	Adjective comparative plural inessive	Adjective Degree=comparative Number=plural Case=inessive
+03A0002000206	A-c-pe	Adjective comparative plural elative	Adjective Degree=comparative Number=plural Case=elative
+03A0002000207	A-c-pt	Adjective comparative plural allative	Adjective Degree=comparative Number=plural Case=allative
+03A0002000208	A-c-p3	Adjective comparative plural adessive	Adjective Degree=comparative Number=plural Case=adessive
+03A0002000209	A-c-pb	Adjective comparative plural ablative	Adjective Degree=comparative Number=plural Case=ablative
+03A0002000210	A-c-p4	Adjective comparative plural translative	Adjective Degree=comparative Number=plural Case=translative
+03A0002000212	A-c-pw	Adjective comparative plural essive	Adjective Degree=comparative Number=plural Case=essive
+03A0002000214	A-c-pk	Adjective comparative plural komitative	Adjective Degree=comparative Number=plural Case=komitative
+03A0003000101	A-s-sn	Adjective superlative singular nominative	Adjective Degree=superlative Number=singular Case=nominative
+03A0003000102	A-s-sg	Adjective superlative singular genitive	Adjective Degree=superlative Number=singular Case=genitive
+03A0003000103	A-s-s1	Adjective superlative singular partitive	Adjective Degree=superlative Number=singular Case=partitive
+03A0003000104	A-s-sx	Adjective superlative singular illative	Adjective Degree=superlative Number=singular Case=illative
+03A0003000105	A-s-s2	Adjective superlative singular inessive	Adjective Degree=superlative Number=singular Case=inessive
+03A0003000106	A-s-se	Adjective superlative singular elative	Adjective Degree=superlative Number=singular Case=elative
+03A0003000107	A-s-st	Adjective superlative singular allative	Adjective Degree=superlative Number=singular Case=allative
+03A0003000108	A-s-s3	Adjective superlative singular adessive	Adjective Degree=superlative Number=singular Case=adessive
+03A0003000109	A-s-sb	Adjective superlative singular ablative	Adjective Degree=superlative Number=singular Case=ablative
+03A0003000110	A-s-s4	Adjective superlative singular translative	Adjective Degree=superlative Number=singular Case=translative
+03A0003000112	A-s-sw	Adjective superlative singular essive	Adjective Degree=superlative Number=singular Case=essive
+03A0003000201	A-s-pn	Adjective superlative plural nominative	Adjective Degree=superlative Number=plural Case=nominative
+03A0003000202	A-s-pg	Adjective superlative plural genitive	Adjective Degree=superlative Number=plural Case=genitive
+03A0003000203	A-s-p1	Adjective superlative plural partitive	Adjective Degree=superlative Number=plural Case=partitive
+03A0003000204	A-s-px	Adjective superlative plural illative	Adjective Degree=superlative Number=plural Case=illative
+03A0003000205	A-s-p2	Adjective superlative plural inessive	Adjective Degree=superlative Number=plural Case=inessive
+03A0003000206	A-s-pe	Adjective superlative plural elative	Adjective Degree=superlative Number=plural Case=elative
+03A0003000207	A-s-pt	Adjective superlative plural allative	Adjective Degree=superlative Number=plural Case=allative
+03A0003000208	A-s-p3	Adjective superlative plural adessive	Adjective Degree=superlative Number=plural Case=adessive
+03A0003000210	A-s-p4	Adjective superlative plural translative	Adjective Degree=superlative Number=plural Case=translative
+04P0101000101	Pp1-sn	Pronoun personal first singular nominative	Pronoun Type=personal Person=first Number=singular Case=nominative
+04P0101000102	Pp1-sg	Pronoun personal first singular genitive	Pronoun Type=personal Person=first Number=singular Case=genitive
+04P0101000103	Pp1-s1	Pronoun personal first singular partitive	Pronoun Type=personal Person=first Number=singular Case=partitive
+04P0101000104	Pp1-sx	Pronoun personal first singular illative	Pronoun Type=personal Person=first Number=singular Case=illative
+04P0101000105	Pp1-s2	Pronoun personal first singular inessive	Pronoun Type=personal Person=first Number=singular Case=inessive
+04P0101000106	Pp1-se	Pronoun personal first singular elative	Pronoun Type=personal Person=first Number=singular Case=elative
+04P0101000107	Pp1-st	Pronoun personal first singular allative	Pronoun Type=personal Person=first Number=singular Case=allative
+04P0101000108	Pp1-s3	Pronoun personal first singular adessive	Pronoun Type=personal Person=first Number=singular Case=adessive
+04P0101000109	Pp1-sb	Pronoun personal first singular ablative	Pronoun Type=personal Person=first Number=singular Case=ablative
+04P0101000111	Pp1-s9	Pronoun personal first singular terminative	Pronoun Type=personal Person=first Number=singular Case=terminative
+04P0101000113	Pp1-s5	Pronoun personal first singular abessive	Pronoun Type=personal Person=first Number=singular Case=abessive
+04P0101000114	Pp1-sk	Pronoun personal first singular komitative	Pronoun Type=personal Person=first Number=singular Case=komitative
+04P0101000201	Pp1-pn	Pronoun personal first plural nominative	Pronoun Type=personal Person=first Number=plural Case=nominative
+04P0101000202	Pp1-pg	Pronoun personal first plural genitive	Pronoun Type=personal Person=first Number=plural Case=genitive
+04P0101000203	Pp1-p1	Pronoun personal first plural partitive	Pronoun Type=personal Person=first Number=plural Case=partitive
+04P0101000204	Pp1-px	Pronoun personal first plural illative	Pronoun Type=personal Person=first Number=plural Case=illative
+04P0101000205	Pp1-p2	Pronoun personal first plural inessive	Pronoun Type=personal Person=first Number=plural Case=inessive
+04P0101000206	Pp1-pe	Pronoun personal first plural elative	Pronoun Type=personal Person=first Number=plural Case=elative
+04P0101000207	Pp1-pt	Pronoun personal first plural allative	Pronoun Type=personal Person=first Number=plural Case=allative
+04P0101000208	Pp1-p3	Pronoun personal first plural adessive	Pronoun Type=personal Person=first Number=plural Case=adessive
+04P0101000209	Pp1-pb	Pronoun personal first plural ablative	Pronoun Type=personal Person=first Number=plural Case=ablative
+04P0101000211	Pp1-p9	Pronoun personal first plural terminative	Pronoun Type=personal Person=first Number=plural Case=terminative
+04P0101000214	Pp1-pk	Pronoun personal first plural komitative	Pronoun Type=personal Person=first Number=plural Case=komitative
+04P0102000101	Pp2-sn	Pronoun personal second singular nominative	Pronoun Type=personal Person=second Number=singular Case=nominative
+04P0102000102	Pp2-sg	Pronoun personal second singular genitive	Pronoun Type=personal Person=second Number=singular Case=genitive
+04P0102000103	Pp2-s1	Pronoun personal second singular partitive	Pronoun Type=personal Person=second Number=singular Case=partitive
+04P0102000104	Pp2-sx	Pronoun personal second singular illative	Pronoun Type=personal Person=second Number=singular Case=illative
+04P0102000105	Pp2-s2	Pronoun personal second singular inessive	Pronoun Type=personal Person=second Number=singular Case=inessive
+04P0102000106	Pp2-se	Pronoun personal second singular elative	Pronoun Type=personal Person=second Number=singular Case=elative
+04P0102000107	Pp2-st	Pronoun personal second singular allative	Pronoun Type=personal Person=second Number=singular Case=allative
+04P0102000108	Pp2-s3	Pronoun personal second singular adessive	Pronoun Type=personal Person=second Number=singular Case=adessive
+04P0102000109	Pp2-sb	Pronoun personal second singular ablative	Pronoun Type=personal Person=second Number=singular Case=ablative
+04P0102000111	Pp2-s9	Pronoun personal second singular terminative	Pronoun Type=personal Person=second Number=singular Case=terminative
+04P0102000113	Pp2-s5	Pronoun personal second singular abessive	Pronoun Type=personal Person=second Number=singular Case=abessive
+04P0102000114	Pp2-sk	Pronoun personal second singular komitative	Pronoun Type=personal Person=second Number=singular Case=komitative
+04P0102000201	Pp2-pn	Pronoun personal second plural nominative	Pronoun Type=personal Person=second Number=plural Case=nominative
+04P0102000202	Pp2-pg	Pronoun personal second plural genitive	Pronoun Type=personal Person=second Number=plural Case=genitive
+04P0102000203	Pp2-p1	Pronoun personal second plural partitive	Pronoun Type=personal Person=second Number=plural Case=partitive
+04P0102000204	Pp2-px	Pronoun personal second plural illative	Pronoun Type=personal Person=second Number=plural Case=illative
+04P0102000205	Pp2-p2	Pronoun personal second plural inessive	Pronoun Type=personal Person=second Number=plural Case=inessive
+04P0102000206	Pp2-pe	Pronoun personal second plural elative	Pronoun Type=personal Person=second Number=plural Case=elative
+04P0102000207	Pp2-pt	Pronoun personal second plural allative	Pronoun Type=personal Person=second Number=plural Case=allative
+04P0102000208	Pp2-p3	Pronoun personal second plural adessive	Pronoun Type=personal Person=second Number=plural Case=adessive
+04P0102000209	Pp2-pb	Pronoun personal second plural ablative	Pronoun Type=personal Person=second Number=plural Case=ablative
+04P0102000214	Pp2-pk	Pronoun personal second plural komitative	Pronoun Type=personal Person=second Number=plural Case=komitative
+04P0103000101	Pp3-sn	Pronoun personal third singular nominative	Pronoun Type=personal Person=third Number=singular Case=nominative
+04P0103000102	Pp3-sg	Pronoun personal third singular genitive	Pronoun Type=personal Person=third Number=singular Case=genitive
+04P0103000103	Pp3-s1	Pronoun personal third singular partitive	Pronoun Type=personal Person=third Number=singular Case=partitive
+04P0103000104	Pp3-sx	Pronoun personal third singular illative	Pronoun Type=personal Person=third Number=singular Case=illative
+04P0103000105	Pp3-s2	Pronoun personal third singular inessive	Pronoun Type=personal Person=third Number=singular Case=inessive
+04P0103000106	Pp3-se	Pronoun personal third singular elative	Pronoun Type=personal Person=third Number=singular Case=elative
+04P0103000107	Pp3-st	Pronoun personal third singular allative	Pronoun Type=personal Person=third Number=singular Case=allative
+04P0103000108	Pp3-s3	Pronoun personal third singular adessive	Pronoun Type=personal Person=third Number=singular Case=adessive
+04P0103000109	Pp3-sb	Pronoun personal third singular ablative	Pronoun Type=personal Person=third Number=singular Case=ablative
+04P0103000111	Pp3-s9	Pronoun personal third singular terminative	Pronoun Type=personal Person=third Number=singular Case=terminative
+04P0103000113	Pp3-s5	Pronoun personal third singular abessive	Pronoun Type=personal Person=third Number=singular Case=abessive
+04P0103000114	Pp3-sk	Pronoun personal third singular komitative	Pronoun Type=personal Person=third Number=singular Case=komitative
+04P0103000201	Pp3-pn	Pronoun personal third plural nominative	Pronoun Type=personal Person=third Number=plural Case=nominative
+04P0103000202	Pp3-pg	Pronoun personal third plural genitive	Pronoun Type=personal Person=third Number=plural Case=genitive
+04P0103000203	Pp3-p1	Pronoun personal third plural partitive	Pronoun Type=personal Person=third Number=plural Case=partitive
+04P0103000204	Pp3-px	Pronoun personal third plural illative	Pronoun Type=personal Person=third Number=plural Case=illative
+04P0103000205	Pp3-p2	Pronoun personal third plural inessive	Pronoun Type=personal Person=third Number=plural Case=inessive
+04P0103000206	Pp3-pe	Pronoun personal third plural elative	Pronoun Type=personal Person=third Number=plural Case=elative
+04P0103000207	Pp3-pt	Pronoun personal third plural allative	Pronoun Type=personal Person=third Number=plural Case=allative
+04P0103000208	Pp3-p3	Pronoun personal third plural adessive	Pronoun Type=personal Person=third Number=plural Case=adessive
+04P0103000209	Pp3-pb	Pronoun personal third plural ablative	Pronoun Type=personal Person=third Number=plural Case=ablative
+04P0103000210	Pp3-p4	Pronoun personal third plural translative	Pronoun Type=personal Person=third Number=plural Case=translative
+04P0103000211	Pp3-p9	Pronoun personal third plural terminative	Pronoun Type=personal Person=third Number=plural Case=terminative
+04P0103000213	Pp3-p5	Pronoun personal third plural abessive	Pronoun Type=personal Person=third Number=plural Case=abessive
+04P0103000214	Pp3-pk	Pronoun personal third plural komitative	Pronoun Type=personal Person=third Number=plural Case=komitative
+04P0200000101	Pd--sn	Pronoun demonstrative singular nominative	Pronoun Type=demonstrative Number=singular Case=nominative
+04P0200000102	Pd--sg	Pronoun demonstrative singular genitive	Pronoun Type=demonstrative Number=singular Case=genitive
+04P0200000103	Pd--s1	Pronoun demonstrative singular partitive	Pronoun Type=demonstrative Number=singular Case=partitive
+04P0200000104	Pd--sx	Pronoun demonstrative singular illative	Pronoun Type=demonstrative Number=singular Case=illative
+04P0200000105	Pd--s2	Pronoun demonstrative singular inessive	Pronoun Type=demonstrative Number=singular Case=inessive
+04P0200000106	Pd--se	Pronoun demonstrative singular elative	Pronoun Type=demonstrative Number=singular Case=elative
+04P0200000107	Pd--st	Pronoun demonstrative singular allative	Pronoun Type=demonstrative Number=singular Case=allative
+04P0200000108	Pd--s3	Pronoun demonstrative singular adessive	Pronoun Type=demonstrative Number=singular Case=adessive
+04P0200000109	Pd--sb	Pronoun demonstrative singular ablative	Pronoun Type=demonstrative Number=singular Case=ablative
+04P0200000110	Pd--s4	Pronoun demonstrative singular translative	Pronoun Type=demonstrative Number=singular Case=translative
+04P0200000111	Pd--s9	Pronoun demonstrative singular terminative	Pronoun Type=demonstrative Number=singular Case=terminative
+04P0200000112	Pd--sw	Pronoun demonstrative singular essive	Pronoun Type=demonstrative Number=singular Case=essive
+04P0200000113	Pd--s5	Pronoun demonstrative singular abessive	Pronoun Type=demonstrative Number=singular Case=abessive
+04P0200000114	Pd--sk	Pronoun demonstrative singular komitative	Pronoun Type=demonstrative Number=singular Case=komitative
+04P0200000115	Pd--s7	Pronoun demonstrative singular aditive	Pronoun Type=demonstrative Number=singular Case=aditive
+04P0200000201	Pd--pn	Pronoun demonstrative plural nominative	Pronoun Type=demonstrative Number=plural Case=nominative
+04P0200000202	Pd--pg	Pronoun demonstrative plural genitive	Pronoun Type=demonstrative Number=plural Case=genitive
+04P0200000203	Pd--p1	Pronoun demonstrative plural partitive	Pronoun Type=demonstrative Number=plural Case=partitive
+04P0200000204	Pd--px	Pronoun demonstrative plural illative	Pronoun Type=demonstrative Number=plural Case=illative
+04P0200000205	Pd--p2	Pronoun demonstrative plural inessive	Pronoun Type=demonstrative Number=plural Case=inessive
+04P0200000206	Pd--pe	Pronoun demonstrative plural elative	Pronoun Type=demonstrative Number=plural Case=elative
+04P0200000207	Pd--pt	Pronoun demonstrative plural allative	Pronoun Type=demonstrative Number=plural Case=allative
+04P0200000208	Pd--p3	Pronoun demonstrative plural adessive	Pronoun Type=demonstrative Number=plural Case=adessive
+04P0200000209	Pd--pb	Pronoun demonstrative plural ablative	Pronoun Type=demonstrative Number=plural Case=ablative
+04P0200000210	Pd--p4	Pronoun demonstrative plural translative	Pronoun Type=demonstrative Number=plural Case=translative
+04P0200000211	Pd--p9	Pronoun demonstrative plural terminative	Pronoun Type=demonstrative Number=plural Case=terminative
+04P0200000212	Pd--pw	Pronoun demonstrative plural essive	Pronoun Type=demonstrative Number=plural Case=essive
+04P0200000213	Pd--p5	Pronoun demonstrative plural abessive	Pronoun Type=demonstrative Number=plural Case=abessive
+04P0200000214	Pd--pk	Pronoun demonstrative plural komitative	Pronoun Type=demonstrative Number=plural Case=komitative
+04P0300000000	Pi	Pronoun indefinite	Pronoun Type=indefinite
+04P0300000101	Pi--sn	Pronoun indefinite singular nominative	Pronoun Type=indefinite Number=singular Case=nominative
+04P0300000102	Pi--sg	Pronoun indefinite singular genitive	Pronoun Type=indefinite Number=singular Case=genitive
+04P0300000103	Pi--s1	Pronoun indefinite singular partitive	Pronoun Type=indefinite Number=singular Case=partitive
+04P0300000104	Pi--sx	Pronoun indefinite singular illative	Pronoun Type=indefinite Number=singular Case=illative
+04P0300000105	Pi--s2	Pronoun indefinite singular inessive	Pronoun Type=indefinite Number=singular Case=inessive
+04P0300000106	Pi--se	Pronoun indefinite singular elative	Pronoun Type=indefinite Number=singular Case=elative
+04P0300000107	Pi--st	Pronoun indefinite singular allative	Pronoun Type=indefinite Number=singular Case=allative
+04P0300000108	Pi--s3	Pronoun indefinite singular adessive	Pronoun Type=indefinite Number=singular Case=adessive
+04P0300000109	Pi--sb	Pronoun indefinite singular ablative	Pronoun Type=indefinite Number=singular Case=ablative
+04P0300000110	Pi--s4	Pronoun indefinite singular translative	Pronoun Type=indefinite Number=singular Case=translative
+04P0300000112	Pi--sw	Pronoun indefinite singular essive	Pronoun Type=indefinite Number=singular Case=essive
+04P0300000113	Pi--s5	Pronoun indefinite singular abessive	Pronoun Type=indefinite Number=singular Case=abessive
+04P0300000114	Pi--sk	Pronoun indefinite singular komitative	Pronoun Type=indefinite Number=singular Case=komitative
+04P0300000115	Pi--s7	Pronoun indefinite singular aditive	Pronoun Type=indefinite Number=singular Case=aditive
+04P0300000201	Pi--pn	Pronoun indefinite plural nominative	Pronoun Type=indefinite Number=plural Case=nominative
+04P0300000202	Pi--pg	Pronoun indefinite plural genitive	Pronoun Type=indefinite Number=plural Case=genitive
+04P0300000203	Pi--p1	Pronoun indefinite plural partitive	Pronoun Type=indefinite Number=plural Case=partitive
+04P0300000204	Pi--px	Pronoun indefinite plural illative	Pronoun Type=indefinite Number=plural Case=illative
+04P0300000205	Pi--p2	Pronoun indefinite plural inessive	Pronoun Type=indefinite Number=plural Case=inessive
+04P0300000206	Pi--pe	Pronoun indefinite plural elative	Pronoun Type=indefinite Number=plural Case=elative
+04P0300000207	Pi--pt	Pronoun indefinite plural allative	Pronoun Type=indefinite Number=plural Case=allative
+04P0300000208	Pi--p3	Pronoun indefinite plural adessive	Pronoun Type=indefinite Number=plural Case=adessive
+04P0300000209	Pi--pb	Pronoun indefinite plural ablative	Pronoun Type=indefinite Number=plural Case=ablative
+04P0300000210	Pi--p4	Pronoun indefinite plural translative	Pronoun Type=indefinite Number=plural Case=translative
+04P0300000214	Pi--pk	Pronoun indefinite plural komitative	Pronoun Type=indefinite Number=plural Case=komitative
+04P0400000101	Ps--sn	Pronoun possessive singular nominative	Pronoun Type=possessive Number=singular Case=nominative
+04P0400000102	Ps--sg	Pronoun possessive singular genitive	Pronoun Type=possessive Number=singular Case=genitive
+04P0400000103	Ps--s1	Pronoun possessive singular partitive	Pronoun Type=possessive Number=singular Case=partitive
+04P0400000105	Ps--s2	Pronoun possessive singular inessive	Pronoun Type=possessive Number=singular Case=inessive
+04P0400000106	Ps--se	Pronoun possessive singular elative	Pronoun Type=possessive Number=singular Case=elative
+04P0400000107	Ps--st	Pronoun possessive singular allative	Pronoun Type=possessive Number=singular Case=allative
+04P0400000108	Ps--s3	Pronoun possessive singular adessive	Pronoun Type=possessive Number=singular Case=adessive
+04P0400000109	Ps--sb	Pronoun possessive singular ablative	Pronoun Type=possessive Number=singular Case=ablative
+04P0400000110	Ps--s4	Pronoun possessive singular translative	Pronoun Type=possessive Number=singular Case=translative
+04P0400000114	Ps--sk	Pronoun possessive singular komitative	Pronoun Type=possessive Number=singular Case=komitative
+04P0400000201	Ps--pn	Pronoun possessive plural nominative	Pronoun Type=possessive Number=plural Case=nominative
+04P0400000202	Ps--pg	Pronoun possessive plural genitive	Pronoun Type=possessive Number=plural Case=genitive
+04P0400000203	Ps--p1	Pronoun possessive plural partitive	Pronoun Type=possessive Number=plural Case=partitive
+04P0400000205	Ps--p2	Pronoun possessive plural inessive	Pronoun Type=possessive Number=plural Case=inessive
+04P0400000206	Ps--pe	Pronoun possessive plural elative	Pronoun Type=possessive Number=plural Case=elative
+04P0400000207	Ps--pt	Pronoun possessive plural allative	Pronoun Type=possessive Number=plural Case=allative
+04P0400000212	Ps--pw	Pronoun possessive plural essive	Pronoun Type=possessive Number=plural Case=essive
+04P0400000214	Ps--pk	Pronoun possessive plural komitative	Pronoun Type=possessive Number=plural Case=komitative
+04P0500000101	Pq--sn	Pronoun interrogative singular nominative	Pronoun Type=interrogative Number=singular Case=nominative
+04P0500000102	Pq--sg	Pronoun interrogative singular genitive	Pronoun Type=interrogative Number=singular Case=genitive
+04P0500000103	Pq--s1	Pronoun interrogative singular partitive	Pronoun Type=interrogative Number=singular Case=partitive
+04P0500000104	Pq--sx	Pronoun interrogative singular illative	Pronoun Type=interrogative Number=singular Case=illative
+04P0500000105	Pq--s2	Pronoun interrogative singular inessive	Pronoun Type=interrogative Number=singular Case=inessive
+04P0500000106	Pq--se	Pronoun interrogative singular elative	Pronoun Type=interrogative Number=singular Case=elative
+04P0500000107	Pq--st	Pronoun interrogative singular allative	Pronoun Type=interrogative Number=singular Case=allative
+04P0500000108	Pq--s3	Pronoun interrogative singular adessive	Pronoun Type=interrogative Number=singular Case=adessive
+04P0500000109	Pq--sb	Pronoun interrogative singular ablative	Pronoun Type=interrogative Number=singular Case=ablative
+04P0500000110	Pq--s4	Pronoun interrogative singular translative	Pronoun Type=interrogative Number=singular Case=translative
+04P0500000111	Pq--s9	Pronoun interrogative singular terminative	Pronoun Type=interrogative Number=singular Case=terminative
+04P0500000112	Pq--sw	Pronoun interrogative singular essive	Pronoun Type=interrogative Number=singular Case=essive
+04P0500000113	Pq--s5	Pronoun interrogative singular abessive	Pronoun Type=interrogative Number=singular Case=abessive
+04P0500000114	Pq--sk	Pronoun interrogative singular komitative	Pronoun Type=interrogative Number=singular Case=komitative
+04P0500000115	Pq--s7	Pronoun interrogative singular aditive	Pronoun Type=interrogative Number=singular Case=aditive
+04P0500000201	Pq--pn	Pronoun interrogative plural nominative	Pronoun Type=interrogative Number=plural Case=nominative
+04P0500000202	Pq--pg	Pronoun interrogative plural genitive	Pronoun Type=interrogative Number=plural Case=genitive
+04P0500000203	Pq--p1	Pronoun interrogative plural partitive	Pronoun Type=interrogative Number=plural Case=partitive
+04P0500000204	Pq--px	Pronoun interrogative plural illative	Pronoun Type=interrogative Number=plural Case=illative
+04P0500000205	Pq--p2	Pronoun interrogative plural inessive	Pronoun Type=interrogative Number=plural Case=inessive
+04P0500000206	Pq--pe	Pronoun interrogative plural elative	Pronoun Type=interrogative Number=plural Case=elative
+04P0500000207	Pq--pt	Pronoun interrogative plural allative	Pronoun Type=interrogative Number=plural Case=allative
+04P0500000208	Pq--p3	Pronoun interrogative plural adessive	Pronoun Type=interrogative Number=plural Case=adessive
+04P0500000209	Pq--pb	Pronoun interrogative plural ablative	Pronoun Type=interrogative Number=plural Case=ablative
+04P0500000210	Pq--p4	Pronoun interrogative plural translative	Pronoun Type=interrogative Number=plural Case=translative
+04P0500000211	Pq--p9	Pronoun interrogative plural terminative	Pronoun Type=interrogative Number=plural Case=terminative
+04P0500000212	Pq--pw	Pronoun interrogative plural essive	Pronoun Type=interrogative Number=plural Case=essive
+04P0500000213	Pq--p5	Pronoun interrogative plural abessive	Pronoun Type=interrogative Number=plural Case=abessive
+04P0500000214	Pq--pk	Pronoun interrogative plural komitative	Pronoun Type=interrogative Number=plural Case=komitative
+04P0600000101	Pr--sn	Pronoun relative singular nominative	Pronoun Type=relative Number=singular Case=nominative
+04P0600000102	Pr--sg	Pronoun relative singular genitive	Pronoun Type=relative Number=singular Case=genitive
+04P0600000103	Pr--s1	Pronoun relative singular partitive	Pronoun Type=relative Number=singular Case=partitive
+04P0600000104	Pr--sx	Pronoun relative singular illative	Pronoun Type=relative Number=singular Case=illative
+04P0600000105	Pr--s2	Pronoun relative singular inessive	Pronoun Type=relative Number=singular Case=inessive
+04P0600000106	Pr--se	Pronoun relative singular elative	Pronoun Type=relative Number=singular Case=elative
+04P0600000107	Pr--st	Pronoun relative singular allative	Pronoun Type=relative Number=singular Case=allative
+04P0600000108	Pr--s3	Pronoun relative singular adessive	Pronoun Type=relative Number=singular Case=adessive
+04P0600000109	Pr--sb	Pronoun relative singular ablative	Pronoun Type=relative Number=singular Case=ablative
+04P0600000110	Pr--s4	Pronoun relative singular translative	Pronoun Type=relative Number=singular Case=translative
+04P0600000111	Pr--s9	Pronoun relative singular terminative	Pronoun Type=relative Number=singular Case=terminative
+04P0600000112	Pr--sw	Pronoun relative singular essive	Pronoun Type=relative Number=singular Case=essive
+04P0600000113	Pr--s5	Pronoun relative singular abessive	Pronoun Type=relative Number=singular Case=abessive
+04P0600000114	Pr--sk	Pronoun relative singular komitative	Pronoun Type=relative Number=singular Case=komitative
+04P0600000115	Pr--s7	Pronoun relative singular aditive	Pronoun Type=relative Number=singular Case=aditive
+04P0600000201	Pr--pn	Pronoun relative plural nominative	Pronoun Type=relative Number=plural Case=nominative
+04P0600000202	Pr--pg	Pronoun relative plural genitive	Pronoun Type=relative Number=plural Case=genitive
+04P0600000203	Pr--p1	Pronoun relative plural partitive	Pronoun Type=relative Number=plural Case=partitive
+04P0600000204	Pr--px	Pronoun relative plural illative	Pronoun Type=relative Number=plural Case=illative
+04P0600000205	Pr--p2	Pronoun relative plural inessive	Pronoun Type=relative Number=plural Case=inessive
+04P0600000206	Pr--pe	Pronoun relative plural elative	Pronoun Type=relative Number=plural Case=elative
+04P0600000207	Pr--pt	Pronoun relative plural allative	Pronoun Type=relative Number=plural Case=allative
+04P0600000208	Pr--p3	Pronoun relative plural adessive	Pronoun Type=relative Number=plural Case=adessive
+04P0600000209	Pr--pb	Pronoun relative plural ablative	Pronoun Type=relative Number=plural Case=ablative
+04P0600000210	Pr--p4	Pronoun relative plural translative	Pronoun Type=relative Number=plural Case=translative
+04P0600000211	Pr--p9	Pronoun relative plural terminative	Pronoun Type=relative Number=plural Case=terminative
+04P0600000212	Pr--pw	Pronoun relative plural essive	Pronoun Type=relative Number=plural Case=essive
+04P0600000213	Pr--p5	Pronoun relative plural abessive	Pronoun Type=relative Number=plural Case=abessive
+04P0600000214	Pr--pk	Pronoun relative plural komitative	Pronoun Type=relative Number=plural Case=komitative
+04P0700000101	Px--sn	Pronoun reflexive singular nominative	Pronoun Type=reflexive Number=singular Case=nominative
+04P0700000102	Px--sg	Pronoun reflexive singular genitive	Pronoun Type=reflexive Number=singular Case=genitive
+04P0700000103	Px--s1	Pronoun reflexive singular partitive	Pronoun Type=reflexive Number=singular Case=partitive
+04P0700000104	Px--sx	Pronoun reflexive singular illative	Pronoun Type=reflexive Number=singular Case=illative
+04P0700000105	Px--s2	Pronoun reflexive singular inessive	Pronoun Type=reflexive Number=singular Case=inessive
+04P0700000106	Px--se	Pronoun reflexive singular elative	Pronoun Type=reflexive Number=singular Case=elative
+04P0700000107	Px--st	Pronoun reflexive singular allative	Pronoun Type=reflexive Number=singular Case=allative
+04P0700000108	Px--s3	Pronoun reflexive singular adessive	Pronoun Type=reflexive Number=singular Case=adessive
+04P0700000109	Px--sb	Pronoun reflexive singular ablative	Pronoun Type=reflexive Number=singular Case=ablative
+04P0700000110	Px--s4	Pronoun reflexive singular translative	Pronoun Type=reflexive Number=singular Case=translative
+04P0700000114	Px--sk	Pronoun reflexive singular komitative	Pronoun Type=reflexive Number=singular Case=komitative
+04P0700000201	Px--pn	Pronoun reflexive plural nominative	Pronoun Type=reflexive Number=plural Case=nominative
+04P0700000202	Px--pg	Pronoun reflexive plural genitive	Pronoun Type=reflexive Number=plural Case=genitive
+04P0700000203	Px--p1	Pronoun reflexive plural partitive	Pronoun Type=reflexive Number=plural Case=partitive
+04P0700000204	Px--px	Pronoun reflexive plural illative	Pronoun Type=reflexive Number=plural Case=illative
+04P0700000205	Px--p2	Pronoun reflexive plural inessive	Pronoun Type=reflexive Number=plural Case=inessive
+04P0700000206	Px--pe	Pronoun reflexive plural elative	Pronoun Type=reflexive Number=plural Case=elative
+04P0700000207	Px--pt	Pronoun reflexive plural allative	Pronoun Type=reflexive Number=plural Case=allative
+04P0700000208	Px--p3	Pronoun reflexive plural adessive	Pronoun Type=reflexive Number=plural Case=adessive
+04P0700000209	Px--pb	Pronoun reflexive plural ablative	Pronoun Type=reflexive Number=plural Case=ablative
+04P0700000212	Px--pw	Pronoun reflexive plural essive	Pronoun Type=reflexive Number=plural Case=essive
+04P0700000214	Px--pk	Pronoun reflexive plural komitative	Pronoun Type=reflexive Number=plural Case=komitative
+04P0800000102	Py--sg	Pronoun reciprocal singular genitive	Pronoun Type=reciprocal Number=singular Case=genitive
+04P0800000103	Py--s1	Pronoun reciprocal singular partitive	Pronoun Type=reciprocal Number=singular Case=partitive
+04P0800000104	Py--sx	Pronoun reciprocal singular illative	Pronoun Type=reciprocal Number=singular Case=illative
+04P0800000106	Py--se	Pronoun reciprocal singular elative	Pronoun Type=reciprocal Number=singular Case=elative
+04P0800000107	Py--st	Pronoun reciprocal singular allative	Pronoun Type=reciprocal Number=singular Case=allative
+04P0800000109	Py--sb	Pronoun reciprocal singular ablative	Pronoun Type=reciprocal Number=singular Case=ablative
+04P0800000114	Py--sk	Pronoun reciprocal singular komitative	Pronoun Type=reciprocal Number=singular Case=komitative
+04P0800000115	Py--s7	Pronoun reciprocal singular aditive	Pronoun Type=reciprocal Number=singular Case=aditive
+04P0900000101	Pm--sn	Pronoun determinal singular nominative	Pronoun Type=determinal Number=singular Case=nominative
+04P0900000102	Pm--sg	Pronoun determinal singular genitive	Pronoun Type=determinal Number=singular Case=genitive
+04P0900000103	Pm--s1	Pronoun determinal singular partitive	Pronoun Type=determinal Number=singular Case=partitive
+04P0900000104	Pm--sx	Pronoun determinal singular illative	Pronoun Type=determinal Number=singular Case=illative
+04P0900000105	Pm--s2	Pronoun determinal singular inessive	Pronoun Type=determinal Number=singular Case=inessive
+04P0900000106	Pm--se	Pronoun determinal singular elative	Pronoun Type=determinal Number=singular Case=elative
+04P0900000107	Pm--st	Pronoun determinal singular allative	Pronoun Type=determinal Number=singular Case=allative
+04P0900000108	Pm--s3	Pronoun determinal singular adessive	Pronoun Type=determinal Number=singular Case=adessive
+04P0900000109	Pm--sb	Pronoun determinal singular ablative	Pronoun Type=determinal Number=singular Case=ablative
+04P0900000110	Pm--s4	Pronoun determinal singular translative	Pronoun Type=determinal Number=singular Case=translative
+04P0900000114	Pm--sk	Pronoun determinal singular komitative	Pronoun Type=determinal Number=singular Case=komitative
+04P0900000115	Pm--s7	Pronoun determinal singular aditive	Pronoun Type=determinal Number=singular Case=aditive
+04P0900000201	Pm--pn	Pronoun determinal plural nominative	Pronoun Type=determinal Number=plural Case=nominative
+04P0900000202	Pm--pg	Pronoun determinal plural genitive	Pronoun Type=determinal Number=plural Case=genitive
+04P0900000203	Pm--p1	Pronoun determinal plural partitive	Pronoun Type=determinal Number=plural Case=partitive
+04P0900000204	Pm--px	Pronoun determinal plural illative	Pronoun Type=determinal Number=plural Case=illative
+04P0900000205	Pm--p2	Pronoun determinal plural inessive	Pronoun Type=determinal Number=plural Case=inessive
+04P0900000206	Pm--pe	Pronoun determinal plural elative	Pronoun Type=determinal Number=plural Case=elative
+04P0900000207	Pm--pt	Pronoun determinal plural allative	Pronoun Type=determinal Number=plural Case=allative
+04P0900000208	Pm--p3	Pronoun determinal plural adessive	Pronoun Type=determinal Number=plural Case=adessive
+04P0900000209	Pm--pb	Pronoun determinal plural ablative	Pronoun Type=determinal Number=plural Case=ablative
+04P0900000210	Pm--p4	Pronoun determinal plural translative	Pronoun Type=determinal Number=plural Case=translative
+04P0900000212	Pm--pw	Pronoun determinal plural essive	Pronoun Type=determinal Number=plural Case=essive
+04P0900000214	Pm--pk	Pronoun determinal plural komitative	Pronoun Type=determinal Number=plural Case=komitative
+05R	R	Adverb	Adverb
+06S01	Sp	Adposition preposition	Adposition Type=preposition
+06S02	St	Adposition postposition	Adposition Type=postposition
+07C01	Cc	Conjunction coordinating	Conjunction Type=coordinating
+07C02	Cs	Conjunction subordinating	Conjunction Type=subordinating
+08M0100000001	Mc---d	Numeral cardinal digit	Numeral Type=cardinal Form=digit
+08M0100010103	Mc-snl	Numeral cardinal singular nominative letter	Numeral Type=cardinal Number=singular Case=nominative Form=letter
+08M0100010203	Mc-sgl	Numeral cardinal singular genitive letter	Numeral Type=cardinal Number=singular Case=genitive Form=letter
+08M0100010303	Mc-s1l	Numeral cardinal singular partitive letter	Numeral Type=cardinal Number=singular Case=partitive Form=letter
+08M0100010403	Mc-sxl	Numeral cardinal singular illative letter	Numeral Type=cardinal Number=singular Case=illative Form=letter
+08M0100010503	Mc-s2l	Numeral cardinal singular inessive letter	Numeral Type=cardinal Number=singular Case=inessive Form=letter
+08M0100010603	Mc-sel	Numeral cardinal singular elative letter	Numeral Type=cardinal Number=singular Case=elative Form=letter
+08M0100010703	Mc-stl	Numeral cardinal singular allative letter	Numeral Type=cardinal Number=singular Case=allative Form=letter
+08M0100010803	Mc-s3l	Numeral cardinal singular adessive letter	Numeral Type=cardinal Number=singular Case=adessive Form=letter
+08M0100010903	Mc-sbl	Numeral cardinal singular ablative letter	Numeral Type=cardinal Number=singular Case=ablative Form=letter
+08M0100011003	Mc-s4l	Numeral cardinal singular translative letter	Numeral Type=cardinal Number=singular Case=translative Form=letter
+08M0100011103	Mc-s9l	Numeral cardinal singular terminative letter	Numeral Type=cardinal Number=singular Case=terminative Form=letter
+08M0100011203	Mc-swl	Numeral cardinal singular essive letter	Numeral Type=cardinal Number=singular Case=essive Form=letter
+08M0100011403	Mc-skl	Numeral cardinal singular komitative letter	Numeral Type=cardinal Number=singular Case=komitative Form=letter
+08M0100011503	Mc-s7l	Numeral cardinal singular aditive letter	Numeral Type=cardinal Number=singular Case=aditive Form=letter
+08M0100020103	Mc-pnl	Numeral cardinal plural nominative letter	Numeral Type=cardinal Number=plural Case=nominative Form=letter
+08M0100020203	Mc-pgl	Numeral cardinal plural genitive letter	Numeral Type=cardinal Number=plural Case=genitive Form=letter
+08M0100020303	Mc-p1l	Numeral cardinal plural partitive letter	Numeral Type=cardinal Number=plural Case=partitive Form=letter
+08M0100020403	Mc-pxl	Numeral cardinal plural illative letter	Numeral Type=cardinal Number=plural Case=illative Form=letter
+08M0100020503	Mc-p2l	Numeral cardinal plural inessive letter	Numeral Type=cardinal Number=plural Case=inessive Form=letter
+08M0100020603	Mc-pel	Numeral cardinal plural elative letter	Numeral Type=cardinal Number=plural Case=elative Form=letter
+08M0100020703	Mc-ptl	Numeral cardinal plural allative letter	Numeral Type=cardinal Number=plural Case=allative Form=letter
+08M0100020803	Mc-p3l	Numeral cardinal plural adessive letter	Numeral Type=cardinal Number=plural Case=adessive Form=letter
+08M0100021003	Mc-p4l	Numeral cardinal plural translative letter	Numeral Type=cardinal Number=plural Case=translative Form=letter
+08M0100021103	Mc-p9l	Numeral cardinal plural terminative letter	Numeral Type=cardinal Number=plural Case=terminative Form=letter
+08M0100021403	Mc-pkl	Numeral cardinal plural komitative letter	Numeral Type=cardinal Number=plural Case=komitative Form=letter
+08M0200000001	Mo---d	Numeral ordinal digit	Numeral Type=ordinal Form=digit
+08M0200000002	Mo---r	Numeral ordinal roman	Numeral Type=ordinal Form=roman
+08M0200010103	Mo-snl	Numeral ordinal singular nominative letter	Numeral Type=ordinal Number=singular Case=nominative Form=letter
+08M0200010203	Mo-sgl	Numeral ordinal singular genitive letter	Numeral Type=ordinal Number=singular Case=genitive Form=letter
+08M0200010303	Mo-s1l	Numeral ordinal singular partitive letter	Numeral Type=ordinal Number=singular Case=partitive Form=letter
+08M0200010403	Mo-sxl	Numeral ordinal singular illative letter	Numeral Type=ordinal Number=singular Case=illative Form=letter
+08M0200010503	Mo-s2l	Numeral ordinal singular inessive letter	Numeral Type=ordinal Number=singular Case=inessive Form=letter
+08M0200010603	Mo-sel	Numeral ordinal singular elative letter	Numeral Type=ordinal Number=singular Case=elative Form=letter
+08M0200010703	Mo-stl	Numeral ordinal singular allative letter	Numeral Type=ordinal Number=singular Case=allative Form=letter
+08M0200010803	Mo-s3l	Numeral ordinal singular adessive letter	Numeral Type=ordinal Number=singular Case=adessive Form=letter
+08M0200010903	Mo-sbl	Numeral ordinal singular ablative letter	Numeral Type=ordinal Number=singular Case=ablative Form=letter
+08M0200011003	Mo-s4l	Numeral ordinal singular translative letter	Numeral Type=ordinal Number=singular Case=translative Form=letter
+08M0200011103	Mo-s9l	Numeral ordinal singular terminative letter	Numeral Type=ordinal Number=singular Case=terminative Form=letter
+08M0200011203	Mo-swl	Numeral ordinal singular essive letter	Numeral Type=ordinal Number=singular Case=essive Form=letter
+08M0200011403	Mo-skl	Numeral ordinal singular komitative letter	Numeral Type=ordinal Number=singular Case=komitative Form=letter
+08M0200011503	Mo-s7l	Numeral ordinal singular aditive letter	Numeral Type=ordinal Number=singular Case=aditive Form=letter
+08M0200020103	Mo-pnl	Numeral ordinal plural nominative letter	Numeral Type=ordinal Number=plural Case=nominative Form=letter
+08M0200020203	Mo-pgl	Numeral ordinal plural genitive letter	Numeral Type=ordinal Number=plural Case=genitive Form=letter
+08M0200020303	Mo-p1l	Numeral ordinal plural partitive letter	Numeral Type=ordinal Number=plural Case=partitive Form=letter
+08M0200020403	Mo-pxl	Numeral ordinal plural illative letter	Numeral Type=ordinal Number=plural Case=illative Form=letter
+08M0200020503	Mo-p2l	Numeral ordinal plural inessive letter	Numeral Type=ordinal Number=plural Case=inessive Form=letter
+08M0200020603	Mo-pel	Numeral ordinal plural elative letter	Numeral Type=ordinal Number=plural Case=elative Form=letter
+08M0200020703	Mo-ptl	Numeral ordinal plural allative letter	Numeral Type=ordinal Number=plural Case=allative Form=letter
+08M0200020803	Mo-p3l	Numeral ordinal plural adessive letter	Numeral Type=ordinal Number=plural Case=adessive Form=letter
+08M0200020903	Mo-pbl	Numeral ordinal plural ablative letter	Numeral Type=ordinal Number=plural Case=ablative Form=letter
+08M0200021003	Mo-p4l	Numeral ordinal plural translative letter	Numeral Type=ordinal Number=plural Case=translative Form=letter
+08M0200021203	Mo-pwl	Numeral ordinal plural essive letter	Numeral Type=ordinal Number=plural Case=essive Form=letter
+08M0200021403	Mo-pkl	Numeral ordinal plural komitative letter	Numeral Type=ordinal Number=plural Case=komitative Form=letter
+09I	I	Interjection	Interjection
+10Y01000000	Yn	Abbreviation nominal	Abbreviation Syntactic_Type=nominal
+10Y01000102	Yn-sg	Abbreviation nominal singular genitive	Abbreviation Syntactic_Type=nominal Number=singular Case=genitive
+10Y01000103	Yn-s1	Abbreviation nominal singular partitive	Abbreviation Syntactic_Type=nominal Number=singular Case=partitive
+10Y01000104	Yn-sx	Abbreviation nominal singular illative	Abbreviation Syntactic_Type=nominal Number=singular Case=illative
+10Y01000105	Yn-s2	Abbreviation nominal singular inessive	Abbreviation Syntactic_Type=nominal Number=singular Case=inessive
+10Y01000106	Yn-se	Abbreviation nominal singular elative	Abbreviation Syntactic_Type=nominal Number=singular Case=elative
+10Y01000107	Yn-st	Abbreviation nominal singular allative	Abbreviation Syntactic_Type=nominal Number=singular Case=allative
+10Y01000108	Yn-s3	Abbreviation nominal singular adessive	Abbreviation Syntactic_Type=nominal Number=singular Case=adessive
+10Y01000110	Yn-s4	Abbreviation nominal singular translative	Abbreviation Syntactic_Type=nominal Number=singular Case=translative
+10Y01000114	Yn-sk	Abbreviation nominal singular komitative	Abbreviation Syntactic_Type=nominal Number=singular Case=komitative
+10Y01000115	Yn-s7	Abbreviation nominal singular aditive	Abbreviation Syntactic_Type=nominal Number=singular Case=aditive
+10Y01000201	Yn-pn	Abbreviation nominal plural nominative	Abbreviation Syntactic_Type=nominal Number=plural Case=nominative
+10Y02000000	Yv	Abbreviation verbal	Abbreviation Syntactic_Type=verbal
+10Y03000000	Ya	Abbreviation adjectival	Abbreviation Syntactic_Type=adjectival
+10Y04000000	Yr	Abbreviation adverbial	Abbreviation Syntactic_Type=adverbial
+11X	X	Residual	Residual
+12Z	Z	Punctuation	Punctuation

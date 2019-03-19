@@ -1,0 +1,136 @@
+01N010000	Nc	Noun common	Noun Type=common
+01N010001	Nc-s	Noun common singular	Noun Type=common Number=singular
+01N010002	Nc-p	Noun common plural	Noun Type=common Number=plural
+01N010100	Ncm	Noun common masculine	Noun Type=common Gender=masculine
+01N010101	Ncms	Noun common masculine singular	Noun Type=common Gender=masculine Number=singular
+01N010102	Ncmp	Noun common masculine plural	Noun Type=common Gender=masculine Number=plural
+01N010200	Ncf	Noun common feminine	Noun Type=common Gender=feminine
+01N010201	Ncfs	Noun common feminine singular	Noun Type=common Gender=feminine Number=singular
+01N010202	Ncfp	Noun common feminine plural	Noun Type=common Gender=feminine Number=plural
+01N010300	Ncn	Noun common neuter	Noun Type=common Gender=neuter
+01N010301	Ncns	Noun common neuter singular	Noun Type=common Gender=neuter Number=singular
+01N010302	Ncnp	Noun common neuter plural	Noun Type=common Gender=neuter Number=plural
+01N020000	Np	Noun proper	Noun Type=proper
+01N020001	Np-s	Noun proper singular	Noun Type=proper Number=singular
+01N020002	Np-p	Noun proper plural	Noun Type=proper Number=plural
+01N020101	Npms	Noun proper masculine singular	Noun Type=proper Gender=masculine Number=singular
+01N020201	Npfs	Noun proper feminine singular	Noun Type=proper Gender=feminine Number=singular
+01N020301	Npns	Noun proper neuter singular	Noun Type=proper Gender=neuter Number=singular
+01N020302	Npnp	Noun proper neuter plural	Noun Type=proper Gender=neuter Number=plural
+02V0101010000	Vmip	Verb main indicative present	Verb Type=main VForm=indicative Tense=present
+02V0101010002	Vmip-p	Verb main indicative present plural	Verb Type=main VForm=indicative Tense=present Number=plural
+02V0101010101	Vmip1s	Verb main indicative present first singular	Verb Type=main VForm=indicative Tense=present Person=first Number=singular
+02V0101010201	Vmip2s	Verb main indicative present second singular	Verb Type=main VForm=indicative Tense=present Person=second Number=singular
+02V0101010301	Vmip3s	Verb main indicative present third singular	Verb Type=main VForm=indicative Tense=present Person=third Number=singular
+02V0101020000	Vmis	Verb main indicative past	Verb Type=main VForm=indicative Tense=past
+02V0101020002	Vmis-p	Verb main indicative past plural	Verb Type=main VForm=indicative Tense=past Number=plural
+02V0101020101	Vmis1s	Verb main indicative past first singular	Verb Type=main VForm=indicative Tense=past Person=first Number=singular
+02V0101020201	Vmis2s	Verb main indicative past second singular	Verb Type=main VForm=indicative Tense=past Person=second Number=singular
+02V0101020301	Vmis3s	Verb main indicative past third singular	Verb Type=main VForm=indicative Tense=past Person=third Number=singular
+02V0102020000	Vmcs	Verb main conditional past	Verb Type=main VForm=conditional Tense=past
+02V0103000000	Vmn	Verb main infinitive	Verb Type=main VForm=infinitive
+02V0103010000	Vmnp	Verb main infinitive present	Verb Type=main VForm=infinitive Tense=present
+02V0104010000	Vmpp	Verb main participle present	Verb Type=main VForm=participle Tense=present
+02V0104020000	Vmps	Verb main participle past	Verb Type=main VForm=participle Tense=past
+02V0201010000	Vaip	Verb auxiliary indicative present	Verb Type=auxiliary VForm=indicative Tense=present
+02V0201010002	Vaip-p	Verb auxiliary indicative present plural	Verb Type=auxiliary VForm=indicative Tense=present Number=plural
+02V0201010101	Vaip1s	Verb auxiliary indicative present first singular	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular
+02V0201010201	Vaip2s	Verb auxiliary indicative present second singular	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular
+02V0201010301	Vaip3s	Verb auxiliary indicative present third singular	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular
+02V0201020000	Vais	Verb auxiliary indicative past	Verb Type=auxiliary VForm=indicative Tense=past
+02V0201020002	Vais-p	Verb auxiliary indicative past plural	Verb Type=auxiliary VForm=indicative Tense=past Number=plural
+02V0201020101	Vais1s	Verb auxiliary indicative past first singular	Verb Type=auxiliary VForm=indicative Tense=past Person=first Number=singular
+02V0201020201	Vais2s	Verb auxiliary indicative past second singular	Verb Type=auxiliary VForm=indicative Tense=past Person=second Number=singular
+02V0201020301	Vais3s	Verb auxiliary indicative past third singular	Verb Type=auxiliary VForm=indicative Tense=past Person=third Number=singular
+02V0202020000	Vacs	Verb auxiliary conditional past	Verb Type=auxiliary VForm=conditional Tense=past
+02V0203000000	Van	Verb auxiliary infinitive	Verb Type=auxiliary VForm=infinitive
+02V0204010000	Vapp	Verb auxiliary participle present	Verb Type=auxiliary VForm=participle Tense=present
+02V0204020000	Vaps	Verb auxiliary participle past	Verb Type=auxiliary VForm=participle Tense=past
+02V0301010000	Voip	Verb modal indicative present	Verb Type=modal VForm=indicative Tense=present
+03A0100	Af	Adjective qualificative	Adjective Type=qualificative
+03A0101	Afp	Adjective qualificative positive	Adjective Type=qualificative Degree=positive
+03A0102	Afc	Adjective qualificative comparative	Adjective Type=qualificative Degree=comparative
+03A0103	Afs	Adjective qualificative superlative	Adjective Type=qualificative Degree=superlative
+04P0100000000000000000000000000000001	Pp---------------r	Pronoun personal relative	Pronoun Type=personal Wh_Type=relative
+04P0100000000000000000000000000000002	Pp---------------q	Pronoun personal question	Pronoun Type=personal Wh_Type=question
+04P0100000002000000000000000000000001	Pp---a-----------r	Pronoun personal accusative relative	Pronoun Type=personal Case=accusative Wh_Type=relative
+04P0100000002000000000000000000000002	Pp---a-----------q	Pronoun personal accusative question	Pronoun Type=personal Case=accusative Wh_Type=question
+04P0100000101000000000000000000000000	Pp--sn	Pronoun personal singular nominative	Pronoun Type=personal Number=singular Case=nominative
+04P0100000201000000000000000000000000	Pp--pn	Pronoun personal plural nominative	Pronoun Type=personal Number=plural Case=nominative
+04P0101000101000000000000000000000000	Pp1-sn	Pronoun personal first singular nominative	Pronoun Type=personal Person=first Number=singular Case=nominative
+04P0101000201000000000000000000000000	Pp1-pn	Pronoun personal first plural nominative	Pronoun Type=personal Person=first Number=plural Case=nominative
+04P0101000202000000000000000000000000	Pp1-pa	Pronoun personal first plural accusative	Pronoun Type=personal Person=first Number=plural Case=accusative
+04P0102000000000000000000000000000000	Pp2	Pronoun personal second	Pronoun Type=personal Person=second
+04P0102000002000000000000000000000000	Pp2--a	Pronoun personal second accusative	Pronoun Type=personal Person=second Case=accusative
+04P0102000200000000000000000000000000	Pp2-p	Pronoun personal second plural	Pronoun Type=personal Person=second Number=plural
+04P0103000202000000000000000000000000	Pp3-pa	Pronoun personal third plural accusative	Pronoun Type=personal Person=third Number=plural Case=accusative
+04P0103010100000000000000000000000000	Pp3ms	Pronoun personal third masculine singular	Pronoun Type=personal Person=third Gender=masculine Number=singular
+04P0103010101000000000000000000000000	Pp3msn	Pronoun personal third masculine singular nominative	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative
+04P0103010102000000000000000000000000	Pp3msa	Pronoun personal third masculine singular accusative	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative
+04P0103020100000000000000000000000000	Pp3fs	Pronoun personal third feminine singular	Pronoun Type=personal Person=third Gender=feminine Number=singular
+04P0103020101000000000000000000000000	Pp3fsn	Pronoun personal third feminine singular nominative	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=nominative
+04P0103020102000000000000000000000000	Pp3fsa	Pronoun personal third feminine singular accusative	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative
+04P0103030100000000000000000000000000	Pp3ns	Pronoun personal third neuter singular	Pronoun Type=personal Person=third Gender=neuter Number=singular
+04P0203000000000000000000000000000000	Ps3	Pronoun possessive third	Pronoun Type=possessive Person=third
+04P0203000000000000000000000000000001	Ps3--------------r	Pronoun possessive third relative	Pronoun Type=possessive Person=third Wh_Type=relative
+04P0203000000000000000000000000000002	Ps3--------------q	Pronoun possessive third question	Pronoun Type=possessive Person=third Wh_Type=question
+04P0203000000010000000000000000000000	Ps3---s	Pronoun possessive third singular	Pronoun Type=possessive Person=third Owner_Number=singular
+04P0203000000010100000000000000000000	Ps3---sm	Pronoun possessive third singular masculine	Pronoun Type=possessive Person=third Owner_Number=singular Owner_Gender=masculine
+04P0203000000010200000000000000000000	Ps3---sf	Pronoun possessive third singular feminine	Pronoun Type=possessive Person=third Owner_Number=singular Owner_Gender=feminine
+04P0203000000020000000000000000000000	Ps3---p	Pronoun possessive third plural	Pronoun Type=possessive Person=third Owner_Number=plural
+04P0501000100000000000000000000000000	Px1-s	Pronoun reflexive first singular	Pronoun Type=reflexive Person=first Number=singular
+04P0501000200000000000000000000000000	Px1-p	Pronoun reflexive first plural	Pronoun Type=reflexive Person=first Number=plural
+04P0502000100000000000000000000000000	Px2-s	Pronoun reflexive second singular	Pronoun Type=reflexive Person=second Number=singular
+04P0502000200000000000000000000000000	Px2-p	Pronoun reflexive second plural	Pronoun Type=reflexive Person=second Number=plural
+04P0503000100000000000000000000000000	Px3-s	Pronoun reflexive third singular	Pronoun Type=reflexive Person=third Number=singular
+04P0503000200000000000000000000000000	Px3-p	Pronoun reflexive third plural	Pronoun Type=reflexive Person=third Number=plural
+04P0503010100000000000000000000000000	Px3ms	Pronoun reflexive third masculine singular	Pronoun Type=reflexive Person=third Gender=masculine Number=singular
+04P0503020100000000000000000000000000	Px3fs	Pronoun reflexive third feminine singular	Pronoun Type=reflexive Person=third Gender=feminine Number=singular
+04P0503030100000000000000000000000000	Px3ns	Pronoun reflexive third neuter singular	Pronoun Type=reflexive Person=third Gender=neuter Number=singular
+04P0603000000000000000000000000000001	Pg3--------------r	Pronoun general third relative	Pronoun Type=general Person=third Wh_Type=relative
+04P0603000000000000000000000000000002	Pg3--------------q	Pronoun general third question	Pronoun Type=general Person=third Wh_Type=question
+04P0603000100000000000000000000000000	Pg3-s	Pronoun general third singular	Pronoun Type=general Person=third Number=singular
+04P0603000200000000000000000000000000	Pg3-p	Pronoun general third plural	Pronoun Type=general Person=third Number=plural
+04P0603010100000000000000000000000000	Pg3ms	Pronoun general third masculine singular	Pronoun Type=general Person=third Gender=masculine Number=singular
+04P0603020100000000000000000000000000	Pg3fs	Pronoun general third feminine singular	Pronoun Type=general Person=third Gender=feminine Number=singular
+04P0603030000000000000000000000000000	Pg3n	Pronoun general third neuter	Pronoun Type=general Person=third Gender=neuter
+04P0603030100000000000000000000000000	Pg3ns	Pronoun general third neuter singular	Pronoun Type=general Person=third Gender=neuter Number=singular
+04P0603030200000000000000000000000000	Pg3np	Pronoun general third neuter plural	Pronoun Type=general Person=third Gender=neuter Number=plural
+04P0703000000000000000000000000000000	Pt3	Pronoun ex-there third	Pronoun Type=ex-there Person=third
+05D01000000000000000000	Dd	Determiner demonstrative	Determiner Type=demonstrative
+05D02000000000000000000	Di	Determiner indefinite	Determiner Type=indefinite
+05D03000000000000000001	Ds--------r	Determiner possessive relative	Determiner Type=possessive Wh_Type=relative
+05D03000000000000000002	Ds--------q	Determiner possessive question	Determiner Type=possessive Wh_Type=question
+05D03010000000100000000	Ds1---s	Determiner possessive first singular	Determiner Type=possessive Person=first Owner_Number=singular
+05D03010000000200000000	Ds1---p	Determiner possessive first plural	Determiner Type=possessive Person=first Owner_Number=plural
+05D03020000000000000000	Ds2	Determiner possessive second	Determiner Type=possessive Person=second
+05D03030000000101000000	Ds3---sm	Determiner possessive third singular masculine	Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=masculine
+05D03030000000102000000	Ds3---sf	Determiner possessive third singular feminine	Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=feminine
+05D03030000000103000000	Ds3---sn	Determiner possessive third singular neuter	Determiner Type=possessive Person=third Owner_Number=singular Owner_Gender=neuter
+05D03030000000200000000	Ds3---p	Determiner possessive third plural	Determiner Type=possessive Person=third Owner_Number=plural
+05D04000000000000000000	Dg	Determiner general	Determiner Type=general
+05D04000000000000000001	Dg--------r	Determiner general relative	Determiner Type=general Wh_Type=relative
+05D04000000000000000002	Dg--------q	Determiner general question	Determiner Type=general Wh_Type=question
+05D04000001000000000000	Dg--s	Determiner general singular	Determiner Type=general Number=singular
+05D04000002000000000000	Dg--p	Determiner general plural	Determiner Type=general Number=plural
+06R000100000002	R-p---q	Adverb positive question	Adverb Degree=positive Wh_Type=question
+06R010100000000	Rmp	Adverb modifier positive	Adverb Type=modifier Degree=positive
+06R010100000001	Rmp---r	Adverb modifier positive relative	Adverb Type=modifier Degree=positive Wh_Type=relative
+06R010100000002	Rmp---q	Adverb modifier positive question	Adverb Type=modifier Degree=positive Wh_Type=question
+06R010200000000	Rmc	Adverb modifier comparative	Adverb Type=modifier Degree=comparative
+06R010300000000	Rms	Adverb modifier superlative	Adverb Type=modifier Degree=superlative
+06R020100000000	Rsp	Adverb specifier positive	Adverb Type=specifier Degree=positive
+06R020200000000	Rsc	Adverb specifier comparative	Adverb Type=specifier Degree=comparative
+06R020300000000	Rss	Adverb specifier superlative	Adverb Type=specifier Degree=superlative
+07S01	Sp	Adposition preposition	Adposition Type=preposition
+07S02	St	Adposition postposition	Adposition Type=postposition
+08C010000	Cc	Conjunction coordinating	Conjunction Type=coordinating
+08C010001	Cc-i	Conjunction coordinating initial	Conjunction Type=coordinating Coord_Type=initial
+08C010002	Cc-n	Conjunction coordinating non-initial	Conjunction Type=coordinating Coord_Type=non-initial
+08C020000	Cs	Conjunction subordinating	Conjunction Type=subordinating
+09M01	Mc	Numeral cardinal	Numeral Type=cardinal
+09M02	Mo	Numeral ordinal	Numeral Type=ordinal
+10I	I	Interjection	Interjection
+11Y	Y	Abbreviation	Abbreviation
+12X	X	Residual	Residual
+13Z	Z	Punctuation	Punctuation

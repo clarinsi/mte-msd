@@ -1,0 +1,820 @@
+<!--Automatically generated from XML source - edit at you own risk!-->
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="bg"
+     xml:id="msd-bg"
+     xml:lang="en">
+   <head>MULTEXT-East morphosyntactic specifications as a TEI FS library</head>
+   <head>Bulgarian Specifications</head>
+   <docAuthor>Radoslav Pavlov, L.Dimitrova, Ludmila Sinapova, Kiril Simov</docAuthor>
+   <docDate>2018-11-12</docDate>
+   <list type="gloss">
+      <label>Language Name:</label>
+      <item>Bulgarian</item>
+      <label>Code:</label>
+      <item>bg</item>
+      <label>Reference:</label>
+      <item>
+         <ref target="http://www.ethnologue.com/language/bul">Ethnologue</ref>
+      </item>
+   </list>
+   <fLib xml:lang="en">
+      <f name="CATEGORY" xml:id="N0" xml:lang="en">
+         <symbol value="Noun"/>
+      </f>
+      <f name="Type" xml:id="N1.c" xml:lang="en">
+         <symbol value="common"/>
+      </f>
+      <f name="Type" xml:id="N1.p" xml:lang="en">
+         <symbol value="proper"/>
+      </f>
+      <f name="Gender" xml:id="N2.m" xml:lang="en">
+         <symbol value="masculine"/>
+      </f>
+      <f name="Gender" xml:id="N2.f" xml:lang="en">
+         <symbol value="feminine"/>
+      </f>
+      <f name="Gender" xml:id="N2.n" xml:lang="en">
+         <symbol value="neuter"/>
+      </f>
+      <f name="Number" xml:id="N3.s" xml:lang="en">
+         <symbol value="singular"/>
+      </f>
+      <f name="Number" xml:id="N3.p" xml:lang="en">
+         <symbol value="plural"/>
+      </f>
+      <f name="Number" xml:id="N3.t" xml:lang="en">
+         <symbol value="count"/>
+      </f>
+      <f name="Case" xml:id="N4.n" xml:lang="en">
+         <symbol value="nominative"/>
+      </f>
+      <f name="Case" xml:id="N4.v" xml:lang="en">
+         <symbol value="vocative"/>
+      </f>
+      <f name="Definiteness" xml:id="N5.n" xml:lang="en">
+         <symbol value="no"/>
+      </f>
+      <f name="Definiteness" xml:id="N5.y" xml:lang="en">
+         <symbol value="yes"/>
+      </f>
+      <f name="Definiteness" xml:id="N5.s" xml:lang="en">
+         <symbol value="short-art"/>
+      </f>
+      <f name="Definiteness" xml:id="N5.f" xml:lang="en">
+         <symbol value="full-art"/>
+      </f>
+      <f name="CATEGORY" xml:id="V0" xml:lang="en">
+         <symbol value="Verb"/>
+      </f>
+      <f name="Type" xml:id="V1.m" xml:lang="en">
+         <symbol value="main"/>
+      </f>
+      <f name="Type" xml:id="V1.a" xml:lang="en">
+         <symbol value="auxiliary"/>
+      </f>
+      <f name="VForm" xml:id="V2.i" xml:lang="en">
+         <symbol value="indicative"/>
+      </f>
+      <f name="VForm" xml:id="V2.m" xml:lang="en">
+         <symbol value="imperative"/>
+      </f>
+      <f name="VForm" xml:id="V2.p" xml:lang="en">
+         <symbol value="participle"/>
+      </f>
+      <f name="VForm" xml:id="V2.g" xml:lang="en">
+         <symbol value="gerund"/>
+      </f>
+      <f name="Tense" xml:id="V3.p" xml:lang="en">
+         <symbol value="present"/>
+      </f>
+      <f name="Tense" xml:id="V3.i" xml:lang="en">
+         <symbol value="imperfect"/>
+      </f>
+      <f name="Tense" xml:id="V3.s" xml:lang="en">
+         <symbol value="past"/>
+      </f>
+      <f name="Tense" xml:id="V3.a" xml:lang="en">
+         <symbol value="aorist"/>
+      </f>
+      <f name="Person" xml:id="V4.1" xml:lang="en">
+         <symbol value="first"/>
+      </f>
+      <f name="Person" xml:id="V4.2" xml:lang="en">
+         <symbol value="second"/>
+      </f>
+      <f name="Person" xml:id="V4.3" xml:lang="en">
+         <symbol value="third"/>
+      </f>
+      <f name="Number" xml:id="V5.s" xml:lang="en">
+         <symbol value="singular"/>
+      </f>
+      <f name="Number" xml:id="V5.p" xml:lang="en">
+         <symbol value="plural"/>
+      </f>
+      <f name="Gender" xml:id="V6.m" xml:lang="en">
+         <symbol value="masculine"/>
+      </f>
+      <f name="Gender" xml:id="V6.f" xml:lang="en">
+         <symbol value="feminine"/>
+      </f>
+      <f name="Gender" xml:id="V6.n" xml:lang="en">
+         <symbol value="neuter"/>
+      </f>
+      <f name="Voice" xml:id="V7.a" xml:lang="en">
+         <symbol value="active"/>
+      </f>
+      <f name="Voice" xml:id="V7.p" xml:lang="en">
+         <symbol value="passive"/>
+      </f>
+      <f name="Definiteness" xml:id="V9.n" xml:lang="en">
+         <symbol value="no"/>
+      </f>
+      <f name="Definiteness" xml:id="V9.y" xml:lang="en">
+         <symbol value="yes"/>
+      </f>
+      <f name="Definiteness" xml:id="V9.s" xml:lang="en">
+         <symbol value="short-art"/>
+      </f>
+      <f name="Definiteness" xml:id="V9.f" xml:lang="en">
+         <symbol value="full-art"/>
+      </f>
+      <f name="CATEGORY" xml:id="A0" xml:lang="en">
+         <symbol value="Adjective"/>
+      </f>
+      <f name="Gender" xml:id="A3.m" xml:lang="en">
+         <symbol value="masculine"/>
+      </f>
+      <f name="Gender" xml:id="A3.f" xml:lang="en">
+         <symbol value="feminine"/>
+      </f>
+      <f name="Gender" xml:id="A3.n" xml:lang="en">
+         <symbol value="neuter"/>
+      </f>
+      <f name="Number" xml:id="A4.s" xml:lang="en">
+         <symbol value="singular"/>
+      </f>
+      <f name="Number" xml:id="A4.p" xml:lang="en">
+         <symbol value="plural"/>
+      </f>
+      <f name="Definiteness" xml:id="A6.n" xml:lang="en">
+         <symbol value="no"/>
+      </f>
+      <f name="Definiteness" xml:id="A6.y" xml:lang="en">
+         <symbol value="yes"/>
+      </f>
+      <f name="Definiteness" xml:id="A6.s" xml:lang="en">
+         <symbol value="short-art"/>
+      </f>
+      <f name="Definiteness" xml:id="A6.f" xml:lang="en">
+         <symbol value="full-art"/>
+      </f>
+      <f name="CATEGORY" xml:id="P0" xml:lang="en">
+         <symbol value="Pronoun"/>
+      </f>
+      <f name="Type" xml:id="P1.p" xml:lang="en">
+         <symbol value="personal"/>
+      </f>
+      <f name="Type" xml:id="P1.d" xml:lang="en">
+         <symbol value="demonstrative"/>
+      </f>
+      <f name="Type" xml:id="P1.i" xml:lang="en">
+         <symbol value="indefinite"/>
+      </f>
+      <f name="Type" xml:id="P1.s" xml:lang="en">
+         <symbol value="possessive"/>
+      </f>
+      <f name="Type" xml:id="P1.q" xml:lang="en">
+         <symbol value="interrogative"/>
+      </f>
+      <f name="Type" xml:id="P1.r" xml:lang="en">
+         <symbol value="relative"/>
+      </f>
+      <f name="Type" xml:id="P1.x" xml:lang="en">
+         <symbol value="reflexive"/>
+      </f>
+      <f name="Type" xml:id="P1.z" xml:lang="en">
+         <symbol value="negative"/>
+      </f>
+      <f name="Type" xml:id="P1.g" xml:lang="en">
+         <symbol value="general"/>
+      </f>
+      <f name="Person" xml:id="P2.1" xml:lang="en">
+         <symbol value="first"/>
+      </f>
+      <f name="Person" xml:id="P2.2" xml:lang="en">
+         <symbol value="second"/>
+      </f>
+      <f name="Person" xml:id="P2.3" xml:lang="en">
+         <symbol value="third"/>
+      </f>
+      <f name="Gender" xml:id="P3.m" xml:lang="en">
+         <symbol value="masculine"/>
+      </f>
+      <f name="Gender" xml:id="P3.f" xml:lang="en">
+         <symbol value="feminine"/>
+      </f>
+      <f name="Gender" xml:id="P3.n" xml:lang="en">
+         <symbol value="neuter"/>
+      </f>
+      <f name="Number" xml:id="P4.s" xml:lang="en">
+         <symbol value="singular"/>
+      </f>
+      <f name="Number" xml:id="P4.p" xml:lang="en">
+         <symbol value="plural"/>
+      </f>
+      <f name="Case" xml:id="P5.n" xml:lang="en">
+         <symbol value="nominative"/>
+      </f>
+      <f name="Case" xml:id="P5.d" xml:lang="en">
+         <symbol value="dative"/>
+      </f>
+      <f name="Case" xml:id="P5.a" xml:lang="en">
+         <symbol value="accusative"/>
+      </f>
+      <f name="Clitic" xml:id="P8.n" xml:lang="en">
+         <symbol value="no"/>
+      </f>
+      <f name="Clitic" xml:id="P8.y" xml:lang="en">
+         <symbol value="yes"/>
+      </f>
+      <f name="Referent_Type" xml:id="P9.p" xml:lang="en">
+         <symbol value="personal"/>
+      </f>
+      <f name="Referent_Type" xml:id="P9.s" xml:lang="en">
+         <symbol value="possessive"/>
+      </f>
+      <f name="Referent_Type" xml:id="P9.a" xml:lang="en">
+         <symbol value="attributive"/>
+      </f>
+      <f name="Referent_Type" xml:id="P9.q" xml:lang="en">
+         <symbol value="quantitative"/>
+      </f>
+      <f name="Definiteness" xml:id="P11.n" xml:lang="en">
+         <symbol value="no"/>
+      </f>
+      <f name="Definiteness" xml:id="P11.y" xml:lang="en">
+         <symbol value="yes"/>
+      </f>
+      <f name="Definiteness" xml:id="P11.s" xml:lang="en">
+         <symbol value="short-art"/>
+      </f>
+      <f name="Definiteness" xml:id="P11.f" xml:lang="en">
+         <symbol value="full-art"/>
+      </f>
+      <f name="CATEGORY" xml:id="R0" xml:lang="en">
+         <symbol value="Adverb"/>
+      </f>
+      <f name="Type" xml:id="R1.g" xml:lang="en">
+         <symbol value="general"/>
+      </f>
+      <f name="Type" xml:id="R1.a" xml:lang="en">
+         <symbol value="adjectival"/>
+      </f>
+      <f name="CATEGORY" xml:id="S0" xml:lang="en">
+         <symbol value="Adposition"/>
+      </f>
+      <f name="Type" xml:id="S1.p" xml:lang="en">
+         <symbol value="preposition"/>
+      </f>
+      <f name="CATEGORY" xml:id="C0" xml:lang="en">
+         <symbol value="Conjunction"/>
+      </f>
+      <f name="Type" xml:id="C1.c" xml:lang="en">
+         <symbol value="coordinating"/>
+      </f>
+      <f name="Type" xml:id="C1.s" xml:lang="en">
+         <symbol value="subordinating"/>
+      </f>
+      <f name="Formation" xml:id="C2.s" xml:lang="en">
+         <symbol value="simple"/>
+      </f>
+      <f name="Formation" xml:id="C2.c" xml:lang="en">
+         <symbol value="compound"/>
+      </f>
+      <f name="CATEGORY" xml:id="M0" xml:lang="en">
+         <symbol value="Numeral"/>
+      </f>
+      <f name="Type" xml:id="M1.c" xml:lang="en">
+         <symbol value="cardinal"/>
+      </f>
+      <f name="Type" xml:id="M1.o" xml:lang="en">
+         <symbol value="ordinal"/>
+      </f>
+      <f name="Gender" xml:id="M2.m" xml:lang="en">
+         <symbol value="masculine"/>
+      </f>
+      <f name="Gender" xml:id="M2.f" xml:lang="en">
+         <symbol value="feminine"/>
+      </f>
+      <f name="Gender" xml:id="M2.n" xml:lang="en">
+         <symbol value="neuter"/>
+      </f>
+      <f name="Number" xml:id="M3.s" xml:lang="en">
+         <symbol value="singular"/>
+      </f>
+      <f name="Number" xml:id="M3.p" xml:lang="en">
+         <symbol value="plural"/>
+      </f>
+      <f name="Form" xml:id="M5.d" xml:lang="en">
+         <symbol value="digit"/>
+      </f>
+      <f name="Form" xml:id="M5.r" xml:lang="en">
+         <symbol value="roman"/>
+      </f>
+      <f name="Form" xml:id="M5.l" xml:lang="en">
+         <symbol value="letter"/>
+      </f>
+      <f name="Form" xml:id="M5.m" xml:lang="en">
+         <symbol value="m-form"/>
+      </f>
+      <f name="Form" xml:id="M5.a" xml:lang="en">
+         <symbol value="approx"/>
+      </f>
+      <f name="Definiteness" xml:id="M6.n" xml:lang="en">
+         <symbol value="no"/>
+      </f>
+      <f name="Definiteness" xml:id="M6.y" xml:lang="en">
+         <symbol value="yes"/>
+      </f>
+      <f name="Definiteness" xml:id="M6.s" xml:lang="en">
+         <symbol value="short-art"/>
+      </f>
+      <f name="Definiteness" xml:id="M6.f" xml:lang="en">
+         <symbol value="full-art"/>
+      </f>
+      <f name="CATEGORY" xml:id="Q0" xml:lang="en">
+         <symbol value="Particle"/>
+      </f>
+      <f name="Type" xml:id="Q1.z" xml:lang="en">
+         <symbol value="negative"/>
+      </f>
+      <f name="Type" xml:id="Q1.g" xml:lang="en">
+         <symbol value="general"/>
+      </f>
+      <f name="Type" xml:id="Q1.c" xml:lang="en">
+         <symbol value="comparative"/>
+      </f>
+      <f name="Type" xml:id="Q1.v" xml:lang="en">
+         <symbol value="verbal"/>
+      </f>
+      <f name="Type" xml:id="Q1.q" xml:lang="en">
+         <symbol value="interrogative"/>
+      </f>
+      <f name="Type" xml:id="Q1.o" xml:lang="en">
+         <symbol value="modal"/>
+      </f>
+      <f name="Formation" xml:id="Q2.s" xml:lang="en">
+         <symbol value="simple"/>
+      </f>
+      <f name="Formation" xml:id="Q2.c" xml:lang="en">
+         <symbol value="compound"/>
+      </f>
+      <f name="CATEGORY" xml:id="I0" xml:lang="en">
+         <symbol value="Interjection"/>
+      </f>
+      <f name="Formation" xml:id="I2.s" xml:lang="en">
+         <symbol value="simple"/>
+      </f>
+      <f name="Formation" xml:id="I2.c" xml:lang="en">
+         <symbol value="compound"/>
+      </f>
+      <f name="CATEGORY" xml:id="Y0" xml:lang="en">
+         <symbol value="Abbreviation"/>
+      </f>
+      <f name="CATEGORY" xml:id="X0" xml:lang="en">
+         <symbol value="Residual"/>
+      </f>
+      <f name="CATEGORY" xml:id="Z0" xml:lang="en">
+         <symbol value="Punctuation"/>
+      </f>
+   </fLib>
+   <fvLib xml:lang="en">
+      <fs xml:id="Ncm-v" xml:lang="en" feats="#N0 #N1.c #N2.m #N4.v"/>
+      <fs xml:id="Ncms-n" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N5.n"/>
+      <fs xml:id="Ncms-s" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N5.s"/>
+      <fs xml:id="Ncms-f" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N5.f"/>
+      <fs xml:id="Ncmp-n" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.p #N5.n"/>
+      <fs xml:id="Ncmp-y" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.p #N5.y"/>
+      <fs xml:id="Ncmt" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.t"/>
+      <fs xml:id="Ncf-v" xml:lang="en" feats="#N0 #N1.c #N2.f #N4.v"/>
+      <fs xml:id="Ncfs-n" xml:lang="en" feats="#N0 #N1.c #N2.f #N3.s #N5.n"/>
+      <fs xml:id="Ncfs-y" xml:lang="en" feats="#N0 #N1.c #N2.f #N3.s #N5.y"/>
+      <fs xml:id="Ncfp-n" xml:lang="en" feats="#N0 #N1.c #N2.f #N3.p #N5.n"/>
+      <fs xml:id="Ncfp-y" xml:lang="en" feats="#N0 #N1.c #N2.f #N3.p #N5.y"/>
+      <fs xml:id="Ncns-n" xml:lang="en" feats="#N0 #N1.c #N2.n #N3.s #N5.n"/>
+      <fs xml:id="Ncns-y" xml:lang="en" feats="#N0 #N1.c #N2.n #N3.s #N5.y"/>
+      <fs xml:id="Ncnp-n" xml:lang="en" feats="#N0 #N1.c #N2.n #N3.p #N5.n"/>
+      <fs xml:id="Ncnp-y" xml:lang="en" feats="#N0 #N1.c #N2.n #N3.p #N5.y"/>
+      <fs xml:id="Npms-n" xml:lang="en" feats="#N0 #N1.p #N2.m #N3.s #N5.n"/>
+      <fs xml:id="Npms-s" xml:lang="en" feats="#N0 #N1.p #N2.m #N3.s #N5.s"/>
+      <fs xml:id="Npms-f" xml:lang="en" feats="#N0 #N1.p #N2.m #N3.s #N5.f"/>
+      <fs xml:id="Npmp-n" xml:lang="en" feats="#N0 #N1.p #N2.m #N3.p #N5.n"/>
+      <fs xml:id="Npmp-y" xml:lang="en" feats="#N0 #N1.p #N2.m #N3.p #N5.y"/>
+      <fs xml:id="Npfs-n" xml:lang="en" feats="#N0 #N1.p #N2.f #N3.s #N5.n"/>
+      <fs xml:id="Npfs-y" xml:lang="en" feats="#N0 #N1.p #N2.f #N3.s #N5.y"/>
+      <fs xml:id="Npfp-n" xml:lang="en" feats="#N0 #N1.p #N2.f #N3.p #N5.n"/>
+      <fs xml:id="Npns-n" xml:lang="en" feats="#N0 #N1.p #N2.n #N3.s #N5.n"/>
+      <fs xml:id="Npns-y" xml:lang="en" feats="#N0 #N1.p #N2.n #N3.s #N5.y"/>
+      <fs xml:id="Vmip1s" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.p #V4.1 #V5.s"/>
+      <fs xml:id="Vmip1p" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.p #V4.1 #V5.p"/>
+      <fs xml:id="Vmip2s" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.p #V4.2 #V5.s"/>
+      <fs xml:id="Vmip2p" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.p #V4.2 #V5.p"/>
+      <fs xml:id="Vmip3s" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.p #V4.3 #V5.s"/>
+      <fs xml:id="Vmip3p" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.p #V4.3 #V5.p"/>
+      <fs xml:id="Vmii1s" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.i #V4.1 #V5.s"/>
+      <fs xml:id="Vmii1p" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.i #V4.1 #V5.p"/>
+      <fs xml:id="Vmii2s" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.i #V4.2 #V5.s"/>
+      <fs xml:id="Vmii2p" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.i #V4.2 #V5.p"/>
+      <fs xml:id="Vmii3s" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.i #V4.3 #V5.s"/>
+      <fs xml:id="Vmii3p" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.i #V4.3 #V5.p"/>
+      <fs xml:id="Vmia1s" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.a #V4.1 #V5.s"/>
+      <fs xml:id="Vmia1p" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.a #V4.1 #V5.p"/>
+      <fs xml:id="Vmia2s" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.a #V4.2 #V5.s"/>
+      <fs xml:id="Vmia2p" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.a #V4.2 #V5.p"/>
+      <fs xml:id="Vmia3s" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.a #V4.3 #V5.s"/>
+      <fs xml:id="Vmia3p" xml:lang="en" feats="#V0 #V1.m #V2.i #V3.a #V4.3 #V5.p"/>
+      <fs xml:id="Vmm-2s" xml:lang="en" feats="#V0 #V1.m #V2.m #V4.2 #V5.s"/>
+      <fs xml:id="Vmm-2p" xml:lang="en" feats="#V0 #V1.m #V2.m #V4.2 #V5.p"/>
+      <fs xml:id="Vmpp-sma-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.p #V5.s #V6.m #V7.a #V9.n"/>
+      <fs xml:id="Vmpp-sma-s" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.p #V5.s #V6.m #V7.a #V9.s"/>
+      <fs xml:id="Vmpp-sma-f" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.p #V5.s #V6.m #V7.a #V9.f"/>
+      <fs xml:id="Vmpp-sfa-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.p #V5.s #V6.f #V7.a #V9.n"/>
+      <fs xml:id="Vmpp-sfa-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.p #V5.s #V6.f #V7.a #V9.y"/>
+      <fs xml:id="Vmpp-sna-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.p #V5.s #V6.n #V7.a #V9.n"/>
+      <fs xml:id="Vmpp-sna-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.p #V5.s #V6.n #V7.a #V9.y"/>
+      <fs xml:id="Vmpp-p-a-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.p #V5.p #V7.a #V9.n"/>
+      <fs xml:id="Vmpp-p-a-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.p #V5.p #V7.a #V9.y"/>
+      <fs xml:id="Vmpi-sma-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.i #V5.s #V6.m #V7.a #V9.n"/>
+      <fs xml:id="Vmpi-sfa-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.i #V5.s #V6.f #V7.a #V9.n"/>
+      <fs xml:id="Vmpi-sna-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.i #V5.s #V6.n #V7.a #V9.n"/>
+      <fs xml:id="Vmpi-sna-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.i #V5.s #V6.n #V7.a #V9.y"/>
+      <fs xml:id="Vmpi-p-a-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.i #V5.p #V7.a #V9.n"/>
+      <fs xml:id="Vmps-smp-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.s #V5.s #V6.m #V7.p #V9.n"/>
+      <fs xml:id="Vmps-smp-s" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.s #V5.s #V6.m #V7.p #V9.s"/>
+      <fs xml:id="Vmps-smp-f" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.s #V5.s #V6.m #V7.p #V9.f"/>
+      <fs xml:id="Vmps-sfp-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.s #V5.s #V6.f #V7.p #V9.n"/>
+      <fs xml:id="Vmps-sfp-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.s #V5.s #V6.f #V7.p #V9.y"/>
+      <fs xml:id="Vmps-snp-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.s #V5.s #V6.n #V7.p #V9.n"/>
+      <fs xml:id="Vmps-snp-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.s #V5.s #V6.n #V7.p #V9.y"/>
+      <fs xml:id="Vmps-p-p-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.s #V5.p #V7.p #V9.n"/>
+      <fs xml:id="Vmps-p-p-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.s #V5.p #V7.p #V9.y"/>
+      <fs xml:id="Vmpa-sma-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.a #V5.s #V6.m #V7.a #V9.n"/>
+      <fs xml:id="Vmpa-sma-s" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.a #V5.s #V6.m #V7.a #V9.s"/>
+      <fs xml:id="Vmpa-sma-f" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.a #V5.s #V6.m #V7.a #V9.f"/>
+      <fs xml:id="Vmpa-sfa-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.a #V5.s #V6.f #V7.a #V9.n"/>
+      <fs xml:id="Vmpa-sfa-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.a #V5.s #V6.f #V7.a #V9.y"/>
+      <fs xml:id="Vmpa-sna-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.a #V5.s #V6.n #V7.a #V9.n"/>
+      <fs xml:id="Vmpa-sna-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.a #V5.s #V6.n #V7.a #V9.y"/>
+      <fs xml:id="Vmpa-p-a-n" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.a #V5.p #V7.a #V9.n"/>
+      <fs xml:id="Vmpa-p-a-y" xml:lang="en"
+          feats="#V0 #V1.m #V2.p #V3.a #V5.p #V7.a #V9.y"/>
+      <fs xml:id="Vmg" xml:lang="en" feats="#V0 #V1.m #V2.g"/>
+      <fs xml:id="Vaip1s" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.p #V4.1 #V5.s"/>
+      <fs xml:id="Vaip1p" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.p #V4.1 #V5.p"/>
+      <fs xml:id="Vaip2s" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.p #V4.2 #V5.s"/>
+      <fs xml:id="Vaip2p" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.p #V4.2 #V5.p"/>
+      <fs xml:id="Vaip3s" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.p #V4.3 #V5.s"/>
+      <fs xml:id="Vaip3p" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.p #V4.3 #V5.p"/>
+      <fs xml:id="Vaii1s" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.i #V4.1 #V5.s"/>
+      <fs xml:id="Vaii1p" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.i #V4.1 #V5.p"/>
+      <fs xml:id="Vaii2s" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.i #V4.2 #V5.s"/>
+      <fs xml:id="Vaii2p" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.i #V4.2 #V5.p"/>
+      <fs xml:id="Vaii3s" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.i #V4.3 #V5.s"/>
+      <fs xml:id="Vaii3p" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.i #V4.3 #V5.p"/>
+      <fs xml:id="Vaia1s" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.a #V4.1 #V5.s"/>
+      <fs xml:id="Vaia1p" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.a #V4.1 #V5.p"/>
+      <fs xml:id="Vaia2s" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.a #V4.2 #V5.s"/>
+      <fs xml:id="Vaia2p" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.a #V4.2 #V5.p"/>
+      <fs xml:id="Vaia3s" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.a #V4.3 #V5.s"/>
+      <fs xml:id="Vaia3p" xml:lang="en" feats="#V0 #V1.a #V2.i #V3.a #V4.3 #V5.p"/>
+      <fs xml:id="Vam-2s" xml:lang="en" feats="#V0 #V1.a #V2.m #V4.2 #V5.s"/>
+      <fs xml:id="Vam-2p" xml:lang="en" feats="#V0 #V1.a #V2.m #V4.2 #V5.p"/>
+      <fs xml:id="Vapp-sma-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.p #V5.s #V6.m #V7.a #V9.n"/>
+      <fs xml:id="Vapp-sma-s" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.p #V5.s #V6.m #V7.a #V9.s"/>
+      <fs xml:id="Vapp-sma-f" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.p #V5.s #V6.m #V7.a #V9.f"/>
+      <fs xml:id="Vapp-sfa-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.p #V5.s #V6.f #V7.a #V9.n"/>
+      <fs xml:id="Vapp-sfa-y" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.p #V5.s #V6.f #V7.a #V9.y"/>
+      <fs xml:id="Vapp-sna-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.p #V5.s #V6.n #V7.a #V9.n"/>
+      <fs xml:id="Vapi-sma-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.i #V5.s #V6.m #V7.a #V9.n"/>
+      <fs xml:id="Vapi-sfa-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.i #V5.s #V6.f #V7.a #V9.n"/>
+      <fs xml:id="Vapi-sna-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.i #V5.s #V6.n #V7.a #V9.n"/>
+      <fs xml:id="Vapi-p-a-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.i #V5.p #V7.a #V9.n"/>
+      <fs xml:id="Vapa-sma-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.a #V5.s #V6.m #V7.a #V9.n"/>
+      <fs xml:id="Vapa-sfa-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.a #V5.s #V6.f #V7.a #V9.n"/>
+      <fs xml:id="Vapa-sna-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.a #V5.s #V6.n #V7.a #V9.n"/>
+      <fs xml:id="Vapa-sna-y" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.a #V5.s #V6.n #V7.a #V9.y"/>
+      <fs xml:id="Vapa-p-a-n" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.a #V5.p #V7.a #V9.n"/>
+      <fs xml:id="Vapa-p-a-y" xml:lang="en"
+          feats="#V0 #V1.a #V2.p #V3.a #V5.p #V7.a #V9.y"/>
+      <fs xml:id="Vag" xml:lang="en" feats="#V0 #V1.a #V2.g"/>
+      <fs xml:id="A---p-n" xml:lang="en" feats="#A0 #A4.p #A6.n"/>
+      <fs xml:id="A---p-y" xml:lang="en" feats="#A0 #A4.p #A6.y"/>
+      <fs xml:id="A--ms-n" xml:lang="en" feats="#A0 #A3.m #A4.s #A6.n"/>
+      <fs xml:id="A--ms-s" xml:lang="en" feats="#A0 #A3.m #A4.s #A6.s"/>
+      <fs xml:id="A--ms-f" xml:lang="en" feats="#A0 #A3.m #A4.s #A6.f"/>
+      <fs xml:id="A--fs-n" xml:lang="en" feats="#A0 #A3.f #A4.s #A6.n"/>
+      <fs xml:id="A--fs-y" xml:lang="en" feats="#A0 #A3.f #A4.s #A6.y"/>
+      <fs xml:id="A--ns-n" xml:lang="en" feats="#A0 #A3.n #A4.s #A6.n"/>
+      <fs xml:id="A--ns-y" xml:lang="en" feats="#A0 #A3.n #A4.s #A6.y"/>
+      <fs xml:id="Pp1-sn" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.s #P5.n"/>
+      <fs xml:id="Pp1-sd--n" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.s #P5.d #P8.n"/>
+      <fs xml:id="Pp1-sd--y" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.s #P5.d #P8.y"/>
+      <fs xml:id="Pp1-sa--n" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.s #P5.a #P8.n"/>
+      <fs xml:id="Pp1-sa--y" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.s #P5.a #P8.y"/>
+      <fs xml:id="Pp1-pn" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.p #P5.n"/>
+      <fs xml:id="Pp1-pd--n" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.p #P5.d #P8.n"/>
+      <fs xml:id="Pp1-pd--y" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.p #P5.d #P8.y"/>
+      <fs xml:id="Pp1-pa--n" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.p #P5.a #P8.n"/>
+      <fs xml:id="Pp1-pa--y" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.p #P5.a #P8.y"/>
+      <fs xml:id="Pp2-sn" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.s #P5.n"/>
+      <fs xml:id="Pp2-sd--n" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.s #P5.d #P8.n"/>
+      <fs xml:id="Pp2-sd--y" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.s #P5.d #P8.y"/>
+      <fs xml:id="Pp2-sa--n" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.s #P5.a #P8.n"/>
+      <fs xml:id="Pp2-sa--y" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.s #P5.a #P8.y"/>
+      <fs xml:id="Pp2-p---y" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.p #P8.y"/>
+      <fs xml:id="Pp2-pn" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.p #P5.n"/>
+      <fs xml:id="Pp2-pd--n" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.p #P5.d #P8.n"/>
+      <fs xml:id="Pp2-pa--n" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.p #P5.a #P8.n"/>
+      <fs xml:id="Pp2-pa--y" xml:lang="en" feats="#P0 #P1.p #P2.2 #P4.p #P5.a #P8.y"/>
+      <fs xml:id="Pp3-pn" xml:lang="en" feats="#P0 #P1.p #P2.3 #P4.p #P5.n"/>
+      <fs xml:id="Pp3-pd--n" xml:lang="en" feats="#P0 #P1.p #P2.3 #P4.p #P5.d #P8.n"/>
+      <fs xml:id="Pp3-pd--y" xml:lang="en" feats="#P0 #P1.p #P2.3 #P4.p #P5.d #P8.y"/>
+      <fs xml:id="Pp3-pa--n" xml:lang="en" feats="#P0 #P1.p #P2.3 #P4.p #P5.a #P8.n"/>
+      <fs xml:id="Pp3-pa--y" xml:lang="en" feats="#P0 #P1.p #P2.3 #P4.p #P5.a #P8.y"/>
+      <fs xml:id="Pp3msn" xml:lang="en" feats="#P0 #P1.p #P2.3 #P3.m #P4.s #P5.n"/>
+      <fs xml:id="Pp3msd--n" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.m #P4.s #P5.d #P8.n"/>
+      <fs xml:id="Pp3msd--y" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.m #P4.s #P5.d #P8.y"/>
+      <fs xml:id="Pp3msa--n" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.m #P4.s #P5.a #P8.n"/>
+      <fs xml:id="Pp3msa--y" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.m #P4.s #P5.a #P8.y"/>
+      <fs xml:id="Pp3fsn" xml:lang="en" feats="#P0 #P1.p #P2.3 #P3.f #P4.s #P5.n"/>
+      <fs xml:id="Pp3fsd--y" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.f #P4.s #P5.d #P8.y"/>
+      <fs xml:id="Pp3fsa--n" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.f #P4.s #P5.a #P8.n"/>
+      <fs xml:id="Pp3fsa--y" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.f #P4.s #P5.a #P8.y"/>
+      <fs xml:id="Pp3nsn" xml:lang="en" feats="#P0 #P1.p #P2.3 #P3.n #P4.s #P5.n"/>
+      <fs xml:id="Pp3nsd--n" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.n #P4.s #P5.d #P8.n"/>
+      <fs xml:id="Pp3nsd--y" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.n #P4.s #P5.d #P8.y"/>
+      <fs xml:id="Pp3nsa--n" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.n #P4.s #P5.a #P8.n"/>
+      <fs xml:id="Pp3nsa--y" xml:lang="en"
+          feats="#P0 #P1.p #P2.3 #P3.n #P4.s #P5.a #P8.y"/>
+      <fs xml:id="Pd-------q" xml:lang="en" feats="#P0 #P1.d #P9.q"/>
+      <fs xml:id="Pd--p----p" xml:lang="en" feats="#P0 #P1.d #P4.p #P9.p"/>
+      <fs xml:id="Pd-ms----p" xml:lang="en" feats="#P0 #P1.d #P3.m #P4.s #P9.p"/>
+      <fs xml:id="Pd-fs----p" xml:lang="en" feats="#P0 #P1.d #P3.f #P4.s #P9.p"/>
+      <fs xml:id="Pd-ns----p" xml:lang="en" feats="#P0 #P1.d #P3.n #P4.s #P9.p"/>
+      <fs xml:id="Pi-------q" xml:lang="en" feats="#P0 #P1.i #P9.q"/>
+      <fs xml:id="Pi--sn--nq-y" xml:lang="en"
+          feats="#P0 #P1.i #P4.s #P5.n #P8.n #P9.q #P11.y"/>
+      <fs xml:id="Pi--p----p" xml:lang="en" feats="#P0 #P1.i #P4.p #P9.p"/>
+      <fs xml:id="Pi--p----s" xml:lang="en" feats="#P0 #P1.i #P4.p #P9.s"/>
+      <fs xml:id="Pi--p----a" xml:lang="en" feats="#P0 #P1.i #P4.p #P9.a"/>
+      <fs xml:id="Pi-ms----p" xml:lang="en" feats="#P0 #P1.i #P3.m #P4.s #P9.p"/>
+      <fs xml:id="Pi-ms----s" xml:lang="en" feats="#P0 #P1.i #P3.m #P4.s #P9.s"/>
+      <fs xml:id="Pi-ms----a" xml:lang="en" feats="#P0 #P1.i #P3.m #P4.s #P9.a"/>
+      <fs xml:id="Pi-msn---p" xml:lang="en" feats="#P0 #P1.i #P3.m #P4.s #P5.n #P9.p"/>
+      <fs xml:id="Pi-msd---p" xml:lang="en" feats="#P0 #P1.i #P3.m #P4.s #P5.d #P9.p"/>
+      <fs xml:id="Pi-msa---p" xml:lang="en" feats="#P0 #P1.i #P3.m #P4.s #P5.a #P9.p"/>
+      <fs xml:id="Pi-fs----p" xml:lang="en" feats="#P0 #P1.i #P3.f #P4.s #P9.p"/>
+      <fs xml:id="Pi-fs----s" xml:lang="en" feats="#P0 #P1.i #P3.f #P4.s #P9.s"/>
+      <fs xml:id="Pi-fs----a" xml:lang="en" feats="#P0 #P1.i #P3.f #P4.s #P9.a"/>
+      <fs xml:id="Pi-fsn---p" xml:lang="en" feats="#P0 #P1.i #P3.f #P4.s #P5.n #P9.p"/>
+      <fs xml:id="Pi-ns----p" xml:lang="en" feats="#P0 #P1.i #P3.n #P4.s #P9.p"/>
+      <fs xml:id="Pi-ns----s" xml:lang="en" feats="#P0 #P1.i #P3.n #P4.s #P9.s"/>
+      <fs xml:id="Pi-ns----a" xml:lang="en" feats="#P0 #P1.i #P3.n #P4.s #P9.a"/>
+      <fs xml:id="Pi-nsn---p" xml:lang="en" feats="#P0 #P1.i #P3.n #P4.s #P5.n #P9.p"/>
+      <fs xml:id="Ps1-s---y" xml:lang="en" feats="#P0 #P1.s #P2.1 #P4.s #P8.y"/>
+      <fs xml:id="Ps1-p---n--n" xml:lang="en" feats="#P0 #P1.s #P2.1 #P4.p #P8.n #P11.n"/>
+      <fs xml:id="Ps1-p---n--y" xml:lang="en" feats="#P0 #P1.s #P2.1 #P4.p #P8.n #P11.y"/>
+      <fs xml:id="Ps1-p---y" xml:lang="en" feats="#P0 #P1.s #P2.1 #P4.p #P8.y"/>
+      <fs xml:id="Ps1ms---n--n" xml:lang="en"
+          feats="#P0 #P1.s #P2.1 #P3.m #P4.s #P8.n #P11.n"/>
+      <fs xml:id="Ps1ms---n--s" xml:lang="en"
+          feats="#P0 #P1.s #P2.1 #P3.m #P4.s #P8.n #P11.s"/>
+      <fs xml:id="Ps1ms---n--f" xml:lang="en"
+          feats="#P0 #P1.s #P2.1 #P3.m #P4.s #P8.n #P11.f"/>
+      <fs xml:id="Ps1fs---n--n" xml:lang="en"
+          feats="#P0 #P1.s #P2.1 #P3.f #P4.s #P8.n #P11.n"/>
+      <fs xml:id="Ps1fs---n--y" xml:lang="en"
+          feats="#P0 #P1.s #P2.1 #P3.f #P4.s #P8.n #P11.y"/>
+      <fs xml:id="Ps1ns---n--n" xml:lang="en"
+          feats="#P0 #P1.s #P2.1 #P3.n #P4.s #P8.n #P11.n"/>
+      <fs xml:id="Ps1ns---n--y" xml:lang="en"
+          feats="#P0 #P1.s #P2.1 #P3.n #P4.s #P8.n #P11.y"/>
+      <fs xml:id="Ps2-s---y" xml:lang="en" feats="#P0 #P1.s #P2.2 #P4.s #P8.y"/>
+      <fs xml:id="Ps2-p---n--n" xml:lang="en" feats="#P0 #P1.s #P2.2 #P4.p #P8.n #P11.n"/>
+      <fs xml:id="Ps2-p---n--y" xml:lang="en" feats="#P0 #P1.s #P2.2 #P4.p #P8.n #P11.y"/>
+      <fs xml:id="Ps2-p---y" xml:lang="en" feats="#P0 #P1.s #P2.2 #P4.p #P8.y"/>
+      <fs xml:id="Ps2ms---n--n" xml:lang="en"
+          feats="#P0 #P1.s #P2.2 #P3.m #P4.s #P8.n #P11.n"/>
+      <fs xml:id="Ps2ms---n--s" xml:lang="en"
+          feats="#P0 #P1.s #P2.2 #P3.m #P4.s #P8.n #P11.s"/>
+      <fs xml:id="Ps2ms---n--f" xml:lang="en"
+          feats="#P0 #P1.s #P2.2 #P3.m #P4.s #P8.n #P11.f"/>
+      <fs xml:id="Ps2fs---n--n" xml:lang="en"
+          feats="#P0 #P1.s #P2.2 #P3.f #P4.s #P8.n #P11.n"/>
+      <fs xml:id="Ps2fs---n--y" xml:lang="en"
+          feats="#P0 #P1.s #P2.2 #P3.f #P4.s #P8.n #P11.y"/>
+      <fs xml:id="Ps2ns---n--n" xml:lang="en"
+          feats="#P0 #P1.s #P2.2 #P3.n #P4.s #P8.n #P11.n"/>
+      <fs xml:id="Ps2ns---n--y" xml:lang="en"
+          feats="#P0 #P1.s #P2.2 #P3.n #P4.s #P8.n #P11.y"/>
+      <fs xml:id="Ps3-s---y" xml:lang="en" feats="#P0 #P1.s #P2.3 #P4.s #P8.y"/>
+      <fs xml:id="Ps3-p---n--n" xml:lang="en" feats="#P0 #P1.s #P2.3 #P4.p #P8.n #P11.n"/>
+      <fs xml:id="Ps3-p---n--y" xml:lang="en" feats="#P0 #P1.s #P2.3 #P4.p #P8.n #P11.y"/>
+      <fs xml:id="Ps3-p---y" xml:lang="en" feats="#P0 #P1.s #P2.3 #P4.p #P8.y"/>
+      <fs xml:id="Ps3ms---n--n" xml:lang="en"
+          feats="#P0 #P1.s #P2.3 #P3.m #P4.s #P8.n #P11.n"/>
+      <fs xml:id="Ps3ms---n--s" xml:lang="en"
+          feats="#P0 #P1.s #P2.3 #P3.m #P4.s #P8.n #P11.s"/>
+      <fs xml:id="Ps3ms---n--f" xml:lang="en"
+          feats="#P0 #P1.s #P2.3 #P3.m #P4.s #P8.n #P11.f"/>
+      <fs xml:id="Ps3fs---n--n" xml:lang="en"
+          feats="#P0 #P1.s #P2.3 #P3.f #P4.s #P8.n #P11.n"/>
+      <fs xml:id="Ps3fs---n--y" xml:lang="en"
+          feats="#P0 #P1.s #P2.3 #P3.f #P4.s #P8.n #P11.y"/>
+      <fs xml:id="Ps3ns---n--n" xml:lang="en"
+          feats="#P0 #P1.s #P2.3 #P3.n #P4.s #P8.n #P11.n"/>
+      <fs xml:id="Ps3ns---n--y" xml:lang="en"
+          feats="#P0 #P1.s #P2.3 #P3.n #P4.s #P8.n #P11.y"/>
+      <fs xml:id="Pq-------q" xml:lang="en" feats="#P0 #P1.q #P9.q"/>
+      <fs xml:id="Pq--p----p" xml:lang="en" feats="#P0 #P1.q #P4.p #P9.p"/>
+      <fs xml:id="Pq--p----s" xml:lang="en" feats="#P0 #P1.q #P4.p #P9.s"/>
+      <fs xml:id="Pq--p----a" xml:lang="en" feats="#P0 #P1.q #P4.p #P9.a"/>
+      <fs xml:id="Pq-ms----s" xml:lang="en" feats="#P0 #P1.q #P3.m #P4.s #P9.s"/>
+      <fs xml:id="Pq-ms----a" xml:lang="en" feats="#P0 #P1.q #P3.m #P4.s #P9.a"/>
+      <fs xml:id="Pq-msn---p" xml:lang="en" feats="#P0 #P1.q #P3.m #P4.s #P5.n #P9.p"/>
+      <fs xml:id="Pq-msd---p" xml:lang="en" feats="#P0 #P1.q #P3.m #P4.s #P5.d #P9.p"/>
+      <fs xml:id="Pq-msa---p" xml:lang="en" feats="#P0 #P1.q #P3.m #P4.s #P5.a #P9.p"/>
+      <fs xml:id="Pq-fs----p" xml:lang="en" feats="#P0 #P1.q #P3.f #P4.s #P9.p"/>
+      <fs xml:id="Pq-fs----s" xml:lang="en" feats="#P0 #P1.q #P3.f #P4.s #P9.s"/>
+      <fs xml:id="Pq-fs----a" xml:lang="en" feats="#P0 #P1.q #P3.f #P4.s #P9.a"/>
+      <fs xml:id="Pq-ns----p" xml:lang="en" feats="#P0 #P1.q #P3.n #P4.s #P9.p"/>
+      <fs xml:id="Pq-ns----a" xml:lang="en" feats="#P0 #P1.q #P3.n #P4.s #P9.a"/>
+      <fs xml:id="Pr-------q" xml:lang="en" feats="#P0 #P1.r #P9.q"/>
+      <fs xml:id="Pr--p----p" xml:lang="en" feats="#P0 #P1.r #P4.p #P9.p"/>
+      <fs xml:id="Pr--p----s" xml:lang="en" feats="#P0 #P1.r #P4.p #P9.s"/>
+      <fs xml:id="Pr--p----a" xml:lang="en" feats="#P0 #P1.r #P4.p #P9.a"/>
+      <fs xml:id="Pr-ms----s" xml:lang="en" feats="#P0 #P1.r #P3.m #P4.s #P9.s"/>
+      <fs xml:id="Pr-ms----a" xml:lang="en" feats="#P0 #P1.r #P3.m #P4.s #P9.a"/>
+      <fs xml:id="Pr-msn---p" xml:lang="en" feats="#P0 #P1.r #P3.m #P4.s #P5.n #P9.p"/>
+      <fs xml:id="Pr-msd---p" xml:lang="en" feats="#P0 #P1.r #P3.m #P4.s #P5.d #P9.p"/>
+      <fs xml:id="Pr-msa---p" xml:lang="en" feats="#P0 #P1.r #P3.m #P4.s #P5.a #P9.p"/>
+      <fs xml:id="Pr-fs----p" xml:lang="en" feats="#P0 #P1.r #P3.f #P4.s #P9.p"/>
+      <fs xml:id="Pr-fs----s" xml:lang="en" feats="#P0 #P1.r #P3.f #P4.s #P9.s"/>
+      <fs xml:id="Pr-fs----a" xml:lang="en" feats="#P0 #P1.r #P3.f #P4.s #P9.a"/>
+      <fs xml:id="Pr-ns----p" xml:lang="en" feats="#P0 #P1.r #P3.n #P4.s #P9.p"/>
+      <fs xml:id="Pr-ns----s" xml:lang="en" feats="#P0 #P1.r #P3.n #P4.s #P9.s"/>
+      <fs xml:id="Pr-ns----a" xml:lang="en" feats="#P0 #P1.r #P3.n #P4.s #P9.a"/>
+      <fs xml:id="Px------ys" xml:lang="en" feats="#P0 #P1.x #P8.y #P9.s"/>
+      <fs xml:id="Px---d--np" xml:lang="en" feats="#P0 #P1.x #P5.d #P8.n #P9.p"/>
+      <fs xml:id="Px---d--yp" xml:lang="en" feats="#P0 #P1.x #P5.d #P8.y #P9.p"/>
+      <fs xml:id="Px---a--np" xml:lang="en" feats="#P0 #P1.x #P5.a #P8.n #P9.p"/>
+      <fs xml:id="Px---a--yp" xml:lang="en" feats="#P0 #P1.x #P5.a #P8.y #P9.p"/>
+      <fs xml:id="Px--p---ns-n" xml:lang="en" feats="#P0 #P1.x #P4.p #P8.n #P9.s #P11.n"/>
+      <fs xml:id="Px--p---ns-y" xml:lang="en" feats="#P0 #P1.x #P4.p #P8.n #P9.s #P11.y"/>
+      <fs xml:id="Px-ms---ns-n" xml:lang="en"
+          feats="#P0 #P1.x #P3.m #P4.s #P8.n #P9.s #P11.n"/>
+      <fs xml:id="Px-ms---ns-s" xml:lang="en"
+          feats="#P0 #P1.x #P3.m #P4.s #P8.n #P9.s #P11.s"/>
+      <fs xml:id="Px-ms---ns-f" xml:lang="en"
+          feats="#P0 #P1.x #P3.m #P4.s #P8.n #P9.s #P11.f"/>
+      <fs xml:id="Px-fs---ns-n" xml:lang="en"
+          feats="#P0 #P1.x #P3.f #P4.s #P8.n #P9.s #P11.n"/>
+      <fs xml:id="Px-fs---ns-y" xml:lang="en"
+          feats="#P0 #P1.x #P3.f #P4.s #P8.n #P9.s #P11.y"/>
+      <fs xml:id="Px-ns---ns-n" xml:lang="en"
+          feats="#P0 #P1.x #P3.n #P4.s #P8.n #P9.s #P11.n"/>
+      <fs xml:id="Px-ns---ns-y" xml:lang="en"
+          feats="#P0 #P1.x #P3.n #P4.s #P8.n #P9.s #P11.y"/>
+      <fs xml:id="Pz-------q" xml:lang="en" feats="#P0 #P1.z #P9.q"/>
+      <fs xml:id="Pz--p----a" xml:lang="en" feats="#P0 #P1.z #P4.p #P9.a"/>
+      <fs xml:id="Pz-ms----s" xml:lang="en" feats="#P0 #P1.z #P3.m #P4.s #P9.s"/>
+      <fs xml:id="Pz-ms----a" xml:lang="en" feats="#P0 #P1.z #P3.m #P4.s #P9.a"/>
+      <fs xml:id="Pz-msn---p" xml:lang="en" feats="#P0 #P1.z #P3.m #P4.s #P5.n #P9.p"/>
+      <fs xml:id="Pz-msd---p" xml:lang="en" feats="#P0 #P1.z #P3.m #P4.s #P5.d #P9.p"/>
+      <fs xml:id="Pz-msa---p" xml:lang="en" feats="#P0 #P1.z #P3.m #P4.s #P5.a #P9.p"/>
+      <fs xml:id="Pz-fs----p" xml:lang="en" feats="#P0 #P1.z #P3.f #P4.s #P9.p"/>
+      <fs xml:id="Pz-fs----a" xml:lang="en" feats="#P0 #P1.z #P3.f #P4.s #P9.a"/>
+      <fs xml:id="Pz-ns----a" xml:lang="en" feats="#P0 #P1.z #P3.n #P4.s #P9.a"/>
+      <fs xml:id="Pg--p----p" xml:lang="en" feats="#P0 #P1.g #P4.p #P9.p"/>
+      <fs xml:id="Pg--p----a" xml:lang="en" feats="#P0 #P1.g #P4.p #P9.a"/>
+      <fs xml:id="Pg--p----q-n" xml:lang="en" feats="#P0 #P1.g #P4.p #P9.q #P11.n"/>
+      <fs xml:id="Pg--p----q-y" xml:lang="en" feats="#P0 #P1.g #P4.p #P9.q #P11.y"/>
+      <fs xml:id="Pg-ms----a" xml:lang="en" feats="#P0 #P1.g #P3.m #P4.s #P9.a"/>
+      <fs xml:id="Pg-ms----q-s" xml:lang="en" feats="#P0 #P1.g #P3.m #P4.s #P9.q #P11.s"/>
+      <fs xml:id="Pg-ms----q-f" xml:lang="en" feats="#P0 #P1.g #P3.m #P4.s #P9.q #P11.f"/>
+      <fs xml:id="Pg-msn---p" xml:lang="en" feats="#P0 #P1.g #P3.m #P4.s #P5.n #P9.p"/>
+      <fs xml:id="Pg-msn--na" xml:lang="en"
+          feats="#P0 #P1.g #P3.m #P4.s #P5.n #P8.n #P9.a"/>
+      <fs xml:id="Pg-msd---p" xml:lang="en" feats="#P0 #P1.g #P3.m #P4.s #P5.d #P9.p"/>
+      <fs xml:id="Pg-msa---p" xml:lang="en" feats="#P0 #P1.g #P3.m #P4.s #P5.a #P9.p"/>
+      <fs xml:id="Pg-fs----p" xml:lang="en" feats="#P0 #P1.g #P3.f #P4.s #P9.p"/>
+      <fs xml:id="Pg-fs----a" xml:lang="en" feats="#P0 #P1.g #P3.f #P4.s #P9.a"/>
+      <fs xml:id="Pg-fs----q-n" xml:lang="en" feats="#P0 #P1.g #P3.f #P4.s #P9.q #P11.n"/>
+      <fs xml:id="Pg-fs----q-y" xml:lang="en" feats="#P0 #P1.g #P3.f #P4.s #P9.q #P11.y"/>
+      <fs xml:id="Pg-ns----p" xml:lang="en" feats="#P0 #P1.g #P3.n #P4.s #P9.p"/>
+      <fs xml:id="Pg-ns----a" xml:lang="en" feats="#P0 #P1.g #P3.n #P4.s #P9.a"/>
+      <fs xml:id="Pg-ns----q-n" xml:lang="en" feats="#P0 #P1.g #P3.n #P4.s #P9.q #P11.n"/>
+      <fs xml:id="Pg-ns----q-y" xml:lang="en" feats="#P0 #P1.g #P3.n #P4.s #P9.q #P11.y"/>
+      <fs xml:id="Rg" xml:lang="en" feats="#R0 #R1.g"/>
+      <fs xml:id="Ra" xml:lang="en" feats="#R0 #R1.a"/>
+      <fs xml:id="Sp" xml:lang="en" feats="#S0 #S1.p"/>
+      <fs xml:id="Ccs" xml:lang="en" feats="#C0 #C1.c #C2.s"/>
+      <fs xml:id="Ccc" xml:lang="en" feats="#C0 #C1.c #C2.c"/>
+      <fs xml:id="Css" xml:lang="en" feats="#C0 #C1.s #C2.s"/>
+      <fs xml:id="Csc" xml:lang="en" feats="#C0 #C1.s #C2.c"/>
+      <fs xml:id="Mc---d" xml:lang="en" feats="#M0 #M1.c #M5.d"/>
+      <fs xml:id="Mc---r" xml:lang="en" feats="#M0 #M1.c #M5.r"/>
+      <fs xml:id="Mc-p-ln" xml:lang="en" feats="#M0 #M1.c #M3.p #M5.l #M6.n"/>
+      <fs xml:id="Mc-p-ly" xml:lang="en" feats="#M0 #M1.c #M3.p #M5.l #M6.y"/>
+      <fs xml:id="Mc-p-an" xml:lang="en" feats="#M0 #M1.c #M3.p #M5.a #M6.n"/>
+      <fs xml:id="Mc-p-ay" xml:lang="en" feats="#M0 #M1.c #M3.p #M5.a #M6.y"/>
+      <fs xml:id="Mcms-ln" xml:lang="en" feats="#M0 #M1.c #M2.m #M3.s #M5.l #M6.n"/>
+      <fs xml:id="Mcms-ls" xml:lang="en" feats="#M0 #M1.c #M2.m #M3.s #M5.l #M6.s"/>
+      <fs xml:id="Mcms-lf" xml:lang="en" feats="#M0 #M1.c #M2.m #M3.s #M5.l #M6.f"/>
+      <fs xml:id="Mcmp-ln" xml:lang="en" feats="#M0 #M1.c #M2.m #M3.p #M5.l #M6.n"/>
+      <fs xml:id="Mcmp-ly" xml:lang="en" feats="#M0 #M1.c #M2.m #M3.p #M5.l #M6.y"/>
+      <fs xml:id="Mcmp-mn" xml:lang="en" feats="#M0 #M1.c #M2.m #M3.p #M5.m #M6.n"/>
+      <fs xml:id="Mcmp-my" xml:lang="en" feats="#M0 #M1.c #M2.m #M3.p #M5.m #M6.y"/>
+      <fs xml:id="Mcfs-ln" xml:lang="en" feats="#M0 #M1.c #M2.f #M3.s #M5.l #M6.n"/>
+      <fs xml:id="Mcfp-ln" xml:lang="en" feats="#M0 #M1.c #M2.f #M3.p #M5.l #M6.n"/>
+      <fs xml:id="Mcns-ln" xml:lang="en" feats="#M0 #M1.c #M2.n #M3.s #M5.l #M6.n"/>
+      <fs xml:id="Mcns-ly" xml:lang="en" feats="#M0 #M1.c #M2.n #M3.s #M5.l #M6.y"/>
+      <fs xml:id="Mcnp-ln" xml:lang="en" feats="#M0 #M1.c #M2.n #M3.p #M5.l #M6.n"/>
+      <fs xml:id="Mo-p--n" xml:lang="en" feats="#M0 #M1.o #M3.p #M6.n"/>
+      <fs xml:id="Mo-p--y" xml:lang="en" feats="#M0 #M1.o #M3.p #M6.y"/>
+      <fs xml:id="Moms--n" xml:lang="en" feats="#M0 #M1.o #M2.m #M3.s #M6.n"/>
+      <fs xml:id="Moms--s" xml:lang="en" feats="#M0 #M1.o #M2.m #M3.s #M6.s"/>
+      <fs xml:id="Moms--f" xml:lang="en" feats="#M0 #M1.o #M2.m #M3.s #M6.f"/>
+      <fs xml:id="Mofs--n" xml:lang="en" feats="#M0 #M1.o #M2.f #M3.s #M6.n"/>
+      <fs xml:id="Mofs--y" xml:lang="en" feats="#M0 #M1.o #M2.f #M3.s #M6.y"/>
+      <fs xml:id="Mons--n" xml:lang="en" feats="#M0 #M1.o #M2.n #M3.s #M6.n"/>
+      <fs xml:id="Mons--y" xml:lang="en" feats="#M0 #M1.o #M2.n #M3.s #M6.y"/>
+      <fs xml:id="Qzs" xml:lang="en" feats="#Q0 #Q1.z #Q2.s"/>
+      <fs xml:id="Qgs" xml:lang="en" feats="#Q0 #Q1.g #Q2.s"/>
+      <fs xml:id="Qgc" xml:lang="en" feats="#Q0 #Q1.g #Q2.c"/>
+      <fs xml:id="Qcs" xml:lang="en" feats="#Q0 #Q1.c #Q2.s"/>
+      <fs xml:id="Qvs" xml:lang="en" feats="#Q0 #Q1.v #Q2.s"/>
+      <fs xml:id="Qqs" xml:lang="en" feats="#Q0 #Q1.q #Q2.s"/>
+      <fs xml:id="Qos" xml:lang="en" feats="#Q0 #Q1.o #Q2.s"/>
+      <fs xml:id="I-s" xml:lang="en" feats="#I0 #I2.s"/>
+      <fs xml:id="I-c" xml:lang="en" feats="#I0 #I2.c"/>
+      <fs xml:id="Y" xml:lang="en" feats="#Y0"/>
+      <fs xml:id="X" xml:lang="en" feats="#X0"/>
+      <fs xml:id="Z" xml:lang="en" feats="#Z0"/>
+   </fvLib>
+</div>

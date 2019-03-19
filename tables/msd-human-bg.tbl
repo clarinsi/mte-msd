@@ -1,0 +1,339 @@
+01N0101000200	Ncm-v	Noun common masculine vocative	Noun Type=common Gender=masculine Case=vocative
+01N0101010001	Ncms-n	Noun common masculine singular -Definiteness	Noun Type=common Gender=masculine Number=singular Definiteness=no
+01N0101010003	Ncms-s	Noun common masculine singular short-art	Noun Type=common Gender=masculine Number=singular Definiteness=short-art
+01N0101010004	Ncms-f	Noun common masculine singular full-art	Noun Type=common Gender=masculine Number=singular Definiteness=full-art
+01N0101020001	Ncmp-n	Noun common masculine plural -Definiteness	Noun Type=common Gender=masculine Number=plural Definiteness=no
+01N0101020002	Ncmp-y	Noun common masculine plural +Definiteness	Noun Type=common Gender=masculine Number=plural Definiteness=yes
+01N0101030000	Ncmt	Noun common masculine count	Noun Type=common Gender=masculine Number=count
+01N0102000200	Ncf-v	Noun common feminine vocative	Noun Type=common Gender=feminine Case=vocative
+01N0102010001	Ncfs-n	Noun common feminine singular -Definiteness	Noun Type=common Gender=feminine Number=singular Definiteness=no
+01N0102010002	Ncfs-y	Noun common feminine singular +Definiteness	Noun Type=common Gender=feminine Number=singular Definiteness=yes
+01N0102020001	Ncfp-n	Noun common feminine plural -Definiteness	Noun Type=common Gender=feminine Number=plural Definiteness=no
+01N0102020002	Ncfp-y	Noun common feminine plural +Definiteness	Noun Type=common Gender=feminine Number=plural Definiteness=yes
+01N0103010001	Ncns-n	Noun common neuter singular -Definiteness	Noun Type=common Gender=neuter Number=singular Definiteness=no
+01N0103010002	Ncns-y	Noun common neuter singular +Definiteness	Noun Type=common Gender=neuter Number=singular Definiteness=yes
+01N0103020001	Ncnp-n	Noun common neuter plural -Definiteness	Noun Type=common Gender=neuter Number=plural Definiteness=no
+01N0103020002	Ncnp-y	Noun common neuter plural +Definiteness	Noun Type=common Gender=neuter Number=plural Definiteness=yes
+01N0201010001	Npms-n	Noun proper masculine singular -Definiteness	Noun Type=proper Gender=masculine Number=singular Definiteness=no
+01N0201010003	Npms-s	Noun proper masculine singular short-art	Noun Type=proper Gender=masculine Number=singular Definiteness=short-art
+01N0201010004	Npms-f	Noun proper masculine singular full-art	Noun Type=proper Gender=masculine Number=singular Definiteness=full-art
+01N0201020001	Npmp-n	Noun proper masculine plural -Definiteness	Noun Type=proper Gender=masculine Number=plural Definiteness=no
+01N0201020002	Npmp-y	Noun proper masculine plural +Definiteness	Noun Type=proper Gender=masculine Number=plural Definiteness=yes
+01N0202010001	Npfs-n	Noun proper feminine singular -Definiteness	Noun Type=proper Gender=feminine Number=singular Definiteness=no
+01N0202010002	Npfs-y	Noun proper feminine singular +Definiteness	Noun Type=proper Gender=feminine Number=singular Definiteness=yes
+01N0202020001	Npfp-n	Noun proper feminine plural -Definiteness	Noun Type=proper Gender=feminine Number=plural Definiteness=no
+01N0203010001	Npns-n	Noun proper neuter singular -Definiteness	Noun Type=proper Gender=neuter Number=singular Definiteness=no
+01N0203010002	Npns-y	Noun proper neuter singular +Definiteness	Noun Type=proper Gender=neuter Number=singular Definiteness=yes
+02V010101010100000000	Vmip1s	Verb main indicative present first singular	Verb Type=main VForm=indicative Tense=present Person=first Number=singular
+02V010101010200000000	Vmip1p	Verb main indicative present first plural	Verb Type=main VForm=indicative Tense=present Person=first Number=plural
+02V010101020100000000	Vmip2s	Verb main indicative present second singular	Verb Type=main VForm=indicative Tense=present Person=second Number=singular
+02V010101020200000000	Vmip2p	Verb main indicative present second plural	Verb Type=main VForm=indicative Tense=present Person=second Number=plural
+02V010101030100000000	Vmip3s	Verb main indicative present third singular	Verb Type=main VForm=indicative Tense=present Person=third Number=singular
+02V010101030200000000	Vmip3p	Verb main indicative present third plural	Verb Type=main VForm=indicative Tense=present Person=third Number=plural
+02V010102010100000000	Vmii1s	Verb main indicative imperfect first singular	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=singular
+02V010102010200000000	Vmii1p	Verb main indicative imperfect first plural	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=plural
+02V010102020100000000	Vmii2s	Verb main indicative imperfect second singular	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular
+02V010102020200000000	Vmii2p	Verb main indicative imperfect second plural	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural
+02V010102030100000000	Vmii3s	Verb main indicative imperfect third singular	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular
+02V010102030200000000	Vmii3p	Verb main indicative imperfect third plural	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural
+02V010104010100000000	Vmia1s	Verb main indicative aorist first singular	Verb Type=main VForm=indicative Tense=aorist Person=first Number=singular
+02V010104010200000000	Vmia1p	Verb main indicative aorist first plural	Verb Type=main VForm=indicative Tense=aorist Person=first Number=plural
+02V010104020100000000	Vmia2s	Verb main indicative aorist second singular	Verb Type=main VForm=indicative Tense=aorist Person=second Number=singular
+02V010104020200000000	Vmia2p	Verb main indicative aorist second plural	Verb Type=main VForm=indicative Tense=aorist Person=second Number=plural
+02V010104030100000000	Vmia3s	Verb main indicative aorist third singular	Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular
+02V010104030200000000	Vmia3p	Verb main indicative aorist third plural	Verb Type=main VForm=indicative Tense=aorist Person=third Number=plural
+02V010200020100000000	Vmm-2s	Verb main imperative second singular	Verb Type=main VForm=imperative Person=second Number=singular
+02V010200020200000000	Vmm-2p	Verb main imperative second plural	Verb Type=main VForm=imperative Person=second Number=plural
+02V010301000101010001	Vmpp-sma-n	Verb main participle present singular masculine active -Definiteness	Verb Type=main VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=no
+02V010301000101010003	Vmpp-sma-s	Verb main participle present singular masculine active short-art	Verb Type=main VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=short-art
+02V010301000101010004	Vmpp-sma-f	Verb main participle present singular masculine active full-art	Verb Type=main VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=full-art
+02V010301000102010001	Vmpp-sfa-n	Verb main participle present singular feminine active -Definiteness	Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=no
+02V010301000102010002	Vmpp-sfa-y	Verb main participle present singular feminine active +Definiteness	Verb Type=main VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=yes
+02V010301000103010001	Vmpp-sna-n	Verb main participle present singular neuter active -Definiteness	Verb Type=main VForm=participle Tense=present Number=singular Gender=neuter Voice=active Definiteness=no
+02V010301000103010002	Vmpp-sna-y	Verb main participle present singular neuter active +Definiteness	Verb Type=main VForm=participle Tense=present Number=singular Gender=neuter Voice=active Definiteness=yes
+02V010301000200010001	Vmpp-p-a-n	Verb main participle present plural active -Definiteness	Verb Type=main VForm=participle Tense=present Number=plural Voice=active Definiteness=no
+02V010301000200010002	Vmpp-p-a-y	Verb main participle present plural active +Definiteness	Verb Type=main VForm=participle Tense=present Number=plural Voice=active Definiteness=yes
+02V010302000101010001	Vmpi-sma-n	Verb main participle imperfect singular masculine active -Definiteness	Verb Type=main VForm=participle Tense=imperfect Number=singular Gender=masculine Voice=active Definiteness=no
+02V010302000102010001	Vmpi-sfa-n	Verb main participle imperfect singular feminine active -Definiteness	Verb Type=main VForm=participle Tense=imperfect Number=singular Gender=feminine Voice=active Definiteness=no
+02V010302000103010001	Vmpi-sna-n	Verb main participle imperfect singular neuter active -Definiteness	Verb Type=main VForm=participle Tense=imperfect Number=singular Gender=neuter Voice=active Definiteness=no
+02V010302000103010002	Vmpi-sna-y	Verb main participle imperfect singular neuter active +Definiteness	Verb Type=main VForm=participle Tense=imperfect Number=singular Gender=neuter Voice=active Definiteness=yes
+02V010302000200010001	Vmpi-p-a-n	Verb main participle imperfect plural active -Definiteness	Verb Type=main VForm=participle Tense=imperfect Number=plural Voice=active Definiteness=no
+02V010303000101020001	Vmps-smp-n	Verb main participle past singular masculine passive -Definiteness	Verb Type=main VForm=participle Tense=past Number=singular Gender=masculine Voice=passive Definiteness=no
+02V010303000101020003	Vmps-smp-s	Verb main participle past singular masculine passive short-art	Verb Type=main VForm=participle Tense=past Number=singular Gender=masculine Voice=passive Definiteness=short-art
+02V010303000101020004	Vmps-smp-f	Verb main participle past singular masculine passive full-art	Verb Type=main VForm=participle Tense=past Number=singular Gender=masculine Voice=passive Definiteness=full-art
+02V010303000102020001	Vmps-sfp-n	Verb main participle past singular feminine passive -Definiteness	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=passive Definiteness=no
+02V010303000102020002	Vmps-sfp-y	Verb main participle past singular feminine passive +Definiteness	Verb Type=main VForm=participle Tense=past Number=singular Gender=feminine Voice=passive Definiteness=yes
+02V010303000103020001	Vmps-snp-n	Verb main participle past singular neuter passive -Definiteness	Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=passive Definiteness=no
+02V010303000103020002	Vmps-snp-y	Verb main participle past singular neuter passive +Definiteness	Verb Type=main VForm=participle Tense=past Number=singular Gender=neuter Voice=passive Definiteness=yes
+02V010303000200020001	Vmps-p-p-n	Verb main participle past plural passive -Definiteness	Verb Type=main VForm=participle Tense=past Number=plural Voice=passive Definiteness=no
+02V010303000200020002	Vmps-p-p-y	Verb main participle past plural passive +Definiteness	Verb Type=main VForm=participle Tense=past Number=plural Voice=passive Definiteness=yes
+02V010304000101010001	Vmpa-sma-n	Verb main participle aorist singular masculine active -Definiteness	Verb Type=main VForm=participle Tense=aorist Number=singular Gender=masculine Voice=active Definiteness=no
+02V010304000101010003	Vmpa-sma-s	Verb main participle aorist singular masculine active short-art	Verb Type=main VForm=participle Tense=aorist Number=singular Gender=masculine Voice=active Definiteness=short-art
+02V010304000101010004	Vmpa-sma-f	Verb main participle aorist singular masculine active full-art	Verb Type=main VForm=participle Tense=aorist Number=singular Gender=masculine Voice=active Definiteness=full-art
+02V010304000102010001	Vmpa-sfa-n	Verb main participle aorist singular feminine active -Definiteness	Verb Type=main VForm=participle Tense=aorist Number=singular Gender=feminine Voice=active Definiteness=no
+02V010304000102010002	Vmpa-sfa-y	Verb main participle aorist singular feminine active +Definiteness	Verb Type=main VForm=participle Tense=aorist Number=singular Gender=feminine Voice=active Definiteness=yes
+02V010304000103010001	Vmpa-sna-n	Verb main participle aorist singular neuter active -Definiteness	Verb Type=main VForm=participle Tense=aorist Number=singular Gender=neuter Voice=active Definiteness=no
+02V010304000103010002	Vmpa-sna-y	Verb main participle aorist singular neuter active +Definiteness	Verb Type=main VForm=participle Tense=aorist Number=singular Gender=neuter Voice=active Definiteness=yes
+02V010304000200010001	Vmpa-p-a-n	Verb main participle aorist plural active -Definiteness	Verb Type=main VForm=participle Tense=aorist Number=plural Voice=active Definiteness=no
+02V010304000200010002	Vmpa-p-a-y	Verb main participle aorist plural active +Definiteness	Verb Type=main VForm=participle Tense=aorist Number=plural Voice=active Definiteness=yes
+02V010400000000000000	Vmg	Verb main gerund	Verb Type=main VForm=gerund
+02V020101010100000000	Vaip1s	Verb auxiliary indicative present first singular	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular
+02V020101010200000000	Vaip1p	Verb auxiliary indicative present first plural	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural
+02V020101020100000000	Vaip2s	Verb auxiliary indicative present second singular	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular
+02V020101020200000000	Vaip2p	Verb auxiliary indicative present second plural	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=plural
+02V020101030100000000	Vaip3s	Verb auxiliary indicative present third singular	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular
+02V020101030200000000	Vaip3p	Verb auxiliary indicative present third plural	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=plural
+02V020102010100000000	Vaii1s	Verb auxiliary indicative imperfect first singular	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=singular
+02V020102010200000000	Vaii1p	Verb auxiliary indicative imperfect first plural	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=plural
+02V020102020100000000	Vaii2s	Verb auxiliary indicative imperfect second singular	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=singular
+02V020102020200000000	Vaii2p	Verb auxiliary indicative imperfect second plural	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=plural
+02V020102030100000000	Vaii3s	Verb auxiliary indicative imperfect third singular	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=singular
+02V020102030200000000	Vaii3p	Verb auxiliary indicative imperfect third plural	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=plural
+02V020104010100000000	Vaia1s	Verb auxiliary indicative aorist first singular	Verb Type=auxiliary VForm=indicative Tense=aorist Person=first Number=singular
+02V020104010200000000	Vaia1p	Verb auxiliary indicative aorist first plural	Verb Type=auxiliary VForm=indicative Tense=aorist Person=first Number=plural
+02V020104020100000000	Vaia2s	Verb auxiliary indicative aorist second singular	Verb Type=auxiliary VForm=indicative Tense=aorist Person=second Number=singular
+02V020104020200000000	Vaia2p	Verb auxiliary indicative aorist second plural	Verb Type=auxiliary VForm=indicative Tense=aorist Person=second Number=plural
+02V020104030100000000	Vaia3s	Verb auxiliary indicative aorist third singular	Verb Type=auxiliary VForm=indicative Tense=aorist Person=third Number=singular
+02V020104030200000000	Vaia3p	Verb auxiliary indicative aorist third plural	Verb Type=auxiliary VForm=indicative Tense=aorist Person=third Number=plural
+02V020200020100000000	Vam-2s	Verb auxiliary imperative second singular	Verb Type=auxiliary VForm=imperative Person=second Number=singular
+02V020200020200000000	Vam-2p	Verb auxiliary imperative second plural	Verb Type=auxiliary VForm=imperative Person=second Number=plural
+02V020301000101010001	Vapp-sma-n	Verb auxiliary participle present singular masculine active -Definiteness	Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=no
+02V020301000101010003	Vapp-sma-s	Verb auxiliary participle present singular masculine active short-art	Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=short-art
+02V020301000101010004	Vapp-sma-f	Verb auxiliary participle present singular masculine active full-art	Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=masculine Voice=active Definiteness=full-art
+02V020301000102010001	Vapp-sfa-n	Verb auxiliary participle present singular feminine active -Definiteness	Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=no
+02V020301000102010002	Vapp-sfa-y	Verb auxiliary participle present singular feminine active +Definiteness	Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=feminine Voice=active Definiteness=yes
+02V020301000103010001	Vapp-sna-n	Verb auxiliary participle present singular neuter active -Definiteness	Verb Type=auxiliary VForm=participle Tense=present Number=singular Gender=neuter Voice=active Definiteness=no
+02V020302000101010001	Vapi-sma-n	Verb auxiliary participle imperfect singular masculine active -Definiteness	Verb Type=auxiliary VForm=participle Tense=imperfect Number=singular Gender=masculine Voice=active Definiteness=no
+02V020302000102010001	Vapi-sfa-n	Verb auxiliary participle imperfect singular feminine active -Definiteness	Verb Type=auxiliary VForm=participle Tense=imperfect Number=singular Gender=feminine Voice=active Definiteness=no
+02V020302000103010001	Vapi-sna-n	Verb auxiliary participle imperfect singular neuter active -Definiteness	Verb Type=auxiliary VForm=participle Tense=imperfect Number=singular Gender=neuter Voice=active Definiteness=no
+02V020302000200010001	Vapi-p-a-n	Verb auxiliary participle imperfect plural active -Definiteness	Verb Type=auxiliary VForm=participle Tense=imperfect Number=plural Voice=active Definiteness=no
+02V020304000101010001	Vapa-sma-n	Verb auxiliary participle aorist singular masculine active -Definiteness	Verb Type=auxiliary VForm=participle Tense=aorist Number=singular Gender=masculine Voice=active Definiteness=no
+02V020304000102010001	Vapa-sfa-n	Verb auxiliary participle aorist singular feminine active -Definiteness	Verb Type=auxiliary VForm=participle Tense=aorist Number=singular Gender=feminine Voice=active Definiteness=no
+02V020304000103010001	Vapa-sna-n	Verb auxiliary participle aorist singular neuter active -Definiteness	Verb Type=auxiliary VForm=participle Tense=aorist Number=singular Gender=neuter Voice=active Definiteness=no
+02V020304000103010002	Vapa-sna-y	Verb auxiliary participle aorist singular neuter active +Definiteness	Verb Type=auxiliary VForm=participle Tense=aorist Number=singular Gender=neuter Voice=active Definiteness=yes
+02V020304000200010001	Vapa-p-a-n	Verb auxiliary participle aorist plural active -Definiteness	Verb Type=auxiliary VForm=participle Tense=aorist Number=plural Voice=active Definiteness=no
+02V020304000200010002	Vapa-p-a-y	Verb auxiliary participle aorist plural active +Definiteness	Verb Type=auxiliary VForm=participle Tense=aorist Number=plural Voice=active Definiteness=yes
+02V020400000000000000	Vag	Verb auxiliary gerund	Verb Type=auxiliary VForm=gerund
+03A000000020001	A---p-n	Adjective plural -Definiteness	Adjective Number=plural Definiteness=no
+03A000000020002	A---p-y	Adjective plural +Definiteness	Adjective Number=plural Definiteness=yes
+03A000001010001	A--ms-n	Adjective masculine singular -Definiteness	Adjective Gender=masculine Number=singular Definiteness=no
+03A000001010003	A--ms-s	Adjective masculine singular short-art	Adjective Gender=masculine Number=singular Definiteness=short-art
+03A000001010004	A--ms-f	Adjective masculine singular full-art	Adjective Gender=masculine Number=singular Definiteness=full-art
+03A000002010001	A--fs-n	Adjective feminine singular -Definiteness	Adjective Gender=feminine Number=singular Definiteness=no
+03A000002010002	A--fs-y	Adjective feminine singular +Definiteness	Adjective Gender=feminine Number=singular Definiteness=yes
+03A000003010001	A--ns-n	Adjective neuter singular -Definiteness	Adjective Gender=neuter Number=singular Definiteness=no
+03A000003010002	A--ns-y	Adjective neuter singular +Definiteness	Adjective Gender=neuter Number=singular Definiteness=yes
+04P0101000101000000000000	Pp1-sn	Pronoun personal first singular nominative	Pronoun Type=personal Person=first Number=singular Case=nominative
+04P0101000102000001000000	Pp1-sd--n	Pronoun personal first singular dative -Clitic	Pronoun Type=personal Person=first Number=singular Case=dative Clitic=no
+04P0101000102000002000000	Pp1-sd--y	Pronoun personal first singular dative +Clitic	Pronoun Type=personal Person=first Number=singular Case=dative Clitic=yes
+04P0101000103000001000000	Pp1-sa--n	Pronoun personal first singular accusative -Clitic	Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=no
+04P0101000103000002000000	Pp1-sa--y	Pronoun personal first singular accusative +Clitic	Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=yes
+04P0101000201000000000000	Pp1-pn	Pronoun personal first plural nominative	Pronoun Type=personal Person=first Number=plural Case=nominative
+04P0101000202000001000000	Pp1-pd--n	Pronoun personal first plural dative -Clitic	Pronoun Type=personal Person=first Number=plural Case=dative Clitic=no
+04P0101000202000002000000	Pp1-pd--y	Pronoun personal first plural dative +Clitic	Pronoun Type=personal Person=first Number=plural Case=dative Clitic=yes
+04P0101000203000001000000	Pp1-pa--n	Pronoun personal first plural accusative -Clitic	Pronoun Type=personal Person=first Number=plural Case=accusative Clitic=no
+04P0101000203000002000000	Pp1-pa--y	Pronoun personal first plural accusative +Clitic	Pronoun Type=personal Person=first Number=plural Case=accusative Clitic=yes
+04P0102000101000000000000	Pp2-sn	Pronoun personal second singular nominative	Pronoun Type=personal Person=second Number=singular Case=nominative
+04P0102000102000001000000	Pp2-sd--n	Pronoun personal second singular dative -Clitic	Pronoun Type=personal Person=second Number=singular Case=dative Clitic=no
+04P0102000102000002000000	Pp2-sd--y	Pronoun personal second singular dative +Clitic	Pronoun Type=personal Person=second Number=singular Case=dative Clitic=yes
+04P0102000103000001000000	Pp2-sa--n	Pronoun personal second singular accusative -Clitic	Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=no
+04P0102000103000002000000	Pp2-sa--y	Pronoun personal second singular accusative +Clitic	Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=yes
+04P0102000200000002000000	Pp2-p---y	Pronoun personal second plural +Clitic	Pronoun Type=personal Person=second Number=plural Clitic=yes
+04P0102000201000000000000	Pp2-pn	Pronoun personal second plural nominative	Pronoun Type=personal Person=second Number=plural Case=nominative
+04P0102000202000001000000	Pp2-pd--n	Pronoun personal second plural dative -Clitic	Pronoun Type=personal Person=second Number=plural Case=dative Clitic=no
+04P0102000203000001000000	Pp2-pa--n	Pronoun personal second plural accusative -Clitic	Pronoun Type=personal Person=second Number=plural Case=accusative Clitic=no
+04P0102000203000002000000	Pp2-pa--y	Pronoun personal second plural accusative +Clitic	Pronoun Type=personal Person=second Number=plural Case=accusative Clitic=yes
+04P0103000201000000000000	Pp3-pn	Pronoun personal third plural nominative	Pronoun Type=personal Person=third Number=plural Case=nominative
+04P0103000202000001000000	Pp3-pd--n	Pronoun personal third plural dative -Clitic	Pronoun Type=personal Person=third Number=plural Case=dative Clitic=no
+04P0103000202000002000000	Pp3-pd--y	Pronoun personal third plural dative +Clitic	Pronoun Type=personal Person=third Number=plural Case=dative Clitic=yes
+04P0103000203000001000000	Pp3-pa--n	Pronoun personal third plural accusative -Clitic	Pronoun Type=personal Person=third Number=plural Case=accusative Clitic=no
+04P0103000203000002000000	Pp3-pa--y	Pronoun personal third plural accusative +Clitic	Pronoun Type=personal Person=third Number=plural Case=accusative Clitic=yes
+04P0103010101000000000000	Pp3msn	Pronoun personal third masculine singular nominative	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative
+04P0103010102000001000000	Pp3msd--n	Pronoun personal third masculine singular dative -Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=dative Clitic=no
+04P0103010102000002000000	Pp3msd--y	Pronoun personal third masculine singular dative +Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=dative Clitic=yes
+04P0103010103000001000000	Pp3msa--n	Pronoun personal third masculine singular accusative -Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative Clitic=no
+04P0103010103000002000000	Pp3msa--y	Pronoun personal third masculine singular accusative +Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative Clitic=yes
+04P0103020101000000000000	Pp3fsn	Pronoun personal third feminine singular nominative	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=nominative
+04P0103020102000002000000	Pp3fsd--y	Pronoun personal third feminine singular dative +Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=dative Clitic=yes
+04P0103020103000001000000	Pp3fsa--n	Pronoun personal third feminine singular accusative -Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Clitic=no
+04P0103020103000002000000	Pp3fsa--y	Pronoun personal third feminine singular accusative +Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Clitic=yes
+04P0103030101000000000000	Pp3nsn	Pronoun personal third neuter singular nominative	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=nominative
+04P0103030102000001000000	Pp3nsd--n	Pronoun personal third neuter singular dative -Clitic	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=dative Clitic=no
+04P0103030102000002000000	Pp3nsd--y	Pronoun personal third neuter singular dative +Clitic	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=dative Clitic=yes
+04P0103030103000001000000	Pp3nsa--n	Pronoun personal third neuter singular accusative -Clitic	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=accusative Clitic=no
+04P0103030103000002000000	Pp3nsa--y	Pronoun personal third neuter singular accusative +Clitic	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=accusative Clitic=yes
+04P0200000000000000040000	Pd-------q	Pronoun demonstrative quantitative	Pronoun Type=demonstrative Referent_Type=quantitative
+04P0200000200000000010000	Pd--p----p	Pronoun demonstrative plural personal	Pronoun Type=demonstrative Number=plural Referent_Type=personal
+04P0200010100000000010000	Pd-ms----p	Pronoun demonstrative masculine singular personal	Pronoun Type=demonstrative Gender=masculine Number=singular Referent_Type=personal
+04P0200020100000000010000	Pd-fs----p	Pronoun demonstrative feminine singular personal	Pronoun Type=demonstrative Gender=feminine Number=singular Referent_Type=personal
+04P0200030100000000010000	Pd-ns----p	Pronoun demonstrative neuter singular personal	Pronoun Type=demonstrative Gender=neuter Number=singular Referent_Type=personal
+04P0300000000000000040000	Pi-------q	Pronoun indefinite quantitative	Pronoun Type=indefinite Referent_Type=quantitative
+04P0300000101000001040002	Pi--sn--nq-y	Pronoun indefinite singular nominative -Clitic quantitative +Definiteness	Pronoun Type=indefinite Number=singular Case=nominative Clitic=no Referent_Type=quantitative Definiteness=yes
+04P0300000200000000010000	Pi--p----p	Pronoun indefinite plural personal	Pronoun Type=indefinite Number=plural Referent_Type=personal
+04P0300000200000000020000	Pi--p----s	Pronoun indefinite plural possessive	Pronoun Type=indefinite Number=plural Referent_Type=possessive
+04P0300000200000000030000	Pi--p----a	Pronoun indefinite plural attributive	Pronoun Type=indefinite Number=plural Referent_Type=attributive
+04P0300010100000000010000	Pi-ms----p	Pronoun indefinite masculine singular personal	Pronoun Type=indefinite Gender=masculine Number=singular Referent_Type=personal
+04P0300010100000000020000	Pi-ms----s	Pronoun indefinite masculine singular possessive	Pronoun Type=indefinite Gender=masculine Number=singular Referent_Type=possessive
+04P0300010100000000030000	Pi-ms----a	Pronoun indefinite masculine singular attributive	Pronoun Type=indefinite Gender=masculine Number=singular Referent_Type=attributive
+04P0300010101000000010000	Pi-msn---p	Pronoun indefinite masculine singular nominative personal	Pronoun Type=indefinite Gender=masculine Number=singular Case=nominative Referent_Type=personal
+04P0300010102000000010000	Pi-msd---p	Pronoun indefinite masculine singular dative personal	Pronoun Type=indefinite Gender=masculine Number=singular Case=dative Referent_Type=personal
+04P0300010103000000010000	Pi-msa---p	Pronoun indefinite masculine singular accusative personal	Pronoun Type=indefinite Gender=masculine Number=singular Case=accusative Referent_Type=personal
+04P0300020100000000010000	Pi-fs----p	Pronoun indefinite feminine singular personal	Pronoun Type=indefinite Gender=feminine Number=singular Referent_Type=personal
+04P0300020100000000020000	Pi-fs----s	Pronoun indefinite feminine singular possessive	Pronoun Type=indefinite Gender=feminine Number=singular Referent_Type=possessive
+04P0300020100000000030000	Pi-fs----a	Pronoun indefinite feminine singular attributive	Pronoun Type=indefinite Gender=feminine Number=singular Referent_Type=attributive
+04P0300020101000000010000	Pi-fsn---p	Pronoun indefinite feminine singular nominative personal	Pronoun Type=indefinite Gender=feminine Number=singular Case=nominative Referent_Type=personal
+04P0300030100000000010000	Pi-ns----p	Pronoun indefinite neuter singular personal	Pronoun Type=indefinite Gender=neuter Number=singular Referent_Type=personal
+04P0300030100000000020000	Pi-ns----s	Pronoun indefinite neuter singular possessive	Pronoun Type=indefinite Gender=neuter Number=singular Referent_Type=possessive
+04P0300030100000000030000	Pi-ns----a	Pronoun indefinite neuter singular attributive	Pronoun Type=indefinite Gender=neuter Number=singular Referent_Type=attributive
+04P0300030101000000010000	Pi-nsn---p	Pronoun indefinite neuter singular nominative personal	Pronoun Type=indefinite Gender=neuter Number=singular Case=nominative Referent_Type=personal
+04P0401000100000002000000	Ps1-s---y	Pronoun possessive first singular +Clitic	Pronoun Type=possessive Person=first Number=singular Clitic=yes
+04P0401000200000001000001	Ps1-p---n--n	Pronoun possessive first plural -Clitic -Definiteness	Pronoun Type=possessive Person=first Number=plural Clitic=no Definiteness=no
+04P0401000200000001000002	Ps1-p---n--y	Pronoun possessive first plural -Clitic +Definiteness	Pronoun Type=possessive Person=first Number=plural Clitic=no Definiteness=yes
+04P0401000200000002000000	Ps1-p---y	Pronoun possessive first plural +Clitic	Pronoun Type=possessive Person=first Number=plural Clitic=yes
+04P0401010100000001000001	Ps1ms---n--n	Pronoun possessive first masculine singular -Clitic -Definiteness	Pronoun Type=possessive Person=first Gender=masculine Number=singular Clitic=no Definiteness=no
+04P0401010100000001000003	Ps1ms---n--s	Pronoun possessive first masculine singular -Clitic short-art	Pronoun Type=possessive Person=first Gender=masculine Number=singular Clitic=no Definiteness=short-art
+04P0401010100000001000004	Ps1ms---n--f	Pronoun possessive first masculine singular -Clitic full-art	Pronoun Type=possessive Person=first Gender=masculine Number=singular Clitic=no Definiteness=full-art
+04P0401020100000001000001	Ps1fs---n--n	Pronoun possessive first feminine singular -Clitic -Definiteness	Pronoun Type=possessive Person=first Gender=feminine Number=singular Clitic=no Definiteness=no
+04P0401020100000001000002	Ps1fs---n--y	Pronoun possessive first feminine singular -Clitic +Definiteness	Pronoun Type=possessive Person=first Gender=feminine Number=singular Clitic=no Definiteness=yes
+04P0401030100000001000001	Ps1ns---n--n	Pronoun possessive first neuter singular -Clitic -Definiteness	Pronoun Type=possessive Person=first Gender=neuter Number=singular Clitic=no Definiteness=no
+04P0401030100000001000002	Ps1ns---n--y	Pronoun possessive first neuter singular -Clitic +Definiteness	Pronoun Type=possessive Person=first Gender=neuter Number=singular Clitic=no Definiteness=yes
+04P0402000100000002000000	Ps2-s---y	Pronoun possessive second singular +Clitic	Pronoun Type=possessive Person=second Number=singular Clitic=yes
+04P0402000200000001000001	Ps2-p---n--n	Pronoun possessive second plural -Clitic -Definiteness	Pronoun Type=possessive Person=second Number=plural Clitic=no Definiteness=no
+04P0402000200000001000002	Ps2-p---n--y	Pronoun possessive second plural -Clitic +Definiteness	Pronoun Type=possessive Person=second Number=plural Clitic=no Definiteness=yes
+04P0402000200000002000000	Ps2-p---y	Pronoun possessive second plural +Clitic	Pronoun Type=possessive Person=second Number=plural Clitic=yes
+04P0402010100000001000001	Ps2ms---n--n	Pronoun possessive second masculine singular -Clitic -Definiteness	Pronoun Type=possessive Person=second Gender=masculine Number=singular Clitic=no Definiteness=no
+04P0402010100000001000003	Ps2ms---n--s	Pronoun possessive second masculine singular -Clitic short-art	Pronoun Type=possessive Person=second Gender=masculine Number=singular Clitic=no Definiteness=short-art
+04P0402010100000001000004	Ps2ms---n--f	Pronoun possessive second masculine singular -Clitic full-art	Pronoun Type=possessive Person=second Gender=masculine Number=singular Clitic=no Definiteness=full-art
+04P0402020100000001000001	Ps2fs---n--n	Pronoun possessive second feminine singular -Clitic -Definiteness	Pronoun Type=possessive Person=second Gender=feminine Number=singular Clitic=no Definiteness=no
+04P0402020100000001000002	Ps2fs---n--y	Pronoun possessive second feminine singular -Clitic +Definiteness	Pronoun Type=possessive Person=second Gender=feminine Number=singular Clitic=no Definiteness=yes
+04P0402030100000001000001	Ps2ns---n--n	Pronoun possessive second neuter singular -Clitic -Definiteness	Pronoun Type=possessive Person=second Gender=neuter Number=singular Clitic=no Definiteness=no
+04P0402030100000001000002	Ps2ns---n--y	Pronoun possessive second neuter singular -Clitic +Definiteness	Pronoun Type=possessive Person=second Gender=neuter Number=singular Clitic=no Definiteness=yes
+04P0403000100000002000000	Ps3-s---y	Pronoun possessive third singular +Clitic	Pronoun Type=possessive Person=third Number=singular Clitic=yes
+04P0403000200000001000001	Ps3-p---n--n	Pronoun possessive third plural -Clitic -Definiteness	Pronoun Type=possessive Person=third Number=plural Clitic=no Definiteness=no
+04P0403000200000001000002	Ps3-p---n--y	Pronoun possessive third plural -Clitic +Definiteness	Pronoun Type=possessive Person=third Number=plural Clitic=no Definiteness=yes
+04P0403000200000002000000	Ps3-p---y	Pronoun possessive third plural +Clitic	Pronoun Type=possessive Person=third Number=plural Clitic=yes
+04P0403010100000001000001	Ps3ms---n--n	Pronoun possessive third masculine singular -Clitic -Definiteness	Pronoun Type=possessive Person=third Gender=masculine Number=singular Clitic=no Definiteness=no
+04P0403010100000001000003	Ps3ms---n--s	Pronoun possessive third masculine singular -Clitic short-art	Pronoun Type=possessive Person=third Gender=masculine Number=singular Clitic=no Definiteness=short-art
+04P0403010100000001000004	Ps3ms---n--f	Pronoun possessive third masculine singular -Clitic full-art	Pronoun Type=possessive Person=third Gender=masculine Number=singular Clitic=no Definiteness=full-art
+04P0403020100000001000001	Ps3fs---n--n	Pronoun possessive third feminine singular -Clitic -Definiteness	Pronoun Type=possessive Person=third Gender=feminine Number=singular Clitic=no Definiteness=no
+04P0403020100000001000002	Ps3fs---n--y	Pronoun possessive third feminine singular -Clitic +Definiteness	Pronoun Type=possessive Person=third Gender=feminine Number=singular Clitic=no Definiteness=yes
+04P0403030100000001000001	Ps3ns---n--n	Pronoun possessive third neuter singular -Clitic -Definiteness	Pronoun Type=possessive Person=third Gender=neuter Number=singular Clitic=no Definiteness=no
+04P0403030100000001000002	Ps3ns---n--y	Pronoun possessive third neuter singular -Clitic +Definiteness	Pronoun Type=possessive Person=third Gender=neuter Number=singular Clitic=no Definiteness=yes
+04P0500000000000000040000	Pq-------q	Pronoun interrogative quantitative	Pronoun Type=interrogative Referent_Type=quantitative
+04P0500000200000000010000	Pq--p----p	Pronoun interrogative plural personal	Pronoun Type=interrogative Number=plural Referent_Type=personal
+04P0500000200000000020000	Pq--p----s	Pronoun interrogative plural possessive	Pronoun Type=interrogative Number=plural Referent_Type=possessive
+04P0500000200000000030000	Pq--p----a	Pronoun interrogative plural attributive	Pronoun Type=interrogative Number=plural Referent_Type=attributive
+04P0500010100000000020000	Pq-ms----s	Pronoun interrogative masculine singular possessive	Pronoun Type=interrogative Gender=masculine Number=singular Referent_Type=possessive
+04P0500010100000000030000	Pq-ms----a	Pronoun interrogative masculine singular attributive	Pronoun Type=interrogative Gender=masculine Number=singular Referent_Type=attributive
+04P0500010101000000010000	Pq-msn---p	Pronoun interrogative masculine singular nominative personal	Pronoun Type=interrogative Gender=masculine Number=singular Case=nominative Referent_Type=personal
+04P0500010102000000010000	Pq-msd---p	Pronoun interrogative masculine singular dative personal	Pronoun Type=interrogative Gender=masculine Number=singular Case=dative Referent_Type=personal
+04P0500010103000000010000	Pq-msa---p	Pronoun interrogative masculine singular accusative personal	Pronoun Type=interrogative Gender=masculine Number=singular Case=accusative Referent_Type=personal
+04P0500020100000000010000	Pq-fs----p	Pronoun interrogative feminine singular personal	Pronoun Type=interrogative Gender=feminine Number=singular Referent_Type=personal
+04P0500020100000000020000	Pq-fs----s	Pronoun interrogative feminine singular possessive	Pronoun Type=interrogative Gender=feminine Number=singular Referent_Type=possessive
+04P0500020100000000030000	Pq-fs----a	Pronoun interrogative feminine singular attributive	Pronoun Type=interrogative Gender=feminine Number=singular Referent_Type=attributive
+04P0500030100000000010000	Pq-ns----p	Pronoun interrogative neuter singular personal	Pronoun Type=interrogative Gender=neuter Number=singular Referent_Type=personal
+04P0500030100000000030000	Pq-ns----a	Pronoun interrogative neuter singular attributive	Pronoun Type=interrogative Gender=neuter Number=singular Referent_Type=attributive
+04P0600000000000000040000	Pr-------q	Pronoun relative quantitative	Pronoun Type=relative Referent_Type=quantitative
+04P0600000200000000010000	Pr--p----p	Pronoun relative plural personal	Pronoun Type=relative Number=plural Referent_Type=personal
+04P0600000200000000020000	Pr--p----s	Pronoun relative plural possessive	Pronoun Type=relative Number=plural Referent_Type=possessive
+04P0600000200000000030000	Pr--p----a	Pronoun relative plural attributive	Pronoun Type=relative Number=plural Referent_Type=attributive
+04P0600010100000000020000	Pr-ms----s	Pronoun relative masculine singular possessive	Pronoun Type=relative Gender=masculine Number=singular Referent_Type=possessive
+04P0600010100000000030000	Pr-ms----a	Pronoun relative masculine singular attributive	Pronoun Type=relative Gender=masculine Number=singular Referent_Type=attributive
+04P0600010101000000010000	Pr-msn---p	Pronoun relative masculine singular nominative personal	Pronoun Type=relative Gender=masculine Number=singular Case=nominative Referent_Type=personal
+04P0600010102000000010000	Pr-msd---p	Pronoun relative masculine singular dative personal	Pronoun Type=relative Gender=masculine Number=singular Case=dative Referent_Type=personal
+04P0600010103000000010000	Pr-msa---p	Pronoun relative masculine singular accusative personal	Pronoun Type=relative Gender=masculine Number=singular Case=accusative Referent_Type=personal
+04P0600020100000000010000	Pr-fs----p	Pronoun relative feminine singular personal	Pronoun Type=relative Gender=feminine Number=singular Referent_Type=personal
+04P0600020100000000020000	Pr-fs----s	Pronoun relative feminine singular possessive	Pronoun Type=relative Gender=feminine Number=singular Referent_Type=possessive
+04P0600020100000000030000	Pr-fs----a	Pronoun relative feminine singular attributive	Pronoun Type=relative Gender=feminine Number=singular Referent_Type=attributive
+04P0600030100000000010000	Pr-ns----p	Pronoun relative neuter singular personal	Pronoun Type=relative Gender=neuter Number=singular Referent_Type=personal
+04P0600030100000000020000	Pr-ns----s	Pronoun relative neuter singular possessive	Pronoun Type=relative Gender=neuter Number=singular Referent_Type=possessive
+04P0600030100000000030000	Pr-ns----a	Pronoun relative neuter singular attributive	Pronoun Type=relative Gender=neuter Number=singular Referent_Type=attributive
+04P0700000000000002020000	Px------ys	Pronoun reflexive +Clitic possessive	Pronoun Type=reflexive Clitic=yes Referent_Type=possessive
+04P0700000002000001010000	Px---d--np	Pronoun reflexive dative -Clitic personal	Pronoun Type=reflexive Case=dative Clitic=no Referent_Type=personal
+04P0700000002000002010000	Px---d--yp	Pronoun reflexive dative +Clitic personal	Pronoun Type=reflexive Case=dative Clitic=yes Referent_Type=personal
+04P0700000003000001010000	Px---a--np	Pronoun reflexive accusative -Clitic personal	Pronoun Type=reflexive Case=accusative Clitic=no Referent_Type=personal
+04P0700000003000002010000	Px---a--yp	Pronoun reflexive accusative +Clitic personal	Pronoun Type=reflexive Case=accusative Clitic=yes Referent_Type=personal
+04P0700000200000001020001	Px--p---ns-n	Pronoun reflexive plural -Clitic possessive -Definiteness	Pronoun Type=reflexive Number=plural Clitic=no Referent_Type=possessive Definiteness=no
+04P0700000200000001020002	Px--p---ns-y	Pronoun reflexive plural -Clitic possessive +Definiteness	Pronoun Type=reflexive Number=plural Clitic=no Referent_Type=possessive Definiteness=yes
+04P0700010100000001020001	Px-ms---ns-n	Pronoun reflexive masculine singular -Clitic possessive -Definiteness	Pronoun Type=reflexive Gender=masculine Number=singular Clitic=no Referent_Type=possessive Definiteness=no
+04P0700010100000001020003	Px-ms---ns-s	Pronoun reflexive masculine singular -Clitic possessive short-art	Pronoun Type=reflexive Gender=masculine Number=singular Clitic=no Referent_Type=possessive Definiteness=short-art
+04P0700010100000001020004	Px-ms---ns-f	Pronoun reflexive masculine singular -Clitic possessive full-art	Pronoun Type=reflexive Gender=masculine Number=singular Clitic=no Referent_Type=possessive Definiteness=full-art
+04P0700020100000001020001	Px-fs---ns-n	Pronoun reflexive feminine singular -Clitic possessive -Definiteness	Pronoun Type=reflexive Gender=feminine Number=singular Clitic=no Referent_Type=possessive Definiteness=no
+04P0700020100000001020002	Px-fs---ns-y	Pronoun reflexive feminine singular -Clitic possessive +Definiteness	Pronoun Type=reflexive Gender=feminine Number=singular Clitic=no Referent_Type=possessive Definiteness=yes
+04P0700030100000001020001	Px-ns---ns-n	Pronoun reflexive neuter singular -Clitic possessive -Definiteness	Pronoun Type=reflexive Gender=neuter Number=singular Clitic=no Referent_Type=possessive Definiteness=no
+04P0700030100000001020002	Px-ns---ns-y	Pronoun reflexive neuter singular -Clitic possessive +Definiteness	Pronoun Type=reflexive Gender=neuter Number=singular Clitic=no Referent_Type=possessive Definiteness=yes
+04P0800000000000000040000	Pz-------q	Pronoun negative quantitative	Pronoun Type=negative Referent_Type=quantitative
+04P0800000200000000030000	Pz--p----a	Pronoun negative plural attributive	Pronoun Type=negative Number=plural Referent_Type=attributive
+04P0800010100000000020000	Pz-ms----s	Pronoun negative masculine singular possessive	Pronoun Type=negative Gender=masculine Number=singular Referent_Type=possessive
+04P0800010100000000030000	Pz-ms----a	Pronoun negative masculine singular attributive	Pronoun Type=negative Gender=masculine Number=singular Referent_Type=attributive
+04P0800010101000000010000	Pz-msn---p	Pronoun negative masculine singular nominative personal	Pronoun Type=negative Gender=masculine Number=singular Case=nominative Referent_Type=personal
+04P0800010102000000010000	Pz-msd---p	Pronoun negative masculine singular dative personal	Pronoun Type=negative Gender=masculine Number=singular Case=dative Referent_Type=personal
+04P0800010103000000010000	Pz-msa---p	Pronoun negative masculine singular accusative personal	Pronoun Type=negative Gender=masculine Number=singular Case=accusative Referent_Type=personal
+04P0800020100000000010000	Pz-fs----p	Pronoun negative feminine singular personal	Pronoun Type=negative Gender=feminine Number=singular Referent_Type=personal
+04P0800020100000000030000	Pz-fs----a	Pronoun negative feminine singular attributive	Pronoun Type=negative Gender=feminine Number=singular Referent_Type=attributive
+04P0800030100000000030000	Pz-ns----a	Pronoun negative neuter singular attributive	Pronoun Type=negative Gender=neuter Number=singular Referent_Type=attributive
+04P0900000200000000010000	Pg--p----p	Pronoun general plural personal	Pronoun Type=general Number=plural Referent_Type=personal
+04P0900000200000000030000	Pg--p----a	Pronoun general plural attributive	Pronoun Type=general Number=plural Referent_Type=attributive
+04P0900000200000000040001	Pg--p----q-n	Pronoun general plural quantitative -Definiteness	Pronoun Type=general Number=plural Referent_Type=quantitative Definiteness=no
+04P0900000200000000040002	Pg--p----q-y	Pronoun general plural quantitative +Definiteness	Pronoun Type=general Number=plural Referent_Type=quantitative Definiteness=yes
+04P0900010100000000030000	Pg-ms----a	Pronoun general masculine singular attributive	Pronoun Type=general Gender=masculine Number=singular Referent_Type=attributive
+04P0900010100000000040003	Pg-ms----q-s	Pronoun general masculine singular quantitative short-art	Pronoun Type=general Gender=masculine Number=singular Referent_Type=quantitative Definiteness=short-art
+04P0900010100000000040004	Pg-ms----q-f	Pronoun general masculine singular quantitative full-art	Pronoun Type=general Gender=masculine Number=singular Referent_Type=quantitative Definiteness=full-art
+04P0900010101000000010000	Pg-msn---p	Pronoun general masculine singular nominative personal	Pronoun Type=general Gender=masculine Number=singular Case=nominative Referent_Type=personal
+04P0900010101000001030000	Pg-msn--na	Pronoun general masculine singular nominative -Clitic attributive	Pronoun Type=general Gender=masculine Number=singular Case=nominative Clitic=no Referent_Type=attributive
+04P0900010102000000010000	Pg-msd---p	Pronoun general masculine singular dative personal	Pronoun Type=general Gender=masculine Number=singular Case=dative Referent_Type=personal
+04P0900010103000000010000	Pg-msa---p	Pronoun general masculine singular accusative personal	Pronoun Type=general Gender=masculine Number=singular Case=accusative Referent_Type=personal
+04P0900020100000000010000	Pg-fs----p	Pronoun general feminine singular personal	Pronoun Type=general Gender=feminine Number=singular Referent_Type=personal
+04P0900020100000000030000	Pg-fs----a	Pronoun general feminine singular attributive	Pronoun Type=general Gender=feminine Number=singular Referent_Type=attributive
+04P0900020100000000040001	Pg-fs----q-n	Pronoun general feminine singular quantitative -Definiteness	Pronoun Type=general Gender=feminine Number=singular Referent_Type=quantitative Definiteness=no
+04P0900020100000000040002	Pg-fs----q-y	Pronoun general feminine singular quantitative +Definiteness	Pronoun Type=general Gender=feminine Number=singular Referent_Type=quantitative Definiteness=yes
+04P0900030100000000010000	Pg-ns----p	Pronoun general neuter singular personal	Pronoun Type=general Gender=neuter Number=singular Referent_Type=personal
+04P0900030100000000030000	Pg-ns----a	Pronoun general neuter singular attributive	Pronoun Type=general Gender=neuter Number=singular Referent_Type=attributive
+04P0900030100000000040001	Pg-ns----q-n	Pronoun general neuter singular quantitative -Definiteness	Pronoun Type=general Gender=neuter Number=singular Referent_Type=quantitative Definiteness=no
+04P0900030100000000040002	Pg-ns----q-y	Pronoun general neuter singular quantitative +Definiteness	Pronoun Type=general Gender=neuter Number=singular Referent_Type=quantitative Definiteness=yes
+05R01	Rg	Adverb general	Adverb Type=general
+05R02	Ra	Adverb adjectival	Adverb Type=adjectival
+06S01	Sp	Adposition preposition	Adposition Type=preposition
+07C0101	Ccs	Conjunction coordinating simple	Conjunction Type=coordinating Formation=simple
+07C0102	Ccc	Conjunction coordinating compound	Conjunction Type=coordinating Formation=compound
+07C0201	Css	Conjunction subordinating simple	Conjunction Type=subordinating Formation=simple
+07C0202	Csc	Conjunction subordinating compound	Conjunction Type=subordinating Formation=compound
+08M010000000100	Mc---d	Numeral cardinal digit	Numeral Type=cardinal Form=digit
+08M010000000200	Mc---r	Numeral cardinal roman	Numeral Type=cardinal Form=roman
+08M010002000301	Mc-p-ln	Numeral cardinal plural letter -Definiteness	Numeral Type=cardinal Number=plural Form=letter Definiteness=no
+08M010002000302	Mc-p-ly	Numeral cardinal plural letter +Definiteness	Numeral Type=cardinal Number=plural Form=letter Definiteness=yes
+08M010002000501	Mc-p-an	Numeral cardinal plural approx -Definiteness	Numeral Type=cardinal Number=plural Form=approx Definiteness=no
+08M010002000502	Mc-p-ay	Numeral cardinal plural approx +Definiteness	Numeral Type=cardinal Number=plural Form=approx Definiteness=yes
+08M010101000301	Mcms-ln	Numeral cardinal masculine singular letter -Definiteness	Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=no
+08M010101000303	Mcms-ls	Numeral cardinal masculine singular letter short-art	Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=short-art
+08M010101000304	Mcms-lf	Numeral cardinal masculine singular letter full-art	Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=full-art
+08M010102000301	Mcmp-ln	Numeral cardinal masculine plural letter -Definiteness	Numeral Type=cardinal Gender=masculine Number=plural Form=letter Definiteness=no
+08M010102000302	Mcmp-ly	Numeral cardinal masculine plural letter +Definiteness	Numeral Type=cardinal Gender=masculine Number=plural Form=letter Definiteness=yes
+08M010102000401	Mcmp-mn	Numeral cardinal masculine plural m-form -Definiteness	Numeral Type=cardinal Gender=masculine Number=plural Form=m-form Definiteness=no
+08M010102000402	Mcmp-my	Numeral cardinal masculine plural m-form +Definiteness	Numeral Type=cardinal Gender=masculine Number=plural Form=m-form Definiteness=yes
+08M010201000301	Mcfs-ln	Numeral cardinal feminine singular letter -Definiteness	Numeral Type=cardinal Gender=feminine Number=singular Form=letter Definiteness=no
+08M010202000301	Mcfp-ln	Numeral cardinal feminine plural letter -Definiteness	Numeral Type=cardinal Gender=feminine Number=plural Form=letter Definiteness=no
+08M010301000301	Mcns-ln	Numeral cardinal neuter singular letter -Definiteness	Numeral Type=cardinal Gender=neuter Number=singular Form=letter Definiteness=no
+08M010301000302	Mcns-ly	Numeral cardinal neuter singular letter +Definiteness	Numeral Type=cardinal Gender=neuter Number=singular Form=letter Definiteness=yes
+08M010302000301	Mcnp-ln	Numeral cardinal neuter plural letter -Definiteness	Numeral Type=cardinal Gender=neuter Number=plural Form=letter Definiteness=no
+08M020002000001	Mo-p--n	Numeral ordinal plural -Definiteness	Numeral Type=ordinal Number=plural Definiteness=no
+08M020002000002	Mo-p--y	Numeral ordinal plural +Definiteness	Numeral Type=ordinal Number=plural Definiteness=yes
+08M020101000001	Moms--n	Numeral ordinal masculine singular -Definiteness	Numeral Type=ordinal Gender=masculine Number=singular Definiteness=no
+08M020101000003	Moms--s	Numeral ordinal masculine singular short-art	Numeral Type=ordinal Gender=masculine Number=singular Definiteness=short-art
+08M020101000004	Moms--f	Numeral ordinal masculine singular full-art	Numeral Type=ordinal Gender=masculine Number=singular Definiteness=full-art
+08M020201000001	Mofs--n	Numeral ordinal feminine singular -Definiteness	Numeral Type=ordinal Gender=feminine Number=singular Definiteness=no
+08M020201000002	Mofs--y	Numeral ordinal feminine singular +Definiteness	Numeral Type=ordinal Gender=feminine Number=singular Definiteness=yes
+08M020301000001	Mons--n	Numeral ordinal neuter singular -Definiteness	Numeral Type=ordinal Gender=neuter Number=singular Definiteness=no
+08M020301000002	Mons--y	Numeral ordinal neuter singular +Definiteness	Numeral Type=ordinal Gender=neuter Number=singular Definiteness=yes
+09Q0101	Qzs	Particle negative simple	Particle Type=negative Formation=simple
+09Q0201	Qgs	Particle general simple	Particle Type=general Formation=simple
+09Q0202	Qgc	Particle general compound	Particle Type=general Formation=compound
+09Q0301	Qcs	Particle comparative simple	Particle Type=comparative Formation=simple
+09Q0401	Qvs	Particle verbal simple	Particle Type=verbal Formation=simple
+09Q0501	Qqs	Particle interrogative simple	Particle Type=interrogative Formation=simple
+09Q0601	Qos	Particle modal simple	Particle Type=modal Formation=simple
+10I0001	I-s	Interjection simple	Interjection Formation=simple
+10I0002	I-c	Interjection compound	Interjection Formation=compound
+11Y	Y	Abbreviation	Abbreviation
+12X	X	Residual	Residual
+13Z	Z	Punctuation	Punctuation

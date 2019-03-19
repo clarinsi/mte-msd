@@ -1,0 +1,617 @@
+01N010000000100	Nc---n	Noun common -Definiteness	Noun Type=common Definiteness=no
+01N010001000102	Nc-s-ny	Noun common singular -Definiteness +Clitic	Noun Type=common Number=singular Definiteness=no Clitic=yes
+01N010100000100	Ncm--n	Noun common masculine -Definiteness	Noun Type=common Gender=masculine Definiteness=no
+01N010101000100	Ncms-n	Noun common masculine singular -Definiteness	Noun Type=common Gender=masculine Number=singular Definiteness=no
+01N010101000102	Ncms-ny	Noun common masculine singular -Definiteness +Clitic	Noun Type=common Gender=masculine Number=singular Definiteness=no Clitic=yes
+01N010101010100	Ncmsvn	Noun common masculine singular vocative -Definiteness	Noun Type=common Gender=masculine Number=singular Case=vocative Definiteness=no
+01N010101010102	Ncmsvny	Noun common masculine singular vocative -Definiteness +Clitic	Noun Type=common Gender=masculine Number=singular Case=vocative Definiteness=no Clitic=yes
+01N010101010200	Ncmsvy	Noun common masculine singular vocative +Definiteness	Noun Type=common Gender=masculine Number=singular Case=vocative Definiteness=yes
+01N010101020200	Ncmsry	Noun common masculine singular direct +Definiteness	Noun Type=common Gender=masculine Number=singular Case=direct Definiteness=yes
+01N010101020202	Ncmsryy	Noun common masculine singular direct +Definiteness +Clitic	Noun Type=common Gender=masculine Number=singular Case=direct Definiteness=yes Clitic=yes
+01N010101030200	Ncmsoy	Noun common masculine singular oblique +Definiteness	Noun Type=common Gender=masculine Number=singular Case=oblique Definiteness=yes
+01N010101030202	Ncmsoyy	Noun common masculine singular oblique +Definiteness +Clitic	Noun Type=common Gender=masculine Number=singular Case=oblique Definiteness=yes Clitic=yes
+01N010102000100	Ncmp-n	Noun common masculine plural -Definiteness	Noun Type=common Gender=masculine Number=plural Definiteness=no
+01N010102000102	Ncmp-ny	Noun common masculine plural -Definiteness +Clitic	Noun Type=common Gender=masculine Number=plural Definiteness=no Clitic=yes
+01N010102010200	Ncmpvy	Noun common masculine plural vocative +Definiteness	Noun Type=common Gender=masculine Number=plural Case=vocative Definiteness=yes
+01N010102020200	Ncmpry	Noun common masculine plural direct +Definiteness	Noun Type=common Gender=masculine Number=plural Case=direct Definiteness=yes
+01N010102020202	Ncmpryy	Noun common masculine plural direct +Definiteness +Clitic	Noun Type=common Gender=masculine Number=plural Case=direct Definiteness=yes Clitic=yes
+01N010102030200	Ncmpoy	Noun common masculine plural oblique +Definiteness	Noun Type=common Gender=masculine Number=plural Case=oblique Definiteness=yes
+01N010102030202	Ncmpoyy	Noun common masculine plural oblique +Definiteness +Clitic	Noun Type=common Gender=masculine Number=plural Case=oblique Definiteness=yes Clitic=yes
+01N010200000100	Ncf--n	Noun common feminine -Definiteness	Noun Type=common Gender=feminine Definiteness=no
+01N010200000102	Ncf--ny	Noun common feminine -Definiteness +Clitic	Noun Type=common Gender=feminine Definiteness=no Clitic=yes
+01N010201000100	Ncfs-n	Noun common feminine singular -Definiteness	Noun Type=common Gender=feminine Number=singular Definiteness=no
+01N010201010200	Ncfsvy	Noun common feminine singular vocative +Definiteness	Noun Type=common Gender=feminine Number=singular Case=vocative Definiteness=yes
+01N010201020100	Ncfsrn	Noun common feminine singular direct -Definiteness	Noun Type=common Gender=feminine Number=singular Case=direct Definiteness=no
+01N010201020102	Ncfsrny	Noun common feminine singular direct -Definiteness +Clitic	Noun Type=common Gender=feminine Number=singular Case=direct Definiteness=no Clitic=yes
+01N010201020200	Ncfsry	Noun common feminine singular direct +Definiteness	Noun Type=common Gender=feminine Number=singular Case=direct Definiteness=yes
+01N010201020202	Ncfsryy	Noun common feminine singular direct +Definiteness +Clitic	Noun Type=common Gender=feminine Number=singular Case=direct Definiteness=yes Clitic=yes
+01N010201030100	Ncfson	Noun common feminine singular oblique -Definiteness	Noun Type=common Gender=feminine Number=singular Case=oblique Definiteness=no
+01N010201030102	Ncfsony	Noun common feminine singular oblique -Definiteness +Clitic	Noun Type=common Gender=feminine Number=singular Case=oblique Definiteness=no Clitic=yes
+01N010201030200	Ncfsoy	Noun common feminine singular oblique +Definiteness	Noun Type=common Gender=feminine Number=singular Case=oblique Definiteness=yes
+01N010201030202	Ncfsoyy	Noun common feminine singular oblique +Definiteness +Clitic	Noun Type=common Gender=feminine Number=singular Case=oblique Definiteness=yes Clitic=yes
+01N010202000100	Ncfp-n	Noun common feminine plural -Definiteness	Noun Type=common Gender=feminine Number=plural Definiteness=no
+01N010202000102	Ncfp-ny	Noun common feminine plural -Definiteness +Clitic	Noun Type=common Gender=feminine Number=plural Definiteness=no Clitic=yes
+01N010202010200	Ncfpvy	Noun common feminine plural vocative +Definiteness	Noun Type=common Gender=feminine Number=plural Case=vocative Definiteness=yes
+01N010202020200	Ncfpry	Noun common feminine plural direct +Definiteness	Noun Type=common Gender=feminine Number=plural Case=direct Definiteness=yes
+01N010202020202	Ncfpryy	Noun common feminine plural direct +Definiteness +Clitic	Noun Type=common Gender=feminine Number=plural Case=direct Definiteness=yes Clitic=yes
+01N010202030200	Ncfpoy	Noun common feminine plural oblique +Definiteness	Noun Type=common Gender=feminine Number=plural Case=oblique Definiteness=yes
+01N010202030202	Ncfpoyy	Noun common feminine plural oblique +Definiteness +Clitic	Noun Type=common Gender=feminine Number=plural Case=oblique Definiteness=yes Clitic=yes
+01N020000000000	Np	Noun proper	Noun Type=proper
+01N020101010100	Npmsvn	Noun proper masculine singular vocative -Definiteness	Noun Type=proper Gender=masculine Number=singular Case=vocative Definiteness=no
+01N020101010200	Npmsvy	Noun proper masculine singular vocative +Definiteness	Noun Type=proper Gender=masculine Number=singular Case=vocative Definiteness=yes
+01N020101020200	Npmsry	Noun proper masculine singular direct +Definiteness	Noun Type=proper Gender=masculine Number=singular Case=direct Definiteness=yes
+01N020101030200	Npmsoy	Noun proper masculine singular oblique +Definiteness	Noun Type=proper Gender=masculine Number=singular Case=oblique Definiteness=yes
+01N020102000100	Npmp-n	Noun proper masculine plural -Definiteness	Noun Type=proper Gender=masculine Number=plural Definiteness=no
+01N020102020200	Npmpry	Noun proper masculine plural direct +Definiteness	Noun Type=proper Gender=masculine Number=plural Case=direct Definiteness=yes
+01N020102030200	Npmpoy	Noun proper masculine plural oblique +Definiteness	Noun Type=proper Gender=masculine Number=plural Case=oblique Definiteness=yes
+01N020201010200	Npfsvy	Noun proper feminine singular vocative +Definiteness	Noun Type=proper Gender=feminine Number=singular Case=vocative Definiteness=yes
+01N020201020100	Npfsrn	Noun proper feminine singular direct -Definiteness	Noun Type=proper Gender=feminine Number=singular Case=direct Definiteness=no
+01N020201020200	Npfsry	Noun proper feminine singular direct +Definiteness	Noun Type=proper Gender=feminine Number=singular Case=direct Definiteness=yes
+01N020201030100	Npfson	Noun proper feminine singular oblique -Definiteness	Noun Type=proper Gender=feminine Number=singular Case=oblique Definiteness=no
+01N020201030200	Npfsoy	Noun proper feminine singular oblique +Definiteness	Noun Type=proper Gender=feminine Number=singular Case=oblique Definiteness=yes
+01N020202000100	Npfp-n	Noun proper feminine plural -Definiteness	Noun Type=proper Gender=feminine Number=plural Definiteness=no
+01N020202020200	Npfpry	Noun proper feminine plural direct +Definiteness	Noun Type=proper Gender=feminine Number=plural Case=direct Definiteness=yes
+01N020202030200	Npfpoy	Noun proper feminine plural oblique +Definiteness	Noun Type=proper Gender=feminine Number=plural Case=oblique Definiteness=yes
+02V01010101010000000000	Vmip1s	Verb main indicative present first singular	Verb Type=main VForm=indicative Tense=present Person=first Number=singular
+02V01010101010000000002	Vmip1s----y	Verb main indicative present first singular +Clitic	Verb Type=main VForm=indicative Tense=present Person=first Number=singular Clitic=yes
+02V01010101020000000000	Vmip1p	Verb main indicative present first plural	Verb Type=main VForm=indicative Tense=present Person=first Number=plural
+02V01010101020000000002	Vmip1p----y	Verb main indicative present first plural +Clitic	Verb Type=main VForm=indicative Tense=present Person=first Number=plural Clitic=yes
+02V01010102010000000000	Vmip2s	Verb main indicative present second singular	Verb Type=main VForm=indicative Tense=present Person=second Number=singular
+02V01010102010000000002	Vmip2s----y	Verb main indicative present second singular +Clitic	Verb Type=main VForm=indicative Tense=present Person=second Number=singular Clitic=yes
+02V01010102020000000000	Vmip2p	Verb main indicative present second plural	Verb Type=main VForm=indicative Tense=present Person=second Number=plural
+02V01010102020000000002	Vmip2p----y	Verb main indicative present second plural +Clitic	Verb Type=main VForm=indicative Tense=present Person=second Number=plural Clitic=yes
+02V01010103000000000000	Vmip3	Verb main indicative present third	Verb Type=main VForm=indicative Tense=present Person=third
+02V01010103000000000002	Vmip3-----y	Verb main indicative present third +Clitic	Verb Type=main VForm=indicative Tense=present Person=third Clitic=yes
+02V01010103010000000000	Vmip3s	Verb main indicative present third singular	Verb Type=main VForm=indicative Tense=present Person=third Number=singular
+02V01010103010000000002	Vmip3s----y	Verb main indicative present third singular +Clitic	Verb Type=main VForm=indicative Tense=present Person=third Number=singular Clitic=yes
+02V01010103020000000000	Vmip3p	Verb main indicative present third plural	Verb Type=main VForm=indicative Tense=present Person=third Number=plural
+02V01010103020000000002	Vmip3p----y	Verb main indicative present third plural +Clitic	Verb Type=main VForm=indicative Tense=present Person=third Number=plural Clitic=yes
+02V01010201000000000000	Vmii1	Verb main indicative imperfect first	Verb Type=main VForm=indicative Tense=imperfect Person=first
+02V01010201000000000002	Vmii1-----y	Verb main indicative imperfect first +Clitic	Verb Type=main VForm=indicative Tense=imperfect Person=first Clitic=yes
+02V01010201010000000000	Vmii1s	Verb main indicative imperfect first singular	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=singular
+02V01010201020000000000	Vmii1p	Verb main indicative imperfect first plural	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=plural
+02V01010202010000000000	Vmii2s	Verb main indicative imperfect second singular	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular
+02V01010202010000000002	Vmii2s----y	Verb main indicative imperfect second singular +Clitic	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular Clitic=yes
+02V01010202020000000000	Vmii2p	Verb main indicative imperfect second plural	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural
+02V01010202020000000002	Vmii2p----y	Verb main indicative imperfect second plural +Clitic	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural Clitic=yes
+02V01010203010000000000	Vmii3s	Verb main indicative imperfect third singular	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular
+02V01010203010000000002	Vmii3s----y	Verb main indicative imperfect third singular +Clitic	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular Clitic=yes
+02V01010203020000000000	Vmii3p	Verb main indicative imperfect third plural	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural
+02V01010203020000000002	Vmii3p----y	Verb main indicative imperfect third plural +Clitic	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural Clitic=yes
+02V01010301010000000000	Vmis1s	Verb main indicative past first singular	Verb Type=main VForm=indicative Tense=past Person=first Number=singular
+02V01010301010000000002	Vmis1s----y	Verb main indicative past first singular +Clitic	Verb Type=main VForm=indicative Tense=past Person=first Number=singular Clitic=yes
+02V01010301020000000000	Vmis1p	Verb main indicative past first plural	Verb Type=main VForm=indicative Tense=past Person=first Number=plural
+02V01010301020000000002	Vmis1p----y	Verb main indicative past first plural +Clitic	Verb Type=main VForm=indicative Tense=past Person=first Number=plural Clitic=yes
+02V01010302010000000000	Vmis2s	Verb main indicative past second singular	Verb Type=main VForm=indicative Tense=past Person=second Number=singular
+02V01010302010000000002	Vmis2s----y	Verb main indicative past second singular +Clitic	Verb Type=main VForm=indicative Tense=past Person=second Number=singular Clitic=yes
+02V01010302020000000000	Vmis2p	Verb main indicative past second plural	Verb Type=main VForm=indicative Tense=past Person=second Number=plural
+02V01010302020000000002	Vmis2p----y	Verb main indicative past second plural +Clitic	Verb Type=main VForm=indicative Tense=past Person=second Number=plural Clitic=yes
+02V01010303010000000000	Vmis3s	Verb main indicative past third singular	Verb Type=main VForm=indicative Tense=past Person=third Number=singular
+02V01010303010000000002	Vmis3s----y	Verb main indicative past third singular +Clitic	Verb Type=main VForm=indicative Tense=past Person=third Number=singular Clitic=yes
+02V01010303020000000000	Vmis3p	Verb main indicative past third plural	Verb Type=main VForm=indicative Tense=past Person=third Number=plural
+02V01010303020000000002	Vmis3p----y	Verb main indicative past third plural +Clitic	Verb Type=main VForm=indicative Tense=past Person=third Number=plural Clitic=yes
+02V01010401010000000000	Vmil1s	Verb main indicative pluperfect first singular	Verb Type=main VForm=indicative Tense=pluperfect Person=first Number=singular
+02V01010401010000000002	Vmil1s----y	Verb main indicative pluperfect first singular +Clitic	Verb Type=main VForm=indicative Tense=pluperfect Person=first Number=singular Clitic=yes
+02V01010401020000000000	Vmil1p	Verb main indicative pluperfect first plural	Verb Type=main VForm=indicative Tense=pluperfect Person=first Number=plural
+02V01010401020000000002	Vmil1p----y	Verb main indicative pluperfect first plural +Clitic	Verb Type=main VForm=indicative Tense=pluperfect Person=first Number=plural Clitic=yes
+02V01010402010000000000	Vmil2s	Verb main indicative pluperfect second singular	Verb Type=main VForm=indicative Tense=pluperfect Person=second Number=singular
+02V01010402010000000002	Vmil2s----y	Verb main indicative pluperfect second singular +Clitic	Verb Type=main VForm=indicative Tense=pluperfect Person=second Number=singular Clitic=yes
+02V01010402020000000000	Vmil2p	Verb main indicative pluperfect second plural	Verb Type=main VForm=indicative Tense=pluperfect Person=second Number=plural
+02V01010402020000000002	Vmil2p----y	Verb main indicative pluperfect second plural +Clitic	Verb Type=main VForm=indicative Tense=pluperfect Person=second Number=plural Clitic=yes
+02V01010403010000000000	Vmil3s	Verb main indicative pluperfect third singular	Verb Type=main VForm=indicative Tense=pluperfect Person=third Number=singular
+02V01010403010000000002	Vmil3s----y	Verb main indicative pluperfect third singular +Clitic	Verb Type=main VForm=indicative Tense=pluperfect Person=third Number=singular Clitic=yes
+02V01010403020000000000	Vmil3p	Verb main indicative pluperfect third plural	Verb Type=main VForm=indicative Tense=pluperfect Person=third Number=plural
+02V01010403020000000002	Vmil3p----y	Verb main indicative pluperfect third plural +Clitic	Verb Type=main VForm=indicative Tense=pluperfect Person=third Number=plural Clitic=yes
+02V01020101010000000000	Vmsp1s	Verb main subjunctive present first singular	Verb Type=main VForm=subjunctive Tense=present Person=first Number=singular
+02V01020101020000000000	Vmsp1p	Verb main subjunctive present first plural	Verb Type=main VForm=subjunctive Tense=present Person=first Number=plural
+02V01020102010000000000	Vmsp2s	Verb main subjunctive present second singular	Verb Type=main VForm=subjunctive Tense=present Person=second Number=singular
+02V01020102020000000000	Vmsp2p	Verb main subjunctive present second plural	Verb Type=main VForm=subjunctive Tense=present Person=second Number=plural
+02V01020103000000000000	Vmsp3	Verb main subjunctive present third	Verb Type=main VForm=subjunctive Tense=present Person=third
+02V01020103000000000002	Vmsp3-----y	Verb main subjunctive present third +Clitic	Verb Type=main VForm=subjunctive Tense=present Person=third Clitic=yes
+02V01020103010000000000	Vmsp3s	Verb main subjunctive present third singular	Verb Type=main VForm=subjunctive Tense=present Person=third Number=singular
+02V01020103010000000002	Vmsp3s----y	Verb main subjunctive present third singular +Clitic	Verb Type=main VForm=subjunctive Tense=present Person=third Number=singular Clitic=yes
+02V01030002010000000000	Vmm-2s	Verb main imperative second singular	Verb Type=main VForm=imperative Person=second Number=singular
+02V01030002010000000002	Vmm-2s----y	Verb main imperative second singular +Clitic	Verb Type=main VForm=imperative Person=second Number=singular Clitic=yes
+02V01030002020000000000	Vmm-2p	Verb main imperative second plural	Verb Type=main VForm=imperative Person=second Number=plural
+02V01030002020000000002	Vmm-2p----y	Verb main imperative second plural +Clitic	Verb Type=main VForm=imperative Person=second Number=plural Clitic=yes
+02V01040100000000000000	Vmnp	Verb main infinitive present	Verb Type=main VForm=infinitive Tense=present
+02V01040100000000000002	Vmnp------y	Verb main infinitive present +Clitic	Verb Type=main VForm=infinitive Tense=present Clitic=yes
+02V01050000010100000000	Vmp--sm	Verb main participle singular masculine	Verb Type=main VForm=participle Number=singular Gender=masculine
+02V01050000010100000002	Vmp--sm---y	Verb main participle singular masculine +Clitic	Verb Type=main VForm=participle Number=singular Gender=masculine Clitic=yes
+02V01060000000000000000	Vmg	Verb main gerund	Verb Type=main VForm=gerund
+02V01060000000000000002	Vmg-------y	Verb main gerund +Clitic	Verb Type=main VForm=gerund Clitic=yes
+02V02000001000000000000	Va--1	Verb auxiliary first	Verb Type=auxiliary Person=first
+02V02000001000000000002	Va--1-----y	Verb auxiliary first +Clitic	Verb Type=auxiliary Person=first Clitic=yes
+02V02000001010000000000	Va--1s	Verb auxiliary first singular	Verb Type=auxiliary Person=first Number=singular
+02V02000001010000000002	Va--1s----y	Verb auxiliary first singular +Clitic	Verb Type=auxiliary Person=first Number=singular Clitic=yes
+02V02000001020000000000	Va--1p	Verb auxiliary first plural	Verb Type=auxiliary Person=first Number=plural
+02V02000002010000000000	Va--2s	Verb auxiliary second singular	Verb Type=auxiliary Person=second Number=singular
+02V02000002010000000002	Va--2s----y	Verb auxiliary second singular +Clitic	Verb Type=auxiliary Person=second Number=singular Clitic=yes
+02V02000002020000000000	Va--2p	Verb auxiliary second plural	Verb Type=auxiliary Person=second Number=plural
+02V02000002020000000002	Va--2p----y	Verb auxiliary second plural +Clitic	Verb Type=auxiliary Person=second Number=plural Clitic=yes
+02V02000003000000000000	Va--3	Verb auxiliary third	Verb Type=auxiliary Person=third
+02V02000003000000000002	Va--3-----y	Verb auxiliary third +Clitic	Verb Type=auxiliary Person=third Clitic=yes
+02V02000003010000000000	Va--3s	Verb auxiliary third singular	Verb Type=auxiliary Person=third Number=singular
+02V02000003010000000002	Va--3s----y	Verb auxiliary third singular +Clitic	Verb Type=auxiliary Person=third Number=singular Clitic=yes
+02V02000003020000000000	Va--3p	Verb auxiliary third plural	Verb Type=auxiliary Person=third Number=plural
+02V02000003020000000002	Va--3p----y	Verb auxiliary third plural +Clitic	Verb Type=auxiliary Person=third Number=plural Clitic=yes
+02V02040100000000000000	Vanp	Verb auxiliary infinitive present	Verb Type=auxiliary VForm=infinitive Tense=present
+03A01010000000000	Afp	Adjective qualificative positive	Adjective Type=qualificative Degree=positive
+03A01010002000100	Afp-p-n	Adjective qualificative positive plural -Definiteness	Adjective Type=qualificative Degree=positive Number=plural Definiteness=no
+03A01010002000102	Afp-p-ny	Adjective qualificative positive plural -Definiteness +Clitic	Adjective Type=qualificative Degree=positive Number=plural Definiteness=no Clitic=yes
+03A01010002030200	Afp-poy	Adjective qualificative positive plural oblique +Definiteness	Adjective Type=qualificative Degree=positive Number=plural Case=oblique Definiteness=yes
+03A01010100000100	Afpm--n	Adjective qualificative positive masculine -Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Definiteness=no
+03A01010101000100	Afpms-n	Adjective qualificative positive masculine singular -Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Definiteness=no
+03A01010101000102	Afpms-ny	Adjective qualificative positive masculine singular -Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Definiteness=no Clitic=yes
+03A01010101010100	Afpmsvn	Adjective qualificative positive masculine singular vocative -Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=vocative Definiteness=no
+03A01010101010200	Afpmsvy	Adjective qualificative positive masculine singular vocative +Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=vocative Definiteness=yes
+03A01010101020200	Afpmsry	Adjective qualificative positive masculine singular direct +Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=direct Definiteness=yes
+03A01010101020202	Afpmsryy	Adjective qualificative positive masculine singular direct +Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=direct Definiteness=yes Clitic=yes
+03A01010101030200	Afpmsoy	Adjective qualificative positive masculine singular oblique +Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=oblique Definiteness=yes
+03A01010101030202	Afpmsoyy	Adjective qualificative positive masculine singular oblique +Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Case=oblique Definiteness=yes Clitic=yes
+03A01010102000100	Afpmp-n	Adjective qualificative positive masculine plural -Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=plural Definiteness=no
+03A01010102000102	Afpmp-ny	Adjective qualificative positive masculine plural -Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=masculine Number=plural Definiteness=no Clitic=yes
+03A01010102020200	Afpmpry	Adjective qualificative positive masculine plural direct +Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=plural Case=direct Definiteness=yes
+03A01010102020202	Afpmpryy	Adjective qualificative positive masculine plural direct +Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=masculine Number=plural Case=direct Definiteness=yes Clitic=yes
+03A01010102030200	Afpmpoy	Adjective qualificative positive masculine plural oblique +Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=plural Case=oblique Definiteness=yes
+03A01010102030202	Afpmpoyy	Adjective qualificative positive masculine plural oblique +Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=masculine Number=plural Case=oblique Definiteness=yes Clitic=yes
+03A01010200000100	Afpf--n	Adjective qualificative positive feminine -Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Definiteness=no
+03A01010200000102	Afpf--ny	Adjective qualificative positive feminine -Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=feminine Definiteness=no Clitic=yes
+03A01010201010100	Afpfsvn	Adjective qualificative positive feminine singular vocative -Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=vocative Definiteness=no
+03A01010201010200	Afpfsvy	Adjective qualificative positive feminine singular vocative +Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=vocative Definiteness=yes
+03A01010201020100	Afpfsrn	Adjective qualificative positive feminine singular direct -Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=direct Definiteness=no
+03A01010201020102	Afpfsrny	Adjective qualificative positive feminine singular direct -Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=direct Definiteness=no Clitic=yes
+03A01010201020200	Afpfsry	Adjective qualificative positive feminine singular direct +Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=direct Definiteness=yes
+03A01010201020202	Afpfsryy	Adjective qualificative positive feminine singular direct +Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=direct Definiteness=yes Clitic=yes
+03A01010201030100	Afpfson	Adjective qualificative positive feminine singular oblique -Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=oblique Definiteness=no
+03A01010201030102	Afpfsony	Adjective qualificative positive feminine singular oblique -Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=oblique Definiteness=no Clitic=yes
+03A01010201030200	Afpfsoy	Adjective qualificative positive feminine singular oblique +Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=oblique Definiteness=yes
+03A01010201030202	Afpfsoyy	Adjective qualificative positive feminine singular oblique +Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Case=oblique Definiteness=yes Clitic=yes
+03A01010202000100	Afpfp-n	Adjective qualificative positive feminine plural -Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=plural Definiteness=no
+03A01010202000102	Afpfp-ny	Adjective qualificative positive feminine plural -Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=feminine Number=plural Definiteness=no Clitic=yes
+03A01010202020200	Afpfpry	Adjective qualificative positive feminine plural direct +Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=plural Case=direct Definiteness=yes
+03A01010202020202	Afpfpryy	Adjective qualificative positive feminine plural direct +Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=feminine Number=plural Case=direct Definiteness=yes Clitic=yes
+03A01010202030100	Afpfpon	Adjective qualificative positive feminine plural oblique -Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=plural Case=oblique Definiteness=no
+03A01010202030200	Afpfpoy	Adjective qualificative positive feminine plural oblique +Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=plural Case=oblique Definiteness=yes
+03A01010202030202	Afpfpoyy	Adjective qualificative positive feminine plural oblique +Definiteness +Clitic	Adjective Type=qualificative Degree=positive Gender=feminine Number=plural Case=oblique Definiteness=yes Clitic=yes
+03A01020101000100	Afcms-n	Adjective qualificative comparative masculine singular -Definiteness	Adjective Type=qualificative Degree=comparative Gender=masculine Number=singular Definiteness=no
+03A01020102000100	Afcmp-n	Adjective qualificative comparative masculine plural -Definiteness	Adjective Type=qualificative Degree=comparative Gender=masculine Number=plural Definiteness=no
+03A01020102020200	Afcmpry	Adjective qualificative comparative masculine plural direct +Definiteness	Adjective Type=qualificative Degree=comparative Gender=masculine Number=plural Case=direct Definiteness=yes
+03A01020102030200	Afcmpoy	Adjective qualificative comparative masculine plural oblique +Definiteness	Adjective Type=qualificative Degree=comparative Gender=masculine Number=plural Case=oblique Definiteness=yes
+03A01020201020100	Afcfsrn	Adjective qualificative comparative feminine singular direct -Definiteness	Adjective Type=qualificative Degree=comparative Gender=feminine Number=singular Case=direct Definiteness=no
+03A01020201020200	Afcfsry	Adjective qualificative comparative feminine singular direct +Definiteness	Adjective Type=qualificative Degree=comparative Gender=feminine Number=singular Case=direct Definiteness=yes
+03A01020201030100	Afcfson	Adjective qualificative comparative feminine singular oblique -Definiteness	Adjective Type=qualificative Degree=comparative Gender=feminine Number=singular Case=oblique Definiteness=no
+03A01020201030200	Afcfsoy	Adjective qualificative comparative feminine singular oblique +Definiteness	Adjective Type=qualificative Degree=comparative Gender=feminine Number=singular Case=oblique Definiteness=yes
+03A01020202000100	Afcfp-n	Adjective qualificative comparative feminine plural -Definiteness	Adjective Type=qualificative Degree=comparative Gender=feminine Number=plural Definiteness=no
+03A01020202020200	Afcfpry	Adjective qualificative comparative feminine plural direct +Definiteness	Adjective Type=qualificative Degree=comparative Gender=feminine Number=plural Case=direct Definiteness=yes
+03A01020202030200	Afcfpoy	Adjective qualificative comparative feminine plural oblique +Definiteness	Adjective Type=qualificative Degree=comparative Gender=feminine Number=plural Case=oblique Definiteness=yes
+03A01030000000000	Afs	Adjective qualificative superlative	Adjective Type=qualificative Degree=superlative
+03A01030101000100	Afsms-n	Adjective qualificative superlative masculine singular -Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=singular Definiteness=no
+03A01030101010200	Afsmsvy	Adjective qualificative superlative masculine singular vocative +Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=singular Case=vocative Definiteness=yes
+03A01030101020200	Afsmsry	Adjective qualificative superlative masculine singular direct +Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=singular Case=direct Definiteness=yes
+03A01030101030200	Afsmsoy	Adjective qualificative superlative masculine singular oblique +Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=singular Case=oblique Definiteness=yes
+03A01030102000100	Afsmp-n	Adjective qualificative superlative masculine plural -Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=plural Definiteness=no
+03A01030102020200	Afsmpry	Adjective qualificative superlative masculine plural direct +Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=plural Case=direct Definiteness=yes
+03A01030102030200	Afsmpoy	Adjective qualificative superlative masculine plural oblique +Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=plural Case=oblique Definiteness=yes
+03A01030201020100	Afsfsrn	Adjective qualificative superlative feminine singular direct -Definiteness	Adjective Type=qualificative Degree=superlative Gender=feminine Number=singular Case=direct Definiteness=no
+03A01030201020200	Afsfsry	Adjective qualificative superlative feminine singular direct +Definiteness	Adjective Type=qualificative Degree=superlative Gender=feminine Number=singular Case=direct Definiteness=yes
+03A01030201030100	Afsfson	Adjective qualificative superlative feminine singular oblique -Definiteness	Adjective Type=qualificative Degree=superlative Gender=feminine Number=singular Case=oblique Definiteness=no
+03A01030201030200	Afsfsoy	Adjective qualificative superlative feminine singular oblique +Definiteness	Adjective Type=qualificative Degree=superlative Gender=feminine Number=singular Case=oblique Definiteness=yes
+03A01030202000100	Afsfp-n	Adjective qualificative superlative feminine plural -Definiteness	Adjective Type=qualificative Degree=superlative Gender=feminine Number=plural Definiteness=no
+03A01030202020200	Afsfpry	Adjective qualificative superlative feminine plural direct +Definiteness	Adjective Type=qualificative Degree=superlative Gender=feminine Number=plural Case=direct Definiteness=yes
+03A01030202030200	Afsfpoy	Adjective qualificative superlative feminine plural oblique +Definiteness	Adjective Type=qualificative Degree=superlative Gender=feminine Number=plural Case=oblique Definiteness=yes
+04P0101000101000000000000000001	Pp1-sn--------s	Pronoun personal first singular nominative strong	Pronoun Type=personal Person=first Number=singular Case=nominative Pronoun_Form=strong
+04P0101000103000000000000000001	Pp1-sd--------s	Pronoun personal first singular dative strong	Pronoun Type=personal Person=first Number=singular Case=dative Pronoun_Form=strong
+04P0101000103000000000000000002	Pp1-sd--------w	Pronoun personal first singular dative weak	Pronoun Type=personal Person=first Number=singular Case=dative Pronoun_Form=weak
+04P0101000103000002000000000002	Pp1-sd--y-----w	Pronoun personal first singular dative +Clitic weak	Pronoun Type=personal Person=first Number=singular Case=dative Clitic=yes Pronoun_Form=weak
+04P0101000104000000000000000001	Pp1-sa--------s	Pronoun personal first singular accusative strong	Pronoun Type=personal Person=first Number=singular Case=accusative Pronoun_Form=strong
+04P0101000104000000000000000002	Pp1-sa--------w	Pronoun personal first singular accusative weak	Pronoun Type=personal Person=first Number=singular Case=accusative Pronoun_Form=weak
+04P0101000104000002000000000002	Pp1-sa--y-----w	Pronoun personal first singular accusative +Clitic weak	Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=yes Pronoun_Form=weak
+04P0101000106000000000000000001	Pp1-sr--------s	Pronoun personal first singular direct strong	Pronoun Type=personal Person=first Number=singular Case=direct Pronoun_Form=strong
+04P0101000203000000000000000001	Pp1-pd--------s	Pronoun personal first plural dative strong	Pronoun Type=personal Person=first Number=plural Case=dative Pronoun_Form=strong
+04P0101000203000000000000000002	Pp1-pd--------w	Pronoun personal first plural dative weak	Pronoun Type=personal Person=first Number=plural Case=dative Pronoun_Form=weak
+04P0101000203000002000000000002	Pp1-pd--y-----w	Pronoun personal first plural dative +Clitic weak	Pronoun Type=personal Person=first Number=plural Case=dative Clitic=yes Pronoun_Form=weak
+04P0101000204000000000000000002	Pp1-pa--------w	Pronoun personal first plural accusative weak	Pronoun Type=personal Person=first Number=plural Case=accusative Pronoun_Form=weak
+04P0101000204000002000000000002	Pp1-pa--y-----w	Pronoun personal first plural accusative +Clitic weak	Pronoun Type=personal Person=first Number=plural Case=accusative Clitic=yes Pronoun_Form=weak
+04P0101000206000000000000000001	Pp1-pr--------s	Pronoun personal first plural direct strong	Pronoun Type=personal Person=first Number=plural Case=direct Pronoun_Form=strong
+04P0102000000000000000000000001	Pp2-----------s	Pronoun personal second strong	Pronoun Type=personal Person=second Pronoun_Form=strong
+04P0102000100000000000000000001	Pp2-s---------s	Pronoun personal second singular strong	Pronoun Type=personal Person=second Number=singular Pronoun_Form=strong
+04P0102000101000000000000000001	Pp2-sn--------s	Pronoun personal second singular nominative strong	Pronoun Type=personal Person=second Number=singular Case=nominative Pronoun_Form=strong
+04P0102000103000000000000000001	Pp2-sd--------s	Pronoun personal second singular dative strong	Pronoun Type=personal Person=second Number=singular Case=dative Pronoun_Form=strong
+04P0102000103000000000000000002	Pp2-sd--------w	Pronoun personal second singular dative weak	Pronoun Type=personal Person=second Number=singular Case=dative Pronoun_Form=weak
+04P0102000103000002000000000002	Pp2-sd--y-----w	Pronoun personal second singular dative +Clitic weak	Pronoun Type=personal Person=second Number=singular Case=dative Clitic=yes Pronoun_Form=weak
+04P0102000104000000000000000001	Pp2-sa--------s	Pronoun personal second singular accusative strong	Pronoun Type=personal Person=second Number=singular Case=accusative Pronoun_Form=strong
+04P0102000104000000000000000002	Pp2-sa--------w	Pronoun personal second singular accusative weak	Pronoun Type=personal Person=second Number=singular Case=accusative Pronoun_Form=weak
+04P0102000104000002000000000002	Pp2-sa--y-----w	Pronoun personal second singular accusative +Clitic weak	Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=yes Pronoun_Form=weak
+04P0102000106000000000000000001	Pp2-sr--------s	Pronoun personal second singular direct strong	Pronoun Type=personal Person=second Number=singular Case=direct Pronoun_Form=strong
+04P0102000107000000000000000001	Pp2-so--------s	Pronoun personal second singular oblique strong	Pronoun Type=personal Person=second Number=singular Case=oblique Pronoun_Form=strong
+04P0102000203000000000000000001	Pp2-pd--------s	Pronoun personal second plural dative strong	Pronoun Type=personal Person=second Number=plural Case=dative Pronoun_Form=strong
+04P0102000203000000000000000002	Pp2-pd--------w	Pronoun personal second plural dative weak	Pronoun Type=personal Person=second Number=plural Case=dative Pronoun_Form=weak
+04P0102000203000002000000000002	Pp2-pd--y-----w	Pronoun personal second plural dative +Clitic weak	Pronoun Type=personal Person=second Number=plural Case=dative Clitic=yes Pronoun_Form=weak
+04P0102000204000000000000000002	Pp2-pa--------w	Pronoun personal second plural accusative weak	Pronoun Type=personal Person=second Number=plural Case=accusative Pronoun_Form=weak
+04P0102000204000002000000000002	Pp2-pa--y-----w	Pronoun personal second plural accusative +Clitic weak	Pronoun Type=personal Person=second Number=plural Case=accusative Clitic=yes Pronoun_Form=weak
+04P0102000206000000000000000001	Pp2-pr--------s	Pronoun personal second plural direct strong	Pronoun Type=personal Person=second Number=plural Case=direct Pronoun_Form=strong
+04P0103000103000000000000000002	Pp3-sd--------w	Pronoun personal third singular dative weak	Pronoun Type=personal Person=third Number=singular Case=dative Pronoun_Form=weak
+04P0103000103000002000000000002	Pp3-sd--y-----w	Pronoun personal third singular dative +Clitic weak	Pronoun Type=personal Person=third Number=singular Case=dative Clitic=yes Pronoun_Form=weak
+04P0103000106000000000000000001	Pp3-sr--------s	Pronoun personal third singular direct strong	Pronoun Type=personal Person=third Number=singular Case=direct Pronoun_Form=strong
+04P0103000107000000000000000001	Pp3-so--------s	Pronoun personal third singular oblique strong	Pronoun Type=personal Person=third Number=singular Case=oblique Pronoun_Form=strong
+04P0103000200000000000000000001	Pp3-p---------s	Pronoun personal third plural strong	Pronoun Type=personal Person=third Number=plural Pronoun_Form=strong
+04P0103000203000000000000000002	Pp3-pd--------w	Pronoun personal third plural dative weak	Pronoun Type=personal Person=third Number=plural Case=dative Pronoun_Form=weak
+04P0103000203000002000000000002	Pp3-pd--y-----w	Pronoun personal third plural dative +Clitic weak	Pronoun Type=personal Person=third Number=plural Case=dative Clitic=yes Pronoun_Form=weak
+04P0103000207000000000000000001	Pp3-po--------s	Pronoun personal third plural oblique strong	Pronoun Type=personal Person=third Number=plural Case=oblique Pronoun_Form=strong
+04P0103010100000000000000000001	Pp3ms---------s	Pronoun personal third masculine singular strong	Pronoun Type=personal Person=third Gender=masculine Number=singular Pronoun_Form=strong
+04P0103010104000000000000000002	Pp3msa--------w	Pronoun personal third masculine singular accusative weak	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative Pronoun_Form=weak
+04P0103010104000002000000000002	Pp3msa--y-----w	Pronoun personal third masculine singular accusative +Clitic weak	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative Clitic=yes Pronoun_Form=weak
+04P0103010106000000000000000001	Pp3msr--------s	Pronoun personal third masculine singular direct strong	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=direct Pronoun_Form=strong
+04P0103010106000002000000000001	Pp3msr--y-----s	Pronoun personal third masculine singular direct +Clitic strong	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=direct Clitic=yes Pronoun_Form=strong
+04P0103010107000000000000000001	Pp3mso--------s	Pronoun personal third masculine singular oblique strong	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=oblique Pronoun_Form=strong
+04P0103010204000000000000000002	Pp3mpa--------w	Pronoun personal third masculine plural accusative weak	Pronoun Type=personal Person=third Gender=masculine Number=plural Case=accusative Pronoun_Form=weak
+04P0103010204000002000000000002	Pp3mpa--y-----w	Pronoun personal third masculine plural accusative +Clitic weak	Pronoun Type=personal Person=third Gender=masculine Number=plural Case=accusative Clitic=yes Pronoun_Form=weak
+04P0103010206000000000000000001	Pp3mpr--------s	Pronoun personal third masculine plural direct strong	Pronoun Type=personal Person=third Gender=masculine Number=plural Case=direct Pronoun_Form=strong
+04P0103010206000002000000000001	Pp3mpr--y-----s	Pronoun personal third masculine plural direct +Clitic strong	Pronoun Type=personal Person=third Gender=masculine Number=plural Case=direct Clitic=yes Pronoun_Form=strong
+04P0103010207000000000000000001	Pp3mpo--------s	Pronoun personal third masculine plural oblique strong	Pronoun Type=personal Person=third Gender=masculine Number=plural Case=oblique Pronoun_Form=strong
+04P0103020100000000000000000001	Pp3fs---------s	Pronoun personal third feminine singular strong	Pronoun Type=personal Person=third Gender=feminine Number=singular Pronoun_Form=strong
+04P0103020104000000000000000002	Pp3fsa--------w	Pronoun personal third feminine singular accusative weak	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Pronoun_Form=weak
+04P0103020104000002000000000002	Pp3fsa--y-----w	Pronoun personal third feminine singular accusative +Clitic weak	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Clitic=yes Pronoun_Form=weak
+04P0103020106000000000000000001	Pp3fsr--------s	Pronoun personal third feminine singular direct strong	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=direct Pronoun_Form=strong
+04P0103020106000002000000000001	Pp3fsr--y-----s	Pronoun personal third feminine singular direct +Clitic strong	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=direct Clitic=yes Pronoun_Form=strong
+04P0103020107000000000000000001	Pp3fso--------s	Pronoun personal third feminine singular oblique strong	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=oblique Pronoun_Form=strong
+04P0103020204000000000000000002	Pp3fpa--------w	Pronoun personal third feminine plural accusative weak	Pronoun Type=personal Person=third Gender=feminine Number=plural Case=accusative Pronoun_Form=weak
+04P0103020204000002000000000002	Pp3fpa--y-----w	Pronoun personal third feminine plural accusative +Clitic weak	Pronoun Type=personal Person=third Gender=feminine Number=plural Case=accusative Clitic=yes Pronoun_Form=weak
+04P0103020206000000000000000001	Pp3fpr--------s	Pronoun personal third feminine plural direct strong	Pronoun Type=personal Person=third Gender=feminine Number=plural Case=direct Pronoun_Form=strong
+04P0103020206000002000000000001	Pp3fpr--y-----s	Pronoun personal third feminine plural direct +Clitic strong	Pronoun Type=personal Person=third Gender=feminine Number=plural Case=direct Clitic=yes Pronoun_Form=strong
+04P0103020207000000000000000001	Pp3fpo--------s	Pronoun personal third feminine plural oblique strong	Pronoun Type=personal Person=third Gender=feminine Number=plural Case=oblique Pronoun_Form=strong
+04P0203000207000000000000000000	Pd3-po	Pronoun demonstrative third plural oblique	Pronoun Type=demonstrative Person=third Number=plural Case=oblique
+04P0203010106000000000000000000	Pd3msr	Pronoun demonstrative third masculine singular direct	Pronoun Type=demonstrative Person=third Gender=masculine Number=singular Case=direct
+04P0203010106000002000000000000	Pd3msr--y	Pronoun demonstrative third masculine singular direct +Clitic	Pronoun Type=demonstrative Person=third Gender=masculine Number=singular Case=direct Clitic=yes
+04P0203010107000000000000000000	Pd3mso	Pronoun demonstrative third masculine singular oblique	Pronoun Type=demonstrative Person=third Gender=masculine Number=singular Case=oblique
+04P0203010206000000000000000000	Pd3mpr	Pronoun demonstrative third masculine plural direct	Pronoun Type=demonstrative Person=third Gender=masculine Number=plural Case=direct
+04P0203010206000002000000000000	Pd3mpr--y	Pronoun demonstrative third masculine plural direct +Clitic	Pronoun Type=demonstrative Person=third Gender=masculine Number=plural Case=direct Clitic=yes
+04P0203010207000000000000000000	Pd3mpo	Pronoun demonstrative third masculine plural oblique	Pronoun Type=demonstrative Person=third Gender=masculine Number=plural Case=oblique
+04P0203020106000000000000000000	Pd3fsr	Pronoun demonstrative third feminine singular direct	Pronoun Type=demonstrative Person=third Gender=feminine Number=singular Case=direct
+04P0203020106000002000000000000	Pd3fsr--y	Pronoun demonstrative third feminine singular direct +Clitic	Pronoun Type=demonstrative Person=third Gender=feminine Number=singular Case=direct Clitic=yes
+04P0203020107000000000000000000	Pd3fso	Pronoun demonstrative third feminine singular oblique	Pronoun Type=demonstrative Person=third Gender=feminine Number=singular Case=oblique
+04P0203020206000000000000000000	Pd3fpr	Pronoun demonstrative third feminine plural direct	Pronoun Type=demonstrative Person=third Gender=feminine Number=plural Case=direct
+04P0203020206000002000000000000	Pd3fpr--y	Pronoun demonstrative third feminine plural direct +Clitic	Pronoun Type=demonstrative Person=third Gender=feminine Number=plural Case=direct Clitic=yes
+04P0203020207000000000000000000	Pd3fpo	Pronoun demonstrative third feminine plural oblique	Pronoun Type=demonstrative Person=third Gender=feminine Number=plural Case=oblique
+04P0303000000000000000000000000	Pi3	Pronoun indefinite third	Pronoun Type=indefinite Person=third
+04P0303000006000000000000000000	Pi3--r	Pronoun indefinite third direct	Pronoun Type=indefinite Person=third Case=direct
+04P0303000106000000000000000000	Pi3-sr	Pronoun indefinite third singular direct	Pronoun Type=indefinite Person=third Number=singular Case=direct
+04P0303000107000000000000000000	Pi3-so	Pronoun indefinite third singular oblique	Pronoun Type=indefinite Person=third Number=singular Case=oblique
+04P0303000207000000000000000000	Pi3-po	Pronoun indefinite third plural oblique	Pronoun Type=indefinite Person=third Number=plural Case=oblique
+04P0303010106000000000000000000	Pi3msr	Pronoun indefinite third masculine singular direct	Pronoun Type=indefinite Person=third Gender=masculine Number=singular Case=direct
+04P0303010106000002000000000000	Pi3msr--y	Pronoun indefinite third masculine singular direct +Clitic	Pronoun Type=indefinite Person=third Gender=masculine Number=singular Case=direct Clitic=yes
+04P0303010107000000000000000000	Pi3mso	Pronoun indefinite third masculine singular oblique	Pronoun Type=indefinite Person=third Gender=masculine Number=singular Case=oblique
+04P0303010206000000000000000000	Pi3mpr	Pronoun indefinite third masculine plural direct	Pronoun Type=indefinite Person=third Gender=masculine Number=plural Case=direct
+04P0303020106000000000000000000	Pi3fsr	Pronoun indefinite third feminine singular direct	Pronoun Type=indefinite Person=third Gender=feminine Number=singular Case=direct
+04P0303020107000000000000000000	Pi3fso	Pronoun indefinite third feminine singular oblique	Pronoun Type=indefinite Person=third Gender=feminine Number=singular Case=oblique
+04P0303020206000000000000000000	Pi3fpr	Pronoun indefinite third feminine plural direct	Pronoun Type=indefinite Person=third Gender=feminine Number=plural Case=direct
+04P0401010100010000000000000000	Ps1ms-s	Pronoun possessive first masculine singular singular	Pronoun Type=possessive Person=first Gender=masculine Number=singular Owner_Number=singular
+04P0401010100020000000000000000	Ps1ms-p	Pronoun possessive first masculine singular plural	Pronoun Type=possessive Person=first Gender=masculine Number=singular Owner_Number=plural
+04P0401010200010000000000000000	Ps1mp-s	Pronoun possessive first masculine plural singular	Pronoun Type=possessive Person=first Gender=masculine Number=plural Owner_Number=singular
+04P0401010200020000000000000000	Ps1mp-p	Pronoun possessive first masculine plural plural	Pronoun Type=possessive Person=first Gender=masculine Number=plural Owner_Number=plural
+04P0401020106010000000000000000	Ps1fsrs	Pronoun possessive first feminine singular direct singular	Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=direct Owner_Number=singular
+04P0401020106020000000000000000	Ps1fsrp	Pronoun possessive first feminine singular direct plural	Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=direct Owner_Number=plural
+04P0401020200010000000000000000	Ps1fp-s	Pronoun possessive first feminine plural singular	Pronoun Type=possessive Person=first Gender=feminine Number=plural Owner_Number=singular
+04P0401020200020000000000000000	Ps1fp-p	Pronoun possessive first feminine plural plural	Pronoun Type=possessive Person=first Gender=feminine Number=plural Owner_Number=plural
+04P0402010100010000000000000000	Ps2ms-s	Pronoun possessive second masculine singular singular	Pronoun Type=possessive Person=second Gender=masculine Number=singular Owner_Number=singular
+04P0402010100020000000000000000	Ps2ms-p	Pronoun possessive second masculine singular plural	Pronoun Type=possessive Person=second Gender=masculine Number=singular Owner_Number=plural
+04P0402010106010002000000000000	Ps2msrs-y	Pronoun possessive second masculine singular direct singular +Clitic	Pronoun Type=possessive Person=second Gender=masculine Number=singular Case=direct Owner_Number=singular Clitic=yes
+04P0402010200010000000000000000	Ps2mp-s	Pronoun possessive second masculine plural singular	Pronoun Type=possessive Person=second Gender=masculine Number=plural Owner_Number=singular
+04P0402010200020000000000000000	Ps2mp-p	Pronoun possessive second masculine plural plural	Pronoun Type=possessive Person=second Gender=masculine Number=plural Owner_Number=plural
+04P0402020106010000000000000000	Ps2fsrs	Pronoun possessive second feminine singular direct singular	Pronoun Type=possessive Person=second Gender=feminine Number=singular Case=direct Owner_Number=singular
+04P0402020106020000000000000000	Ps2fsrp	Pronoun possessive second feminine singular direct plural	Pronoun Type=possessive Person=second Gender=feminine Number=singular Case=direct Owner_Number=plural
+04P0402020200010000000000000000	Ps2fp-s	Pronoun possessive second feminine plural singular	Pronoun Type=possessive Person=second Gender=feminine Number=plural Owner_Number=singular
+04P0402020200020000000000000000	Ps2fp-p	Pronoun possessive second feminine plural plural	Pronoun Type=possessive Person=second Gender=feminine Number=plural Owner_Number=plural
+04P0403010100010000000000000000	Ps3ms-s	Pronoun possessive third masculine singular singular	Pronoun Type=possessive Person=third Gender=masculine Number=singular Owner_Number=singular
+04P0403010200010000000000000000	Ps3mp-s	Pronoun possessive third masculine plural singular	Pronoun Type=possessive Person=third Gender=masculine Number=plural Owner_Number=singular
+04P0403020106010000000000000000	Ps3fsrs	Pronoun possessive third feminine singular direct singular	Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=direct Owner_Number=singular
+04P0403020200010000000000000000	Ps3fp-s	Pronoun possessive third feminine plural singular	Pronoun Type=possessive Person=third Gender=feminine Number=plural Owner_Number=singular
+04P0503000003000000000000000001	Px3--d--------s	Pronoun reflexive third dative strong	Pronoun Type=reflexive Person=third Case=dative Pronoun_Form=strong
+04P0503000003000000000000000002	Px3--d--------w	Pronoun reflexive third dative weak	Pronoun Type=reflexive Person=third Case=dative Pronoun_Form=weak
+04P0503000003000002000000000002	Px3--d--y-----w	Pronoun reflexive third dative +Clitic weak	Pronoun Type=reflexive Person=third Case=dative Clitic=yes Pronoun_Form=weak
+04P0503000004000000000000000001	Px3--a--------s	Pronoun reflexive third accusative strong	Pronoun Type=reflexive Person=third Case=accusative Pronoun_Form=strong
+04P0503000004000000000000000002	Px3--a--------w	Pronoun reflexive third accusative weak	Pronoun Type=reflexive Person=third Case=accusative Pronoun_Form=weak
+04P0503000004000002000000000002	Px3--a--y-----w	Pronoun reflexive third accusative +Clitic weak	Pronoun Type=reflexive Person=third Case=accusative Clitic=yes Pronoun_Form=weak
+04P0603000106000000000000000000	Pz3-sr	Pronoun negative third singular direct	Pronoun Type=negative Person=third Number=singular Case=direct
+04P0603000107000000000000000000	Pz3-so	Pronoun negative third singular oblique	Pronoun Type=negative Person=third Number=singular Case=oblique
+04P0603000207000000000000000000	Pz3-po	Pronoun negative third plural oblique	Pronoun Type=negative Person=third Number=plural Case=oblique
+04P0603010106000000000000000000	Pz3msr	Pronoun negative third masculine singular direct	Pronoun Type=negative Person=third Gender=masculine Number=singular Case=direct
+04P0603010107000000000000000000	Pz3mso	Pronoun negative third masculine singular oblique	Pronoun Type=negative Person=third Gender=masculine Number=singular Case=oblique
+04P0603010206000000000000000000	Pz3mpr	Pronoun negative third masculine plural direct	Pronoun Type=negative Person=third Gender=masculine Number=plural Case=direct
+04P0603020106000000000000000000	Pz3fsr	Pronoun negative third feminine singular direct	Pronoun Type=negative Person=third Gender=feminine Number=singular Case=direct
+04P0603020107000000000000000000	Pz3fso	Pronoun negative third feminine singular oblique	Pronoun Type=negative Person=third Gender=feminine Number=singular Case=oblique
+04P0603020206000000000000000000	Pz3fpr	Pronoun negative third feminine plural direct	Pronoun Type=negative Person=third Gender=feminine Number=plural Case=direct
+04P0703000006000000000000000000	Pw3--r	Pronoun int-rel third direct	Pronoun Type=int-rel Person=third Case=direct
+04P0703000107000000000000000000	Pw3-so	Pronoun int-rel third singular oblique	Pronoun Type=int-rel Person=third Number=singular Case=oblique
+04P0703000207000000000000000000	Pw3-po	Pronoun int-rel third plural oblique	Pronoun Type=int-rel Person=third Number=plural Case=oblique
+04P0703010106000000000000000000	Pw3msr	Pronoun int-rel third masculine singular direct	Pronoun Type=int-rel Person=third Gender=masculine Number=singular Case=direct
+04P0703010107000000000000000000	Pw3mso	Pronoun int-rel third masculine singular oblique	Pronoun Type=int-rel Person=third Gender=masculine Number=singular Case=oblique
+04P0703010206000000000000000000	Pw3mpr	Pronoun int-rel third masculine plural direct	Pronoun Type=int-rel Person=third Gender=masculine Number=plural Case=direct
+04P0703020106000000000000000000	Pw3fsr	Pronoun int-rel third feminine singular direct	Pronoun Type=int-rel Person=third Gender=feminine Number=singular Case=direct
+04P0703020107000000000000000000	Pw3fso	Pronoun int-rel third feminine singular oblique	Pronoun Type=int-rel Person=third Gender=feminine Number=singular Case=oblique
+04P0703020206000000000000000000	Pw3fpr	Pronoun int-rel third feminine plural direct	Pronoun Type=int-rel Person=third Gender=feminine Number=plural Case=direct
+05D010300020200000001	Dd3-po---e	Determiner demonstrative third plural oblique prenomin	Determiner Type=demonstrative Person=third Number=plural Case=oblique Modific_Type=prenomin
+05D010300020200000002	Dd3-po---o	Determiner demonstrative third plural oblique postnomin	Determiner Type=demonstrative Person=third Number=plural Case=oblique Modific_Type=postnomin
+05D010301010100000000	Dd3msr	Determiner demonstrative third masculine singular direct	Determiner Type=demonstrative Person=third Gender=masculine Number=singular Case=direct
+05D010301010100000001	Dd3msr---e	Determiner demonstrative third masculine singular direct prenomin	Determiner Type=demonstrative Person=third Gender=masculine Number=singular Case=direct Modific_Type=prenomin
+05D010301010100000002	Dd3msr---o	Determiner demonstrative third masculine singular direct postnomin	Determiner Type=demonstrative Person=third Gender=masculine Number=singular Case=direct Modific_Type=postnomin
+05D010301010100000202	Dd3msr--yo	Determiner demonstrative third masculine singular direct +Clitic postnomin	Determiner Type=demonstrative Person=third Gender=masculine Number=singular Case=direct Clitic=yes Modific_Type=postnomin
+05D010301010200000000	Dd3mso	Determiner demonstrative third masculine singular oblique	Determiner Type=demonstrative Person=third Gender=masculine Number=singular Case=oblique
+05D010301010200000001	Dd3mso---e	Determiner demonstrative third masculine singular oblique prenomin	Determiner Type=demonstrative Person=third Gender=masculine Number=singular Case=oblique Modific_Type=prenomin
+05D010301010200000002	Dd3mso---o	Determiner demonstrative third masculine singular oblique postnomin	Determiner Type=demonstrative Person=third Gender=masculine Number=singular Case=oblique Modific_Type=postnomin
+05D010301020100000000	Dd3mpr	Determiner demonstrative third masculine plural direct	Determiner Type=demonstrative Person=third Gender=masculine Number=plural Case=direct
+05D010301020100000001	Dd3mpr---e	Determiner demonstrative third masculine plural direct prenomin	Determiner Type=demonstrative Person=third Gender=masculine Number=plural Case=direct Modific_Type=prenomin
+05D010301020100000002	Dd3mpr---o	Determiner demonstrative third masculine plural direct postnomin	Determiner Type=demonstrative Person=third Gender=masculine Number=plural Case=direct Modific_Type=postnomin
+05D010301020100000202	Dd3mpr--yo	Determiner demonstrative third masculine plural direct +Clitic postnomin	Determiner Type=demonstrative Person=third Gender=masculine Number=plural Case=direct Clitic=yes Modific_Type=postnomin
+05D010301020200000000	Dd3mpo	Determiner demonstrative third masculine plural oblique	Determiner Type=demonstrative Person=third Gender=masculine Number=plural Case=oblique
+05D010302010100000000	Dd3fsr	Determiner demonstrative third feminine singular direct	Determiner Type=demonstrative Person=third Gender=feminine Number=singular Case=direct
+05D010302010100000001	Dd3fsr---e	Determiner demonstrative third feminine singular direct prenomin	Determiner Type=demonstrative Person=third Gender=feminine Number=singular Case=direct Modific_Type=prenomin
+05D010302010100000002	Dd3fsr---o	Determiner demonstrative third feminine singular direct postnomin	Determiner Type=demonstrative Person=third Gender=feminine Number=singular Case=direct Modific_Type=postnomin
+05D010302010100000201	Dd3fsr--ye	Determiner demonstrative third feminine singular direct +Clitic prenomin	Determiner Type=demonstrative Person=third Gender=feminine Number=singular Case=direct Clitic=yes Modific_Type=prenomin
+05D010302010100000202	Dd3fsr--yo	Determiner demonstrative third feminine singular direct +Clitic postnomin	Determiner Type=demonstrative Person=third Gender=feminine Number=singular Case=direct Clitic=yes Modific_Type=postnomin
+05D010302010200000000	Dd3fso	Determiner demonstrative third feminine singular oblique	Determiner Type=demonstrative Person=third Gender=feminine Number=singular Case=oblique
+05D010302010200000001	Dd3fso---e	Determiner demonstrative third feminine singular oblique prenomin	Determiner Type=demonstrative Person=third Gender=feminine Number=singular Case=oblique Modific_Type=prenomin
+05D010302010200000002	Dd3fso---o	Determiner demonstrative third feminine singular oblique postnomin	Determiner Type=demonstrative Person=third Gender=feminine Number=singular Case=oblique Modific_Type=postnomin
+05D010302020100000000	Dd3fpr	Determiner demonstrative third feminine plural direct	Determiner Type=demonstrative Person=third Gender=feminine Number=plural Case=direct
+05D010302020100000001	Dd3fpr---e	Determiner demonstrative third feminine plural direct prenomin	Determiner Type=demonstrative Person=third Gender=feminine Number=plural Case=direct Modific_Type=prenomin
+05D010302020100000002	Dd3fpr---o	Determiner demonstrative third feminine plural direct postnomin	Determiner Type=demonstrative Person=third Gender=feminine Number=plural Case=direct Modific_Type=postnomin
+05D010302020100000200	Dd3fpr--y	Determiner demonstrative third feminine plural direct +Clitic	Determiner Type=demonstrative Person=third Gender=feminine Number=plural Case=direct Clitic=yes
+05D010302020200000000	Dd3fpo	Determiner demonstrative third feminine plural oblique	Determiner Type=demonstrative Person=third Gender=feminine Number=plural Case=oblique
+05D020300000000000000	Di3	Determiner indefinite third	Determiner Type=indefinite Person=third
+05D020300000000000001	Di3------e	Determiner indefinite third prenomin	Determiner Type=indefinite Person=third Modific_Type=prenomin
+05D020300000000000200	Di3-----y	Determiner indefinite third +Clitic	Determiner Type=indefinite Person=third Clitic=yes
+05D020300000100000000	Di3--r	Determiner indefinite third direct	Determiner Type=indefinite Person=third Case=direct
+05D020300000100000001	Di3--r---e	Determiner indefinite third direct prenomin	Determiner Type=indefinite Person=third Case=direct Modific_Type=prenomin
+05D020300010000000001	Di3-s----e	Determiner indefinite third singular prenomin	Determiner Type=indefinite Person=third Number=singular Modific_Type=prenomin
+05D020300010100000000	Di3-sr	Determiner indefinite third singular direct	Determiner Type=indefinite Person=third Number=singular Case=direct
+05D020300010100000001	Di3-sr---e	Determiner indefinite third singular direct prenomin	Determiner Type=indefinite Person=third Number=singular Case=direct Modific_Type=prenomin
+05D020300010100000200	Di3-sr--y	Determiner indefinite third singular direct +Clitic	Determiner Type=indefinite Person=third Number=singular Case=direct Clitic=yes
+05D020300020200000000	Di3-po	Determiner indefinite third plural oblique	Determiner Type=indefinite Person=third Number=plural Case=oblique
+05D020300020200000001	Di3-po---e	Determiner indefinite third plural oblique prenomin	Determiner Type=indefinite Person=third Number=plural Case=oblique Modific_Type=prenomin
+05D020301010000000000	Di3ms	Determiner indefinite third masculine singular	Determiner Type=indefinite Person=third Gender=masculine Number=singular
+05D020301010100000000	Di3msr	Determiner indefinite third masculine singular direct	Determiner Type=indefinite Person=third Gender=masculine Number=singular Case=direct
+05D020301010100000001	Di3msr---e	Determiner indefinite third masculine singular direct prenomin	Determiner Type=indefinite Person=third Gender=masculine Number=singular Case=direct Modific_Type=prenomin
+05D020301010100000200	Di3msr--y	Determiner indefinite third masculine singular direct +Clitic	Determiner Type=indefinite Person=third Gender=masculine Number=singular Case=direct Clitic=yes
+05D020301010200000001	Di3mso---e	Determiner indefinite third masculine singular oblique prenomin	Determiner Type=indefinite Person=third Gender=masculine Number=singular Case=oblique Modific_Type=prenomin
+05D020301020000000000	Di3mp	Determiner indefinite third masculine plural	Determiner Type=indefinite Person=third Gender=masculine Number=plural
+05D020301020100000000	Di3mpr	Determiner indefinite third masculine plural direct	Determiner Type=indefinite Person=third Gender=masculine Number=plural Case=direct
+05D020301020100000001	Di3mpr---e	Determiner indefinite third masculine plural direct prenomin	Determiner Type=indefinite Person=third Gender=masculine Number=plural Case=direct Modific_Type=prenomin
+05D020302010100000000	Di3fsr	Determiner indefinite third feminine singular direct	Determiner Type=indefinite Person=third Gender=feminine Number=singular Case=direct
+05D020302010100000001	Di3fsr---e	Determiner indefinite third feminine singular direct prenomin	Determiner Type=indefinite Person=third Gender=feminine Number=singular Case=direct Modific_Type=prenomin
+05D020302010200000000	Di3fso	Determiner indefinite third feminine singular oblique	Determiner Type=indefinite Person=third Gender=feminine Number=singular Case=oblique
+05D020302010200000001	Di3fso---e	Determiner indefinite third feminine singular oblique prenomin	Determiner Type=indefinite Person=third Gender=feminine Number=singular Case=oblique Modific_Type=prenomin
+05D020302020000000000	Di3fp	Determiner indefinite third feminine plural	Determiner Type=indefinite Person=third Gender=feminine Number=plural
+05D020302020100000000	Di3fpr	Determiner indefinite third feminine plural direct	Determiner Type=indefinite Person=third Gender=feminine Number=plural Case=direct
+05D020302020100000001	Di3fpr---e	Determiner indefinite third feminine plural direct prenomin	Determiner Type=indefinite Person=third Gender=feminine Number=plural Case=direct Modific_Type=prenomin
+05D030101010001000000	Ds1ms-s	Determiner possessive first masculine singular singular	Determiner Type=possessive Person=first Gender=masculine Number=singular Owner_Number=singular
+05D030101010002000000	Ds1ms-p	Determiner possessive first masculine singular plural	Determiner Type=possessive Person=first Gender=masculine Number=singular Owner_Number=plural
+05D030101010101000200	Ds1msrs-y	Determiner possessive first masculine singular direct singular +Clitic	Determiner Type=possessive Person=first Gender=masculine Number=singular Case=direct Owner_Number=singular Clitic=yes
+05D030101020001000000	Ds1mp-s	Determiner possessive first masculine plural singular	Determiner Type=possessive Person=first Gender=masculine Number=plural Owner_Number=singular
+05D030101020002000000	Ds1mp-p	Determiner possessive first masculine plural plural	Determiner Type=possessive Person=first Gender=masculine Number=plural Owner_Number=plural
+05D030102010101000000	Ds1fsrs	Determiner possessive first feminine singular direct singular	Determiner Type=possessive Person=first Gender=feminine Number=singular Case=direct Owner_Number=singular
+05D030102010101000200	Ds1fsrs-y	Determiner possessive first feminine singular direct singular +Clitic	Determiner Type=possessive Person=first Gender=feminine Number=singular Case=direct Owner_Number=singular Clitic=yes
+05D030102010102000000	Ds1fsrp	Determiner possessive first feminine singular direct plural	Determiner Type=possessive Person=first Gender=feminine Number=singular Case=direct Owner_Number=plural
+05D030102010201000000	Ds1fsos	Determiner possessive first feminine singular oblique singular	Determiner Type=possessive Person=first Gender=feminine Number=singular Case=oblique Owner_Number=singular
+05D030102010201000200	Ds1fsos-y	Determiner possessive first feminine singular oblique singular +Clitic	Determiner Type=possessive Person=first Gender=feminine Number=singular Case=oblique Owner_Number=singular Clitic=yes
+05D030102010202000000	Ds1fsop	Determiner possessive first feminine singular oblique plural	Determiner Type=possessive Person=first Gender=feminine Number=singular Case=oblique Owner_Number=plural
+05D030102020001000000	Ds1fp-s	Determiner possessive first feminine plural singular	Determiner Type=possessive Person=first Gender=feminine Number=plural Owner_Number=singular
+05D030102020002000000	Ds1fp-p	Determiner possessive first feminine plural plural	Determiner Type=possessive Person=first Gender=feminine Number=plural Owner_Number=plural
+05D030201010001000000	Ds2ms-s	Determiner possessive second masculine singular singular	Determiner Type=possessive Person=second Gender=masculine Number=singular Owner_Number=singular
+05D030201010002000000	Ds2ms-p	Determiner possessive second masculine singular plural	Determiner Type=possessive Person=second Gender=masculine Number=singular Owner_Number=plural
+05D030201010101000200	Ds2msrs-y	Determiner possessive second masculine singular direct singular +Clitic	Determiner Type=possessive Person=second Gender=masculine Number=singular Case=direct Owner_Number=singular Clitic=yes
+05D030201020001000000	Ds2mp-s	Determiner possessive second masculine plural singular	Determiner Type=possessive Person=second Gender=masculine Number=plural Owner_Number=singular
+05D030201020002000000	Ds2mp-p	Determiner possessive second masculine plural plural	Determiner Type=possessive Person=second Gender=masculine Number=plural Owner_Number=plural
+05D030202010101000000	Ds2fsrs	Determiner possessive second feminine singular direct singular	Determiner Type=possessive Person=second Gender=feminine Number=singular Case=direct Owner_Number=singular
+05D030202010101000200	Ds2fsrs-y	Determiner possessive second feminine singular direct singular +Clitic	Determiner Type=possessive Person=second Gender=feminine Number=singular Case=direct Owner_Number=singular Clitic=yes
+05D030202010102000000	Ds2fsrp	Determiner possessive second feminine singular direct plural	Determiner Type=possessive Person=second Gender=feminine Number=singular Case=direct Owner_Number=plural
+05D030202010201000000	Ds2fsos	Determiner possessive second feminine singular oblique singular	Determiner Type=possessive Person=second Gender=feminine Number=singular Case=oblique Owner_Number=singular
+05D030202010201000200	Ds2fsos-y	Determiner possessive second feminine singular oblique singular +Clitic	Determiner Type=possessive Person=second Gender=feminine Number=singular Case=oblique Owner_Number=singular Clitic=yes
+05D030202010202000000	Ds2fsop	Determiner possessive second feminine singular oblique plural	Determiner Type=possessive Person=second Gender=feminine Number=singular Case=oblique Owner_Number=plural
+05D030202020001000000	Ds2fp-s	Determiner possessive second feminine plural singular	Determiner Type=possessive Person=second Gender=feminine Number=plural Owner_Number=singular
+05D030202020002000000	Ds2fp-p	Determiner possessive second feminine plural plural	Determiner Type=possessive Person=second Gender=feminine Number=plural Owner_Number=plural
+05D030301010001000000	Ds3ms-s	Determiner possessive third masculine singular singular	Determiner Type=possessive Person=third Gender=masculine Number=singular Owner_Number=singular
+05D030301010101000200	Ds3msrs-y	Determiner possessive third masculine singular direct singular +Clitic	Determiner Type=possessive Person=third Gender=masculine Number=singular Case=direct Owner_Number=singular Clitic=yes
+05D030301020001000000	Ds3mp-s	Determiner possessive third masculine plural singular	Determiner Type=possessive Person=third Gender=masculine Number=plural Owner_Number=singular
+05D030302010101000000	Ds3fsrs	Determiner possessive third feminine singular direct singular	Determiner Type=possessive Person=third Gender=feminine Number=singular Case=direct Owner_Number=singular
+05D030302010101000200	Ds3fsrs-y	Determiner possessive third feminine singular direct singular +Clitic	Determiner Type=possessive Person=third Gender=feminine Number=singular Case=direct Owner_Number=singular Clitic=yes
+05D030302010201000000	Ds3fsos	Determiner possessive third feminine singular oblique singular	Determiner Type=possessive Person=third Gender=feminine Number=singular Case=oblique Owner_Number=singular
+05D030302010201000200	Ds3fsos-y	Determiner possessive third feminine singular oblique singular +Clitic	Determiner Type=possessive Person=third Gender=feminine Number=singular Case=oblique Owner_Number=singular Clitic=yes
+05D030302020001000000	Ds3fp-s	Determiner possessive third feminine plural singular	Determiner Type=possessive Person=third Gender=feminine Number=plural Owner_Number=singular
+05D040300000100000001	Dw3--r---e	Determiner int-rel third direct prenomin	Determiner Type=int-rel Person=third Case=direct Modific_Type=prenomin
+05D040300020200000000	Dw3-po	Determiner int-rel third plural oblique	Determiner Type=int-rel Person=third Number=plural Case=oblique
+05D040300020200000001	Dw3-po---e	Determiner int-rel third plural oblique prenomin	Determiner Type=int-rel Person=third Number=plural Case=oblique Modific_Type=prenomin
+05D040301010100000000	Dw3msr	Determiner int-rel third masculine singular direct	Determiner Type=int-rel Person=third Gender=masculine Number=singular Case=direct
+05D040301010200000001	Dw3mso---e	Determiner int-rel third masculine singular oblique prenomin	Determiner Type=int-rel Person=third Gender=masculine Number=singular Case=oblique Modific_Type=prenomin
+05D040301020100000000	Dw3mpr	Determiner int-rel third masculine plural direct	Determiner Type=int-rel Person=third Gender=masculine Number=plural Case=direct
+05D040302010100000000	Dw3fsr	Determiner int-rel third feminine singular direct	Determiner Type=int-rel Person=third Gender=feminine Number=singular Case=direct
+05D040302010200000001	Dw3fso---e	Determiner int-rel third feminine singular oblique prenomin	Determiner Type=int-rel Person=third Gender=feminine Number=singular Case=oblique Modific_Type=prenomin
+05D040302020100000000	Dw3fpr	Determiner int-rel third feminine plural direct	Determiner Type=int-rel Person=third Gender=feminine Number=plural Case=direct
+05D050300020200000001	Dz3-po---e	Determiner negative third plural oblique prenomin	Determiner Type=negative Person=third Number=plural Case=oblique Modific_Type=prenomin
+05D050301010100000001	Dz3msr---e	Determiner negative third masculine singular direct prenomin	Determiner Type=negative Person=third Gender=masculine Number=singular Case=direct Modific_Type=prenomin
+05D050301010200000001	Dz3mso---e	Determiner negative third masculine singular oblique prenomin	Determiner Type=negative Person=third Gender=masculine Number=singular Case=oblique Modific_Type=prenomin
+05D050301020100000001	Dz3mpr---e	Determiner negative third masculine plural direct prenomin	Determiner Type=negative Person=third Gender=masculine Number=plural Case=direct Modific_Type=prenomin
+05D050302010100000001	Dz3fsr---e	Determiner negative third feminine singular direct prenomin	Determiner Type=negative Person=third Gender=feminine Number=singular Case=direct Modific_Type=prenomin
+05D050302010200000001	Dz3fso---e	Determiner negative third feminine singular oblique prenomin	Determiner Type=negative Person=third Gender=feminine Number=singular Case=oblique Modific_Type=prenomin
+05D060101010000000000	Dh1ms	Determiner emphatic first masculine singular	Determiner Type=emphatic Person=first Gender=masculine Number=singular
+05D060101020000000000	Dh1mp	Determiner emphatic first masculine plural	Determiner Type=emphatic Person=first Gender=masculine Number=plural
+05D060102010100000000	Dh1fsr	Determiner emphatic first feminine singular direct	Determiner Type=emphatic Person=first Gender=feminine Number=singular Case=direct
+05D060102010200000000	Dh1fso	Determiner emphatic first feminine singular oblique	Determiner Type=emphatic Person=first Gender=feminine Number=singular Case=oblique
+05D060102020000000000	Dh1fp	Determiner emphatic first feminine plural	Determiner Type=emphatic Person=first Gender=feminine Number=plural
+05D060201010000000000	Dh2ms	Determiner emphatic second masculine singular	Determiner Type=emphatic Person=second Gender=masculine Number=singular
+05D060201020000000000	Dh2mp	Determiner emphatic second masculine plural	Determiner Type=emphatic Person=second Gender=masculine Number=plural
+05D060202010100000000	Dh2fsr	Determiner emphatic second feminine singular direct	Determiner Type=emphatic Person=second Gender=feminine Number=singular Case=direct
+05D060202010200000000	Dh2fso	Determiner emphatic second feminine singular oblique	Determiner Type=emphatic Person=second Gender=feminine Number=singular Case=oblique
+05D060202020000000000	Dh2fp	Determiner emphatic second feminine plural	Determiner Type=emphatic Person=second Gender=feminine Number=plural
+05D060301010000000000	Dh3ms	Determiner emphatic third masculine singular	Determiner Type=emphatic Person=third Gender=masculine Number=singular
+05D060301020000000000	Dh3mp	Determiner emphatic third masculine plural	Determiner Type=emphatic Person=third Gender=masculine Number=plural
+05D060302010100000000	Dh3fsr	Determiner emphatic third feminine singular direct	Determiner Type=emphatic Person=third Gender=feminine Number=singular Case=direct
+05D060302010200000000	Dh3fso	Determiner emphatic third feminine singular oblique	Determiner Type=emphatic Person=third Gender=feminine Number=singular Case=oblique
+05D060302020000000000	Dh3fp	Determiner emphatic third feminine plural	Determiner Type=emphatic Person=third Gender=feminine Number=plural
+06T0100010200	Tf-so	Article definite singular oblique	Article Type=definite Number=singular Case=oblique
+06T0101010002	Tfms-y	Article definite masculine singular +Clitic	Article Type=definite Gender=masculine Number=singular Clitic=yes
+06T0101010102	Tfmsry	Article definite masculine singular direct +Clitic	Article Type=definite Gender=masculine Number=singular Case=direct Clitic=yes
+06T0101010202	Tfmsoy	Article definite masculine singular oblique +Clitic	Article Type=definite Gender=masculine Number=singular Case=oblique Clitic=yes
+06T0101020102	Tfmpry	Article definite masculine plural direct +Clitic	Article Type=definite Gender=masculine Number=plural Case=direct Clitic=yes
+06T0101020202	Tfmpoy	Article definite masculine plural oblique +Clitic	Article Type=definite Gender=masculine Number=plural Case=oblique Clitic=yes
+06T0102010002	Tffs-y	Article definite feminine singular +Clitic	Article Type=definite Gender=feminine Number=singular Clitic=yes
+06T0102010202	Tffsoy	Article definite feminine singular oblique +Clitic	Article Type=definite Gender=feminine Number=singular Case=oblique Clitic=yes
+06T0102020102	Tffpry	Article definite feminine plural direct +Clitic	Article Type=definite Gender=feminine Number=plural Case=direct Clitic=yes
+06T0102020202	Tffpoy	Article definite feminine plural oblique +Clitic	Article Type=definite Gender=feminine Number=plural Case=oblique Clitic=yes
+06T0200020200	Ti-po	Article indefinite plural oblique	Article Type=indefinite Number=plural Case=oblique
+06T0201010100	Timsr	Article indefinite masculine singular direct	Article Type=indefinite Gender=masculine Number=singular Case=direct
+06T0201010102	Timsry	Article indefinite masculine singular direct +Clitic	Article Type=indefinite Gender=masculine Number=singular Case=direct Clitic=yes
+06T0201010200	Timso	Article indefinite masculine singular oblique	Article Type=indefinite Gender=masculine Number=singular Case=oblique
+06T0201020002	Timp-y	Article indefinite masculine plural +Clitic	Article Type=indefinite Gender=masculine Number=plural Clitic=yes
+06T0202010100	Tifsr	Article indefinite feminine singular direct	Article Type=indefinite Gender=feminine Number=singular Case=direct
+06T0202010102	Tifsry	Article indefinite feminine singular direct +Clitic	Article Type=indefinite Gender=feminine Number=singular Case=direct Clitic=yes
+06T0202010200	Tifso	Article indefinite feminine singular oblique	Article Type=indefinite Gender=feminine Number=singular Case=oblique
+06T0202010202	Tifsoy	Article indefinite feminine singular oblique +Clitic	Article Type=indefinite Gender=feminine Number=singular Case=oblique Clitic=yes
+06T0202020002	Tifp-y	Article indefinite feminine plural +Clitic	Article Type=indefinite Gender=feminine Number=plural Clitic=yes
+06T0300020200	Ts-po	Article possessive plural oblique	Article Type=possessive Number=plural Case=oblique
+06T0301010000	Tsms	Article possessive masculine singular	Article Type=possessive Gender=masculine Number=singular
+06T0301020000	Tsmp	Article possessive masculine plural	Article Type=possessive Gender=masculine Number=plural
+06T0302010000	Tsfs	Article possessive feminine singular	Article Type=possessive Gender=feminine Number=singular
+06T0302020000	Tsfp	Article possessive feminine plural	Article Type=possessive Gender=feminine Number=plural
+06T0400020200	Td-po	Article demonstrative plural oblique	Article Type=demonstrative Number=plural Case=oblique
+06T0401010100	Tdmsr	Article demonstrative masculine singular direct	Article Type=demonstrative Gender=masculine Number=singular Case=direct
+06T0401010200	Tdmso	Article demonstrative masculine singular oblique	Article Type=demonstrative Gender=masculine Number=singular Case=oblique
+06T0401020100	Tdmpr	Article demonstrative masculine plural direct	Article Type=demonstrative Gender=masculine Number=plural Case=direct
+06T0402010100	Tdfsr	Article demonstrative feminine singular direct	Article Type=demonstrative Gender=feminine Number=singular Case=direct
+06T0402010200	Tdfso	Article demonstrative feminine singular oblique	Article Type=demonstrative Gender=feminine Number=singular Case=oblique
+06T0402020100	Tdfpr	Article demonstrative feminine plural direct	Article Type=demonstrative Gender=feminine Number=plural Case=direct
+07R010100	Rgp	Adverb general positive	Adverb Type=general Degree=positive
+07R010102	Rgpy	Adverb general positive +Clitic	Adverb Type=general Degree=positive Clitic=yes
+07R010200	Rgc	Adverb general comparative	Adverb Type=general Degree=comparative
+07R010300	Rgs	Adverb general superlative	Adverb Type=general Degree=superlative
+07R020000	Rp	Adverb particle	Adverb Type=particle
+07R020002	Rp-y	Adverb particle +Clitic	Adverb Type=particle Clitic=yes
+07R030000	Rz	Adverb negative	Adverb Type=negative
+07R050000	Rw	Adverb int-rel	Adverb Type=int-rel
+07R050002	Rw-y	Adverb int-rel +Clitic	Adverb Type=int-rel Clitic=yes
+07R060000	Rc	Adverb portmanteau	Adverb Type=portmanteau
+08S01010100	Spsg	Adposition preposition simple genitive	Adposition Type=preposition Formation=simple Case=genitive
+08S01010102	Spsgy	Adposition preposition simple genitive +Clitic	Adposition Type=preposition Formation=simple Case=genitive Clitic=yes
+08S01010200	Spsd	Adposition preposition simple dative	Adposition Type=preposition Formation=simple Case=dative
+08S01010300	Spsa	Adposition preposition simple accusative	Adposition Type=preposition Formation=simple Case=accusative
+08S01010302	Spsay	Adposition preposition simple accusative +Clitic	Adposition Type=preposition Formation=simple Case=accusative Clitic=yes
+08S01020100	Spcg	Adposition preposition compound genitive	Adposition Type=preposition Formation=compound Case=genitive
+08S01020300	Spca	Adposition preposition compound accusative	Adposition Type=preposition Formation=compound Case=accusative
+09C0101010200	Ccssp	Conjunction coordinating simple simple positive	Conjunction Type=coordinating Formation=simple Coord_Type=simple Sub_Type=positive
+09C0101010202	Ccsspy	Conjunction coordinating simple simple positive +Clitic	Conjunction Type=coordinating Formation=simple Coord_Type=simple Sub_Type=positive Clitic=yes
+09C0102010200	Cccsp	Conjunction coordinating compound simple positive	Conjunction Type=coordinating Formation=compound Coord_Type=simple Sub_Type=positive
+09C0201010200	Csssp	Conjunction subordinating simple simple positive	Conjunction Type=subordinating Formation=simple Coord_Type=simple Sub_Type=positive
+09C0201010202	Cssspy	Conjunction subordinating simple simple positive +Clitic	Conjunction Type=subordinating Formation=simple Coord_Type=simple Sub_Type=positive Clitic=yes
+09C0202010200	Cscsp	Conjunction subordinating compound simple positive	Conjunction Type=subordinating Formation=compound Coord_Type=simple Sub_Type=positive
+09C0301010200	Crssp	Conjunction portmanteau simple simple positive	Conjunction Type=portmanteau Formation=simple Coord_Type=simple Sub_Type=positive
+10M01000100010000	Mc-s-d	Numeral cardinal singular digit	Numeral Type=cardinal Number=singular Form=digit
+10M01000200030000	Mc-p-l	Numeral cardinal plural letter	Numeral Type=cardinal Number=plural Form=letter
+10M01010100030100	Mcms-ln	Numeral cardinal masculine singular letter -Definiteness	Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=no
+10M01010101030000	Mcmsrl	Numeral cardinal masculine singular direct letter	Numeral Type=cardinal Gender=masculine Number=singular Case=direct Form=letter
+10M01010101030200	Mcmsrly	Numeral cardinal masculine singular direct letter +Definiteness	Numeral Type=cardinal Gender=masculine Number=singular Case=direct Form=letter Definiteness=yes
+10M01010102030200	Mcmsoly	Numeral cardinal masculine singular oblique letter +Definiteness	Numeral Type=cardinal Gender=masculine Number=singular Case=oblique Form=letter Definiteness=yes
+10M01010200030000	Mcmp-l	Numeral cardinal masculine plural letter	Numeral Type=cardinal Gender=masculine Number=plural Form=letter
+10M01020101030100	Mcfsrln	Numeral cardinal feminine singular direct letter -Definiteness	Numeral Type=cardinal Gender=feminine Number=singular Case=direct Form=letter Definiteness=no
+10M01020101030200	Mcfsrly	Numeral cardinal feminine singular direct letter +Definiteness	Numeral Type=cardinal Gender=feminine Number=singular Case=direct Form=letter Definiteness=yes
+10M01020102030100	Mcfsoln	Numeral cardinal feminine singular oblique letter -Definiteness	Numeral Type=cardinal Gender=feminine Number=singular Case=oblique Form=letter Definiteness=no
+10M01020102030200	Mcfsoly	Numeral cardinal feminine singular oblique letter +Definiteness	Numeral Type=cardinal Gender=feminine Number=singular Case=oblique Form=letter Definiteness=yes
+10M01020200030000	Mcfp-l	Numeral cardinal feminine plural letter	Numeral Type=cardinal Gender=feminine Number=plural Form=letter
+10M01020200030100	Mcfp-ln	Numeral cardinal feminine plural letter -Definiteness	Numeral Type=cardinal Gender=feminine Number=plural Form=letter Definiteness=no
+10M01020201030100	Mcfprln	Numeral cardinal feminine plural direct letter -Definiteness	Numeral Type=cardinal Gender=feminine Number=plural Case=direct Form=letter Definiteness=no
+10M01020201030200	Mcfprly	Numeral cardinal feminine plural direct letter +Definiteness	Numeral Type=cardinal Gender=feminine Number=plural Case=direct Form=letter Definiteness=yes
+10M01020202030200	Mcfpoly	Numeral cardinal feminine plural oblique letter +Definiteness	Numeral Type=cardinal Gender=feminine Number=plural Case=oblique Form=letter Definiteness=yes
+10M02000000030000	Mo---l	Numeral ordinal letter	Numeral Type=ordinal Form=letter
+10M02000000030100	Mo---ln	Numeral ordinal letter -Definiteness	Numeral Type=ordinal Form=letter Definiteness=no
+10M02000000030102	Mo---lny	Numeral ordinal letter -Definiteness +Clitic	Numeral Type=ordinal Form=letter Definiteness=no Clitic=yes
+10M02000100020000	Mo-s-r	Numeral ordinal singular roman	Numeral Type=ordinal Number=singular Form=roman
+10M02010100030000	Moms-l	Numeral ordinal masculine singular letter	Numeral Type=ordinal Gender=masculine Number=singular Form=letter
+10M02010100030100	Moms-ln	Numeral ordinal masculine singular letter -Definiteness	Numeral Type=ordinal Gender=masculine Number=singular Form=letter Definiteness=no
+10M02010101030200	Momsrly	Numeral ordinal masculine singular direct letter +Definiteness	Numeral Type=ordinal Gender=masculine Number=singular Case=direct Form=letter Definiteness=yes
+10M02010101030202	Momsrlyy	Numeral ordinal masculine singular direct letter +Definiteness +Clitic	Numeral Type=ordinal Gender=masculine Number=singular Case=direct Form=letter Definiteness=yes Clitic=yes
+10M02010102030200	Momsoly	Numeral ordinal masculine singular oblique letter +Definiteness	Numeral Type=ordinal Gender=masculine Number=singular Case=oblique Form=letter Definiteness=yes
+10M02010102030202	Momsolyy	Numeral ordinal masculine singular oblique letter +Definiteness +Clitic	Numeral Type=ordinal Gender=masculine Number=singular Case=oblique Form=letter Definiteness=yes Clitic=yes
+10M02010200030100	Momp-ln	Numeral ordinal masculine plural letter -Definiteness	Numeral Type=ordinal Gender=masculine Number=plural Form=letter Definiteness=no
+10M02010201030200	Momprly	Numeral ordinal masculine plural direct letter +Definiteness	Numeral Type=ordinal Gender=masculine Number=plural Case=direct Form=letter Definiteness=yes
+10M02010201030202	Momprlyy	Numeral ordinal masculine plural direct letter +Definiteness +Clitic	Numeral Type=ordinal Gender=masculine Number=plural Case=direct Form=letter Definiteness=yes Clitic=yes
+10M02010202030200	Mompoly	Numeral ordinal masculine plural oblique letter +Definiteness	Numeral Type=ordinal Gender=masculine Number=plural Case=oblique Form=letter Definiteness=yes
+10M02010202030202	Mompolyy	Numeral ordinal masculine plural oblique letter +Definiteness +Clitic	Numeral Type=ordinal Gender=masculine Number=plural Case=oblique Form=letter Definiteness=yes Clitic=yes
+10M02020100030000	Mofs-l	Numeral ordinal feminine singular letter	Numeral Type=ordinal Gender=feminine Number=singular Form=letter
+10M02020101030100	Mofsrln	Numeral ordinal feminine singular direct letter -Definiteness	Numeral Type=ordinal Gender=feminine Number=singular Case=direct Form=letter Definiteness=no
+10M02020101030200	Mofsrly	Numeral ordinal feminine singular direct letter +Definiteness	Numeral Type=ordinal Gender=feminine Number=singular Case=direct Form=letter Definiteness=yes
+10M02020101030202	Mofsrlyy	Numeral ordinal feminine singular direct letter +Definiteness +Clitic	Numeral Type=ordinal Gender=feminine Number=singular Case=direct Form=letter Definiteness=yes Clitic=yes
+10M02020102030100	Mofsoln	Numeral ordinal feminine singular oblique letter -Definiteness	Numeral Type=ordinal Gender=feminine Number=singular Case=oblique Form=letter Definiteness=no
+10M02020102030200	Mofsoly	Numeral ordinal feminine singular oblique letter +Definiteness	Numeral Type=ordinal Gender=feminine Number=singular Case=oblique Form=letter Definiteness=yes
+10M02020102030202	Mofsolyy	Numeral ordinal feminine singular oblique letter +Definiteness +Clitic	Numeral Type=ordinal Gender=feminine Number=singular Case=oblique Form=letter Definiteness=yes Clitic=yes
+10M02020200030100	Mofp-ln	Numeral ordinal feminine plural letter -Definiteness	Numeral Type=ordinal Gender=feminine Number=plural Form=letter Definiteness=no
+10M02020201030200	Mofprly	Numeral ordinal feminine plural direct letter +Definiteness	Numeral Type=ordinal Gender=feminine Number=plural Case=direct Form=letter Definiteness=yes
+10M02020201030202	Mofprlyy	Numeral ordinal feminine plural direct letter +Definiteness +Clitic	Numeral Type=ordinal Gender=feminine Number=plural Case=direct Form=letter Definiteness=yes Clitic=yes
+10M02020202030200	Mofpoly	Numeral ordinal feminine plural oblique letter +Definiteness	Numeral Type=ordinal Gender=feminine Number=plural Case=oblique Form=letter Definiteness=yes
+10M02020202030202	Mofpolyy	Numeral ordinal feminine plural oblique letter +Definiteness +Clitic	Numeral Type=ordinal Gender=feminine Number=plural Case=oblique Form=letter Definiteness=yes Clitic=yes
+10M03020101030100	Mffsrln	Numeral fractal feminine singular direct letter -Definiteness	Numeral Type=fractal Gender=feminine Number=singular Case=direct Form=letter Definiteness=no
+10M03020101030200	Mffsrly	Numeral fractal feminine singular direct letter +Definiteness	Numeral Type=fractal Gender=feminine Number=singular Case=direct Form=letter Definiteness=yes
+10M03020102030100	Mffsoln	Numeral fractal feminine singular oblique letter -Definiteness	Numeral Type=fractal Gender=feminine Number=singular Case=oblique Form=letter Definiteness=no
+10M03020102030200	Mffsoly	Numeral fractal feminine singular oblique letter +Definiteness	Numeral Type=fractal Gender=feminine Number=singular Case=oblique Form=letter Definiteness=yes
+10M03020201030100	Mffprln	Numeral fractal feminine plural direct letter -Definiteness	Numeral Type=fractal Gender=feminine Number=plural Case=direct Form=letter Definiteness=no
+10M03020201030200	Mffprly	Numeral fractal feminine plural direct letter +Definiteness	Numeral Type=fractal Gender=feminine Number=plural Case=direct Form=letter Definiteness=yes
+10M03020202030200	Mffpoly	Numeral fractal feminine plural oblique letter +Definiteness	Numeral Type=fractal Gender=feminine Number=plural Case=oblique Form=letter Definiteness=yes
+10M04010101000100	Mmmsr-n	Numeral multiple masculine singular direct -Definiteness	Numeral Type=multiple Gender=masculine Number=singular Case=direct Definiteness=no
+10M04010101000102	Mmmsr-ny	Numeral multiple masculine singular direct -Definiteness +Clitic	Numeral Type=multiple Gender=masculine Number=singular Case=direct Definiteness=no Clitic=yes
+10M04010101000200	Mmmsr-y	Numeral multiple masculine singular direct +Definiteness	Numeral Type=multiple Gender=masculine Number=singular Case=direct Definiteness=yes
+10M04010101000202	Mmmsr-yy	Numeral multiple masculine singular direct +Definiteness +Clitic	Numeral Type=multiple Gender=masculine Number=singular Case=direct Definiteness=yes Clitic=yes
+10M04010102000200	Mmmso-y	Numeral multiple masculine singular oblique +Definiteness	Numeral Type=multiple Gender=masculine Number=singular Case=oblique Definiteness=yes
+10M04010102000202	Mmmso-yy	Numeral multiple masculine singular oblique +Definiteness +Clitic	Numeral Type=multiple Gender=masculine Number=singular Case=oblique Definiteness=yes Clitic=yes
+10M04010201000100	Mmmpr-n	Numeral multiple masculine plural direct -Definiteness	Numeral Type=multiple Gender=masculine Number=plural Case=direct Definiteness=no
+10M04010201000102	Mmmpr-ny	Numeral multiple masculine plural direct -Definiteness +Clitic	Numeral Type=multiple Gender=masculine Number=plural Case=direct Definiteness=no Clitic=yes
+10M04010201000200	Mmmpr-y	Numeral multiple masculine plural direct +Definiteness	Numeral Type=multiple Gender=masculine Number=plural Case=direct Definiteness=yes
+10M04010201000202	Mmmpr-yy	Numeral multiple masculine plural direct +Definiteness +Clitic	Numeral Type=multiple Gender=masculine Number=plural Case=direct Definiteness=yes Clitic=yes
+10M04010202000200	Mmmpo-y	Numeral multiple masculine plural oblique +Definiteness	Numeral Type=multiple Gender=masculine Number=plural Case=oblique Definiteness=yes
+10M04010202000202	Mmmpo-yy	Numeral multiple masculine plural oblique +Definiteness +Clitic	Numeral Type=multiple Gender=masculine Number=plural Case=oblique Definiteness=yes Clitic=yes
+10M04020101000100	Mmfsr-n	Numeral multiple feminine singular direct -Definiteness	Numeral Type=multiple Gender=feminine Number=singular Case=direct Definiteness=no
+10M04020101000102	Mmfsr-ny	Numeral multiple feminine singular direct -Definiteness +Clitic	Numeral Type=multiple Gender=feminine Number=singular Case=direct Definiteness=no Clitic=yes
+10M04020101000200	Mmfsr-y	Numeral multiple feminine singular direct +Definiteness	Numeral Type=multiple Gender=feminine Number=singular Case=direct Definiteness=yes
+10M04020101000202	Mmfsr-yy	Numeral multiple feminine singular direct +Definiteness +Clitic	Numeral Type=multiple Gender=feminine Number=singular Case=direct Definiteness=yes Clitic=yes
+10M04020102000100	Mmfso-n	Numeral multiple feminine singular oblique -Definiteness	Numeral Type=multiple Gender=feminine Number=singular Case=oblique Definiteness=no
+10M04020102000102	Mmfso-ny	Numeral multiple feminine singular oblique -Definiteness +Clitic	Numeral Type=multiple Gender=feminine Number=singular Case=oblique Definiteness=no Clitic=yes
+10M04020102000200	Mmfso-y	Numeral multiple feminine singular oblique +Definiteness	Numeral Type=multiple Gender=feminine Number=singular Case=oblique Definiteness=yes
+10M04020102000202	Mmfso-yy	Numeral multiple feminine singular oblique +Definiteness +Clitic	Numeral Type=multiple Gender=feminine Number=singular Case=oblique Definiteness=yes Clitic=yes
+10M04020200000100	Mmfp--n	Numeral multiple feminine plural -Definiteness	Numeral Type=multiple Gender=feminine Number=plural Definiteness=no
+10M04020200000102	Mmfp--ny	Numeral multiple feminine plural -Definiteness +Clitic	Numeral Type=multiple Gender=feminine Number=plural Definiteness=no Clitic=yes
+10M04020201000200	Mmfpr-y	Numeral multiple feminine plural direct +Definiteness	Numeral Type=multiple Gender=feminine Number=plural Case=direct Definiteness=yes
+10M04020201000202	Mmfpr-yy	Numeral multiple feminine plural direct +Definiteness +Clitic	Numeral Type=multiple Gender=feminine Number=plural Case=direct Definiteness=yes Clitic=yes
+10M04020202000200	Mmfpo-y	Numeral multiple feminine plural oblique +Definiteness	Numeral Type=multiple Gender=feminine Number=plural Case=oblique Definiteness=yes
+10M04020202000202	Mmfpo-yy	Numeral multiple feminine plural oblique +Definiteness +Clitic	Numeral Type=multiple Gender=feminine Number=plural Case=oblique Definiteness=yes Clitic=yes
+10M05000201000000	Ml-pr	Numeral collect plural direct	Numeral Type=collect Number=plural Case=direct
+10M05000202000000	Ml-po	Numeral collect plural oblique	Numeral Type=collect Number=plural Case=oblique
+10M05010201000000	Mlmpr	Numeral collect masculine plural direct	Numeral Type=collect Gender=masculine Number=plural Case=direct
+10M05010202000000	Mlmpo	Numeral collect masculine plural oblique	Numeral Type=collect Gender=masculine Number=plural Case=oblique
+10M05020201000000	Mlfpr	Numeral collect feminine plural direct	Numeral Type=collect Gender=feminine Number=plural Case=direct
+10M05020202000000	Mlfpo	Numeral collect feminine plural oblique	Numeral Type=collect Gender=feminine Number=plural Case=oblique
+11Q010000	Qz	Particle negative	Particle Type=negative
+11Q010002	Qz-y	Particle negative +Clitic	Particle Type=negative Clitic=yes
+11Q020000	Qn	Particle infinitive	Particle Type=infinitive
+11Q020002	Qn-y	Particle infinitive +Clitic	Particle Type=infinitive Clitic=yes
+11Q030000	Qs	Particle subjunctive	Particle Type=subjunctive
+11Q050000	Qf	Particle future	Particle Type=future
+12I	I	Interjection	Interjection
+13Y0000000000	Y	Abbreviation	Abbreviation
+13Y0100000000	Yn	Abbreviation nominal	Abbreviation Syntactic_Type=nominal
+13Y0101010101	Ynmsry	Abbreviation nominal masculine singular direct +Definiteness	Abbreviation Syntactic_Type=nominal Gender=masculine Number=singular Case=direct Definiteness=yes
+13Y0101010201	Ynmsoy	Abbreviation nominal masculine singular oblique +Definiteness	Abbreviation Syntactic_Type=nominal Gender=masculine Number=singular Case=oblique Definiteness=yes
+13Y0101010301	Ynmsvy	Abbreviation nominal masculine singular vocative +Definiteness	Abbreviation Syntactic_Type=nominal Gender=masculine Number=singular Case=vocative Definiteness=yes
+13Y0101020101	Ynmpry	Abbreviation nominal masculine plural direct +Definiteness	Abbreviation Syntactic_Type=nominal Gender=masculine Number=plural Case=direct Definiteness=yes
+13Y0101020201	Ynmpoy	Abbreviation nominal masculine plural oblique +Definiteness	Abbreviation Syntactic_Type=nominal Gender=masculine Number=plural Case=oblique Definiteness=yes
+13Y0101020301	Ynmpvy	Abbreviation nominal masculine plural vocative +Definiteness	Abbreviation Syntactic_Type=nominal Gender=masculine Number=plural Case=vocative Definiteness=yes
+13Y0102010101	Ynfsry	Abbreviation nominal feminine singular direct +Definiteness	Abbreviation Syntactic_Type=nominal Gender=feminine Number=singular Case=direct Definiteness=yes
+13Y0102010201	Ynfsoy	Abbreviation nominal feminine singular oblique +Definiteness	Abbreviation Syntactic_Type=nominal Gender=feminine Number=singular Case=oblique Definiteness=yes
+13Y0102020301	Ynfpvy	Abbreviation nominal feminine plural vocative +Definiteness	Abbreviation Syntactic_Type=nominal Gender=feminine Number=plural Case=vocative Definiteness=yes
+13Y0200000000	Yv	Abbreviation verbal	Abbreviation Syntactic_Type=verbal
+13Y0300000000	Ya	Abbreviation adjectival	Abbreviation Syntactic_Type=adjectival
+13Y0400000000	Yr	Abbreviation adverbial	Abbreviation Syntactic_Type=adverbial
+13Y0500000000	Yp	Abbreviation pronominal	Abbreviation Syntactic_Type=pronominal
+13Y0500010100	Yp-sr	Abbreviation pronominal singular direct	Abbreviation Syntactic_Type=pronominal Number=singular Case=direct
+13Y0500010200	Yp-so	Abbreviation pronominal singular oblique	Abbreviation Syntactic_Type=pronominal Number=singular Case=oblique
+13Y0500020000	Yp-p	Abbreviation pronominal plural	Abbreviation Syntactic_Type=pronominal Number=plural
+13Y0501010000	Ypms	Abbreviation pronominal masculine singular	Abbreviation Syntactic_Type=pronominal Gender=masculine Number=singular
+13Y0502010000	Ypfs	Abbreviation pronominal feminine singular	Abbreviation Syntactic_Type=pronominal Gender=feminine Number=singular
+14X	X	Residual	Residual
+15Z	Z	Punctuation	Punctuation

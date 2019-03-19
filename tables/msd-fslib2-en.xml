@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Automatically generated from XML source - edit at you own risk!--><div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="en"
+     xml:id="msd-en"
+     xml:lang="en">
+   <head>MULTEXT-East morphosyntactic specifications as a TEI FS library</head>
+   <head>English Specifications</head>
+   <docAuthor>Nancy Ide, Greg Priest-Dorman, Tomaž Erjavec, Tamas Varadi</docAuthor>
+   <docDate>2018-11-12</docDate>
+   <list type="gloss">
+      <label>Language Name:</label>
+      <item>English</item>
+      <label>Code:</label>
+      <item>en</item>
+      <label>Reference:</label>
+      <item>
+         <ref target="http://www.ethnologue.com/language/eng">Ethnologue</ref>
+      </item>
+   </list>
+   
+   <fvLib xml:lang="en">
+      <fs xml:id="Nc" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+      </fs>
+      <fs xml:id="Nc-s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Nc-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Ncm" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+      </fs>
+      <fs xml:id="Ncms" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Ncmp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Ncf" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="feminine"/>
+         </f>
+      </fs>
+      <fs xml:id="Ncfs" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="feminine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Ncfp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="feminine"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Ncn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+      </fs>
+      <fs xml:id="Ncns" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Ncnp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Np" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="proper"/>
+         </f>
+      </fs>
+      <fs xml:id="Np-s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="proper"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Np-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="proper"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Npms" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="proper"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Npfs" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="proper"/>
+         </f>
+         <f name="Gender">
+            <symbol value="feminine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Npns" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="proper"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Npnp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="proper"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmip" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmip-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmip1s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmip2s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmip3s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmis" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmis-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmis1s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmis2s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmis3s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmcs" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="conditional"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="infinitive"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmnp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="infinitive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmpp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="participle"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmps" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="participle"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+      </fs>
+      <fs xml:id="Vaip" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+      </fs>
+      <fs xml:id="Vaip-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Vaip1s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vaip2s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vaip3s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vais" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+      </fs>
+      <fs xml:id="Vais-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Vais1s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vais2s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vais3s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vacs" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="conditional"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+      </fs>
+      <fs xml:id="Van" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="infinitive"/>
+         </f>
+      </fs>
+      <fs xml:id="Vapp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="participle"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+      </fs>
+      <fs xml:id="Vaps" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="auxiliary"/>
+         </f>
+         <f name="VForm">
+            <symbol value="participle"/>
+         </f>
+         <f name="Tense">
+            <symbol value="past"/>
+         </f>
+      </fs>
+      <fs xml:id="Voip" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="modal"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+      </fs>
+      <fs xml:id="Af" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adjective"/>
+         </f>
+         <f name="Type">
+            <symbol value="qualificative"/>
+         </f>
+      </fs>
+      <fs xml:id="Afp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adjective"/>
+         </f>
+         <f name="Type">
+            <symbol value="qualificative"/>
+         </f>
+         <f name="Degree">
+            <symbol value="positive"/>
+         </f>
+      </fs>
+      <fs xml:id="Afc" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adjective"/>
+         </f>
+         <f name="Type">
+            <symbol value="qualificative"/>
+         </f>
+         <f name="Degree">
+            <symbol value="comparative"/>
+         </f>
+      </fs>
+      <fs xml:id="Afs" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adjective"/>
+         </f>
+         <f name="Type">
+            <symbol value="qualificative"/>
+         </f>
+         <f name="Degree">
+            <symbol value="superlative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp---------------r" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="relative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp---------------q" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="question"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp---a-----------r" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Case">
+            <symbol value="accusative"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="relative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp---a-----------q" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Case">
+            <symbol value="accusative"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="question"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp--sn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp--pn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp1-sn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp1-pn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp1-pa" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Case">
+            <symbol value="accusative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp2" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp2--a" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Case">
+            <symbol value="accusative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp2-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp3-pa" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Case">
+            <symbol value="accusative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp3ms" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp3msn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp3msa" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Case">
+            <symbol value="accusative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp3fs" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="feminine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp3fsn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="feminine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp3fsa" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="feminine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Case">
+            <symbol value="accusative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp3ns" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Ps3" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+      </fs>
+      <fs xml:id="Ps3--------------r" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="relative"/>
+         </f>
+      </fs>
+      <fs xml:id="Ps3--------------q" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="question"/>
+         </f>
+      </fs>
+      <fs xml:id="Ps3---s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Ps3---sm" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Owner_Gender">
+            <symbol value="masculine"/>
+         </f>
+      </fs>
+      <fs xml:id="Ps3---sf" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Owner_Gender">
+            <symbol value="feminine"/>
+         </f>
+      </fs>
+      <fs xml:id="Ps3---p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Px1-s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="reflexive"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Px1-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="reflexive"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Px2-s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="reflexive"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Px2-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="reflexive"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Px3-s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="reflexive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Px3-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="reflexive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Px3ms" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="reflexive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Px3fs" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="reflexive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="feminine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Px3ns" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="reflexive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Pg3--------------r" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="relative"/>
+         </f>
+      </fs>
+      <fs xml:id="Pg3--------------q" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="question"/>
+         </f>
+      </fs>
+      <fs xml:id="Pg3-s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Pg3-p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Pg3ms" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Pg3fs" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="feminine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Pg3n" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+      </fs>
+      <fs xml:id="Pg3ns" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Pg3np" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Gender">
+            <symbol value="neuter"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Pt3" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="ex-there"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+      </fs>
+      <fs xml:id="Dd" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="demonstrative"/>
+         </f>
+      </fs>
+      <fs xml:id="Di" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="indefinite"/>
+         </f>
+      </fs>
+      <fs xml:id="Ds--------r" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="relative"/>
+         </f>
+      </fs>
+      <fs xml:id="Ds--------q" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="question"/>
+         </f>
+      </fs>
+      <fs xml:id="Ds1---s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Ds1---p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Ds2" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="second"/>
+         </f>
+      </fs>
+      <fs xml:id="Ds3---sm" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Owner_Gender">
+            <symbol value="masculine"/>
+         </f>
+      </fs>
+      <fs xml:id="Ds3---sf" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Owner_Gender">
+            <symbol value="feminine"/>
+         </f>
+      </fs>
+      <fs xml:id="Ds3---sn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Owner_Gender">
+            <symbol value="neuter"/>
+         </f>
+      </fs>
+      <fs xml:id="Ds3---p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="possessive"/>
+         </f>
+         <f name="Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Owner_Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="Dg" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+      </fs>
+      <fs xml:id="Dg--------r" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="relative"/>
+         </f>
+      </fs>
+      <fs xml:id="Dg--------q" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="question"/>
+         </f>
+      </fs>
+      <fs xml:id="Dg--s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Dg--p" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Determiner"/>
+         </f>
+         <f name="Type">
+            <symbol value="general"/>
+         </f>
+         <f name="Number">
+            <symbol value="plural"/>
+         </f>
+      </fs>
+      <fs xml:id="R-p---q" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adverb"/>
+         </f>
+         <f name="Degree">
+            <symbol value="positive"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="question"/>
+         </f>
+      </fs>
+      <fs xml:id="Rmp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adverb"/>
+         </f>
+         <f name="Type">
+            <symbol value="modifier"/>
+         </f>
+         <f name="Degree">
+            <symbol value="positive"/>
+         </f>
+      </fs>
+      <fs xml:id="Rmp---r" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adverb"/>
+         </f>
+         <f name="Type">
+            <symbol value="modifier"/>
+         </f>
+         <f name="Degree">
+            <symbol value="positive"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="relative"/>
+         </f>
+      </fs>
+      <fs xml:id="Rmp---q" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adverb"/>
+         </f>
+         <f name="Type">
+            <symbol value="modifier"/>
+         </f>
+         <f name="Degree">
+            <symbol value="positive"/>
+         </f>
+         <f name="Wh_Type">
+            <symbol value="question"/>
+         </f>
+      </fs>
+      <fs xml:id="Rmc" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adverb"/>
+         </f>
+         <f name="Type">
+            <symbol value="modifier"/>
+         </f>
+         <f name="Degree">
+            <symbol value="comparative"/>
+         </f>
+      </fs>
+      <fs xml:id="Rms" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adverb"/>
+         </f>
+         <f name="Type">
+            <symbol value="modifier"/>
+         </f>
+         <f name="Degree">
+            <symbol value="superlative"/>
+         </f>
+      </fs>
+      <fs xml:id="Rsp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adverb"/>
+         </f>
+         <f name="Type">
+            <symbol value="specifier"/>
+         </f>
+         <f name="Degree">
+            <symbol value="positive"/>
+         </f>
+      </fs>
+      <fs xml:id="Rsc" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adverb"/>
+         </f>
+         <f name="Type">
+            <symbol value="specifier"/>
+         </f>
+         <f name="Degree">
+            <symbol value="comparative"/>
+         </f>
+      </fs>
+      <fs xml:id="Rss" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adverb"/>
+         </f>
+         <f name="Type">
+            <symbol value="specifier"/>
+         </f>
+         <f name="Degree">
+            <symbol value="superlative"/>
+         </f>
+      </fs>
+      <fs xml:id="Sp" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adposition"/>
+         </f>
+         <f name="Type">
+            <symbol value="preposition"/>
+         </f>
+      </fs>
+      <fs xml:id="St" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Adposition"/>
+         </f>
+         <f name="Type">
+            <symbol value="postposition"/>
+         </f>
+      </fs>
+      <fs xml:id="Cc" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Conjunction"/>
+         </f>
+         <f name="Type">
+            <symbol value="coordinating"/>
+         </f>
+      </fs>
+      <fs xml:id="Cc-i" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Conjunction"/>
+         </f>
+         <f name="Type">
+            <symbol value="coordinating"/>
+         </f>
+         <f name="Coord_Type">
+            <symbol value="initial"/>
+         </f>
+      </fs>
+      <fs xml:id="Cc-n" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Conjunction"/>
+         </f>
+         <f name="Type">
+            <symbol value="coordinating"/>
+         </f>
+         <f name="Coord_Type">
+            <symbol value="non-initial"/>
+         </f>
+      </fs>
+      <fs xml:id="Cs" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Conjunction"/>
+         </f>
+         <f name="Type">
+            <symbol value="subordinating"/>
+         </f>
+      </fs>
+      <fs xml:id="Mc" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Numeral"/>
+         </f>
+         <f name="Type">
+            <symbol value="cardinal"/>
+         </f>
+      </fs>
+      <fs xml:id="Mo" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Numeral"/>
+         </f>
+         <f name="Type">
+            <symbol value="ordinal"/>
+         </f>
+      </fs>
+      <fs xml:id="I" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Interjection"/>
+         </f>
+      </fs>
+      <fs xml:id="Y" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Abbreviation"/>
+         </f>
+      </fs>
+      <fs xml:id="X" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Residual"/>
+         </f>
+      </fs>
+      <fs xml:id="Z" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Punctuation"/>
+         </f>
+      </fs>
+   </fvLib>
+</div>
