@@ -7,6 +7,10 @@ val:
 # Test generation of new draft language specific section
 tst-split:
 	$s in-langs='sl sr ro' out-lang='sq' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-sq.spc.xml
+# Test generation of canonical table
+tst-can:
+	$s specs=../xml/msd-sl.spc.xml output='id attval' canonical=full -xsl:bin/msd-expand2text.xsl xml/msd-sl.spc.xml > tmp/msd-canon1-sl.tbl
+
 # Test generation of fsLib
 tst-lib:
 	$s select=sl -xsl:bin/msd-fslib.xsl xml/msd-sl.spc.xml > tmp/msd-fslib-sl.xml
