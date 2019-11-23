@@ -4,9 +4,6 @@ val:
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
 ## TESTING SCRIPTS
-# Test generation of new draft language specific section
-tst-split:
-	$s in-langs='sl sr ro' out-lang='sq' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-sq.spc.xml
 # Test generation of canonical table
 tst-can:
 	$s specs=../xml/msd-sl.spc.xml output='id attval' canonical=full -xsl:bin/msd-expand2text.xsl xml/msd-sl.spc.xml > tmp/msd-canon1-sl.tbl
@@ -32,7 +29,7 @@ tst-indx:
 nohup:
 	date > nohup.all
 	nohup time make all >> nohup.all &
-all:	cast-all htm tbls mount
+all:	htm tbls mount
 xall:	cast-all htm tbls mount
 
 # Put the publishable part of the resources on the Web
@@ -83,8 +80,14 @@ cast-all:
 
 #### ADDING A NEW LANGUAGE
 ## This block illustrates how to add a new language to the specifications:
+## 0. If starting from scratch, base new language on most similar language(s) in the current specs
 ## 1. Create an MSD index for the language from the lexicon
 ## 2. Merge the language specific features into the section with common tables
+
+# Test generation of new draft language specific section
+## These will, of course, then need lots of hand editing!
+split:
+	$s in-langs='sl sr ro' out-lang='sq' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-sq.spc.xml
 
 ## Name of the new language
 NL = sq
