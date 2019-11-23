@@ -1,0 +1,159 @@
+sq added to category Noun
+sq added to feature Noun/Type=common
+sq added to feature Noun/Type=proper
+sq added to feature Noun/Gender=masculine
+sq added to feature Noun/Gender=feminine
+sq added to feature Noun/Gender=neuter
+sq added to feature Noun/Number=singular
+sq added to feature Noun/Number=plural
+sq added to feature Noun/Case=nominative
+sq added to feature Noun/Case=genitive
+sq added to feature Noun/Case=dative
+sq added to feature Noun/Case=accusative
+sq added to feature Noun/Case=ablative
+sq added to feature Noun/Definiteness=no
+sq added to feature Noun/Definiteness=yes
+sq added to category Verb
+sq added to feature Verb/Type=main
+sq added to feature Verb/Type=auxiliary
+sq added to feature Verb/Type=modal
+sq added to feature Verb/VForm=indicative
+sq added to feature Verb/VForm=subjunctive
+sq added to feature Verb/VForm=imperative
+sq added to feature Verb/VForm=participle
+WARN sq NEW value Verb/VForm=admirative with code d
+WARN sq NEW value Verb/VForm=optative with code y
+sq added to feature Verb/Tense=present
+sq added to feature Verb/Tense=imperfect
+sq added to feature Verb/Tense=aorist
+sq added to feature Verb/Person=first
+sq added to feature Verb/Person=second
+sq added to feature Verb/Person=third
+sq added to feature Verb/Number=singular
+sq added to feature Verb/Number=plural
+sq added to feature Verb/Voice=active
+sq added to feature Verb/Voice=passive
+sq added to feature Verb/Definiteness=no
+WARN sq NEW value Verb/Definiteness=1sd with code 0
+WARN sq NEW value Verb/Definiteness=1sd3sa with code 1
+WARN sq NEW value Verb/Definiteness=1sd3pa with code 3
+WARN sq NEW value Verb/Definiteness=3sd with code 4
+WARN sq NEW value Verb/Definiteness=3sd3sa with code 5
+WARN sq NEW value Verb/Definiteness=1pd with code 6
+WARN sq NEW value Verb/Definiteness=3pd with code 7
+WARN sq NEW value Verb/Definiteness=3sa with code 8
+WARN sq NEW value Verb/Definiteness=3pd3sa with code 9
+sq added to category Adjective
+sq added to feature Adjective/Type=general
+WARN sq NEW value Adjective/Type=preposed with code r
+sq added to feature Adjective/Gender=masculine
+sq added to feature Adjective/Gender=feminine
+sq added to feature Adjective/Number=singular
+sq added to feature Adjective/Number=plural
+sq added to feature Adjective/Case=nominative
+sq added to feature Adjective/Case=genitive
+sq added to feature Adjective/Case=dative
+sq added to feature Adjective/Case=accusative
+sq added to feature Adjective/Case=ablative
+sq added to feature Adjective/Definiteness=no
+sq added to feature Adjective/Definiteness=yes
+WARN sq NEW attribute Adjective/Articulation at position 19
+sq added to category Pronoun
+sq added to feature Pronoun/Type=personal
+sq added to feature Pronoun/Type=demonstrative
+sq added to feature Pronoun/Type=indefinite
+sq added to feature Pronoun/Type=possessive
+sq added to feature Pronoun/Type=interrogative
+sq added to feature Pronoun/Type=relative
+sq added to feature Pronoun/Type=reflexive
+sq added to feature Pronoun/Person=first
+sq added to feature Pronoun/Person=second
+sq added to feature Pronoun/Person=third
+sq added to feature Pronoun/Gender=masculine
+sq added to feature Pronoun/Gender=feminine
+sq added to feature Pronoun/Number=singular
+sq added to feature Pronoun/Number=plural
+sq added to feature Pronoun/Case=nominative
+sq added to feature Pronoun/Case=genitive
+sq added to feature Pronoun/Case=dative
+sq added to feature Pronoun/Case=accusative
+sq added to feature Pronoun/Case=ablative
+sq added to feature Pronoun/Owner_Number=singular
+sq added to feature Pronoun/Owner_Number=plural
+sq added to feature Pronoun/Owner_Gender=masculine
+sq added to feature Pronoun/Owner_Gender=feminine
+sq added to feature Pronoun/Owner_Gender=neuter
+sq added to feature Pronoun/Clitic=no
+sq added to feature Pronoun/Clitic=yes
+sq added to feature Pronoun/Clitic=bound
+sq added to feature Pronoun/Syntactic_Type=nominal
+sq added to feature Pronoun/Syntactic_Type=adjectival
+sq added to feature Pronoun/Definiteness=no
+sq added to feature Pronoun/Definiteness=yes
+sq added to feature Pronoun/Definiteness=proximal
+sq added to feature Pronoun/Definiteness=distal
+sq added to feature Pronoun/Pronoun_Form=strong
+sq added to feature Pronoun/Pronoun_Form=weak
+sq added to category Article
+sq added to feature Article/Type=indefinite
+sq added to feature Article/Type=possessive
+WARN sq NEW value Article/Type=nominal with code n
+WARN sq NEW value Article/Type=adjectival with code a
+WARN sq NEW value Article/Type=numerical with code m
+WARN sq NEW value Article/Type=pronominal with code p
+sq added to category Adverb
+sq added to feature Adverb/Type=modifier
+sq added to feature Adverb/Type=specifier
+sq added to feature Adverb/Type=interrogative
+sq added to feature Adverb/Degree=positive
+sq added to feature Adverb/Degree=superlative
+sq added to category Adposition
+sq added to feature Adposition/Type=preposition
+sq added to feature Adposition/Case=nominative
+sq added to feature Adposition/Case=accusative
+WARN sq NEW value Adposition/Case=ablative with code b
+sq added to category Conjunction
+sq added to feature Conjunction/Type=coordinating
+sq added to feature Conjunction/Type=subordinating
+sq added to category Numeral
+sq added to feature Numeral/Type=cardinal
+sq added to feature Numeral/Type=fractal
+sq added to feature Numeral/Type=multiple
+sq added to feature Numeral/Type=collect
+sq added to feature Numeral/Type=pronominal
+sq added to feature Numeral/Gender=masculine
+sq added to feature Numeral/Gender=feminine
+sq added to feature Numeral/Number=singular
+sq added to feature Numeral/Number=plural
+sq added to feature Numeral/Case=nominative
+sq added to feature Numeral/Case=genitive
+sq added to feature Numeral/Case=dative
+sq added to feature Numeral/Case=accusative
+sq added to feature Numeral/Case=ablative
+sq added to feature Numeral/Form=digit
+sq added to feature Numeral/Form=roman
+sq added to feature Numeral/Form=letter
+sq added to feature Numeral/Form=both
+sq added to category Particle
+sq added to feature Particle/Type=negative
+sq added to feature Particle/Type=infinitive
+sq added to feature Particle/Type=subjunctive
+sq added to feature Particle/Type=general
+sq added to feature Particle/Type=comparative
+sq added to feature Particle/Type=verbal
+sq added to feature Particle/Type=interrogative
+sq added to feature Particle/Type=affirmative
+WARN sq NEW value Particle/Type=definitive with code d
+sq added to category Interjection
+sq added to feature Interjection/Type=mood
+sq added to feature Interjection/Type=other
+sq added to category Abbreviation
+sq added to category Residual
+sq added to feature Residual/Type=foreign
+sq added to feature Residual/Type=typo
+sq added to feature Residual/Type=program
+sq added to feature Residual/Type=web
+sq added to feature Residual/Type=emo
+sq added to feature Residual/Type=hashtag
+sq added to feature Residual/Type=at
+sq added to category Punctuation
