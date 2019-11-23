@@ -3,7 +3,7 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:fn="http://www.w3.org/2005/xpath-functions"
   exclude-result-prefixes="fn tei">
-  <xsl:template match="tei:*">
+  <xsl:template match="*">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:apply-templates/>

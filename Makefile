@@ -82,12 +82,15 @@ cast-all:
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
 #### ADDING A NEW LANGUAGE
-## Take the specifications for the new language, which should be xml-edit/msd-${NL}.spc.xml
+## This block illustrates how to add a new language to the specifications:
+## 1. Create an MSD index for the language from the lexicon
+## 2. Merge the language specific features into the section with common tables
+
+## Name of the new language
 NL = sq
-## then
-## create a MSD index for it
-## and merge its features into the section with common tables
-## (complains if this leads to errors)
+##  It is assumed that two files have first been added to the project:
+##  xml-edit/msd-${NL}.spc.xml: the language specific specifications, without the MSD list
+##  lexica/wfl-${NL}.txt: the lexicon of the language in MULTEXT format
 
 ## First make the example lexicon on the basis of a full MULTEXT lexicon
 ## (examples are taken from the start of the lexicon, so it should be appropriatelly sorted!)
@@ -100,18 +103,29 @@ new-msds:
 	< xml-edit/msd-${NL}.wfl.txt > xml-edit/msd-${NL}.msd.xml
 
 ## Merge the language specific section with the common one
+## The log of the merge is written to xml-edit/msd-${NL}.log
+## The output goes into a temporary file xml-edit/msd_with_${NL}.xml
+
 new-merge:
 	$s add=../xml-edit/msd-${NL}.spc.xml -xsl:bin/msd-merge.xsl xml-edit/msd.xml \
 	> xml-edit/msd_with_${NL}.xml 2> xml-edit/msd-${NL}.log
-# Processes specs from xml-edit/ and puts them into xml/
-new-cast:
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-${NL}.spc.xml xml/msd-${NL}2.spc.xml
 
-#XML validate TEI source
+##HERE comes manual editing
+## If the log does not show problems:
+# - the temporary files should be edited to include reference to the new specifications
+# - and renamed to xml-edit/msd.xml
+
+## Now validate the new specifications
 new-val:
-	# $s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | rnv schema/mte_tei.rnc
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
+	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | rnv schema/mte_tei.rnc
 
+# Copy the new files to final xml/ folder
+# XInclude the MSD index in the lang. spec. file, but do not XInclude the comment specs
+new-cast:
+	$s -xi -xsl:bin/copy.xsl xml-edit/msd-${NL}.spc.xml > xml/msd-${NL}.spc.xml
+	$s -xsl:bin/copy.xsl xml-edit/msd.xml > xml/msd.xml
+
+# And this is it, now you can build the HTML and other derived resources
 
 ##############################################3
 #Saxon for funny files (large text nodes, long UTF-8 chars
