@@ -323,6 +323,15 @@
     <xsl:param name="language"/>
     <xsl:if test="normalize-space($msd)">
       <xsl:variable name="code" select="substring($msd,1,1)"/>
+      <!-- Sanity check -->
+      <xsl:if test="tei:row/tei:cell[@role='position'][not(matches(., '^\d+$'))]">
+	<xsl:message terminate="yes">
+          <xsl:text>Position cell </xsl:text>
+          <xsl:text> for MSD </xsl:text>
+          <xsl:value-of select="$msd"/>
+          <xsl:text> should be a number!</xsl:text>
+	</xsl:message>
+      </xsl:if>
       <xsl:variable name="result">
 	<xsl:apply-templates mode="expand"
 			     select="tei:row[tei:cell[@role='position'] = $position]">

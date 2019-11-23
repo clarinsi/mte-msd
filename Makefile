@@ -82,21 +82,23 @@ cast-all:
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
 #### ADDING A NEW LANGUAGE
-## Take the specifications for the new language:
-NL = hbs
+## Take the specifications for the new language, which should be xml-edit/msd-${NL}.spc.xml
+NL = sq
 ## then
 ## create a MSD index for it
 ## and merge its features into the section with common tables
 ## (complains if this leads to errors)
 
-## If necessary, first make the example lexicon on the basis of a full lexicon
-## (takes examples from the start of the lexicon, so it should be appropriatelly sorted!)
+## First make the example lexicon on the basis of a full MULTEXT lexicon
+## (examples are taken from the start of the lexicon, so it should be appropriatelly sorted!)
 new-lex:
-	cat < /xxx//wfl-${NL}.txt | bin/wfl2exa.pl 5 > xml-edit/msd-${NL}.wfl.txt
+	cat < lexica/wfl-${NL}.txt | bin/wfl2exa.pl 5 > xml-edit/msd-${NL}.wfl.txt
 
 ## Make a new MSD index on the basis of the example lexicon
 new-msds:
-	bin/msd-index.pl ${NL} xml-edit/msd-${NL}.spc.xml < xml-edit/msd-${NL}.wfl.txt > xml-edit/msd-${NL}.msd.xml
+	bin/msd-index.pl ${NL} xml-edit/msd-${NL}.spc.xml \
+	< xml-edit/msd-${NL}.wfl.txt > xml-edit/msd-${NL}.msd.xml
+
 ## Merge the language specific section with the common one
 new-merge:
 	$s add=../xml-edit/msd-${NL}.spc.xml -xsl:bin/msd-merge.xsl xml-edit/msd.xml \
