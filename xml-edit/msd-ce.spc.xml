@@ -139,7 +139,7 @@
             </cell>
          </row>
       </table>
-      <divGen xml:id="msd.N-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.N-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.V-ce">
       <head>Chechen Verb</head>
@@ -296,7 +296,7 @@
             </cell>
          </row>
       </table>
-      <divGen xml:id="msd.V-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.V-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.A-ce">
       <head>Chechen Adjective</head>
@@ -365,7 +365,7 @@
             </cell>
          </row>
       </table>
-      <divGen xml:id="msd.A-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.A-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.R-ce">
       <head>Chechen Adverb</head>
@@ -377,7 +377,7 @@
             <cell role="code" xml:lang="en">R</cell>
          </row>
       </table>
-      <divGen xml:id="msd.R-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.R-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.P-ce">
       <head>Chechen Pronoun</head>
@@ -526,7 +526,7 @@
             </cell>
          </row>
       </table>
-      <divGen xml:id="msd.P-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.P-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.M-ce">
       <head>Chechen Numeral</head>
@@ -635,7 +635,7 @@
             </cell>
          </row>
       </table>
-      <divGen xml:id="msd.M-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.M-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.S-ce">
       <head>Chechen Adposition</head>
@@ -660,7 +660,7 @@
             </cell>
          </row>
       </table>
-      <divGen xml:id="msd.S-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.S-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.C-ce">
       <head>Chechen Conjunction</head>
@@ -673,7 +673,7 @@
             <cell role="code" xml:lang="en">C</cell>
          </row>
       </table>
-      <divGen xml:id="msd.C-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.C-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.Q-ce">
       <head>Chechen Particle</head>
@@ -686,7 +686,7 @@
             <cell role="code" xml:lang="en">Q</cell>
          </row>
       </table>
-      <divGen xml:id="msd.Q-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.Q-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.I-ce">
       <head>Chechen Interjection</head>
@@ -699,7 +699,7 @@
             <cell role="code" xml:lang="en">I</cell>
          </row>
       </table>
-      <divGen xml:id="msd.I-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.I-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.X-ce">
       <head>Chechen Residual</head>
@@ -724,7 +724,7 @@
             </cell>
          </row>
       </table>
-      <divGen xml:id="msd.X-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.X-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" select="ce" xml:id="msd.Z-ce">
       <head>Chechen Punctuation</head>
@@ -737,7 +737,7 @@
             <cell role="code" xml:lang="en">Z</cell>
          </row>
       </table>
-      <divGen xml:id="msd.Z-ce.lexicon" type="msd.lex" select="ce"/>
+      <!--divGen xml:id="msd.Z-ce.lexicon" type="msd.lex" select="ce"/-->
   </div>
   <div type="section" xml:id="msd.attributes-ce">
       <head>Chechen Attribute Index</head>
