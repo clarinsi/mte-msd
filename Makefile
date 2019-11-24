@@ -1,3 +1,5 @@
+bug:
+	java -jar /home/tomaz/bin/saxon9he.jar -xi -xsl:bin/msd-spec2prn.xsl xml/msd.xml > bug.xml
 #Validate XML of xml-edit and xml
 val:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
@@ -131,8 +133,8 @@ new-val:
 # Copy the new files to final xml/ folder and validate
 # XInclude the MSD index in the lang. spec. file, but do not XInclude the comment specs
 new-cast:
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd-${NL}.spc.xml > xml/msd-${NL}.spc.xml
-	$s -xsl:bin/copy.xsl xml-edit/msd.xml > xml/msd.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-${NL}.spc.xml > xml/msd-${NL}.spc.xml
+	$s -xsl:bin/msd-castspecs.xsl xml-edit/msd.xml > xml/msd.xml
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | rnv schema/mte_tei.rnc
 
 # Generate the language tables for the language
