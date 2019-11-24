@@ -29,8 +29,8 @@ tst-indx:
 nohup:
 	date > nohup.all
 	nohup time make all >> nohup.all &
-all:	htm tbls mount
-xall:	cast-all htm tbls mount
+all:	htm tbls-all mount
+xall:	cast-all htm tbls-all mount
 
 # Put the publishable part of the resources on the Web
 WWW = /net/mantra/project/www-nl/www/ME/V6/msd
@@ -41,12 +41,7 @@ mount:
 	cp -r tables ${WWW}
 	cp -r schema ${WWW}
 
-# Generate (in parallel) all the language tables
-tbls:
-	ls -d xml/msd-*.spc.xml | parallel --gnu --halt 0 --jobs 20 \
-	bin/msd-tables.pl -specs xml/msd.xml -infiles {} -outdir tables
-
-# Make HTML version of the specifications
+### Make HTML version of the specifications
 htm:
 	rm -f html/*
 	$s language=eng localisation=en -xsl:bin/teiHeader2html.xsl xml/msd.xml
@@ -54,7 +49,12 @@ htm:
 	cp html/msd.html html/index.html
 	cp mte.css html/
 
-# Convert all editable specifications to their final (and redundant) form
+# Generate (in parallel) all the language tables
+tbls-all:
+	ls -d xml/msd-*.spc.xml | parallel --gnu --halt 0 --jobs 20 \
+	bin/msd-tables.pl -specs xml/msd.xml -infiles {} -outdir tables
+
+### Convert all editable specifications to their final (and redundant) form
 cast-all:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
 	$s -xsl:bin/msd-castspecs.xsl xml-edit/msd.xml > xml/msd.xml
@@ -74,23 +74,29 @@ cast-all:
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sk.spc.xml > xml/msd-sk.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sl-rozaj.spc.xml > xml/msd-sl-rozaj.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sl.spc.xml > xml/msd-sl.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sq.spc.xml > xml/msd-sq.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sr.spc.xml > xml/msd-sr.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-uk.spc.xml > xml/msd-uk.spc.xml
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
 #### ADDING A NEW LANGUAGE
 ## This block illustrates how to add a new language to the specifications:
-## 0. If starting from scratch, base new language on most similar language(s) in the current specs
+## 0. If starting from scratch, base new language on most similar language(s) in the current specs,
+##    then edit the new specifications so that they are ok
 ## 1. Create an MSD index for the language from the lexicon
 ## 2. Merge the language specific features into the section with common tables
-
-# Test generation of new draft language specific section
-## These will, of course, then need lots of hand editing!
-split:
-	$s in-langs='sl sr ro' out-lang='sq' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-sq.spc.xml
+## 3. Hand edit the common section so that it documents the inclusion of the new language
+## 4. Move the langauge specific section from the editable folder xml-edit to the official folder xml-edit
 
 ## Name of the new language
 NL = sq
+
+# Test generation of new draft language specific section
+## These will, of course, then need lots of hand editing!
+## Once done, move msd-${NL}.spc.xml from tmp/ to xml-edit
+new-split:
+	$s in-langs='sl sr ro' out-lang='${NL}' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-${NL}.spc.xml
+
 ##  It is assumed that two files have first been added to the project:
 ##  xml-edit/msd-${NL}.spc.xml: the language specific specifications, without the MSD list
 ##  lexica/wfl-${NL}.txt: the lexicon of the language in MULTEXT format
@@ -122,11 +128,16 @@ new-merge:
 new-val:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | rnv schema/mte_tei.rnc
 
-# Copy the new files to final xml/ folder
+# Copy the new files to final xml/ folder and validate
 # XInclude the MSD index in the lang. spec. file, but do not XInclude the comment specs
 new-cast:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd-${NL}.spc.xml > xml/msd-${NL}.spc.xml
 	$s -xsl:bin/copy.xsl xml-edit/msd.xml > xml/msd.xml
+	$s -xi -xsl:bin/copy.xsl xml/msd.xml | rnv schema/mte_tei.rnc
+
+# Generate the language tables for the language
+new-tbls:
+	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-${NL}.spc.xml -outdir tables
 
 # And this is it, now you can build the HTML and other derived resources
 
