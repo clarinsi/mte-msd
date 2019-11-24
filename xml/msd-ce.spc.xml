@@ -1,31 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?><div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="ce" xml:id="msd-ce" xml:lang="en">
-  <head>Chechen Specifications</head>
-  <docAuthor>Dietmar Fiesel</docAuthor>
-  <docDate>2018-11-12</docDate>
-  <list type="gloss">
+<?xml version="1.0" encoding="utf-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="ce"
+     xml:id="msd-ce"
+     xml:lang="en">
+   <head>Chechen Specifications</head>
+   <docAuthor>Dietmar Fiesel</docAuthor>
+   <docDate>2018-11-12</docDate>
+   <list type="gloss">
       <label>Language Name:</label>
       <item>Chechen</item>
       <label>Code:</label>
       <item>ce</item>
       <label>Reference:</label>
       <item>
-         <ref target="http://www.ethnologue.com/language/che">Ethnologue</ref>
+         <ref target="https://en.wikipedia.org/wiki/Chechen_language">Wikipedia</ref>
       </item>
-  </list>
-  <divGen type="subtoc"/>
-  <div xml:id="msd-ce.introduction">
+   </list>
+   <divGen type="subtoc"/>
+   <div xml:id="msd-ce.introduction">
       <head>Introduction to Chechen Specifications</head>
       <p>These specifications for Chechen are inspired by the specifications for
     <ref target="http://nl.ijs.si/jos/josMSD-en.html">morphosyntactic specifications for Slovene and Russian</ref>. The specifications were developped by Dietmar Fiesel for his MA thesis in
     computational linguistics at the Eberhard Karls Universitaet Tuebingen, Germany.
     Some features were subsequnetly modified by Tomaž Erjavec, to make the specifications better
     compatible with the other MULTEXT-East languages.</p>
-  </div>
-  <div type="section" select="ce" xml:id="msd.categories-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.categories-ce">
       <head>Chechen Category Index</head>
-      <divGen type="msd.cats" select="ce"/>
-  </div>
-  <div type="section" select="ce" xml:id="msd.N-ce">
+      <div xml:id="msd.cats-ce">
+         <head>Table of categories</head>
+         <table>
+            <row role="label">
+               <cell>CATEGORY (en)</cell>
+               <cell>Value (en)</cell>
+               <cell>Code (en)</cell>
+               <cell>Attributes</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Noun</cell>
+               <cell>N</cell>
+               <cell role="attno">4</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Verb</cell>
+               <cell>V</cell>
+               <cell role="attno">5</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Adjective</cell>
+               <cell>A</cell>
+               <cell role="attno">3</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Adverb</cell>
+               <cell>R</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Pronoun</cell>
+               <cell>P</cell>
+               <cell role="attno">5</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Numeral</cell>
+               <cell>M</cell>
+               <cell role="attno">4</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Adposition</cell>
+               <cell>S</cell>
+               <cell role="attno">1</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Conjunction</cell>
+               <cell>C</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Particle</cell>
+               <cell>Q</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Interjection</cell>
+               <cell>I</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Residual</cell>
+               <cell>X</cell>
+               <cell role="attno">1</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Punctuation</cell>
+               <cell>Z</cell>
+               <cell role="attno">0</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ce" xml:id="msd.N-ce">
       <head>Chechen Noun</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.N-ce">
          <head>Specification for Chechen Noun</head>
@@ -136,9 +221,8 @@
             </cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.V-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.V-ce">
       <head>Chechen Verb</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.V-ce">
          <head>Specification for Chechen Verb</head>
@@ -293,9 +377,8 @@
             </cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.A-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.A-ce">
       <head>Chechen Adjective</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.A-ce">
          <head>Specification for Chechen Adjective</head>
@@ -362,9 +445,8 @@
             </cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.R-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.R-ce">
       <head>Chechen Adverb</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.R-ce">
          <row role="type">
@@ -374,9 +456,8 @@
             <cell role="code" xml:lang="en">R</cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.P-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.P-ce">
       <head>Chechen Pronoun</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.P-ce">
          <head>Specification for Chechen Pronoun</head>
@@ -523,9 +604,8 @@
             </cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.M-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.M-ce">
       <head>Chechen Numeral</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.M-ce">
          <head>Specification for Chechen Numeral</head>
@@ -632,9 +712,8 @@
             </cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.S-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.S-ce">
       <head>Chechen Adposition</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.S-ce">
          <head>Specification for Chechen Adposition</head>
@@ -657,9 +736,8 @@
             </cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.C-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.C-ce">
       <head>Chechen Conjunction</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.C-ce">
          <head>Specification for Chechen Conjunction</head>
@@ -670,9 +748,8 @@
             <cell role="code" xml:lang="en">C</cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.Q-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.Q-ce">
       <head>Chechen Particle</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.Q-ce">
          <head>Specification for Chechen Particle</head>
@@ -683,9 +760,8 @@
             <cell role="code" xml:lang="en">Q</cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.I-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.I-ce">
       <head>Chechen Interjection</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.I-ce">
          <head>Specification for Chechen Interjection</head>
@@ -696,9 +772,8 @@
             <cell role="code" xml:lang="en">I</cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.X-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.X-ce">
       <head>Chechen Residual</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.X-ce">
          <head>Specification for Chechen Residual</head>
@@ -721,9 +796,8 @@
             </cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" select="ce" xml:id="msd.Z-ce">
+   </div>
+   <div type="section" select="ce" xml:id="msd.Z-ce">
       <head>Chechen Punctuation</head>
       <table n="msd.cat" select="ce" xml:id="msd.cat.Z-ce">
          <head>Specification for Chechen Punctuation</head>
@@ -734,16 +808,707 @@
             <cell role="code" xml:lang="en">Z</cell>
          </row>
       </table>
-      
-  </div>
-  <div type="section" xml:id="msd.attributes-ce">
+   </div>
+   <div type="section" xml:id="msd.attributes-ce">
       <head>Chechen Attribute Index</head>
       <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
-      <divGen type="msd.atts" select="ce"/>
-  </div>
-  <div type="section" xml:id="msd.values-ce">
+      <div xml:id="msd.atts-ce">
+         <head>Table of attributes</head>
+         <table>
+            <row role="label">
+               <cell>Attribute (en)</cell>
+               <cell>Category (en)</cell>
+               <cell role="code">Position</cell>
+            </row>
+            <row role="data">
+               <cell>Aspect</cell>
+               <cell>Verb</cell>
+               <cell role="position">6</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Noun</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Class</cell>
+               <cell>Adjective</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Class</cell>
+               <cell>Noun</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Class</cell>
+               <cell>Verb</cell>
+               <cell role="position">7</cell>
+            </row>
+            <row role="data">
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Form</cell>
+               <cell>Numeral</cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Inclusion</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">6</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Noun</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Numeral</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Adposition</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Noun</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Residual</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Verb</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+               <cell role="position">2</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" xml:id="msd.values-ce">
       <head>Chechen Value Index</head>
       <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
-      <divGen type="msd.vals" select="ce"/>
-  </div>
+      <div xml:id="msd.vals-ce">
+         <head>Table of values</head>
+         <table>
+            <row role="label">
+               <cell>Value (en)</cell>
+               <cell>Code (en)</cell>
+               <cell>Attribute (en)</cell>
+               <cell>Category (en)</cell>
+            </row>
+            <row>
+               <cell>allative</cell>
+               <cell>t</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>allative</cell>
+               <cell>t</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>allative</cell>
+               <cell>t</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>auxiliary</cell>
+               <cell>a</cell>
+               <cell>Type</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>biaspectual</cell>
+               <cell>b</cell>
+               <cell>Aspect</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>bu</cell>
+               <cell>b</cell>
+               <cell>Class</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>bu</cell>
+               <cell>b</cell>
+               <cell>Class</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>bu</cell>
+               <cell>b</cell>
+               <cell>Class</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>cardinal</cell>
+               <cell>c</cell>
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>causative</cell>
+               <cell>z</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>common</cell>
+               <cell>c</cell>
+               <cell>Type</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>comparative</cell>
+               <cell>c</cell>
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>comparison</cell>
+               <cell>8</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>comparison</cell>
+               <cell>8</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>comparison</cell>
+               <cell>8</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>definite</cell>
+               <cell>f</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>demonstrative</cell>
+               <cell>d</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>digit</cell>
+               <cell>d</cell>
+               <cell>Form</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>du</cell>
+               <cell>d</cell>
+               <cell>Class</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>du</cell>
+               <cell>d</cell>
+               <cell>Class</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>du</cell>
+               <cell>d</cell>
+               <cell>Class</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>ergative</cell>
+               <cell>z</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>ergative</cell>
+               <cell>z</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>ergative</cell>
+               <cell>z</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>evident_past</cell>
+               <cell>e</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>exclusive</cell>
+               <cell>e</cell>
+               <cell>Inclusion</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>first</cell>
+               <cell>1</cell>
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>foreign</cell>
+               <cell>f</cell>
+               <cell>Type</cell>
+               <cell>Residual</cell>
+            </row>
+            <row>
+               <cell>future</cell>
+               <cell>f</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>genitive</cell>
+               <cell>g</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>genitive</cell>
+               <cell>g</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>genitive</cell>
+               <cell>g</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>gerund</cell>
+               <cell>g</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>imperative</cell>
+               <cell>m</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>imperfect</cell>
+               <cell>i</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>inclusive</cell>
+               <cell>i</cell>
+               <cell>Inclusion</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>indefinite</cell>
+               <cell>i</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>indicative</cell>
+               <cell>i</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>infinitive</cell>
+               <cell>n</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>instrumental</cell>
+               <cell>i</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>instrumental</cell>
+               <cell>i</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>instrumental</cell>
+               <cell>i</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>interrogative</cell>
+               <cell>q</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>interrogative</cell>
+               <cell>v</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>iterative</cell>
+               <cell>r</cell>
+               <cell>Aspect</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>ju</cell>
+               <cell>j</cell>
+               <cell>Class</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>ju</cell>
+               <cell>j</cell>
+               <cell>Class</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>ju</cell>
+               <cell>j</cell>
+               <cell>Class</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>lative</cell>
+               <cell>j</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>lative</cell>
+               <cell>j</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>lative</cell>
+               <cell>j</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>letter</cell>
+               <cell>l</cell>
+               <cell>Form</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>locative</cell>
+               <cell>l</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>locative</cell>
+               <cell>l</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>locative</cell>
+               <cell>l</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>main</cell>
+               <cell>m</cell>
+               <cell>Type</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>negative</cell>
+               <cell>z</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>ordinal</cell>
+               <cell>o</cell>
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>other</cell>
+               <cell>6</cell>
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>participle</cell>
+               <cell>p</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>perfective_past</cell>
+               <cell>t</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>personal</cell>
+               <cell>p</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>pluperfect</cell>
+               <cell>l</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>positive</cell>
+               <cell>p</cell>
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>possessive</cell>
+               <cell>s</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>postposition</cell>
+               <cell>t</cell>
+               <cell>Type</cell>
+               <cell>Adposition</cell>
+            </row>
+            <row>
+               <cell>potential</cell>
+               <cell>x</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>present</cell>
+               <cell>p</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>proper</cell>
+               <cell>p</cell>
+               <cell>Type</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>realistic_conditional</cell>
+               <cell>k</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>recent_past</cell>
+               <cell>r</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>reflexive</cell>
+               <cell>x</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>roman</cell>
+               <cell>r</cell>
+               <cell>Form</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>second</cell>
+               <cell>2</cell>
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>semelfactive</cell>
+               <cell>f</cell>
+               <cell>Aspect</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Numeral</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>third</cell>
+               <cell>3</cell>
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+            </row>
+            <row>
+               <cell>unrealistic_conditional</cell>
+               <cell>h</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+            </row>
+            <row>
+               <cell>vu</cell>
+               <cell>v</cell>
+               <cell>Class</cell>
+               <cell>Adjective</cell>
+            </row>
+            <row>
+               <cell>vu</cell>
+               <cell>v</cell>
+               <cell>Class</cell>
+               <cell>Noun</cell>
+            </row>
+            <row>
+               <cell>vu</cell>
+               <cell>v</cell>
+               <cell>Class</cell>
+               <cell>Verb</cell>
+            </row>
+         </table>
+      </div>
+   </div>
 </div>
