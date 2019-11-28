@@ -60,7 +60,9 @@
 	<xsl:value-of select="tei:*[@xml:id]/@xml:id"/>
       </xsl:message>
     </xsl:if>
-    <xsl:comment>Automatically generated from XML source - edit at you own risk!</xsl:comment>
+    <xsl:comment>Automatically generated from XML source</xsl:comment>
+    <xsl:comment>cf. http://nl.ijs.si/ME/ and https://github.com/clarinsi/mte-msd</xsl:comment>
+    <xsl:comment>Edit at you own risk!</xsl:comment>
     <xsl:text>&#10;</xsl:text>
     <div>
       <xsl:copy-of select="/tei:div/@*"/>
