@@ -1,0 +1,26 @@
+mk removed from feature Verb/VForm=participle
+WARN mk NEW value Verb/Tense=compound with code c
+mk removed from feature Verb/Voice=active
+mk removed from feature Verb/Voice=passive
+mk added to feature Verb/Aspect=biaspectual
+mk added to feature Adjective/Type=participle
+mk added to feature Adjective/Type=general
+mk removed from feature Pronoun/Type=possessive
+mk removed from feature Pronoun/Owner_Number=singular
+mk removed from feature Pronoun/Owner_Number=plural
+mk removed from feature Pronoun/Owner_Gender=masculine
+mk removed from feature Pronoun/Owner_Gender=feminine
+mk removed from feature Pronoun/Owner_Gender=neuter
+WARN mk NEW attribute Adverb/Order at position 8
+mk removed from feature Numeral/Type=ordinal
+mk removed from feature Numeral/Type=collect
+mk added to feature Numeral/Type=pronominal
+mk removed from feature Numeral/Number=singular
+mk removed from feature Numeral/Number=plural
+mk added to feature Residual/Type=foreign
+mk added to feature Residual/Type=typo
+mk added to feature Residual/Type=program
+mk added to feature Residual/Type=web
+mk added to feature Residual/Type=emo
+mk added to feature Residual/Type=hashtag
+mk added to feature Residual/Type=at

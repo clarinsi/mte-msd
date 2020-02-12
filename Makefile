@@ -91,7 +91,7 @@ cast-all:
 ## 4. Move the langauge specific section from the editable folder xml-edit to the official folder xml-edit
 
 ## Name of the new language
-NL = sq
+NL = mk
 
 # Test generation of new draft language specific section
 ## These will, of course, then need lots of hand editing!
