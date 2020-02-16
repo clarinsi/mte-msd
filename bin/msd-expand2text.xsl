@@ -63,7 +63,8 @@
   <xd:doc><xd:desc>
     <xd:p>Error mark.</xd:p>
   </xd:desc></xd:doc>
-  <xsl:variable name="err">!?*</xsl:variable>
+  <xsl:variable name="err">@</xsl:variable>
+
   <xd:doc><xd:desc>
     <xd:p>Primary separator in table. Only important if text output is
     selected.</xd:p>
@@ -348,7 +349,9 @@
 	<xsl:when test="$code!='-'">
           <xsl:value-of select="$err"/>
           <xsl:value-of select="$code"/>
-          <xsl:value-of select="$secondary-separator"/>
+	  <xsl:if test="not($output='id' or $output='msd')">
+            <xsl:value-of select="$secondary-separator"/>
+	  </xsl:if>
 	</xsl:when>
 	<xsl:when test="$output='id' or $output='msd'">
 	  <xsl:text>-</xsl:text>
@@ -461,7 +464,9 @@
           <xsl:otherwise>
             <xsl:value-of select="$err"/>
             <xsl:value-of select="$code"/>
-            <xsl:value-of select="$secondary-separator"/>
+	    <xsl:if test="not($output='msd' or $output='id')">
+              <xsl:value-of select="$secondary-separator"/>
+	    </xsl:if>
           </xsl:otherwise>
 	</xsl:choose>
       </xsl:otherwise>

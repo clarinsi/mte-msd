@@ -21,8 +21,12 @@ my $lang = shift;
 my $specF = shift;
 my $specFile = File::Spec->rel2abs($specF);
 
+#Error mark in MSDs if illegal. 
+# Should be the same as in msd-expand2text.xsl and msd-convert2text.xsl!
+$err = '@';
+
 $tmpD = "$Bin/tmp";
-my $tmpDir = tempdir(DIR => $tmpD, CLEANUP => 1);
+my $tmpDir = tempdir(DIR => $tmpD, CLEANUP => 0);
 
 #my $SAXON   = 'java -Djavax.xml.parsers.DocumentBuilderFactory=org.apache.xerces.jaxp.DocumentBuilderFactoryImpl -Djavax.xml.parsers.SAXParserFactory=org.apache.xerces.jaxp.SAXParserFactoryImpl net.sf.saxon.Transform';
 #my $SAXON   = "java -jar /usr/local/bin/saxon9he.jar";
@@ -129,14 +133,16 @@ print "    </row>\n";
 
 foreach my $col (sort keys %collate) {
     $msd = $collate{$col};
+    $clean_msd = $msd;  #MSD without error marks
+    $clean_msd =~ s/\Q$err\E//g;
     print "    <row role=\"msd\">";
     print "<cell role=\"msd\" xml:lang=\"en\">$msd</cell>";
     print "<cell role=\"attval\" xml:lang=\"en\">$feats{$msd}</cell>";
     print "<cell role=\"msd\" xml:lang=\"$lang\">$msd_loc{$msd}</cell>" if $localised_msds;
     print "<cell role=\"attval\" xml:lang=\"$lang\">$feats_loc{$msd}</cell>" if $localised_feats;
-    print "<cell>$types{$msd}</cell>";
-    print "<cell>$tokens{$msd}</cell>" if $tokcount;
-    my $exas = join(", ", @{$lex{$msd}});
+    print "<cell>$types{$clean_msd}</cell>";
+    print "<cell>$tokens{$clean_msd}</cell>" if $tokcount;
+    my $exas = join(", ", @{$lex{$clean_msd}});
     print "<cell xml:lang=\"$lang\">$exas</cell>";
     print "</row>\n";
 }

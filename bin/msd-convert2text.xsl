@@ -51,7 +51,7 @@
   <xd:doc><xd:desc>
     <xd:p>Error mark.</xd:p>
   </xd:desc></xd:doc>
-  <xsl:variable name="err">!?*</xsl:variable>
+  <xsl:variable name="err">@</xsl:variable>
   
   <xd:doc><xd:desc>
     <xd:p>Primary separator in table. Only important if text output is
