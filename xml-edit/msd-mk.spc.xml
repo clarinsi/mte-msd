@@ -4,7 +4,7 @@
      xml:lang="en">
   <head>Macedonian Specifications</head>
   <docAuthor>Katerina Zdravkova</docAuthor>
-  <docDate>2020-02-12</docDate>
+  <docDate>2020-02-20</docDate>
   <list type="gloss">
       <label>Language Name:</label>
       <item>Macedonian</item>
@@ -134,8 +134,10 @@
       <div n="notes">
          <head>Notes</head>
          <list>
-            <item>Collective plural has been removed for the sake of compatibility with other Slavic languages. It is considered as derivation, thus collective plurals are separate entries in the dictionary.</item>
-            <item>Two vocative forms exist with same MSD, e.g. narode / narodu (narod) are both Ncmsvn.</item>
+	   <item>Collective plural has been removed for the sake of compatibility with other Slavic languages. It is considered as derivation, thus collective plurals are separate entries in the dictionary.</item>
+	   <item>Language specific are distal and proximal definiteness, e.g. човек - човеков, човекон, луѓево, луѓено; жена - женава, женана, жениве, женине; дете - детево, детено, децава, децана. They are formed with the suffixes: ов, ва, во (proximal), он, на, но (distal) for singular, and во, ве, ва (proximal), но, на, на (distal) for plural.</item>
+	   <item>Oblique unifies dative and accusative form of some masculine nouns, e.g. човек - човека; Иван - Ивана.</item>
+	   <item>Two vocative forms exist with same MSD, e.g. народе / народу (народ) are both Ncmsvn.</item>
          </list>
       </div>
       <divGen type="msd.lex" select="mk"/>
@@ -310,11 +312,15 @@
       <div n="notes">
          <head>Notes</head>
          <list>
-            <item>We distinguish three types of verbs: main, auxiliary and modal. The word "bi" is considered as particle, rather than verb copula.</item>
-            <item>Verb forms gerund and adverbial participle are taken to be separate (noun and adverb) lemmas.</item>
-            <item>Two types of (adjectival) participles exist: active and passive. Active corresponds to Macedonian L-form and passive to verbal adjective, neuter gender, singular. For example, nosel is encoded as VForm=Participle, Voice=Active, nosen as VForm=participle, Voice=Passive.</item>
-            <item>The passive participle is used in verbal forms with the auxiliary ima / nema (eng. to have, to have not). The verbal adjective, in case it is used out of this construction, is considered as separate lemma.</item>
-            <item>In cases where a lemma (and its wordforms) can be both progressive and perfective, Aspects is given the value ?-?, in order to avoid excessive ambiguity in the lexicon.</item>
+	   <item>Macedonian verbs do not have the infinitive, therefore, their lemma is the present form of third person in singular.</item>
+	   <item>Auxiliary verbs are сум/е and има. They are used as separate verbs, or as part of compound tenses.</item>
+	   <item>Modal verbs are: сака, мора, може and треба. They usually preceed the conjunction да and a verb: сака да игра, мора да учи, може да прави, треба да внимава.</item>
+	   <item>All the other verbs are main, e.g. гледа, оди, тргне, пее. Their inflections are regular, and they depend on the last vowel of the lemma.</item>
+	   <item>Auxiliary verbs and particles би and ќе are used to create compund tenses.</item>
+	   <item>Biaspectual verbs, such as адресира and благодари can differ in second and third person in singular only (адресира - адресираше), or for all persons and number: благодарив - благодарев, благодари - благодареше, благодари - благодареше, благодаривме - благодаревме, благодаривте - благодаревте, благодарија - благодареа.</item>
+	   <item>Resultative participle ending in л is called an l-form. It is part of the compound past tenses, including past perfect, as well as the conditional.</item>
+	   <item>Identical forms for the second and third person in singular for imperfect (игра - играше; пее - пееше; оди - одеше) and aorist (адресира - адресира, стигне - стигна; благодари - благодари), as well as for all persons in the compound past (игра - играл, играла, играло, играле; пее - пеел, пеела, пеело, пееле; оди - одел, одела, одело, оделе) are marked with a dash, to avoid excessive ambiguity in the lexicon.</item>
+	   <item>Gender occurs in those compound tenses which have the l-form: играл, учел, правел, пеел.</item>
          </list>
       </div>
       <divGen type="msd.lex" select="mk"/>
@@ -373,10 +379,6 @@
                   <row role="value">
                      <cell role="name" xml:lang="en">superlative</cell>
                      <cell role="code" xml:lang="en">s</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">elative</cell>
-                     <cell role="code" xml:lang="en">e</cell>
                   </row>
                </table>
             </cell>
@@ -445,10 +447,13 @@
       <div n="notes">
          <head>Notes</head>
          <list>
-            <item>Negative adjectives are product of derivation, thus they belong to other types.</item>
-            <item>Words like moj, tvoj (eng. my, your) are considered possessive pronouns.</item>
-            <item>Words like prv, vtor (eng. first, second) are considered ordinal numerals.</item>
-            <item>Adverbs like mnogu, malku, nekolku are also considered adjectives, in cases they are used before nouns.</item>
+	   <item>Qualificative adjectives are those which have degrees: добар – подобар – најдобар, добра – подобра – најдобра, добро – подобро – најдобро.</item>
+	   <item>Possesive adjectives embrace those which show a possession or ownership: Питагоров, Лаппасов, Марикина, as well as all the possesive personal pronouns: мој, твој, негов, нејзин, наш, ваш, нивен and their forms, due to their inflectional suffixes, which are identical with the adjectives.</item>
+	   <item>Ordinal adjectives unite the ordinal numbers: прв, втор, петти, 10-ти, due to their inflectional suffixes, which are identical with the adjectives.</item>
+	   <item>Verbal adjectives are the passive past participles of the verbs: виден, слушнат, чуен.</item>
+	   <item>All the adjectives which do not belong to previous four groups, e.g.: таков, поинаков, англиски, воен, готов are general.</item>
+	   <item>Language specific are distal and proximal definiteness of adjectives, e.g добриов, добрава, доброво, добриве / добрион, добрана, доброно, добрине. They are formed with the suffixes: ов, ва, во (proximal), он, на, но (distal) for singular, and ве (proximal) and не (distal) for plural.</item>
+	   <item>Elative adjectives, made with the prefix пре are separate lemmas: преран – преран, instead of ран – преран.</item>
          </list>
       </div>
       <divGen type="msd.lex" select="mk"/>
@@ -484,10 +489,6 @@
                      <cell role="name" xml:lang="en">interrogative</cell>
                      <cell role="code" xml:lang="en">q</cell>
                   </row>
-                  <!--row role="value">
-                     <cell role="name" xml:lang="en">possessive</cell>
-                     <cell role="code" xml:lang="en">s</cell>
-                  </row-->
                   <row role="value">
                      <cell role="name" xml:lang="en">relative</cell>
                      <cell role="code" xml:lang="en">r</cell>
@@ -627,7 +628,7 @@
       <div n="notes">
          <head>Notes</head>
          <list>
-            <item>The possessive pronouns like moj, tvoj, negov are considered as pronouns.</item>
+            <item>The possessive pronouns like мој, твој, негов are considered as adjectives.</item>
          </list>
       </div>
       <divGen type="msd.lex" select="mk"/>
@@ -659,43 +660,15 @@
                      <cell role="name" xml:lang="en">verbal</cell>
                      <cell role="code" xml:lang="en">v</cell>
                   </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">modal</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
                </table>
             </cell>
          </row>
          <row role="attribute">
             <cell role="position">2</cell>
-            <cell role="name" xml:lang="en">Order</cell>
-            <cell role="values">
-               <table>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">manner</cell>
-                     <cell role="code" xml:lang="en">m</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">place</cell>
-                     <cell role="code" xml:lang="en">p</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">time</cell>
-                     <cell role="code" xml:lang="en">t</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">quantity</cell>
-                     <cell role="code" xml:lang="en">q</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">modal</cell>
-                     <cell role="code" xml:lang="en">o</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">causal</cell>
-                     <cell role="code" xml:lang="en">c</cell>
-                  </row>
-               </table>
-            </cell>
-         </row>
-         <row role="attribute">
-            <cell role="position">3</cell>
             <cell role="name" xml:lang="en">Degree</cell>
             <cell role="values">
                <table>
@@ -711,10 +684,6 @@
                      <cell role="name" xml:lang="en">superlative</cell>
                      <cell role="code" xml:lang="en">s</cell>
                   </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">elative</cell>
-                     <cell role="code" xml:lang="en">e</cell>
-                  </row>
                </table>
             </cell>
          </row>
@@ -722,9 +691,9 @@
       <div n="notes">
          <head>Notes</head>
          <list>
-            <item>Verbal adverbs (gerunds) like odejkji are not considered as verbal forms, but as separate adverbial non inflective lemmas</item>
-            <item>The adjectival adverbs (dobro, ispituvački) have the same adjective forms. Ambiguity is expected.</item>
-            <item>The adverbs that come sometimes before nouns (mnogu, malku, nekolku) can have definiteness in their inflectional paradigm. That is why these adverbs are considered as adjectives as well.</item>
+	   <item>Verbal adverbs are verb derivatives ending in јќи: сакајќи, одејќи, пеејќи.</item>
+           <item>Some adverbs, such as: многуте, малкуте, неколмина can have definiteness in their inflectional paradigm.</item>
+	   <item>Elative adjectives, made with the prefix пре are separate lemmas: прерано – прерано, instead of рано – прерано.</item>
          </list>
       </div>
       <divGen type="msd.lex" select="mk"/>
@@ -768,6 +737,12 @@
             </cell>
          </row>
       </table>
+      <div n="notes">
+         <head>Notes</head>
+         <list>
+	   <item>Macedonian language has prepositions only: во, на, до, спроти, наспроти, etc.</item>
+         </list>
+      </div>
       <divGen type="msd.lex" select="mk"/>
   </div>
   <div type="section" select="mk" xml:id="msd.C-mk">

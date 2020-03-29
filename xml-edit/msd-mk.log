@@ -5,13 +5,15 @@ mk removed from feature Verb/Voice=passive
 mk added to feature Verb/Aspect=biaspectual
 mk added to feature Adjective/Type=participle
 mk added to feature Adjective/Type=general
+mk removed from feature Adjective/Degree=elative
 mk removed from feature Pronoun/Type=possessive
 mk removed from feature Pronoun/Owner_Number=singular
 mk removed from feature Pronoun/Owner_Number=plural
 mk removed from feature Pronoun/Owner_Gender=masculine
 mk removed from feature Pronoun/Owner_Gender=feminine
 mk removed from feature Pronoun/Owner_Gender=neuter
-WARN mk NEW attribute Adverb/Order at position 8
+WARN mk NEW value Adverb/Type=modal with code d
+mk removed from feature Adverb/Degree=elative
 mk removed from feature Numeral/Type=ordinal
 mk removed from feature Numeral/Type=collect
 mk added to feature Numeral/Type=pronominal

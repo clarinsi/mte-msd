@@ -2871,8 +2871,7 @@
                               <row role="value">
                                  <cell role="name">elative</cell>
                                  <cell role="code">e</cell>
-                                 <cell role="lang">mk</cell>
-                                 <cell role="lang">sr</cell>
+                                 <!--mk removed from feature Adjective/Degree=elative--><cell role="lang">sr</cell>
                                  <cell role="lang">sl-rozaj</cell>
                               </row>
                               <row role="value">
@@ -5421,6 +5420,11 @@
                                  <cell role="lang">sl</cell>
                                  <cell role="lang">hbs</cell>
                               </row>
+                              <!--WARN mk NEW value Adverb/Type=modal with code d--><row role="value">
+                                 <cell role="name">modal</cell>
+                                 <cell role="code">d</cell>
+                                 <cell role="lang">mk</cell>
+                              </row>
                            </table>
                         </cell>
                      </row>
@@ -5490,8 +5494,7 @@
                               <row role="value">
                                  <cell role="name">elative</cell>
                                  <cell role="code">e</cell>
-                                 <cell role="lang">mk</cell>
-                                 <cell role="lang">sr</cell>
+                                 <!--mk removed from feature Adverb/Degree=elative--><cell role="lang">sr</cell>
                                  <cell role="lang">sl-rozaj</cell>
                               </row>
                            </table>
@@ -5597,44 +5600,6 @@
                                  <cell role="name">genitive</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">fa</cell>
-                              </row>
-                           </table>
-                        </cell>
-                     </row>
-                     <!--WARN mk NEW attribute Adverb/Order at position 8--><row role="attribute">
-                        <cell role="position">8</cell>
-                        <cell role="name">Order</cell>
-                        <cell>
-                           <table>
-                              <row role="value">
-                                 <cell role="name">manner</cell>
-                                 <cell role="code">m</cell>
-                                 <cell role="lang">mk</cell>
-                              </row>
-                              <row role="value">
-                                 <cell role="name">place</cell>
-                                 <cell role="code">p</cell>
-                                 <cell role="lang">mk</cell>
-                              </row>
-                              <row role="value">
-                                 <cell role="name">time</cell>
-                                 <cell role="code">t</cell>
-                                 <cell role="lang">mk</cell>
-                              </row>
-                              <row role="value">
-                                 <cell role="name">quantity</cell>
-                                 <cell role="code">q</cell>
-                                 <cell role="lang">mk</cell>
-                              </row>
-                              <row role="value">
-                                 <cell role="name">modal</cell>
-                                 <cell role="code">o</cell>
-                                 <cell role="lang">mk</cell>
-                              </row>
-                              <row role="value">
-                                 <cell role="name">causal</cell>
-                                 <cell role="code">c</cell>
-                                 <cell role="lang">mk</cell>
                               </row>
                            </table>
                         </cell>

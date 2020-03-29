@@ -90,6 +90,8 @@ cast-all:
 ## 3. Hand edit the common section so that it documents the inclusion of the new language
 ## 4. Move the langauge specific section from the editable folder xml-edit to the official folder xml-edit
 
+test-nl:	new-lex new-msds new-merge new-cast htm mount
+
 ## Name of the new language
 NL = mk
 
@@ -130,7 +132,7 @@ new-merge:
 new-val:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | rnv schema/mte_tei.rnc
 
-# Copy the new files to final xml/ folder and validate
+# Copies the new files to final xml/ folder and validate
 # XInclude the MSD index in the lang. spec. file, but do not XInclude the comment specs
 new-cast:
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-${NL}.spc.xml > xml/msd-${NL}.spc.xml
