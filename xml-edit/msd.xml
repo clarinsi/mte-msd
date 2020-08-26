@@ -108,7 +108,6 @@
 	      <name>Ivan Derzhanski</name>
               <resp>Ukrainian specifications</resp>
             </respStmt>
-	    
             <funder>EU FP5 Copernicus Project COP106 "MULTEXT-East"</funder>
             <funder>EU FP5 Copernicus Concerted Action "TELRI"</funder>
             <funder>NFS Grant "TEI SGML to XML migration"</funder>
@@ -136,7 +135,7 @@
             <availability status="free">
                <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
             </availability>
-            <date>2019-11-24</date>
+            <date>2020-03-30</date>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -205,6 +204,7 @@
         </langUsage>
       </profileDesc>
       <revisionDesc>
+        <change when="2020-03-30">ET, incororate changes to Macedonian.</change>
         <change when="2019-11-24">ET, add Albanian (iso code = sq).</change>
         <change when="2019-02-08">ET, revert Croatian to V4, change Bosnian to Serbo-Croatian.</change>
         <change when="2018-11-11">ET, add punctuation and change format of lang.spec. sections.</change>
@@ -240,7 +240,7 @@
             <docEdition>
                <ref target="http://nl.ijs.si/ME/V6/">Version 6</ref>
             </docEdition>
-            <docDate>2019-11-24</docDate>
+            <docDate>2020-03-30</docDate>
             <lb/>
             <byline>Editor: <name>Tomaž Erjavec</name></byline>
             <byline>
@@ -387,7 +387,7 @@
         tables. Six new languages were also added, in particular Russian, Macedonian and Persian, and, 
         due to the support of the EU MONDILEX project, Slovak, Polish and Ukrainian. 
         </p>
-        <p>In Version 5, a new category "Z" has been added for punctuation;
+        <p>In Version 5, a new category "Z" was added for punctuation;
         new values of the Residual Type have been added for CMC texts;
         two new languages, Bosnian and Chechen, have been added;
         and the Croatian and Slovene specifications have been changed.
@@ -403,7 +403,7 @@
             <p>Ljubljana, May 2010 (V4)</p>
             <p>Ljubljana, June 2016 (V5)</p>
             <p>Erlangen,  November 2018 (V6 draft)</p>
-            <p>Ljubljana, November 2019 (V6, current version)</p>
+            <p>Ljubljana, March 2020 (V6, current version)</p>
          </div>
          <divGen type="toc"/>
       </front>
