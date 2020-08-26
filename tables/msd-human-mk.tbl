@@ -1,766 +1,351 @@
+01N0100020101	Nc-pnn	Noun common plural nominative -Definiteness	Noun Type=common Number=plural Case=nominative Definiteness=no
+01N0100020102	Nc-pny	Noun common plural nominative +Definiteness	Noun Type=common Number=plural Case=nominative Definiteness=yes
 01N0101010101	Ncmsnn	Noun common masculine singular nominative -Definiteness	Noun Type=common Gender=masculine Number=singular Case=nominative Definiteness=no
 01N0101010102	Ncmsny	Noun common masculine singular nominative +Definiteness	Noun Type=common Gender=masculine Number=singular Case=nominative Definiteness=yes
 01N0101010103	Ncmsnp	Noun common masculine singular nominative proximal	Noun Type=common Gender=masculine Number=singular Case=nominative Definiteness=proximal
-01N0101010104	Ncmsnd	Noun common masculine singular nominative distal	Noun Type=common Gender=masculine Number=singular Case=nominative Definiteness=distal
 01N0101010201	Ncmsvn	Noun common masculine singular vocative -Definiteness	Noun Type=common Gender=masculine Number=singular Case=vocative Definiteness=no
 01N0101010301	Ncmson	Noun common masculine singular oblique -Definiteness	Noun Type=common Gender=masculine Number=singular Case=oblique Definiteness=no
-01N0101010302	Ncmsoy	Noun common masculine singular oblique +Definiteness	Noun Type=common Gender=masculine Number=singular Case=oblique Definiteness=yes
 01N0101020101	Ncmpnn	Noun common masculine plural nominative -Definiteness	Noun Type=common Gender=masculine Number=plural Case=nominative Definiteness=no
 01N0101020102	Ncmpny	Noun common masculine plural nominative +Definiteness	Noun Type=common Gender=masculine Number=plural Case=nominative Definiteness=yes
 01N0101020103	Ncmpnp	Noun common masculine plural nominative proximal	Noun Type=common Gender=masculine Number=plural Case=nominative Definiteness=proximal
-01N0101020104	Ncmpnd	Noun common masculine plural nominative distal	Noun Type=common Gender=masculine Number=plural Case=nominative Definiteness=distal
 01N0101030101	Ncmtnn	Noun common masculine count nominative -Definiteness	Noun Type=common Gender=masculine Number=count Case=nominative Definiteness=no
 01N0102010101	Ncfsnn	Noun common feminine singular nominative -Definiteness	Noun Type=common Gender=feminine Number=singular Case=nominative Definiteness=no
 01N0102010102	Ncfsny	Noun common feminine singular nominative +Definiteness	Noun Type=common Gender=feminine Number=singular Case=nominative Definiteness=yes
 01N0102010103	Ncfsnp	Noun common feminine singular nominative proximal	Noun Type=common Gender=feminine Number=singular Case=nominative Definiteness=proximal
-01N0102010104	Ncfsnd	Noun common feminine singular nominative distal	Noun Type=common Gender=feminine Number=singular Case=nominative Definiteness=distal
 01N0102010201	Ncfsvn	Noun common feminine singular vocative -Definiteness	Noun Type=common Gender=feminine Number=singular Case=vocative Definiteness=no
-01N0102010202	Ncfsvy	Noun common feminine singular vocative +Definiteness	Noun Type=common Gender=feminine Number=singular Case=vocative Definiteness=yes
 01N0102020101	Ncfpnn	Noun common feminine plural nominative -Definiteness	Noun Type=common Gender=feminine Number=plural Case=nominative Definiteness=no
 01N0102020102	Ncfpny	Noun common feminine plural nominative +Definiteness	Noun Type=common Gender=feminine Number=plural Case=nominative Definiteness=yes
-01N0102020103	Ncfpnp	Noun common feminine plural nominative proximal	Noun Type=common Gender=feminine Number=plural Case=nominative Definiteness=proximal
-01N0102020104	Ncfpnd	Noun common feminine plural nominative distal	Noun Type=common Gender=feminine Number=plural Case=nominative Definiteness=distal
+01N0102030101	Ncftnn	Noun common feminine count nominative -Definiteness	Noun Type=common Gender=feminine Number=count Case=nominative Definiteness=no
 01N0103010101	Ncnsnn	Noun common neuter singular nominative -Definiteness	Noun Type=common Gender=neuter Number=singular Case=nominative Definiteness=no
 01N0103010102	Ncnsny	Noun common neuter singular nominative +Definiteness	Noun Type=common Gender=neuter Number=singular Case=nominative Definiteness=yes
 01N0103010103	Ncnsnp	Noun common neuter singular nominative proximal	Noun Type=common Gender=neuter Number=singular Case=nominative Definiteness=proximal
 01N0103010104	Ncnsnd	Noun common neuter singular nominative distal	Noun Type=common Gender=neuter Number=singular Case=nominative Definiteness=distal
 01N0103020101	Ncnpnn	Noun common neuter plural nominative -Definiteness	Noun Type=common Gender=neuter Number=plural Case=nominative Definiteness=no
 01N0103020102	Ncnpny	Noun common neuter plural nominative +Definiteness	Noun Type=common Gender=neuter Number=plural Case=nominative Definiteness=yes
-01N0103020103	Ncnpnp	Noun common neuter plural nominative proximal	Noun Type=common Gender=neuter Number=plural Case=nominative Definiteness=proximal
-01N0103020104	Ncnpnd	Noun common neuter plural nominative distal	Noun Type=common Gender=neuter Number=plural Case=nominative Definiteness=distal
+01N0200020101	Np-pnn	Noun proper plural nominative -Definiteness	Noun Type=proper Number=plural Case=nominative Definiteness=no
 01N0201010101	Npmsnn	Noun proper masculine singular nominative -Definiteness	Noun Type=proper Gender=masculine Number=singular Case=nominative Definiteness=no
 01N0201010102	Npmsny	Noun proper masculine singular nominative +Definiteness	Noun Type=proper Gender=masculine Number=singular Case=nominative Definiteness=yes
-01N0201010103	Npmsnp	Noun proper masculine singular nominative proximal	Noun Type=proper Gender=masculine Number=singular Case=nominative Definiteness=proximal
-01N0201010104	Npmsnd	Noun proper masculine singular nominative distal	Noun Type=proper Gender=masculine Number=singular Case=nominative Definiteness=distal
 01N0201010201	Npmsvn	Noun proper masculine singular vocative -Definiteness	Noun Type=proper Gender=masculine Number=singular Case=vocative Definiteness=no
-01N0201010202	Npmsvy	Noun proper masculine singular vocative +Definiteness	Noun Type=proper Gender=masculine Number=singular Case=vocative Definiteness=yes
 01N0201020101	Npmpnn	Noun proper masculine plural nominative -Definiteness	Noun Type=proper Gender=masculine Number=plural Case=nominative Definiteness=no
 01N0201020102	Npmpny	Noun proper masculine plural nominative +Definiteness	Noun Type=proper Gender=masculine Number=plural Case=nominative Definiteness=yes
-01N0201020103	Npmpnp	Noun proper masculine plural nominative proximal	Noun Type=proper Gender=masculine Number=plural Case=nominative Definiteness=proximal
-01N0201020104	Npmpnd	Noun proper masculine plural nominative distal	Noun Type=proper Gender=masculine Number=plural Case=nominative Definiteness=distal
 01N0202010101	Npfsnn	Noun proper feminine singular nominative -Definiteness	Noun Type=proper Gender=feminine Number=singular Case=nominative Definiteness=no
-01N0202010102	Npfsny	Noun proper feminine singular nominative +Definiteness	Noun Type=proper Gender=feminine Number=singular Case=nominative Definiteness=yes
-01N0202010103	Npfsnp	Noun proper feminine singular nominative proximal	Noun Type=proper Gender=feminine Number=singular Case=nominative Definiteness=proximal
-01N0202010104	Npfsnd	Noun proper feminine singular nominative distal	Noun Type=proper Gender=feminine Number=singular Case=nominative Definiteness=distal
-01N0202010201	Npfsvn	Noun proper feminine singular vocative -Definiteness	Noun Type=proper Gender=feminine Number=singular Case=vocative Definiteness=no
 01N0202020101	Npfpnn	Noun proper feminine plural nominative -Definiteness	Noun Type=proper Gender=feminine Number=plural Case=nominative Definiteness=no
-01N0202020102	Npfpny	Noun proper feminine plural nominative +Definiteness	Noun Type=proper Gender=feminine Number=plural Case=nominative Definiteness=yes
-01N0202020103	Npfpnp	Noun proper feminine plural nominative proximal	Noun Type=proper Gender=feminine Number=plural Case=nominative Definiteness=proximal
-01N0202020104	Npfpnd	Noun proper feminine plural nominative distal	Noun Type=proper Gender=feminine Number=plural Case=nominative Definiteness=distal
 01N0203010101	Npnsnn	Noun proper neuter singular nominative -Definiteness	Noun Type=proper Gender=neuter Number=singular Case=nominative Definiteness=no
-01N0203010102	Npnsny	Noun proper neuter singular nominative +Definiteness	Noun Type=proper Gender=neuter Number=singular Case=nominative Definiteness=yes
-01N0203010103	Npnsnp	Noun proper neuter singular nominative proximal	Noun Type=proper Gender=neuter Number=singular Case=nominative Definiteness=proximal
-01N0203010104	Npnsnd	Noun proper neuter singular nominative distal	Noun Type=proper Gender=neuter Number=singular Case=nominative Definiteness=distal
-01N0203010202	Npnsvy	Noun proper neuter singular vocative +Definiteness	Noun Type=proper Gender=neuter Number=singular Case=vocative Definiteness=yes
-01N0203020101	Npnpnn	Noun proper neuter plural nominative -Definiteness	Noun Type=proper Gender=neuter Number=plural Case=nominative Definiteness=no
-01N0203020102	Npnpny	Noun proper neuter plural nominative +Definiteness	Noun Type=proper Gender=neuter Number=plural Case=nominative Definiteness=yes
-01N0203020103	Npnpnp	Noun proper neuter plural nominative proximal	Noun Type=proper Gender=neuter Number=plural Case=nominative Definiteness=proximal
-01N0203020104	Npnpnd	Noun proper neuter plural nominative distal	Noun Type=proper Gender=neuter Number=plural Case=nominative Definiteness=distal
-02V0100030000000000000000000002	Vm-a----------e	Verb main aorist perfective	Verb Type=main Tense=aorist Aspect=perfective
-02V0101010101000000000000000000	Vmip1s	Verb main indicative present first singular	Verb Type=main VForm=indicative Tense=present Person=first Number=singular
-02V0101010101000000000000000001	Vmip1s--------p	Verb main indicative present first singular progressive	Verb Type=main VForm=indicative Tense=present Person=first Number=singular Aspect=progressive
-02V0101010101000000000000000002	Vmip1s--------e	Verb main indicative present first singular perfective	Verb Type=main VForm=indicative Tense=present Person=first Number=singular Aspect=perfective
-02V0101010101000002000000000001	Vmip1s--y-----p	Verb main indicative present first singular +Negative progressive	Verb Type=main VForm=indicative Tense=present Person=first Number=singular Negative=yes Aspect=progressive
-02V0101010101000002000000000002	Vmip1s--y-----e	Verb main indicative present first singular +Negative perfective	Verb Type=main VForm=indicative Tense=present Person=first Number=singular Negative=yes Aspect=perfective
-02V0101010102000000000000000000	Vmip1p	Verb main indicative present first plural	Verb Type=main VForm=indicative Tense=present Person=first Number=plural
-02V0101010102000000000000000001	Vmip1p--------p	Verb main indicative present first plural progressive	Verb Type=main VForm=indicative Tense=present Person=first Number=plural Aspect=progressive
-02V0101010102000000000000000002	Vmip1p--------e	Verb main indicative present first plural perfective	Verb Type=main VForm=indicative Tense=present Person=first Number=plural Aspect=perfective
-02V0101010102000002000000000001	Vmip1p--y-----p	Verb main indicative present first plural +Negative progressive	Verb Type=main VForm=indicative Tense=present Person=first Number=plural Negative=yes Aspect=progressive
-02V0101010102000002000000000002	Vmip1p--y-----e	Verb main indicative present first plural +Negative perfective	Verb Type=main VForm=indicative Tense=present Person=first Number=plural Negative=yes Aspect=perfective
-02V0101010201000000000000000000	Vmip2s	Verb main indicative present second singular	Verb Type=main VForm=indicative Tense=present Person=second Number=singular
-02V0101010201000000000000000001	Vmip2s--------p	Verb main indicative present second singular progressive	Verb Type=main VForm=indicative Tense=present Person=second Number=singular Aspect=progressive
-02V0101010201000000000000000002	Vmip2s--------e	Verb main indicative present second singular perfective	Verb Type=main VForm=indicative Tense=present Person=second Number=singular Aspect=perfective
-02V0101010201000002000000000001	Vmip2s--y-----p	Verb main indicative present second singular +Negative progressive	Verb Type=main VForm=indicative Tense=present Person=second Number=singular Negative=yes Aspect=progressive
-02V0101010201000002000000000002	Vmip2s--y-----e	Verb main indicative present second singular +Negative perfective	Verb Type=main VForm=indicative Tense=present Person=second Number=singular Negative=yes Aspect=perfective
-02V0101010202000000000000000000	Vmip2p	Verb main indicative present second plural	Verb Type=main VForm=indicative Tense=present Person=second Number=plural
-02V0101010202000000000000000001	Vmip2p--------p	Verb main indicative present second plural progressive	Verb Type=main VForm=indicative Tense=present Person=second Number=plural Aspect=progressive
-02V0101010202000000000000000002	Vmip2p--------e	Verb main indicative present second plural perfective	Verb Type=main VForm=indicative Tense=present Person=second Number=plural Aspect=perfective
-02V0101010202000002000000000001	Vmip2p--y-----p	Verb main indicative present second plural +Negative progressive	Verb Type=main VForm=indicative Tense=present Person=second Number=plural Negative=yes Aspect=progressive
-02V0101010202000002000000000002	Vmip2p--y-----e	Verb main indicative present second plural +Negative perfective	Verb Type=main VForm=indicative Tense=present Person=second Number=plural Negative=yes Aspect=perfective
-02V0101010301000000000000000000	Vmip3s	Verb main indicative present third singular	Verb Type=main VForm=indicative Tense=present Person=third Number=singular
-02V0101010301000000000000000001	Vmip3s--------p	Verb main indicative present third singular progressive	Verb Type=main VForm=indicative Tense=present Person=third Number=singular Aspect=progressive
-02V0101010301000000000000000002	Vmip3s--------e	Verb main indicative present third singular perfective	Verb Type=main VForm=indicative Tense=present Person=third Number=singular Aspect=perfective
-02V0101010301000002000000000001	Vmip3s--y-----p	Verb main indicative present third singular +Negative progressive	Verb Type=main VForm=indicative Tense=present Person=third Number=singular Negative=yes Aspect=progressive
-02V0101010301000002000000000002	Vmip3s--y-----e	Verb main indicative present third singular +Negative perfective	Verb Type=main VForm=indicative Tense=present Person=third Number=singular Negative=yes Aspect=perfective
-02V0101010302000000000000000000	Vmip3p	Verb main indicative present third plural	Verb Type=main VForm=indicative Tense=present Person=third Number=plural
-02V0101010302000000000000000001	Vmip3p--------p	Verb main indicative present third plural progressive	Verb Type=main VForm=indicative Tense=present Person=third Number=plural Aspect=progressive
-02V0101010302000000000000000002	Vmip3p--------e	Verb main indicative present third plural perfective	Verb Type=main VForm=indicative Tense=present Person=third Number=plural Aspect=perfective
-02V0101010302000002000000000001	Vmip3p--y-----p	Verb main indicative present third plural +Negative progressive	Verb Type=main VForm=indicative Tense=present Person=third Number=plural Negative=yes Aspect=progressive
-02V0101010302000002000000000002	Vmip3p--y-----e	Verb main indicative present third plural +Negative perfective	Verb Type=main VForm=indicative Tense=present Person=third Number=plural Negative=yes Aspect=perfective
-02V0101020101000000000000000000	Vmii1s	Verb main indicative imperfect first singular	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=singular
-02V0101020101000000000000000001	Vmii1s--------p	Verb main indicative imperfect first singular progressive	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=singular Aspect=progressive
-02V0101020101000000000000000002	Vmii1s--------e	Verb main indicative imperfect first singular perfective	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=singular Aspect=perfective
-02V0101020101000002000000000001	Vmii1s--y-----p	Verb main indicative imperfect first singular +Negative progressive	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=singular Negative=yes Aspect=progressive
-02V0101020101000002000000000002	Vmii1s--y-----e	Verb main indicative imperfect first singular +Negative perfective	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=singular Negative=yes Aspect=perfective
-02V0101020102000000000000000000	Vmii1p	Verb main indicative imperfect first plural	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=plural
-02V0101020102000000000000000001	Vmii1p--------p	Verb main indicative imperfect first plural progressive	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=plural Aspect=progressive
-02V0101020102000000000000000002	Vmii1p--------e	Verb main indicative imperfect first plural perfective	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=plural Aspect=perfective
-02V0101020102000002000000000001	Vmii1p--y-----p	Verb main indicative imperfect first plural +Negative progressive	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=plural Negative=yes Aspect=progressive
-02V0101020102000002000000000002	Vmii1p--y-----e	Verb main indicative imperfect first plural +Negative perfective	Verb Type=main VForm=indicative Tense=imperfect Person=first Number=plural Negative=yes Aspect=perfective
-02V0101020201000000000000000000	Vmii2s	Verb main indicative imperfect second singular	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular
-02V0101020201000000000000000001	Vmii2s--------p	Verb main indicative imperfect second singular progressive	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular Aspect=progressive
-02V0101020201000000000000000002	Vmii2s--------e	Verb main indicative imperfect second singular perfective	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular Aspect=perfective
-02V0101020201000002000000000001	Vmii2s--y-----p	Verb main indicative imperfect second singular +Negative progressive	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular Negative=yes Aspect=progressive
-02V0101020201000002000000000002	Vmii2s--y-----e	Verb main indicative imperfect second singular +Negative perfective	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=singular Negative=yes Aspect=perfective
-02V0101020202000000000000000000	Vmii2p	Verb main indicative imperfect second plural	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural
-02V0101020202000000000000000001	Vmii2p--------p	Verb main indicative imperfect second plural progressive	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural Aspect=progressive
-02V0101020202000000000000000002	Vmii2p--------e	Verb main indicative imperfect second plural perfective	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural Aspect=perfective
-02V0101020202000002000000000001	Vmii2p--y-----p	Verb main indicative imperfect second plural +Negative progressive	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural Negative=yes Aspect=progressive
-02V0101020202000002000000000002	Vmii2p--y-----e	Verb main indicative imperfect second plural +Negative perfective	Verb Type=main VForm=indicative Tense=imperfect Person=second Number=plural Negative=yes Aspect=perfective
-02V0101020301000000000000000000	Vmii3s	Verb main indicative imperfect third singular	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular
-02V0101020301000000000000000001	Vmii3s--------p	Verb main indicative imperfect third singular progressive	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular Aspect=progressive
-02V0101020301000000000000000002	Vmii3s--------e	Verb main indicative imperfect third singular perfective	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular Aspect=perfective
-02V0101020301000002000000000001	Vmii3s--y-----p	Verb main indicative imperfect third singular +Negative progressive	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular Negative=yes Aspect=progressive
-02V0101020301000002000000000002	Vmii3s--y-----e	Verb main indicative imperfect third singular +Negative perfective	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=singular Negative=yes Aspect=perfective
-02V0101020302000000000000000000	Vmii3p	Verb main indicative imperfect third plural	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural
-02V0101020302000000000000000001	Vmii3p--------p	Verb main indicative imperfect third plural progressive	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural Aspect=progressive
-02V0101020302000000000000000002	Vmii3p--------e	Verb main indicative imperfect third plural perfective	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural Aspect=perfective
-02V0101020302000002000000000001	Vmii3p--y-----p	Verb main indicative imperfect third plural +Negative progressive	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural Negative=yes Aspect=progressive
-02V0101020302000002000000000002	Vmii3p--y-----e	Verb main indicative imperfect third plural +Negative perfective	Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural Negative=yes Aspect=perfective
-02V0101030101000000000000000000	Vmia1s	Verb main indicative aorist first singular	Verb Type=main VForm=indicative Tense=aorist Person=first Number=singular
-02V0101030101000000000000000001	Vmia1s--------p	Verb main indicative aorist first singular progressive	Verb Type=main VForm=indicative Tense=aorist Person=first Number=singular Aspect=progressive
-02V0101030101000000000000000002	Vmia1s--------e	Verb main indicative aorist first singular perfective	Verb Type=main VForm=indicative Tense=aorist Person=first Number=singular Aspect=perfective
-02V0101030101000002000000000001	Vmia1s--y-----p	Verb main indicative aorist first singular +Negative progressive	Verb Type=main VForm=indicative Tense=aorist Person=first Number=singular Negative=yes Aspect=progressive
-02V0101030101000002000000000002	Vmia1s--y-----e	Verb main indicative aorist first singular +Negative perfective	Verb Type=main VForm=indicative Tense=aorist Person=first Number=singular Negative=yes Aspect=perfective
-02V0101030102000000000000000000	Vmia1p	Verb main indicative aorist first plural	Verb Type=main VForm=indicative Tense=aorist Person=first Number=plural
-02V0101030102000000000000000001	Vmia1p--------p	Verb main indicative aorist first plural progressive	Verb Type=main VForm=indicative Tense=aorist Person=first Number=plural Aspect=progressive
-02V0101030102000000000000000002	Vmia1p--------e	Verb main indicative aorist first plural perfective	Verb Type=main VForm=indicative Tense=aorist Person=first Number=plural Aspect=perfective
-02V0101030102000002000000000001	Vmia1p--y-----p	Verb main indicative aorist first plural +Negative progressive	Verb Type=main VForm=indicative Tense=aorist Person=first Number=plural Negative=yes Aspect=progressive
-02V0101030102000002000000000002	Vmia1p--y-----e	Verb main indicative aorist first plural +Negative perfective	Verb Type=main VForm=indicative Tense=aorist Person=first Number=plural Negative=yes Aspect=perfective
-02V0101030201000000000000000000	Vmia2s	Verb main indicative aorist second singular	Verb Type=main VForm=indicative Tense=aorist Person=second Number=singular
-02V0101030201000000000000000001	Vmia2s--------p	Verb main indicative aorist second singular progressive	Verb Type=main VForm=indicative Tense=aorist Person=second Number=singular Aspect=progressive
-02V0101030201000000000000000002	Vmia2s--------e	Verb main indicative aorist second singular perfective	Verb Type=main VForm=indicative Tense=aorist Person=second Number=singular Aspect=perfective
-02V0101030201000002000000000001	Vmia2s--y-----p	Verb main indicative aorist second singular +Negative progressive	Verb Type=main VForm=indicative Tense=aorist Person=second Number=singular Negative=yes Aspect=progressive
-02V0101030201000002000000000002	Vmia2s--y-----e	Verb main indicative aorist second singular +Negative perfective	Verb Type=main VForm=indicative Tense=aorist Person=second Number=singular Negative=yes Aspect=perfective
-02V0101030202000000000000000000	Vmia2p	Verb main indicative aorist second plural	Verb Type=main VForm=indicative Tense=aorist Person=second Number=plural
-02V0101030202000000000000000001	Vmia2p--------p	Verb main indicative aorist second plural progressive	Verb Type=main VForm=indicative Tense=aorist Person=second Number=plural Aspect=progressive
-02V0101030202000000000000000002	Vmia2p--------e	Verb main indicative aorist second plural perfective	Verb Type=main VForm=indicative Tense=aorist Person=second Number=plural Aspect=perfective
-02V0101030202000002000000000001	Vmia2p--y-----p	Verb main indicative aorist second plural +Negative progressive	Verb Type=main VForm=indicative Tense=aorist Person=second Number=plural Negative=yes Aspect=progressive
-02V0101030202000002000000000002	Vmia2p--y-----e	Verb main indicative aorist second plural +Negative perfective	Verb Type=main VForm=indicative Tense=aorist Person=second Number=plural Negative=yes Aspect=perfective
-02V0101030301000000000000000000	Vmia3s	Verb main indicative aorist third singular	Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular
-02V0101030301000000000000000001	Vmia3s--------p	Verb main indicative aorist third singular progressive	Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular Aspect=progressive
-02V0101030301000000000000000002	Vmia3s--------e	Verb main indicative aorist third singular perfective	Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular Aspect=perfective
-02V0101030301000002000000000001	Vmia3s--y-----p	Verb main indicative aorist third singular +Negative progressive	Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular Negative=yes Aspect=progressive
-02V0101030301000002000000000002	Vmia3s--y-----e	Verb main indicative aorist third singular +Negative perfective	Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular Negative=yes Aspect=perfective
-02V0101030302000000000000000000	Vmia3p	Verb main indicative aorist third plural	Verb Type=main VForm=indicative Tense=aorist Person=third Number=plural
-02V0101030302000000000000000001	Vmia3p--------p	Verb main indicative aorist third plural progressive	Verb Type=main VForm=indicative Tense=aorist Person=third Number=plural Aspect=progressive
-02V0101030302000000000000000002	Vmia3p--------e	Verb main indicative aorist third plural perfective	Verb Type=main VForm=indicative Tense=aorist Person=third Number=plural Aspect=perfective
-02V0101030302000002000000000001	Vmia3p--y-----p	Verb main indicative aorist third plural +Negative progressive	Verb Type=main VForm=indicative Tense=aorist Person=third Number=plural Negative=yes Aspect=progressive
-02V0101030302000002000000000002	Vmia3p--y-----e	Verb main indicative aorist third plural +Negative perfective	Verb Type=main VForm=indicative Tense=aorist Person=third Number=plural Negative=yes Aspect=perfective
-02V0102010201000000000000000000	Vmmp2s	Verb main imperative present second singular	Verb Type=main VForm=imperative Tense=present Person=second Number=singular
-02V0102010201000000000000000001	Vmmp2s--------p	Verb main imperative present second singular progressive	Verb Type=main VForm=imperative Tense=present Person=second Number=singular Aspect=progressive
-02V0102010201000000000000000002	Vmmp2s--------e	Verb main imperative present second singular perfective	Verb Type=main VForm=imperative Tense=present Person=second Number=singular Aspect=perfective
-02V0102010201000002000000000000	Vmmp2s--y	Verb main imperative present second singular +Negative	Verb Type=main VForm=imperative Tense=present Person=second Number=singular Negative=yes
-02V0102010201000002000000000001	Vmmp2s--y-----p	Verb main imperative present second singular +Negative progressive	Verb Type=main VForm=imperative Tense=present Person=second Number=singular Negative=yes Aspect=progressive
-02V0102010201000002000000000002	Vmmp2s--y-----e	Verb main imperative present second singular +Negative perfective	Verb Type=main VForm=imperative Tense=present Person=second Number=singular Negative=yes Aspect=perfective
-02V0102010202000000000000000000	Vmmp2p	Verb main imperative present second plural	Verb Type=main VForm=imperative Tense=present Person=second Number=plural
-02V0102010202000000000000000001	Vmmp2p--------p	Verb main imperative present second plural progressive	Verb Type=main VForm=imperative Tense=present Person=second Number=plural Aspect=progressive
-02V0102010202000000000000000002	Vmmp2p--------e	Verb main imperative present second plural perfective	Verb Type=main VForm=imperative Tense=present Person=second Number=plural Aspect=perfective
-02V0102010202000002000000000000	Vmmp2p--y	Verb main imperative present second plural +Negative	Verb Type=main VForm=imperative Tense=present Person=second Number=plural Negative=yes
-02V0102010202000002000000000001	Vmmp2p--y-----p	Verb main imperative present second plural +Negative progressive	Verb Type=main VForm=imperative Tense=present Person=second Number=plural Negative=yes Aspect=progressive
-02V0102010202000002000000000002	Vmmp2p--y-----e	Verb main imperative present second plural +Negative perfective	Verb Type=main VForm=imperative Tense=present Person=second Number=plural Negative=yes Aspect=perfective
-02V0103000000000200000000000000	Vmp----p	Verb main participle passive	Verb Type=main VForm=participle Voice=passive
-02V0103000000000200000000000001	Vmp----p------p	Verb main participle passive progressive	Verb Type=main VForm=participle Voice=passive Aspect=progressive
-02V0103000000000200000000000002	Vmp----p------e	Verb main participle passive perfective	Verb Type=main VForm=participle Voice=passive Aspect=perfective
-02V0103000000000202000000000001	Vmp----py-----p	Verb main participle passive +Negative progressive	Verb Type=main VForm=participle Voice=passive Negative=yes Aspect=progressive
-02V0103000000000202000000000002	Vmp----py-----e	Verb main participle passive +Negative perfective	Verb Type=main VForm=participle Voice=passive Negative=yes Aspect=perfective
-02V0103000000010100000000000001	Vmp---ma------p	Verb main participle masculine active progressive	Verb Type=main VForm=participle Gender=masculine Voice=active Aspect=progressive
-02V0103000001010100000000000000	Vmp--sma	Verb main participle singular masculine active	Verb Type=main VForm=participle Number=singular Gender=masculine Voice=active
-02V0103000001010100000000000001	Vmp--sma------p	Verb main participle singular masculine active progressive	Verb Type=main VForm=participle Number=singular Gender=masculine Voice=active Aspect=progressive
-02V0103000001010100000000000002	Vmp--sma------e	Verb main participle singular masculine active perfective	Verb Type=main VForm=participle Number=singular Gender=masculine Voice=active Aspect=perfective
-02V0103000001010102000000000001	Vmp--smay-----p	Verb main participle singular masculine active +Negative progressive	Verb Type=main VForm=participle Number=singular Gender=masculine Voice=active Negative=yes Aspect=progressive
-02V0103000001010102000000000002	Vmp--smay-----e	Verb main participle singular masculine active +Negative perfective	Verb Type=main VForm=participle Number=singular Gender=masculine Voice=active Negative=yes Aspect=perfective
-02V0103000001020100000000000000	Vmp--sfa	Verb main participle singular feminine active	Verb Type=main VForm=participle Number=singular Gender=feminine Voice=active
-02V0103000001020100000000000001	Vmp--sfa------p	Verb main participle singular feminine active progressive	Verb Type=main VForm=participle Number=singular Gender=feminine Voice=active Aspect=progressive
-02V0103000001020100000000000002	Vmp--sfa------e	Verb main participle singular feminine active perfective	Verb Type=main VForm=participle Number=singular Gender=feminine Voice=active Aspect=perfective
-02V0103000001020102000000000001	Vmp--sfay-----p	Verb main participle singular feminine active +Negative progressive	Verb Type=main VForm=participle Number=singular Gender=feminine Voice=active Negative=yes Aspect=progressive
-02V0103000001020102000000000002	Vmp--sfay-----e	Verb main participle singular feminine active +Negative perfective	Verb Type=main VForm=participle Number=singular Gender=feminine Voice=active Negative=yes Aspect=perfective
-02V0103000001030100000000000000	Vmp--sna	Verb main participle singular neuter active	Verb Type=main VForm=participle Number=singular Gender=neuter Voice=active
-02V0103000001030100000000000001	Vmp--sna------p	Verb main participle singular neuter active progressive	Verb Type=main VForm=participle Number=singular Gender=neuter Voice=active Aspect=progressive
-02V0103000001030100000000000002	Vmp--sna------e	Verb main participle singular neuter active perfective	Verb Type=main VForm=participle Number=singular Gender=neuter Voice=active Aspect=perfective
-02V0103000001030102000000000001	Vmp--snay-----p	Verb main participle singular neuter active +Negative progressive	Verb Type=main VForm=participle Number=singular Gender=neuter Voice=active Negative=yes Aspect=progressive
-02V0103000001030102000000000002	Vmp--snay-----e	Verb main participle singular neuter active +Negative perfective	Verb Type=main VForm=participle Number=singular Gender=neuter Voice=active Negative=yes Aspect=perfective
-02V0103000002000100000000000000	Vmp--p-a	Verb main participle plural active	Verb Type=main VForm=participle Number=plural Voice=active
-02V0103000002000100000000000001	Vmp--p-a------p	Verb main participle plural active progressive	Verb Type=main VForm=participle Number=plural Voice=active Aspect=progressive
-02V0103000002000100000000000002	Vmp--p-a------e	Verb main participle plural active perfective	Verb Type=main VForm=participle Number=plural Voice=active Aspect=perfective
-02V0103000002000102000000000001	Vmp--p-ay-----p	Verb main participle plural active +Negative progressive	Verb Type=main VForm=participle Number=plural Voice=active Negative=yes Aspect=progressive
-02V0103000002000102000000000002	Vmp--p-ay-----e	Verb main participle plural active +Negative perfective	Verb Type=main VForm=participle Number=plural Voice=active Negative=yes Aspect=perfective
-02V0201010101000000000000000000	Vaip1s	Verb auxiliary indicative present first singular	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular
-02V0201010101000000000000000001	Vaip1s--------p	Verb auxiliary indicative present first singular progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular Aspect=progressive
-02V0201010101000002000000000001	Vaip1s--y-----p	Verb auxiliary indicative present first singular +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=singular Negative=yes Aspect=progressive
-02V0201010102000000000000000000	Vaip1p	Verb auxiliary indicative present first plural	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural
-02V0201010102000000000000000001	Vaip1p--------p	Verb auxiliary indicative present first plural progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural Aspect=progressive
-02V0201010102000002000000000001	Vaip1p--y-----p	Verb auxiliary indicative present first plural +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural Negative=yes Aspect=progressive
-02V0201010201000000000000000000	Vaip2s	Verb auxiliary indicative present second singular	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular
-02V0201010201000000000000000001	Vaip2s--------p	Verb auxiliary indicative present second singular progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular Aspect=progressive
-02V0201010201000002000000000001	Vaip2s--y-----p	Verb auxiliary indicative present second singular +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=singular Negative=yes Aspect=progressive
-02V0201010202000000000000000000	Vaip2p	Verb auxiliary indicative present second plural	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=plural
-02V0201010202000000000000000001	Vaip2p--------p	Verb auxiliary indicative present second plural progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=plural Aspect=progressive
-02V0201010202000002000000000001	Vaip2p--y-----p	Verb auxiliary indicative present second plural +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=second Number=plural Negative=yes Aspect=progressive
-02V0201010301000000000000000000	Vaip3s	Verb auxiliary indicative present third singular	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular
-02V0201010301000000000000000001	Vaip3s--------p	Verb auxiliary indicative present third singular progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular Aspect=progressive
-02V0201010301000002000000000001	Vaip3s--y-----p	Verb auxiliary indicative present third singular +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=singular Negative=yes Aspect=progressive
-02V0201010302000000000000000000	Vaip3p	Verb auxiliary indicative present third plural	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=plural
-02V0201010302000000000000000001	Vaip3p--------p	Verb auxiliary indicative present third plural progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=plural Aspect=progressive
-02V0201010302000002000000000001	Vaip3p--y-----p	Verb auxiliary indicative present third plural +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=present Person=third Number=plural Negative=yes Aspect=progressive
-02V0201020101000000000000000000	Vaii1s	Verb auxiliary indicative imperfect first singular	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=singular
-02V0201020101000000000000000001	Vaii1s--------p	Verb auxiliary indicative imperfect first singular progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=singular Aspect=progressive
-02V0201020101000002000000000001	Vaii1s--y-----p	Verb auxiliary indicative imperfect first singular +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=singular Negative=yes Aspect=progressive
-02V0201020102000000000000000000	Vaii1p	Verb auxiliary indicative imperfect first plural	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=plural
-02V0201020102000000000000000001	Vaii1p--------p	Verb auxiliary indicative imperfect first plural progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=plural Aspect=progressive
-02V0201020102000002000000000001	Vaii1p--y-----p	Verb auxiliary indicative imperfect first plural +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=first Number=plural Negative=yes Aspect=progressive
-02V0201020201000000000000000000	Vaii2s	Verb auxiliary indicative imperfect second singular	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=singular
-02V0201020201000000000000000001	Vaii2s--------p	Verb auxiliary indicative imperfect second singular progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=singular Aspect=progressive
-02V0201020201000002000000000001	Vaii2s--y-----p	Verb auxiliary indicative imperfect second singular +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=singular Negative=yes Aspect=progressive
-02V0201020202000000000000000000	Vaii2p	Verb auxiliary indicative imperfect second plural	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=plural
-02V0201020202000000000000000001	Vaii2p--------p	Verb auxiliary indicative imperfect second plural progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=plural Aspect=progressive
-02V0201020202000002000000000001	Vaii2p--y-----p	Verb auxiliary indicative imperfect second plural +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=second Number=plural Negative=yes Aspect=progressive
-02V0201020301000000000000000000	Vaii3s	Verb auxiliary indicative imperfect third singular	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=singular
-02V0201020301000000000000000001	Vaii3s--------p	Verb auxiliary indicative imperfect third singular progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=singular Aspect=progressive
-02V0201020301000002000000000001	Vaii3s--y-----p	Verb auxiliary indicative imperfect third singular +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=singular Negative=yes Aspect=progressive
-02V0201020302000000000000000000	Vaii3p	Verb auxiliary indicative imperfect third plural	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=plural
-02V0201020302000000000000000001	Vaii3p--------p	Verb auxiliary indicative imperfect third plural progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=plural Aspect=progressive
-02V0201020302000002000000000001	Vaii3p--y-----p	Verb auxiliary indicative imperfect third plural +Negative progressive	Verb Type=auxiliary VForm=indicative Tense=imperfect Person=third Number=plural Negative=yes Aspect=progressive
-02V0202010201000000000000000000	Vamp2s	Verb auxiliary imperative present second singular	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=singular
-02V0202010201000000000000000001	Vamp2s--------p	Verb auxiliary imperative present second singular progressive	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=singular Aspect=progressive
-02V0202010201000002000000000001	Vamp2s--y-----p	Verb auxiliary imperative present second singular +Negative progressive	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=singular Negative=yes Aspect=progressive
-02V0202010202000000000000000000	Vamp2p	Verb auxiliary imperative present second plural	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=plural
-02V0202010202000000000000000001	Vamp2p--------p	Verb auxiliary imperative present second plural progressive	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=plural Aspect=progressive
-02V0202010202000002000000000001	Vamp2p--y-----p	Verb auxiliary imperative present second plural +Negative progressive	Verb Type=auxiliary VForm=imperative Tense=present Person=second Number=plural Negative=yes Aspect=progressive
-02V0203000000000200000000000000	Vap----p	Verb auxiliary participle passive	Verb Type=auxiliary VForm=participle Voice=passive
-02V0203000000000200000000000001	Vap----p------p	Verb auxiliary participle passive progressive	Verb Type=auxiliary VForm=participle Voice=passive Aspect=progressive
-02V0203000000000202000000000001	Vap----py-----p	Verb auxiliary participle passive +Negative progressive	Verb Type=auxiliary VForm=participle Voice=passive Negative=yes Aspect=progressive
-02V0203000001010100000000000000	Vap--sma	Verb auxiliary participle singular masculine active	Verb Type=auxiliary VForm=participle Number=singular Gender=masculine Voice=active
-02V0203000001010100000000000001	Vap--sma------p	Verb auxiliary participle singular masculine active progressive	Verb Type=auxiliary VForm=participle Number=singular Gender=masculine Voice=active Aspect=progressive
-02V0203000001010102000000000001	Vap--smay-----p	Verb auxiliary participle singular masculine active +Negative progressive	Verb Type=auxiliary VForm=participle Number=singular Gender=masculine Voice=active Negative=yes Aspect=progressive
-02V0203000001020100000000000000	Vap--sfa	Verb auxiliary participle singular feminine active	Verb Type=auxiliary VForm=participle Number=singular Gender=feminine Voice=active
-02V0203000001020100000000000001	Vap--sfa------p	Verb auxiliary participle singular feminine active progressive	Verb Type=auxiliary VForm=participle Number=singular Gender=feminine Voice=active Aspect=progressive
-02V0203000001020102000000000001	Vap--sfay-----p	Verb auxiliary participle singular feminine active +Negative progressive	Verb Type=auxiliary VForm=participle Number=singular Gender=feminine Voice=active Negative=yes Aspect=progressive
-02V0203000001030100000000000000	Vap--sna	Verb auxiliary participle singular neuter active	Verb Type=auxiliary VForm=participle Number=singular Gender=neuter Voice=active
-02V0203000001030100000000000001	Vap--sna------p	Verb auxiliary participle singular neuter active progressive	Verb Type=auxiliary VForm=participle Number=singular Gender=neuter Voice=active Aspect=progressive
-02V0203000001030102000000000001	Vap--snay-----p	Verb auxiliary participle singular neuter active +Negative progressive	Verb Type=auxiliary VForm=participle Number=singular Gender=neuter Voice=active Negative=yes Aspect=progressive
-02V0203000002000100000000000000	Vap--p-a	Verb auxiliary participle plural active	Verb Type=auxiliary VForm=participle Number=plural Voice=active
-02V0203000002000100000000000001	Vap--p-a------p	Verb auxiliary participle plural active progressive	Verb Type=auxiliary VForm=participle Number=plural Voice=active Aspect=progressive
-02V0203000002000102000000000001	Vap--p-ay-----p	Verb auxiliary participle plural active +Negative progressive	Verb Type=auxiliary VForm=participle Number=plural Voice=active Negative=yes Aspect=progressive
-02V0301010101000000000000000001	Voip1s--------p	Verb modal indicative present first singular progressive	Verb Type=modal VForm=indicative Tense=present Person=first Number=singular Aspect=progressive
-02V0301010101000000000000000002	Voip1s--------e	Verb modal indicative present first singular perfective	Verb Type=modal VForm=indicative Tense=present Person=first Number=singular Aspect=perfective
-02V0301010101000002000000000001	Voip1s--y-----p	Verb modal indicative present first singular +Negative progressive	Verb Type=modal VForm=indicative Tense=present Person=first Number=singular Negative=yes Aspect=progressive
-02V0301010102000000000000000001	Voip1p--------p	Verb modal indicative present first plural progressive	Verb Type=modal VForm=indicative Tense=present Person=first Number=plural Aspect=progressive
-02V0301010102000000000000000002	Voip1p--------e	Verb modal indicative present first plural perfective	Verb Type=modal VForm=indicative Tense=present Person=first Number=plural Aspect=perfective
-02V0301010102000002000000000001	Voip1p--y-----p	Verb modal indicative present first plural +Negative progressive	Verb Type=modal VForm=indicative Tense=present Person=first Number=plural Negative=yes Aspect=progressive
-02V0301010201000000000000000001	Voip2s--------p	Verb modal indicative present second singular progressive	Verb Type=modal VForm=indicative Tense=present Person=second Number=singular Aspect=progressive
-02V0301010201000000000000000002	Voip2s--------e	Verb modal indicative present second singular perfective	Verb Type=modal VForm=indicative Tense=present Person=second Number=singular Aspect=perfective
-02V0301010201000002000000000001	Voip2s--y-----p	Verb modal indicative present second singular +Negative progressive	Verb Type=modal VForm=indicative Tense=present Person=second Number=singular Negative=yes Aspect=progressive
-02V0301010202000000000000000001	Voip2p--------p	Verb modal indicative present second plural progressive	Verb Type=modal VForm=indicative Tense=present Person=second Number=plural Aspect=progressive
-02V0301010202000000000000000002	Voip2p--------e	Verb modal indicative present second plural perfective	Verb Type=modal VForm=indicative Tense=present Person=second Number=plural Aspect=perfective
-02V0301010202000002000000000001	Voip2p--y-----p	Verb modal indicative present second plural +Negative progressive	Verb Type=modal VForm=indicative Tense=present Person=second Number=plural Negative=yes Aspect=progressive
-02V0301010301000000000000000001	Voip3s--------p	Verb modal indicative present third singular progressive	Verb Type=modal VForm=indicative Tense=present Person=third Number=singular Aspect=progressive
-02V0301010301000000000000000002	Voip3s--------e	Verb modal indicative present third singular perfective	Verb Type=modal VForm=indicative Tense=present Person=third Number=singular Aspect=perfective
-02V0301010301000002000000000001	Voip3s--y-----p	Verb modal indicative present third singular +Negative progressive	Verb Type=modal VForm=indicative Tense=present Person=third Number=singular Negative=yes Aspect=progressive
-02V0301010302000000000000000001	Voip3p--------p	Verb modal indicative present third plural progressive	Verb Type=modal VForm=indicative Tense=present Person=third Number=plural Aspect=progressive
-02V0301010302000000000000000002	Voip3p--------e	Verb modal indicative present third plural perfective	Verb Type=modal VForm=indicative Tense=present Person=third Number=plural Aspect=perfective
-02V0301010302000002000000000001	Voip3p--y-----p	Verb modal indicative present third plural +Negative progressive	Verb Type=modal VForm=indicative Tense=present Person=third Number=plural Negative=yes Aspect=progressive
-02V0301020101000000000000000001	Voii1s--------p	Verb modal indicative imperfect first singular progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=first Number=singular Aspect=progressive
-02V0301020101000000000000000002	Voii1s--------e	Verb modal indicative imperfect first singular perfective	Verb Type=modal VForm=indicative Tense=imperfect Person=first Number=singular Aspect=perfective
-02V0301020101000002000000000001	Voii1s--y-----p	Verb modal indicative imperfect first singular +Negative progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=first Number=singular Negative=yes Aspect=progressive
-02V0301020102000000000000000001	Voii1p--------p	Verb modal indicative imperfect first plural progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=first Number=plural Aspect=progressive
-02V0301020102000000000000000002	Voii1p--------e	Verb modal indicative imperfect first plural perfective	Verb Type=modal VForm=indicative Tense=imperfect Person=first Number=plural Aspect=perfective
-02V0301020102000002000000000001	Voii1p--y-----p	Verb modal indicative imperfect first plural +Negative progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=first Number=plural Negative=yes Aspect=progressive
-02V0301020201000000000000000001	Voii2s--------p	Verb modal indicative imperfect second singular progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=second Number=singular Aspect=progressive
-02V0301020201000000000000000002	Voii2s--------e	Verb modal indicative imperfect second singular perfective	Verb Type=modal VForm=indicative Tense=imperfect Person=second Number=singular Aspect=perfective
-02V0301020201000002000000000001	Voii2s--y-----p	Verb modal indicative imperfect second singular +Negative progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=second Number=singular Negative=yes Aspect=progressive
-02V0301020202000000000000000001	Voii2p--------p	Verb modal indicative imperfect second plural progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=second Number=plural Aspect=progressive
-02V0301020202000000000000000002	Voii2p--------e	Verb modal indicative imperfect second plural perfective	Verb Type=modal VForm=indicative Tense=imperfect Person=second Number=plural Aspect=perfective
-02V0301020202000002000000000001	Voii2p--y-----p	Verb modal indicative imperfect second plural +Negative progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=second Number=plural Negative=yes Aspect=progressive
-02V0301020301000000000000000001	Voii3s--------p	Verb modal indicative imperfect third singular progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=third Number=singular Aspect=progressive
-02V0301020301000000000000000002	Voii3s--------e	Verb modal indicative imperfect third singular perfective	Verb Type=modal VForm=indicative Tense=imperfect Person=third Number=singular Aspect=perfective
-02V0301020301000002000000000001	Voii3s--y-----p	Verb modal indicative imperfect third singular +Negative progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=third Number=singular Negative=yes Aspect=progressive
-02V0301020302000000000000000001	Voii3p--------p	Verb modal indicative imperfect third plural progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=third Number=plural Aspect=progressive
-02V0301020302000000000000000002	Voii3p--------e	Verb modal indicative imperfect third plural perfective	Verb Type=modal VForm=indicative Tense=imperfect Person=third Number=plural Aspect=perfective
-02V0301020302000002000000000001	Voii3p--y-----p	Verb modal indicative imperfect third plural +Negative progressive	Verb Type=modal VForm=indicative Tense=imperfect Person=third Number=plural Negative=yes Aspect=progressive
-02V0301030101000000000000000001	Voia1s--------p	Verb modal indicative aorist first singular progressive	Verb Type=modal VForm=indicative Tense=aorist Person=first Number=singular Aspect=progressive
-02V0301030101000000000000000002	Voia1s--------e	Verb modal indicative aorist first singular perfective	Verb Type=modal VForm=indicative Tense=aorist Person=first Number=singular Aspect=perfective
-02V0301030102000000000000000001	Voia1p--------p	Verb modal indicative aorist first plural progressive	Verb Type=modal VForm=indicative Tense=aorist Person=first Number=plural Aspect=progressive
-02V0301030102000000000000000002	Voia1p--------e	Verb modal indicative aorist first plural perfective	Verb Type=modal VForm=indicative Tense=aorist Person=first Number=plural Aspect=perfective
-02V0301030201000000000000000001	Voia2s--------p	Verb modal indicative aorist second singular progressive	Verb Type=modal VForm=indicative Tense=aorist Person=second Number=singular Aspect=progressive
-02V0301030201000000000000000002	Voia2s--------e	Verb modal indicative aorist second singular perfective	Verb Type=modal VForm=indicative Tense=aorist Person=second Number=singular Aspect=perfective
-02V0301030202000000000000000001	Voia2p--------p	Verb modal indicative aorist second plural progressive	Verb Type=modal VForm=indicative Tense=aorist Person=second Number=plural Aspect=progressive
-02V0301030202000000000000000002	Voia2p--------e	Verb modal indicative aorist second plural perfective	Verb Type=modal VForm=indicative Tense=aorist Person=second Number=plural Aspect=perfective
-02V0301030301000000000000000001	Voia3s--------p	Verb modal indicative aorist third singular progressive	Verb Type=modal VForm=indicative Tense=aorist Person=third Number=singular Aspect=progressive
-02V0301030301000000000000000002	Voia3s--------e	Verb modal indicative aorist third singular perfective	Verb Type=modal VForm=indicative Tense=aorist Person=third Number=singular Aspect=perfective
-02V0301030302000000000000000001	Voia3p--------p	Verb modal indicative aorist third plural progressive	Verb Type=modal VForm=indicative Tense=aorist Person=third Number=plural Aspect=progressive
-02V0301030302000000000000000002	Voia3p--------e	Verb modal indicative aorist third plural perfective	Verb Type=modal VForm=indicative Tense=aorist Person=third Number=plural Aspect=perfective
-02V0302010201000000000000000001	Vomp2s--------p	Verb modal imperative present second singular progressive	Verb Type=modal VForm=imperative Tense=present Person=second Number=singular Aspect=progressive
-02V0302010201000000000000000002	Vomp2s--------e	Verb modal imperative present second singular perfective	Verb Type=modal VForm=imperative Tense=present Person=second Number=singular Aspect=perfective
-02V0302010201000002000000000001	Vomp2s--y-----p	Verb modal imperative present second singular +Negative progressive	Verb Type=modal VForm=imperative Tense=present Person=second Number=singular Negative=yes Aspect=progressive
-02V0302010202000000000000000001	Vomp2p--------p	Verb modal imperative present second plural progressive	Verb Type=modal VForm=imperative Tense=present Person=second Number=plural Aspect=progressive
-02V0302010202000000000000000002	Vomp2p--------e	Verb modal imperative present second plural perfective	Verb Type=modal VForm=imperative Tense=present Person=second Number=plural Aspect=perfective
-02V0302010202000002000000000001	Vomp2p--y-----p	Verb modal imperative present second plural +Negative progressive	Verb Type=modal VForm=imperative Tense=present Person=second Number=plural Negative=yes Aspect=progressive
-02V0303000000000200000000000001	Vop----p------p	Verb modal participle passive progressive	Verb Type=modal VForm=participle Voice=passive Aspect=progressive
-02V0303000000000200000000000002	Vop----p------e	Verb modal participle passive perfective	Verb Type=modal VForm=participle Voice=passive Aspect=perfective
-02V0303000000000202000000000001	Vop----py-----p	Verb modal participle passive +Negative progressive	Verb Type=modal VForm=participle Voice=passive Negative=yes Aspect=progressive
-02V0303000001010100000000000001	Vop--sma------p	Verb modal participle singular masculine active progressive	Verb Type=modal VForm=participle Number=singular Gender=masculine Voice=active Aspect=progressive
-02V0303000001010100000000000002	Vop--sma------e	Verb modal participle singular masculine active perfective	Verb Type=modal VForm=participle Number=singular Gender=masculine Voice=active Aspect=perfective
-02V0303000001010102000000000001	Vop--smay-----p	Verb modal participle singular masculine active +Negative progressive	Verb Type=modal VForm=participle Number=singular Gender=masculine Voice=active Negative=yes Aspect=progressive
-02V0303000001020100000000000001	Vop--sfa------p	Verb modal participle singular feminine active progressive	Verb Type=modal VForm=participle Number=singular Gender=feminine Voice=active Aspect=progressive
-02V0303000001020100000000000002	Vop--sfa------e	Verb modal participle singular feminine active perfective	Verb Type=modal VForm=participle Number=singular Gender=feminine Voice=active Aspect=perfective
-02V0303000001020102000000000001	Vop--sfay-----p	Verb modal participle singular feminine active +Negative progressive	Verb Type=modal VForm=participle Number=singular Gender=feminine Voice=active Negative=yes Aspect=progressive
-02V0303000001030100000000000001	Vop--sna------p	Verb modal participle singular neuter active progressive	Verb Type=modal VForm=participle Number=singular Gender=neuter Voice=active Aspect=progressive
-02V0303000001030100000000000002	Vop--sna------e	Verb modal participle singular neuter active perfective	Verb Type=modal VForm=participle Number=singular Gender=neuter Voice=active Aspect=perfective
-02V0303000001030102000000000001	Vop--snay-----p	Verb modal participle singular neuter active +Negative progressive	Verb Type=modal VForm=participle Number=singular Gender=neuter Voice=active Negative=yes Aspect=progressive
-02V0303000002000100000000000001	Vop--p-a------p	Verb modal participle plural active progressive	Verb Type=modal VForm=participle Number=plural Voice=active Aspect=progressive
-02V0303000002000100000000000002	Vop--p-a------e	Verb modal participle plural active perfective	Verb Type=modal VForm=participle Number=plural Voice=active Aspect=perfective
-02V0303000002000102000000000001	Vop--p-ay-----p	Verb modal participle plural active +Negative progressive	Verb Type=modal VForm=participle Number=plural Voice=active Negative=yes Aspect=progressive
-03A010100000000	Afp	Adjective qualificative positive	Adjective Type=qualificative Degree=positive
-03A010100000001	Afp---n	Adjective qualificative positive -Definiteness	Adjective Type=qualificative Degree=positive Definiteness=no
-03A010100000002	Afp---y	Adjective qualificative positive +Definiteness	Adjective Type=qualificative Degree=positive Definiteness=yes
-03A010100000003	Afp---p	Adjective qualificative positive proximal	Adjective Type=qualificative Degree=positive Definiteness=proximal
-03A010100000004	Afp---d	Adjective qualificative positive distal	Adjective Type=qualificative Degree=positive Definiteness=distal
+01N0203010201	Npnsvn	Noun proper neuter singular vocative -Definiteness	Noun Type=proper Gender=neuter Number=singular Case=vocative Definiteness=no
+02V0101010100010001	Vmpip-s-n	Verb main progressive indicative present singular -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=present Number=singular Negative=no
+02V0101010101010001	Vmpip1s-n	Verb main progressive indicative present first singular -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=present Person=first Number=singular Negative=no
+02V0101010101020001	Vmpip1p-n	Verb main progressive indicative present first plural -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=present Person=first Number=plural Negative=no
+02V0101010102010001	Vmpip2s-n	Verb main progressive indicative present second singular -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=present Person=second Number=singular Negative=no
+02V0101010102020001	Vmpip2p-n	Verb main progressive indicative present second plural -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=present Person=second Number=plural Negative=no
+02V0101010103010001	Vmpip3s-n	Verb main progressive indicative present third singular -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=present Person=third Number=singular Negative=no
+02V0101010103020001	Vmpip3p-n	Verb main progressive indicative present third plural -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=present Person=third Number=plural Negative=no
+02V0101010200010001	Vmpii-s-n	Verb main progressive indicative imperfect singular -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=imperfect Number=singular Negative=no
+02V0101010200010101	Vmpii-smn	Verb main progressive indicative imperfect singular masculine -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=imperfect Number=singular Gender=masculine Negative=no
+02V0101010200010201	Vmpii-sfn	Verb main progressive indicative imperfect singular feminine -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=imperfect Number=singular Gender=feminine Negative=no
+02V0101010201010001	Vmpii1s-n	Verb main progressive indicative imperfect first singular -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=imperfect Person=first Number=singular Negative=no
+02V0101010201020001	Vmpii1p-n	Verb main progressive indicative imperfect first plural -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=imperfect Person=first Number=plural Negative=no
+02V0101010202020001	Vmpii2p-n	Verb main progressive indicative imperfect second plural -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=imperfect Person=second Number=plural Negative=no
+02V0101010203020001	Vmpii3p-n	Verb main progressive indicative imperfect third plural -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=imperfect Person=third Number=plural Negative=no
+02V0101010400010101	Vmpic-smn	Verb main progressive indicative compound singular masculine -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=masculine Negative=no
+02V0101010400010201	Vmpic-sfn	Verb main progressive indicative compound singular feminine -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=feminine Negative=no
+02V0101010400010301	Vmpic-snn	Verb main progressive indicative compound singular neuter -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=neuter Negative=no
+02V0101010400020001	Vmpic-p-n	Verb main progressive indicative compound plural -Negative	Verb Type=main Aspect=progressive VForm=indicative Tense=compound Number=plural Negative=no
+02V0101020102010001	Vmpmp2s-n	Verb main progressive imperative present second singular -Negative	Verb Type=main Aspect=progressive VForm=imperative Tense=present Person=second Number=singular Negative=no
+02V0101020102020001	Vmpmp2p-n	Verb main progressive imperative present second plural -Negative	Verb Type=main Aspect=progressive VForm=imperative Tense=present Person=second Number=plural Negative=no
+02V0102010100010001	Vmeip-s-n	Verb main perfective indicative present singular -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=present Number=singular Negative=no
+02V0102010100010201	Vmeip-sfn	Verb main perfective indicative present singular feminine -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=present Number=singular Gender=feminine Negative=no
+02V0102010101010001	Vmeip1s-n	Verb main perfective indicative present first singular -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=present Person=first Number=singular Negative=no
+02V0102010101020001	Vmeip1p-n	Verb main perfective indicative present first plural -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=present Person=first Number=plural Negative=no
+02V0102010102010001	Vmeip2s-n	Verb main perfective indicative present second singular -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=present Person=second Number=singular Negative=no
+02V0102010102020001	Vmeip2p-n	Verb main perfective indicative present second plural -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=present Person=second Number=plural Negative=no
+02V0102010103010001	Vmeip3s-n	Verb main perfective indicative present third singular -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=present Person=third Number=singular Negative=no
+02V0102010103020001	Vmeip3p-n	Verb main perfective indicative present third plural -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=present Person=third Number=plural Negative=no
+02V0102010300010001	Vmeia-s-n	Verb main perfective indicative aorist singular -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=aorist Number=singular Negative=no
+02V0102010300010101	Vmeia-smn	Verb main perfective indicative aorist singular masculine -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=aorist Number=singular Gender=masculine Negative=no
+02V0102010300020001	Vmeia-p-n	Verb main perfective indicative aorist plural -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=aorist Number=plural Negative=no
+02V0102010301010001	Vmeia1s-n	Verb main perfective indicative aorist first singular -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=aorist Person=first Number=singular Negative=no
+02V0102010301020001	Vmeia1p-n	Verb main perfective indicative aorist first plural -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=aorist Person=first Number=plural Negative=no
+02V0102010302020001	Vmeia2p-n	Verb main perfective indicative aorist second plural -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=aorist Person=second Number=plural Negative=no
+02V0102010303010001	Vmeia3s-n	Verb main perfective indicative aorist third singular -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=aorist Person=third Number=singular Negative=no
+02V0102010303020001	Vmeia3p-n	Verb main perfective indicative aorist third plural -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=aorist Person=third Number=plural Negative=no
+02V0102010400010001	Vmeic-s-n	Verb main perfective indicative compound singular -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=compound Number=singular Negative=no
+02V0102010400010101	Vmeic-smn	Verb main perfective indicative compound singular masculine -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=compound Number=singular Gender=masculine Negative=no
+02V0102010400010201	Vmeic-sfn	Verb main perfective indicative compound singular feminine -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=compound Number=singular Gender=feminine Negative=no
+02V0102010400010301	Vmeic-snn	Verb main perfective indicative compound singular neuter -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=compound Number=singular Gender=neuter Negative=no
+02V0102010400020001	Vmeic-p-n	Verb main perfective indicative compound plural -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=compound Number=plural Negative=no
+02V0102010400020301	Vmeic-pnn	Verb main perfective indicative compound plural neuter -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=compound Number=plural Gender=neuter Negative=no
+02V0102010403020001	Vmeic3p-n	Verb main perfective indicative compound third plural -Negative	Verb Type=main Aspect=perfective VForm=indicative Tense=compound Person=third Number=plural Negative=no
+02V0102020102010001	Vmemp2s-n	Verb main perfective imperative present second singular -Negative	Verb Type=main Aspect=perfective VForm=imperative Tense=present Person=second Number=singular Negative=no
+02V0102020102020001	Vmemp2p-n	Verb main perfective imperative present second plural -Negative	Verb Type=main Aspect=perfective VForm=imperative Tense=present Person=second Number=plural Negative=no
+02V0102020103020001	Vmemp3p-n	Verb main perfective imperative present third plural -Negative	Verb Type=main Aspect=perfective VForm=imperative Tense=present Person=third Number=plural Negative=no
+02V0102020300010001	Vmema-s-n	Verb main perfective imperative aorist singular -Negative	Verb Type=main Aspect=perfective VForm=imperative Tense=aorist Number=singular Negative=no
+02V0102020303020001	Vmema3p-n	Verb main perfective imperative aorist third plural -Negative	Verb Type=main Aspect=perfective VForm=imperative Tense=aorist Person=third Number=plural Negative=no
+02V0103010101010001	Vmbip1s-n	Verb main biaspectual indicative present first singular -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=present Person=first Number=singular Negative=no
+02V0103010101020001	Vmbip1p-n	Verb main biaspectual indicative present first plural -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=present Person=first Number=plural Negative=no
+02V0103010102010001	Vmbip2s-n	Verb main biaspectual indicative present second singular -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=present Person=second Number=singular Negative=no
+02V0103010103010001	Vmbip3s-n	Verb main biaspectual indicative present third singular -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=present Person=third Number=singular Negative=no
+02V0103010103020001	Vmbip3p-n	Verb main biaspectual indicative present third plural -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=present Person=third Number=plural Negative=no
+02V0103010200010001	Vmbii-s-n	Verb main biaspectual indicative imperfect singular -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=imperfect Number=singular Negative=no
+02V0103010201020001	Vmbii1p-n	Verb main biaspectual indicative imperfect first plural -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=imperfect Person=first Number=plural Negative=no
+02V0103010202020001	Vmbii2p-n	Verb main biaspectual indicative imperfect second plural -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=imperfect Person=second Number=plural Negative=no
+02V0103010203020001	Vmbii3p-n	Verb main biaspectual indicative imperfect third plural -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=imperfect Person=third Number=plural Negative=no
+02V0103010300010001	Vmbia-s-n	Verb main biaspectual indicative aorist singular -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=aorist Number=singular Negative=no
+02V0103010301010001	Vmbia1s-n	Verb main biaspectual indicative aorist first singular -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=aorist Person=first Number=singular Negative=no
+02V0103010400010101	Vmbic-smn	Verb main biaspectual indicative compound singular masculine -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=compound Number=singular Gender=masculine Negative=no
+02V0103010400010201	Vmbic-sfn	Verb main biaspectual indicative compound singular feminine -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=compound Number=singular Gender=feminine Negative=no
+02V0103010400010301	Vmbic-snn	Verb main biaspectual indicative compound singular neuter -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=compound Number=singular Gender=neuter Negative=no
+02V0103010400020001	Vmbic-p-n	Verb main biaspectual indicative compound plural -Negative	Verb Type=main Aspect=biaspectual VForm=indicative Tense=compound Number=plural Negative=no
+02V0201010100010001	Vapip-s-n	Verb auxiliary progressive indicative present singular -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Number=singular Negative=no
+02V0201010101010001	Vapip1s-n	Verb auxiliary progressive indicative present first singular -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=first Number=singular Negative=no
+02V0201010101010002	Vapip1s-y	Verb auxiliary progressive indicative present first singular +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=first Number=singular Negative=yes
+02V0201010101020001	Vapip1p-n	Verb auxiliary progressive indicative present first plural -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=first Number=plural Negative=no
+02V0201010101020002	Vapip1p-y	Verb auxiliary progressive indicative present first plural +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=first Number=plural Negative=yes
+02V0201010102010001	Vapip2s-n	Verb auxiliary progressive indicative present second singular -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=second Number=singular Negative=no
+02V0201010102010002	Vapip2s-y	Verb auxiliary progressive indicative present second singular +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=second Number=singular Negative=yes
+02V0201010102020001	Vapip2p-n	Verb auxiliary progressive indicative present second plural -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=second Number=plural Negative=no
+02V0201010102020002	Vapip2p-y	Verb auxiliary progressive indicative present second plural +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=second Number=plural Negative=yes
+02V0201010103010001	Vapip3s-n	Verb auxiliary progressive indicative present third singular -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=third Number=singular Negative=no
+02V0201010103010002	Vapip3s-y	Verb auxiliary progressive indicative present third singular +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=third Number=singular Negative=yes
+02V0201010103020001	Vapip3p-n	Verb auxiliary progressive indicative present third plural -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=third Number=plural Negative=no
+02V0201010103020002	Vapip3p-y	Verb auxiliary progressive indicative present third plural +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=present Person=third Number=plural Negative=yes
+02V0201010200010001	Vapii-s-n	Verb auxiliary progressive indicative imperfect singular -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=imperfect Number=singular Negative=no
+02V0201010200010002	Vapii-s-y	Verb auxiliary progressive indicative imperfect singular +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=imperfect Number=singular Negative=yes
+02V0201010201010001	Vapii1s-n	Verb auxiliary progressive indicative imperfect first singular -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=imperfect Person=first Number=singular Negative=no
+02V0201010201020001	Vapii1p-n	Verb auxiliary progressive indicative imperfect first plural -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=imperfect Person=first Number=plural Negative=no
+02V0201010203020001	Vapii3p-n	Verb auxiliary progressive indicative imperfect third plural -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=imperfect Person=third Number=plural Negative=no
+02V0201010203020002	Vapii3p-y	Verb auxiliary progressive indicative imperfect third plural +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=imperfect Person=third Number=plural Negative=yes
+02V0201010400010101	Vapic-smn	Verb auxiliary progressive indicative compound singular masculine -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=masculine Negative=no
+02V0201010400010102	Vapic-smy	Verb auxiliary progressive indicative compound singular masculine +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=masculine Negative=yes
+02V0201010400010201	Vapic-sfn	Verb auxiliary progressive indicative compound singular feminine -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=feminine Negative=no
+02V0201010400010301	Vapic-snn	Verb auxiliary progressive indicative compound singular neuter -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=neuter Negative=no
+02V0201010400010302	Vapic-sny	Verb auxiliary progressive indicative compound singular neuter +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=neuter Negative=yes
+02V0201010400020002	Vapic-p-y	Verb auxiliary progressive indicative compound plural +Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=compound Number=plural Negative=yes
+02V0201010400020301	Vapic-pnn	Verb auxiliary progressive indicative compound plural neuter -Negative	Verb Type=auxiliary Aspect=progressive VForm=indicative Tense=compound Number=plural Gender=neuter Negative=no
+02V0202010101020001	Vaeip1p-n	Verb auxiliary perfective indicative present first plural -Negative	Verb Type=auxiliary Aspect=perfective VForm=indicative Tense=present Person=first Number=plural Negative=no
+02V0202010103010001	Vaeip3s-n	Verb auxiliary perfective indicative present third singular -Negative	Verb Type=auxiliary Aspect=perfective VForm=indicative Tense=present Person=third Number=singular Negative=no
+02V0202010103020001	Vaeip3p-n	Verb auxiliary perfective indicative present third plural -Negative	Verb Type=auxiliary Aspect=perfective VForm=indicative Tense=present Person=third Number=plural Negative=no
+02V0202010302020001	Vaeia2p-n	Verb auxiliary perfective indicative aorist second plural -Negative	Verb Type=auxiliary Aspect=perfective VForm=indicative Tense=aorist Person=second Number=plural Negative=no
+02V0202020102010001	Vaemp2s-n	Verb auxiliary perfective imperative present second singular -Negative	Verb Type=auxiliary Aspect=perfective VForm=imperative Tense=present Person=second Number=singular Negative=no
+02V0202020102020001	Vaemp2p-n	Verb auxiliary perfective imperative present second plural -Negative	Verb Type=auxiliary Aspect=perfective VForm=imperative Tense=present Person=second Number=plural Negative=no
+02V0301010101010001	Vopip1s-n	Verb modal progressive indicative present first singular -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=present Person=first Number=singular Negative=no
+02V0301010101020001	Vopip1p-n	Verb modal progressive indicative present first plural -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=present Person=first Number=plural Negative=no
+02V0301010102010001	Vopip2s-n	Verb modal progressive indicative present second singular -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=present Person=second Number=singular Negative=no
+02V0301010102020001	Vopip2p-n	Verb modal progressive indicative present second plural -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=present Person=second Number=plural Negative=no
+02V0301010103010001	Vopip3s-n	Verb modal progressive indicative present third singular -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=present Person=third Number=singular Negative=no
+02V0301010103020001	Vopip3p-n	Verb modal progressive indicative present third plural -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=present Person=third Number=plural Negative=no
+02V0301010200010001	Vopii-s-n	Verb modal progressive indicative imperfect singular -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=imperfect Number=singular Negative=no
+02V0301010201010001	Vopii1s-n	Verb modal progressive indicative imperfect first singular -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=imperfect Person=first Number=singular Negative=no
+02V0301010203020001	Vopii3p-n	Verb modal progressive indicative imperfect third plural -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=imperfect Person=third Number=plural Negative=no
+02V0301010400010101	Vopic-smn	Verb modal progressive indicative compound singular masculine -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=masculine Negative=no
+02V0301010400010201	Vopic-sfn	Verb modal progressive indicative compound singular feminine -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=feminine Negative=no
+02V0301010400010301	Vopic-snn	Verb modal progressive indicative compound singular neuter -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=compound Number=singular Gender=neuter Negative=no
+02V0301010400020001	Vopic-p-n	Verb modal progressive indicative compound plural -Negative	Verb Type=modal Aspect=progressive VForm=indicative Tense=compound Number=plural Negative=no
+03A010100010001	Afp-s-n	Adjective qualificative positive singular -Definiteness	Adjective Type=qualificative Degree=positive Number=singular Definiteness=no
 03A010100020001	Afp-p-n	Adjective qualificative positive plural -Definiteness	Adjective Type=qualificative Degree=positive Number=plural Definiteness=no
 03A010100020002	Afp-p-y	Adjective qualificative positive plural +Definiteness	Adjective Type=qualificative Degree=positive Number=plural Definiteness=yes
-03A010100020003	Afp-p-p	Adjective qualificative positive plural proximal	Adjective Type=qualificative Degree=positive Number=plural Definiteness=proximal
-03A010100020004	Afp-p-d	Adjective qualificative positive plural distal	Adjective Type=qualificative Degree=positive Number=plural Definiteness=distal
 03A010101010001	Afpms-n	Adjective qualificative positive masculine singular -Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Definiteness=no
 03A010101010002	Afpms-y	Adjective qualificative positive masculine singular +Definiteness	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Definiteness=yes
 03A010101010003	Afpms-p	Adjective qualificative positive masculine singular proximal	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Definiteness=proximal
-03A010101010004	Afpms-d	Adjective qualificative positive masculine singular distal	Adjective Type=qualificative Degree=positive Gender=masculine Number=singular Definiteness=distal
 03A010102010001	Afpfs-n	Adjective qualificative positive feminine singular -Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Definiteness=no
 03A010102010002	Afpfs-y	Adjective qualificative positive feminine singular +Definiteness	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Definiteness=yes
-03A010102010003	Afpfs-p	Adjective qualificative positive feminine singular proximal	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Definiteness=proximal
-03A010102010004	Afpfs-d	Adjective qualificative positive feminine singular distal	Adjective Type=qualificative Degree=positive Gender=feminine Number=singular Definiteness=distal
 03A010103010001	Afpns-n	Adjective qualificative positive neuter singular -Definiteness	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Definiteness=no
 03A010103010002	Afpns-y	Adjective qualificative positive neuter singular +Definiteness	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Definiteness=yes
-03A010103010003	Afpns-p	Adjective qualificative positive neuter singular proximal	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Definiteness=proximal
-03A010103010004	Afpns-d	Adjective qualificative positive neuter singular distal	Adjective Type=qualificative Degree=positive Gender=neuter Number=singular Definiteness=distal
-03A010200000000	Afc	Adjective qualificative comparative	Adjective Type=qualificative Degree=comparative
-03A010200000001	Afc---n	Adjective qualificative comparative -Definiteness	Adjective Type=qualificative Degree=comparative Definiteness=no
-03A010200000002	Afc---y	Adjective qualificative comparative +Definiteness	Adjective Type=qualificative Degree=comparative Definiteness=yes
-03A010200000003	Afc---p	Adjective qualificative comparative proximal	Adjective Type=qualificative Degree=comparative Definiteness=proximal
-03A010200000004	Afc---d	Adjective qualificative comparative distal	Adjective Type=qualificative Degree=comparative Definiteness=distal
+03A010103020001	Afpnp-n	Adjective qualificative positive neuter plural -Definiteness	Adjective Type=qualificative Degree=positive Gender=neuter Number=plural Definiteness=no
 03A010200020001	Afc-p-n	Adjective qualificative comparative plural -Definiteness	Adjective Type=qualificative Degree=comparative Number=plural Definiteness=no
 03A010200020002	Afc-p-y	Adjective qualificative comparative plural +Definiteness	Adjective Type=qualificative Degree=comparative Number=plural Definiteness=yes
-03A010200020003	Afc-p-p	Adjective qualificative comparative plural proximal	Adjective Type=qualificative Degree=comparative Number=plural Definiteness=proximal
-03A010200020004	Afc-p-d	Adjective qualificative comparative plural distal	Adjective Type=qualificative Degree=comparative Number=plural Definiteness=distal
 03A010201010001	Afcms-n	Adjective qualificative comparative masculine singular -Definiteness	Adjective Type=qualificative Degree=comparative Gender=masculine Number=singular Definiteness=no
 03A010201010002	Afcms-y	Adjective qualificative comparative masculine singular +Definiteness	Adjective Type=qualificative Degree=comparative Gender=masculine Number=singular Definiteness=yes
-03A010201010003	Afcms-p	Adjective qualificative comparative masculine singular proximal	Adjective Type=qualificative Degree=comparative Gender=masculine Number=singular Definiteness=proximal
-03A010201010004	Afcms-d	Adjective qualificative comparative masculine singular distal	Adjective Type=qualificative Degree=comparative Gender=masculine Number=singular Definiteness=distal
 03A010202010001	Afcfs-n	Adjective qualificative comparative feminine singular -Definiteness	Adjective Type=qualificative Degree=comparative Gender=feminine Number=singular Definiteness=no
 03A010202010002	Afcfs-y	Adjective qualificative comparative feminine singular +Definiteness	Adjective Type=qualificative Degree=comparative Gender=feminine Number=singular Definiteness=yes
-03A010202010003	Afcfs-p	Adjective qualificative comparative feminine singular proximal	Adjective Type=qualificative Degree=comparative Gender=feminine Number=singular Definiteness=proximal
-03A010202010004	Afcfs-d	Adjective qualificative comparative feminine singular distal	Adjective Type=qualificative Degree=comparative Gender=feminine Number=singular Definiteness=distal
 03A010203010001	Afcns-n	Adjective qualificative comparative neuter singular -Definiteness	Adjective Type=qualificative Degree=comparative Gender=neuter Number=singular Definiteness=no
 03A010203010002	Afcns-y	Adjective qualificative comparative neuter singular +Definiteness	Adjective Type=qualificative Degree=comparative Gender=neuter Number=singular Definiteness=yes
-03A010203010003	Afcns-p	Adjective qualificative comparative neuter singular proximal	Adjective Type=qualificative Degree=comparative Gender=neuter Number=singular Definiteness=proximal
-03A010203010004	Afcns-d	Adjective qualificative comparative neuter singular distal	Adjective Type=qualificative Degree=comparative Gender=neuter Number=singular Definiteness=distal
-03A010300000000	Afs	Adjective qualificative superlative	Adjective Type=qualificative Degree=superlative
-03A010300000001	Afs---n	Adjective qualificative superlative -Definiteness	Adjective Type=qualificative Degree=superlative Definiteness=no
-03A010300000002	Afs---y	Adjective qualificative superlative +Definiteness	Adjective Type=qualificative Degree=superlative Definiteness=yes
-03A010300000003	Afs---p	Adjective qualificative superlative proximal	Adjective Type=qualificative Degree=superlative Definiteness=proximal
-03A010300000004	Afs---d	Adjective qualificative superlative distal	Adjective Type=qualificative Degree=superlative Definiteness=distal
 03A010300020001	Afs-p-n	Adjective qualificative superlative plural -Definiteness	Adjective Type=qualificative Degree=superlative Number=plural Definiteness=no
 03A010300020002	Afs-p-y	Adjective qualificative superlative plural +Definiteness	Adjective Type=qualificative Degree=superlative Number=plural Definiteness=yes
-03A010300020003	Afs-p-p	Adjective qualificative superlative plural proximal	Adjective Type=qualificative Degree=superlative Number=plural Definiteness=proximal
-03A010300020004	Afs-p-d	Adjective qualificative superlative plural distal	Adjective Type=qualificative Degree=superlative Number=plural Definiteness=distal
 03A010301010001	Afsms-n	Adjective qualificative superlative masculine singular -Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=singular Definiteness=no
 03A010301010002	Afsms-y	Adjective qualificative superlative masculine singular +Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=singular Definiteness=yes
-03A010301010003	Afsms-p	Adjective qualificative superlative masculine singular proximal	Adjective Type=qualificative Degree=superlative Gender=masculine Number=singular Definiteness=proximal
-03A010301010004	Afsms-d	Adjective qualificative superlative masculine singular distal	Adjective Type=qualificative Degree=superlative Gender=masculine Number=singular Definiteness=distal
+03A010301020002	Afsmp-y	Adjective qualificative superlative masculine plural +Definiteness	Adjective Type=qualificative Degree=superlative Gender=masculine Number=plural Definiteness=yes
 03A010302010001	Afsfs-n	Adjective qualificative superlative feminine singular -Definiteness	Adjective Type=qualificative Degree=superlative Gender=feminine Number=singular Definiteness=no
 03A010302010002	Afsfs-y	Adjective qualificative superlative feminine singular +Definiteness	Adjective Type=qualificative Degree=superlative Gender=feminine Number=singular Definiteness=yes
-03A010302010003	Afsfs-p	Adjective qualificative superlative feminine singular proximal	Adjective Type=qualificative Degree=superlative Gender=feminine Number=singular Definiteness=proximal
-03A010302010004	Afsfs-d	Adjective qualificative superlative feminine singular distal	Adjective Type=qualificative Degree=superlative Gender=feminine Number=singular Definiteness=distal
 03A010303010001	Afsns-n	Adjective qualificative superlative neuter singular -Definiteness	Adjective Type=qualificative Degree=superlative Gender=neuter Number=singular Definiteness=no
 03A010303010002	Afsns-y	Adjective qualificative superlative neuter singular +Definiteness	Adjective Type=qualificative Degree=superlative Gender=neuter Number=singular Definiteness=yes
-03A010303010003	Afsns-p	Adjective qualificative superlative neuter singular proximal	Adjective Type=qualificative Degree=superlative Gender=neuter Number=singular Definiteness=proximal
-03A010303010004	Afsns-d	Adjective qualificative superlative neuter singular distal	Adjective Type=qualificative Degree=superlative Gender=neuter Number=singular Definiteness=distal
-03A010400000000	Afe	Adjective qualificative elative	Adjective Type=qualificative Degree=elative
-03A010400000001	Afe---n	Adjective qualificative elative -Definiteness	Adjective Type=qualificative Degree=elative Definiteness=no
-03A010400000002	Afe---y	Adjective qualificative elative +Definiteness	Adjective Type=qualificative Degree=elative Definiteness=yes
-03A010400000003	Afe---p	Adjective qualificative elative proximal	Adjective Type=qualificative Degree=elative Definiteness=proximal
-03A010400000004	Afe---d	Adjective qualificative elative distal	Adjective Type=qualificative Degree=elative Definiteness=distal
-03A010400020001	Afe-p-n	Adjective qualificative elative plural -Definiteness	Adjective Type=qualificative Degree=elative Number=plural Definiteness=no
-03A010400020002	Afe-p-y	Adjective qualificative elative plural +Definiteness	Adjective Type=qualificative Degree=elative Number=plural Definiteness=yes
-03A010400020003	Afe-p-p	Adjective qualificative elative plural proximal	Adjective Type=qualificative Degree=elative Number=plural Definiteness=proximal
-03A010400020004	Afe-p-d	Adjective qualificative elative plural distal	Adjective Type=qualificative Degree=elative Number=plural Definiteness=distal
-03A010401010001	Afems-n	Adjective qualificative elative masculine singular -Definiteness	Adjective Type=qualificative Degree=elative Gender=masculine Number=singular Definiteness=no
-03A010401010002	Afems-y	Adjective qualificative elative masculine singular +Definiteness	Adjective Type=qualificative Degree=elative Gender=masculine Number=singular Definiteness=yes
-03A010401010003	Afems-p	Adjective qualificative elative masculine singular proximal	Adjective Type=qualificative Degree=elative Gender=masculine Number=singular Definiteness=proximal
-03A010401010004	Afems-d	Adjective qualificative elative masculine singular distal	Adjective Type=qualificative Degree=elative Gender=masculine Number=singular Definiteness=distal
-03A010402010001	Afefs-n	Adjective qualificative elative feminine singular -Definiteness	Adjective Type=qualificative Degree=elative Gender=feminine Number=singular Definiteness=no
-03A010402010002	Afefs-y	Adjective qualificative elative feminine singular +Definiteness	Adjective Type=qualificative Degree=elative Gender=feminine Number=singular Definiteness=yes
-03A010402010003	Afefs-p	Adjective qualificative elative feminine singular proximal	Adjective Type=qualificative Degree=elative Gender=feminine Number=singular Definiteness=proximal
-03A010402010004	Afefs-d	Adjective qualificative elative feminine singular distal	Adjective Type=qualificative Degree=elative Gender=feminine Number=singular Definiteness=distal
-03A010403010001	Afens-n	Adjective qualificative elative neuter singular -Definiteness	Adjective Type=qualificative Degree=elative Gender=neuter Number=singular Definiteness=no
-03A010403010002	Afens-y	Adjective qualificative elative neuter singular +Definiteness	Adjective Type=qualificative Degree=elative Gender=neuter Number=singular Definiteness=yes
-03A010403010003	Afens-p	Adjective qualificative elative neuter singular proximal	Adjective Type=qualificative Degree=elative Gender=neuter Number=singular Definiteness=proximal
-03A010403010004	Afens-d	Adjective qualificative elative neuter singular distal	Adjective Type=qualificative Degree=elative Gender=neuter Number=singular Definiteness=distal
-03A020100020001	Asp-p-n	Adjective possessive positive plural -Definiteness	Adjective Type=possessive Degree=positive Number=plural Definiteness=no
-03A020100020002	Asp-p-y	Adjective possessive positive plural +Definiteness	Adjective Type=possessive Degree=positive Number=plural Definiteness=yes
-03A020100020003	Asp-p-p	Adjective possessive positive plural proximal	Adjective Type=possessive Degree=positive Number=plural Definiteness=proximal
-03A020100020004	Asp-p-d	Adjective possessive positive plural distal	Adjective Type=possessive Degree=positive Number=plural Definiteness=distal
-03A020101010001	Aspms-n	Adjective possessive positive masculine singular -Definiteness	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Definiteness=no
-03A020101010002	Aspms-y	Adjective possessive positive masculine singular +Definiteness	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Definiteness=yes
-03A020101010003	Aspms-p	Adjective possessive positive masculine singular proximal	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Definiteness=proximal
-03A020101010004	Aspms-d	Adjective possessive positive masculine singular distal	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Definiteness=distal
-03A020102010001	Aspfs-n	Adjective possessive positive feminine singular -Definiteness	Adjective Type=possessive Degree=positive Gender=feminine Number=singular Definiteness=no
-03A020102010002	Aspfs-y	Adjective possessive positive feminine singular +Definiteness	Adjective Type=possessive Degree=positive Gender=feminine Number=singular Definiteness=yes
-03A020102010003	Aspfs-p	Adjective possessive positive feminine singular proximal	Adjective Type=possessive Degree=positive Gender=feminine Number=singular Definiteness=proximal
-03A020102010004	Aspfs-d	Adjective possessive positive feminine singular distal	Adjective Type=possessive Degree=positive Gender=feminine Number=singular Definiteness=distal
-03A020103010001	Aspns-n	Adjective possessive positive neuter singular -Definiteness	Adjective Type=possessive Degree=positive Gender=neuter Number=singular Definiteness=no
-03A020103010002	Aspns-y	Adjective possessive positive neuter singular +Definiteness	Adjective Type=possessive Degree=positive Gender=neuter Number=singular Definiteness=yes
-03A020103010003	Aspns-p	Adjective possessive positive neuter singular proximal	Adjective Type=possessive Degree=positive Gender=neuter Number=singular Definiteness=proximal
-03A020103010004	Aspns-d	Adjective possessive positive neuter singular distal	Adjective Type=possessive Degree=positive Gender=neuter Number=singular Definiteness=distal
-03A020200020001	Asc-p-n	Adjective possessive comparative plural -Definiteness	Adjective Type=possessive Degree=comparative Number=plural Definiteness=no
-03A020200020002	Asc-p-y	Adjective possessive comparative plural +Definiteness	Adjective Type=possessive Degree=comparative Number=plural Definiteness=yes
-03A020200020003	Asc-p-p	Adjective possessive comparative plural proximal	Adjective Type=possessive Degree=comparative Number=plural Definiteness=proximal
-03A020200020004	Asc-p-d	Adjective possessive comparative plural distal	Adjective Type=possessive Degree=comparative Number=plural Definiteness=distal
-03A020201010001	Ascms-n	Adjective possessive comparative masculine singular -Definiteness	Adjective Type=possessive Degree=comparative Gender=masculine Number=singular Definiteness=no
-03A020201010002	Ascms-y	Adjective possessive comparative masculine singular +Definiteness	Adjective Type=possessive Degree=comparative Gender=masculine Number=singular Definiteness=yes
-03A020201010003	Ascms-p	Adjective possessive comparative masculine singular proximal	Adjective Type=possessive Degree=comparative Gender=masculine Number=singular Definiteness=proximal
-03A020201010004	Ascms-d	Adjective possessive comparative masculine singular distal	Adjective Type=possessive Degree=comparative Gender=masculine Number=singular Definiteness=distal
-03A020202010001	Ascfs-n	Adjective possessive comparative feminine singular -Definiteness	Adjective Type=possessive Degree=comparative Gender=feminine Number=singular Definiteness=no
-03A020202010002	Ascfs-y	Adjective possessive comparative feminine singular +Definiteness	Adjective Type=possessive Degree=comparative Gender=feminine Number=singular Definiteness=yes
-03A020202010003	Ascfs-p	Adjective possessive comparative feminine singular proximal	Adjective Type=possessive Degree=comparative Gender=feminine Number=singular Definiteness=proximal
-03A020202010004	Ascfs-d	Adjective possessive comparative feminine singular distal	Adjective Type=possessive Degree=comparative Gender=feminine Number=singular Definiteness=distal
-03A020203010001	Ascns-n	Adjective possessive comparative neuter singular -Definiteness	Adjective Type=possessive Degree=comparative Gender=neuter Number=singular Definiteness=no
-03A020203010002	Ascns-y	Adjective possessive comparative neuter singular +Definiteness	Adjective Type=possessive Degree=comparative Gender=neuter Number=singular Definiteness=yes
-03A020203010003	Ascns-p	Adjective possessive comparative neuter singular proximal	Adjective Type=possessive Degree=comparative Gender=neuter Number=singular Definiteness=proximal
-03A020203010004	Ascns-d	Adjective possessive comparative neuter singular distal	Adjective Type=possessive Degree=comparative Gender=neuter Number=singular Definiteness=distal
-03A020300020001	Ass-p-n	Adjective possessive superlative plural -Definiteness	Adjective Type=possessive Degree=superlative Number=plural Definiteness=no
-03A020300020002	Ass-p-y	Adjective possessive superlative plural +Definiteness	Adjective Type=possessive Degree=superlative Number=plural Definiteness=yes
-03A020300020003	Ass-p-p	Adjective possessive superlative plural proximal	Adjective Type=possessive Degree=superlative Number=plural Definiteness=proximal
-03A020300020004	Ass-p-d	Adjective possessive superlative plural distal	Adjective Type=possessive Degree=superlative Number=plural Definiteness=distal
-03A020301010001	Assms-n	Adjective possessive superlative masculine singular -Definiteness	Adjective Type=possessive Degree=superlative Gender=masculine Number=singular Definiteness=no
-03A020301010002	Assms-y	Adjective possessive superlative masculine singular +Definiteness	Adjective Type=possessive Degree=superlative Gender=masculine Number=singular Definiteness=yes
-03A020301010003	Assms-p	Adjective possessive superlative masculine singular proximal	Adjective Type=possessive Degree=superlative Gender=masculine Number=singular Definiteness=proximal
-03A020301010004	Assms-d	Adjective possessive superlative masculine singular distal	Adjective Type=possessive Degree=superlative Gender=masculine Number=singular Definiteness=distal
-03A020302010001	Assfs-n	Adjective possessive superlative feminine singular -Definiteness	Adjective Type=possessive Degree=superlative Gender=feminine Number=singular Definiteness=no
-03A020302010002	Assfs-y	Adjective possessive superlative feminine singular +Definiteness	Adjective Type=possessive Degree=superlative Gender=feminine Number=singular Definiteness=yes
-03A020302010003	Assfs-p	Adjective possessive superlative feminine singular proximal	Adjective Type=possessive Degree=superlative Gender=feminine Number=singular Definiteness=proximal
-03A020302010004	Assfs-d	Adjective possessive superlative feminine singular distal	Adjective Type=possessive Degree=superlative Gender=feminine Number=singular Definiteness=distal
-03A020303010001	Assns-n	Adjective possessive superlative neuter singular -Definiteness	Adjective Type=possessive Degree=superlative Gender=neuter Number=singular Definiteness=no
-03A020303010002	Assns-y	Adjective possessive superlative neuter singular +Definiteness	Adjective Type=possessive Degree=superlative Gender=neuter Number=singular Definiteness=yes
-03A020303010003	Assns-p	Adjective possessive superlative neuter singular proximal	Adjective Type=possessive Degree=superlative Gender=neuter Number=singular Definiteness=proximal
-03A020303010004	Assns-d	Adjective possessive superlative neuter singular distal	Adjective Type=possessive Degree=superlative Gender=neuter Number=singular Definiteness=distal
-03A020400020001	Ase-p-n	Adjective possessive elative plural -Definiteness	Adjective Type=possessive Degree=elative Number=plural Definiteness=no
-03A020400020002	Ase-p-y	Adjective possessive elative plural +Definiteness	Adjective Type=possessive Degree=elative Number=plural Definiteness=yes
-03A020400020003	Ase-p-p	Adjective possessive elative plural proximal	Adjective Type=possessive Degree=elative Number=plural Definiteness=proximal
-03A020400020004	Ase-p-d	Adjective possessive elative plural distal	Adjective Type=possessive Degree=elative Number=plural Definiteness=distal
-03A020401010001	Asems-n	Adjective possessive elative masculine singular -Definiteness	Adjective Type=possessive Degree=elative Gender=masculine Number=singular Definiteness=no
-03A020401010002	Asems-y	Adjective possessive elative masculine singular +Definiteness	Adjective Type=possessive Degree=elative Gender=masculine Number=singular Definiteness=yes
-03A020401010003	Asems-p	Adjective possessive elative masculine singular proximal	Adjective Type=possessive Degree=elative Gender=masculine Number=singular Definiteness=proximal
-03A020401010004	Asems-d	Adjective possessive elative masculine singular distal	Adjective Type=possessive Degree=elative Gender=masculine Number=singular Definiteness=distal
-03A020402010001	Asefs-n	Adjective possessive elative feminine singular -Definiteness	Adjective Type=possessive Degree=elative Gender=feminine Number=singular Definiteness=no
-03A020402010002	Asefs-y	Adjective possessive elative feminine singular +Definiteness	Adjective Type=possessive Degree=elative Gender=feminine Number=singular Definiteness=yes
-03A020402010003	Asefs-p	Adjective possessive elative feminine singular proximal	Adjective Type=possessive Degree=elative Gender=feminine Number=singular Definiteness=proximal
-03A020402010004	Asefs-d	Adjective possessive elative feminine singular distal	Adjective Type=possessive Degree=elative Gender=feminine Number=singular Definiteness=distal
-03A020403010001	Asens-n	Adjective possessive elative neuter singular -Definiteness	Adjective Type=possessive Degree=elative Gender=neuter Number=singular Definiteness=no
-03A020403010002	Asens-y	Adjective possessive elative neuter singular +Definiteness	Adjective Type=possessive Degree=elative Gender=neuter Number=singular Definiteness=yes
-03A020403010003	Asens-p	Adjective possessive elative neuter singular proximal	Adjective Type=possessive Degree=elative Gender=neuter Number=singular Definiteness=proximal
-03A020403010004	Asens-d	Adjective possessive elative neuter singular distal	Adjective Type=possessive Degree=elative Gender=neuter Number=singular Definiteness=distal
-03A030100000000	Aop	Adjective ordinal positive	Adjective Type=ordinal Degree=positive
-03A030100020001	Aop-p-n	Adjective ordinal positive plural -Definiteness	Adjective Type=ordinal Degree=positive Number=plural Definiteness=no
-03A030100020002	Aop-p-y	Adjective ordinal positive plural +Definiteness	Adjective Type=ordinal Degree=positive Number=plural Definiteness=yes
-03A030100020003	Aop-p-p	Adjective ordinal positive plural proximal	Adjective Type=ordinal Degree=positive Number=plural Definiteness=proximal
-03A030100020004	Aop-p-d	Adjective ordinal positive plural distal	Adjective Type=ordinal Degree=positive Number=plural Definiteness=distal
-03A030101010001	Aopms-n	Adjective ordinal positive masculine singular -Definiteness	Adjective Type=ordinal Degree=positive Gender=masculine Number=singular Definiteness=no
-03A030101010002	Aopms-y	Adjective ordinal positive masculine singular +Definiteness	Adjective Type=ordinal Degree=positive Gender=masculine Number=singular Definiteness=yes
-03A030101010003	Aopms-p	Adjective ordinal positive masculine singular proximal	Adjective Type=ordinal Degree=positive Gender=masculine Number=singular Definiteness=proximal
-03A030101010004	Aopms-d	Adjective ordinal positive masculine singular distal	Adjective Type=ordinal Degree=positive Gender=masculine Number=singular Definiteness=distal
-03A030102010001	Aopfs-n	Adjective ordinal positive feminine singular -Definiteness	Adjective Type=ordinal Degree=positive Gender=feminine Number=singular Definiteness=no
-03A030102010002	Aopfs-y	Adjective ordinal positive feminine singular +Definiteness	Adjective Type=ordinal Degree=positive Gender=feminine Number=singular Definiteness=yes
-03A030102010003	Aopfs-p	Adjective ordinal positive feminine singular proximal	Adjective Type=ordinal Degree=positive Gender=feminine Number=singular Definiteness=proximal
-03A030102010004	Aopfs-d	Adjective ordinal positive feminine singular distal	Adjective Type=ordinal Degree=positive Gender=feminine Number=singular Definiteness=distal
-03A030103010001	Aopns-n	Adjective ordinal positive neuter singular -Definiteness	Adjective Type=ordinal Degree=positive Gender=neuter Number=singular Definiteness=no
-03A030103010002	Aopns-y	Adjective ordinal positive neuter singular +Definiteness	Adjective Type=ordinal Degree=positive Gender=neuter Number=singular Definiteness=yes
-03A030103010003	Aopns-p	Adjective ordinal positive neuter singular proximal	Adjective Type=ordinal Degree=positive Gender=neuter Number=singular Definiteness=proximal
-03A030103010004	Aopns-d	Adjective ordinal positive neuter singular distal	Adjective Type=ordinal Degree=positive Gender=neuter Number=singular Definiteness=distal
-03A030200020001	Aoc-p-n	Adjective ordinal comparative plural -Definiteness	Adjective Type=ordinal Degree=comparative Number=plural Definiteness=no
-03A030200020002	Aoc-p-y	Adjective ordinal comparative plural +Definiteness	Adjective Type=ordinal Degree=comparative Number=plural Definiteness=yes
-03A030200020003	Aoc-p-p	Adjective ordinal comparative plural proximal	Adjective Type=ordinal Degree=comparative Number=plural Definiteness=proximal
-03A030200020004	Aoc-p-d	Adjective ordinal comparative plural distal	Adjective Type=ordinal Degree=comparative Number=plural Definiteness=distal
-03A030201010001	Aocms-n	Adjective ordinal comparative masculine singular -Definiteness	Adjective Type=ordinal Degree=comparative Gender=masculine Number=singular Definiteness=no
-03A030201010002	Aocms-y	Adjective ordinal comparative masculine singular +Definiteness	Adjective Type=ordinal Degree=comparative Gender=masculine Number=singular Definiteness=yes
-03A030201010003	Aocms-p	Adjective ordinal comparative masculine singular proximal	Adjective Type=ordinal Degree=comparative Gender=masculine Number=singular Definiteness=proximal
-03A030201010004	Aocms-d	Adjective ordinal comparative masculine singular distal	Adjective Type=ordinal Degree=comparative Gender=masculine Number=singular Definiteness=distal
-03A030202010001	Aocfs-n	Adjective ordinal comparative feminine singular -Definiteness	Adjective Type=ordinal Degree=comparative Gender=feminine Number=singular Definiteness=no
-03A030202010002	Aocfs-y	Adjective ordinal comparative feminine singular +Definiteness	Adjective Type=ordinal Degree=comparative Gender=feminine Number=singular Definiteness=yes
-03A030202010003	Aocfs-p	Adjective ordinal comparative feminine singular proximal	Adjective Type=ordinal Degree=comparative Gender=feminine Number=singular Definiteness=proximal
-03A030202010004	Aocfs-d	Adjective ordinal comparative feminine singular distal	Adjective Type=ordinal Degree=comparative Gender=feminine Number=singular Definiteness=distal
-03A030203010001	Aocns-n	Adjective ordinal comparative neuter singular -Definiteness	Adjective Type=ordinal Degree=comparative Gender=neuter Number=singular Definiteness=no
-03A030203010002	Aocns-y	Adjective ordinal comparative neuter singular +Definiteness	Adjective Type=ordinal Degree=comparative Gender=neuter Number=singular Definiteness=yes
-03A030203010003	Aocns-p	Adjective ordinal comparative neuter singular proximal	Adjective Type=ordinal Degree=comparative Gender=neuter Number=singular Definiteness=proximal
-03A030203010004	Aocns-d	Adjective ordinal comparative neuter singular distal	Adjective Type=ordinal Degree=comparative Gender=neuter Number=singular Definiteness=distal
-03A030300020001	Aos-p-n	Adjective ordinal superlative plural -Definiteness	Adjective Type=ordinal Degree=superlative Number=plural Definiteness=no
-03A030300020002	Aos-p-y	Adjective ordinal superlative plural +Definiteness	Adjective Type=ordinal Degree=superlative Number=plural Definiteness=yes
-03A030300020003	Aos-p-p	Adjective ordinal superlative plural proximal	Adjective Type=ordinal Degree=superlative Number=plural Definiteness=proximal
-03A030300020004	Aos-p-d	Adjective ordinal superlative plural distal	Adjective Type=ordinal Degree=superlative Number=plural Definiteness=distal
-03A030301010001	Aosms-n	Adjective ordinal superlative masculine singular -Definiteness	Adjective Type=ordinal Degree=superlative Gender=masculine Number=singular Definiteness=no
-03A030301010002	Aosms-y	Adjective ordinal superlative masculine singular +Definiteness	Adjective Type=ordinal Degree=superlative Gender=masculine Number=singular Definiteness=yes
-03A030301010003	Aosms-p	Adjective ordinal superlative masculine singular proximal	Adjective Type=ordinal Degree=superlative Gender=masculine Number=singular Definiteness=proximal
-03A030301010004	Aosms-d	Adjective ordinal superlative masculine singular distal	Adjective Type=ordinal Degree=superlative Gender=masculine Number=singular Definiteness=distal
-03A030302010001	Aosfs-n	Adjective ordinal superlative feminine singular -Definiteness	Adjective Type=ordinal Degree=superlative Gender=feminine Number=singular Definiteness=no
-03A030302010002	Aosfs-y	Adjective ordinal superlative feminine singular +Definiteness	Adjective Type=ordinal Degree=superlative Gender=feminine Number=singular Definiteness=yes
-03A030302010003	Aosfs-p	Adjective ordinal superlative feminine singular proximal	Adjective Type=ordinal Degree=superlative Gender=feminine Number=singular Definiteness=proximal
-03A030302010004	Aosfs-d	Adjective ordinal superlative feminine singular distal	Adjective Type=ordinal Degree=superlative Gender=feminine Number=singular Definiteness=distal
-03A030303010001	Aosns-n	Adjective ordinal superlative neuter singular -Definiteness	Adjective Type=ordinal Degree=superlative Gender=neuter Number=singular Definiteness=no
-03A030303010002	Aosns-y	Adjective ordinal superlative neuter singular +Definiteness	Adjective Type=ordinal Degree=superlative Gender=neuter Number=singular Definiteness=yes
-03A030303010003	Aosns-p	Adjective ordinal superlative neuter singular proximal	Adjective Type=ordinal Degree=superlative Gender=neuter Number=singular Definiteness=proximal
-03A030303010004	Aosns-d	Adjective ordinal superlative neuter singular distal	Adjective Type=ordinal Degree=superlative Gender=neuter Number=singular Definiteness=distal
-03A030400020001	Aoe-p-n	Adjective ordinal elative plural -Definiteness	Adjective Type=ordinal Degree=elative Number=plural Definiteness=no
-03A030400020002	Aoe-p-y	Adjective ordinal elative plural +Definiteness	Adjective Type=ordinal Degree=elative Number=plural Definiteness=yes
-03A030400020003	Aoe-p-p	Adjective ordinal elative plural proximal	Adjective Type=ordinal Degree=elative Number=plural Definiteness=proximal
-03A030400020004	Aoe-p-d	Adjective ordinal elative plural distal	Adjective Type=ordinal Degree=elative Number=plural Definiteness=distal
-03A030401010001	Aoems-n	Adjective ordinal elative masculine singular -Definiteness	Adjective Type=ordinal Degree=elative Gender=masculine Number=singular Definiteness=no
-03A030401010002	Aoems-y	Adjective ordinal elative masculine singular +Definiteness	Adjective Type=ordinal Degree=elative Gender=masculine Number=singular Definiteness=yes
-03A030401010003	Aoems-p	Adjective ordinal elative masculine singular proximal	Adjective Type=ordinal Degree=elative Gender=masculine Number=singular Definiteness=proximal
-03A030401010004	Aoems-d	Adjective ordinal elative masculine singular distal	Adjective Type=ordinal Degree=elative Gender=masculine Number=singular Definiteness=distal
-03A030402010001	Aoefs-n	Adjective ordinal elative feminine singular -Definiteness	Adjective Type=ordinal Degree=elative Gender=feminine Number=singular Definiteness=no
-03A030402010002	Aoefs-y	Adjective ordinal elative feminine singular +Definiteness	Adjective Type=ordinal Degree=elative Gender=feminine Number=singular Definiteness=yes
-03A030402010003	Aoefs-p	Adjective ordinal elative feminine singular proximal	Adjective Type=ordinal Degree=elative Gender=feminine Number=singular Definiteness=proximal
-03A030402010004	Aoefs-d	Adjective ordinal elative feminine singular distal	Adjective Type=ordinal Degree=elative Gender=feminine Number=singular Definiteness=distal
-03A030403010001	Aoens-n	Adjective ordinal elative neuter singular -Definiteness	Adjective Type=ordinal Degree=elative Gender=neuter Number=singular Definiteness=no
-03A030403010002	Aoens-y	Adjective ordinal elative neuter singular +Definiteness	Adjective Type=ordinal Degree=elative Gender=neuter Number=singular Definiteness=yes
-03A030403010003	Aoens-p	Adjective ordinal elative neuter singular proximal	Adjective Type=ordinal Degree=elative Gender=neuter Number=singular Definiteness=proximal
-03A030403010004	Aoens-d	Adjective ordinal elative neuter singular distal	Adjective Type=ordinal Degree=elative Gender=neuter Number=singular Definiteness=distal
-04P0101000101000000000000	Pp1-sn	Pronoun personal first singular nominative	Pronoun Type=personal Person=first Number=singular Case=nominative
-04P0101000102000001000000	Pp1-sd--n	Pronoun personal first singular dative -Clitic	Pronoun Type=personal Person=first Number=singular Case=dative Clitic=no
-04P0101000102000002000000	Pp1-sd--y	Pronoun personal first singular dative +Clitic	Pronoun Type=personal Person=first Number=singular Case=dative Clitic=yes
-04P0101000103000001000000	Pp1-sa--n	Pronoun personal first singular accusative -Clitic	Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=no
-04P0101000103000002000000	Pp1-sa--y	Pronoun personal first singular accusative +Clitic	Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=yes
-04P0101000201000000000000	Pp1-pn	Pronoun personal first plural nominative	Pronoun Type=personal Person=first Number=plural Case=nominative
-04P0101000202000001000000	Pp1-pd--n	Pronoun personal first plural dative -Clitic	Pronoun Type=personal Person=first Number=plural Case=dative Clitic=no
-04P0101000202000002000000	Pp1-pd--y	Pronoun personal first plural dative +Clitic	Pronoun Type=personal Person=first Number=plural Case=dative Clitic=yes
-04P0101000203000001000000	Pp1-pa--n	Pronoun personal first plural accusative -Clitic	Pronoun Type=personal Person=first Number=plural Case=accusative Clitic=no
-04P0101000203000002000000	Pp1-pa--y	Pronoun personal first plural accusative +Clitic	Pronoun Type=personal Person=first Number=plural Case=accusative Clitic=yes
-04P0102000101000000000000	Pp2-sn	Pronoun personal second singular nominative	Pronoun Type=personal Person=second Number=singular Case=nominative
-04P0102000102000001000000	Pp2-sd--n	Pronoun personal second singular dative -Clitic	Pronoun Type=personal Person=second Number=singular Case=dative Clitic=no
-04P0102000102000002000000	Pp2-sd--y	Pronoun personal second singular dative +Clitic	Pronoun Type=personal Person=second Number=singular Case=dative Clitic=yes
-04P0102000103000001000000	Pp2-sa--n	Pronoun personal second singular accusative -Clitic	Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=no
-04P0102000103000002000000	Pp2-sa--y	Pronoun personal second singular accusative +Clitic	Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=yes
-04P0102000201000000000000	Pp2-pn	Pronoun personal second plural nominative	Pronoun Type=personal Person=second Number=plural Case=nominative
-04P0102000202000001000000	Pp2-pd--n	Pronoun personal second plural dative -Clitic	Pronoun Type=personal Person=second Number=plural Case=dative Clitic=no
-04P0102000202000002000000	Pp2-pd--y	Pronoun personal second plural dative +Clitic	Pronoun Type=personal Person=second Number=plural Case=dative Clitic=yes
-04P0102000203000001000000	Pp2-pa--n	Pronoun personal second plural accusative -Clitic	Pronoun Type=personal Person=second Number=plural Case=accusative Clitic=no
-04P0102000203000002000000	Pp2-pa--y	Pronoun personal second plural accusative +Clitic	Pronoun Type=personal Person=second Number=plural Case=accusative Clitic=yes
-04P0103000201000000000000	Pp3-pn	Pronoun personal third plural nominative	Pronoun Type=personal Person=third Number=plural Case=nominative
-04P0103000202000001000000	Pp3-pd--n	Pronoun personal third plural dative -Clitic	Pronoun Type=personal Person=third Number=plural Case=dative Clitic=no
-04P0103000202000002000000	Pp3-pd--y	Pronoun personal third plural dative +Clitic	Pronoun Type=personal Person=third Number=plural Case=dative Clitic=yes
-04P0103000203000001000000	Pp3-pa--n	Pronoun personal third plural accusative -Clitic	Pronoun Type=personal Person=third Number=plural Case=accusative Clitic=no
-04P0103000203000002000000	Pp3-pa--y	Pronoun personal third plural accusative +Clitic	Pronoun Type=personal Person=third Number=plural Case=accusative Clitic=yes
-04P0103010101000000000000	Pp3msn	Pronoun personal third masculine singular nominative	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative
-04P0103010102000001000000	Pp3msd--n	Pronoun personal third masculine singular dative -Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=dative Clitic=no
-04P0103010102000002000000	Pp3msd--y	Pronoun personal third masculine singular dative +Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=dative Clitic=yes
-04P0103010103000001000000	Pp3msa--n	Pronoun personal third masculine singular accusative -Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative Clitic=no
-04P0103010103000002000000	Pp3msa--y	Pronoun personal third masculine singular accusative +Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative Clitic=yes
-04P0103020101000000000000	Pp3fsn	Pronoun personal third feminine singular nominative	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=nominative
-04P0103020102000001000000	Pp3fsd--n	Pronoun personal third feminine singular dative -Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=dative Clitic=no
-04P0103020102000002000000	Pp3fsd--y	Pronoun personal third feminine singular dative +Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=dative Clitic=yes
-04P0103020103000001000000	Pp3fsa--n	Pronoun personal third feminine singular accusative -Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Clitic=no
-04P0103020103000002000000	Pp3fsa--y	Pronoun personal third feminine singular accusative +Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Clitic=yes
-04P0103030101000000000000	Pp3nsn	Pronoun personal third neuter singular nominative	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=nominative
-04P0103030102000001000000	Pp3nsd--n	Pronoun personal third neuter singular dative -Clitic	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=dative Clitic=no
-04P0103030102000002000000	Pp3nsd--y	Pronoun personal third neuter singular dative +Clitic	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=dative Clitic=yes
-04P0103030103000001000000	Pp3nsa--n	Pronoun personal third neuter singular accusative -Clitic	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=accusative Clitic=no
-04P0103030103000002000000	Pp3nsa--y	Pronoun personal third neuter singular accusative +Clitic	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=accusative Clitic=yes
-04P0203000201000000000000	Pd3-pn	Pronoun demonstrative third plural nominative	Pronoun Type=demonstrative Person=third Number=plural Case=nominative
-04P0203010101000000000000	Pd3msn	Pronoun demonstrative third masculine singular nominative	Pronoun Type=demonstrative Person=third Gender=masculine Number=singular Case=nominative
-04P0203020101000000000000	Pd3fsn	Pronoun demonstrative third feminine singular nominative	Pronoun Type=demonstrative Person=third Gender=feminine Number=singular Case=nominative
-04P0203030101000000000000	Pd3nsn	Pronoun demonstrative third neuter singular nominative	Pronoun Type=demonstrative Person=third Gender=neuter Number=singular Case=nominative
-04P0300000001000000000000	Pi---n	Pronoun indefinite nominative	Pronoun Type=indefinite Case=nominative
-04P0303000002000001000000	Pi3--d--n	Pronoun indefinite third dative -Clitic	Pronoun Type=indefinite Person=third Case=dative Clitic=no
-04P0303000003000001000000	Pi3--a--n	Pronoun indefinite third accusative -Clitic	Pronoun Type=indefinite Person=third Case=accusative Clitic=no
-04P0303000201000000000000	Pi3-pn	Pronoun indefinite third plural nominative	Pronoun Type=indefinite Person=third Number=plural Case=nominative
-04P0303010101000000000000	Pi3msn	Pronoun indefinite third masculine singular nominative	Pronoun Type=indefinite Person=third Gender=masculine Number=singular Case=nominative
-04P0303020101000000000000	Pi3fsn	Pronoun indefinite third feminine singular nominative	Pronoun Type=indefinite Person=third Gender=feminine Number=singular Case=nominative
-04P0303030101000000000000	Pi3nsn	Pronoun indefinite third neuter singular nominative	Pronoun Type=indefinite Person=third Gender=neuter Number=singular Case=nominative
-04P0400000200010000000001	Ps--p-s----n	Pronoun possessive plural singular -Definiteness	Pronoun Type=possessive Number=plural Owner_Number=singular Definiteness=no
-04P0400000200010000000002	Ps--p-s----y	Pronoun possessive plural singular +Definiteness	Pronoun Type=possessive Number=plural Owner_Number=singular Definiteness=yes
-04P0400000200010000000003	Ps--p-s----p	Pronoun possessive plural singular proximal	Pronoun Type=possessive Number=plural Owner_Number=singular Definiteness=proximal
-04P0400000200010000000004	Ps--p-s----d	Pronoun possessive plural singular distal	Pronoun Type=possessive Number=plural Owner_Number=singular Definiteness=distal
-04P0400000200010100000001	Ps--p-sm---n	Pronoun possessive plural singular masculine -Definiteness	Pronoun Type=possessive Number=plural Owner_Number=singular Owner_Gender=masculine Definiteness=no
-04P0400000200010100000002	Ps--p-sm---y	Pronoun possessive plural singular masculine +Definiteness	Pronoun Type=possessive Number=plural Owner_Number=singular Owner_Gender=masculine Definiteness=yes
-04P0400000200010100000003	Ps--p-sm---p	Pronoun possessive plural singular masculine proximal	Pronoun Type=possessive Number=plural Owner_Number=singular Owner_Gender=masculine Definiteness=proximal
-04P0400000200010100000004	Ps--p-sm---d	Pronoun possessive plural singular masculine distal	Pronoun Type=possessive Number=plural Owner_Number=singular Owner_Gender=masculine Definiteness=distal
-04P0400000200010200000001	Ps--p-sf---n	Pronoun possessive plural singular feminine -Definiteness	Pronoun Type=possessive Number=plural Owner_Number=singular Owner_Gender=feminine Definiteness=no
-04P0400000200010200000002	Ps--p-sf---y	Pronoun possessive plural singular feminine +Definiteness	Pronoun Type=possessive Number=plural Owner_Number=singular Owner_Gender=feminine Definiteness=yes
-04P0400000200010200000003	Ps--p-sf---p	Pronoun possessive plural singular feminine proximal	Pronoun Type=possessive Number=plural Owner_Number=singular Owner_Gender=feminine Definiteness=proximal
-04P0400000200010200000004	Ps--p-sf---d	Pronoun possessive plural singular feminine distal	Pronoun Type=possessive Number=plural Owner_Number=singular Owner_Gender=feminine Definiteness=distal
-04P0400000200020000000001	Ps--p-p----n	Pronoun possessive plural plural -Definiteness	Pronoun Type=possessive Number=plural Owner_Number=plural Definiteness=no
-04P0400000200020000000002	Ps--p-p----y	Pronoun possessive plural plural +Definiteness	Pronoun Type=possessive Number=plural Owner_Number=plural Definiteness=yes
-04P0400000200020000000003	Ps--p-p----p	Pronoun possessive plural plural proximal	Pronoun Type=possessive Number=plural Owner_Number=plural Definiteness=proximal
-04P0400000200020000000004	Ps--p-p----d	Pronoun possessive plural plural distal	Pronoun Type=possessive Number=plural Owner_Number=plural Definiteness=distal
-04P0400010100010000000001	Ps-ms-s----n	Pronoun possessive masculine singular singular -Definiteness	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Definiteness=no
-04P0400010100010000000002	Ps-ms-s----y	Pronoun possessive masculine singular singular +Definiteness	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Definiteness=yes
-04P0400010100010000000003	Ps-ms-s----p	Pronoun possessive masculine singular singular proximal	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Definiteness=proximal
-04P0400010100010000000004	Ps-ms-s----d	Pronoun possessive masculine singular singular distal	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Definiteness=distal
-04P0400010100010100000001	Ps-ms-sm---n	Pronoun possessive masculine singular singular masculine -Definiteness	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=no
-04P0400010100010100000002	Ps-ms-sm---y	Pronoun possessive masculine singular singular masculine +Definiteness	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=yes
-04P0400010100010100000003	Ps-ms-sm---p	Pronoun possessive masculine singular singular masculine proximal	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=proximal
-04P0400010100010100000004	Ps-ms-sm---d	Pronoun possessive masculine singular singular masculine distal	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=distal
-04P0400010100010200000001	Ps-ms-sf---n	Pronoun possessive masculine singular singular feminine -Definiteness	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=no
-04P0400010100010200000002	Ps-ms-sf---y	Pronoun possessive masculine singular singular feminine +Definiteness	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=yes
-04P0400010100010200000003	Ps-ms-sf---p	Pronoun possessive masculine singular singular feminine proximal	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=proximal
-04P0400010100010200000004	Ps-ms-sf---d	Pronoun possessive masculine singular singular feminine distal	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=distal
-04P0400010100020000000001	Ps-ms-p----n	Pronoun possessive masculine singular plural -Definiteness	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=plural Definiteness=no
-04P0400010100020000000002	Ps-ms-p----y	Pronoun possessive masculine singular plural +Definiteness	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=plural Definiteness=yes
-04P0400010100020000000003	Ps-ms-p----p	Pronoun possessive masculine singular plural proximal	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=plural Definiteness=proximal
-04P0400010100020000000004	Ps-ms-p----d	Pronoun possessive masculine singular plural distal	Pronoun Type=possessive Gender=masculine Number=singular Owner_Number=plural Definiteness=distal
-04P0400020100010000000001	Ps-fs-s----n	Pronoun possessive feminine singular singular -Definiteness	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Definiteness=no
-04P0400020100010000000002	Ps-fs-s----y	Pronoun possessive feminine singular singular +Definiteness	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Definiteness=yes
-04P0400020100010000000003	Ps-fs-s----p	Pronoun possessive feminine singular singular proximal	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Definiteness=proximal
-04P0400020100010000000004	Ps-fs-s----d	Pronoun possessive feminine singular singular distal	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Definiteness=distal
-04P0400020100010100000001	Ps-fs-sm---n	Pronoun possessive feminine singular singular masculine -Definiteness	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=no
-04P0400020100010100000002	Ps-fs-sm---y	Pronoun possessive feminine singular singular masculine +Definiteness	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=yes
-04P0400020100010100000003	Ps-fs-sm---p	Pronoun possessive feminine singular singular masculine proximal	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=proximal
-04P0400020100010100000004	Ps-fs-sm---d	Pronoun possessive feminine singular singular masculine distal	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=distal
-04P0400020100010200000001	Ps-fs-sf---n	Pronoun possessive feminine singular singular feminine -Definiteness	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=no
-04P0400020100010200000002	Ps-fs-sf---y	Pronoun possessive feminine singular singular feminine +Definiteness	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=yes
-04P0400020100010200000003	Ps-fs-sf---p	Pronoun possessive feminine singular singular feminine proximal	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=proximal
-04P0400020100010200000004	Ps-fs-sf---d	Pronoun possessive feminine singular singular feminine distal	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=distal
-04P0400020100020000000001	Ps-fs-p----n	Pronoun possessive feminine singular plural -Definiteness	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=plural Definiteness=no
-04P0400020100020000000002	Ps-fs-p----y	Pronoun possessive feminine singular plural +Definiteness	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=plural Definiteness=yes
-04P0400020100020000000003	Ps-fs-p----p	Pronoun possessive feminine singular plural proximal	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=plural Definiteness=proximal
-04P0400020100020000000004	Ps-fs-p----d	Pronoun possessive feminine singular plural distal	Pronoun Type=possessive Gender=feminine Number=singular Owner_Number=plural Definiteness=distal
-04P0400030100010000000001	Ps-ns-s----n	Pronoun possessive neuter singular singular -Definiteness	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Definiteness=no
-04P0400030100010000000002	Ps-ns-s----y	Pronoun possessive neuter singular singular +Definiteness	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Definiteness=yes
-04P0400030100010000000003	Ps-ns-s----p	Pronoun possessive neuter singular singular proximal	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Definiteness=proximal
-04P0400030100010000000004	Ps-ns-s----d	Pronoun possessive neuter singular singular distal	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Definiteness=distal
-04P0400030100010100000001	Ps-ns-sm---n	Pronoun possessive neuter singular singular masculine -Definiteness	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=no
-04P0400030100010100000002	Ps-ns-sm---y	Pronoun possessive neuter singular singular masculine +Definiteness	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=yes
-04P0400030100010100000003	Ps-ns-sm---p	Pronoun possessive neuter singular singular masculine proximal	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=proximal
-04P0400030100010100000004	Ps-ns-sm---d	Pronoun possessive neuter singular singular masculine distal	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Owner_Gender=masculine Definiteness=distal
-04P0400030100010200000001	Ps-ns-sf---n	Pronoun possessive neuter singular singular feminine -Definiteness	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=no
-04P0400030100010200000002	Ps-ns-sf---y	Pronoun possessive neuter singular singular feminine +Definiteness	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=yes
-04P0400030100010200000003	Ps-ns-sf---p	Pronoun possessive neuter singular singular feminine proximal	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=proximal
-04P0400030100010200000004	Ps-ns-sf---d	Pronoun possessive neuter singular singular feminine distal	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=singular Owner_Gender=feminine Definiteness=distal
-04P0400030100020000000001	Ps-ns-p----n	Pronoun possessive neuter singular plural -Definiteness	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=plural Definiteness=no
-04P0400030100020000000002	Ps-ns-p----y	Pronoun possessive neuter singular plural +Definiteness	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=plural Definiteness=yes
-04P0400030100020000000003	Ps-ns-p----p	Pronoun possessive neuter singular plural proximal	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=plural Definiteness=proximal
-04P0400030100020000000004	Ps-ns-p----d	Pronoun possessive neuter singular plural distal	Pronoun Type=possessive Gender=neuter Number=singular Owner_Number=plural Definiteness=distal
-04P0500000001000000000000	Pq---n	Pronoun interrogative nominative	Pronoun Type=interrogative Case=nominative
-04P0503000002000001000000	Pq3--d--n	Pronoun interrogative third dative -Clitic	Pronoun Type=interrogative Person=third Case=dative Clitic=no
-04P0503000003000001000000	Pq3--a--n	Pronoun interrogative third accusative -Clitic	Pronoun Type=interrogative Person=third Case=accusative Clitic=no
-04P0503000201000000000000	Pq3-pn	Pronoun interrogative third plural nominative	Pronoun Type=interrogative Person=third Number=plural Case=nominative
-04P0503010101000000000000	Pq3msn	Pronoun interrogative third masculine singular nominative	Pronoun Type=interrogative Person=third Gender=masculine Number=singular Case=nominative
-04P0503020101000000000000	Pq3fsn	Pronoun interrogative third feminine singular nominative	Pronoun Type=interrogative Person=third Gender=feminine Number=singular Case=nominative
-04P0503030101000000000000	Pq3nsn	Pronoun interrogative third neuter singular nominative	Pronoun Type=interrogative Person=third Gender=neuter Number=singular Case=nominative
-04P0600000001000000000000	Pr---n	Pronoun relative nominative	Pronoun Type=relative Case=nominative
-04P0600000002000001000000	Pr---d--n	Pronoun relative dative -Clitic	Pronoun Type=relative Case=dative Clitic=no
-04P0600000002000002000000	Pr---d--y	Pronoun relative dative +Clitic	Pronoun Type=relative Case=dative Clitic=yes
-04P0600000003000001000000	Pr---a--n	Pronoun relative accusative -Clitic	Pronoun Type=relative Case=accusative Clitic=no
-04P0600000003000002000000	Pr---a--y	Pronoun relative accusative +Clitic	Pronoun Type=relative Case=accusative Clitic=yes
-04P0600000200010000000001	Pr--p-s----n	Pronoun relative plural singular -Definiteness	Pronoun Type=relative Number=plural Owner_Number=singular Definiteness=no
-04P0600000200010000000002	Pr--p-s----y	Pronoun relative plural singular +Definiteness	Pronoun Type=relative Number=plural Owner_Number=singular Definiteness=yes
-04P0600000200010000000003	Pr--p-s----p	Pronoun relative plural singular proximal	Pronoun Type=relative Number=plural Owner_Number=singular Definiteness=proximal
-04P0600000200010000000004	Pr--p-s----d	Pronoun relative plural singular distal	Pronoun Type=relative Number=plural Owner_Number=singular Definiteness=distal
-04P0600010100010000000001	Pr-ms-s----n	Pronoun relative masculine singular singular -Definiteness	Pronoun Type=relative Gender=masculine Number=singular Owner_Number=singular Definiteness=no
-04P0600010100010000000002	Pr-ms-s----y	Pronoun relative masculine singular singular +Definiteness	Pronoun Type=relative Gender=masculine Number=singular Owner_Number=singular Definiteness=yes
-04P0600010100010000000003	Pr-ms-s----p	Pronoun relative masculine singular singular proximal	Pronoun Type=relative Gender=masculine Number=singular Owner_Number=singular Definiteness=proximal
-04P0600010100010000000004	Pr-ms-s----d	Pronoun relative masculine singular singular distal	Pronoun Type=relative Gender=masculine Number=singular Owner_Number=singular Definiteness=distal
-04P0600020100010000000001	Pr-fs-s----n	Pronoun relative feminine singular singular -Definiteness	Pronoun Type=relative Gender=feminine Number=singular Owner_Number=singular Definiteness=no
-04P0600020100010000000002	Pr-fs-s----y	Pronoun relative feminine singular singular +Definiteness	Pronoun Type=relative Gender=feminine Number=singular Owner_Number=singular Definiteness=yes
-04P0600020100010000000003	Pr-fs-s----p	Pronoun relative feminine singular singular proximal	Pronoun Type=relative Gender=feminine Number=singular Owner_Number=singular Definiteness=proximal
-04P0600020100010000000004	Pr-fs-s----d	Pronoun relative feminine singular singular distal	Pronoun Type=relative Gender=feminine Number=singular Owner_Number=singular Definiteness=distal
-04P0600030100010000000001	Pr-ns-s----n	Pronoun relative neuter singular singular -Definiteness	Pronoun Type=relative Gender=neuter Number=singular Owner_Number=singular Definiteness=no
-04P0600030100010000000002	Pr-ns-s----y	Pronoun relative neuter singular singular +Definiteness	Pronoun Type=relative Gender=neuter Number=singular Owner_Number=singular Definiteness=yes
-04P0600030100010000000003	Pr-ns-s----p	Pronoun relative neuter singular singular proximal	Pronoun Type=relative Gender=neuter Number=singular Owner_Number=singular Definiteness=proximal
-04P0600030100010000000004	Pr-ns-s----d	Pronoun relative neuter singular singular distal	Pronoun Type=relative Gender=neuter Number=singular Owner_Number=singular Definiteness=distal
-04P0603000002000001000000	Pr3--d--n	Pronoun relative third dative -Clitic	Pronoun Type=relative Person=third Case=dative Clitic=no
-04P0603000003000001000000	Pr3--a--n	Pronoun relative third accusative -Clitic	Pronoun Type=relative Person=third Case=accusative Clitic=no
-04P0603000201000000000000	Pr3-pn	Pronoun relative third plural nominative	Pronoun Type=relative Person=third Number=plural Case=nominative
-04P0603010101000000000000	Pr3msn	Pronoun relative third masculine singular nominative	Pronoun Type=relative Person=third Gender=masculine Number=singular Case=nominative
-04P0603020101000000000000	Pr3fsn	Pronoun relative third feminine singular nominative	Pronoun Type=relative Person=third Gender=feminine Number=singular Case=nominative
-04P0603030101000000000000	Pr3nsn	Pronoun relative third neuter singular nominative	Pronoun Type=relative Person=third Gender=neuter Number=singular Case=nominative
-04P0800000001000000000000	Pz---n	Pronoun negative nominative	Pronoun Type=negative Case=nominative
-04P0803000002000001000000	Pz3--d--n	Pronoun negative third dative -Clitic	Pronoun Type=negative Person=third Case=dative Clitic=no
-04P0803000003000001000000	Pz3--a--n	Pronoun negative third accusative -Clitic	Pronoun Type=negative Person=third Case=accusative Clitic=no
-04P0803000201000000000000	Pz3-pn	Pronoun negative third plural nominative	Pronoun Type=negative Person=third Number=plural Case=nominative
-04P0803010101000000000000	Pz3msn	Pronoun negative third masculine singular nominative	Pronoun Type=negative Person=third Gender=masculine Number=singular Case=nominative
-04P0803020101000000000000	Pz3fsn	Pronoun negative third feminine singular nominative	Pronoun Type=negative Person=third Gender=feminine Number=singular Case=nominative
-04P0803030101000000000000	Pz3nsn	Pronoun negative third neuter singular nominative	Pronoun Type=negative Person=third Gender=neuter Number=singular Case=nominative
-04P0900000001000000000000	Pg---n	Pronoun general nominative	Pronoun Type=general Case=nominative
-04P0903000002000001000000	Pg3--d--n	Pronoun general third dative -Clitic	Pronoun Type=general Person=third Case=dative Clitic=no
-04P0903000003000001000000	Pg3--a--n	Pronoun general third accusative -Clitic	Pronoun Type=general Person=third Case=accusative Clitic=no
-04P0903000201000000000000	Pg3-pn	Pronoun general third plural nominative	Pronoun Type=general Person=third Number=plural Case=nominative
-04P0903010101000000000000	Pg3msn	Pronoun general third masculine singular nominative	Pronoun Type=general Person=third Gender=masculine Number=singular Case=nominative
-04P0903020101000000000000	Pg3fsn	Pronoun general third feminine singular nominative	Pronoun Type=general Person=third Gender=feminine Number=singular Case=nominative
-04P0903030101000000000000	Pg3nsn	Pronoun general third neuter singular nominative	Pronoun Type=general Person=third Gender=neuter Number=singular Case=nominative
+03A020000000001	Ag----n	Adjective general -Definiteness	Adjective Type=general Definiteness=no
+03A020000010001	Ag--s-n	Adjective general singular -Definiteness	Adjective Type=general Number=singular Definiteness=no
+03A020000020001	Ag--p-n	Adjective general plural -Definiteness	Adjective Type=general Number=plural Definiteness=no
+03A020000020002	Ag--p-y	Adjective general plural +Definiteness	Adjective Type=general Number=plural Definiteness=yes
+03A020001010001	Ag-ms-n	Adjective general masculine singular -Definiteness	Adjective Type=general Gender=masculine Number=singular Definiteness=no
+03A020001010002	Ag-ms-y	Adjective general masculine singular +Definiteness	Adjective Type=general Gender=masculine Number=singular Definiteness=yes
+03A020002010001	Ag-fs-n	Adjective general feminine singular -Definiteness	Adjective Type=general Gender=feminine Number=singular Definiteness=no
+03A020002010002	Ag-fs-y	Adjective general feminine singular +Definiteness	Adjective Type=general Gender=feminine Number=singular Definiteness=yes
+03A020002020001	Ag-fp-n	Adjective general feminine plural -Definiteness	Adjective Type=general Gender=feminine Number=plural Definiteness=no
+03A020003010001	Ag-ns-n	Adjective general neuter singular -Definiteness	Adjective Type=general Gender=neuter Number=singular Definiteness=no
+03A020003010002	Ag-ns-y	Adjective general neuter singular +Definiteness	Adjective Type=general Gender=neuter Number=singular Definiteness=yes
+03A020003020001	Ag-np-n	Adjective general neuter plural -Definiteness	Adjective Type=general Gender=neuter Number=plural Definiteness=no
+03A020200020001	Agc-p-n	Adjective general comparative plural -Definiteness	Adjective Type=general Degree=comparative Number=plural Definiteness=no
+03A020201010001	Agcms-n	Adjective general comparative masculine singular -Definiteness	Adjective Type=general Degree=comparative Gender=masculine Number=singular Definiteness=no
+03A020202010001	Agcfs-n	Adjective general comparative feminine singular -Definiteness	Adjective Type=general Degree=comparative Gender=feminine Number=singular Definiteness=no
+03A020203010001	Agcns-n	Adjective general comparative neuter singular -Definiteness	Adjective Type=general Degree=comparative Gender=neuter Number=singular Definiteness=no
+03A030000010002	As--s-y	Adjective possessive singular +Definiteness	Adjective Type=possessive Number=singular Definiteness=yes
+03A030000020001	As--p-n	Adjective possessive plural -Definiteness	Adjective Type=possessive Number=plural Definiteness=no
+03A030000020002	As--p-y	Adjective possessive plural +Definiteness	Adjective Type=possessive Number=plural Definiteness=yes
+03A030001010001	As-ms-n	Adjective possessive masculine singular -Definiteness	Adjective Type=possessive Gender=masculine Number=singular Definiteness=no
+03A030001010002	As-ms-y	Adjective possessive masculine singular +Definiteness	Adjective Type=possessive Gender=masculine Number=singular Definiteness=yes
+03A030001020002	As-mp-y	Adjective possessive masculine plural +Definiteness	Adjective Type=possessive Gender=masculine Number=plural Definiteness=yes
+03A030002010001	As-fs-n	Adjective possessive feminine singular -Definiteness	Adjective Type=possessive Gender=feminine Number=singular Definiteness=no
+03A030002010002	As-fs-y	Adjective possessive feminine singular +Definiteness	Adjective Type=possessive Gender=feminine Number=singular Definiteness=yes
+03A030003010001	As-ns-n	Adjective possessive neuter singular -Definiteness	Adjective Type=possessive Gender=neuter Number=singular Definiteness=no
+03A030003010002	As-ns-y	Adjective possessive neuter singular +Definiteness	Adjective Type=possessive Gender=neuter Number=singular Definiteness=yes
+03A040000020001	Ao--p-n	Adjective ordinal plural -Definiteness	Adjective Type=ordinal Number=plural Definiteness=no
+03A040000020002	Ao--p-y	Adjective ordinal plural +Definiteness	Adjective Type=ordinal Number=plural Definiteness=yes
+03A040001010001	Ao-ms-n	Adjective ordinal masculine singular -Definiteness	Adjective Type=ordinal Gender=masculine Number=singular Definiteness=no
+03A040001010002	Ao-ms-y	Adjective ordinal masculine singular +Definiteness	Adjective Type=ordinal Gender=masculine Number=singular Definiteness=yes
+03A040001020001	Ao-mp-n	Adjective ordinal masculine plural -Definiteness	Adjective Type=ordinal Gender=masculine Number=plural Definiteness=no
+03A040001020002	Ao-mp-y	Adjective ordinal masculine plural +Definiteness	Adjective Type=ordinal Gender=masculine Number=plural Definiteness=yes
+03A040002010001	Ao-fs-n	Adjective ordinal feminine singular -Definiteness	Adjective Type=ordinal Gender=feminine Number=singular Definiteness=no
+03A040002010002	Ao-fs-y	Adjective ordinal feminine singular +Definiteness	Adjective Type=ordinal Gender=feminine Number=singular Definiteness=yes
+03A040003010001	Ao-ns-n	Adjective ordinal neuter singular -Definiteness	Adjective Type=ordinal Gender=neuter Number=singular Definiteness=no
+03A040003010002	Ao-ns-y	Adjective ordinal neuter singular +Definiteness	Adjective Type=ordinal Gender=neuter Number=singular Definiteness=yes
+03A050000020001	Ap--p-n	Adjective participle plural -Definiteness	Adjective Type=participle Number=plural Definiteness=no
+03A050000020002	Ap--p-y	Adjective participle plural +Definiteness	Adjective Type=participle Number=plural Definiteness=yes
+03A050001010001	Ap-ms-n	Adjective participle masculine singular -Definiteness	Adjective Type=participle Gender=masculine Number=singular Definiteness=no
+03A050001010002	Ap-ms-y	Adjective participle masculine singular +Definiteness	Adjective Type=participle Gender=masculine Number=singular Definiteness=yes
+03A050002010001	Ap-fs-n	Adjective participle feminine singular -Definiteness	Adjective Type=participle Gender=feminine Number=singular Definiteness=no
+03A050002010002	Ap-fs-y	Adjective participle feminine singular +Definiteness	Adjective Type=participle Gender=feminine Number=singular Definiteness=yes
+03A050003010001	Ap-ns-n	Adjective participle neuter singular -Definiteness	Adjective Type=participle Gender=neuter Number=singular Definiteness=no
+03A050003010002	Ap-ns-y	Adjective participle neuter singular +Definiteness	Adjective Type=participle Gender=neuter Number=singular Definiteness=yes
+03A050102010001	Appfs-n	Adjective participle positive feminine singular -Definiteness	Adjective Type=participle Degree=positive Gender=feminine Number=singular Definiteness=no
+03A050200020001	Apc-p-n	Adjective participle comparative plural -Definiteness	Adjective Type=participle Degree=comparative Number=plural Definiteness=no
+03A050201010001	Apcms-n	Adjective participle comparative masculine singular -Definiteness	Adjective Type=participle Degree=comparative Gender=masculine Number=singular Definiteness=no
+03A050202010002	Apcfs-y	Adjective participle comparative feminine singular +Definiteness	Adjective Type=participle Degree=comparative Gender=feminine Number=singular Definiteness=yes
+03A050203010001	Apcns-n	Adjective participle comparative neuter singular -Definiteness	Adjective Type=participle Degree=comparative Gender=neuter Number=singular Definiteness=no
+04P01010001010100	Pp1-snn	Pronoun personal first singular nominative -Clitic	Pronoun Type=personal Person=first Number=singular Case=nominative Clitic=no
+04P01010001020101	Pp1-sdnn	Pronoun personal first singular dative -Clitic -Definiteness	Pronoun Type=personal Person=first Number=singular Case=dative Clitic=no Definiteness=no
+04P01010001020201	Pp1-sdyn	Pronoun personal first singular dative +Clitic -Definiteness	Pronoun Type=personal Person=first Number=singular Case=dative Clitic=yes Definiteness=no
+04P01010001030101	Pp1-sann	Pronoun personal first singular accusative -Clitic -Definiteness	Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=no Definiteness=no
+04P01010001030201	Pp1-sayn	Pronoun personal first singular accusative +Clitic -Definiteness	Pronoun Type=personal Person=first Number=singular Case=accusative Clitic=yes Definiteness=no
+04P01010002010100	Pp1-pnn	Pronoun personal first plural nominative -Clitic	Pronoun Type=personal Person=first Number=plural Case=nominative Clitic=no
+04P01010002020200	Pp1-pdy	Pronoun personal first plural dative +Clitic	Pronoun Type=personal Person=first Number=plural Case=dative Clitic=yes
+04P01010002030100	Pp1-pan	Pronoun personal first plural accusative -Clitic	Pronoun Type=personal Person=first Number=plural Case=accusative Clitic=no
+04P01010002030200	Pp1-pay	Pronoun personal first plural accusative +Clitic	Pronoun Type=personal Person=first Number=plural Case=accusative Clitic=yes
+04P01020001010100	Pp2-snn	Pronoun personal second singular nominative -Clitic	Pronoun Type=personal Person=second Number=singular Case=nominative Clitic=no
+04P01020001020100	Pp2-sdn	Pronoun personal second singular dative -Clitic	Pronoun Type=personal Person=second Number=singular Case=dative Clitic=no
+04P01020001020200	Pp2-sdy	Pronoun personal second singular dative +Clitic	Pronoun Type=personal Person=second Number=singular Case=dative Clitic=yes
+04P01020001030100	Pp2-san	Pronoun personal second singular accusative -Clitic	Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=no
+04P01020001030200	Pp2-say	Pronoun personal second singular accusative +Clitic	Pronoun Type=personal Person=second Number=singular Case=accusative Clitic=yes
+04P01020002010201	Pp2-pnyn	Pronoun personal second plural nominative +Clitic -Definiteness	Pronoun Type=personal Person=second Number=plural Case=nominative Clitic=yes Definiteness=no
+04P01020002020101	Pp2-pdnn	Pronoun personal second plural dative -Clitic -Definiteness	Pronoun Type=personal Person=second Number=plural Case=dative Clitic=no Definiteness=no
+04P01020002020201	Pp2-pdyn	Pronoun personal second plural dative +Clitic -Definiteness	Pronoun Type=personal Person=second Number=plural Case=dative Clitic=yes Definiteness=no
+04P01020002030101	Pp2-pann	Pronoun personal second plural accusative -Clitic -Definiteness	Pronoun Type=personal Person=second Number=plural Case=accusative Clitic=no Definiteness=no
+04P01020002030201	Pp2-payn	Pronoun personal second plural accusative +Clitic -Definiteness	Pronoun Type=personal Person=second Number=plural Case=accusative Clitic=yes Definiteness=no
+04P01030001010100	Pp3-snn	Pronoun personal third singular nominative -Clitic	Pronoun Type=personal Person=third Number=singular Case=nominative Clitic=no
+04P01030002010100	Pp3-pnn	Pronoun personal third plural nominative -Clitic	Pronoun Type=personal Person=third Number=plural Case=nominative Clitic=no
+04P01030002020100	Pp3-pdn	Pronoun personal third plural dative -Clitic	Pronoun Type=personal Person=third Number=plural Case=dative Clitic=no
+04P01030002030200	Pp3-pay	Pronoun personal third plural accusative +Clitic	Pronoun Type=personal Person=third Number=plural Case=accusative Clitic=yes
+04P01030101010100	Pp3msnn	Pronoun personal third masculine singular nominative -Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative Clitic=no
+04P01030101020100	Pp3msdn	Pronoun personal third masculine singular dative -Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=dative Clitic=no
+04P01030101020200	Pp3msdy	Pronoun personal third masculine singular dative +Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=dative Clitic=yes
+04P01030101030200	Pp3msay	Pronoun personal third masculine singular accusative +Clitic	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative Clitic=yes
+04P01030102030200	Pp3mpay	Pronoun personal third masculine plural accusative +Clitic	Pronoun Type=personal Person=third Gender=masculine Number=plural Case=accusative Clitic=yes
+04P01030201020100	Pp3fsdn	Pronoun personal third feminine singular dative -Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=dative Clitic=no
+04P01030201020200	Pp3fsdy	Pronoun personal third feminine singular dative +Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=dative Clitic=yes
+04P01030201030100	Pp3fsan	Pronoun personal third feminine singular accusative -Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Clitic=no
+04P01030201030200	Pp3fsay	Pronoun personal third feminine singular accusative +Clitic	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative Clitic=yes
+04P02000002000000	Pd--p	Pronoun demonstrative plural	Pronoun Type=demonstrative Number=plural
+04P02000101000000	Pd-ms	Pronoun demonstrative masculine singular	Pronoun Type=demonstrative Gender=masculine Number=singular
+04P02000201000000	Pd-fs	Pronoun demonstrative feminine singular	Pronoun Type=demonstrative Gender=feminine Number=singular
+04P02000301000000	Pd-ns	Pronoun demonstrative neuter singular	Pronoun Type=demonstrative Gender=neuter Number=singular
+04P03000000000100	Pi----n	Pronoun indefinite -Clitic	Pronoun Type=indefinite Clitic=no
+04P03000000000102	Pi----ny	Pronoun indefinite -Clitic +Definiteness	Pronoun Type=indefinite Clitic=no Definiteness=yes
+04P03000001000100	Pi--s-n	Pronoun indefinite singular -Clitic	Pronoun Type=indefinite Number=singular Clitic=no
+04P03000002000101	Pi--p-nn	Pronoun indefinite plural -Clitic -Definiteness	Pronoun Type=indefinite Number=plural Clitic=no Definiteness=no
+04P03000002010100	Pi--pnn	Pronoun indefinite plural nominative -Clitic	Pronoun Type=indefinite Number=plural Case=nominative Clitic=no
+04P03000101000100	Pi-ms-n	Pronoun indefinite masculine singular -Clitic	Pronoun Type=indefinite Gender=masculine Number=singular Clitic=no
+04P03000101000101	Pi-ms-nn	Pronoun indefinite masculine singular -Clitic -Definiteness	Pronoun Type=indefinite Gender=masculine Number=singular Clitic=no Definiteness=no
+04P03000101000103	Pi-ms-np	Pronoun indefinite masculine singular -Clitic proximal	Pronoun Type=indefinite Gender=masculine Number=singular Clitic=no Definiteness=proximal
+04P03000101010100	Pi-msnn	Pronoun indefinite masculine singular nominative -Clitic	Pronoun Type=indefinite Gender=masculine Number=singular Case=nominative Clitic=no
+04P03000101020100	Pi-msdn	Pronoun indefinite masculine singular dative -Clitic	Pronoun Type=indefinite Gender=masculine Number=singular Case=dative Clitic=no
+04P03000101030100	Pi-msan	Pronoun indefinite masculine singular accusative -Clitic	Pronoun Type=indefinite Gender=masculine Number=singular Case=accusative Clitic=no
+04P03000201000100	Pi-fs-n	Pronoun indefinite feminine singular -Clitic	Pronoun Type=indefinite Gender=feminine Number=singular Clitic=no
+04P03000201000101	Pi-fs-nn	Pronoun indefinite feminine singular -Clitic -Definiteness	Pronoun Type=indefinite Gender=feminine Number=singular Clitic=no Definiteness=no
+04P03000201010100	Pi-fsnn	Pronoun indefinite feminine singular nominative -Clitic	Pronoun Type=indefinite Gender=feminine Number=singular Case=nominative Clitic=no
+04P03000301000100	Pi-ns-n	Pronoun indefinite neuter singular -Clitic	Pronoun Type=indefinite Gender=neuter Number=singular Clitic=no
+04P03000301000102	Pi-ns-ny	Pronoun indefinite neuter singular -Clitic +Definiteness	Pronoun Type=indefinite Gender=neuter Number=singular Clitic=no Definiteness=yes
+04P03000301010100	Pi-nsnn	Pronoun indefinite neuter singular nominative -Clitic	Pronoun Type=indefinite Gender=neuter Number=singular Case=nominative Clitic=no
+04P03000302010100	Pi-npnn	Pronoun indefinite neuter plural nominative -Clitic	Pronoun Type=indefinite Gender=neuter Number=plural Case=nominative Clitic=no
+04P04000002010100	Pq--pnn	Pronoun interrogative plural nominative -Clitic	Pronoun Type=interrogative Number=plural Case=nominative Clitic=no
+04P04000101010100	Pq-msnn	Pronoun interrogative masculine singular nominative -Clitic	Pronoun Type=interrogative Gender=masculine Number=singular Case=nominative Clitic=no
+04P04000201010100	Pq-fsnn	Pronoun interrogative feminine singular nominative -Clitic	Pronoun Type=interrogative Gender=feminine Number=singular Case=nominative Clitic=no
+04P04000301010100	Pq-nsnn	Pronoun interrogative neuter singular nominative -Clitic	Pronoun Type=interrogative Gender=neuter Number=singular Case=nominative Clitic=no
+04P05000000000100	Pr----n	Pronoun relative -Clitic	Pronoun Type=relative Clitic=no
+04P05000002000001	Pr--p--n	Pronoun relative plural -Definiteness	Pronoun Type=relative Number=plural Definiteness=no
+04P05000002000002	Pr--p--y	Pronoun relative plural +Definiteness	Pronoun Type=relative Number=plural Definiteness=yes
+04P05000002000101	Pr--p-nn	Pronoun relative plural -Clitic -Definiteness	Pronoun Type=relative Number=plural Clitic=no Definiteness=no
+04P05000002010100	Pr--pnn	Pronoun relative plural nominative -Clitic	Pronoun Type=relative Number=plural Case=nominative Clitic=no
+04P05000101000001	Pr-ms--n	Pronoun relative masculine singular -Definiteness	Pronoun Type=relative Gender=masculine Number=singular Definiteness=no
+04P05000101000100	Pr-ms-n	Pronoun relative masculine singular -Clitic	Pronoun Type=relative Gender=masculine Number=singular Clitic=no
+04P05000101000101	Pr-ms-nn	Pronoun relative masculine singular -Clitic -Definiteness	Pronoun Type=relative Gender=masculine Number=singular Clitic=no Definiteness=no
+04P05000101020100	Pr-msdn	Pronoun relative masculine singular dative -Clitic	Pronoun Type=relative Gender=masculine Number=singular Case=dative Clitic=no
+04P05000101030100	Pr-msan	Pronoun relative masculine singular accusative -Clitic	Pronoun Type=relative Gender=masculine Number=singular Case=accusative Clitic=no
+04P05000201000001	Pr-fs--n	Pronoun relative feminine singular -Definiteness	Pronoun Type=relative Gender=feminine Number=singular Definiteness=no
+04P05000201000002	Pr-fs--y	Pronoun relative feminine singular +Definiteness	Pronoun Type=relative Gender=feminine Number=singular Definiteness=yes
+04P05000201000100	Pr-fs-n	Pronoun relative feminine singular -Clitic	Pronoun Type=relative Gender=feminine Number=singular Clitic=no
+04P05000201020100	Pr-fsdn	Pronoun relative feminine singular dative -Clitic	Pronoun Type=relative Gender=feminine Number=singular Case=dative Clitic=no
+04P05000301000001	Pr-ns--n	Pronoun relative neuter singular -Definiteness	Pronoun Type=relative Gender=neuter Number=singular Definiteness=no
+04P05000301000002	Pr-ns--y	Pronoun relative neuter singular +Definiteness	Pronoun Type=relative Gender=neuter Number=singular Definiteness=yes
+04P05000301000101	Pr-ns-nn	Pronoun relative neuter singular -Clitic -Definiteness	Pronoun Type=relative Gender=neuter Number=singular Clitic=no Definiteness=no
+04P06000000000000	Px	Pronoun reflexive	Pronoun Type=reflexive
+04P06000000010100	Px---nn	Pronoun reflexive nominative -Clitic	Pronoun Type=reflexive Case=nominative Clitic=no
+04P06000000020100	Px---dn	Pronoun reflexive dative -Clitic	Pronoun Type=reflexive Case=dative Clitic=no
+04P06000000020200	Px---dy	Pronoun reflexive dative +Clitic	Pronoun Type=reflexive Case=dative Clitic=yes
+04P06000000030200	Px---ay	Pronoun reflexive accusative +Clitic	Pronoun Type=reflexive Case=accusative Clitic=yes
+04P06000002000101	Px--p-nn	Pronoun reflexive plural -Clitic -Definiteness	Pronoun Type=reflexive Number=plural Clitic=no Definiteness=no
+04P06000002000102	Px--p-ny	Pronoun reflexive plural -Clitic +Definiteness	Pronoun Type=reflexive Number=plural Clitic=no Definiteness=yes
+04P06000101000001	Px-ms--n	Pronoun reflexive masculine singular -Definiteness	Pronoun Type=reflexive Gender=masculine Number=singular Definiteness=no
+04P06000101000102	Px-ms-ny	Pronoun reflexive masculine singular -Clitic +Definiteness	Pronoun Type=reflexive Gender=masculine Number=singular Clitic=no Definiteness=yes
+04P06000201000001	Px-fs--n	Pronoun reflexive feminine singular -Definiteness	Pronoun Type=reflexive Gender=feminine Number=singular Definiteness=no
+04P06000201000102	Px-fs-ny	Pronoun reflexive feminine singular -Clitic +Definiteness	Pronoun Type=reflexive Gender=feminine Number=singular Clitic=no Definiteness=yes
+04P06000301000101	Px-ns-nn	Pronoun reflexive neuter singular -Clitic -Definiteness	Pronoun Type=reflexive Gender=neuter Number=singular Clitic=no Definiteness=no
+04P06000301000102	Px-ns-ny	Pronoun reflexive neuter singular -Clitic +Definiteness	Pronoun Type=reflexive Gender=neuter Number=singular Clitic=no Definiteness=yes
+04P07000000000101	Pz----nn	Pronoun negative -Clitic -Definiteness	Pronoun Type=negative Clitic=no Definiteness=no
+04P07000101000100	Pz-ms-n	Pronoun negative masculine singular -Clitic	Pronoun Type=negative Gender=masculine Number=singular Clitic=no
+04P08000000010000	Pg---n	Pronoun general nominative	Pronoun Type=general Case=nominative
+04P08000000010100	Pg---nn	Pronoun general nominative -Clitic	Pronoun Type=general Case=nominative Clitic=no
+05R0100	Rg	Adverb general	Adverb Type=general
 05R0101	Rgp	Adverb general positive	Adverb Type=general Degree=positive
 05R0102	Rgc	Adverb general comparative	Adverb Type=general Degree=comparative
 05R0103	Rgs	Adverb general superlative	Adverb Type=general Degree=superlative
-05R0104	Rge	Adverb general elative	Adverb Type=general Degree=elative
 05R0201	Rap	Adverb adjectival positive	Adverb Type=adjectival Degree=positive
 05R0202	Rac	Adverb adjectival comparative	Adverb Type=adjectival Degree=comparative
-05R0203	Ras	Adverb adjectival superlative	Adverb Type=adjectival Degree=superlative
-05R0204	Rae	Adverb adjectival elative	Adverb Type=adjectival Degree=elative
-05R0301	Rvp	Adverb verbal positive	Adverb Type=verbal Degree=positive
+05R0300	Rv	Adverb verbal	Adverb Type=verbal
+05R0401	Rdp	Adverb modal positive	Adverb Type=modal Degree=positive
+05R0402	Rdc	Adverb modal comparative	Adverb Type=modal Degree=comparative
+05R0403	Rds	Adverb modal superlative	Adverb Type=modal Degree=superlative
 06S0101	Sps	Adposition preposition simple	Adposition Type=preposition Formation=simple
 06S0102	Spc	Adposition preposition compound	Adposition Type=preposition Formation=compound
 07C0001	C-s	Conjunction simple	Conjunction Formation=simple
-07C0002	C-c	Conjunction compound	Conjunction Formation=compound
-08M010000000100	Mc---d	Numeral cardinal digit	Numeral Type=cardinal Form=digit
-08M010000000200	Mc---r	Numeral cardinal roman	Numeral Type=cardinal Form=roman
-08M010002000301	Mc-p-ln	Numeral cardinal plural letter -Definiteness	Numeral Type=cardinal Number=plural Form=letter Definiteness=no
-08M010002000302	Mc-p-ly	Numeral cardinal plural letter +Definiteness	Numeral Type=cardinal Number=plural Form=letter Definiteness=yes
-08M010002000303	Mc-p-lp	Numeral cardinal plural letter proximal	Numeral Type=cardinal Number=plural Form=letter Definiteness=proximal
-08M010002000304	Mc-p-ld	Numeral cardinal plural letter distal	Numeral Type=cardinal Number=plural Form=letter Definiteness=distal
-08M010101000301	Mcms-ln	Numeral cardinal masculine singular letter -Definiteness	Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=no
-08M010101000302	Mcms-ly	Numeral cardinal masculine singular letter +Definiteness	Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=yes
-08M010101000303	Mcms-lp	Numeral cardinal masculine singular letter proximal	Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=proximal
-08M010101000304	Mcms-ld	Numeral cardinal masculine singular letter distal	Numeral Type=cardinal Gender=masculine Number=singular Form=letter Definiteness=distal
-08M010102000301	Mcmp-ln	Numeral cardinal masculine plural letter -Definiteness	Numeral Type=cardinal Gender=masculine Number=plural Form=letter Definiteness=no
-08M010102000302	Mcmp-ly	Numeral cardinal masculine plural letter +Definiteness	Numeral Type=cardinal Gender=masculine Number=plural Form=letter Definiteness=yes
-08M010102000303	Mcmp-lp	Numeral cardinal masculine plural letter proximal	Numeral Type=cardinal Gender=masculine Number=plural Form=letter Definiteness=proximal
-08M010102000304	Mcmp-ld	Numeral cardinal masculine plural letter distal	Numeral Type=cardinal Gender=masculine Number=plural Form=letter Definiteness=distal
-08M010201000301	Mcfs-ln	Numeral cardinal feminine singular letter -Definiteness	Numeral Type=cardinal Gender=feminine Number=singular Form=letter Definiteness=no
-08M010201000302	Mcfs-ly	Numeral cardinal feminine singular letter +Definiteness	Numeral Type=cardinal Gender=feminine Number=singular Form=letter Definiteness=yes
-08M010201000303	Mcfs-lp	Numeral cardinal feminine singular letter proximal	Numeral Type=cardinal Gender=feminine Number=singular Form=letter Definiteness=proximal
-08M010201000304	Mcfs-ld	Numeral cardinal feminine singular letter distal	Numeral Type=cardinal Gender=feminine Number=singular Form=letter Definiteness=distal
-08M010202000301	Mcfp-ln	Numeral cardinal feminine plural letter -Definiteness	Numeral Type=cardinal Gender=feminine Number=plural Form=letter Definiteness=no
-08M010202000302	Mcfp-ly	Numeral cardinal feminine plural letter +Definiteness	Numeral Type=cardinal Gender=feminine Number=plural Form=letter Definiteness=yes
-08M010202000303	Mcfp-lp	Numeral cardinal feminine plural letter proximal	Numeral Type=cardinal Gender=feminine Number=plural Form=letter Definiteness=proximal
-08M010202000304	Mcfp-ld	Numeral cardinal feminine plural letter distal	Numeral Type=cardinal Gender=feminine Number=plural Form=letter Definiteness=distal
-08M010301000301	Mcns-ln	Numeral cardinal neuter singular letter -Definiteness	Numeral Type=cardinal Gender=neuter Number=singular Form=letter Definiteness=no
-08M010301000302	Mcns-ly	Numeral cardinal neuter singular letter +Definiteness	Numeral Type=cardinal Gender=neuter Number=singular Form=letter Definiteness=yes
-08M010301000303	Mcns-lp	Numeral cardinal neuter singular letter proximal	Numeral Type=cardinal Gender=neuter Number=singular Form=letter Definiteness=proximal
-08M010301000304	Mcns-ld	Numeral cardinal neuter singular letter distal	Numeral Type=cardinal Gender=neuter Number=singular Form=letter Definiteness=distal
-08M010302000301	Mcnp-ln	Numeral cardinal neuter plural letter -Definiteness	Numeral Type=cardinal Gender=neuter Number=plural Form=letter Definiteness=no
-08M010302000302	Mcnp-ly	Numeral cardinal neuter plural letter +Definiteness	Numeral Type=cardinal Gender=neuter Number=plural Form=letter Definiteness=yes
-08M010302000303	Mcnp-lp	Numeral cardinal neuter plural letter proximal	Numeral Type=cardinal Gender=neuter Number=plural Form=letter Definiteness=proximal
-08M010302000304	Mcnp-ld	Numeral cardinal neuter plural letter distal	Numeral Type=cardinal Gender=neuter Number=plural Form=letter Definiteness=distal
-08M020000000100	Mo---d	Numeral ordinal digit	Numeral Type=ordinal Form=digit
-08M020002000001	Mo-p--n	Numeral ordinal plural -Definiteness	Numeral Type=ordinal Number=plural Definiteness=no
-08M020002000002	Mo-p--y	Numeral ordinal plural +Definiteness	Numeral Type=ordinal Number=plural Definiteness=yes
-08M020002000003	Mo-p--p	Numeral ordinal plural proximal	Numeral Type=ordinal Number=plural Definiteness=proximal
-08M020002000004	Mo-p--d	Numeral ordinal plural distal	Numeral Type=ordinal Number=plural Definiteness=distal
-08M020101000001	Moms--n	Numeral ordinal masculine singular -Definiteness	Numeral Type=ordinal Gender=masculine Number=singular Definiteness=no
-08M020101000002	Moms--y	Numeral ordinal masculine singular +Definiteness	Numeral Type=ordinal Gender=masculine Number=singular Definiteness=yes
-08M020101000003	Moms--p	Numeral ordinal masculine singular proximal	Numeral Type=ordinal Gender=masculine Number=singular Definiteness=proximal
-08M020101000004	Moms--d	Numeral ordinal masculine singular distal	Numeral Type=ordinal Gender=masculine Number=singular Definiteness=distal
-08M020201000001	Mofs--n	Numeral ordinal feminine singular -Definiteness	Numeral Type=ordinal Gender=feminine Number=singular Definiteness=no
-08M020201000002	Mofs--y	Numeral ordinal feminine singular +Definiteness	Numeral Type=ordinal Gender=feminine Number=singular Definiteness=yes
-08M020201000003	Mofs--p	Numeral ordinal feminine singular proximal	Numeral Type=ordinal Gender=feminine Number=singular Definiteness=proximal
-08M020201000004	Mofs--d	Numeral ordinal feminine singular distal	Numeral Type=ordinal Gender=feminine Number=singular Definiteness=distal
-08M020301000001	Mons--n	Numeral ordinal neuter singular -Definiteness	Numeral Type=ordinal Gender=neuter Number=singular Definiteness=no
-08M020301000002	Mons--y	Numeral ordinal neuter singular +Definiteness	Numeral Type=ordinal Gender=neuter Number=singular Definiteness=yes
-08M020301000003	Mons--p	Numeral ordinal neuter singular proximal	Numeral Type=ordinal Gender=neuter Number=singular Definiteness=proximal
-08M020301000004	Mons--d	Numeral ordinal neuter singular distal	Numeral Type=ordinal Gender=neuter Number=singular Definiteness=distal
-08M030002000301	Ml-p-ln	Numeral collect plural letter -Definiteness	Numeral Type=collect Number=plural Form=letter Definiteness=no
-08M030002000302	Ml-p-ly	Numeral collect plural letter +Definiteness	Numeral Type=collect Number=plural Form=letter Definiteness=yes
-08M030002000303	Ml-p-lp	Numeral collect plural letter proximal	Numeral Type=collect Number=plural Form=letter Definiteness=proximal
-08M030002000304	Ml-p-ld	Numeral collect plural letter distal	Numeral Type=collect Number=plural Form=letter Definiteness=distal
-08M030102000303	Mlmp-lp	Numeral collect masculine plural letter proximal	Numeral Type=collect Gender=masculine Number=plural Form=letter Definiteness=proximal
-08M030202000303	Mlfp-lp	Numeral collect feminine plural letter proximal	Numeral Type=collect Gender=feminine Number=plural Form=letter Definiteness=proximal
-08M030302000303	Mlnp-lp	Numeral collect neuter plural letter proximal	Numeral Type=collect Gender=neuter Number=plural Form=letter Definiteness=proximal
-08M040002000301	Ms-p-ln	Numeral special plural letter -Definiteness	Numeral Type=special Number=plural Form=letter Definiteness=no
-08M040002000302	Ms-p-ly	Numeral special plural letter +Definiteness	Numeral Type=special Number=plural Form=letter Definiteness=yes
-08M040002000303	Ms-p-lp	Numeral special plural letter proximal	Numeral Type=special Number=plural Form=letter Definiteness=proximal
-08M040002000304	Ms-p-ld	Numeral special plural letter distal	Numeral Type=special Number=plural Form=letter Definiteness=distal
+07C0101	Ccs	Conjunction coordinating simple	Conjunction Type=coordinating Formation=simple
+07C0102	Ccc	Conjunction coordinating compound	Conjunction Type=coordinating Formation=compound
+07C0201	Css	Conjunction subordinating simple	Conjunction Type=subordinating Formation=simple
+07C0202	Csc	Conjunction subordinating compound	Conjunction Type=subordinating Formation=compound
+08M01010000	Mdc	Numeral digit cardinal	Numeral Form=digit Type=cardinal
+08M01030201	Mdsfn	Numeral digit special feminine -Definiteness	Numeral Form=digit Type=special Gender=feminine Definiteness=no
+08M01030202	Mdsfy	Numeral digit special feminine +Definiteness	Numeral Form=digit Type=special Gender=feminine Definiteness=yes
+08M02010000	Mrc	Numeral roman cardinal	Numeral Form=roman Type=cardinal
+08M03010000	Mlc	Numeral letter cardinal	Numeral Form=letter Type=cardinal
+08M03010101	Mlcmn	Numeral letter cardinal masculine -Definiteness	Numeral Form=letter Type=cardinal Gender=masculine Definiteness=no
+08M03020001	Mlp-n	Numeral letter pronominal -Definiteness	Numeral Form=letter Type=pronominal Definiteness=no
+08M03020002	Mlp-y	Numeral letter pronominal +Definiteness	Numeral Form=letter Type=pronominal Definiteness=yes
+08M03020101	Mlpmn	Numeral letter pronominal masculine -Definiteness	Numeral Form=letter Type=pronominal Gender=masculine Definiteness=no
+08M03020102	Mlpmy	Numeral letter pronominal masculine +Definiteness	Numeral Form=letter Type=pronominal Gender=masculine Definiteness=yes
+08M03020201	Mlpfn	Numeral letter pronominal feminine -Definiteness	Numeral Form=letter Type=pronominal Gender=feminine Definiteness=no
+08M03020202	Mlpfy	Numeral letter pronominal feminine +Definiteness	Numeral Form=letter Type=pronominal Gender=feminine Definiteness=yes
+08M03020301	Mlpnn	Numeral letter pronominal neuter -Definiteness	Numeral Form=letter Type=pronominal Gender=neuter Definiteness=no
+08M03030000	Mls	Numeral letter special	Numeral Form=letter Type=special
+08M03030001	Mls-n	Numeral letter special -Definiteness	Numeral Form=letter Type=special Definiteness=no
+08M03030301	Mlsnn	Numeral letter special neuter -Definiteness	Numeral Form=letter Type=special Gender=neuter Definiteness=no
 09Q0001	Q-s	Particle simple	Particle Formation=simple
 09Q0002	Q-c	Particle compound	Particle Formation=compound
 10I	I	Interjection	Interjection
 11Y	Y	Abbreviation	Abbreviation
-12X	X	Residual	Residual
+12X00	X	Residual	Residual
+12X01	Xf	Residual foreign	Residual Type=foreign
 13Z	Z	Punctuation	Punctuation
