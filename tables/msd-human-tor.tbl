@@ -1,0 +1,511 @@
+01N010101010000	Ncmsn	Noun common masculine singular nominative	Noun Type=common Gender=masculine Number=singular Case=nominative
+01N010101010001	Ncmsn-t	Noun common masculine singular nominative t-form	Noun Type=common Gender=masculine Number=singular Case=nominative Article=t-form
+01N010101010002	Ncmsn-v	Noun common masculine singular nominative v-form	Noun Type=common Gender=masculine Number=singular Case=nominative Article=v-form
+01N010101010003	Ncmsn-n	Noun common masculine singular nominative n-form	Noun Type=common Gender=masculine Number=singular Case=nominative Article=n-form
+01N010101010101	Ncmsnnt	Noun common masculine singular nominative -Animate t-form	Noun Type=common Gender=masculine Number=singular Case=nominative Animate=no Article=t-form
+01N010101010102	Ncmsnnv	Noun common masculine singular nominative -Animate v-form	Noun Type=common Gender=masculine Number=singular Case=nominative Animate=no Article=v-form
+01N010101010103	Ncmsnnn	Noun common masculine singular nominative -Animate n-form	Noun Type=common Gender=masculine Number=singular Case=nominative Animate=no Article=n-form
+01N010101010201	Ncmsnyt	Noun common masculine singular nominative +Animate t-form	Noun Type=common Gender=masculine Number=singular Case=nominative Animate=yes Article=t-form
+01N010101020000	Ncmsg	Noun common masculine singular genitive	Noun Type=common Gender=masculine Number=singular Case=genitive
+01N010101020101	Ncmsgnt	Noun common masculine singular genitive -Animate t-form	Noun Type=common Gender=masculine Number=singular Case=genitive Animate=no Article=t-form
+01N010101030000	Ncmsd	Noun common masculine singular dative	Noun Type=common Gender=masculine Number=singular Case=dative
+01N010101040001	Ncmsa-t	Noun common masculine singular accusative t-form	Noun Type=common Gender=masculine Number=singular Case=accusative Article=t-form
+01N010101040002	Ncmsa-v	Noun common masculine singular accusative v-form	Noun Type=common Gender=masculine Number=singular Case=accusative Article=v-form
+01N010101040003	Ncmsa-n	Noun common masculine singular accusative n-form	Noun Type=common Gender=masculine Number=singular Case=accusative Article=n-form
+01N010101040100	Ncmsan	Noun common masculine singular accusative -Animate	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=no
+01N010101040200	Ncmsay	Noun common masculine singular accusative +Animate	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=yes
+01N010101040201	Ncmsayt	Noun common masculine singular accusative +Animate t-form	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=yes Article=t-form
+01N010101040203	Ncmsayn	Noun common masculine singular accusative +Animate n-form	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=yes Article=n-form
+01N010101050000	Ncmsv	Noun common masculine singular vocative	Noun Type=common Gender=masculine Number=singular Case=vocative
+01N010101050100	Ncmsvn	Noun common masculine singular vocative -Animate	Noun Type=common Gender=masculine Number=singular Case=vocative Animate=no
+01N010101060000	Ncmsl	Noun common masculine singular locative	Noun Type=common Gender=masculine Number=singular Case=locative
+01N010101060001	Ncmsl-t	Noun common masculine singular locative t-form	Noun Type=common Gender=masculine Number=singular Case=locative Article=t-form
+01N010101070000	Ncmsi	Noun common masculine singular instrumental	Noun Type=common Gender=masculine Number=singular Case=instrumental
+01N010102010000	Ncmpn	Noun common masculine plural nominative	Noun Type=common Gender=masculine Number=plural Case=nominative
+01N010102010001	Ncmpn-t	Noun common masculine plural nominative t-form	Noun Type=common Gender=masculine Number=plural Case=nominative Article=t-form
+01N010102010002	Ncmpn-v	Noun common masculine plural nominative v-form	Noun Type=common Gender=masculine Number=plural Case=nominative Article=v-form
+01N010102010101	Ncmpnnt	Noun common masculine plural nominative -Animate t-form	Noun Type=common Gender=masculine Number=plural Case=nominative Animate=no Article=t-form
+01N010102010202	Ncmpnyv	Noun common masculine plural nominative +Animate v-form	Noun Type=common Gender=masculine Number=plural Case=nominative Animate=yes Article=v-form
+01N010102020000	Ncmpg	Noun common masculine plural genitive	Noun Type=common Gender=masculine Number=plural Case=genitive
+01N010102030000	Ncmpd	Noun common masculine plural dative	Noun Type=common Gender=masculine Number=plural Case=dative
+01N010102040000	Ncmpa	Noun common masculine plural accusative	Noun Type=common Gender=masculine Number=plural Case=accusative
+01N010102040001	Ncmpa-t	Noun common masculine plural accusative t-form	Noun Type=common Gender=masculine Number=plural Case=accusative Article=t-form
+01N010102040003	Ncmpa-n	Noun common masculine plural accusative n-form	Noun Type=common Gender=masculine Number=plural Case=accusative Article=n-form
+01N010102060000	Ncmpl	Noun common masculine plural locative	Noun Type=common Gender=masculine Number=plural Case=locative
+01N010102070000	Ncmpi	Noun common masculine plural instrumental	Noun Type=common Gender=masculine Number=plural Case=instrumental
+01N010201010000	Ncfsn	Noun common feminine singular nominative	Noun Type=common Gender=feminine Number=singular Case=nominative
+01N010201010001	Ncfsn-t	Noun common feminine singular nominative t-form	Noun Type=common Gender=feminine Number=singular Case=nominative Article=t-form
+01N010201010002	Ncfsn-v	Noun common feminine singular nominative v-form	Noun Type=common Gender=feminine Number=singular Case=nominative Article=v-form
+01N010201010003	Ncfsn-n	Noun common feminine singular nominative n-form	Noun Type=common Gender=feminine Number=singular Case=nominative Article=n-form
+01N010201010101	Ncfsnnt	Noun common feminine singular nominative -Animate t-form	Noun Type=common Gender=feminine Number=singular Case=nominative Animate=no Article=t-form
+01N010201010201	Ncfsnyt	Noun common feminine singular nominative +Animate t-form	Noun Type=common Gender=feminine Number=singular Case=nominative Animate=yes Article=t-form
+01N010201020000	Ncfsg	Noun common feminine singular genitive	Noun Type=common Gender=feminine Number=singular Case=genitive
+01N010201030000	Ncfsd	Noun common feminine singular dative	Noun Type=common Gender=feminine Number=singular Case=dative
+01N010201040000	Ncfsa	Noun common feminine singular accusative	Noun Type=common Gender=feminine Number=singular Case=accusative
+01N010201040001	Ncfsa-t	Noun common feminine singular accusative t-form	Noun Type=common Gender=feminine Number=singular Case=accusative Article=t-form
+01N010201040002	Ncfsa-v	Noun common feminine singular accusative v-form	Noun Type=common Gender=feminine Number=singular Case=accusative Article=v-form
+01N010201040003	Ncfsa-n	Noun common feminine singular accusative n-form	Noun Type=common Gender=feminine Number=singular Case=accusative Article=n-form
+01N010201040101	Ncfsant	Noun common feminine singular accusative -Animate t-form	Noun Type=common Gender=feminine Number=singular Case=accusative Animate=no Article=t-form
+01N010201040102	Ncfsanv	Noun common feminine singular accusative -Animate v-form	Noun Type=common Gender=feminine Number=singular Case=accusative Animate=no Article=v-form
+01N010201040103	Ncfsann	Noun common feminine singular accusative -Animate n-form	Noun Type=common Gender=feminine Number=singular Case=accusative Animate=no Article=n-form
+01N010201040201	Ncfsayt	Noun common feminine singular accusative +Animate t-form	Noun Type=common Gender=feminine Number=singular Case=accusative Animate=yes Article=t-form
+01N010201050000	Ncfsv	Noun common feminine singular vocative	Noun Type=common Gender=feminine Number=singular Case=vocative
+01N010201060000	Ncfsl	Noun common feminine singular locative	Noun Type=common Gender=feminine Number=singular Case=locative
+01N010201070000	Ncfsi	Noun common feminine singular instrumental	Noun Type=common Gender=feminine Number=singular Case=instrumental
+01N010202010000	Ncfpn	Noun common feminine plural nominative	Noun Type=common Gender=feminine Number=plural Case=nominative
+01N010202010001	Ncfpn-t	Noun common feminine plural nominative t-form	Noun Type=common Gender=feminine Number=plural Case=nominative Article=t-form
+01N010202010002	Ncfpn-v	Noun common feminine plural nominative v-form	Noun Type=common Gender=feminine Number=plural Case=nominative Article=v-form
+01N010202010003	Ncfpn-n	Noun common feminine plural nominative n-form	Noun Type=common Gender=feminine Number=plural Case=nominative Article=n-form
+01N010202010101	Ncfpnnt	Noun common feminine plural nominative -Animate t-form	Noun Type=common Gender=feminine Number=plural Case=nominative Animate=no Article=t-form
+01N010202010102	Ncfpnnv	Noun common feminine plural nominative -Animate v-form	Noun Type=common Gender=feminine Number=plural Case=nominative Animate=no Article=v-form
+01N010202010201	Ncfpnyt	Noun common feminine plural nominative +Animate t-form	Noun Type=common Gender=feminine Number=plural Case=nominative Animate=yes Article=t-form
+01N010202010202	Ncfpnyv	Noun common feminine plural nominative +Animate v-form	Noun Type=common Gender=feminine Number=plural Case=nominative Animate=yes Article=v-form
+01N010202020000	Ncfpg	Noun common feminine plural genitive	Noun Type=common Gender=feminine Number=plural Case=genitive
+01N010202030000	Ncfpd	Noun common feminine plural dative	Noun Type=common Gender=feminine Number=plural Case=dative
+01N010202040000	Ncfpa	Noun common feminine plural accusative	Noun Type=common Gender=feminine Number=plural Case=accusative
+01N010202040001	Ncfpa-t	Noun common feminine plural accusative t-form	Noun Type=common Gender=feminine Number=plural Case=accusative Article=t-form
+01N010202040002	Ncfpa-v	Noun common feminine plural accusative v-form	Noun Type=common Gender=feminine Number=plural Case=accusative Article=v-form
+01N010202060000	Ncfpl	Noun common feminine plural locative	Noun Type=common Gender=feminine Number=plural Case=locative
+01N010202070000	Ncfpi	Noun common feminine plural instrumental	Noun Type=common Gender=feminine Number=plural Case=instrumental
+01N010301010000	Ncnsn	Noun common neuter singular nominative	Noun Type=common Gender=neuter Number=singular Case=nominative
+01N010301010001	Ncnsn-t	Noun common neuter singular nominative t-form	Noun Type=common Gender=neuter Number=singular Case=nominative Article=t-form
+01N010301010002	Ncnsn-v	Noun common neuter singular nominative v-form	Noun Type=common Gender=neuter Number=singular Case=nominative Article=v-form
+01N010301010003	Ncnsn-n	Noun common neuter singular nominative n-form	Noun Type=common Gender=neuter Number=singular Case=nominative Article=n-form
+01N010301010101	Ncnsnnt	Noun common neuter singular nominative -Animate t-form	Noun Type=common Gender=neuter Number=singular Case=nominative Animate=no Article=t-form
+01N010301010102	Ncnsnnv	Noun common neuter singular nominative -Animate v-form	Noun Type=common Gender=neuter Number=singular Case=nominative Animate=no Article=v-form
+01N010301010103	Ncnsnnn	Noun common neuter singular nominative -Animate n-form	Noun Type=common Gender=neuter Number=singular Case=nominative Animate=no Article=n-form
+01N010301020000	Ncnsg	Noun common neuter singular genitive	Noun Type=common Gender=neuter Number=singular Case=genitive
+01N010301030000	Ncnsd	Noun common neuter singular dative	Noun Type=common Gender=neuter Number=singular Case=dative
+01N010301040000	Ncnsa	Noun common neuter singular accusative	Noun Type=common Gender=neuter Number=singular Case=accusative
+01N010301040001	Ncnsa-t	Noun common neuter singular accusative t-form	Noun Type=common Gender=neuter Number=singular Case=accusative Article=t-form
+01N010301040200	Ncnsay	Noun common neuter singular accusative +Animate	Noun Type=common Gender=neuter Number=singular Case=accusative Animate=yes
+01N010301040201	Ncnsayt	Noun common neuter singular accusative +Animate t-form	Noun Type=common Gender=neuter Number=singular Case=accusative Animate=yes Article=t-form
+01N010301050000	Ncnsv	Noun common neuter singular vocative	Noun Type=common Gender=neuter Number=singular Case=vocative
+01N010301060000	Ncnsl	Noun common neuter singular locative	Noun Type=common Gender=neuter Number=singular Case=locative
+01N010301070000	Ncnsi	Noun common neuter singular instrumental	Noun Type=common Gender=neuter Number=singular Case=instrumental
+01N010302010000	Ncnpn	Noun common neuter plural nominative	Noun Type=common Gender=neuter Number=plural Case=nominative
+01N010302010001	Ncnpn-t	Noun common neuter plural nominative t-form	Noun Type=common Gender=neuter Number=plural Case=nominative Article=t-form
+01N010302010002	Ncnpn-v	Noun common neuter plural nominative v-form	Noun Type=common Gender=neuter Number=plural Case=nominative Article=v-form
+01N010302010003	Ncnpn-n	Noun common neuter plural nominative n-form	Noun Type=common Gender=neuter Number=plural Case=nominative Article=n-form
+01N010302010201	Ncnpnyt	Noun common neuter plural nominative +Animate t-form	Noun Type=common Gender=neuter Number=plural Case=nominative Animate=yes Article=t-form
+01N010302020000	Ncnpg	Noun common neuter plural genitive	Noun Type=common Gender=neuter Number=plural Case=genitive
+01N010302030000	Ncnpd	Noun common neuter plural dative	Noun Type=common Gender=neuter Number=plural Case=dative
+01N010302040000	Ncnpa	Noun common neuter plural accusative	Noun Type=common Gender=neuter Number=plural Case=accusative
+01N010302040102	Ncnpanv	Noun common neuter plural accusative -Animate v-form	Noun Type=common Gender=neuter Number=plural Case=accusative Animate=no Article=v-form
+01N010302060000	Ncnpl	Noun common neuter plural locative	Noun Type=common Gender=neuter Number=plural Case=locative
+01N010302070000	Ncnpi	Noun common neuter plural instrumental	Noun Type=common Gender=neuter Number=plural Case=instrumental
+01N020101010000	Npmsn	Noun proper masculine singular nominative	Noun Type=proper Gender=masculine Number=singular Case=nominative
+01N020101010001	Npmsn-t	Noun proper masculine singular nominative t-form	Noun Type=proper Gender=masculine Number=singular Case=nominative Article=t-form
+01N020101020000	Npmsg	Noun proper masculine singular genitive	Noun Type=proper Gender=masculine Number=singular Case=genitive
+01N020101030000	Npmsd	Noun proper masculine singular dative	Noun Type=proper Gender=masculine Number=singular Case=dative
+01N020101040100	Npmsan	Noun proper masculine singular accusative -Animate	Noun Type=proper Gender=masculine Number=singular Case=accusative Animate=no
+01N020101040200	Npmsay	Noun proper masculine singular accusative +Animate	Noun Type=proper Gender=masculine Number=singular Case=accusative Animate=yes
+01N020101050000	Npmsv	Noun proper masculine singular vocative	Noun Type=proper Gender=masculine Number=singular Case=vocative
+01N020101060000	Npmsl	Noun proper masculine singular locative	Noun Type=proper Gender=masculine Number=singular Case=locative
+01N020101070000	Npmsi	Noun proper masculine singular instrumental	Noun Type=proper Gender=masculine Number=singular Case=instrumental
+01N020102010000	Npmpn	Noun proper masculine plural nominative	Noun Type=proper Gender=masculine Number=plural Case=nominative
+01N020102010001	Npmpn-t	Noun proper masculine plural nominative t-form	Noun Type=proper Gender=masculine Number=plural Case=nominative Article=t-form
+01N020102020000	Npmpg	Noun proper masculine plural genitive	Noun Type=proper Gender=masculine Number=plural Case=genitive
+01N020102030000	Npmpd	Noun proper masculine plural dative	Noun Type=proper Gender=masculine Number=plural Case=dative
+01N020102040000	Npmpa	Noun proper masculine plural accusative	Noun Type=proper Gender=masculine Number=plural Case=accusative
+01N020102070000	Npmpi	Noun proper masculine plural instrumental	Noun Type=proper Gender=masculine Number=plural Case=instrumental
+01N020201010000	Npfsn	Noun proper feminine singular nominative	Noun Type=proper Gender=feminine Number=singular Case=nominative
+01N020201020000	Npfsg	Noun proper feminine singular genitive	Noun Type=proper Gender=feminine Number=singular Case=genitive
+01N020201030000	Npfsd	Noun proper feminine singular dative	Noun Type=proper Gender=feminine Number=singular Case=dative
+01N020201040000	Npfsa	Noun proper feminine singular accusative	Noun Type=proper Gender=feminine Number=singular Case=accusative
+01N020201050000	Npfsv	Noun proper feminine singular vocative	Noun Type=proper Gender=feminine Number=singular Case=vocative
+01N020201060000	Npfsl	Noun proper feminine singular locative	Noun Type=proper Gender=feminine Number=singular Case=locative
+01N020201070000	Npfsi	Noun proper feminine singular instrumental	Noun Type=proper Gender=feminine Number=singular Case=instrumental
+01N020202020000	Npfpg	Noun proper feminine plural genitive	Noun Type=proper Gender=feminine Number=plural Case=genitive
+01N020202040000	Npfpa	Noun proper feminine plural accusative	Noun Type=proper Gender=feminine Number=plural Case=accusative
+01N020301010000	Npnsn	Noun proper neuter singular nominative	Noun Type=proper Gender=neuter Number=singular Case=nominative
+01N020301010001	Npnsn-t	Noun proper neuter singular nominative t-form	Noun Type=proper Gender=neuter Number=singular Case=nominative Article=t-form
+01N020301020000	Npnsg	Noun proper neuter singular genitive	Noun Type=proper Gender=neuter Number=singular Case=genitive
+01N020301040000	Npnsa	Noun proper neuter singular accusative	Noun Type=proper Gender=neuter Number=singular Case=accusative
+01N020301060000	Npnsl	Noun proper neuter singular locative	Noun Type=proper Gender=neuter Number=singular Case=locative
+01N020302040000	Npnpa	Noun proper neuter plural accusative	Noun Type=proper Gender=neuter Number=plural Case=accusative
+02V010100000000	Vmn	Verb main infinitive	Verb Type=main VForm=infinitive
+02V010200010100	Vmp-sm	Verb main participle singular masculine	Verb Type=main VForm=participle Number=singular Gender=masculine
+02V010200010200	Vmp-sf	Verb main participle singular feminine	Verb Type=main VForm=participle Number=singular Gender=feminine
+02V010200010300	Vmp-sn	Verb main participle singular neuter	Verb Type=main VForm=participle Number=singular Gender=neuter
+02V010200020100	Vmp-pm	Verb main participle plural masculine	Verb Type=main VForm=participle Number=plural Gender=masculine
+02V010200020200	Vmp-pf	Verb main participle plural feminine	Verb Type=main VForm=participle Number=plural Gender=feminine
+02V010200020300	Vmp-pn	Verb main participle plural neuter	Verb Type=main VForm=participle Number=plural Gender=neuter
+02V010301010000	Vmr1s	Verb main present first singular	Verb Type=main VForm=present Person=first Number=singular
+02V010301020000	Vmr1p	Verb main present first plural	Verb Type=main VForm=present Person=first Number=plural
+02V010302010000	Vmr2s	Verb main present second singular	Verb Type=main VForm=present Person=second Number=singular
+02V010302020000	Vmr2p	Verb main present second plural	Verb Type=main VForm=present Person=second Number=plural
+02V010303010000	Vmr3s	Verb main present third singular	Verb Type=main VForm=present Person=third Number=singular
+02V010303020000	Vmr3p	Verb main present third plural	Verb Type=main VForm=present Person=third Number=plural
+02V010401010000	Vmf1s	Verb main future first singular	Verb Type=main VForm=future Person=first Number=singular
+02V010401020000	Vmf1p	Verb main future first plural	Verb Type=main VForm=future Person=first Number=plural
+02V010403010000	Vmf3s	Verb main future third singular	Verb Type=main VForm=future Person=third Number=singular
+02V010403020000	Vmf3p	Verb main future third plural	Verb Type=main VForm=future Person=third Number=plural
+02V010502010000	Vmm2s	Verb main imperative second singular	Verb Type=main VForm=imperative Person=second Number=singular
+02V010502020000	Vmm2p	Verb main imperative second plural	Verb Type=main VForm=imperative Person=second Number=plural
+02V010601010000	Vma1s	Verb main aorist first singular	Verb Type=main VForm=aorist Person=first Number=singular
+02V010601020000	Vma1p	Verb main aorist first plural	Verb Type=main VForm=aorist Person=first Number=plural
+02V010603010000	Vma3s	Verb main aorist third singular	Verb Type=main VForm=aorist Person=third Number=singular
+02V010603020000	Vma3p	Verb main aorist third plural	Verb Type=main VForm=aorist Person=third Number=plural
+02V010703010000	Vme3s	Verb main imperfect third singular	Verb Type=main VForm=imperfect Person=third Number=singular
+02V010703020000	Vme3p	Verb main imperfect third plural	Verb Type=main VForm=imperfect Person=third Number=plural
+02V020100000000	Van	Verb auxiliary infinitive	Verb Type=auxiliary VForm=infinitive
+02V020200010100	Vap-sm	Verb auxiliary participle singular masculine	Verb Type=auxiliary VForm=participle Number=singular Gender=masculine
+02V020200010200	Vap-sf	Verb auxiliary participle singular feminine	Verb Type=auxiliary VForm=participle Number=singular Gender=feminine
+02V020200010300	Vap-sn	Verb auxiliary participle singular neuter	Verb Type=auxiliary VForm=participle Number=singular Gender=neuter
+02V020200020100	Vap-pm	Verb auxiliary participle plural masculine	Verb Type=auxiliary VForm=participle Number=plural Gender=masculine
+02V020301010000	Var1s	Verb auxiliary present first singular	Verb Type=auxiliary VForm=present Person=first Number=singular
+02V020301020000	Var1p	Verb auxiliary present first plural	Verb Type=auxiliary VForm=present Person=first Number=plural
+02V020302010000	Var2s	Verb auxiliary present second singular	Verb Type=auxiliary VForm=present Person=second Number=singular
+02V020302020000	Var2p	Verb auxiliary present second plural	Verb Type=auxiliary VForm=present Person=second Number=plural
+02V020303010000	Var3s	Verb auxiliary present third singular	Verb Type=auxiliary VForm=present Person=third Number=singular
+02V020303020000	Var3p	Verb auxiliary present third plural	Verb Type=auxiliary VForm=present Person=third Number=plural
+02V020403010000	Vaf3s	Verb auxiliary future third singular	Verb Type=auxiliary VForm=future Person=third Number=singular
+02V020403020000	Vaf3p	Verb auxiliary future third plural	Verb Type=auxiliary VForm=future Person=third Number=plural
+02V020601010000	Vaa1s	Verb auxiliary aorist first singular	Verb Type=auxiliary VForm=aorist Person=first Number=singular
+02V020601020000	Vaa1p	Verb auxiliary aorist first plural	Verb Type=auxiliary VForm=aorist Person=first Number=plural
+02V020603010000	Vaa3s	Verb auxiliary aorist third singular	Verb Type=auxiliary VForm=aorist Person=third Number=singular
+02V020603020000	Vaa3p	Verb auxiliary aorist third plural	Verb Type=auxiliary VForm=aorist Person=third Number=plural
+02V020703010000	Vae3s	Verb auxiliary imperfect third singular	Verb Type=auxiliary VForm=imperfect Person=third Number=singular
+02V020703020000	Vae3p	Verb auxiliary imperfect third plural	Verb Type=auxiliary VForm=imperfect Person=third Number=plural
+02V030200010100	Vcp-sm	Verb copula participle singular masculine	Verb Type=copula VForm=participle Number=singular Gender=masculine
+02V030200010200	Vcp-sf	Verb copula participle singular feminine	Verb Type=copula VForm=participle Number=singular Gender=feminine
+02V030200010300	Vcp-sn	Verb copula participle singular neuter	Verb Type=copula VForm=participle Number=singular Gender=neuter
+02V030200020100	Vcp-pm	Verb copula participle plural masculine	Verb Type=copula VForm=participle Number=plural Gender=masculine
+02V030200020200	Vcp-pf	Verb copula participle plural feminine	Verb Type=copula VForm=participle Number=plural Gender=feminine
+02V030301010000	Vcr1s	Verb copula present first singular	Verb Type=copula VForm=present Person=first Number=singular
+02V030301020000	Vcr1p	Verb copula present first plural	Verb Type=copula VForm=present Person=first Number=plural
+02V030302010000	Vcr2s	Verb copula present second singular	Verb Type=copula VForm=present Person=second Number=singular
+02V030302020000	Vcr2p	Verb copula present second plural	Verb Type=copula VForm=present Person=second Number=plural
+02V030303010000	Vcr3s	Verb copula present third singular	Verb Type=copula VForm=present Person=third Number=singular
+02V030303020000	Vcr3p	Verb copula present third plural	Verb Type=copula VForm=present Person=third Number=plural
+02V030603010000	Vca3s	Verb copula aorist third singular	Verb Type=copula VForm=aorist Person=third Number=singular
+02V030703010000	Vce3s	Verb copula imperfect third singular	Verb Type=copula VForm=imperfect Person=third Number=singular
+03A0101010101010000	Agpmsnn	Adjective general positive masculine singular nominative -Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=no
+03A0101010101010001	Agpmsnn-t	Adjective general positive masculine singular nominative -Definiteness t-form	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=no Article=t-form
+03A0101010101020000	Agpmsny	Adjective general positive masculine singular nominative +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=yes
+03A0101010101020001	Agpmsny-t	Adjective general positive masculine singular nominative +Definiteness t-form	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=yes Article=t-form
+03A0101010102010000	Agpmsgn	Adjective general positive masculine singular genitive -Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=genitive Definiteness=no
+03A0101010102020000	Agpmsgy	Adjective general positive masculine singular genitive +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=genitive Definiteness=yes
+03A0101010104010100	Agpmsann	Adjective general positive masculine singular accusative -Definiteness -Animate	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=no Animate=no
+03A0101010104020100	Agpmsayn	Adjective general positive masculine singular accusative +Definiteness -Animate	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=yes Animate=no
+03A0101010104020200	Agpmsayy	Adjective general positive masculine singular accusative +Definiteness +Animate	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=yes Animate=yes
+03A0101010105020000	Agpmsvy	Adjective general positive masculine singular vocative +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=vocative Definiteness=yes
+03A0101010106020000	Agpmsly	Adjective general positive masculine singular locative +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=locative Definiteness=yes
+03A0101010107020000	Agpmsiy	Adjective general positive masculine singular instrumental +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=singular Case=instrumental Definiteness=yes
+03A0101010201000200	Agpmpn-y	Adjective general positive masculine plural nominative +Animate	Adjective Type=general Degree=positive Gender=masculine Number=plural Case=nominative Animate=yes
+03A0101010201010000	Agpmpnn	Adjective general positive masculine plural nominative -Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=plural Case=nominative Definiteness=no
+03A0101010201020000	Agpmpny	Adjective general positive masculine plural nominative +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=plural Case=nominative Definiteness=yes
+03A0101010202020000	Agpmpgy	Adjective general positive masculine plural genitive +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=plural Case=genitive Definiteness=yes
+03A0101010203020000	Agpmpdy	Adjective general positive masculine plural dative +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=plural Case=dative Definiteness=yes
+03A0101010204020000	Agpmpay	Adjective general positive masculine plural accusative +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=plural Case=accusative Definiteness=yes
+03A0101010204020001	Agpmpay-t	Adjective general positive masculine plural accusative +Definiteness t-form	Adjective Type=general Degree=positive Gender=masculine Number=plural Case=accusative Definiteness=yes Article=t-form
+03A0101010206020000	Agpmply	Adjective general positive masculine plural locative +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=plural Case=locative Definiteness=yes
+03A0101010207020000	Agpmpiy	Adjective general positive masculine plural instrumental +Definiteness	Adjective Type=general Degree=positive Gender=masculine Number=plural Case=instrumental Definiteness=yes
+03A0101020101020000	Agpfsny	Adjective general positive feminine singular nominative +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes
+03A0101020101020001	Agpfsny-t	Adjective general positive feminine singular nominative +Definiteness t-form	Adjective Type=general Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes Article=t-form
+03A0101020102020000	Agpfsgy	Adjective general positive feminine singular genitive +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=yes
+03A0101020103020000	Agpfsdy	Adjective general positive feminine singular dative +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=singular Case=dative Definiteness=yes
+03A0101020104020000	Agpfsay	Adjective general positive feminine singular accusative +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=singular Case=accusative Definiteness=yes
+03A0101020104020001	Agpfsay-t	Adjective general positive feminine singular accusative +Definiteness t-form	Adjective Type=general Degree=positive Gender=feminine Number=singular Case=accusative Definiteness=yes Article=t-form
+03A0101020106020000	Agpfsly	Adjective general positive feminine singular locative +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=singular Case=locative Definiteness=yes
+03A0101020107020000	Agpfsiy	Adjective general positive feminine singular instrumental +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=singular Case=instrumental Definiteness=yes
+03A0101020201020000	Agpfpny	Adjective general positive feminine plural nominative +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=plural Case=nominative Definiteness=yes
+03A0101020201020001	Agpfpny-t	Adjective general positive feminine plural nominative +Definiteness t-form	Adjective Type=general Degree=positive Gender=feminine Number=plural Case=nominative Definiteness=yes Article=t-form
+03A0101020202020000	Agpfpgy	Adjective general positive feminine plural genitive +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=plural Case=genitive Definiteness=yes
+03A0101020203020000	Agpfpdy	Adjective general positive feminine plural dative +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=plural Case=dative Definiteness=yes
+03A0101020204020000	Agpfpay	Adjective general positive feminine plural accusative +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=plural Case=accusative Definiteness=yes
+03A0101020206020000	Agpfply	Adjective general positive feminine plural locative +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=plural Case=locative Definiteness=yes
+03A0101020207020000	Agpfpiy	Adjective general positive feminine plural instrumental +Definiteness	Adjective Type=general Degree=positive Gender=feminine Number=plural Case=instrumental Definiteness=yes
+03A0101030101020000	Agpnsny	Adjective general positive neuter singular nominative +Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes
+03A0101030101020001	Agpnsny-t	Adjective general positive neuter singular nominative +Definiteness t-form	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=t-form
+03A0101030101020002	Agpnsny-v	Adjective general positive neuter singular nominative +Definiteness v-form	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=v-form
+03A0101030101020003	Agpnsny-n	Adjective general positive neuter singular nominative +Definiteness n-form	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=n-form
+03A0101030102010000	Agpnsgn	Adjective general positive neuter singular genitive -Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=genitive Definiteness=no
+03A0101030102020000	Agpnsgy	Adjective general positive neuter singular genitive +Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=genitive Definiteness=yes
+03A0101030104010200	Agpnsany	Adjective general positive neuter singular accusative -Definiteness +Animate	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=accusative Definiteness=no Animate=yes
+03A0101030104020000	Agpnsay	Adjective general positive neuter singular accusative +Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=accusative Definiteness=yes
+03A0101030106020000	Agpnsly	Adjective general positive neuter singular locative +Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=locative Definiteness=yes
+03A0101030107020000	Agpnsiy	Adjective general positive neuter singular instrumental +Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=singular Case=instrumental Definiteness=yes
+03A0101030201020000	Agpnpny	Adjective general positive neuter plural nominative +Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=plural Case=nominative Definiteness=yes
+03A0101030202020000	Agpnpgy	Adjective general positive neuter plural genitive +Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=plural Case=genitive Definiteness=yes
+03A0101030203020000	Agpnpdy	Adjective general positive neuter plural dative +Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=plural Case=dative Definiteness=yes
+03A0101030204020000	Agpnpay	Adjective general positive neuter plural accusative +Definiteness	Adjective Type=general Degree=positive Gender=neuter Number=plural Case=accusative Definiteness=yes
+03A0102010101010000	Agcmsnn	Adjective general comparative masculine singular nominative -Definiteness	Adjective Type=general Degree=comparative Gender=masculine Number=singular Case=nominative Definiteness=no
+03A0102010101020000	Agcmsny	Adjective general comparative masculine singular nominative +Definiteness	Adjective Type=general Degree=comparative Gender=masculine Number=singular Case=nominative Definiteness=yes
+03A0102010102020000	Agcmsgy	Adjective general comparative masculine singular genitive +Definiteness	Adjective Type=general Degree=comparative Gender=masculine Number=singular Case=genitive Definiteness=yes
+03A0102010104020100	Agcmsayn	Adjective general comparative masculine singular accusative +Definiteness -Animate	Adjective Type=general Degree=comparative Gender=masculine Number=singular Case=accusative Definiteness=yes Animate=no
+03A0102010107020000	Agcmsiy	Adjective general comparative masculine singular instrumental +Definiteness	Adjective Type=general Degree=comparative Gender=masculine Number=singular Case=instrumental Definiteness=yes
+03A0102010201020000	Agcmpny	Adjective general comparative masculine plural nominative +Definiteness	Adjective Type=general Degree=comparative Gender=masculine Number=plural Case=nominative Definiteness=yes
+03A0102020101020000	Agcfsny	Adjective general comparative feminine singular nominative +Definiteness	Adjective Type=general Degree=comparative Gender=feminine Number=singular Case=nominative Definiteness=yes
+03A0102020102020000	Agcfsgy	Adjective general comparative feminine singular genitive +Definiteness	Adjective Type=general Degree=comparative Gender=feminine Number=singular Case=genitive Definiteness=yes
+03A0102020104020000	Agcfsay	Adjective general comparative feminine singular accusative +Definiteness	Adjective Type=general Degree=comparative Gender=feminine Number=singular Case=accusative Definiteness=yes
+03A0102020204020000	Agcfpay	Adjective general comparative feminine plural accusative +Definiteness	Adjective Type=general Degree=comparative Gender=feminine Number=plural Case=accusative Definiteness=yes
+03A0102030101020000	Agcnsny	Adjective general comparative neuter singular nominative +Definiteness	Adjective Type=general Degree=comparative Gender=neuter Number=singular Case=nominative Definiteness=yes
+03A0102030101020001	Agcnsny-t	Adjective general comparative neuter singular nominative +Definiteness t-form	Adjective Type=general Degree=comparative Gender=neuter Number=singular Case=nominative Definiteness=yes Article=t-form
+03A0102030104020000	Agcnsay	Adjective general comparative neuter singular accusative +Definiteness	Adjective Type=general Degree=comparative Gender=neuter Number=singular Case=accusative Definiteness=yes
+03A0103010101020000	Agsmsny	Adjective general superlative masculine singular nominative +Definiteness	Adjective Type=general Degree=superlative Gender=masculine Number=singular Case=nominative Definiteness=yes
+03A0103010104020100	Agsmsayn	Adjective general superlative masculine singular accusative +Definiteness -Animate	Adjective Type=general Degree=superlative Gender=masculine Number=singular Case=accusative Definiteness=yes Animate=no
+03A0103010106020000	Agsmsly	Adjective general superlative masculine singular locative +Definiteness	Adjective Type=general Degree=superlative Gender=masculine Number=singular Case=locative Definiteness=yes
+03A0103010202020000	Agsmpgy	Adjective general superlative masculine plural genitive +Definiteness	Adjective Type=general Degree=superlative Gender=masculine Number=plural Case=genitive Definiteness=yes
+03A0103010204020000	Agsmpay	Adjective general superlative masculine plural accusative +Definiteness	Adjective Type=general Degree=superlative Gender=masculine Number=plural Case=accusative Definiteness=yes
+03A0103020101020000	Agsfsny	Adjective general superlative feminine singular nominative +Definiteness	Adjective Type=general Degree=superlative Gender=feminine Number=singular Case=nominative Definiteness=yes
+03A0103020104020000	Agsfsay	Adjective general superlative feminine singular accusative +Definiteness	Adjective Type=general Degree=superlative Gender=feminine Number=singular Case=accusative Definiteness=yes
+03A0103020202020000	Agsfpgy	Adjective general superlative feminine plural genitive +Definiteness	Adjective Type=general Degree=superlative Gender=feminine Number=plural Case=genitive Definiteness=yes
+03A0103020204020000	Agsfpay	Adjective general superlative feminine plural accusative +Definiteness	Adjective Type=general Degree=superlative Gender=feminine Number=plural Case=accusative Definiteness=yes
+03A0103030101020000	Agsnsny	Adjective general superlative neuter singular nominative +Definiteness	Adjective Type=general Degree=superlative Gender=neuter Number=singular Case=nominative Definiteness=yes
+03A0201010101010000	Aspmsnn	Adjective possessive positive masculine singular nominative -Definiteness	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=no
+03A0201010101020000	Aspmsny	Adjective possessive positive masculine singular nominative +Definiteness	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=yes
+03A0201010103020000	Aspmsdy	Adjective possessive positive masculine singular dative +Definiteness	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=dative Definiteness=yes
+03A0201010104010100	Aspmsann	Adjective possessive positive masculine singular accusative -Definiteness -Animate	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=no Animate=no
+03A0201010201020000	Aspmpny	Adjective possessive positive masculine plural nominative +Definiteness	Adjective Type=possessive Degree=positive Gender=masculine Number=plural Case=nominative Definiteness=yes
+03A0201020101020000	Aspfsny	Adjective possessive positive feminine singular nominative +Definiteness	Adjective Type=possessive Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes
+03A0201020102020000	Aspfsgy	Adjective possessive positive feminine singular genitive +Definiteness	Adjective Type=possessive Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=yes
+03A0201020104020000	Aspfsay	Adjective possessive positive feminine singular accusative +Definiteness	Adjective Type=possessive Degree=positive Gender=feminine Number=singular Case=accusative Definiteness=yes
+03A0201020201020000	Aspfpny	Adjective possessive positive feminine plural nominative +Definiteness	Adjective Type=possessive Degree=positive Gender=feminine Number=plural Case=nominative Definiteness=yes
+03A0201020202020000	Aspfpgy	Adjective possessive positive feminine plural genitive +Definiteness	Adjective Type=possessive Degree=positive Gender=feminine Number=plural Case=genitive Definiteness=yes
+03A0201030104020000	Aspnsay	Adjective possessive positive neuter singular accusative +Definiteness	Adjective Type=possessive Degree=positive Gender=neuter Number=singular Case=accusative Definiteness=yes
+03A0301010101010000	Appmsnn	Adjective participle positive masculine singular nominative -Definiteness	Adjective Type=participle Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=no
+03A0301010101020000	Appmsny	Adjective participle positive masculine singular nominative +Definiteness	Adjective Type=participle Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=yes
+03A0301010105020000	Appmsvy	Adjective participle positive masculine singular vocative +Definiteness	Adjective Type=participle Degree=positive Gender=masculine Number=singular Case=vocative Definiteness=yes
+03A0301010201020000	Appmpny	Adjective participle positive masculine plural nominative +Definiteness	Adjective Type=participle Degree=positive Gender=masculine Number=plural Case=nominative Definiteness=yes
+03A0301020101020000	Appfsny	Adjective participle positive feminine singular nominative +Definiteness	Adjective Type=participle Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes
+03A0301020102020000	Appfsgy	Adjective participle positive feminine singular genitive +Definiteness	Adjective Type=participle Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=yes
+03A0301020104020000	Appfsay	Adjective participle positive feminine singular accusative +Definiteness	Adjective Type=participle Degree=positive Gender=feminine Number=singular Case=accusative Definiteness=yes
+03A0301020201020000	Appfpny	Adjective participle positive feminine plural nominative +Definiteness	Adjective Type=participle Degree=positive Gender=feminine Number=plural Case=nominative Definiteness=yes
+03A0301020204020000	Appfpay	Adjective participle positive feminine plural accusative +Definiteness	Adjective Type=participle Degree=positive Gender=feminine Number=plural Case=accusative Definiteness=yes
+03A0301030101020000	Appnsny	Adjective participle positive neuter singular nominative +Definiteness	Adjective Type=participle Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes
+03A0301030101020001	Appnsny-t	Adjective participle positive neuter singular nominative +Definiteness t-form	Adjective Type=participle Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=t-form
+03A0301030104020000	Appnsay	Adjective participle positive neuter singular accusative +Definiteness	Adjective Type=participle Degree=positive Gender=neuter Number=singular Case=accusative Definiteness=yes
+03A0301030201020000	Appnpny	Adjective participle positive neuter plural nominative +Definiteness	Adjective Type=participle Degree=positive Gender=neuter Number=plural Case=nominative Definiteness=yes
+04P01010001010000	Pp1-sn	Pronoun personal first singular nominative	Pronoun Type=personal Person=first Number=singular Case=nominative
+04P01010001020000	Pp1-sg	Pronoun personal first singular genitive	Pronoun Type=personal Person=first Number=singular Case=genitive
+04P01010001030000	Pp1-sd	Pronoun personal first singular dative	Pronoun Type=personal Person=first Number=singular Case=dative
+04P01010001040000	Pp1-sa	Pronoun personal first singular accusative	Pronoun Type=personal Person=first Number=singular Case=accusative
+04P01010001040200	Pp1-say	Pronoun personal first singular accusative +Animate	Pronoun Type=personal Person=first Number=singular Case=accusative Animate=yes
+04P01010002010000	Pp1-pn	Pronoun personal first plural nominative	Pronoun Type=personal Person=first Number=plural Case=nominative
+04P01010002020000	Pp1-pg	Pronoun personal first plural genitive	Pronoun Type=personal Person=first Number=plural Case=genitive
+04P01010002020001	Pp1-pg-t	Pronoun personal first plural genitive t-form	Pronoun Type=personal Person=first Number=plural Case=genitive Article=t-form
+04P01010002030000	Pp1-pd	Pronoun personal first plural dative	Pronoun Type=personal Person=first Number=plural Case=dative
+04P01010002040000	Pp1-pa	Pronoun personal first plural accusative	Pronoun Type=personal Person=first Number=plural Case=accusative
+04P01010002050000	Pp1-pv	Pronoun personal first plural vocative	Pronoun Type=personal Person=first Number=plural Case=vocative
+04P01010102040000	Pp1mpa	Pronoun personal first masculine plural accusative	Pronoun Type=personal Person=first Gender=masculine Number=plural Case=accusative
+04P01010202010000	Pp1fpn	Pronoun personal first feminine plural nominative	Pronoun Type=personal Person=first Gender=feminine Number=plural Case=nominative
+04P01020001010000	Pp2-sn	Pronoun personal second singular nominative	Pronoun Type=personal Person=second Number=singular Case=nominative
+04P01020001030000	Pp2-sd	Pronoun personal second singular dative	Pronoun Type=personal Person=second Number=singular Case=dative
+04P01020001040000	Pp2-sa	Pronoun personal second singular accusative	Pronoun Type=personal Person=second Number=singular Case=accusative
+04P01020002010000	Pp2-pn	Pronoun personal second plural nominative	Pronoun Type=personal Person=second Number=plural Case=nominative
+04P01020002020000	Pp2-pg	Pronoun personal second plural genitive	Pronoun Type=personal Person=second Number=plural Case=genitive
+04P01020002030000	Pp2-pd	Pronoun personal second plural dative	Pronoun Type=personal Person=second Number=plural Case=dative
+04P01020002040000	Pp2-pa	Pronoun personal second plural accusative	Pronoun Type=personal Person=second Number=plural Case=accusative
+04P01020102010000	Pp2mpn	Pronoun personal second masculine plural nominative	Pronoun Type=personal Person=second Gender=masculine Number=plural Case=nominative
+04P01020201020000	Pp2fsg	Pronoun personal second feminine singular genitive	Pronoun Type=personal Person=second Gender=feminine Number=singular Case=genitive
+04P01020301030000	Pp2nsd	Pronoun personal second neuter singular dative	Pronoun Type=personal Person=second Gender=neuter Number=singular Case=dative
+04P01030002020000	Pp3-pg	Pronoun personal third plural genitive	Pronoun Type=personal Person=third Number=plural Case=genitive
+04P01030002030000	Pp3-pd	Pronoun personal third plural dative	Pronoun Type=personal Person=third Number=plural Case=dative
+04P01030002040000	Pp3-pa	Pronoun personal third plural accusative	Pronoun Type=personal Person=third Number=plural Case=accusative
+04P01030002070000	Pp3-pi	Pronoun personal third plural instrumental	Pronoun Type=personal Person=third Number=plural Case=instrumental
+04P01030101010000	Pp3msn	Pronoun personal third masculine singular nominative	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative
+04P01030101020000	Pp3msg	Pronoun personal third masculine singular genitive	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=genitive
+04P01030101030000	Pp3msd	Pronoun personal third masculine singular dative	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=dative
+04P01030101040000	Pp3msa	Pronoun personal third masculine singular accusative	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=accusative
+04P01030101060000	Pp3msl	Pronoun personal third masculine singular locative	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=locative
+04P01030101070000	Pp3msi	Pronoun personal third masculine singular instrumental	Pronoun Type=personal Person=third Gender=masculine Number=singular Case=instrumental
+04P01030102010000	Pp3mpn	Pronoun personal third masculine plural nominative	Pronoun Type=personal Person=third Gender=masculine Number=plural Case=nominative
+04P01030201010000	Pp3fsn	Pronoun personal third feminine singular nominative	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=nominative
+04P01030201020000	Pp3fsg	Pronoun personal third feminine singular genitive	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=genitive
+04P01030201030000	Pp3fsd	Pronoun personal third feminine singular dative	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=dative
+04P01030201040000	Pp3fsa	Pronoun personal third feminine singular accusative	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=accusative
+04P01030201070000	Pp3fsi	Pronoun personal third feminine singular instrumental	Pronoun Type=personal Person=third Gender=feminine Number=singular Case=instrumental
+04P01030202010000	Pp3fpn	Pronoun personal third feminine plural nominative	Pronoun Type=personal Person=third Gender=feminine Number=plural Case=nominative
+04P01030301010000	Pp3nsn	Pronoun personal third neuter singular nominative	Pronoun Type=personal Person=third Gender=neuter Number=singular Case=nominative
+04P02000101010000	Pd-msn	Pronoun demonstrative masculine singular nominative	Pronoun Type=demonstrative Gender=masculine Number=singular Case=nominative
+04P02000101020000	Pd-msg	Pronoun demonstrative masculine singular genitive	Pronoun Type=demonstrative Gender=masculine Number=singular Case=genitive
+04P02000101030000	Pd-msd	Pronoun demonstrative masculine singular dative	Pronoun Type=demonstrative Gender=masculine Number=singular Case=dative
+04P02000101040000	Pd-msa	Pronoun demonstrative masculine singular accusative	Pronoun Type=demonstrative Gender=masculine Number=singular Case=accusative
+04P02000101040100	Pd-msan	Pronoun demonstrative masculine singular accusative -Animate	Pronoun Type=demonstrative Gender=masculine Number=singular Case=accusative Animate=no
+04P02000101040200	Pd-msay	Pronoun demonstrative masculine singular accusative +Animate	Pronoun Type=demonstrative Gender=masculine Number=singular Case=accusative Animate=yes
+04P02000101070000	Pd-msi	Pronoun demonstrative masculine singular instrumental	Pronoun Type=demonstrative Gender=masculine Number=singular Case=instrumental
+04P02000102010000	Pd-mpn	Pronoun demonstrative masculine plural nominative	Pronoun Type=demonstrative Gender=masculine Number=plural Case=nominative
+04P02000102020000	Pd-mpg	Pronoun demonstrative masculine plural genitive	Pronoun Type=demonstrative Gender=masculine Number=plural Case=genitive
+04P02000102030000	Pd-mpd	Pronoun demonstrative masculine plural dative	Pronoun Type=demonstrative Gender=masculine Number=plural Case=dative
+04P02000102040000	Pd-mpa	Pronoun demonstrative masculine plural accusative	Pronoun Type=demonstrative Gender=masculine Number=plural Case=accusative
+04P02000102060000	Pd-mpl	Pronoun demonstrative masculine plural locative	Pronoun Type=demonstrative Gender=masculine Number=plural Case=locative
+04P02000201010000	Pd-fsn	Pronoun demonstrative feminine singular nominative	Pronoun Type=demonstrative Gender=feminine Number=singular Case=nominative
+04P02000201020000	Pd-fsg	Pronoun demonstrative feminine singular genitive	Pronoun Type=demonstrative Gender=feminine Number=singular Case=genitive
+04P02000201030000	Pd-fsd	Pronoun demonstrative feminine singular dative	Pronoun Type=demonstrative Gender=feminine Number=singular Case=dative
+04P02000201040000	Pd-fsa	Pronoun demonstrative feminine singular accusative	Pronoun Type=demonstrative Gender=feminine Number=singular Case=accusative
+04P02000201060000	Pd-fsl	Pronoun demonstrative feminine singular locative	Pronoun Type=demonstrative Gender=feminine Number=singular Case=locative
+04P02000202010000	Pd-fpn	Pronoun demonstrative feminine plural nominative	Pronoun Type=demonstrative Gender=feminine Number=plural Case=nominative
+04P02000202040000	Pd-fpa	Pronoun demonstrative feminine plural accusative	Pronoun Type=demonstrative Gender=feminine Number=plural Case=accusative
+04P02000301010000	Pd-nsn	Pronoun demonstrative neuter singular nominative	Pronoun Type=demonstrative Gender=neuter Number=singular Case=nominative
+04P02000301020000	Pd-nsg	Pronoun demonstrative neuter singular genitive	Pronoun Type=demonstrative Gender=neuter Number=singular Case=genitive
+04P02000301040000	Pd-nsa	Pronoun demonstrative neuter singular accusative	Pronoun Type=demonstrative Gender=neuter Number=singular Case=accusative
+04P02000302010000	Pd-npn	Pronoun demonstrative neuter plural nominative	Pronoun Type=demonstrative Gender=neuter Number=plural Case=nominative
+04P02000302040000	Pd-npa	Pronoun demonstrative neuter plural accusative	Pronoun Type=demonstrative Gender=neuter Number=plural Case=accusative
+04P03000001010000	Pi--sn	Pronoun indefinite singular nominative	Pronoun Type=indefinite Number=singular Case=nominative
+04P03000101010000	Pi-msn	Pronoun indefinite masculine singular nominative	Pronoun Type=indefinite Gender=masculine Number=singular Case=nominative
+04P03000101020000	Pi-msg	Pronoun indefinite masculine singular genitive	Pronoun Type=indefinite Gender=masculine Number=singular Case=genitive
+04P03000101040000	Pi-msa	Pronoun indefinite masculine singular accusative	Pronoun Type=indefinite Gender=masculine Number=singular Case=accusative
+04P03000101040200	Pi-msay	Pronoun indefinite masculine singular accusative +Animate	Pronoun Type=indefinite Gender=masculine Number=singular Case=accusative Animate=yes
+04P03000101070000	Pi-msi	Pronoun indefinite masculine singular instrumental	Pronoun Type=indefinite Gender=masculine Number=singular Case=instrumental
+04P03000102010000	Pi-mpn	Pronoun indefinite masculine plural nominative	Pronoun Type=indefinite Gender=masculine Number=plural Case=nominative
+04P03000102020000	Pi-mpg	Pronoun indefinite masculine plural genitive	Pronoun Type=indefinite Gender=masculine Number=plural Case=genitive
+04P03000102040000	Pi-mpa	Pronoun indefinite masculine plural accusative	Pronoun Type=indefinite Gender=masculine Number=plural Case=accusative
+04P03000102060000	Pi-mpl	Pronoun indefinite masculine plural locative	Pronoun Type=indefinite Gender=masculine Number=plural Case=locative
+04P03000102070000	Pi-mpi	Pronoun indefinite masculine plural instrumental	Pronoun Type=indefinite Gender=masculine Number=plural Case=instrumental
+04P03000201010000	Pi-fsn	Pronoun indefinite feminine singular nominative	Pronoun Type=indefinite Gender=feminine Number=singular Case=nominative
+04P03000201020000	Pi-fsg	Pronoun indefinite feminine singular genitive	Pronoun Type=indefinite Gender=feminine Number=singular Case=genitive
+04P03000201040000	Pi-fsa	Pronoun indefinite feminine singular accusative	Pronoun Type=indefinite Gender=feminine Number=singular Case=accusative
+04P03000201060000	Pi-fsl	Pronoun indefinite feminine singular locative	Pronoun Type=indefinite Gender=feminine Number=singular Case=locative
+04P03000202010000	Pi-fpn	Pronoun indefinite feminine plural nominative	Pronoun Type=indefinite Gender=feminine Number=plural Case=nominative
+04P03000202020000	Pi-fpg	Pronoun indefinite feminine plural genitive	Pronoun Type=indefinite Gender=feminine Number=plural Case=genitive
+04P03000202040000	Pi-fpa	Pronoun indefinite feminine plural accusative	Pronoun Type=indefinite Gender=feminine Number=plural Case=accusative
+04P03000301010000	Pi-nsn	Pronoun indefinite neuter singular nominative	Pronoun Type=indefinite Gender=neuter Number=singular Case=nominative
+04P03000301020000	Pi-nsg	Pronoun indefinite neuter singular genitive	Pronoun Type=indefinite Gender=neuter Number=singular Case=genitive
+04P03000301040000	Pi-nsa	Pronoun indefinite neuter singular accusative	Pronoun Type=indefinite Gender=neuter Number=singular Case=accusative
+04P03000302040000	Pi-npa	Pronoun indefinite neuter plural accusative	Pronoun Type=indefinite Gender=neuter Number=plural Case=accusative
+04P03030100010000	Pi3m-n	Pronoun indefinite third masculine nominative	Pronoun Type=indefinite Person=third Gender=masculine Case=nominative
+04P03030100020000	Pi3m-g	Pronoun indefinite third masculine genitive	Pronoun Type=indefinite Person=third Gender=masculine Case=genitive
+04P03030100030000	Pi3m-d	Pronoun indefinite third masculine dative	Pronoun Type=indefinite Person=third Gender=masculine Case=dative
+04P03030100040000	Pi3m-a	Pronoun indefinite third masculine accusative	Pronoun Type=indefinite Person=third Gender=masculine Case=accusative
+04P03030300010000	Pi3n-n	Pronoun indefinite third neuter nominative	Pronoun Type=indefinite Person=third Gender=neuter Case=nominative
+04P03030300040000	Pi3n-a	Pronoun indefinite third neuter accusative	Pronoun Type=indefinite Person=third Gender=neuter Case=accusative
+04P04010101010000	Ps1msn	Pronoun possessive first masculine singular nominative	Pronoun Type=possessive Person=first Gender=masculine Number=singular Case=nominative
+04P04010101010001	Ps1msn-t	Pronoun possessive first masculine singular nominative t-form	Pronoun Type=possessive Person=first Gender=masculine Number=singular Case=nominative Article=t-form
+04P04010101010002	Ps1msn-v	Pronoun possessive first masculine singular nominative v-form	Pronoun Type=possessive Person=first Gender=masculine Number=singular Case=nominative Article=v-form
+04P04010101020000	Ps1msg	Pronoun possessive first masculine singular genitive	Pronoun Type=possessive Person=first Gender=masculine Number=singular Case=genitive
+04P04010101030000	Ps1msd	Pronoun possessive first masculine singular dative	Pronoun Type=possessive Person=first Gender=masculine Number=singular Case=dative
+04P04010101040100	Ps1msan	Pronoun possessive first masculine singular accusative -Animate	Pronoun Type=possessive Person=first Gender=masculine Number=singular Case=accusative Animate=no
+04P04010101040200	Ps1msay	Pronoun possessive first masculine singular accusative +Animate	Pronoun Type=possessive Person=first Gender=masculine Number=singular Case=accusative Animate=yes
+04P04010102010000	Ps1mpn	Pronoun possessive first masculine plural nominative	Pronoun Type=possessive Person=first Gender=masculine Number=plural Case=nominative
+04P04010102010001	Ps1mpn-t	Pronoun possessive first masculine plural nominative t-form	Pronoun Type=possessive Person=first Gender=masculine Number=plural Case=nominative Article=t-form
+04P04010102010002	Ps1mpn-v	Pronoun possessive first masculine plural nominative v-form	Pronoun Type=possessive Person=first Gender=masculine Number=plural Case=nominative Article=v-form
+04P04010201010000	Ps1fsn	Pronoun possessive first feminine singular nominative	Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=nominative
+04P04010201010001	Ps1fsn-t	Pronoun possessive first feminine singular nominative t-form	Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=nominative Article=t-form
+04P04010201010002	Ps1fsn-v	Pronoun possessive first feminine singular nominative v-form	Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=nominative Article=v-form
+04P04010201010003	Ps1fsn-n	Pronoun possessive first feminine singular nominative n-form	Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=nominative Article=n-form
+04P04010201020000	Ps1fsg	Pronoun possessive first feminine singular genitive	Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=genitive
+04P04010201040000	Ps1fsa	Pronoun possessive first feminine singular accusative	Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=accusative
+04P04010201040001	Ps1fsa-t	Pronoun possessive first feminine singular accusative t-form	Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=accusative Article=t-form
+04P04010202010000	Ps1fpn	Pronoun possessive first feminine plural nominative	Pronoun Type=possessive Person=first Gender=feminine Number=plural Case=nominative
+04P04010202010001	Ps1fpn-t	Pronoun possessive first feminine plural nominative t-form	Pronoun Type=possessive Person=first Gender=feminine Number=plural Case=nominative Article=t-form
+04P04010202020000	Ps1fpg	Pronoun possessive first feminine plural genitive	Pronoun Type=possessive Person=first Gender=feminine Number=plural Case=genitive
+04P04010301010000	Ps1nsn	Pronoun possessive first neuter singular nominative	Pronoun Type=possessive Person=first Gender=neuter Number=singular Case=nominative
+04P04010301010001	Ps1nsn-t	Pronoun possessive first neuter singular nominative t-form	Pronoun Type=possessive Person=first Gender=neuter Number=singular Case=nominative Article=t-form
+04P04010301010002	Ps1nsn-v	Pronoun possessive first neuter singular nominative v-form	Pronoun Type=possessive Person=first Gender=neuter Number=singular Case=nominative Article=v-form
+04P04010301020000	Ps1nsg	Pronoun possessive first neuter singular genitive	Pronoun Type=possessive Person=first Gender=neuter Number=singular Case=genitive
+04P04010301040000	Ps1nsa	Pronoun possessive first neuter singular accusative	Pronoun Type=possessive Person=first Gender=neuter Number=singular Case=accusative
+04P04010302010000	Ps1npn	Pronoun possessive first neuter plural nominative	Pronoun Type=possessive Person=first Gender=neuter Number=plural Case=nominative
+04P04020001040000	Ps2-sa	Pronoun possessive second singular accusative	Pronoun Type=possessive Person=second Number=singular Case=accusative
+04P04020001070000	Ps2-si	Pronoun possessive second singular instrumental	Pronoun Type=possessive Person=second Number=singular Case=instrumental
+04P04020201010000	Ps2fsn	Pronoun possessive second feminine singular nominative	Pronoun Type=possessive Person=second Gender=feminine Number=singular Case=nominative
+04P04020201010001	Ps2fsn-t	Pronoun possessive second feminine singular nominative t-form	Pronoun Type=possessive Person=second Gender=feminine Number=singular Case=nominative Article=t-form
+04P04020201010003	Ps2fsn-n	Pronoun possessive second feminine singular nominative n-form	Pronoun Type=possessive Person=second Gender=feminine Number=singular Case=nominative Article=n-form
+04P04020201040001	Ps2fsa-t	Pronoun possessive second feminine singular accusative t-form	Pronoun Type=possessive Person=second Gender=feminine Number=singular Case=accusative Article=t-form
+04P04020301010000	Ps2nsn	Pronoun possessive second neuter singular nominative	Pronoun Type=possessive Person=second Gender=neuter Number=singular Case=nominative
+04P04020301010002	Ps2nsn-v	Pronoun possessive second neuter singular nominative v-form	Pronoun Type=possessive Person=second Gender=neuter Number=singular Case=nominative Article=v-form
+04P04030101010000	Ps3msn	Pronoun possessive third masculine singular nominative	Pronoun Type=possessive Person=third Gender=masculine Number=singular Case=nominative
+04P04030101010001	Ps3msn-t	Pronoun possessive third masculine singular nominative t-form	Pronoun Type=possessive Person=third Gender=masculine Number=singular Case=nominative Article=t-form
+04P04030101020000	Ps3msg	Pronoun possessive third masculine singular genitive	Pronoun Type=possessive Person=third Gender=masculine Number=singular Case=genitive
+04P04030101040100	Ps3msan	Pronoun possessive third masculine singular accusative -Animate	Pronoun Type=possessive Person=third Gender=masculine Number=singular Case=accusative Animate=no
+04P04030102010000	Ps3mpn	Pronoun possessive third masculine plural nominative	Pronoun Type=possessive Person=third Gender=masculine Number=plural Case=nominative
+04P04030102040000	Ps3mpa	Pronoun possessive third masculine plural accusative	Pronoun Type=possessive Person=third Gender=masculine Number=plural Case=accusative
+04P04030201010000	Ps3fsn	Pronoun possessive third feminine singular nominative	Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=nominative
+04P04030201010001	Ps3fsn-t	Pronoun possessive third feminine singular nominative t-form	Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=nominative Article=t-form
+04P04030201020000	Ps3fsg	Pronoun possessive third feminine singular genitive	Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=genitive
+04P04030201040000	Ps3fsa	Pronoun possessive third feminine singular accusative	Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=accusative
+04P04030201070000	Ps3fsi	Pronoun possessive third feminine singular instrumental	Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=instrumental
+04P04030202010000	Ps3fpn	Pronoun possessive third feminine plural nominative	Pronoun Type=possessive Person=third Gender=feminine Number=plural Case=nominative
+04P04030202020000	Ps3fpg	Pronoun possessive third feminine plural genitive	Pronoun Type=possessive Person=third Gender=feminine Number=plural Case=genitive
+04P04030202040000	Ps3fpa	Pronoun possessive third feminine plural accusative	Pronoun Type=possessive Person=third Gender=feminine Number=plural Case=accusative
+04P04030202060000	Ps3fpl	Pronoun possessive third feminine plural locative	Pronoun Type=possessive Person=third Gender=feminine Number=plural Case=locative
+04P04030301010000	Ps3nsn	Pronoun possessive third neuter singular nominative	Pronoun Type=possessive Person=third Gender=neuter Number=singular Case=nominative
+04P04030301010001	Ps3nsn-t	Pronoun possessive third neuter singular nominative t-form	Pronoun Type=possessive Person=third Gender=neuter Number=singular Case=nominative Article=t-form
+04P04030301040000	Ps3nsa	Pronoun possessive third neuter singular accusative	Pronoun Type=possessive Person=third Gender=neuter Number=singular Case=accusative
+04P05000000000000	Pq	Pronoun interrogative	Pronoun Type=interrogative
+04P05000101010000	Pq-msn	Pronoun interrogative masculine singular nominative	Pronoun Type=interrogative Gender=masculine Number=singular Case=nominative
+04P05000201040000	Pq-fsa	Pronoun interrogative feminine singular accusative	Pronoun Type=interrogative Gender=feminine Number=singular Case=accusative
+04P05000300010000	Pq-n-n	Pronoun interrogative neuter nominative	Pronoun Type=interrogative Gender=neuter Case=nominative
+04P05000301010000	Pq-nsn	Pronoun interrogative neuter singular nominative	Pronoun Type=interrogative Gender=neuter Number=singular Case=nominative
+04P05030100010000	Pq3m-n	Pronoun interrogative third masculine nominative	Pronoun Type=interrogative Person=third Gender=masculine Case=nominative
+04P05030100020000	Pq3m-g	Pronoun interrogative third masculine genitive	Pronoun Type=interrogative Person=third Gender=masculine Case=genitive
+04P05030300010000	Pq3n-n	Pronoun interrogative third neuter nominative	Pronoun Type=interrogative Person=third Gender=neuter Case=nominative
+04P07000001030000	Px--sd	Pronoun reflexive singular dative	Pronoun Type=reflexive Number=singular Case=dative
+04P07000001040000	Px--sa	Pronoun reflexive singular accusative	Pronoun Type=reflexive Number=singular Case=accusative
+04P07000101040000	Px-msa	Pronoun reflexive masculine singular accusative	Pronoun Type=reflexive Gender=masculine Number=singular Case=accusative
+04P07000102020000	Px-mpg	Pronoun reflexive masculine plural genitive	Pronoun Type=reflexive Gender=masculine Number=plural Case=genitive
+04P07000102040000	Px-mpa	Pronoun reflexive masculine plural accusative	Pronoun Type=reflexive Gender=masculine Number=plural Case=accusative
+04P07000102070000	Px-mpi	Pronoun reflexive masculine plural instrumental	Pronoun Type=reflexive Gender=masculine Number=plural Case=instrumental
+04P07000201020000	Px-fsg	Pronoun reflexive feminine singular genitive	Pronoun Type=reflexive Gender=feminine Number=singular Case=genitive
+05R0101	Rgp	Adverb general positive	Adverb Type=general Degree=positive
+05R0102	Rgc	Adverb general comparative	Adverb Type=general Degree=comparative
+05R0103	Rgs	Adverb general superlative	Adverb Type=general Degree=superlative
+05R0200	Rr	Adverb participle	Adverb Type=participle
+06S01	Sg	Adposition genitive	Adposition Case=genitive
+06S02	Sd	Adposition dative	Adposition Case=dative
+06S03	Sa	Adposition accusative	Adposition Case=accusative
+06S04	Sl	Adposition locative	Adposition Case=locative
+06S05	Si	Adposition instrumental	Adposition Case=instrumental
+07C01	Cc	Conjunction coordinating	Conjunction Type=coordinating
+07C02	Cs	Conjunction subordinating	Conjunction Type=subordinating
+08M01010000000000	Mdc	Numeral digit cardinal	Numeral Form=digit Type=cardinal
+08M01020000000000	Mdo	Numeral digit ordinal	Numeral Form=digit Type=ordinal
+08M02020000000000	Mro	Numeral roman ordinal	Numeral Form=roman Type=ordinal
+08M03010000000000	Mlc	Numeral letter cardinal	Numeral Form=letter Type=cardinal
+08M03010100000000	Mlcm	Numeral letter cardinal masculine	Numeral Form=letter Type=cardinal Gender=masculine
+08M03010100010000	Mlcm-n	Numeral letter cardinal masculine nominative	Numeral Form=letter Type=cardinal Gender=masculine Case=nominative
+08M03010101010000	Mlcmsn	Numeral letter cardinal masculine singular nominative	Numeral Form=letter Type=cardinal Gender=masculine Number=singular Case=nominative
+08M03010101020000	Mlcmsg	Numeral letter cardinal masculine singular genitive	Numeral Form=letter Type=cardinal Gender=masculine Number=singular Case=genitive
+08M03010101040100	Mlcmsan	Numeral letter cardinal masculine singular accusative -Animate	Numeral Form=letter Type=cardinal Gender=masculine Number=singular Case=accusative Animate=no
+08M03010101040200	Mlcmsay	Numeral letter cardinal masculine singular accusative +Animate	Numeral Form=letter Type=cardinal Gender=masculine Number=singular Case=accusative Animate=yes
+08M03010101060000	Mlcmsl	Numeral letter cardinal masculine singular locative	Numeral Form=letter Type=cardinal Gender=masculine Number=singular Case=locative
+08M03010102010000	Mlcmpn	Numeral letter cardinal masculine plural nominative	Numeral Form=letter Type=cardinal Gender=masculine Number=plural Case=nominative
+08M03010200010000	Mlcf-n	Numeral letter cardinal feminine nominative	Numeral Form=letter Type=cardinal Gender=feminine Case=nominative
+08M03010200040000	Mlcf-a	Numeral letter cardinal feminine accusative	Numeral Form=letter Type=cardinal Gender=feminine Case=accusative
+08M03010201010000	Mlcfsn	Numeral letter cardinal feminine singular nominative	Numeral Form=letter Type=cardinal Gender=feminine Number=singular Case=nominative
+08M03010201020000	Mlcfsg	Numeral letter cardinal feminine singular genitive	Numeral Form=letter Type=cardinal Gender=feminine Number=singular Case=genitive
+08M03010201030000	Mlcfsd	Numeral letter cardinal feminine singular dative	Numeral Form=letter Type=cardinal Gender=feminine Number=singular Case=dative
+08M03010201040000	Mlcfsa	Numeral letter cardinal feminine singular accusative	Numeral Form=letter Type=cardinal Gender=feminine Number=singular Case=accusative
+08M03010201040200	Mlcfsay	Numeral letter cardinal feminine singular accusative +Animate	Numeral Form=letter Type=cardinal Gender=feminine Number=singular Case=accusative Animate=yes
+08M03010201070000	Mlcfsi	Numeral letter cardinal feminine singular instrumental	Numeral Form=letter Type=cardinal Gender=feminine Number=singular Case=instrumental
+08M03010202020000	Mlcfpg	Numeral letter cardinal feminine plural genitive	Numeral Form=letter Type=cardinal Gender=feminine Number=plural Case=genitive
+08M03010202040000	Mlcfpa	Numeral letter cardinal feminine plural accusative	Numeral Form=letter Type=cardinal Gender=feminine Number=plural Case=accusative
+08M03010202040001	Mlcfpa-t	Numeral letter cardinal feminine plural accusative t-form	Numeral Form=letter Type=cardinal Gender=feminine Number=plural Case=accusative Article=t-form
+08M03010301010000	Mlcnsn	Numeral letter cardinal neuter singular nominative	Numeral Form=letter Type=cardinal Gender=neuter Number=singular Case=nominative
+08M03010301040000	Mlcnsa	Numeral letter cardinal neuter singular accusative	Numeral Form=letter Type=cardinal Gender=neuter Number=singular Case=accusative
+08M03010301040200	Mlcnsay	Numeral letter cardinal neuter singular accusative +Animate	Numeral Form=letter Type=cardinal Gender=neuter Number=singular Case=accusative Animate=yes
+08M03020101010000	Mlomsn	Numeral letter ordinal masculine singular nominative	Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=nominative
+08M03020101010001	Mlomsn-t	Numeral letter ordinal masculine singular nominative t-form	Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=nominative Article=t-form
+08M03020101020000	Mlomsg	Numeral letter ordinal masculine singular genitive	Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=genitive
+08M03020101040100	Mlomsan	Numeral letter ordinal masculine singular accusative -Animate	Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=accusative Animate=no
+08M03020101040200	Mlomsay	Numeral letter ordinal masculine singular accusative +Animate	Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=accusative Animate=yes
+08M03020101060000	Mlomsl	Numeral letter ordinal masculine singular locative	Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=locative
+08M03020102010000	Mlompn	Numeral letter ordinal masculine plural nominative	Numeral Form=letter Type=ordinal Gender=masculine Number=plural Case=nominative
+08M03020102010001	Mlompn-t	Numeral letter ordinal masculine plural nominative t-form	Numeral Form=letter Type=ordinal Gender=masculine Number=plural Case=nominative Article=t-form
+08M03020102070000	Mlompi	Numeral letter ordinal masculine plural instrumental	Numeral Form=letter Type=ordinal Gender=masculine Number=plural Case=instrumental
+08M03020201010000	Mlofsn	Numeral letter ordinal feminine singular nominative	Numeral Form=letter Type=ordinal Gender=feminine Number=singular Case=nominative
+08M03020201010002	Mlofsn-v	Numeral letter ordinal feminine singular nominative v-form	Numeral Form=letter Type=ordinal Gender=feminine Number=singular Case=nominative Article=v-form
+08M03020201020000	Mlofsg	Numeral letter ordinal feminine singular genitive	Numeral Form=letter Type=ordinal Gender=feminine Number=singular Case=genitive
+08M03020201040000	Mlofsa	Numeral letter ordinal feminine singular accusative	Numeral Form=letter Type=ordinal Gender=feminine Number=singular Case=accusative
+08M03020201040001	Mlofsa-t	Numeral letter ordinal feminine singular accusative t-form	Numeral Form=letter Type=ordinal Gender=feminine Number=singular Case=accusative Article=t-form
+08M03020201040202	Mlofsayv	Numeral letter ordinal feminine singular accusative +Animate v-form	Numeral Form=letter Type=ordinal Gender=feminine Number=singular Case=accusative Animate=yes Article=v-form
+08M03020201060000	Mlofsl	Numeral letter ordinal feminine singular locative	Numeral Form=letter Type=ordinal Gender=feminine Number=singular Case=locative
+08M03020202010000	Mlofpn	Numeral letter ordinal feminine plural nominative	Numeral Form=letter Type=ordinal Gender=feminine Number=plural Case=nominative
+08M03020202020000	Mlofpg	Numeral letter ordinal feminine plural genitive	Numeral Form=letter Type=ordinal Gender=feminine Number=plural Case=genitive
+08M03020202040000	Mlofpa	Numeral letter ordinal feminine plural accusative	Numeral Form=letter Type=ordinal Gender=feminine Number=plural Case=accusative
+08M03020202040001	Mlofpa-t	Numeral letter ordinal feminine plural accusative t-form	Numeral Form=letter Type=ordinal Gender=feminine Number=plural Case=accusative Article=t-form
+08M03020301010000	Mlonsn	Numeral letter ordinal neuter singular nominative	Numeral Form=letter Type=ordinal Gender=neuter Number=singular Case=nominative
+08M03020301010001	Mlonsn-t	Numeral letter ordinal neuter singular nominative t-form	Numeral Form=letter Type=ordinal Gender=neuter Number=singular Case=nominative Article=t-form
+08M03020301040000	Mlonsa	Numeral letter ordinal neuter singular accusative	Numeral Form=letter Type=ordinal Gender=neuter Number=singular Case=accusative
+08M03020302040000	Mlonpa	Numeral letter ordinal neuter plural accusative	Numeral Form=letter Type=ordinal Gender=neuter Number=plural Case=accusative
+08M03030000000000	Mls	Numeral letter special	Numeral Form=letter Type=special
+09Q01	Qz	Particle negative	Particle Type=negative
+09Q02	Qq	Particle interrogative	Particle Type=interrogative
+09Q03	Qo	Particle modal	Particle Type=modal
+09Q04	Qr	Particle affirmative	Particle Type=affirmative
+10I	I	Interjection	Interjection
+11Y	Y	Abbreviation	Abbreviation
+12X00	X	Residual	Residual
+12X01	Xf	Residual foreign	Residual Type=foreign
+13Z	Z	Punctuation	Punctuation

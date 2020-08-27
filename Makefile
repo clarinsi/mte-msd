@@ -93,7 +93,7 @@ cast-all:
 test-nl:	new-lex new-msds new-merge new-cast htm mount
 
 ## Name of the new language
-NL = mk
+NL = tor
 
 # Test generation of new draft language specific section
 ## These will, of course, then need lots of hand editing!
@@ -143,7 +143,7 @@ new-cast:
 new-tbls:
 	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-${NL}.spc.xml -outdir tables
 
-# And this is it, now you can build the HTML and other derived resources
+# And this is it, now you can build the HTML
 
 ##############################################3
 #Saxon for funny files (large text nodes, long UTF-8 chars
