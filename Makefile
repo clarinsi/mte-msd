@@ -1,9 +1,7 @@
-bug:
-	java -jar /home/tomaz/bin/saxon9he.jar -xi -xsl:bin/msd-spec2prn.xsl xml/msd.xml > bug.xml
 #Validate XML of xml-edit and xml
 val:
-	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
-	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
+	xmllint --xinclude xml-edit/msd.xml | $j schema/mte_tei.rng
+	xmllint --xinclude xml/msd.xml | $j schema/mte_tei.rng
 
 ## TESTING SCRIPTS
 # Test generation of canonical table
@@ -35,13 +33,12 @@ all:	htm tbls-all mount
 xall:	cast-all htm tbls-all mount
 
 # Put the publishable part of the resources on the Web
-WWW = /net/mantra/project/www-nl/www/ME/V6/msd
+# PLATFORM SPECIFIC!
 mount:
-	rm -fr ${WWW}/*
-	cp -r xml ${WWW}
-	cp -r html ${WWW}
-	cp -r tables ${WWW}
-	cp -r schema ${WWW}
+	scp xml/* mantra:/project/www-nl/www/ME/V6/msd/xml
+	scp html/* mantra:/project/www-nl/www/ME/V6/msd/html
+	scp tables/* mantra:/project/www-nl/www/ME/V6/msd/tables
+	scp schema/* mantra:/project/www-nl/www/ME/V6/msd/schema
 
 ### Make HTML version of the specifications
 htm:
@@ -90,10 +87,11 @@ cast-all:
 ## 3. Hand edit the common section so that it documents the inclusion of the new language
 ## 4. Move the langauge specific section from the editable folder xml-edit to the official folder xml-edit
 
-test-nl:	new-lex new-msds new-merge new-cast htm mount
+new-lang:	new-lex new-msds new-val new-cast new-tbls htm
+xxxnew-lang:	new-split new-lex new-msds new-val new-merge new-cast new-tbls htm mount
 
 ## Name of the new language
-NL = tor
+NL = sr-tor
 
 # Test generation of new draft language specific section
 ## These will, of course, then need lots of hand editing!

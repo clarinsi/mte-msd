@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="tor"
-     xml:id="msd-tor"
+<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="sr-tor"
+     xml:id="msd-sr-tor"
      xml:lang="en">
   <head>Torlak Specifications</head>
   <docAuthor>Teodora Vuković</docAuthor>
-  <docDate>2020-08-27</docDate>
+  <docDate>2020-08-28</docDate>
   <list type="gloss">
     <label>Language Name:</label>
     <item>Torlak</item>
     <label>Code:</label>
-    <item>tor</item>
+    <item>sr-tor</item>
     <label>Reference:</label>
     <item>
       <ref target="https://en.wikipedia.org/wiki/Torlakian_dialect">Wikipedia</ref>
     </item>
   </list>
   <divGen type="subtoc"/>
-  <div xml:id="msd-sl.introduction">
+  <div xml:id="msd-sr-tor.introduction">
     <head>Introduction to Torlak Specifications</head>
-        <p>These specifications for Torlak, a dialect of Serbian, are based on the <ref target="#msd-hbs">morpspecifications for the Serbo-Croatian macrolanguage</ref>. The specifictions accompany the <ref target="http://hdl.handle.net/11356/1281">transcription of the Spoken Torlak dialect corpus 1.0</ref>.</p>
+        <p>These specifications for Torlak, a dialect of Serbian, are based on the <ref target="#msd-hbs">specifications for the Serbo-Croatian macrolanguage</ref>. The specifictions accompany the <ref target="http://hdl.handle.net/11356/1281">transcription of the Spoken Torlak dialect corpus 1.0</ref> which had been automatically MSD tagged and lemmatised and partially manually corrected.</p>
        </div>
-  <div type="section" select="tor" xml:id="msd.categories-tor">
+  <div type="section" select="sr-tor" xml:id="msd.categories-sr-tor">
     <head>Torlak Category Index</head>
-    <divGen type="msd.cats" select="tor"/>
+    <divGen type="msd.cats" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.N-tor">
+  <div type="section" select="sr-tor" xml:id="msd.N-sr-tor">
     <head>Torlak Noun</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.N-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.N-sr-tor">
       <head>Specification for Torlak Noun</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -159,11 +159,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.V-tor">
+  <div type="section" select="sr-tor" xml:id="msd.V-sr-tor">
     <head>Torlak Verb</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.V-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.V-sr-tor">
       <head>Specification for Torlak Verb</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -300,11 +300,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.A-tor">
+  <div type="section" select="sr-tor" xml:id="msd.A-sr-tor">
     <head>Torlak Adjective</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.A-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.A-sr-tor">
       <head>Specification for Torlak Adjective</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -477,11 +477,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.P-tor">
+  <div type="section" select="sr-tor" xml:id="msd.P-sr-tor">
     <head>Torlak Pronoun</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.P-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.P-sr-tor">
       <head>Specification for Torlak Pronoun</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -654,11 +654,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.R-tor">
+  <div type="section" select="sr-tor" xml:id="msd.R-sr-tor">
     <head>Torlak Adverb</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.R-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.R-sr-tor">
       <head>Specification for Torlak Adverb</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -703,11 +703,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.S-tor">
+  <div type="section" select="sr-tor" xml:id="msd.S-sr-tor">
     <head>Torlak Adposition</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.S-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.S-sr-tor">
       <head>Specification for Torlak Adposition</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -744,11 +744,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.C-tor">
+  <div type="section" select="sr-tor" xml:id="msd.C-sr-tor">
     <head>Torlak Conjunction</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.C-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.C-sr-tor">
       <head>Specification for Torlak Conjunction</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -773,11 +773,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.M-tor">
+  <div type="section" select="sr-tor" xml:id="msd.M-sr-tor">
     <head>Torlak Numeral</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.M-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.M-sr-tor">
       <head>Specification for Torlak Numeral</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -934,11 +934,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.Q-tor">
+  <div type="section" select="sr-tor" xml:id="msd.Q-sr-tor">
     <head>Torlak Particle</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.Q-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.Q-sr-tor">
       <head>Specification for Torlak Particle</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -971,11 +971,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.I-tor">
+  <div type="section" select="sr-tor" xml:id="msd.I-sr-tor">
     <head>Torlak Interjection</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.I-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.I-sr-tor">
       <head>Specification for Torlak Interjection</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -984,11 +984,11 @@
         <cell role="code" xml:lang="en">I</cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.Y-tor">
+  <div type="section" select="sr-tor" xml:id="msd.Y-sr-tor">
     <head>Torlak Abbreviation</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.Y-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.Y-sr-tor">
       <head>Specification for Torlak Abbreviation</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -997,11 +997,11 @@
         <cell role="code" xml:lang="en">Y</cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.X-tor">
+  <div type="section" select="sr-tor" xml:id="msd.X-sr-tor">
     <head>Torlak Residual</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.X-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.X-sr-tor">
       <head>Specification for Torlak Residual</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -1038,11 +1038,11 @@
         </cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" select="tor" xml:id="msd.Z-tor">
+  <div type="section" select="sr-tor" xml:id="msd.Z-sr-tor">
     <head>Torlak Punctuation</head>
-    <table n="msd.cat" select="tor" xml:id="msd.cat.Z-tor">
+    <table n="msd.cat" select="sr-tor" xml:id="msd.cat.Z-sr-tor">
       <head>Specification for Torlak Punctuation</head>
       <row role="type">
         <cell role="position">0</cell>
@@ -1051,21 +1051,21 @@
         <cell role="code" xml:lang="en">Z</cell>
       </row>
     </table>
-    <divGen type="msd.lex" select="tor"/>
+    <divGen type="msd.lex" select="sr-tor"/>
   </div>
-  <div type="section" xml:id="msd.attributes-tor">
+  <div type="section" xml:id="msd.attributes-sr-tor">
     <head>Torlak Attribute Index</head>
     <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
-    <divGen type="msd.atts" select="tor"/>
+    <divGen type="msd.atts" select="sr-tor"/>
   </div>
-  <div type="section" xml:id="msd.values-tor">
+  <div type="section" xml:id="msd.values-sr-tor">
     <head>Torlak Value Index</head>
     <p>The values presented within the tables are, in the following, listed in alphabetical order; the first column gives the name of the value, the second column its code and the third lists attributes for which the value is appropriate.</p>
-    <divGen type="msd.vals" select="tor"/>
+    <divGen type="msd.vals" select="sr-tor"/>
   </div>
-  <div select="tor" type="section" xml:id="msd.msds-tor">
+  <div select="sr-tor" type="section" xml:id="msd.msds-sr-tor">
     <head>Torlak MSD Index</head>
-    <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1281">Torlak corpus</ref>. The third column gives the number of entries with this MSD in the corpus and the fourth column gives some examples as word-form/lemma extracted from the corpus.</p>
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-tor.msd.xml"/>
+    <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1281">Torlak corpus</ref>, which was automatically MSD tagged and lemmatised and partially manually corrected, i.e. the annotations, and hence the examples give, also contain errors. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sr-tor.msd.xml"/>
   </div>
 </div>

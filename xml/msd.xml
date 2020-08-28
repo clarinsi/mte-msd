@@ -89,7 +89,7 @@
                <name>Duško Vitas</name>
                <resp>Serbian specifications</resp>
             </respStmt>
-            <respStmt select="tor">
+            <respStmt select="sr-tor">
                <name>Teodora Vuković</name>
                <resp>Torlak specifications</resp>
             </respStmt>
@@ -138,7 +138,7 @@
             <availability status="free">
                <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
             </availability>
-            <date>2020-08-27</date>
+            <date>2020-08-28</date>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -185,11 +185,11 @@
             <language xml:id="sl" ident="sl">Slovene</language>
             <language xml:id="sl-rozaj" ident="sl-rozaj">Resian</language>
             <language xml:id="sr" ident="sr">Serbian</language>
-            <language xml:id="tor" ident="tor">Torlak</language>
+            <language xml:id="sr-tor" ident="sr-tor">Torlak</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change when="2020-08-27">ET, add Torlak.</change>
+         <change when="2020-08-28">ET, add Torlak.</change>
          <change when="2020-08-27">ET, incorporate changes to Macedonian.</change>
          <change when="2019-11-24">ET, add Albanian (iso code = sq).</change>
          <change when="2019-02-08">ET, revert Croatian to V4, change Bosnian to Serbo-Croatian.</change>
@@ -221,144 +221,144 @@
                <titlePart>
                   <ref target="http://nl.ijs.si/ME/">MULTEXT-East</ref>
                   <lb/>
-                  Morphosyntactic Specifications</titlePart>
+          Morphosyntactic Specifications</titlePart>
             </docTitle>
             <docEdition>
                <ref target="http://nl.ijs.si/ME/V6/">Version 6</ref>
             </docEdition>
-            <docDate>2020-08-27</docDate>
+            <docDate>2020-08-28</docDate>
             <lb/>
             <byline>Editor: <name>Tomaž Erjavec</name>
             </byline>
             <byline>
                <ref target="#msd-sq">Albanian specifications</ref>:
-              <name>Dalian Zogaj</name>,
-	      <name>Philipp Wasserscheidt</name>
+          <name>Dalian Zogaj</name>,
+	  <name>Philipp Wasserscheidt</name>
             </byline>
             <byline>
                <ref target="#msd-bg">Bulgarian specifications</ref>:
-              <name>Radoslav Pavlov</name>,
-              <name>Ludmila Dimitrova</name>,
-              <name>Lydia Sinapova</name>,
-              <name>Kiril Simov</name>
+          <name>Radoslav Pavlov</name>,
+          <name>Ludmila Dimitrova</name>,
+          <name>Lydia Sinapova</name>,
+          <name>Kiril Simov</name>
             </byline>
             <byline>
                <ref target="#msd-ce">Chechen specifications</ref>:
-              <name>Dietmar Fiesel</name>
+          <name>Dietmar Fiesel</name>
             </byline>
             <byline>
                <ref target="#msd-hr">Croatian specifications</ref>:
-              <name>Marko Tadić</name>
+          <name>Marko Tadić</name>
             </byline>
             <byline>
                <ref target="#msd-cs">Czech specifications</ref>:
-              <name>Vladimír Petkevič</name>
+          <name>Vladimír Petkevič</name>
             </byline>
             <byline>
                <ref target="#msd-en">English specifications</ref>:
-              <name>Nancy Ide</name>,
-              <name>Greg Priest-Dorman</name>,
-              <name>Tomaž Erjavec</name>,
-              <name>Tamas Varadi</name>
+          <name>Nancy Ide</name>,
+          <name>Greg Priest-Dorman</name>,
+          <name>Tomaž Erjavec</name>,
+          <name>Tamas Varadi</name>
             </byline>
             <byline>
                <ref target="#msd-et">Estonian specifications</ref>:
-              <name>Heiki-Jaan Kaalep </name>
+          <name>Heiki-Jaan Kaalep </name>
             </byline>
             <byline>
                <ref target="#msd-hu">Hungarian specifications</ref>:
-              <name>Laszlo Tihanyi</name>,
-              <name>Tamas Varadi</name>,
-              <name>Csaba Oravecz</name>
+          <name>Laszlo Tihanyi</name>,
+          <name>Tamas Varadi</name>,
+          <name>Csaba Oravecz</name>
             </byline>
             <byline>
                <ref target="#msd-mk">Macedonian specifications</ref>:
-              <name>Katerina Zdravkova</name>
+          <name>Katerina Zdravkova</name>
             </byline>
             <byline>
                <ref target="#msd-fa">Persian specifications</ref>:
-              <name>Behrang QasemiZadeh</name>
+          <name>Behrang QasemiZadeh</name>
             </byline>
             <byline>
                <ref target="#msd-pl">Polish specifications</ref>:
-              <name>Natalia Kotsyba</name>, 
-              <name>Ivan Derzhanski</name>, 
-              <name>Adam Radziszewski</name>
+          <name>Natalia Kotsyba</name>, 
+          <name>Ivan Derzhanski</name>, 
+          <name>Adam Radziszewski</name>
             </byline>
             <byline>
                <ref target="#msd-sl-rozaj">Resian specifications</ref>:
-              <name>Han Steenwijk</name>
+          <name>Han Steenwijk</name>
             </byline>
             <byline>
                <ref target="#msd-ro">Romanian specifications</ref>:
-              <name>Dan Tufiş</name>,
-              <name>Anna Maria Barbu</name>
+          <name>Dan Tufiş</name>,
+          <name>Anna Maria Barbu</name>
             </byline>
             <byline>
                <ref target="#msd-ru">Russian specifications</ref>:
-              <name>Serge Sharoff</name>,
-              <name>Mikhail Kopotev</name>,
-              <name>Tomaž Erjavec</name>,
-              <name>Anna Feldman</name>,
-              <name>Dagmar Divjak</name>
+          <name>Serge Sharoff</name>,
+          <name>Mikhail Kopotev</name>,
+          <name>Tomaž Erjavec</name>,
+          <name>Anna Feldman</name>,
+          <name>Dagmar Divjak</name>
             </byline>
             <byline>
                <ref target="#msd-hbs">Serbo-Croatian specifications</ref>:
-              <name>Tomaž Erjavec</name>
+          <name>Tomaž Erjavec</name>
             </byline>
             <byline>
                <ref target="#msd-sr">Serbian specifications</ref>:
-              <name>Cvetana Krstev</name>,
-              <name>Duško Vitas</name>
+          <name>Cvetana Krstev</name>,
+          <name>Duško Vitas</name>
             </byline>
             <byline>
                <ref target="#msd-sk">Slovak specifications</ref>:
-              <name>Radovan Garabík</name>
+          <name>Radovan Garabík</name>
             </byline>
             <byline>
                <ref target="#msd-sl">Slovene specifications</ref>:
-              <name>Tomaž Erjavec</name>,
-              <name>Simon Krek</name>
+          <name>Tomaž Erjavec</name>,
+          <name>Simon Krek</name>
             </byline>
             <byline>
-               <ref target="#msd-tor">Torlak specifications</ref>
+               <ref target="#msd-sr-tor">Torlak specifications</ref>
                <name>Teodora Vuković</name>
             </byline>
             <byline>
                <ref target="#msd-uk">Ukrainian specifications</ref>:
-              <name>Natalia Kotsyba</name>,
-              <name>Igor Shevchenko</name>,
-              <name>Ivan Derzhanski</name>
+          <name>Natalia Kotsyba</name>,
+          <name>Igor Shevchenko</name>,
+          <name>Ivan Derzhanski</name>
             </byline>
          </titlePage>
          <div type="section" xml:id="msd.foreword">
             <head>Foreword</head>
             <p>The purpose of this document is to provide harmonised lexical specifications for 
-            nineteen languages:
-            Albanian, 
-            Bulgarian, 
-            Chechen, 
-            Croatian, 
-            Czech, 
-            Estonian, 
-            English, 
-            Hungarian, 
-            Macedonian, 
-            Persian,
-            Polish,
-            Romanian, 
-            Russian, 
-            Ukrainian, 
-            Serbo-Croatian macrolanguage, 
-            Serbian,
-            Slovak,
-            Slovene,
-            the Resian dialect of Slovene, and
-	    the Torlak dialect of Serbian.
-            </p>
+        nineteen languages:
+        Albanian, 
+        Bulgarian, 
+        Chechen, 
+        Croatian, 
+        Czech, 
+        Estonian, 
+        English, 
+        Hungarian, 
+        Macedonian, 
+        Persian,
+        Polish,
+        Romanian, 
+        Russian, 
+        Ukrainian, 
+        Serbo-Croatian macrolanguage, 
+        Serbian,
+        Slovak,
+        Slovene,
+        the Resian dialect of Slovene, and
+	the Torlak dialect of Serbian.
+        </p>
             <p>These specifications are based on the proposals for lexicon specifications presented in
-            the MULTEXT D1-6-1B Deliverable of the MULTEXT Project [<ref target="#bib.mt-D161B">mt:D161B</ref>] and in the Eagles documents of the Lexicon sub-group on Morphosyntactic
-            annotation [<ref target="#bib.eagles-morphsyn">eagles:morphsyn</ref>], [<ref target="#bib.eagles-morphana">eagles:morphana</ref>].</p>
+        the MULTEXT D1-6-1B Deliverable of the MULTEXT Project [<ref target="#bib.mt-D161B">mt:D161B</ref>] and in the Eagles documents of the Lexicon sub-group on Morphosyntactic
+        annotation [<ref target="#bib.eagles-morphsyn">eagles:morphsyn</ref>], [<ref target="#bib.eagles-morphana">eagles:morphana</ref>].</p>
             <p>These specifications were first made in the scope of the MULTEXT-East project, as the
         project report D11F, and were, slightly modified, made available on the TELRI CD-ROM "A
         Compendium of Multilingual Resources" [<ref target="#bib.telri-CD">telri:CD</ref>], [<ref target="#bib.lrec98-mtelex">lrec98:mtelex</ref>].</p>
@@ -386,7 +386,7 @@
         However, this version never made it beyond the "DRAFT" status.
         </p>
             <p>In the present Version 6 the TEI encoding has been updated, as have the conversion scripts, and
-	the maintenance of the specifications has moved to <ref target="https://github.com/clarinsi/mte-msd">GitHub</ref>. Furthermore, while the Croatian and Serbian specifications have been reverted to those of Version 4, the specifications for the macrolanguage Serbo-Croatian has been added, meant to cover Croatian, Serbian, Bosnian and Montenegrin. Last but not least, the Albanian language and the Torlak dialect of Serbivan have been added to the specifications, and the Macedonian specifications have been updated.
+	the maintenance of the specifications has moved to <ref target="https://github.com/clarinsi/mte-msd">GitHub</ref>. Furthermore, while the Croatian and Serbian specifications have been reverted to those of Version 4, the specifications for the macrolanguage Serbo-Croatian has been added, meant to cover Croatian, Serbian, Bosnian and Montenegrin. Last but not least, the Albanian language and the Torlak dialect of Serbian have been added to the specifications, and the Macedonian specifications have been updated.
         </p>
             <p>Pisa, October 1995</p>
             <p>Ljubljana, December 1997 (V1)</p>
@@ -453,7 +453,7 @@
                <list type="ordered">
                   <item>a chapter describing the features and values pertinent to a given category in the form of tables with examples from the language in question; these tables have been mostly automatically generated from the common tables. The language specific tables, however, do often have significant additional information, e.g. examples or localisation of names.</item>
                   <item>a chapter providing the allowed combinations of values for the particular language, which is, in some cases, supplemented by c) a list of examples from the lexicon or corpus. Two different strategies of displaying combinations have been followed:
-	      <list>
+	    <list>
                         <item>all the <emph> admitted </emph> combinations are provided together with an example. This has the disadvantage of producing big lists, given the high number of features and values to combine together, but the advantage of providing the only legal combinations with the relevant constraints in the application of some features/values in presence of other features or values or combination of them (see e.g. Gender in Personal Pronouns).</item>
                         <item>a mathematical expression (essentially a regular expression) describing the combinations is provided, which can subsequently used to generate <emph>all</emph> combinations, possibly including some which are not valid.</item>
                      </list>
@@ -711,9 +711,9 @@
                   </row>
                   <row role="lang">
                      <cell role="position">11</cell>
-                     <cell role="code">tor</cell>
+                     <cell role="code">sr-tor</cell>
                      <cell role="name">
-                        <ref target="#msd-tor">Torlak dialect of Serbian</ref>
+                        <ref target="#msd-sr-tor">Torlak dialect of Serbian</ref>
                      </cell>
                      <cell role="note">South West Slavic</cell>
                      <cell role="ref">
@@ -865,7 +865,7 @@
                            <ref target="#msd-sr">Serbian</ref>
                         </cell>
                         <cell role="name">
-                           <ref target="#msd-tor">Torlak dialect of Serbian</ref>
+                           <ref target="#msd-sr-tor">Torlak dialect of Serbian</ref>
                         </cell>
                         <cell role="name">
                            <ref target="#msd-ru">Russian</ref>
@@ -910,7 +910,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -936,7 +936,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -962,7 +962,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -988,7 +988,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1066,7 +1066,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1092,7 +1092,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1118,7 +1118,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1144,7 +1144,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1170,7 +1170,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1196,7 +1196,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1222,7 +1222,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1248,7 +1248,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1274,7 +1274,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -1298,17 +1298,17 @@
           <list type="ordered">
                      <item>
                         <emph rend="bold">Position</emph> gives the position of the attribute in the
-          string of the morphosyntactic description;</item>
+            string of the morphosyntactic description;</item>
                      <item>
                         <emph rend="bold">Attribute</emph> gives the name of the attribute;</item>
                      <item>
                         <emph rend="bold">Value</emph> gives the name and one-letter code of the
-          attribute-value;</item>
+            attribute-value;</item>
                      <item>a column for each of the languages. For easier comparison between them they have
-          been grouped by language family: first English as the 'hub' language, then Romance
-          (Romanian), followed by Slavic (Slovene, Czech, Bulgarian), and finaly Finno-Ungric
-          (Estonian, Hungarian). Croatian, Serbian and Resian have been added later, and not
-          yet properly grouped.</item>
+            been grouped by language family: first English as the 'hub' language, then Romance
+            (Romanian), followed by Slavic (Slovene, Czech, Bulgarian), and finaly Finno-Ungric
+            (Estonian, Hungarian). Croatian, Serbian and Resian have been added later, and not
+            yet properly grouped.</item>
                   </list>
                </p>
                <p>The language columns define (by marking with 'x'), in the first line, whether the
@@ -1342,7 +1342,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -1371,7 +1371,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">proper</cell>
@@ -1395,7 +1395,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">gerund</cell>
@@ -1428,7 +1428,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">feminine</cell>
@@ -1448,7 +1448,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">neuter</cell>
@@ -1468,7 +1468,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">common</cell>
@@ -1506,7 +1506,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">plural</cell>
@@ -1530,7 +1530,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dual</cell>
@@ -1578,7 +1578,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">genitive</cell>
@@ -1598,7 +1598,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dative</cell>
@@ -1616,7 +1616,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">accusative</cell>
@@ -1633,7 +1633,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">vocative</cell>
@@ -1650,7 +1650,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">locative</cell>
@@ -1666,7 +1666,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">instrumental</cell>
@@ -1683,7 +1683,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">direct</cell>
@@ -1916,7 +1916,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">yes</cell>
@@ -1931,7 +1931,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -2103,17 +2103,17 @@
                               <row role="value">
                                  <cell role="name">t-form</cell>
                                  <cell role="code">t</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">v-form</cell>
                                  <cell role="code">v</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">n-form</cell>
                                  <cell role="code">n</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -2157,7 +2157,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -2186,7 +2186,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">auxiliary</cell>
@@ -2210,7 +2210,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">modal</cell>
@@ -2238,7 +2238,7 @@
                                  <cell role="lang">fa</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">base</cell>
@@ -2308,7 +2308,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">conditional</cell>
@@ -2342,7 +2342,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">participle</cell>
@@ -2362,7 +2362,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">gerund</cell>
@@ -2405,14 +2405,14 @@
                                  <cell role="code">r</cell>
                                  <cell role="lang">sl</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">future</cell>
                                  <cell role="code">f</cell>
                                  <cell role="lang">sl</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">interrogative</cell>
@@ -2443,13 +2443,13 @@
                                  <cell role="name">aorist</cell>
                                  <cell role="code">a</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">imperfect</cell>
                                  <cell role="code">e</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">admirative</cell>
@@ -2601,7 +2601,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">second</cell>
@@ -2624,7 +2624,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">third</cell>
@@ -2647,7 +2647,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -2678,7 +2678,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">plural</cell>
@@ -2701,7 +2701,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dual</cell>
@@ -2738,7 +2738,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">feminine</cell>
@@ -2756,7 +2756,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">neuter</cell>
@@ -2774,7 +2774,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -2834,7 +2834,7 @@
                                  <cell role="lang">fa</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">yes</cell>
@@ -2849,7 +2849,7 @@
                                  <cell role="lang">fa</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -3243,7 +3243,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -3283,7 +3283,7 @@
                                  <cell role="lang">ru</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">ordinal</cell>
@@ -3301,7 +3301,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">mk</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">general</cell>
@@ -3310,7 +3310,7 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">mk</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">preposed</cell>
@@ -3345,7 +3345,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">comparative</cell>
@@ -3367,7 +3367,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">superlative</cell>
@@ -3388,7 +3388,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">elative</cell>
@@ -3426,7 +3426,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">feminine</cell>
@@ -3445,7 +3445,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">neuter</cell>
@@ -3463,7 +3463,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">common</cell>
@@ -3497,7 +3497,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">plural</cell>
@@ -3518,7 +3518,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dual</cell>
@@ -3557,7 +3557,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">genitive</cell>
@@ -3576,7 +3576,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dative</cell>
@@ -3593,7 +3593,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">accusative</cell>
@@ -3610,7 +3610,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">vocative</cell>
@@ -3621,7 +3621,7 @@
                                  <cell role="lang">sr</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">locative</cell>
@@ -3636,7 +3636,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">instrumental</cell>
@@ -3652,7 +3652,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">direct</cell>
@@ -3809,7 +3809,7 @@
                                  <cell role="lang">fa</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">yes</cell>
@@ -3824,7 +3824,7 @@
                                  <cell role="lang">fa</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">short-art</cell>
@@ -3889,7 +3889,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">uk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">yes</cell>
@@ -3902,7 +3902,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">uk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -4137,17 +4137,17 @@
                               <row role="value">
                                  <cell role="name">t-form</cell>
                                  <cell role="code">t</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">v-form</cell>
                                  <cell role="code">v</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">n-form</cell>
                                  <cell role="code">n</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -4193,7 +4193,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -4222,7 +4222,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">demonstrative</cell>
@@ -4245,7 +4245,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">indefinite</cell>
@@ -4268,7 +4268,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">possessive</cell>
@@ -4290,7 +4290,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">interrogative</cell>
@@ -4313,7 +4313,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">relative</cell>
@@ -4333,7 +4333,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">exclamative</cell>
@@ -4361,7 +4361,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">reciprocal</cell>
@@ -4460,7 +4460,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">second</cell>
@@ -4484,7 +4484,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">third</cell>
@@ -4508,7 +4508,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -4536,7 +4536,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">feminine</cell>
@@ -4556,7 +4556,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">neuter</cell>
@@ -4575,7 +4575,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -4607,7 +4607,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">plural</cell>
@@ -4631,7 +4631,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dual</cell>
@@ -4680,7 +4680,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">genitive</cell>
@@ -4701,7 +4701,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dative</cell>
@@ -4722,7 +4722,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">accusative</cell>
@@ -4744,7 +4744,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">vocative</cell>
@@ -4755,7 +4755,7 @@
                                  <cell role="lang">ru</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">locative</cell>
@@ -4771,7 +4771,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">instrumental</cell>
@@ -4788,7 +4788,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">direct</cell>
@@ -5217,7 +5217,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">yes</cell>
@@ -5231,7 +5231,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -5395,17 +5395,17 @@
                               <row role="value">
                                  <cell role="name">t-form</cell>
                                  <cell role="code">t</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">v-form</cell>
                                  <cell role="code">v</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">n-form</cell>
                                  <cell role="code">n</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -5938,7 +5938,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -5958,7 +5958,7 @@
                                  <cell role="lang">sr</cell>
                                  <cell role="lang">sl-rozaj</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">particle</cell>
@@ -6027,7 +6027,7 @@
                                  <cell role="code">r</cell>
                                  <cell role="lang">sl</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">modal</cell>
@@ -6061,7 +6061,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">comparative</cell>
@@ -6081,7 +6081,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">superlative</cell>
@@ -6101,7 +6101,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">elative</cell>
@@ -6246,7 +6246,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -6346,7 +6346,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dative</cell>
@@ -6362,7 +6362,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">accusative</cell>
@@ -6379,7 +6379,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">locative</cell>
@@ -6394,7 +6394,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">instrumental</cell>
@@ -6409,7 +6409,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">ablative</cell>
@@ -6467,7 +6467,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -6494,7 +6494,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">subordinating</cell>
@@ -6516,7 +6516,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">portmanteau</cell>
@@ -6722,7 +6722,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -6751,7 +6751,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">ordinal</cell>
@@ -6773,7 +6773,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">fractal</cell>
@@ -6814,7 +6814,7 @@
                                  <cell role="lang">sr</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">ordinal2</cell>
@@ -6853,7 +6853,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">feminine</cell>
@@ -6872,7 +6872,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">neuter</cell>
@@ -6890,7 +6890,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -6919,7 +6919,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">plural</cell>
@@ -6940,7 +6940,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dual</cell>
@@ -6980,7 +6980,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">genitive</cell>
@@ -7000,7 +7000,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dative</cell>
@@ -7018,7 +7018,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">accusative</cell>
@@ -7035,7 +7035,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">vocative</cell>
@@ -7043,7 +7043,7 @@
                                  <cell role="lang">hr</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">locative</cell>
@@ -7059,7 +7059,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">instrumental</cell>
@@ -7076,7 +7076,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">direct</cell>
@@ -7256,7 +7256,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">roman</cell>
@@ -7278,7 +7278,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">letter</cell>
@@ -7300,7 +7300,7 @@
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">both</cell>
@@ -7462,7 +7462,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">yes</cell>
@@ -7476,7 +7476,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -7566,17 +7566,17 @@
                               <row role="value">
                                  <cell role="name">t-form</cell>
                                  <cell role="code">t</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">v-form</cell>
                                  <cell role="code">v</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">n-form</cell>
                                  <cell role="code">n</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -7609,7 +7609,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -7625,7 +7625,7 @@
                                  <cell role="lang">sr</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">infinitive</cell>
@@ -7675,7 +7675,7 @@
                                  <cell role="lang">sr</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">modal</cell>
@@ -7684,7 +7684,7 @@
                                  <cell role="lang">hr</cell>
                                  <cell role="lang">sr</cell>
                                  <cell role="lang">hbs</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">affirmative</cell>
@@ -7693,7 +7693,7 @@
                                  <cell role="lang">sr</cell>
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">definitive</cell>
@@ -7785,7 +7785,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -7860,7 +7860,7 @@
                         <cell role="lang">sk</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -8156,7 +8156,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                      <row role="attribute">
                         <cell role="position">1</cell>
@@ -8171,7 +8171,7 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">mk</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">typo</cell>
@@ -8194,7 +8194,7 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">mk</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">emo</cell>
@@ -8203,7 +8203,7 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">mk</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">hashtag</cell>
@@ -8212,7 +8212,7 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">mk</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">at</cell>
@@ -8221,7 +8221,7 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">mk</cell>
-                                 <cell role="lang">tor</cell>
+                                 <cell role="lang">sr-tor</cell>
                               </row>
                            </table>
                         </cell>
@@ -8262,7 +8262,7 @@
                         <cell role="lang">ce</cell>
                         <cell role="lang">hbs</cell>
                         <cell role="lang">sq</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                      </row>
                   </table>
                   <div>
@@ -8316,7 +8316,7 @@
                            <ref target="#msd-sr">Serbian</ref>
                         </cell>
                         <cell role="name">
-                           <ref target="#msd-tor">Torlak dialect of Serbian</ref>
+                           <ref target="#msd-sr-tor">Torlak dialect of Serbian</ref>
                         </cell>
                         <cell role="name">
                            <ref target="#msd-ru">Russian</ref>
@@ -8360,7 +8360,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -8410,7 +8410,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -8435,7 +8435,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -8460,7 +8460,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -8510,7 +8510,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -8535,7 +8535,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -8560,7 +8560,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -8585,7 +8585,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -8735,7 +8735,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -8760,7 +8760,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -8860,7 +8860,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -8885,7 +8885,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -8910,7 +8910,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -9510,7 +9510,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -9635,7 +9635,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -9660,7 +9660,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -9685,7 +9685,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -9860,7 +9860,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -9935,7 +9935,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -9960,7 +9960,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -9985,7 +9985,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -10010,7 +10010,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -10260,7 +10260,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -10310,7 +10310,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -10435,7 +10435,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -10460,7 +10460,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -10485,7 +10485,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -10510,7 +10510,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -10985,7 +10985,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -11010,7 +11010,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -11235,7 +11235,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -11285,7 +11285,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -11335,7 +11335,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -11410,7 +11410,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -11435,7 +11435,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -11460,7 +11460,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -11485,7 +11485,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -11510,7 +11510,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -11535,7 +11535,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -11560,7 +11560,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -11776,7 +11776,7 @@
                            <ref target="#msd-sr">Serbian</ref>
                         </cell>
                         <cell role="name">
-                           <ref target="#msd-tor">Torlak dialect of Serbian</ref>
+                           <ref target="#msd-sr-tor">Torlak dialect of Serbian</ref>
                         </cell>
                         <cell role="name">
                            <ref target="#msd-ru">Russian</ref>
@@ -12419,7 +12419,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -12445,7 +12445,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -12497,7 +12497,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -12523,7 +12523,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -12549,7 +12549,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -13095,7 +13095,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -13407,7 +13407,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -13537,7 +13537,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -13589,7 +13589,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -13849,7 +13849,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -14265,7 +14265,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -14291,7 +14291,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -14317,7 +14317,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -14629,7 +14629,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -14655,7 +14655,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -14759,7 +14759,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -14785,7 +14785,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -14837,7 +14837,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -14863,7 +14863,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -14889,7 +14889,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -15383,7 +15383,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -15435,7 +15435,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -16345,7 +16345,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -17021,7 +17021,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -17099,7 +17099,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -17125,7 +17125,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -17151,7 +17151,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -17177,7 +17177,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -17437,7 +17437,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -17463,7 +17463,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -17489,7 +17489,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -17723,7 +17723,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -17749,7 +17749,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -17775,7 +17775,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -17905,7 +17905,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -17931,7 +17931,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -18009,7 +18009,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -18035,7 +18035,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -18061,7 +18061,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -18165,7 +18165,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -18347,7 +18347,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -18399,7 +18399,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -18581,7 +18581,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -18815,7 +18815,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -18893,7 +18893,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -18919,7 +18919,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -18971,7 +18971,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -18997,7 +18997,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -19023,7 +19023,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -19231,7 +19231,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -19257,7 +19257,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -19621,7 +19621,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -19699,7 +19699,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -19725,7 +19725,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -19777,7 +19777,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -19803,7 +19803,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -19829,7 +19829,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -19933,7 +19933,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -19985,7 +19985,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20063,7 +20063,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20089,7 +20089,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20115,7 +20115,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20141,7 +20141,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20271,7 +20271,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -20427,7 +20427,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -20453,7 +20453,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -20479,7 +20479,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -20505,7 +20505,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -20609,7 +20609,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -20687,7 +20687,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20765,7 +20765,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20791,7 +20791,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20817,7 +20817,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20843,7 +20843,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -20921,7 +20921,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -20973,7 +20973,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -20999,7 +20999,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -21025,7 +21025,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -21493,7 +21493,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -21805,7 +21805,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -21987,7 +21987,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -22065,7 +22065,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -22091,7 +22091,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -22117,7 +22117,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -22481,7 +22481,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -22585,7 +22585,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -22611,7 +22611,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -22637,7 +22637,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -23131,7 +23131,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -23209,7 +23209,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -23339,7 +23339,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -23365,7 +23365,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -23391,7 +23391,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -23417,7 +23417,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -23729,7 +23729,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -23755,7 +23755,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -23833,7 +23833,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -23911,7 +23911,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -24145,7 +24145,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -24353,7 +24353,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -24717,7 +24717,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -24795,7 +24795,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -24925,7 +24925,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -25133,7 +25133,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -25159,7 +25159,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -25523,7 +25523,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -25653,7 +25653,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -25679,7 +25679,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -25705,7 +25705,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -25731,7 +25731,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -26095,7 +26095,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -26329,7 +26329,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -26459,7 +26459,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -26485,7 +26485,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -26537,7 +26537,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -26563,7 +26563,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -26589,7 +26589,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -26615,7 +26615,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -27057,7 +27057,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -27083,7 +27083,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -27369,7 +27369,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -27395,7 +27395,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -27421,7 +27421,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -27447,7 +27447,7 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -27577,7 +27577,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -27603,7 +27603,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang">mk</cell>
@@ -27629,7 +27629,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -27655,7 +27655,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -27785,7 +27785,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -27837,7 +27837,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -27889,7 +27889,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -27915,7 +27915,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -27941,7 +27941,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang">ru</cell>
                         <cell role="lang">uk</cell>
                         <cell role="lang"/>
@@ -28409,7 +28409,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -28721,7 +28721,7 @@
                         <cell role="lang">hbs</cell>
                         <cell role="lang">hr</cell>
                         <cell role="lang">sr</cell>
-                        <cell role="lang">tor</cell>
+                        <cell role="lang">sr-tor</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">mk</cell>
@@ -28774,7 +28774,7 @@
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hbs.spc.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hr.spc.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sr.spc.xml"/>
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-tor.spc.xml"/>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sr-tor.spc.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ru.spc.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-uk.spc.xml"/>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-mk.spc.xml"/>
