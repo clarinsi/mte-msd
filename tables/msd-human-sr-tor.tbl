@@ -13,6 +13,7 @@
 01N010101040002	Ncmsa-v	Noun common masculine singular accusative v-form	Noun Type=common Gender=masculine Number=singular Case=accusative Article=v-form
 01N010101040003	Ncmsa-n	Noun common masculine singular accusative n-form	Noun Type=common Gender=masculine Number=singular Case=accusative Article=n-form
 01N010101040100	Ncmsan	Noun common masculine singular accusative -Animate	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=no
+01N010101040101	Ncmsant	Noun common masculine singular accusative -Animate t-form	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=no Article=t-form
 01N010101040200	Ncmsay	Noun common masculine singular accusative +Animate	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=yes
 01N010101040201	Ncmsayt	Noun common masculine singular accusative +Animate t-form	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=yes Article=t-form
 01N010101040203	Ncmsayn	Noun common masculine singular accusative +Animate n-form	Noun Type=common Gender=masculine Number=singular Case=accusative Animate=yes Article=n-form
@@ -252,7 +253,6 @@
 03A0103020101020000	Agsfsny	Adjective general superlative feminine singular nominative +Definiteness	Adjective Type=general Degree=superlative Gender=feminine Number=singular Case=nominative Definiteness=yes
 03A0103020104020000	Agsfsay	Adjective general superlative feminine singular accusative +Definiteness	Adjective Type=general Degree=superlative Gender=feminine Number=singular Case=accusative Definiteness=yes
 03A0103020202020000	Agsfpgy	Adjective general superlative feminine plural genitive +Definiteness	Adjective Type=general Degree=superlative Gender=feminine Number=plural Case=genitive Definiteness=yes
-03A0103020204020000	Agsfpay	Adjective general superlative feminine plural accusative +Definiteness	Adjective Type=general Degree=superlative Gender=feminine Number=plural Case=accusative Definiteness=yes
 03A0103030101020000	Agsnsny	Adjective general superlative neuter singular nominative +Definiteness	Adjective Type=general Degree=superlative Gender=neuter Number=singular Case=nominative Definiteness=yes
 03A0201010101010000	Aspmsnn	Adjective possessive positive masculine singular nominative -Definiteness	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=no
 03A0201010101020000	Aspmsny	Adjective possessive positive masculine singular nominative +Definiteness	Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=yes
@@ -283,6 +283,7 @@
 04P01010001030000	Pp1-sd	Pronoun personal first singular dative	Pronoun Type=personal Person=first Number=singular Case=dative
 04P01010001040000	Pp1-sa	Pronoun personal first singular accusative	Pronoun Type=personal Person=first Number=singular Case=accusative
 04P01010001040200	Pp1-say	Pronoun personal first singular accusative +Animate	Pronoun Type=personal Person=first Number=singular Case=accusative Animate=yes
+04P01010001070000	Pp1-si	Pronoun personal first singular instrumental	Pronoun Type=personal Person=first Number=singular Case=instrumental
 04P01010002010000	Pp1-pn	Pronoun personal first plural nominative	Pronoun Type=personal Person=first Number=plural Case=nominative
 04P01010002020000	Pp1-pg	Pronoun personal first plural genitive	Pronoun Type=personal Person=first Number=plural Case=genitive
 04P01010002020001	Pp1-pg-t	Pronoun personal first plural genitive t-form	Pronoun Type=personal Person=first Number=plural Case=genitive Article=t-form
@@ -505,7 +506,6 @@
 09Q03	Qo	Particle modal	Particle Type=modal
 09Q04	Qr	Particle affirmative	Particle Type=affirmative
 10I	I	Interjection	Interjection
-11Y	Y	Abbreviation	Abbreviation
 12X00	X	Residual	Residual
 12X01	Xf	Residual foreign	Residual Type=foreign
 13Z	Z	Punctuation	Punctuation

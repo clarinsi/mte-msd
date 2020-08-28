@@ -324,6 +324,29 @@
             <symbol value="no"/>
          </f>
       </fs>
+      <fs xml:id="Ncmsant" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Noun"/>
+         </f>
+         <f name="Type">
+            <symbol value="common"/>
+         </f>
+         <f name="Gender">
+            <symbol value="masculine"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Case">
+            <symbol value="accusative"/>
+         </f>
+         <f name="Animate">
+            <symbol value="no"/>
+         </f>
+         <f name="Article">
+            <symbol value="t-form"/>
+         </f>
+      </fs>
       <fs xml:id="Ncmsay" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Noun"/>
@@ -5062,29 +5085,6 @@
             <symbol value="yes"/>
          </f>
       </fs>
-      <fs xml:id="Agsfpay" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Adjective"/>
-         </f>
-         <f name="Type">
-            <symbol value="general"/>
-         </f>
-         <f name="Degree">
-            <symbol value="superlative"/>
-         </f>
-         <f name="Gender">
-            <symbol value="feminine"/>
-         </f>
-         <f name="Number">
-            <symbol value="plural"/>
-         </f>
-         <f name="Case">
-            <symbol value="accusative"/>
-         </f>
-         <f name="Definiteness">
-            <symbol value="yes"/>
-         </f>
-      </fs>
       <fs xml:id="Agsnsny" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Adjective"/>
@@ -5752,6 +5752,23 @@
          </f>
          <f name="Animate">
             <symbol value="yes"/>
+         </f>
+      </fs>
+      <fs xml:id="Pp1-si" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Pronoun"/>
+         </f>
+         <f name="Type">
+            <symbol value="personal"/>
+         </f>
+         <f name="Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Case">
+            <symbol value="instrumental"/>
          </f>
       </fs>
       <fs xml:id="Pp1-pn" xml:lang="en">
@@ -9787,11 +9804,6 @@
       <fs xml:id="I" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Interjection"/>
-         </f>
-      </fs>
-      <fs xml:id="Y" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Abbreviation"/>
          </f>
       </fs>
       <fs xml:id="X" xml:lang="en">

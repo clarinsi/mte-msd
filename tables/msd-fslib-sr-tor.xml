@@ -478,6 +478,7 @@
       <fs xml:id="Ncmsa-v" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N4.a #N6.v"/>
       <fs xml:id="Ncmsa-n" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N4.a #N6.n"/>
       <fs xml:id="Ncmsan" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N4.a #N5.n"/>
+      <fs xml:id="Ncmsant" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N4.a #N5.n #N6.t"/>
       <fs xml:id="Ncmsay" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N4.a #N5.y"/>
       <fs xml:id="Ncmsayt" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N4.a #N5.y #N6.t"/>
       <fs xml:id="Ncmsayn" xml:lang="en" feats="#N0 #N1.c #N2.m #N3.s #N4.a #N5.y #N6.n"/>
@@ -733,7 +734,6 @@
       <fs xml:id="Agsfsny" xml:lang="en" feats="#A0 #A1.g #A2.s #A3.f #A4.s #A5.n #A6.y"/>
       <fs xml:id="Agsfsay" xml:lang="en" feats="#A0 #A1.g #A2.s #A3.f #A4.s #A5.a #A6.y"/>
       <fs xml:id="Agsfpgy" xml:lang="en" feats="#A0 #A1.g #A2.s #A3.f #A4.p #A5.g #A6.y"/>
-      <fs xml:id="Agsfpay" xml:lang="en" feats="#A0 #A1.g #A2.s #A3.f #A4.p #A5.a #A6.y"/>
       <fs xml:id="Agsnsny" xml:lang="en" feats="#A0 #A1.g #A2.s #A3.n #A4.s #A5.n #A6.y"/>
       <fs xml:id="Aspmsnn" xml:lang="en" feats="#A0 #A1.s #A2.p #A3.m #A4.s #A5.n #A6.n"/>
       <fs xml:id="Aspmsny" xml:lang="en" feats="#A0 #A1.s #A2.p #A3.m #A4.s #A5.n #A6.y"/>
@@ -766,6 +766,7 @@
       <fs xml:id="Pp1-sd" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.s #P5.d"/>
       <fs xml:id="Pp1-sa" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.s #P5.a"/>
       <fs xml:id="Pp1-say" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.s #P5.a #P6.y"/>
+      <fs xml:id="Pp1-si" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.s #P5.i"/>
       <fs xml:id="Pp1-pn" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.p #P5.n"/>
       <fs xml:id="Pp1-pg" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.p #P5.g"/>
       <fs xml:id="Pp1-pg-t" xml:lang="en" feats="#P0 #P1.p #P2.1 #P4.p #P5.g #P7.t"/>
@@ -989,7 +990,6 @@
       <fs xml:id="Qo" xml:lang="en" feats="#Q0 #Q1.o"/>
       <fs xml:id="Qr" xml:lang="en" feats="#Q0 #Q1.r"/>
       <fs xml:id="I" xml:lang="en" feats="#I0"/>
-      <fs xml:id="Y" xml:lang="en" feats="#Y0"/>
       <fs xml:id="X" xml:lang="en" feats="#X0"/>
       <fs xml:id="Xf" xml:lang="en" feats="#X0 #X1.f"/>
       <fs xml:id="Z" xml:lang="en" feats="#Z0"/>
