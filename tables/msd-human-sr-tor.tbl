@@ -452,6 +452,7 @@
 07C02	Cs	Conjunction subordinating	Conjunction Type=subordinating
 08M01010000000000	Mdc	Numeral digit cardinal	Numeral Form=digit Type=cardinal
 08M01020000000000	Mdo	Numeral digit ordinal	Numeral Form=digit Type=ordinal
+08M02010000000000	Mrc	Numeral roman cardinal	Numeral Form=roman Type=cardinal
 08M02020000000000	Mro	Numeral roman ordinal	Numeral Form=roman Type=ordinal
 08M03010000000000	Mlc	Numeral letter cardinal	Numeral Form=letter Type=cardinal
 08M03010100000000	Mlcm	Numeral letter cardinal masculine	Numeral Form=letter Type=cardinal Gender=masculine
@@ -506,6 +507,7 @@
 09Q03	Qo	Particle modal	Particle Type=modal
 09Q04	Qr	Particle affirmative	Particle Type=affirmative
 10I	I	Interjection	Interjection
+11Y	Y	Abbreviation	Abbreviation
 12X00	X	Residual	Residual
 12X01	Xf	Residual foreign	Residual Type=foreign
 13Z	Z	Punctuation	Punctuation

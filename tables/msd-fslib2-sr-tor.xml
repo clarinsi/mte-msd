@@ -8786,6 +8786,17 @@
             <symbol value="ordinal"/>
          </f>
       </fs>
+      <fs xml:id="Mrc" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Numeral"/>
+         </f>
+         <f name="Form">
+            <symbol value="roman"/>
+         </f>
+         <f name="Type">
+            <symbol value="cardinal"/>
+         </f>
+      </fs>
       <fs xml:id="Mro" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Numeral"/>
@@ -9804,6 +9815,11 @@
       <fs xml:id="I" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Interjection"/>
+         </f>
+      </fs>
+      <fs xml:id="Y" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Abbreviation"/>
          </f>
       </fs>
       <fs xml:id="X" xml:lang="en">
