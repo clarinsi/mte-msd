@@ -87,6 +87,9 @@ cast-all:
 ## 3. Hand edit the common section so that it documents the inclusion of the new language
 ## 4. Move the langauge specific section from the editable folder xml-edit to the official folder xml-edit
 
+new-nohup:
+	nohup time make new-lang > nohup.new &
+
 new-lang:	new-lex new-msds new-val new-cast new-tbls htm mount
 xxxnew-lang:	new-split new-lex new-msds new-val new-merge new-cast new-tbls htm mount
 

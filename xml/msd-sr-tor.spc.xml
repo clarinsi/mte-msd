@@ -4,7 +4,7 @@
      xml:lang="en">
    <head>Torlak Specifications</head>
    <docAuthor>Teodora Vuković</docAuthor>
-   <docDate>2020-08-28</docDate>
+   <docDate>2020-08-30</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Torlak</item>
@@ -18,7 +18,7 @@
    <divGen type="subtoc"/>
    <div xml:id="msd-sr-tor.introduction">
       <head>Introduction to Torlak Specifications</head>
-      <p>These specifications for Torlak, a dialect of Serbian, are based on the <ref target="#msd-hbs">specifications for the Serbo-Croatian macrolanguage</ref>. The specifications accompany the <ref target="http://hdl.handle.net/11356/1281">transcription of the Spoken Torlak dialect corpus 1.0</ref> which had been automatically MSD tagged and lemmatised and partially manually corrected.</p>
+      <p>These specifications for Torlak, a dialect of Serbian, are based on the <ref target="#msd-hbs">specifications for the Serbo-Croatian macrolanguage</ref>. The Serbo-Croatian specifications have been adapted to include features for the post-positive articles for nouns, adjectives, pronouns and numerals. The specifications accompany the <ref target="http://hdl.handle.net/11356/1281">transcription of the Spoken Torlak dialect corpus 1.0</ref> which had been automatically MSD tagged and lemmatised and partially manually corrected.</p>
    </div>
    <div type="section" select="sr-tor" xml:id="msd.categories-sr-tor">
       <head>Torlak Category Index</head>
@@ -271,14 +271,14 @@
                <cell>Noun Type=common Gender=masculine Number=singular Case=nominative Article=t-form</cell>
                <cell>141</cell>
                <cell>269</cell>
-               <cell>krsat/krst, lébat/hleb, sínat/sin, unúkat/unuk, čovékat/čovek</cell>
+               <cell>krsat/krst, sínat/sin, lébat/hleb, unúkat/unuk, pútat/put</cell>
             </row>
             <row>
                <cell>Ncmsn-v</cell>
                <cell>Noun Type=common Gender=masculine Number=singular Case=nominative Article=v-form</cell>
                <cell>11</cell>
                <cell>18</cell>
-               <cell>dédava/deda, stárcav/starac, pútav/put, knjáževəcav/Knjaževəc, nósav/nos</cell>
+               <cell>dédava/deda, stárcav/starac, pútav/put, komšilákav/komšiluk, nósav/nos</cell>
             </row>
             <row>
                <cell>Ncmsn-n</cell>
@@ -292,7 +292,7 @@
                <cell>Noun Type=common Gender=masculine Number=singular Case=nominative Animate=no Article=t-form</cell>
                <cell>17</cell>
                <cell>20</cell>
-               <cell>brégat/breg, komšilə́kat/komšiluk, zmeját/zmej, kaišát/kaiš, przdélat/przdel</cell>
+               <cell>zmeját/zmej, brégat/breg, komšilə́kat/komšiluk, travalját/travalj, délat/deo</cell>
             </row>
             <row>
                <cell>Ncmsnnv</cell>
@@ -313,7 +313,7 @@
                <cell>Noun Type=common Gender=masculine Number=singular Case=nominative Animate=yes Article=t-form</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>vrtolomáta/vrtoloma, písarat/pisar</cell>
+               <cell>písarat/pisar, vrtolomáta/vrtoloma</cell>
             </row>
             <row>
                <cell>Ncmsg</cell>
@@ -334,14 +334,14 @@
                <cell>Noun Type=common Gender=masculine Number=singular Case=dative</cell>
                <cell>122</cell>
                <cell>180</cell>
-               <cell>úmu/um, pévu/pev, kúpu/kup, okúpu/okup, grómu/grom</cell>
+               <cell>úmu/um, kúpu/kup, pévu/pev, okúpu/okup, nesú/nes</cell>
             </row>
             <row>
                <cell>Ncmsa-t</cell>
                <cell>Noun Type=common Gender=masculine Number=singular Case=accusative Article=t-form</cell>
                <cell>6</cell>
                <cell>9</cell>
-               <cell>déduvu/deda, múžatoga/muž, čovékatoga/čovek, mózakata/mozak, čovékata/čovek</cell>
+               <cell>déduvu/deda, čovékatoga/čovek, múžatoga/muž, čovékata/čovek, mózakata/mozak</cell>
             </row>
             <row>
                <cell>Ncmsa-v</cell>
@@ -360,8 +360,8 @@
             <row>
                <cell>Ncmsan</cell>
                <cell>Noun Type=common Gender=masculine Number=singular Case=accusative Animate=no</cell>
-               <cell>888</cell>
-               <cell>4697</cell>
+               <cell>887</cell>
+               <cell>4696</cell>
                <cell>dán/dan, prímer/primer, pút/put, kráj/kraj, léb/hleb</cell>
             </row>
             <row>
@@ -383,7 +383,7 @@
                <cell>Noun Type=common Gender=masculine Number=singular Case=accusative Animate=yes Article=t-form</cell>
                <cell>5</cell>
                <cell>8</cell>
-               <cell>bogáta/bog, bógata/bog, bratátoga/brat, bratáta/brat, stárcatogá/starac</cell>
+               <cell>bogáta/bog, bógata/bog, bratáta/brat, stárcatogá/starac, bratátoga/brat</cell>
             </row>
             <row>
                <cell>Ncmsayn</cell>
@@ -411,7 +411,7 @@
                <cell>Noun Type=common Gender=masculine Number=singular Case=locative</cell>
                <cell>312</cell>
                <cell>667</cell>
-               <cell>réku/rek, šúmu/šum, nesú/nes, sóbu/sob, rédu/red</cell>
+               <cell>réku/rek, šúmu/šum, nesú/nes, sóbu/sob, dvé/dv</cell>
             </row>
             <row>
                <cell>Ncmsl-t</cell>
@@ -425,7 +425,7 @@
                <cell>Noun Type=common Gender=masculine Number=singular Case=instrumental</cell>
                <cell>57</cell>
                <cell>77</cell>
-               <cell>mámom/mam, telefónom/telefon, máhom/mah, pútem/put, tátom/tata</cell>
+               <cell>mámom/mam, pútem/put, telefónom/telefon, máhom/mah, tátom/tata</cell>
             </row>
             <row>
                <cell>Ncmpn</cell>
@@ -439,21 +439,21 @@
                <cell>Noun Type=common Gender=masculine Number=plural Case=nominative Article=t-form</cell>
                <cell>37</cell>
                <cell>47</cell>
-               <cell>stárciti/starac, tópoviti/top, unúciti/unuk, učitéljite/učitelj, mómciti/momak</cell>
+               <cell>stárciti/starac, unúciti/unuk, tópoviti/top, učitéljite/učitelj, koláčiti/kolač</cell>
             </row>
             <row>
                <cell>Ncmpn-v</cell>
                <cell>Noun Type=common Gender=masculine Number=plural Case=nominative Article=v-form</cell>
                <cell>10</cell>
                <cell>10</cell>
-               <cell>ródivi/rod, gušteríveve/gušter, drúgivi/drugi, šakálivi/šakal, sémaforivi/semafor</cell>
+               <cell>šakálivi/šakal, taksístivi/taksist, plínčićivi/plinče, súdive/sud, néḱivi/neḱi</cell>
             </row>
             <row>
                <cell>Ncmpnnt</cell>
                <cell>Noun Type=common Gender=masculine Number=plural Case=nominative Animate=no Article=t-form</cell>
                <cell>20</cell>
                <cell>23</cell>
-               <cell>mladíti/mlad, grébenciti/grebenc, prstiti/prst, lugjíti/čovek, póvolenšćiti/povolen</cell>
+               <cell>prstiti/prst, mladíti/mlad, grébenciti/grebenc, kožljacíti/kožljak, prutíčiti/prutić</cell>
             </row>
             <row>
                <cell>Ncmpnyv</cell>
@@ -474,21 +474,21 @@
                <cell>Noun Type=common Gender=masculine Number=plural Case=dative</cell>
                <cell>41</cell>
                <cell>43</cell>
-               <cell>udavíl/uda, unúcima/unuk, rové/rov, zaa, péčivo/peč</cell>
+               <cell>udavíl/uda, unúcima/unuk, češmá/če, stárcima/starac, pitíje/piac</cell>
             </row>
             <row>
                <cell>Ncmpa</cell>
                <cell>Noun Type=common Gender=masculine Number=plural Case=accusative</cell>
                <cell>308</cell>
                <cell>603</cell>
-               <cell>ljúǵe/čovek, ljúde/čovek, lékove/lek, éste/est, kónji/konj</cell>
+               <cell>ljúǵe/čovek, ljúde/čovek, éste/est, lékove/lek, volóve/vol</cell>
             </row>
             <row>
                <cell>Ncmpa-t</cell>
                <cell>Noun Type=common Gender=masculine Number=plural Case=accusative Article=t-form</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>klepetárnikete/klepetarnik, vúkovete/vuk</cell>
+               <cell>vúkovete/vuk, klepetárnikete/klepetarnik</cell>
             </row>
             <row>
                <cell>Ncmpa-n</cell>
@@ -502,14 +502,14 @@
                <cell>Noun Type=common Gender=masculine Number=plural Case=locative</cell>
                <cell>65</cell>
                <cell>74</cell>
-               <cell>óbičajima/običaj, lalíja/lal, dánima/dan, póso/p, níš/niš</cell>
+               <cell>óbičajima/običaj, dánima/dan, lalíja/lal, níš/niš, póso/p</cell>
             </row>
             <row>
                <cell>Ncmpi</cell>
                <cell>Noun Type=common Gender=masculine Number=plural Case=instrumental</cell>
                <cell>31</cell>
                <cell>41</cell>
-               <cell>ljúdima/čovek, váma/v, náma/n, svákoga/svak, róditeljima/roditelj</cell>
+               <cell>váma/v, ljúdima/čovek, náma/n, svákoga/svak, róditeljima/roditelj</cell>
             </row>
             <row>
                <cell>Ncfsn</cell>
@@ -530,28 +530,28 @@
                <cell>Noun Type=common Gender=feminine Number=singular Case=nominative Article=v-form</cell>
                <cell>17</cell>
                <cell>19</cell>
-               <cell>bábava/baba, kúćava/kuća, dečíjava/dečija, škólava/škola, komšíkava/komšika</cell>
+               <cell>bábava/baba, kúćava/kuća, komšíkava/komšika, gúšava/guša, popadíjava/popadija</cell>
             </row>
             <row>
                <cell>Ncfsn-n</cell>
                <cell>Noun Type=common Gender=feminine Number=singular Case=nominative Article=n-form</cell>
                <cell>6</cell>
                <cell>6</cell>
-               <cell>ženícana/ženica, vrátana/vrata, parána/para, komšíkana/komšika, bábana/baba</cell>
+               <cell>parána/para, noǵíćkana/noǵićka, ženícana/ženica, komšíkana/komšika, vrátana/vrata</cell>
             </row>
             <row>
                <cell>Ncfsnnt</cell>
                <cell>Noun Type=common Gender=feminine Number=singular Case=nominative Animate=no Article=t-form</cell>
                <cell>8</cell>
                <cell>11</cell>
-               <cell>cíglata/cigla, traváta/trava, paráta/para, materjáta/materija, pustinjáta/pustinja</cell>
+               <cell>cíglata/cigla, traváta/trava, stípsata/stipsa, níšata/niša, pustinjáta/pustinja</cell>
             </row>
             <row>
                <cell>Ncfsnyt</cell>
                <cell>Noun Type=common Gender=feminine Number=singular Case=nominative Animate=yes Article=t-form</cell>
                <cell>18</cell>
                <cell>44</cell>
-               <cell>snáta/snaha, ženáta/žena, sestráta/sestra, zmijáta/zmija, vratáta/vrata</cell>
+               <cell>snáta/snaha, ženáta/žena, sestráta/sestra, glaváta/glava, vratáta/vrata</cell>
             </row>
             <row>
                <cell>Ncfsg</cell>
@@ -579,21 +579,21 @@
                <cell>Noun Type=common Gender=feminine Number=singular Case=accusative Article=t-form</cell>
                <cell>114</cell>
                <cell>209</cell>
-               <cell>vodútu/voda, škólutu/škola, kúćutu/kuća, décutu/deca, crkvutu/crkva</cell>
+               <cell>vodútu/voda, škólutu/škola, kúćutu/kuća, crkvutu/crkva, décutu/deca</cell>
             </row>
             <row>
                <cell>Ncfsa-v</cell>
                <cell>Noun Type=common Gender=feminine Number=singular Case=accusative Article=v-form</cell>
                <cell>7</cell>
                <cell>7</cell>
-               <cell>mašínuvu/mašina, gibánicuvu/gibanica, kúḱuvu/kuḱa, neći/na, vóduvu/voda</cell>
+               <cell>neći/na, vóduvu/voda, šérpuvu/šerpa, gibánicuvu/gibanica, kúḱuvu/kuḱa</cell>
             </row>
             <row>
                <cell>Ncfsa-n</cell>
                <cell>Noun Type=common Gender=feminine Number=singular Case=accusative Article=n-form</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>šúpicu/šupica, šérpu/šerpa, vodenícu/vodenica</cell>
+               <cell>šérpu/šerpa, vodenícu/vodenica, šúpicu/šupica</cell>
             </row>
             <row>
                <cell>Ncfsant</cell>
@@ -614,14 +614,14 @@
                <cell>Noun Type=common Gender=feminine Number=singular Case=accusative Animate=no Article=n-form</cell>
                <cell>7</cell>
                <cell>9</cell>
-               <cell>gradínunu/gradina, prodávnicunu/prodavnica, crkvunu/crkva, kobílunu/kobila, baštúnu/bašta</cell>
+               <cell>gradínunu/gradina, crkvunu/crkva, prodávnicunu/prodavnica, kesúnu/kesa, kobílunu/kobila</cell>
             </row>
             <row>
                <cell>Ncfsayt</cell>
                <cell>Noun Type=common Gender=feminine Number=singular Case=accusative Animate=yes Article=t-form</cell>
                <cell>5</cell>
                <cell>10</cell>
-               <cell>stókutu/stoka, ženútu/žena, snaútu/snaha, svinjútu/svinja, zmijútu/zmija</cell>
+               <cell>stókutu/stoka, ženútu/žena, svinjútu/svinja, snaútu/snaha, zmijútu/zmija</cell>
             </row>
             <row>
                <cell>Ncfsv</cell>
@@ -642,7 +642,7 @@
                <cell>Noun Type=common Gender=feminine Number=singular Case=instrumental</cell>
                <cell>46</cell>
                <cell>137</cell>
-               <cell>véčerom/večer, kámerom/kamera, vódom/voda, bákom/baka, bábom/baba</cell>
+               <cell>véčerom/večer, kámerom/kamera, vódom/voda, bákom/baka, većínom/većina</cell>
             </row>
             <row>
                <cell>Ncfpn</cell>
@@ -656,42 +656,42 @@
                <cell>Noun Type=common Gender=feminine Number=plural Case=nominative Article=t-form</cell>
                <cell>58</cell>
                <cell>87</cell>
-               <cell>bábete/baba, krávete/krava, ženéte/žena, paréte/para, perášćete/perašća</cell>
+               <cell>bábete/baba, ženéte/žena, krávete/krava, paréte/para, perášćete/perašća</cell>
             </row>
             <row>
                <cell>Ncfpn-v</cell>
                <cell>Noun Type=common Gender=feminine Number=plural Case=nominative Article=v-form</cell>
                <cell>9</cell>
                <cell>9</cell>
-               <cell>devójkeve/devojka, stépeniceve/stepenica, svádbeve/svadba, kokoxćeve/kokoška, zmijuríneve/zmijurina</cell>
+               <cell>mušíceve/mušica, zmijuríneve/zmijurina, tórbeve/torba, kokoxćeve/kokoška, pénzijiceve/penzijica</cell>
             </row>
             <row>
                <cell>Ncfpn-n</cell>
                <cell>Noun Type=common Gender=feminine Number=plural Case=nominative Article=n-form</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>kokošćétinene/kokošćetina, létvene/letva, ručíḱkene/ručiḱka</cell>
+               <cell>kokošćétinene/kokošćetina, ručíḱkene/ručiḱka, létvene/letva</cell>
             </row>
             <row>
                <cell>Ncfpnnt</cell>
                <cell>Noun Type=common Gender=feminine Number=plural Case=nominative Animate=no Article=t-form</cell>
                <cell>13</cell>
                <cell>15</cell>
-               <cell>ólalijete/olalija, sedínjkete/sedenjka, čarápete/čarapa, ljuljáljćete/ljuljaljka, ponjávete/ponjava</cell>
+               <cell>ólalijete/olalija, pomíjete/pomija, ljuljáljćete/ljuljaljka, ponjávete/ponjava, knjígete/knjiga</cell>
             </row>
             <row>
                <cell>Ncfpnnv</cell>
                <cell>Noun Type=common Gender=feminine Number=plural Case=nominative Animate=no Article=v-form</cell>
                <cell>4</cell>
                <cell>4</cell>
-               <cell>emísijeve/emisija, brádeve/brada, píteve/pita, kúćeve/kuća</cell>
+               <cell>emísijeve/emisija, píteve/pita, brádeve/brada, kúćeve/kuća</cell>
             </row>
             <row>
                <cell>Ncfpnyt</cell>
                <cell>Noun Type=common Gender=feminine Number=plural Case=nominative Animate=yes Article=t-form</cell>
                <cell>8</cell>
                <cell>31</cell>
-               <cell>ovcéte/ovca, óvcete/ovca, tíkvete/tikva, sljívete/šljiva, mužjéte/muž</cell>
+               <cell>ovcéte/ovca, óvcete/ovca, mužjéte/muž, sljívete/šljiva, máčḱete/mačka</cell>
             </row>
             <row>
                <cell>Ncfpnyv</cell>
@@ -712,7 +712,7 @@
                <cell>Noun Type=common Gender=feminine Number=plural Case=dative</cell>
                <cell>7</cell>
                <cell>7</cell>
-               <cell>devójkama/devojka, ústima/usta, óčima/oko, bójama/boja, séstrama/sestra</cell>
+               <cell>bójama/boja, óčima/oko, séstrama/sestra, glaváma/glava, zmíjama/zmija</cell>
             </row>
             <row>
                <cell>Ncfpa</cell>
@@ -726,7 +726,7 @@
                <cell>Noun Type=common Gender=feminine Number=plural Case=accusative Article=t-form</cell>
                <cell>6</cell>
                <cell>6</cell>
-               <cell>vídećete/videća, kólute/kolut, móšte/mošt, péčiljkete/pečurka, uléznete/ulezna</cell>
+               <cell>uléznete/ulezna, móšte/mošt, péčiljkete/pečurka, kólute/kolut, vídećete/videća</cell>
             </row>
             <row>
                <cell>Ncfpa-v</cell>
@@ -740,14 +740,14 @@
                <cell>Noun Type=common Gender=feminine Number=plural Case=locative</cell>
                <cell>34</cell>
                <cell>37</cell>
-               <cell>grúpama/grupa, váma/va, níš/n, dušiné/duši, léba/hleb</cell>
+               <cell>grúpama/grupa, níš/n, váma/va, stáraca/starac, léba/hleb</cell>
             </row>
             <row>
                <cell>Ncfpi</cell>
                <cell>Noun Type=common Gender=feminine Number=plural Case=instrumental</cell>
                <cell>20</cell>
                <cell>34</cell>
-               <cell>váma/va, gódinama/godina, múkama/muka, dékama/deka, réčima/reč</cell>
+               <cell>váma/va, gódinama/godina, náma/na, dékama/deka, réčima/reč</cell>
             </row>
             <row>
                <cell>Ncnsn</cell>
@@ -761,14 +761,14 @@
                <cell>Noun Type=common Gender=neuter Number=singular Case=nominative Article=t-form</cell>
                <cell>44</cell>
                <cell>65</cell>
-               <cell>devójčeto/devojče, jútroto/jutro, sírinjeto/sirinje, máčeto/mače, devójčenceto/devojčence</cell>
+               <cell>devójčeto/devojče, sírinjeto/sirinje, jútroto/jutro, máčeto/mače, deténceto/detence</cell>
             </row>
             <row>
                <cell>Ncnsn-v</cell>
                <cell>Noun Type=common Gender=neuter Number=singular Case=nominative Article=v-form</cell>
                <cell>16</cell>
                <cell>24</cell>
-               <cell>devójčevo/devojče, máčevo/mače, vrémevo/vreme, žiténcevo/žitence, tanjírčevo/tanjirče</cell>
+               <cell>devójčevo/devojče, kúćovo/kućo, detévo/dete, cvéḱevo/cveḱe, detéovo/deteo</cell>
             </row>
             <row>
                <cell>Ncnsn-n</cell>
@@ -796,21 +796,21 @@
                <cell>Noun Type=common Gender=neuter Number=singular Case=nominative Animate=no Article=n-form</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>sélono/selo, útrono/jutro, brdóno/brdo</cell>
+               <cell>brdóno/brdo, sélono/selo, útrono/jutro</cell>
             </row>
             <row>
                <cell>Ncnsg</cell>
                <cell>Noun Type=common Gender=neuter Number=singular Case=genitive</cell>
                <cell>149</cell>
                <cell>255</cell>
-               <cell>drva/drvo, mésta/mesto, séla/selo, vrémena/vreme, jája/jaje</cell>
+               <cell>drva/drvo, mésta/mesto, séla/selo, vrémena/vreme, jútra/jutro</cell>
             </row>
             <row>
                <cell>Ncnsd</cell>
                <cell>Noun Type=common Gender=neuter Number=singular Case=dative</cell>
                <cell>13</cell>
                <cell>15</cell>
-               <cell>detétu/dete, govédu/govedo, télu/telo, jutárnju/jutarnje, óknu/okno</cell>
+               <cell>detétu/dete, govédu/govedo, ovú/ove, páljenju/paljenje, oformljávanju/oformljavanje</cell>
             </row>
             <row>
                <cell>Ncnsa</cell>
@@ -824,7 +824,7 @@
                <cell>Noun Type=common Gender=neuter Number=singular Case=accusative Article=t-form</cell>
                <cell>4</cell>
                <cell>4</cell>
-               <cell>tkanjéto/tkanje, đúbreto/đubre, kúćeto/kuče, kotléto/kotao</cell>
+               <cell>đúbreto/đubre, kúćeto/kuče, tkanjéto/tkanje, kotléto/kotao</cell>
             </row>
             <row>
                <cell>Ncnsay</cell>
@@ -845,7 +845,7 @@
                <cell>Noun Type=common Gender=neuter Number=singular Case=vocative</cell>
                <cell>5</cell>
                <cell>5</cell>
-               <cell>póče/poče, siróče/siroče, odozdóle/odozdole, zláto/zlato, siročé/siroče</cell>
+               <cell>siróče/siroče, zláto/zlato, odozdóle/odozdole, póče/poče, siročé/siroče</cell>
             </row>
             <row>
                <cell>Ncnsl</cell>
@@ -859,7 +859,7 @@
                <cell>Noun Type=common Gender=neuter Number=singular Case=instrumental</cell>
                <cell>29</cell>
                <cell>39</cell>
-               <cell>vínom/vino, pitújem/pituje, poréklom/poreklo, bájem/baje, drúštvom/društvo</cell>
+               <cell>vínom/vino, poréklom/poreklo, pitújem/pituje, bájem/baje, sobújem/sobuje</cell>
             </row>
             <row>
                <cell>Ncnpn</cell>
@@ -873,7 +873,7 @@
                <cell>Noun Type=common Gender=neuter Number=plural Case=nominative Article=t-form</cell>
                <cell>6</cell>
                <cell>10</cell>
-               <cell>kólata/kola, koláta/kola, brdílata/brdila, drvjata/drvje, súknata/sukna</cell>
+               <cell>kólata/kola, koláta/kola, súknata/sukna, dečícata/dečica, drvjata/drvje</cell>
             </row>
             <row>
                <cell>Ncnpn-v</cell>
@@ -901,7 +901,7 @@
                <cell>Noun Type=common Gender=neuter Number=plural Case=genitive</cell>
                <cell>24</cell>
                <cell>40</cell>
-               <cell>déce/dete, práva/pravo, drva/drvo, kóla/kola, téla/telo</cell>
+               <cell>déce/dete, drva/drvo, práva/pravo, kóla/kola, téla/telo</cell>
             </row>
             <row>
                <cell>Ncnpd</cell>
@@ -929,7 +929,7 @@
                <cell>Noun Type=common Gender=neuter Number=plural Case=locative</cell>
                <cell>5</cell>
                <cell>16</cell>
-               <cell>kólima/kola, jájima/jaje, sélima/selo, nə, takmičénjima/takmičenje</cell>
+               <cell>kólima/kola, jájima/jaje, sélima/selo, takmičénjima/takmičenje, nə</cell>
             </row>
             <row>
                <cell>Ncnpi</cell>
@@ -943,7 +943,7 @@
                <cell>Noun Type=proper Gender=masculine Number=singular Case=nominative</cell>
                <cell>3770</cell>
                <cell>7545</cell>
-               <cell>bóg/Bog, božíč/Božič, bádnjak/Badnjak, ráde/Rade, téj/Tej</cell>
+               <cell>bóg/Bog, božíč/Božič, bádnjak/Badnjak, ráde/Rade, jován/Jovan</cell>
             </row>
             <row>
                <cell>Npmsn-t</cell>
@@ -957,7 +957,7 @@
                <cell>Noun Type=proper Gender=masculine Number=singular Case=genitive</cell>
                <cell>528</cell>
                <cell>886</cell>
-               <cell>bóga/Bog, óca/Otac, strá/Str, mája/Maj, vás/Va</cell>
+               <cell>bóga/Bog, óca/Otac, strá/Str, mája/Maj, teodóra/Teodor</cell>
             </row>
             <row>
                <cell>Npmsd</cell>
@@ -978,28 +978,28 @@
                <cell>Noun Type=proper Gender=masculine Number=singular Case=accusative Animate=yes</cell>
                <cell>283</cell>
                <cell>705</cell>
-               <cell>knjáževac/Knjaževac, kálnu/Kalna, béograd/Beograd, pírot/Pirot, bóga/Bog</cell>
+               <cell>knjáževac/Knjaževac, kálnu/Kalna, béograd/Beograd, pírot/Pirot, božíć/Božić</cell>
             </row>
             <row>
                <cell>Npmsv</cell>
                <cell>Noun Type=proper Gender=masculine Number=singular Case=vocative</cell>
                <cell>40</cell>
                <cell>214</cell>
-               <cell>bóže/Bog, ce/Ce, óče/Otac, džérmane/Džerman, žíko/Žika</cell>
+               <cell>bóže/Bog, ce/Ce, žíko/Žika, džérmane/Džerman, óče/Otac</cell>
             </row>
             <row>
                <cell>Npmsl</cell>
                <cell>Noun Type=proper Gender=masculine Number=singular Case=locative</cell>
                <cell>596</cell>
                <cell>874</cell>
-               <cell>vrbícu/Vrbic, záječar/Zaječac, kréntu/Krent, sváku/Svak, kújnu/Kujn</cell>
+               <cell>vrbícu/Vrbic, záječar/Zaječac, kréntu/Krent, sváku/Svak, máterinu/Materin</cell>
             </row>
             <row>
                <cell>Npmsi</cell>
                <cell>Noun Type=proper Gender=masculine Number=singular Case=instrumental</cell>
                <cell>30</cell>
                <cell>31</cell>
-               <cell>jútrom/Jutra, óglukom/Ogluka, tíjem/Tij, zatúrom/Zatura, poréklom/Porekla</cell>
+               <cell>jútrom/Jutra, zóranom/Zoran, poréklom/Porekla, pákum/Pak, uvíjuem/Uviju</cell>
             </row>
             <row>
                <cell>Npmpn</cell>
@@ -1013,14 +1013,14 @@
                <cell>Noun Type=proper Gender=masculine Number=plural Case=nominative Article=t-form</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>némciti/Nemac, rúsiti/Rus</cell>
+               <cell>rúsiti/Rus, némciti/Nemac</cell>
             </row>
             <row>
                <cell>Npmpg</cell>
                <cell>Noun Type=proper Gender=masculine Number=plural Case=genitive</cell>
                <cell>18</cell>
                <cell>24</cell>
-               <cell>túraka/Turčin, redíća/Redić, srba/Srbin, íma/Im, újka/Ujko</cell>
+               <cell>túraka/Turčin, redíća/Redić, íma/Im, srba/Srbin, vlastímirka/Vlastimirko</cell>
             </row>
             <row>
                <cell>Npmpd</cell>
@@ -1034,14 +1034,14 @@
                <cell>Noun Type=proper Gender=masculine Number=plural Case=accusative</cell>
                <cell>146</cell>
                <cell>197</cell>
-               <cell>vráčke/Vračko, zúniče/Zunič, cíganje/Ciganj, fláše/Flaš, čéze/Čezo</cell>
+               <cell>zúniče/Zunič, vráčke/Vračko, cíganje/Ciganj, fláše/Flaš, béšte/Bešta</cell>
             </row>
             <row>
                <cell>Npmpi</cell>
                <cell>Noun Type=proper Gender=masculine Number=plural Case=instrumental</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>sima/S, váma/V</cell>
+               <cell>váma/V, sima/S</cell>
             </row>
             <row>
                <cell>Npfsn</cell>
@@ -1055,14 +1055,14 @@
                <cell>Noun Type=proper Gender=feminine Number=singular Case=genitive</cell>
                <cell>529</cell>
                <cell>849</cell>
-               <cell>íde/Ida, tébe/Teba, tíje/Tija, éve/Eva, séme/Seme</cell>
+               <cell>íde/Ida, tébe/Teba, tíje/Tija, séme/Seme, éve/Eva</cell>
             </row>
             <row>
                <cell>Npfsd</cell>
                <cell>Noun Type=proper Gender=feminine Number=singular Case=dative</cell>
                <cell>19</cell>
                <cell>29</cell>
-               <cell>idí/Ida, nadí/Nada, nádi/Nada, em/Em, négi/Nega</cell>
+               <cell>idí/Ida, nadí/Nada, nádi/Nada, em/Em, šami/Šama</cell>
             </row>
             <row>
                <cell>Npfsa</cell>
@@ -1083,35 +1083,35 @@
                <cell>Noun Type=proper Gender=feminine Number=singular Case=locative</cell>
                <cell>166</cell>
                <cell>230</cell>
-               <cell>níš/Niš, záječar/Zaječar, debélicu/Debelica, cvéti/Cveta, drvnik/Drvnik</cell>
+               <cell>níš/Niš, debélicu/Debelica, záječar/Zaječar, cvéti/Cveta, drvnik/Drvnik</cell>
             </row>
             <row>
                <cell>Npfsi</cell>
                <cell>Noun Type=proper Gender=feminine Number=singular Case=instrumental</cell>
                <cell>17</cell>
                <cell>22</cell>
-               <cell>níkom/Nika, lénom/Lena, ednóm/Edna, skórpus/Skorpus, pseníčom/Pseniča</cell>
+               <cell>níkom/Nika, ednóm/Edna, lénom/Lena, skórpus/Skorpus, tekó/Teko</cell>
             </row>
             <row>
                <cell>Npfpg</cell>
                <cell>Noun Type=proper Gender=feminine Number=plural Case=genitive</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>sastáena/Sastaena, ui/Ui</cell>
+               <cell>ui/Ui, sastáena/Sastaena</cell>
             </row>
             <row>
                <cell>Npfpa</cell>
                <cell>Noun Type=proper Gender=feminine Number=plural Case=accusative</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>etéj/Etej, podržá/Podrža, póče/Poče</cell>
+               <cell>póče/Poče, podržá/Podrža, etéj/Etej</cell>
             </row>
             <row>
                <cell>Npnsn</cell>
                <cell>Noun Type=proper Gender=neuter Number=singular Case=nominative</cell>
                <cell>171</cell>
                <cell>272</cell>
-               <cell>búčje/Bučje, kravájče/Kravajče, ósenje/Osenje, brátanče/Bratanče, cíganje/Ciganje</cell>
+               <cell>búčje/Bučje, kravájče/Kravajče, ósenje/Osenje, brátanče/Bratanče, óbičaje/Običaje</cell>
             </row>
             <row>
                <cell>Npnsn-t</cell>
@@ -1125,7 +1125,7 @@
                <cell>Noun Type=proper Gender=neuter Number=singular Case=genitive</cell>
                <cell>32</cell>
                <cell>32</cell>
-               <cell>rásova/Rasovo, daaa/Daao, vrljena/Vrljeno, kćina/Kćino, skóplja/Skopje</cell>
+               <cell>nə/Nə, džógava/Džogavo, brna/Brno, strá/Stro, sekrva/Sekrvo</cell>
             </row>
             <row>
                <cell>Npnsa</cell>
@@ -1139,7 +1139,7 @@
                <cell>Noun Type=proper Gender=neuter Number=singular Case=locative</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>lásovu/Lasovo, úzmee/Uzm, práskovu/Praskovo</cell>
+               <cell>práskovu/Praskovo, úzmee/Uzm, lásovu/Lasovo</cell>
             </row>
             <row>
                <cell>Npnpa</cell>
@@ -1349,7 +1349,7 @@
                <cell>Verb Type=main VForm=participle Number=plural Gender=neuter</cell>
                <cell>4</cell>
                <cell>5</cell>
-               <cell>išlá/ići, pomágala/pomagati, naə/nti, šíla/šiti</cell>
+               <cell>išlá/ići, šíla/šiti, pomágala/pomagati, naə/nti</cell>
             </row>
             <row>
                <cell>Vmr1s</cell>
@@ -1398,21 +1398,21 @@
                <cell>Verb Type=main VForm=future Person=first Number=singular</cell>
                <cell>6</cell>
                <cell>6</cell>
-               <cell>vrátiću/vratiti, prátiću/pratiti, stáviću/staviti, póneću/poneti, úzeću/uzeti</cell>
+               <cell>úzeću/uzeti, póneću/poneti, vrátiću/vratiti, pášću/pasti, stáviću/staviti</cell>
             </row>
             <row>
                <cell>Vmf1p</cell>
                <cell>Verb Type=main VForm=future Person=first Number=plural</cell>
                <cell>4</cell>
                <cell>5</cell>
-               <cell>vídećemo/videti, donéso/doti, stávićemo/staviti, otéro/oti</cell>
+               <cell>vídećemo/videti, stávićemo/staviti, donéso/doti, otéro/oti</cell>
             </row>
             <row>
                <cell>Vmf3s</cell>
                <cell>Verb Type=main VForm=future Person=third Number=singular</cell>
                <cell>20</cell>
                <cell>22</cell>
-               <cell>bóšće/bosti, píće/piti, účiće/učiti, slomíće/slomiti, íma/imati</cell>
+               <cell>bóšće/bosti, píće/piti, créće/creti, igráčćé/igračti, odvéšće/odvesti</cell>
             </row>
             <row>
                <cell>Vmf3p</cell>
@@ -1447,7 +1447,7 @@
                <cell>Verb Type=main VForm=aorist Person=first Number=plural</cell>
                <cell>18</cell>
                <cell>21</cell>
-               <cell>dojdómo/dojdti, dóǵemo/doǵti, dođósmo/doći, podrémemo/podremti, básmo/bati</cell>
+               <cell>dojdómo/dojdti, dođósmo/doći, dóǵemo/doǵti, dádomo/dći, podrémemo/podremti</cell>
             </row>
             <row>
                <cell>Vma3s</cell>
@@ -1461,7 +1461,7 @@
                <cell>Verb Type=main VForm=aorist Person=third Number=plural</cell>
                <cell>197</cell>
                <cell>403</cell>
-               <cell>dojdóše/doći, otídu/otići, oteráše/oterati, ódoše/otići, póviše/poviti</cell>
+               <cell>dojdóše/doći, otídu/otići, oteráše/oterati, ódoše/otići, dádoše/dati</cell>
             </row>
             <row>
                <cell>Vme3s</cell>
@@ -1482,7 +1482,7 @@
                <cell>Verb Type=auxiliary VForm=infinitive</cell>
                <cell>3</cell>
                <cell>12</cell>
-               <cell>bíti/biti, bití/biti, biti</cell>
+               <cell>bíti/biti, biti, bití/biti</cell>
             </row>
             <row>
                <cell>Vap-sm</cell>
@@ -1503,7 +1503,7 @@
                <cell>Verb Type=auxiliary VForm=participle Number=singular Gender=neuter</cell>
                <cell>9</cell>
                <cell>297</cell>
-               <cell>bílo/biti, biló/biti, bilá/biti, bilo/biti, váš/vaš</cell>
+               <cell>bílo/biti, biló/biti, bilá/biti, bilo/biti, opečú/opeču</cell>
             </row>
             <row>
                <cell>Vap-pm</cell>
@@ -1573,7 +1573,7 @@
                <cell>Verb Type=auxiliary VForm=aorist Person=first Number=singular</cell>
                <cell>4</cell>
                <cell>15</cell>
-               <cell>bih/biti, bi/biti, znə, lu</cell>
+               <cell>bih/biti, bi/biti, lu, znə</cell>
             </row>
             <row>
                <cell>Vaa1p</cell>
@@ -1587,14 +1587,14 @@
                <cell>Verb Type=auxiliary VForm=aorist Person=third Number=singular</cell>
                <cell>25</cell>
                <cell>401</cell>
-               <cell>bi/biti, bí/biti, l, ví/vi, od</cell>
+               <cell>bi/biti, bí/biti, l, vi, tí/ti</cell>
             </row>
             <row>
                <cell>Vaa3p</cell>
                <cell>Verb Type=auxiliary VForm=aorist Person=third Number=plural</cell>
                <cell>14</cell>
                <cell>44</cell>
-               <cell>bi/biti, bí/biti, ijao, vréme?/vreme?, esú/esu</cell>
+               <cell>bi/biti, bí/biti, dželáti/dželati, domaḱínstva/domaḱinstva, ijao</cell>
             </row>
             <row>
                <cell>Vae3s</cell>
@@ -1615,7 +1615,7 @@
                <cell>Verb Type=copula VForm=participle Number=singular Gender=masculine</cell>
                <cell>22</cell>
                <cell>159</cell>
-               <cell>bíl/biti, bío/biti, bil/biti, bio/biti, eš</cell>
+               <cell>bíl/biti, bío/biti, bil/biti, bio/biti, lelelelelelelele/lelelelelelelelti</cell>
             </row>
             <row>
                <cell>Vcp-sf</cell>
@@ -1629,7 +1629,7 @@
                <cell>Verb Type=copula VForm=participle Number=singular Gender=neuter</cell>
                <cell>247</cell>
                <cell>1182</cell>
-               <cell>biló/biti, bílo/biti, kə́d/kti, bilo/biti, nóvḱe/novti</cell>
+               <cell>biló/biti, bílo/biti, kə́d/kti, bilo/biti, zavéćina/zavećiti</cell>
             </row>
             <row>
                <cell>Vcp-pm</cell>
@@ -1643,7 +1643,7 @@
                <cell>Verb Type=copula VForm=participle Number=plural Gender=feminine</cell>
                <cell>4</cell>
                <cell>8</cell>
-               <cell>bilé/biti, praíle/praviti, lečíle/lečiti, postígle/postići</cell>
+               <cell>bilé/biti, praíle/praviti, postígle/postići, lečíle/lečiti</cell>
             </row>
             <row>
                <cell>Vcr1s</cell>
@@ -1657,21 +1657,21 @@
                <cell>Verb Type=copula VForm=present Person=first Number=plural</cell>
                <cell>10</cell>
                <cell>78</cell>
-               <cell>smo/biti, nesmó/biti, kolḱí/kobiti, ḱe/hteti, smó/biti</cell>
+               <cell>smo/biti, nesmó/biti, néću/nbiti, ću/hteti, nísmo/biti</cell>
             </row>
             <row>
                <cell>Vcr2s</cell>
                <cell>Verb Type=copula VForm=present Person=second Number=singular</cell>
                <cell>15</cell>
                <cell>73</cell>
-               <cell>si/biti, jési/biti, si?, sédni/sesti, kaží/kazati</cell>
+               <cell>si/biti, jési/biti, si?, sédni/sesti, vas</cell>
             </row>
             <row>
                <cell>Vcr2p</cell>
                <cell>Verb Type=copula VForm=present Person=second Number=plural</cell>
                <cell>11</cell>
                <cell>48</cell>
-               <cell>ste/biti, níste/biti, éste/biti, esté/biti, sté/biti</cell>
+               <cell>ste/biti, níste/biti, éste/biti, esté/biti, ćéte/hteti</cell>
             </row>
             <row>
                <cell>Vcr3s</cell>
@@ -1692,14 +1692,14 @@
                <cell>Verb Type=copula VForm=aorist Person=third Number=singular</cell>
                <cell>3</cell>
                <cell>4</cell>
-               <cell>bi/biti, saa/saati, jə/biti</cell>
+               <cell>bi/biti, jə/biti, saa/saati</cell>
             </row>
             <row>
                <cell>Vce3s</cell>
                <cell>Verb Type=copula VForm=imperfect Person=third Number=singular</cell>
                <cell>14</cell>
                <cell>300</cell>
-               <cell>béše/biti, bešé/biti, beše/biti, béšte/beiti, stúre/stiti</cell>
+               <cell>béše/biti, bešé/biti, beše/biti, stúre/stiti, béšte/beiti</cell>
             </row>
          </table>
       </div>
@@ -1917,28 +1917,28 @@
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=yes Article=t-form</cell>
                <cell>7</cell>
                <cell>7</cell>
-               <cell>starínskiti/starinski, górnjiti/gornji, débeljat/debeo, múšćiti/muški, malíjat/mali</cell>
+               <cell>malíjat/mali, múšćiti/muški, górnjiti/gornji, bogátiti/bogat, débeljat/debeo</cell>
             </row>
             <row>
                <cell>Agpmsgn</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=singular Case=genitive Definiteness=no</cell>
                <cell>11</cell>
                <cell>14</cell>
-               <cell>seljáčka/seljački, oníje/onij, baščáluka/baščaluk, čabrá/čabr, púna/pun</cell>
+               <cell>seljáčka/seljački, čabrá/čabr, baščáluka/baščaluk, fakultétska/fakultetski, oníje/onij</cell>
             </row>
             <row>
                <cell>Agpmsgy</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=singular Case=genitive Definiteness=yes</cell>
                <cell>84</cell>
                <cell>155</cell>
-               <cell>svétog/svet, goléma/golem, nékog/neki, stárog/star, jédnoga/jedan</cell>
+               <cell>svétog/svet, nékog/neki, goléma/golem, stárog/star, jédnog/jedan</cell>
             </row>
             <row>
                <cell>Agpmsann</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=no Animate=no</cell>
                <cell>67</cell>
                <cell>116</cell>
-               <cell>céo/cel, bábin/babin, sam, sáv/sav, slobodán/slobodan</cell>
+               <cell>céo/cel, bábin/babin, sáv/sav, sam, slobodán/slobodan</cell>
             </row>
             <row>
                <cell>Agpmsayn</cell>
@@ -1952,7 +1952,7 @@
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=yes Animate=yes</cell>
                <cell>26</cell>
                <cell>31</cell>
-               <cell>svétog/svet, stárog/star, nékog/neki, ovóg/ovi, njénog/njean</cell>
+               <cell>svétog/svet, stárog/star, nékog/neki, roǵénog/roǵean, drúgog/drugi</cell>
             </row>
             <row>
                <cell>Agpmsvy</cell>
@@ -1966,14 +1966,14 @@
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=singular Case=locative Definiteness=yes</cell>
                <cell>21</cell>
                <cell>29</cell>
-               <cell>glávnom/glavni, glávnome/glavni, célom/cel, nášem/naši, tímočku/timočki</cell>
+               <cell>glávnom/glavni, glávnome/glavni, célom/cel, mlágja/mlai, bóžju/božji</cell>
             </row>
             <row>
                <cell>Agpmsiy</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=singular Case=instrumental Definiteness=yes</cell>
                <cell>8</cell>
                <cell>8</cell>
-               <cell>púkim/puki, knjíževnim/književan, cárskim/carski, dónjim/donji, tupím/tup</cell>
+               <cell>vášim/vaši, cárskim/carski, púkim/puki, mírnim/miran, seljáčkim/seljački</cell>
             </row>
             <row>
                <cell>Agpmpn-y</cell>
@@ -1994,49 +1994,49 @@
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=plural Case=nominative Definiteness=yes</cell>
                <cell>301</cell>
                <cell>736</cell>
-               <cell>mládi/mlad, sámi/sam, stári/star, sví/sav, žívi/živ</cell>
+               <cell>mládi/mlad, sámi/sam, stári/star, žívi/živ, sví/sav</cell>
             </row>
             <row>
                <cell>Agpmpgy</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=plural Case=genitive Definiteness=yes</cell>
                <cell>18</cell>
                <cell>21</cell>
-               <cell>interesántnih/interesantan, mrtvih/mrtav, póviše/poviš, téba/teb, fúdbalskih/fudbalski</cell>
+               <cell>interesántnih/interesantan, mrtvih/mrtav, čístih/čist, tújih/tuji, kvalifíkovanih/kvalifikovati</cell>
             </row>
             <row>
                <cell>Agpmpdy</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=plural Case=dative Definiteness=yes</cell>
                <cell>5</cell>
                <cell>6</cell>
-               <cell>mrtvima/mrtav, nékoga/neko, ću, siromá/siro, svíma/sav</cell>
+               <cell>mrtvima/mrtav, nékoga/neko, svíma/sav, siromá/siro, ću</cell>
             </row>
             <row>
                <cell>Agpmpay</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=plural Case=accusative Definiteness=yes</cell>
                <cell>57</cell>
                <cell>72</cell>
-               <cell>sáme/sam, drvene/drven, své/sav, vélike/velik, ráne/ran</cell>
+               <cell>své/sav, sáme/sam, drvene/drven, gládne/gladan, mláde/mlad</cell>
             </row>
             <row>
                <cell>Agpmpay-t</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=plural Case=accusative Definiteness=yes Article=t-form</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>izvínite/izvin, sédnite/sedn, izvólite/izvoo</cell>
+               <cell>izvólite/izvoo, sédnite/sedn, izvínite/izvin</cell>
             </row>
             <row>
                <cell>Agpmply</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=plural Case=locative Definiteness=yes</cell>
                <cell>11</cell>
                <cell>11</cell>
-               <cell>gór/gor, málim/mali, stránim/stran, pírot/pir, ránim/ran</cell>
+               <cell>njénim/njean, málim/mali, séoskim/seoski, pírot/pir, sédamsto/sedamsto</cell>
             </row>
             <row>
                <cell>Agpmpiy</cell>
                <cell>Adjective Type=general Degree=positive Gender=masculine Number=plural Case=instrumental Definiteness=yes</cell>
                <cell>5</cell>
                <cell>5</cell>
-               <cell>stárim/star, túđim/tuđ, dánima/dan, ra, múđe/mu</cell>
+               <cell>stárim/star, túđim/tuđ, múđe/mu, ra, dánima/dan</cell>
             </row>
             <row>
                <cell>Agpfsny</cell>
@@ -2050,21 +2050,21 @@
                <cell>Adjective Type=general Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes Article=t-form</cell>
                <cell>6</cell>
                <cell>8</cell>
-               <cell>zádnjata/zadnji, vláškata/vlaški, otéklata/otekla, glúvata/gluv, stárata/star</cell>
+               <cell>vláškata/vlaški, zádnjata/zadnji, otéklata/otekla, stárata/star, ćóravata/ćorav</cell>
             </row>
             <row>
                <cell>Agpfsgy</cell>
                <cell>Adjective Type=general Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=yes</cell>
                <cell>166</cell>
                <cell>227</cell>
-               <cell>próšle/prošli, céle/cel, prošlé/prošli, dvé/dvi, górnje/gornji</cell>
+               <cell>próšle/prošli, céle/cel, prošlé/prošli, dvé/dvi, crné/crn</cell>
             </row>
             <row>
                <cell>Agpfsdy</cell>
                <cell>Adjective Type=general Degree=positive Gender=feminine Number=singular Case=dative Definiteness=yes</cell>
                <cell>4</cell>
                <cell>5</cell>
-               <cell>nékoj/neki, prívatnoj/privatan, žíčanoj/žičan, ístoj/isti</cell>
+               <cell>nékoj/neki, prívatnoj/privatan, ístoj/isti, žíčanoj/žičan</cell>
             </row>
             <row>
                <cell>Agpfsay</cell>
@@ -2085,21 +2085,21 @@
                <cell>Adjective Type=general Degree=positive Gender=feminine Number=singular Case=locative Definiteness=yes</cell>
                <cell>31</cell>
                <cell>35</cell>
-               <cell>jédnoj/jedan, ovú/oi, mójoj/moji, vášoj/vaši, tríes/trii</cell>
+               <cell>jédnoj/jedan, mójoj/moji, ovú/oi, nášoj/naši, avlíu/avli</cell>
             </row>
             <row>
                <cell>Agpfsiy</cell>
                <cell>Adjective Type=general Degree=positive Gender=feminine Number=singular Case=instrumental Definiteness=yes</cell>
                <cell>10</cell>
                <cell>10</cell>
-               <cell>vášom/vaši, sédom/sed, réndnom/rendan, šúgavom/šugav, velíkom/velik</cell>
+               <cell>ósnovnom/osnovan, vášom/vaši, réndnom/rendan, stárom/star, šúgavom/šugav</cell>
             </row>
             <row>
                <cell>Agpfpny</cell>
                <cell>Adjective Type=general Degree=positive Gender=feminine Number=plural Case=nominative Definiteness=yes</cell>
                <cell>389</cell>
                <cell>741</cell>
-               <cell>své/sav, stáre/star, mláde/mlad, vúnene/vunen, lépe/lep</cell>
+               <cell>své/sav, stáre/star, mláde/mlad, lépe/lep, vúnene/vunen</cell>
             </row>
             <row>
                <cell>Agpfpny-t</cell>
@@ -2113,7 +2113,7 @@
                <cell>Adjective Type=general Degree=positive Gender=feminine Number=plural Case=genitive Definiteness=yes</cell>
                <cell>14</cell>
                <cell>15</cell>
-               <cell>práznih/prazan, srbu/srb, stárih/star, ḱérku/ḱerk, njójna/njojn</cell>
+               <cell>práznih/prazan, fízičkih/fizički, nékih/neki, vratnjícu/vratnjic, ḱérku/ḱerk</cell>
             </row>
             <row>
                <cell>Agpfpdy</cell>
@@ -2127,7 +2127,7 @@
                <cell>Adjective Type=general Degree=positive Gender=feminine Number=plural Case=accusative Definiteness=yes</cell>
                <cell>127</cell>
                <cell>186</cell>
-               <cell>váše/vaš, stáre/star, prtene/prten, rádne/radni, súve/suv</cell>
+               <cell>váše/vaš, prtene/prten, stáre/star, rádne/radni, súve/suv</cell>
             </row>
             <row>
                <cell>Agpfply</cell>
@@ -2141,7 +2141,7 @@
                <cell>Adjective Type=general Degree=positive Gender=feminine Number=plural Case=instrumental Definiteness=yes</cell>
                <cell>4</cell>
                <cell>5</cell>
-               <cell>téškim/težak, krčág/krčag, bákakma/bakak, žívku/živ</cell>
+               <cell>téškim/težak, bákakma/bakak, žívku/živ, krčág/krčag</cell>
             </row>
             <row>
                <cell>Agpnsny</cell>
@@ -2155,21 +2155,21 @@
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=t-form</cell>
                <cell>12</cell>
                <cell>13</cell>
-               <cell>malóto/mali, úbavoto/ubav, nepovíjenoto/nepovijen, povíjenoto/povijen, méšenoto/mešen</cell>
+               <cell>malóto/mali, okrúgloto/okrugao, túrenoto/tureno, úbavoto/ubav, másnoto/mastan</cell>
             </row>
             <row>
                <cell>Agpnsny-v</cell>
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=v-form</cell>
                <cell>5</cell>
                <cell>6</cell>
-               <cell>malóvo/mali, kúpenovo/kupiti, crvénovo/crven, nóvovo/nov, nékakovo/nekakav</cell>
+               <cell>malóvo/mali, crvénovo/crven, kúpenovo/kupiti, nékakovo/nekakav, nóvovo/nov</cell>
             </row>
             <row>
                <cell>Agpnsny-n</cell>
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=n-form</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>glúvonémono/gluvonem, máznono/mazno</cell>
+               <cell>máznono/mazno, glúvonémono/gluvonem</cell>
             </row>
             <row>
                <cell>Agpnsgn</cell>
@@ -2183,14 +2183,14 @@
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=singular Case=genitive Definiteness=yes</cell>
                <cell>15</cell>
                <cell>17</cell>
-               <cell>célog/cel, bábino/baba, prvog/prvi, ránog/ran, žívog/živ</cell>
+               <cell>bábino/baba, célog/cel, njénog/njean, ránog/ran, goléma/golem</cell>
             </row>
             <row>
                <cell>Agpnsany</cell>
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=singular Case=accusative Definiteness=no Animate=yes</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>lóše/loše, ji</cell>
+               <cell>ji, lóše/loše</cell>
             </row>
             <row>
                <cell>Agpnsay</cell>
@@ -2204,7 +2204,7 @@
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=singular Case=locative Definiteness=yes</cell>
                <cell>4</cell>
                <cell>6</cell>
-               <cell>móm/mi, dátom/dati, drúgom/drugi, nékom/neki</cell>
+               <cell>móm/mi, drúgom/drugi, nékom/neki, dátom/dati</cell>
             </row>
             <row>
                <cell>Agpnsiy</cell>
@@ -2218,28 +2218,28 @@
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=plural Case=nominative Definiteness=yes</cell>
                <cell>24</cell>
                <cell>24</cell>
-               <cell>nat/nai, izvrčka/izvrčki, táj/tai, otvórena/otvoren, níkoga/nikog</cell>
+               <cell>pírotska/pirotski, nat/nai, nagúl/nagu, napráena/napraen, vólovska/volovski</cell>
             </row>
             <row>
                <cell>Agpnpgy</cell>
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=plural Case=genitive Definiteness=yes</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>šés/še, pláninskih/planinski, dvé/dv</cell>
+               <cell>pláninskih/planinski, dvé/dv, šés/še</cell>
             </row>
             <row>
                <cell>Agpnpdy</cell>
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=plural Case=dative Definiteness=yes</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>žíro/žiro, rádio/radio, míkro/mikro</cell>
+               <cell>míkro/mikro, rádio/radio, žíro/žiro</cell>
             </row>
             <row>
                <cell>Agpnpay</cell>
                <cell>Adjective Type=general Degree=positive Gender=neuter Number=plural Case=accusative Definiteness=yes</cell>
                <cell>48</cell>
                <cell>66</cell>
-               <cell>svá/sav, mútna/mutan, drúga/drugi, čému/čemi, volóvska/volovski</cell>
+               <cell>svá/sav, mútna/mutan, drúga/drugi, vítka/vitak, súsedna/susedni</cell>
             </row>
             <row>
                <cell>Agcmsnn</cell>
@@ -2267,28 +2267,28 @@
                <cell>Adjective Type=general Degree=comparative Gender=masculine Number=singular Case=accusative Definiteness=yes Animate=no</cell>
                <cell>10</cell>
                <cell>11</cell>
-               <cell>bólji/dobar, pri, tije/ti, skúplji/skup, víši/visok</cell>
+               <cell>bólji/dobar, véći/velik, lépši/lep, sváka/sv, pri</cell>
             </row>
             <row>
                <cell>Agcmsiy</cell>
                <cell>Adjective Type=general Degree=comparative Gender=masculine Number=singular Case=instrumental Definiteness=yes</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>blážim/blag, vrućíma/vruć, tíšim/tih</cell>
+               <cell>tíšim/tih, blážim/blag, vrućíma/vruć</cell>
             </row>
             <row>
                <cell>Agcmpny</cell>
                <cell>Adjective Type=general Degree=comparative Gender=masculine Number=plural Case=nominative Definiteness=yes</cell>
                <cell>12</cell>
                <cell>29</cell>
-               <cell>staríji/star, stáriji/star, jáči/jak, isprávniji/ispravan, jačí/jak</cell>
+               <cell>staríji/star, stáriji/star, jáči/jak, hí/hi, lépši/lep</cell>
             </row>
             <row>
                <cell>Agcfsny</cell>
                <cell>Adjective Type=general Degree=comparative Gender=feminine Number=singular Case=nominative Definiteness=yes</cell>
                <cell>25</cell>
                <cell>59</cell>
-               <cell>mláđa/mlad, staríja/star, bólja/dobar, stárija/star, prokletíja/proklet</cell>
+               <cell>mláđa/mlad, staríja/star, bólja/dobar, prokletíja/proklet, stárija/star</cell>
             </row>
             <row>
                <cell>Agcfsgy</cell>
@@ -2309,7 +2309,7 @@
                <cell>Adjective Type=general Degree=comparative Gender=feminine Number=plural Case=accusative Definiteness=yes</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>béšte/be, bólje/dobar, preməlzé/premə</cell>
+               <cell>bólje/dobar, preməlzé/premə, béšte/be</cell>
             </row>
             <row>
                <cell>Agcnsny</cell>
@@ -2330,14 +2330,14 @@
                <cell>Adjective Type=general Degree=comparative Gender=neuter Number=singular Case=accusative Definiteness=yes</cell>
                <cell>5</cell>
                <cell>7</cell>
-               <cell>blíže/blizak, perášće/perast, zlátnije/zlatan, skórije/skor, iui</cell>
+               <cell>perášće/perast, blíže/blizak, zlátnije/zlatan, skórije/skor, iui</cell>
             </row>
             <row>
                <cell>Agsmsny</cell>
                <cell>Adjective Type=general Degree=superlative Gender=masculine Number=singular Case=nominative Definiteness=yes</cell>
                <cell>16</cell>
                <cell>32</cell>
-               <cell>nájbolji/dobar, nájbliži/blizak, nájmlađi/mlad, najblíži/blizak, najstaríji/star</cell>
+               <cell>nájbolji/dobar, nájmlađi/mlad, nájbliži/blizak, najstaríji/star, najblíži/blizak</cell>
             </row>
             <row>
                <cell>Agsmsayn</cell>
@@ -2358,7 +2358,7 @@
                <cell>Adjective Type=general Degree=superlative Gender=masculine Number=plural Case=genitive Definiteness=yes</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>kotlé/kotle, róditelji/it, nájvećiv/velik</cell>
+               <cell>nájvećiv/velik, kotlé/kotle, róditelji/it</cell>
             </row>
             <row>
                <cell>Agsmpay</cell>
@@ -2372,14 +2372,14 @@
                <cell>Adjective Type=general Degree=superlative Gender=feminine Number=singular Case=nominative Definiteness=yes</cell>
                <cell>9</cell>
                <cell>17</cell>
-               <cell>nájbolja/dobar, najstaríja/star, nájlepša/lep, nájteža/težak, najvéća/velik</cell>
+               <cell>nájbolja/dobar, najstaríja/star, nájlepša/lep, nájbliža/blizak, najvéća/velik</cell>
             </row>
             <row>
                <cell>Agsfsay</cell>
                <cell>Adjective Type=general Degree=superlative Gender=feminine Number=singular Case=accusative Definiteness=yes</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>nájlepšu/lep, nájbolju/dobar, sam</cell>
+               <cell>sam, nájlepšu/lep, nájbolju/dobar</cell>
             </row>
             <row>
                <cell>Agsfpgy</cell>
@@ -2393,14 +2393,14 @@
                <cell>Adjective Type=general Degree=superlative Gender=neuter Number=singular Case=nominative Definiteness=yes</cell>
                <cell>5</cell>
                <cell>7</cell>
-               <cell>nájgore/loš, nájbolje/dobar, nájgolemo/golem, nájlepše/lep, nájveće/velik</cell>
+               <cell>nájgore/loš, nájlepše/lep, nájbolje/dobar, nájgolemo/golem, nájveće/velik</cell>
             </row>
             <row>
                <cell>Aspmsnn</cell>
                <cell>Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=no</cell>
                <cell>5</cell>
                <cell>5</cell>
-               <cell>míljanićev/miljanićev, kakvój/kakvoj, póčev/počev, íšo/išo, vrbóv/vrbov</cell>
+               <cell>míljanićev/miljanićev, íšo/išo, vrbóv/vrbov, kakvój/kakvoj, póčev/počev</cell>
             </row>
             <row>
                <cell>Aspmsny</cell>
@@ -2421,35 +2421,35 @@
                <cell>Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=no Animate=no</cell>
                <cell>7</cell>
                <cell>7</cell>
-               <cell>jánkov/jankov, džervínov/džervinov, bábin/babin, nékakv/nekakv, kuruznó/kuruzno</cell>
+               <cell>níkakv/nikakv, bábin/babin, nékakv/nekakv, jánkov/jankov, džervínov/džervinov</cell>
             </row>
             <row>
                <cell>Aspmpny</cell>
                <cell>Adjective Type=possessive Degree=positive Gender=masculine Number=plural Case=nominative Definiteness=yes</cell>
                <cell>11</cell>
                <cell>14</cell>
-               <cell>dánovi/danov, drážini/dražini, dédini/dedin, tátini/tatin, bábini/babin</cell>
+               <cell>dánovi/danov, drážini/dražini, vlasíni/vlasin, tátini/tatin, ki</cell>
             </row>
             <row>
                <cell>Aspfsny</cell>
                <cell>Adjective Type=possessive Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes</cell>
                <cell>95</cell>
                <cell>113</cell>
-               <cell>tódorova/todorov, slobodánova/slobodanov, váša/vaš, títova/titov, n</cell>
+               <cell>tódorova/todorov, slobodánova/slobodanov, váša/vaš, títova/titov, plék/ple</cell>
             </row>
             <row>
                <cell>Aspfsgy</cell>
                <cell>Adjective Type=possessive Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=yes</cell>
                <cell>8</cell>
                <cell>15</cell>
-               <cell>jágodine/jagodin, đákove/đakov, zagoríne/zagorin, vínove/vinov, márkove/markov</cell>
+               <cell>jágodine/jagodin, đákove/đakov, kóčine/kočin, íljadi/iljad, zagoríne/zagorin</cell>
             </row>
             <row>
                <cell>Aspfsay</cell>
                <cell>Adjective Type=possessive Degree=positive Gender=feminine Number=singular Case=accusative Definiteness=yes</cell>
                <cell>7</cell>
                <cell>7</cell>
-               <cell>sášinu/sašin, bábinu/babin, kózinu/kozin, máminu/mamin, márkovu/markov</cell>
+               <cell>kózinu/kozin, máminu/mamin, dédinu/dedin, sášinu/sašin, mladožénjinu/mladoženjin</cell>
             </row>
             <row>
                <cell>Aspfpny</cell>
@@ -2484,7 +2484,7 @@
                <cell>Adjective Type=participle Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=yes</cell>
                <cell>4</cell>
                <cell>6</cell>
-               <cell>ugróžen/ugrožiti, okúpan/okupati, non/nti, se</cell>
+               <cell>ugróžen/ugrožiti, se, non/nti, okúpan/okupati</cell>
             </row>
             <row>
                <cell>Appmsvy</cell>
@@ -2505,35 +2505,35 @@
                <cell>Adjective Type=participle Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes</cell>
                <cell>148</cell>
                <cell>253</cell>
-               <cell>róđena/roditi, údata/udati, zídana/zidati, róǵena/roǵen, dána/dati</cell>
+               <cell>róđena/roditi, údata/udati, zídana/zidati, dána/dati, róǵena/roǵen</cell>
             </row>
             <row>
                <cell>Appfsgy</cell>
                <cell>Adjective Type=participle Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=yes</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>béljḱe/beljti, túrene/turiti, naíde/naiti</cell>
+               <cell>túrene/turiti, naíde/naiti, béljḱe/beljti</cell>
             </row>
             <row>
                <cell>Appfsay</cell>
                <cell>Adjective Type=participle Degree=positive Gender=feminine Number=singular Case=accusative Definiteness=yes</cell>
                <cell>16</cell>
                <cell>17</cell>
-               <cell>rođénu/roditi, púnjenu/puniti, péčenu/peći, žíku/žiti, uvelíčanu/uveličati</cell>
+               <cell>rođénu/roditi, púnjenu/puniti, uzemljénu/uzemljiti, sačúvanu/sačuvati, uvelíčanu/uveličati</cell>
             </row>
             <row>
                <cell>Appfpny</cell>
                <cell>Adjective Type=participle Degree=positive Gender=feminine Number=plural Case=nominative Definiteness=yes</cell>
                <cell>51</cell>
                <cell>71</cell>
-               <cell>dáne/dati, uznéte/uzneti, plétene/plesti, nóšene/nositi, túrene/turiti</cell>
+               <cell>uznéte/uzneti, dáne/dati, plétene/plesti, nóšene/nositi, bójane/bojati</cell>
             </row>
             <row>
                <cell>Appfpay</cell>
                <cell>Adjective Type=participle Degree=positive Gender=feminine Number=plural Case=accusative Definiteness=yes</cell>
                <cell>8</cell>
                <cell>8</cell>
-               <cell>ukópane/ukopati, móje/moti, pedesé/pedeti, púnjene/puniti, zatvórene/zatvoriti</cell>
+               <cell>svéče/sveti, zatvórene/zatvoriti, móje/moti, pedesé/pedeti, púnjene/puniti</cell>
             </row>
             <row>
                <cell>Appnsny</cell>
@@ -2561,7 +2561,7 @@
                <cell>Adjective Type=participle Degree=positive Gender=neuter Number=plural Case=nominative Definiteness=yes</cell>
                <cell>12</cell>
                <cell>14</cell>
-               <cell>údata/udati, múčena/mučiti, isprážnjena/isprazniti, obójena/obojiti, operísana/operisati</cell>
+               <cell>údata/udati, obójena/obojiti, róđena/roditi, nóšena/nositi, isprážnjena/isprazniti</cell>
             </row>
          </table>
       </div>
@@ -2758,14 +2758,14 @@
                <cell>Pronoun Type=personal Person=first Number=singular Case=nominative</cell>
                <cell>21</cell>
                <cell>5768</cell>
-               <cell>já/ja, ja, mí/ja, mi/ja, j/ja</cell>
+               <cell>já/ja, ja, mí/ja, j/ja, mi/ja</cell>
             </row>
             <row>
                <cell>Pp1-sg</cell>
                <cell>Pronoun Type=personal Person=first Number=singular Case=genitive</cell>
                <cell>6</cell>
                <cell>104</cell>
-               <cell>méne/ja, mén/ja, ménj/ja, njég/on, mene/ja</cell>
+               <cell>méne/ja, mén/ja, ménj/ja, mené/ja, mene/ja</cell>
             </row>
             <row>
                <cell>Pp1-sd</cell>
@@ -2800,7 +2800,7 @@
                <cell>Pronoun Type=personal Person=first Number=plural Case=nominative</cell>
                <cell>84</cell>
                <cell>2287</cell>
-               <cell>mí/ja, mi/ja, edə́n/edən, dírau/dirau, sipúješ/sipuješ</cell>
+               <cell>mí/ja, mi/ja, edə́n/edən, léču/leču, setakój/setakoj</cell>
             </row>
             <row>
                <cell>Pp1-pg</cell>
@@ -2821,21 +2821,21 @@
                <cell>Pronoun Type=personal Person=first Number=plural Case=dative</cell>
                <cell>15</cell>
                <cell>125</cell>
-               <cell>nam/mi, ni/mi, nám/mi, n, məma/mi</cell>
+               <cell>nam/mi, ni/mi, nám/mi, šta, déce/dece</cell>
             </row>
             <row>
                <cell>Pp1-pa</cell>
                <cell>Pronoun Type=personal Person=first Number=plural Case=accusative</cell>
                <cell>18</cell>
                <cell>197</cell>
-               <cell>nás/mi, nas/mi, vas/vi, vás/vi, pódvis/podvis</cell>
+               <cell>nás/mi, nas/mi, vás/vi, vas/vi, néku/neki</cell>
             </row>
             <row>
                <cell>Pp1-pv</cell>
                <cell>Pronoun Type=personal Person=first Number=plural Case=vocative</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>naš, kúḱi/kuḱi, hóće/hoće</cell>
+               <cell>kúḱi/kuḱi, hóće/hoće, naš</cell>
             </row>
             <row>
                <cell>Pp1mpa</cell>
@@ -2856,14 +2856,14 @@
                <cell>Pronoun Type=personal Person=second Number=singular Case=nominative</cell>
                <cell>39</cell>
                <cell>1144</cell>
-               <cell>tí/ti, ti, tíi/ti, maléčka/malečka, dré/dre</cell>
+               <cell>tí/ti, ti, tíi/ti, maléčka/malečka, tííí/ti</cell>
             </row>
             <row>
                <cell>Pp2-sd</cell>
                <cell>Pronoun Type=personal Person=second Number=singular Case=dative</cell>
                <cell>14</cell>
                <cell>1379</cell>
-               <cell>ti, tí/ti, dováne/dovane, mlze, fíću/fiću</cell>
+               <cell>ti, tí/ti, fíću/fiću, ránie/ranie, paráunučiči/paraunučiči</cell>
             </row>
             <row>
                <cell>Pp2-sa</cell>
@@ -2877,7 +2877,7 @@
                <cell>Pronoun Type=personal Person=second Number=plural Case=nominative</cell>
                <cell>5</cell>
                <cell>774</cell>
-               <cell>ví/vi, vi, číme/što, káži/kaži, ji/oni</cell>
+               <cell>ví/vi, vi, káži/kaži, číme/što, ji/oni</cell>
             </row>
             <row>
                <cell>Pp2-pg</cell>
@@ -2926,7 +2926,7 @@
                <cell>Pronoun Type=personal Person=third Number=plural Case=genitive</cell>
                <cell>7</cell>
                <cell>25</cell>
-               <cell>njíh/oni, njih/oni, vas/vi, pri, ih/oni</cell>
+               <cell>njíh/oni, njih/oni, pri, nji/oni, ih/oni</cell>
             </row>
             <row>
                <cell>Pp3-pd</cell>
@@ -2954,7 +2954,7 @@
                <cell>Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative</cell>
                <cell>7</cell>
                <cell>2796</cell>
-               <cell>ón/on, on, mén/ja, ístin/istin, men/ja</cell>
+               <cell>ón/on, on, mén/ja, men/ja, slikáste/slikaste</cell>
             </row>
             <row>
                <cell>Pp3msg</cell>
@@ -3010,7 +3010,7 @@
                <cell>Pronoun Type=personal Person=third Gender=feminine Number=singular Case=genitive</cell>
                <cell>7</cell>
                <cell>29</cell>
-               <cell>nje/on, njé/on, ḱe, nji/ona, qe</cell>
+               <cell>nje/on, njé/on, ḱe, nji/ona, váših/vaš</cell>
             </row>
             <row>
                <cell>Pp3fsd</cell>
@@ -3038,14 +3038,14 @@
                <cell>Pronoun Type=personal Person=third Gender=feminine Number=plural Case=nominative</cell>
                <cell>9</cell>
                <cell>179</cell>
-               <cell>oné/oni, óne/oni, te/ti, nne, póbonća/pobonća</cell>
+               <cell>oné/oni, óne/oni, te/ti, one/oni, vráčke/vračke</cell>
             </row>
             <row>
                <cell>Pp3nsn</cell>
                <cell>Pronoun Type=personal Person=third Gender=neuter Number=singular Case=nominative</cell>
                <cell>10</cell>
                <cell>64</cell>
-               <cell>onó/on, óno/on, aa, ono/on, nájgolemo/najgolemo</cell>
+               <cell>onó/on, óno/on, pópre/popre, mínićevo/minićevo, ono/on</cell>
             </row>
             <row>
                <cell>Pd-msn</cell>
@@ -3059,14 +3059,14 @@
                <cell>Pronoun Type=demonstrative Gender=masculine Number=singular Case=genitive</cell>
                <cell>17</cell>
                <cell>25</cell>
-               <cell>tóg/taj, tóga/taj, onóga/onaj, povátu/povatu, míloga/miloga</cell>
+               <cell>tóg/taj, tóga/taj, onóga/onaj, drú/dru, léǵa/leǵa</cell>
             </row>
             <row>
                <cell>Pd-msd</cell>
                <cell>Pronoun Type=demonstrative Gender=masculine Number=singular Case=dative</cell>
                <cell>6</cell>
                <cell>10</cell>
-               <cell>tóme/taj, onóme/onaj, onóm/onaj, ovóm/ovaj, mójoj/moj</cell>
+               <cell>tóme/taj, onóme/onaj, onóm/onaj, ovóme/ovaj, ovóm/ovaj</cell>
             </row>
             <row>
                <cell>Pd-msa</cell>
@@ -3094,7 +3094,7 @@
                <cell>Pronoun Type=demonstrative Gender=masculine Number=singular Case=instrumental</cell>
                <cell>32</cell>
                <cell>62</cell>
-               <cell>tím/taj, tíme/taj, tóm/taj, rové/rove, svéče/sveče</cell>
+               <cell>tím/taj, tíme/taj, rové/rove, tóm/taj, obláži/oblaži</cell>
             </row>
             <row>
                <cell>Pd-mpn</cell>
@@ -3108,7 +3108,7 @@
                <cell>Pronoun Type=demonstrative Gender=masculine Number=plural Case=genitive</cell>
                <cell>9</cell>
                <cell>25</cell>
-               <cell>tíh/taj, óvih/ovaj, ovíh/ovaj, ovíja/ovaj, tih/taj</cell>
+               <cell>tíh/taj, óvih/ovaj, ovíh/ovaj, ovíja/ovaj, oníh/onaj</cell>
             </row>
             <row>
                <cell>Pd-mpd</cell>
@@ -3122,7 +3122,7 @@
                <cell>Pronoun Type=demonstrative Gender=masculine Number=plural Case=accusative</cell>
                <cell>12</cell>
                <cell>37</cell>
-               <cell>ovíja/ovaj, némojte/nemojte, ovíje/ovaj, níkome/nitko, ovijá/ovaj</cell>
+               <cell>ovíja/ovaj, ovíje/ovaj, némojte/nemojte, oníja/onaj, níkome/nitko</cell>
             </row>
             <row>
                <cell>Pd-mpl</cell>
@@ -3157,7 +3157,7 @@
                <cell>Pronoun Type=demonstrative Gender=feminine Number=singular Case=accusative</cell>
                <cell>71</cell>
                <cell>558</cell>
-               <cell>túj/taj, ovúj/ovaj, tú/taj, onú/onaj, onúj/onaj</cell>
+               <cell>túj/taj, ovúj/ovaj, onú/onaj, tú/taj, onúj/onaj</cell>
             </row>
             <row>
                <cell>Pd-fsl</cell>
@@ -3206,7 +3206,7 @@
                <cell>Pronoun Type=demonstrative Gender=neuter Number=plural Case=nominative</cell>
                <cell>5</cell>
                <cell>7</cell>
-               <cell>táj/taj, onáj/onaj, ováj/ovaj, tə́/taj, gə</cell>
+               <cell>táj/taj, onáj/onaj, tə́/taj, ováj/ovaj, gə</cell>
             </row>
             <row>
                <cell>Pd-npa</cell>
@@ -3234,7 +3234,7 @@
                <cell>Pronoun Type=indefinite Gender=masculine Number=singular Case=genitive</cell>
                <cell>32</cell>
                <cell>70</cell>
-               <cell>sváke/svaki, néke/neki, svákoga/svaki, svéga/sav, kóje/koji</cell>
+               <cell>sváke/svaki, néke/neki, svéga/sav, svákoga/svaki, nékoga/neki</cell>
             </row>
             <row>
                <cell>Pi-msa</cell>
@@ -3311,21 +3311,21 @@
                <cell>Pronoun Type=indefinite Gender=feminine Number=singular Case=accusative</cell>
                <cell>41</cell>
                <cell>334</cell>
-               <cell>néku/neki, sváku/svaki, kóju/koji, kojú/koji, své/sav</cell>
+               <cell>néku/neki, sváku/svaki, kojú/koji, své/sav, kóju/koji</cell>
             </row>
             <row>
                <cell>Pi-fsl</cell>
                <cell>Pronoun Type=indefinite Gender=feminine Number=singular Case=locative</cell>
                <cell>15</cell>
                <cell>39</cell>
-               <cell>svákome/svaki, kakvój/kakav, nékoj/neki, nékom/neki, svému/sav</cell>
+               <cell>svákome/svaki, kakvój/kakav, nékoj/neki, nékom/neki, svákom/svaki</cell>
             </row>
             <row>
                <cell>Pi-fpn</cell>
                <cell>Pronoun Type=indefinite Gender=feminine Number=plural Case=nominative</cell>
                <cell>10</cell>
                <cell>53</cell>
-               <cell>néḱe/neki, kóje/koji, kojé/koji, své/sav, néḱé/neki</cell>
+               <cell>néḱe/neki, kóje/koji, kojé/koji, své/sav, neḱé/neki</cell>
             </row>
             <row>
                <cell>Pi-fpg</cell>
@@ -3353,7 +3353,7 @@
                <cell>Pronoun Type=indefinite Gender=neuter Number=singular Case=genitive</cell>
                <cell>4</cell>
                <cell>4</cell>
-               <cell>svéga/sav, ovúdaka/ovudaka, pógluba/pogluba, nékoga/neki</cell>
+               <cell>nékoga/neki, svéga/sav, ovúdaka/ovudaka, pógluba/pogluba</cell>
             </row>
             <row>
                <cell>Pi-nsa</cell>
@@ -3381,14 +3381,14 @@
                <cell>Pronoun Type=indefinite Person=third Gender=masculine Case=genitive</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>néḱega/neki, nekugá/neko, néḱeg/neki</cell>
+               <cell>néḱega/neki, néḱeg/neki, nekugá/neko</cell>
             </row>
             <row>
                <cell>Pi3m-d</cell>
                <cell>Pronoun Type=indefinite Person=third Gender=masculine Case=dative</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>níkom/niko, kómi/ko</cell>
+               <cell>kómi/ko, níkom/niko</cell>
             </row>
             <row>
                <cell>Pi3m-a</cell>
@@ -3430,7 +3430,7 @@
                <cell>Pronoun Type=possessive Person=first Gender=masculine Number=singular Case=nominative Article=v-form</cell>
                <cell>3</cell>
                <cell>7</cell>
-               <cell>mójav/moj, móav/moj, moáv/moj</cell>
+               <cell>mójav/moj, moáv/moj, móav/moj</cell>
             </row>
             <row>
                <cell>Ps1msg</cell>
@@ -3472,7 +3472,7 @@
                <cell>Pronoun Type=possessive Person=first Gender=masculine Number=plural Case=nominative Article=t-form</cell>
                <cell>3</cell>
                <cell>3</cell>
-               <cell>móiti/moj, mójiti/moj, mojíti/moj</cell>
+               <cell>mojíti/moj, mójiti/moj, móiti/moj</cell>
             </row>
             <row>
                <cell>Ps1mpn-v</cell>
@@ -3521,7 +3521,7 @@
                <cell>Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=accusative</cell>
                <cell>7</cell>
                <cell>109</cell>
-               <cell>nášu/naš, móju/moj, mojú/moj, vášu/vaš, našu/naš</cell>
+               <cell>nášu/naš, móju/moj, mojú/moj, vášu/vaš, vlášu/vlašu</cell>
             </row>
             <row>
                <cell>Ps1fsa-t</cell>
@@ -3549,14 +3549,14 @@
                <cell>Pronoun Type=possessive Person=first Gender=feminine Number=plural Case=genitive</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>náših/naš, mojí/moj</cell>
+               <cell>mojí/moj, náših/naš</cell>
             </row>
             <row>
                <cell>Ps1nsn</cell>
                <cell>Pronoun Type=possessive Person=first Gender=neuter Number=singular Case=nominative</cell>
                <cell>7</cell>
                <cell>117</cell>
-               <cell>náše/naš, móje/moj, mojé/moj, mužjé/mužje, muškárče/muškarče</cell>
+               <cell>náše/naš, móje/moj, mojé/moj, muškárče/muškarče, kámenče/kamenče</cell>
             </row>
             <row>
                <cell>Ps1nsn-t</cell>
@@ -3668,14 +3668,14 @@
                <cell>Pronoun Type=possessive Person=third Gender=masculine Number=singular Case=genitive</cell>
                <cell>4</cell>
                <cell>8</cell>
-               <cell>njíhov/njihov, njénog/njen, njíhovoga/njihov, njegóvoga/njegov</cell>
+               <cell>njénog/njen, njíhov/njihov, njíhovoga/njihov, njegóvoga/njegov</cell>
             </row>
             <row>
                <cell>Ps3msan</cell>
                <cell>Pronoun Type=possessive Person=third Gender=masculine Number=singular Case=accusative Animate=no</cell>
                <cell>4</cell>
                <cell>7</cell>
-               <cell>njén/njen, njíhov/njihov, njegóv/njegov, bábin/babin</cell>
+               <cell>njén/njen, njíhov/njihov, bábin/babin, njegóv/njegov</cell>
             </row>
             <row>
                <cell>Ps3mpn</cell>
@@ -3696,7 +3696,7 @@
                <cell>Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=nominative</cell>
                <cell>8</cell>
                <cell>75</cell>
-               <cell>njegóva/njegov, njégova/njegov, njéna/njen, njíhova/njihov, njihóva/njihov</cell>
+               <cell>njegóva/njegov, njégova/njegov, njéna/njen, njíhova/njihov, mə/ja</cell>
             </row>
             <row>
                <cell>Ps3fsn-t</cell>
@@ -3710,7 +3710,7 @@
                <cell>Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=genitive</cell>
                <cell>5</cell>
                <cell>9</cell>
-               <cell>njegóve/njegov, njíhove/njihov, njínje/njen, njégove/njegov, njáva/njegov</cell>
+               <cell>njegóve/njegov, njíhove/njihov, njáva/njegov, njínje/njen, njégove/njegov</cell>
             </row>
             <row>
                <cell>Ps3fsa</cell>
@@ -3745,7 +3745,7 @@
                <cell>Pronoun Type=possessive Person=third Gender=feminine Number=plural Case=accusative</cell>
                <cell>2</cell>
                <cell>2</cell>
-               <cell>njíne/njine, njéne/njen</cell>
+               <cell>njéne/njen, njíne/njine</cell>
             </row>
             <row>
                <cell>Ps3fpl</cell>
@@ -3759,14 +3759,14 @@
                <cell>Pronoun Type=possessive Person=third Gender=neuter Number=singular Case=nominative</cell>
                <cell>5</cell>
                <cell>12</cell>
-               <cell>njegóvo/njegov, njíhovo/njihov, njégovo/njegov, njéno/njen, svə/sav</cell>
+               <cell>njegóvo/njegov, njégovo/njegov, njíhovo/njihov, njéno/njen, svə/sav</cell>
             </row>
             <row>
                <cell>Ps3nsn-t</cell>
                <cell>Pronoun Type=possessive Person=third Gender=neuter Number=singular Case=nominative Article=t-form</cell>
                <cell>13</cell>
                <cell>20</cell>
-               <cell>náševo/naš, nášata/naš, nášiti/naš, nášutu/naš, nášava/naš</cell>
+               <cell>nášata/naš, náševo/naš, nášava/naš, nášutu/naš, nášiti/naš</cell>
             </row>
             <row>
                <cell>Ps3nsa</cell>
@@ -3780,14 +3780,14 @@
                <cell>Pronoun Type=interrogative</cell>
                <cell>11</cell>
                <cell>61</cell>
-               <cell>štó/što, što, zášto/zašto, zaštó/zašto, mo</cell>
+               <cell>štó/što, što, zášto/zašto, zaštó/zašto, dako</cell>
             </row>
             <row>
                <cell>Pq-msn</cell>
                <cell>Pronoun Type=interrogative Gender=masculine Number=singular Case=nominative</cell>
                <cell>5</cell>
                <cell>6</cell>
-               <cell>kákav/kakav, koé/koji, kojé/koji, kákvo/kakav, kakáv/kakav</cell>
+               <cell>kákav/kakav, kakáv/kakav, koé/koji, kojé/koji, kákvo/kakav</cell>
             </row>
             <row>
                <cell>Pq-fsa</cell>
@@ -3829,7 +3829,7 @@
                <cell>Pronoun Type=interrogative Person=third Gender=neuter Case=nominative</cell>
                <cell>24</cell>
                <cell>34</cell>
-               <cell>štá/šta, šta, kogá/tko, štó/što, téb/teb</cell>
+               <cell>štá/šta, šta, kogá/tko, váma/vi, žívku/živku</cell>
             </row>
             <row>
                <cell>Px--sd</cell>
@@ -3850,7 +3850,7 @@
                <cell>Pronoun Type=reflexive Gender=masculine Number=singular Case=accusative</cell>
                <cell>3</cell>
                <cell>20</cell>
-               <cell>svój/svoj, kakvój/kakav, nékoj/neki</cell>
+               <cell>svój/svoj, nékoj/neki, kakvój/kakav</cell>
             </row>
             <row>
                <cell>Px-mpg</cell>
@@ -3864,7 +3864,7 @@
                <cell>Pronoun Type=reflexive Gender=masculine Number=plural Case=accusative</cell>
                <cell>9</cell>
                <cell>21</cell>
-               <cell>svóje/svoj, svojé/svoj, svója/svoj, tvojá/tvoj, svabú/svabu</cell>
+               <cell>svóje/svoj, svojé/svoj, svója/svoj, níja/nija, tvója/tvoj</cell>
             </row>
             <row>
                <cell>Px-mpi</cell>
@@ -3878,7 +3878,7 @@
                <cell>Pronoun Type=reflexive Gender=feminine Number=singular Case=genitive</cell>
                <cell>12</cell>
                <cell>13</cell>
-               <cell>svóje/svoj, ḱérku/ḱerku, dóđi/dođi, svóg/svoj, četrdés/četrdes</cell>
+               <cell>svóje/svoj, pedés/pedes, dóđi/dođi, tvojé/tvoj, njíne/njine</cell>
             </row>
          </table>
       </div>
@@ -3961,14 +3961,14 @@
                <cell>Adverb Type=general Degree=superlative</cell>
                <cell>19</cell>
                <cell>97</cell>
-               <cell>nájbolje/dobro, nájviše/mnogo, nájlepše/lepo, nájveće/veliko, nájmilije/milo</cell>
+               <cell>nájbolje/dobro, nájviše/mnogo, nájlepše/lepo, nájveće/veliko, nájstarije/staro</cell>
             </row>
             <row>
                <cell>Rr</cell>
                <cell>Adverb Type=participle</cell>
                <cell>40</cell>
                <cell>50</cell>
-               <cell>néći/ti, úzmi/uti, péšći/pti, píći/ti, babađevdžíći/babađevdti</cell>
+               <cell>néći/ti, úzmi/uti, péšći/pti, píći/ti, mladénćići/mladenti</cell>
             </row>
          </table>
       </div>
@@ -4036,7 +4036,7 @@
                <cell>Adposition Case=dative</cell>
                <cell>8</cell>
                <cell>30</cell>
-               <cell>ka/k, sprám/spram, kam/ka, k, prema</cell>
+               <cell>ka/k, sprám/spram, prema, k, kam/ka</cell>
             </row>
             <row>
                <cell>Sa</cell>
@@ -4392,7 +4392,7 @@
                <cell>Numeral Form=letter Type=cardinal Gender=feminine Case=accusative</cell>
                <cell>3</cell>
                <cell>13</cell>
-               <cell>dvé/dva, dve/dva, negdéprekipí/negdeprekipa</cell>
+               <cell>dvé/dva, negdéprekipí/negdeprekipa, dve/dva</cell>
             </row>
             <row>
                <cell>Mlcfsn</cell>
@@ -4420,7 +4420,7 @@
                <cell>Numeral Form=letter Type=cardinal Gender=feminine Number=singular Case=accusative</cell>
                <cell>12</cell>
                <cell>227</cell>
-               <cell>jednú/jedan, jédnu/jedan, ednú/jedan, édnu/jedan, poljoprivrednu/poljoprivredna</cell>
+               <cell>jednú/jedan, jédnu/jedan, ednú/jedan, édnu/jedan, poljóprivednu/poljoprivedna</cell>
             </row>
             <row>
                <cell>Mlcfsay</cell>
@@ -4441,7 +4441,7 @@
                <cell>Numeral Form=letter Type=cardinal Gender=feminine Number=plural Case=genitive</cell>
                <cell>8</cell>
                <cell>14</cell>
-               <cell>íljade/hiljada, dávaj/daan, spásovdan/spasovan, iljade/hiljada, dévesto/devean</cell>
+               <cell>íljade/hiljada, bliznétu/bliznan, spásovdan/spasovan, iljade/hiljada, dávaj/daan</cell>
             </row>
             <row>
                <cell>Mlcfpa</cell>
@@ -4462,7 +4462,7 @@
                <cell>Numeral Form=letter Type=cardinal Gender=neuter Number=singular Case=nominative</cell>
                <cell>6</cell>
                <cell>305</cell>
-               <cell>jednó/jedan, jédno/jedan, ednó/jedan, édno/jedan, prvo/prvi</cell>
+               <cell>jednó/jedan, jédno/jedan, ednó/jedan, édno/jedan, jedno/jedan</cell>
             </row>
             <row>
                <cell>Mlcnsa</cell>
@@ -4490,14 +4490,14 @@
                <cell>Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=nominative Article=t-form</cell>
                <cell>3</cell>
                <cell>4</cell>
-               <cell>druǵíjat/druǵi, drugíjat/drugij, obojícata/obojica</cell>
+               <cell>druǵíjat/druǵi, obojícata/obojica, drugíjat/drugij</cell>
             </row>
             <row>
                <cell>Mlomsg</cell>
                <cell>Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=genitive</cell>
                <cell>31</cell>
                <cell>117</cell>
-               <cell>drúgoga/drugi, drúgog/drugi, prvog/prvi, ósmog/osmi, desétog/deseti</cell>
+               <cell>drúgoga/drugi, drúgog/drugi, prvog/prvi, ósmog/osmi, sédmog/sedmi</cell>
             </row>
             <row>
                <cell>Mlomsan</cell>
@@ -4511,7 +4511,7 @@
                <cell>Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=accusative Animate=yes</cell>
                <cell>6</cell>
                <cell>14</cell>
-               <cell>prvi, sédmi/sedmi, drúgi/drugi, tvóg/tvi, vášeg/vaši</cell>
+               <cell>prvi, sédmi/sedmi, drúgi/drugi, vášeg/vaši, tvóg/tvi</cell>
             </row>
             <row>
                <cell>Mlomsl</cell>
@@ -4525,7 +4525,7 @@
                <cell>Numeral Form=letter Type=ordinal Gender=masculine Number=plural Case=nominative</cell>
                <cell>4</cell>
                <cell>103</cell>
-               <cell>drúgi/drugi, drugi, drugí/drugi, tréći/treći</cell>
+               <cell>drúgi/drugi, tréći/treći, drugi, drugí/drugi</cell>
             </row>
             <row>
                <cell>Mlompn-t</cell>
@@ -4560,7 +4560,7 @@
                <cell>Numeral Form=letter Type=ordinal Gender=feminine Number=singular Case=genitive</cell>
                <cell>11</cell>
                <cell>92</cell>
-               <cell>drúge/drugi, ósme/osmi, četvrte/četvrti, prve/prvi, devéte/deveti</cell>
+               <cell>drúge/drugi, četvrte/četvrti, ósme/osmi, prve/prvi, šéste/šesti</cell>
             </row>
             <row>
                <cell>Mlofsa</cell>
@@ -4630,7 +4630,7 @@
                <cell>Numeral Form=letter Type=ordinal Gender=neuter Number=singular Case=nominative Article=t-form</cell>
                <cell>5</cell>
                <cell>5</cell>
-               <cell>četvrtoto/četvrto, dvanóto/dvani, drugóto/drugi, tréćoto/trećo, drəgóto/drugi</cell>
+               <cell>dvanóto/dvani, četvrtoto/četvrto, tréćoto/trećo, drugóto/drugi, drəgóto/drugi</cell>
             </row>
             <row>
                <cell>Mlonsa</cell>
@@ -4727,8 +4727,8 @@
             <row>
                <cell>Qr</cell>
                <cell>Particle Type=affirmative</cell>
-               <cell>1760</cell>
-               <cell>4813</cell>
+               <cell>1755</cell>
+               <cell>4809</cell>
                <cell>mhm, aha, da, dabóme/dabome, ahá/aha</cell>
             </row>
          </table>
@@ -4863,7 +4863,7 @@
                <cell>Residual Type=foreign</cell>
                <cell>409</cell>
                <cell>519</cell>
-               <cell>cap, títa/tita, fúra/fura, tré/tre, dršte</cell>
+               <cell>cap, fúra/fura, tré/tre, títa/tita, kotál/kotal</cell>
             </row>
          </table>
       </div>
@@ -5965,14 +5965,14 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=nominative Article=t-form</cell>
             <cell>141</cell>
             <cell>269</cell>
-            <cell xml:lang="sr-tor">krsat/krst, lébat/hleb, sínat/sin, unúkat/unuk, čovékat/čovek</cell>
+            <cell xml:lang="sr-tor">krsat/krst, sínat/sin, lébat/hleb, unúkat/unuk, pútat/put</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmsn-v</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=nominative Article=v-form</cell>
             <cell>11</cell>
             <cell>18</cell>
-            <cell xml:lang="sr-tor">dédava/deda, stárcav/starac, pútav/put, knjáževəcav/Knjaževəc, nósav/nos</cell>
+            <cell xml:lang="sr-tor">dédava/deda, stárcav/starac, pútav/put, komšilákav/komšiluk, nósav/nos</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmsn-n</cell>
@@ -5986,7 +5986,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=nominative Animate=no Article=t-form</cell>
             <cell>17</cell>
             <cell>20</cell>
-            <cell xml:lang="sr-tor">brégat/breg, komšilə́kat/komšiluk, zmeját/zmej, kaišát/kaiš, przdélat/przdel</cell>
+            <cell xml:lang="sr-tor">zmeját/zmej, brégat/breg, komšilə́kat/komšiluk, travalját/travalj, délat/deo</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmsnnv</cell>
@@ -6007,7 +6007,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=nominative Animate=yes Article=t-form</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">vrtolomáta/vrtoloma, písarat/pisar</cell>
+            <cell xml:lang="sr-tor">písarat/pisar, vrtolomáta/vrtoloma</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmsg</cell>
@@ -6028,14 +6028,14 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=dative</cell>
             <cell>122</cell>
             <cell>180</cell>
-            <cell xml:lang="sr-tor">úmu/um, pévu/pev, kúpu/kup, okúpu/okup, grómu/grom</cell>
+            <cell xml:lang="sr-tor">úmu/um, kúpu/kup, pévu/pev, okúpu/okup, nesú/nes</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmsa-t</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=accusative Article=t-form</cell>
             <cell>6</cell>
             <cell>9</cell>
-            <cell xml:lang="sr-tor">déduvu/deda, múžatoga/muž, čovékatoga/čovek, mózakata/mozak, čovékata/čovek</cell>
+            <cell xml:lang="sr-tor">déduvu/deda, čovékatoga/čovek, múžatoga/muž, čovékata/čovek, mózakata/mozak</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmsa-v</cell>
@@ -6054,8 +6054,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmsan</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=accusative Animate=no</cell>
-            <cell>888</cell>
-            <cell>4697</cell>
+            <cell>887</cell>
+            <cell>4696</cell>
             <cell xml:lang="sr-tor">dán/dan, prímer/primer, pút/put, kráj/kraj, léb/hleb</cell>
          </row>
          <row role="msd">
@@ -6077,7 +6077,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=accusative Animate=yes Article=t-form</cell>
             <cell>5</cell>
             <cell>8</cell>
-            <cell xml:lang="sr-tor">bogáta/bog, bógata/bog, bratátoga/brat, bratáta/brat, stárcatogá/starac</cell>
+            <cell xml:lang="sr-tor">bogáta/bog, bógata/bog, bratáta/brat, stárcatogá/starac, bratátoga/brat</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmsayn</cell>
@@ -6105,7 +6105,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=locative</cell>
             <cell>312</cell>
             <cell>667</cell>
-            <cell xml:lang="sr-tor">réku/rek, šúmu/šum, nesú/nes, sóbu/sob, rédu/red</cell>
+            <cell xml:lang="sr-tor">réku/rek, šúmu/šum, nesú/nes, sóbu/sob, dvé/dv</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmsl-t</cell>
@@ -6119,7 +6119,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=singular Case=instrumental</cell>
             <cell>57</cell>
             <cell>77</cell>
-            <cell xml:lang="sr-tor">mámom/mam, telefónom/telefon, máhom/mah, pútem/put, tátom/tata</cell>
+            <cell xml:lang="sr-tor">mámom/mam, pútem/put, telefónom/telefon, máhom/mah, tátom/tata</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmpn</cell>
@@ -6133,21 +6133,21 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural Case=nominative Article=t-form</cell>
             <cell>37</cell>
             <cell>47</cell>
-            <cell xml:lang="sr-tor">stárciti/starac, tópoviti/top, unúciti/unuk, učitéljite/učitelj, mómciti/momak</cell>
+            <cell xml:lang="sr-tor">stárciti/starac, unúciti/unuk, tópoviti/top, učitéljite/učitelj, koláčiti/kolač</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmpn-v</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural Case=nominative Article=v-form</cell>
             <cell>10</cell>
             <cell>10</cell>
-            <cell xml:lang="sr-tor">ródivi/rod, gušteríveve/gušter, drúgivi/drugi, šakálivi/šakal, sémaforivi/semafor</cell>
+            <cell xml:lang="sr-tor">šakálivi/šakal, taksístivi/taksist, plínčićivi/plinče, súdive/sud, néḱivi/neḱi</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmpnnt</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural Case=nominative Animate=no Article=t-form</cell>
             <cell>20</cell>
             <cell>23</cell>
-            <cell xml:lang="sr-tor">mladíti/mlad, grébenciti/grebenc, prstiti/prst, lugjíti/čovek, póvolenšćiti/povolen</cell>
+            <cell xml:lang="sr-tor">prstiti/prst, mladíti/mlad, grébenciti/grebenc, kožljacíti/kožljak, prutíčiti/prutić</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmpnyv</cell>
@@ -6168,21 +6168,21 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural Case=dative</cell>
             <cell>41</cell>
             <cell>43</cell>
-            <cell xml:lang="sr-tor">udavíl/uda, unúcima/unuk, rové/rov, zaa, péčivo/peč</cell>
+            <cell xml:lang="sr-tor">udavíl/uda, unúcima/unuk, češmá/če, stárcima/starac, pitíje/piac</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmpa</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural Case=accusative</cell>
             <cell>308</cell>
             <cell>603</cell>
-            <cell xml:lang="sr-tor">ljúǵe/čovek, ljúde/čovek, lékove/lek, éste/est, kónji/konj</cell>
+            <cell xml:lang="sr-tor">ljúǵe/čovek, ljúde/čovek, éste/est, lékove/lek, volóve/vol</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmpa-t</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural Case=accusative Article=t-form</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">klepetárnikete/klepetarnik, vúkovete/vuk</cell>
+            <cell xml:lang="sr-tor">vúkovete/vuk, klepetárnikete/klepetarnik</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmpa-n</cell>
@@ -6196,14 +6196,14 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural Case=locative</cell>
             <cell>65</cell>
             <cell>74</cell>
-            <cell xml:lang="sr-tor">óbičajima/običaj, lalíja/lal, dánima/dan, póso/p, níš/niš</cell>
+            <cell xml:lang="sr-tor">óbičajima/običaj, dánima/dan, lalíja/lal, níš/niš, póso/p</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncmpi</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=masculine Number=plural Case=instrumental</cell>
             <cell>31</cell>
             <cell>41</cell>
-            <cell xml:lang="sr-tor">ljúdima/čovek, váma/v, náma/n, svákoga/svak, róditeljima/roditelj</cell>
+            <cell xml:lang="sr-tor">váma/v, ljúdima/čovek, náma/n, svákoga/svak, róditeljima/roditelj</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsn</cell>
@@ -6224,28 +6224,28 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=nominative Article=v-form</cell>
             <cell>17</cell>
             <cell>19</cell>
-            <cell xml:lang="sr-tor">bábava/baba, kúćava/kuća, dečíjava/dečija, škólava/škola, komšíkava/komšika</cell>
+            <cell xml:lang="sr-tor">bábava/baba, kúćava/kuća, komšíkava/komšika, gúšava/guša, popadíjava/popadija</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsn-n</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=nominative Article=n-form</cell>
             <cell>6</cell>
             <cell>6</cell>
-            <cell xml:lang="sr-tor">ženícana/ženica, vrátana/vrata, parána/para, komšíkana/komšika, bábana/baba</cell>
+            <cell xml:lang="sr-tor">parána/para, noǵíćkana/noǵićka, ženícana/ženica, komšíkana/komšika, vrátana/vrata</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsnnt</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=nominative Animate=no Article=t-form</cell>
             <cell>8</cell>
             <cell>11</cell>
-            <cell xml:lang="sr-tor">cíglata/cigla, traváta/trava, paráta/para, materjáta/materija, pustinjáta/pustinja</cell>
+            <cell xml:lang="sr-tor">cíglata/cigla, traváta/trava, stípsata/stipsa, níšata/niša, pustinjáta/pustinja</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsnyt</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=nominative Animate=yes Article=t-form</cell>
             <cell>18</cell>
             <cell>44</cell>
-            <cell xml:lang="sr-tor">snáta/snaha, ženáta/žena, sestráta/sestra, zmijáta/zmija, vratáta/vrata</cell>
+            <cell xml:lang="sr-tor">snáta/snaha, ženáta/žena, sestráta/sestra, glaváta/glava, vratáta/vrata</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsg</cell>
@@ -6273,21 +6273,21 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=accusative Article=t-form</cell>
             <cell>114</cell>
             <cell>209</cell>
-            <cell xml:lang="sr-tor">vodútu/voda, škólutu/škola, kúćutu/kuća, décutu/deca, crkvutu/crkva</cell>
+            <cell xml:lang="sr-tor">vodútu/voda, škólutu/škola, kúćutu/kuća, crkvutu/crkva, décutu/deca</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsa-v</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=accusative Article=v-form</cell>
             <cell>7</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">mašínuvu/mašina, gibánicuvu/gibanica, kúḱuvu/kuḱa, neći/na, vóduvu/voda</cell>
+            <cell xml:lang="sr-tor">neći/na, vóduvu/voda, šérpuvu/šerpa, gibánicuvu/gibanica, kúḱuvu/kuḱa</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsa-n</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=accusative Article=n-form</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">šúpicu/šupica, šérpu/šerpa, vodenícu/vodenica</cell>
+            <cell xml:lang="sr-tor">šérpu/šerpa, vodenícu/vodenica, šúpicu/šupica</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsant</cell>
@@ -6308,14 +6308,14 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=accusative Animate=no Article=n-form</cell>
             <cell>7</cell>
             <cell>9</cell>
-            <cell xml:lang="sr-tor">gradínunu/gradina, prodávnicunu/prodavnica, crkvunu/crkva, kobílunu/kobila, baštúnu/bašta</cell>
+            <cell xml:lang="sr-tor">gradínunu/gradina, crkvunu/crkva, prodávnicunu/prodavnica, kesúnu/kesa, kobílunu/kobila</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsayt</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=accusative Animate=yes Article=t-form</cell>
             <cell>5</cell>
             <cell>10</cell>
-            <cell xml:lang="sr-tor">stókutu/stoka, ženútu/žena, snaútu/snaha, svinjútu/svinja, zmijútu/zmija</cell>
+            <cell xml:lang="sr-tor">stókutu/stoka, ženútu/žena, svinjútu/svinja, snaútu/snaha, zmijútu/zmija</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfsv</cell>
@@ -6336,7 +6336,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=singular Case=instrumental</cell>
             <cell>46</cell>
             <cell>137</cell>
-            <cell xml:lang="sr-tor">véčerom/večer, kámerom/kamera, vódom/voda, bákom/baka, bábom/baba</cell>
+            <cell xml:lang="sr-tor">véčerom/večer, kámerom/kamera, vódom/voda, bákom/baka, većínom/većina</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpn</cell>
@@ -6350,42 +6350,42 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=nominative Article=t-form</cell>
             <cell>58</cell>
             <cell>87</cell>
-            <cell xml:lang="sr-tor">bábete/baba, krávete/krava, ženéte/žena, paréte/para, perášćete/perašća</cell>
+            <cell xml:lang="sr-tor">bábete/baba, ženéte/žena, krávete/krava, paréte/para, perášćete/perašća</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpn-v</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=nominative Article=v-form</cell>
             <cell>9</cell>
             <cell>9</cell>
-            <cell xml:lang="sr-tor">devójkeve/devojka, stépeniceve/stepenica, svádbeve/svadba, kokoxćeve/kokoška, zmijuríneve/zmijurina</cell>
+            <cell xml:lang="sr-tor">mušíceve/mušica, zmijuríneve/zmijurina, tórbeve/torba, kokoxćeve/kokoška, pénzijiceve/penzijica</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpn-n</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=nominative Article=n-form</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">kokošćétinene/kokošćetina, létvene/letva, ručíḱkene/ručiḱka</cell>
+            <cell xml:lang="sr-tor">kokošćétinene/kokošćetina, ručíḱkene/ručiḱka, létvene/letva</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpnnt</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=nominative Animate=no Article=t-form</cell>
             <cell>13</cell>
             <cell>15</cell>
-            <cell xml:lang="sr-tor">ólalijete/olalija, sedínjkete/sedenjka, čarápete/čarapa, ljuljáljćete/ljuljaljka, ponjávete/ponjava</cell>
+            <cell xml:lang="sr-tor">ólalijete/olalija, pomíjete/pomija, ljuljáljćete/ljuljaljka, ponjávete/ponjava, knjígete/knjiga</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpnnv</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=nominative Animate=no Article=v-form</cell>
             <cell>4</cell>
             <cell>4</cell>
-            <cell xml:lang="sr-tor">emísijeve/emisija, brádeve/brada, píteve/pita, kúćeve/kuća</cell>
+            <cell xml:lang="sr-tor">emísijeve/emisija, píteve/pita, brádeve/brada, kúćeve/kuća</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpnyt</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=nominative Animate=yes Article=t-form</cell>
             <cell>8</cell>
             <cell>31</cell>
-            <cell xml:lang="sr-tor">ovcéte/ovca, óvcete/ovca, tíkvete/tikva, sljívete/šljiva, mužjéte/muž</cell>
+            <cell xml:lang="sr-tor">ovcéte/ovca, óvcete/ovca, mužjéte/muž, sljívete/šljiva, máčḱete/mačka</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpnyv</cell>
@@ -6406,7 +6406,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=dative</cell>
             <cell>7</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">devójkama/devojka, ústima/usta, óčima/oko, bójama/boja, séstrama/sestra</cell>
+            <cell xml:lang="sr-tor">bójama/boja, óčima/oko, séstrama/sestra, glaváma/glava, zmíjama/zmija</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpa</cell>
@@ -6420,7 +6420,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=accusative Article=t-form</cell>
             <cell>6</cell>
             <cell>6</cell>
-            <cell xml:lang="sr-tor">vídećete/videća, kólute/kolut, móšte/mošt, péčiljkete/pečurka, uléznete/ulezna</cell>
+            <cell xml:lang="sr-tor">uléznete/ulezna, móšte/mošt, péčiljkete/pečurka, kólute/kolut, vídećete/videća</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpa-v</cell>
@@ -6434,14 +6434,14 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=locative</cell>
             <cell>34</cell>
             <cell>37</cell>
-            <cell xml:lang="sr-tor">grúpama/grupa, váma/va, níš/n, dušiné/duši, léba/hleb</cell>
+            <cell xml:lang="sr-tor">grúpama/grupa, níš/n, váma/va, stáraca/starac, léba/hleb</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncfpi</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=feminine Number=plural Case=instrumental</cell>
             <cell>20</cell>
             <cell>34</cell>
-            <cell xml:lang="sr-tor">váma/va, gódinama/godina, múkama/muka, dékama/deka, réčima/reč</cell>
+            <cell xml:lang="sr-tor">váma/va, gódinama/godina, náma/na, dékama/deka, réčima/reč</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnsn</cell>
@@ -6455,14 +6455,14 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular Case=nominative Article=t-form</cell>
             <cell>44</cell>
             <cell>65</cell>
-            <cell xml:lang="sr-tor">devójčeto/devojče, jútroto/jutro, sírinjeto/sirinje, máčeto/mače, devójčenceto/devojčence</cell>
+            <cell xml:lang="sr-tor">devójčeto/devojče, sírinjeto/sirinje, jútroto/jutro, máčeto/mače, deténceto/detence</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnsn-v</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular Case=nominative Article=v-form</cell>
             <cell>16</cell>
             <cell>24</cell>
-            <cell xml:lang="sr-tor">devójčevo/devojče, máčevo/mače, vrémevo/vreme, žiténcevo/žitence, tanjírčevo/tanjirče</cell>
+            <cell xml:lang="sr-tor">devójčevo/devojče, kúćovo/kućo, detévo/dete, cvéḱevo/cveḱe, detéovo/deteo</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnsn-n</cell>
@@ -6490,21 +6490,21 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular Case=nominative Animate=no Article=n-form</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">sélono/selo, útrono/jutro, brdóno/brdo</cell>
+            <cell xml:lang="sr-tor">brdóno/brdo, sélono/selo, útrono/jutro</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnsg</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular Case=genitive</cell>
             <cell>149</cell>
             <cell>255</cell>
-            <cell xml:lang="sr-tor">drva/drvo, mésta/mesto, séla/selo, vrémena/vreme, jája/jaje</cell>
+            <cell xml:lang="sr-tor">drva/drvo, mésta/mesto, séla/selo, vrémena/vreme, jútra/jutro</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnsd</cell>
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular Case=dative</cell>
             <cell>13</cell>
             <cell>15</cell>
-            <cell xml:lang="sr-tor">detétu/dete, govédu/govedo, télu/telo, jutárnju/jutarnje, óknu/okno</cell>
+            <cell xml:lang="sr-tor">detétu/dete, govédu/govedo, ovú/ove, páljenju/paljenje, oformljávanju/oformljavanje</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnsa</cell>
@@ -6518,7 +6518,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular Case=accusative Article=t-form</cell>
             <cell>4</cell>
             <cell>4</cell>
-            <cell xml:lang="sr-tor">tkanjéto/tkanje, đúbreto/đubre, kúćeto/kuče, kotléto/kotao</cell>
+            <cell xml:lang="sr-tor">đúbreto/đubre, kúćeto/kuče, tkanjéto/tkanje, kotléto/kotao</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnsay</cell>
@@ -6539,7 +6539,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular Case=vocative</cell>
             <cell>5</cell>
             <cell>5</cell>
-            <cell xml:lang="sr-tor">póče/poče, siróče/siroče, odozdóle/odozdole, zláto/zlato, siročé/siroče</cell>
+            <cell xml:lang="sr-tor">siróče/siroče, zláto/zlato, odozdóle/odozdole, póče/poče, siročé/siroče</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnsl</cell>
@@ -6553,7 +6553,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=singular Case=instrumental</cell>
             <cell>29</cell>
             <cell>39</cell>
-            <cell xml:lang="sr-tor">vínom/vino, pitújem/pituje, poréklom/poreklo, bájem/baje, drúštvom/društvo</cell>
+            <cell xml:lang="sr-tor">vínom/vino, poréklom/poreklo, pitújem/pituje, bájem/baje, sobújem/sobuje</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnpn</cell>
@@ -6567,7 +6567,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=plural Case=nominative Article=t-form</cell>
             <cell>6</cell>
             <cell>10</cell>
-            <cell xml:lang="sr-tor">kólata/kola, koláta/kola, brdílata/brdila, drvjata/drvje, súknata/sukna</cell>
+            <cell xml:lang="sr-tor">kólata/kola, koláta/kola, súknata/sukna, dečícata/dečica, drvjata/drvje</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnpn-v</cell>
@@ -6595,7 +6595,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=plural Case=genitive</cell>
             <cell>24</cell>
             <cell>40</cell>
-            <cell xml:lang="sr-tor">déce/dete, práva/pravo, drva/drvo, kóla/kola, téla/telo</cell>
+            <cell xml:lang="sr-tor">déce/dete, drva/drvo, práva/pravo, kóla/kola, téla/telo</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnpd</cell>
@@ -6623,7 +6623,7 @@
             <cell role="attval" xml:lang="en">Noun Type=common Gender=neuter Number=plural Case=locative</cell>
             <cell>5</cell>
             <cell>16</cell>
-            <cell xml:lang="sr-tor">kólima/kola, jájima/jaje, sélima/selo, nə, takmičénjima/takmičenje</cell>
+            <cell xml:lang="sr-tor">kólima/kola, jájima/jaje, sélima/selo, takmičénjima/takmičenje, nə</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ncnpi</cell>
@@ -6637,7 +6637,7 @@
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=singular Case=nominative</cell>
             <cell>3770</cell>
             <cell>7545</cell>
-            <cell xml:lang="sr-tor">bóg/Bog, božíč/Božič, bádnjak/Badnjak, ráde/Rade, téj/Tej</cell>
+            <cell xml:lang="sr-tor">bóg/Bog, božíč/Božič, bádnjak/Badnjak, ráde/Rade, jován/Jovan</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npmsn-t</cell>
@@ -6651,7 +6651,7 @@
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=singular Case=genitive</cell>
             <cell>528</cell>
             <cell>886</cell>
-            <cell xml:lang="sr-tor">bóga/Bog, óca/Otac, strá/Str, mája/Maj, vás/Va</cell>
+            <cell xml:lang="sr-tor">bóga/Bog, óca/Otac, strá/Str, mája/Maj, teodóra/Teodor</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npmsd</cell>
@@ -6672,28 +6672,28 @@
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=singular Case=accusative Animate=yes</cell>
             <cell>283</cell>
             <cell>705</cell>
-            <cell xml:lang="sr-tor">knjáževac/Knjaževac, kálnu/Kalna, béograd/Beograd, pírot/Pirot, bóga/Bog</cell>
+            <cell xml:lang="sr-tor">knjáževac/Knjaževac, kálnu/Kalna, béograd/Beograd, pírot/Pirot, božíć/Božić</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npmsv</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=singular Case=vocative</cell>
             <cell>40</cell>
             <cell>214</cell>
-            <cell xml:lang="sr-tor">bóže/Bog, ce/Ce, óče/Otac, džérmane/Džerman, žíko/Žika</cell>
+            <cell xml:lang="sr-tor">bóže/Bog, ce/Ce, žíko/Žika, džérmane/Džerman, óče/Otac</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npmsl</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=singular Case=locative</cell>
             <cell>596</cell>
             <cell>874</cell>
-            <cell xml:lang="sr-tor">vrbícu/Vrbic, záječar/Zaječac, kréntu/Krent, sváku/Svak, kújnu/Kujn</cell>
+            <cell xml:lang="sr-tor">vrbícu/Vrbic, záječar/Zaječac, kréntu/Krent, sváku/Svak, máterinu/Materin</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npmsi</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=singular Case=instrumental</cell>
             <cell>30</cell>
             <cell>31</cell>
-            <cell xml:lang="sr-tor">jútrom/Jutra, óglukom/Ogluka, tíjem/Tij, zatúrom/Zatura, poréklom/Porekla</cell>
+            <cell xml:lang="sr-tor">jútrom/Jutra, zóranom/Zoran, poréklom/Porekla, pákum/Pak, uvíjuem/Uviju</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npmpn</cell>
@@ -6707,14 +6707,14 @@
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=plural Case=nominative Article=t-form</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">némciti/Nemac, rúsiti/Rus</cell>
+            <cell xml:lang="sr-tor">rúsiti/Rus, némciti/Nemac</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npmpg</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=plural Case=genitive</cell>
             <cell>18</cell>
             <cell>24</cell>
-            <cell xml:lang="sr-tor">túraka/Turčin, redíća/Redić, srba/Srbin, íma/Im, újka/Ujko</cell>
+            <cell xml:lang="sr-tor">túraka/Turčin, redíća/Redić, íma/Im, srba/Srbin, vlastímirka/Vlastimirko</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npmpd</cell>
@@ -6728,14 +6728,14 @@
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=plural Case=accusative</cell>
             <cell>146</cell>
             <cell>197</cell>
-            <cell xml:lang="sr-tor">vráčke/Vračko, zúniče/Zunič, cíganje/Ciganj, fláše/Flaš, čéze/Čezo</cell>
+            <cell xml:lang="sr-tor">zúniče/Zunič, vráčke/Vračko, cíganje/Ciganj, fláše/Flaš, béšte/Bešta</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npmpi</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=masculine Number=plural Case=instrumental</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">sima/S, váma/V</cell>
+            <cell xml:lang="sr-tor">váma/V, sima/S</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npfsn</cell>
@@ -6749,14 +6749,14 @@
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=feminine Number=singular Case=genitive</cell>
             <cell>529</cell>
             <cell>849</cell>
-            <cell xml:lang="sr-tor">íde/Ida, tébe/Teba, tíje/Tija, éve/Eva, séme/Seme</cell>
+            <cell xml:lang="sr-tor">íde/Ida, tébe/Teba, tíje/Tija, séme/Seme, éve/Eva</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npfsd</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=feminine Number=singular Case=dative</cell>
             <cell>19</cell>
             <cell>29</cell>
-            <cell xml:lang="sr-tor">idí/Ida, nadí/Nada, nádi/Nada, em/Em, négi/Nega</cell>
+            <cell xml:lang="sr-tor">idí/Ida, nadí/Nada, nádi/Nada, em/Em, šami/Šama</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npfsa</cell>
@@ -6777,35 +6777,35 @@
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=feminine Number=singular Case=locative</cell>
             <cell>166</cell>
             <cell>230</cell>
-            <cell xml:lang="sr-tor">níš/Niš, záječar/Zaječar, debélicu/Debelica, cvéti/Cveta, drvnik/Drvnik</cell>
+            <cell xml:lang="sr-tor">níš/Niš, debélicu/Debelica, záječar/Zaječar, cvéti/Cveta, drvnik/Drvnik</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npfsi</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=feminine Number=singular Case=instrumental</cell>
             <cell>17</cell>
             <cell>22</cell>
-            <cell xml:lang="sr-tor">níkom/Nika, lénom/Lena, ednóm/Edna, skórpus/Skorpus, pseníčom/Pseniča</cell>
+            <cell xml:lang="sr-tor">níkom/Nika, ednóm/Edna, lénom/Lena, skórpus/Skorpus, tekó/Teko</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npfpg</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=feminine Number=plural Case=genitive</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">sastáena/Sastaena, ui/Ui</cell>
+            <cell xml:lang="sr-tor">ui/Ui, sastáena/Sastaena</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npfpa</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=feminine Number=plural Case=accusative</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">etéj/Etej, podržá/Podrža, póče/Poče</cell>
+            <cell xml:lang="sr-tor">póče/Poče, podržá/Podrža, etéj/Etej</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npnsn</cell>
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=neuter Number=singular Case=nominative</cell>
             <cell>171</cell>
             <cell>272</cell>
-            <cell xml:lang="sr-tor">búčje/Bučje, kravájče/Kravajče, ósenje/Osenje, brátanče/Bratanče, cíganje/Ciganje</cell>
+            <cell xml:lang="sr-tor">búčje/Bučje, kravájče/Kravajče, ósenje/Osenje, brátanče/Bratanče, óbičaje/Običaje</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npnsn-t</cell>
@@ -6819,7 +6819,7 @@
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=neuter Number=singular Case=genitive</cell>
             <cell>32</cell>
             <cell>32</cell>
-            <cell xml:lang="sr-tor">rásova/Rasovo, daaa/Daao, vrljena/Vrljeno, kćina/Kćino, skóplja/Skopje</cell>
+            <cell xml:lang="sr-tor">nə/Nə, džógava/Džogavo, brna/Brno, strá/Stro, sekrva/Sekrvo</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npnsa</cell>
@@ -6833,7 +6833,7 @@
             <cell role="attval" xml:lang="en">Noun Type=proper Gender=neuter Number=singular Case=locative</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">lásovu/Lasovo, úzmee/Uzm, práskovu/Praskovo</cell>
+            <cell xml:lang="sr-tor">práskovu/Praskovo, úzmee/Uzm, lásovu/Lasovo</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Npnpa</cell>
@@ -6889,7 +6889,7 @@
             <cell role="attval" xml:lang="en">Verb Type=main VForm=participle Number=plural Gender=neuter</cell>
             <cell>4</cell>
             <cell>5</cell>
-            <cell xml:lang="sr-tor">išlá/ići, pomágala/pomagati, naə/nti, šíla/šiti</cell>
+            <cell xml:lang="sr-tor">išlá/ići, šíla/šiti, pomágala/pomagati, naə/nti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vmr1s</cell>
@@ -6938,21 +6938,21 @@
             <cell role="attval" xml:lang="en">Verb Type=main VForm=future Person=first Number=singular</cell>
             <cell>6</cell>
             <cell>6</cell>
-            <cell xml:lang="sr-tor">vrátiću/vratiti, prátiću/pratiti, stáviću/staviti, póneću/poneti, úzeću/uzeti</cell>
+            <cell xml:lang="sr-tor">úzeću/uzeti, póneću/poneti, vrátiću/vratiti, pášću/pasti, stáviću/staviti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vmf1p</cell>
             <cell role="attval" xml:lang="en">Verb Type=main VForm=future Person=first Number=plural</cell>
             <cell>4</cell>
             <cell>5</cell>
-            <cell xml:lang="sr-tor">vídećemo/videti, donéso/doti, stávićemo/staviti, otéro/oti</cell>
+            <cell xml:lang="sr-tor">vídećemo/videti, stávićemo/staviti, donéso/doti, otéro/oti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vmf3s</cell>
             <cell role="attval" xml:lang="en">Verb Type=main VForm=future Person=third Number=singular</cell>
             <cell>20</cell>
             <cell>22</cell>
-            <cell xml:lang="sr-tor">bóšće/bosti, píće/piti, účiće/učiti, slomíće/slomiti, íma/imati</cell>
+            <cell xml:lang="sr-tor">bóšće/bosti, píće/piti, créće/creti, igráčćé/igračti, odvéšće/odvesti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vmf3p</cell>
@@ -6987,7 +6987,7 @@
             <cell role="attval" xml:lang="en">Verb Type=main VForm=aorist Person=first Number=plural</cell>
             <cell>18</cell>
             <cell>21</cell>
-            <cell xml:lang="sr-tor">dojdómo/dojdti, dóǵemo/doǵti, dođósmo/doći, podrémemo/podremti, básmo/bati</cell>
+            <cell xml:lang="sr-tor">dojdómo/dojdti, dođósmo/doći, dóǵemo/doǵti, dádomo/dći, podrémemo/podremti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vma3s</cell>
@@ -7001,7 +7001,7 @@
             <cell role="attval" xml:lang="en">Verb Type=main VForm=aorist Person=third Number=plural</cell>
             <cell>197</cell>
             <cell>403</cell>
-            <cell xml:lang="sr-tor">dojdóše/doći, otídu/otići, oteráše/oterati, ódoše/otići, póviše/poviti</cell>
+            <cell xml:lang="sr-tor">dojdóše/doći, otídu/otići, oteráše/oterati, ódoše/otići, dádoše/dati</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vme3s</cell>
@@ -7022,7 +7022,7 @@
             <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=infinitive</cell>
             <cell>3</cell>
             <cell>12</cell>
-            <cell xml:lang="sr-tor">bíti/biti, bití/biti, biti</cell>
+            <cell xml:lang="sr-tor">bíti/biti, biti, bití/biti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vap-sm</cell>
@@ -7043,7 +7043,7 @@
             <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=participle Number=singular Gender=neuter</cell>
             <cell>9</cell>
             <cell>297</cell>
-            <cell xml:lang="sr-tor">bílo/biti, biló/biti, bilá/biti, bilo/biti, váš/vaš</cell>
+            <cell xml:lang="sr-tor">bílo/biti, biló/biti, bilá/biti, bilo/biti, opečú/opeču</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vap-pm</cell>
@@ -7113,7 +7113,7 @@
             <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=aorist Person=first Number=singular</cell>
             <cell>4</cell>
             <cell>15</cell>
-            <cell xml:lang="sr-tor">bih/biti, bi/biti, znə, lu</cell>
+            <cell xml:lang="sr-tor">bih/biti, bi/biti, lu, znə</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vaa1p</cell>
@@ -7127,14 +7127,14 @@
             <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=aorist Person=third Number=singular</cell>
             <cell>25</cell>
             <cell>401</cell>
-            <cell xml:lang="sr-tor">bi/biti, bí/biti, l, ví/vi, od</cell>
+            <cell xml:lang="sr-tor">bi/biti, bí/biti, l, vi, tí/ti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vaa3p</cell>
             <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=aorist Person=third Number=plural</cell>
             <cell>14</cell>
             <cell>44</cell>
-            <cell xml:lang="sr-tor">bi/biti, bí/biti, ijao, vréme?/vreme?, esú/esu</cell>
+            <cell xml:lang="sr-tor">bi/biti, bí/biti, dželáti/dželati, domaḱínstva/domaḱinstva, ijao</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vae3s</cell>
@@ -7155,7 +7155,7 @@
             <cell role="attval" xml:lang="en">Verb Type=copula VForm=participle Number=singular Gender=masculine</cell>
             <cell>22</cell>
             <cell>159</cell>
-            <cell xml:lang="sr-tor">bíl/biti, bío/biti, bil/biti, bio/biti, eš</cell>
+            <cell xml:lang="sr-tor">bíl/biti, bío/biti, bil/biti, bio/biti, lelelelelelelele/lelelelelelelelti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vcp-sf</cell>
@@ -7169,7 +7169,7 @@
             <cell role="attval" xml:lang="en">Verb Type=copula VForm=participle Number=singular Gender=neuter</cell>
             <cell>247</cell>
             <cell>1182</cell>
-            <cell xml:lang="sr-tor">biló/biti, bílo/biti, kə́d/kti, bilo/biti, nóvḱe/novti</cell>
+            <cell xml:lang="sr-tor">biló/biti, bílo/biti, kə́d/kti, bilo/biti, zavéćina/zavećiti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vcp-pm</cell>
@@ -7183,7 +7183,7 @@
             <cell role="attval" xml:lang="en">Verb Type=copula VForm=participle Number=plural Gender=feminine</cell>
             <cell>4</cell>
             <cell>8</cell>
-            <cell xml:lang="sr-tor">bilé/biti, praíle/praviti, lečíle/lečiti, postígle/postići</cell>
+            <cell xml:lang="sr-tor">bilé/biti, praíle/praviti, postígle/postići, lečíle/lečiti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vcr1s</cell>
@@ -7197,21 +7197,21 @@
             <cell role="attval" xml:lang="en">Verb Type=copula VForm=present Person=first Number=plural</cell>
             <cell>10</cell>
             <cell>78</cell>
-            <cell xml:lang="sr-tor">smo/biti, nesmó/biti, kolḱí/kobiti, ḱe/hteti, smó/biti</cell>
+            <cell xml:lang="sr-tor">smo/biti, nesmó/biti, néću/nbiti, ću/hteti, nísmo/biti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vcr2s</cell>
             <cell role="attval" xml:lang="en">Verb Type=copula VForm=present Person=second Number=singular</cell>
             <cell>15</cell>
             <cell>73</cell>
-            <cell xml:lang="sr-tor">si/biti, jési/biti, si?, sédni/sesti, kaží/kazati</cell>
+            <cell xml:lang="sr-tor">si/biti, jési/biti, si?, sédni/sesti, vas</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vcr2p</cell>
             <cell role="attval" xml:lang="en">Verb Type=copula VForm=present Person=second Number=plural</cell>
             <cell>11</cell>
             <cell>48</cell>
-            <cell xml:lang="sr-tor">ste/biti, níste/biti, éste/biti, esté/biti, sté/biti</cell>
+            <cell xml:lang="sr-tor">ste/biti, níste/biti, éste/biti, esté/biti, ćéte/hteti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vcr3s</cell>
@@ -7232,14 +7232,14 @@
             <cell role="attval" xml:lang="en">Verb Type=copula VForm=aorist Person=third Number=singular</cell>
             <cell>3</cell>
             <cell>4</cell>
-            <cell xml:lang="sr-tor">bi/biti, saa/saati, jə/biti</cell>
+            <cell xml:lang="sr-tor">bi/biti, jə/biti, saa/saati</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Vce3s</cell>
             <cell role="attval" xml:lang="en">Verb Type=copula VForm=imperfect Person=third Number=singular</cell>
             <cell>14</cell>
             <cell>300</cell>
-            <cell xml:lang="sr-tor">béše/biti, bešé/biti, beše/biti, béšte/beiti, stúre/stiti</cell>
+            <cell xml:lang="sr-tor">béše/biti, bešé/biti, beše/biti, stúre/stiti, béšte/beiti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmsnn</cell>
@@ -7267,28 +7267,28 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=yes Article=t-form</cell>
             <cell>7</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">starínskiti/starinski, górnjiti/gornji, débeljat/debeo, múšćiti/muški, malíjat/mali</cell>
+            <cell xml:lang="sr-tor">malíjat/mali, múšćiti/muški, górnjiti/gornji, bogátiti/bogat, débeljat/debeo</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmsgn</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=singular Case=genitive Definiteness=no</cell>
             <cell>11</cell>
             <cell>14</cell>
-            <cell xml:lang="sr-tor">seljáčka/seljački, oníje/onij, baščáluka/baščaluk, čabrá/čabr, púna/pun</cell>
+            <cell xml:lang="sr-tor">seljáčka/seljački, čabrá/čabr, baščáluka/baščaluk, fakultétska/fakultetski, oníje/onij</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmsgy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=singular Case=genitive Definiteness=yes</cell>
             <cell>84</cell>
             <cell>155</cell>
-            <cell xml:lang="sr-tor">svétog/svet, goléma/golem, nékog/neki, stárog/star, jédnoga/jedan</cell>
+            <cell xml:lang="sr-tor">svétog/svet, nékog/neki, goléma/golem, stárog/star, jédnog/jedan</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmsann</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=no Animate=no</cell>
             <cell>67</cell>
             <cell>116</cell>
-            <cell xml:lang="sr-tor">céo/cel, bábin/babin, sam, sáv/sav, slobodán/slobodan</cell>
+            <cell xml:lang="sr-tor">céo/cel, bábin/babin, sáv/sav, sam, slobodán/slobodan</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmsayn</cell>
@@ -7302,7 +7302,7 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=yes Animate=yes</cell>
             <cell>26</cell>
             <cell>31</cell>
-            <cell xml:lang="sr-tor">svétog/svet, stárog/star, nékog/neki, ovóg/ovi, njénog/njean</cell>
+            <cell xml:lang="sr-tor">svétog/svet, stárog/star, nékog/neki, roǵénog/roǵean, drúgog/drugi</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmsvy</cell>
@@ -7316,14 +7316,14 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=singular Case=locative Definiteness=yes</cell>
             <cell>21</cell>
             <cell>29</cell>
-            <cell xml:lang="sr-tor">glávnom/glavni, glávnome/glavni, célom/cel, nášem/naši, tímočku/timočki</cell>
+            <cell xml:lang="sr-tor">glávnom/glavni, glávnome/glavni, célom/cel, mlágja/mlai, bóžju/božji</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmsiy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=singular Case=instrumental Definiteness=yes</cell>
             <cell>8</cell>
             <cell>8</cell>
-            <cell xml:lang="sr-tor">púkim/puki, knjíževnim/književan, cárskim/carski, dónjim/donji, tupím/tup</cell>
+            <cell xml:lang="sr-tor">vášim/vaši, cárskim/carski, púkim/puki, mírnim/miran, seljáčkim/seljački</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmpn-y</cell>
@@ -7344,49 +7344,49 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=plural Case=nominative Definiteness=yes</cell>
             <cell>301</cell>
             <cell>736</cell>
-            <cell xml:lang="sr-tor">mládi/mlad, sámi/sam, stári/star, sví/sav, žívi/živ</cell>
+            <cell xml:lang="sr-tor">mládi/mlad, sámi/sam, stári/star, žívi/živ, sví/sav</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmpgy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=plural Case=genitive Definiteness=yes</cell>
             <cell>18</cell>
             <cell>21</cell>
-            <cell xml:lang="sr-tor">interesántnih/interesantan, mrtvih/mrtav, póviše/poviš, téba/teb, fúdbalskih/fudbalski</cell>
+            <cell xml:lang="sr-tor">interesántnih/interesantan, mrtvih/mrtav, čístih/čist, tújih/tuji, kvalifíkovanih/kvalifikovati</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmpdy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=plural Case=dative Definiteness=yes</cell>
             <cell>5</cell>
             <cell>6</cell>
-            <cell xml:lang="sr-tor">mrtvima/mrtav, nékoga/neko, ću, siromá/siro, svíma/sav</cell>
+            <cell xml:lang="sr-tor">mrtvima/mrtav, nékoga/neko, svíma/sav, siromá/siro, ću</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmpay</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=plural Case=accusative Definiteness=yes</cell>
             <cell>57</cell>
             <cell>72</cell>
-            <cell xml:lang="sr-tor">sáme/sam, drvene/drven, své/sav, vélike/velik, ráne/ran</cell>
+            <cell xml:lang="sr-tor">své/sav, sáme/sam, drvene/drven, gládne/gladan, mláde/mlad</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmpay-t</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=plural Case=accusative Definiteness=yes Article=t-form</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">izvínite/izvin, sédnite/sedn, izvólite/izvoo</cell>
+            <cell xml:lang="sr-tor">izvólite/izvoo, sédnite/sedn, izvínite/izvin</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmply</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=plural Case=locative Definiteness=yes</cell>
             <cell>11</cell>
             <cell>11</cell>
-            <cell xml:lang="sr-tor">gór/gor, málim/mali, stránim/stran, pírot/pir, ránim/ran</cell>
+            <cell xml:lang="sr-tor">njénim/njean, málim/mali, séoskim/seoski, pírot/pir, sédamsto/sedamsto</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpmpiy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=masculine Number=plural Case=instrumental Definiteness=yes</cell>
             <cell>5</cell>
             <cell>5</cell>
-            <cell xml:lang="sr-tor">stárim/star, túđim/tuđ, dánima/dan, ra, múđe/mu</cell>
+            <cell xml:lang="sr-tor">stárim/star, túđim/tuđ, múđe/mu, ra, dánima/dan</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpfsny</cell>
@@ -7400,21 +7400,21 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes Article=t-form</cell>
             <cell>6</cell>
             <cell>8</cell>
-            <cell xml:lang="sr-tor">zádnjata/zadnji, vláškata/vlaški, otéklata/otekla, glúvata/gluv, stárata/star</cell>
+            <cell xml:lang="sr-tor">vláškata/vlaški, zádnjata/zadnji, otéklata/otekla, stárata/star, ćóravata/ćorav</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpfsgy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=yes</cell>
             <cell>166</cell>
             <cell>227</cell>
-            <cell xml:lang="sr-tor">próšle/prošli, céle/cel, prošlé/prošli, dvé/dvi, górnje/gornji</cell>
+            <cell xml:lang="sr-tor">próšle/prošli, céle/cel, prošlé/prošli, dvé/dvi, crné/crn</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpfsdy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=feminine Number=singular Case=dative Definiteness=yes</cell>
             <cell>4</cell>
             <cell>5</cell>
-            <cell xml:lang="sr-tor">nékoj/neki, prívatnoj/privatan, žíčanoj/žičan, ístoj/isti</cell>
+            <cell xml:lang="sr-tor">nékoj/neki, prívatnoj/privatan, ístoj/isti, žíčanoj/žičan</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpfsay</cell>
@@ -7435,21 +7435,21 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=feminine Number=singular Case=locative Definiteness=yes</cell>
             <cell>31</cell>
             <cell>35</cell>
-            <cell xml:lang="sr-tor">jédnoj/jedan, ovú/oi, mójoj/moji, vášoj/vaši, tríes/trii</cell>
+            <cell xml:lang="sr-tor">jédnoj/jedan, mójoj/moji, ovú/oi, nášoj/naši, avlíu/avli</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpfsiy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=feminine Number=singular Case=instrumental Definiteness=yes</cell>
             <cell>10</cell>
             <cell>10</cell>
-            <cell xml:lang="sr-tor">vášom/vaši, sédom/sed, réndnom/rendan, šúgavom/šugav, velíkom/velik</cell>
+            <cell xml:lang="sr-tor">ósnovnom/osnovan, vášom/vaši, réndnom/rendan, stárom/star, šúgavom/šugav</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpfpny</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=feminine Number=plural Case=nominative Definiteness=yes</cell>
             <cell>389</cell>
             <cell>741</cell>
-            <cell xml:lang="sr-tor">své/sav, stáre/star, mláde/mlad, vúnene/vunen, lépe/lep</cell>
+            <cell xml:lang="sr-tor">své/sav, stáre/star, mláde/mlad, lépe/lep, vúnene/vunen</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpfpny-t</cell>
@@ -7463,7 +7463,7 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=feminine Number=plural Case=genitive Definiteness=yes</cell>
             <cell>14</cell>
             <cell>15</cell>
-            <cell xml:lang="sr-tor">práznih/prazan, srbu/srb, stárih/star, ḱérku/ḱerk, njójna/njojn</cell>
+            <cell xml:lang="sr-tor">práznih/prazan, fízičkih/fizički, nékih/neki, vratnjícu/vratnjic, ḱérku/ḱerk</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpfpdy</cell>
@@ -7477,7 +7477,7 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=feminine Number=plural Case=accusative Definiteness=yes</cell>
             <cell>127</cell>
             <cell>186</cell>
-            <cell xml:lang="sr-tor">váše/vaš, stáre/star, prtene/prten, rádne/radni, súve/suv</cell>
+            <cell xml:lang="sr-tor">váše/vaš, prtene/prten, stáre/star, rádne/radni, súve/suv</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpfply</cell>
@@ -7491,7 +7491,7 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=feminine Number=plural Case=instrumental Definiteness=yes</cell>
             <cell>4</cell>
             <cell>5</cell>
-            <cell xml:lang="sr-tor">téškim/težak, krčág/krčag, bákakma/bakak, žívku/živ</cell>
+            <cell xml:lang="sr-tor">téškim/težak, bákakma/bakak, žívku/živ, krčág/krčag</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnsny</cell>
@@ -7505,21 +7505,21 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=t-form</cell>
             <cell>12</cell>
             <cell>13</cell>
-            <cell xml:lang="sr-tor">malóto/mali, úbavoto/ubav, nepovíjenoto/nepovijen, povíjenoto/povijen, méšenoto/mešen</cell>
+            <cell xml:lang="sr-tor">malóto/mali, okrúgloto/okrugao, túrenoto/tureno, úbavoto/ubav, másnoto/mastan</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnsny-v</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=v-form</cell>
             <cell>5</cell>
             <cell>6</cell>
-            <cell xml:lang="sr-tor">malóvo/mali, kúpenovo/kupiti, crvénovo/crven, nóvovo/nov, nékakovo/nekakav</cell>
+            <cell xml:lang="sr-tor">malóvo/mali, crvénovo/crven, kúpenovo/kupiti, nékakovo/nekakav, nóvovo/nov</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnsny-n</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=singular Case=nominative Definiteness=yes Article=n-form</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">glúvonémono/gluvonem, máznono/mazno</cell>
+            <cell xml:lang="sr-tor">máznono/mazno, glúvonémono/gluvonem</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnsgn</cell>
@@ -7533,14 +7533,14 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=singular Case=genitive Definiteness=yes</cell>
             <cell>15</cell>
             <cell>17</cell>
-            <cell xml:lang="sr-tor">célog/cel, bábino/baba, prvog/prvi, ránog/ran, žívog/živ</cell>
+            <cell xml:lang="sr-tor">bábino/baba, célog/cel, njénog/njean, ránog/ran, goléma/golem</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnsany</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=singular Case=accusative Definiteness=no Animate=yes</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">lóše/loše, ji</cell>
+            <cell xml:lang="sr-tor">ji, lóše/loše</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnsay</cell>
@@ -7554,7 +7554,7 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=singular Case=locative Definiteness=yes</cell>
             <cell>4</cell>
             <cell>6</cell>
-            <cell xml:lang="sr-tor">móm/mi, dátom/dati, drúgom/drugi, nékom/neki</cell>
+            <cell xml:lang="sr-tor">móm/mi, drúgom/drugi, nékom/neki, dátom/dati</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnsiy</cell>
@@ -7568,28 +7568,28 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=plural Case=nominative Definiteness=yes</cell>
             <cell>24</cell>
             <cell>24</cell>
-            <cell xml:lang="sr-tor">nat/nai, izvrčka/izvrčki, táj/tai, otvórena/otvoren, níkoga/nikog</cell>
+            <cell xml:lang="sr-tor">pírotska/pirotski, nat/nai, nagúl/nagu, napráena/napraen, vólovska/volovski</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnpgy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=plural Case=genitive Definiteness=yes</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">šés/še, pláninskih/planinski, dvé/dv</cell>
+            <cell xml:lang="sr-tor">pláninskih/planinski, dvé/dv, šés/še</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnpdy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=plural Case=dative Definiteness=yes</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">žíro/žiro, rádio/radio, míkro/mikro</cell>
+            <cell xml:lang="sr-tor">míkro/mikro, rádio/radio, žíro/žiro</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agpnpay</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=positive Gender=neuter Number=plural Case=accusative Definiteness=yes</cell>
             <cell>48</cell>
             <cell>66</cell>
-            <cell xml:lang="sr-tor">svá/sav, mútna/mutan, drúga/drugi, čému/čemi, volóvska/volovski</cell>
+            <cell xml:lang="sr-tor">svá/sav, mútna/mutan, drúga/drugi, vítka/vitak, súsedna/susedni</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agcmsnn</cell>
@@ -7617,28 +7617,28 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=comparative Gender=masculine Number=singular Case=accusative Definiteness=yes Animate=no</cell>
             <cell>10</cell>
             <cell>11</cell>
-            <cell xml:lang="sr-tor">bólji/dobar, pri, tije/ti, skúplji/skup, víši/visok</cell>
+            <cell xml:lang="sr-tor">bólji/dobar, véći/velik, lépši/lep, sváka/sv, pri</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agcmsiy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=comparative Gender=masculine Number=singular Case=instrumental Definiteness=yes</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">blážim/blag, vrućíma/vruć, tíšim/tih</cell>
+            <cell xml:lang="sr-tor">tíšim/tih, blážim/blag, vrućíma/vruć</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agcmpny</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=comparative Gender=masculine Number=plural Case=nominative Definiteness=yes</cell>
             <cell>12</cell>
             <cell>29</cell>
-            <cell xml:lang="sr-tor">staríji/star, stáriji/star, jáči/jak, isprávniji/ispravan, jačí/jak</cell>
+            <cell xml:lang="sr-tor">staríji/star, stáriji/star, jáči/jak, hí/hi, lépši/lep</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agcfsny</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=comparative Gender=feminine Number=singular Case=nominative Definiteness=yes</cell>
             <cell>25</cell>
             <cell>59</cell>
-            <cell xml:lang="sr-tor">mláđa/mlad, staríja/star, bólja/dobar, stárija/star, prokletíja/proklet</cell>
+            <cell xml:lang="sr-tor">mláđa/mlad, staríja/star, bólja/dobar, prokletíja/proklet, stárija/star</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agcfsgy</cell>
@@ -7659,7 +7659,7 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=comparative Gender=feminine Number=plural Case=accusative Definiteness=yes</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">béšte/be, bólje/dobar, preməlzé/premə</cell>
+            <cell xml:lang="sr-tor">bólje/dobar, preməlzé/premə, béšte/be</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agcnsny</cell>
@@ -7680,14 +7680,14 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=comparative Gender=neuter Number=singular Case=accusative Definiteness=yes</cell>
             <cell>5</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">blíže/blizak, perášće/perast, zlátnije/zlatan, skórije/skor, iui</cell>
+            <cell xml:lang="sr-tor">perášće/perast, blíže/blizak, zlátnije/zlatan, skórije/skor, iui</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agsmsny</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=superlative Gender=masculine Number=singular Case=nominative Definiteness=yes</cell>
             <cell>16</cell>
             <cell>32</cell>
-            <cell xml:lang="sr-tor">nájbolji/dobar, nájbliži/blizak, nájmlađi/mlad, najblíži/blizak, najstaríji/star</cell>
+            <cell xml:lang="sr-tor">nájbolji/dobar, nájmlađi/mlad, nájbliži/blizak, najstaríji/star, najblíži/blizak</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agsmsayn</cell>
@@ -7708,7 +7708,7 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=superlative Gender=masculine Number=plural Case=genitive Definiteness=yes</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">kotlé/kotle, róditelji/it, nájvećiv/velik</cell>
+            <cell xml:lang="sr-tor">nájvećiv/velik, kotlé/kotle, róditelji/it</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agsmpay</cell>
@@ -7722,14 +7722,14 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=superlative Gender=feminine Number=singular Case=nominative Definiteness=yes</cell>
             <cell>9</cell>
             <cell>17</cell>
-            <cell xml:lang="sr-tor">nájbolja/dobar, najstaríja/star, nájlepša/lep, nájteža/težak, najvéća/velik</cell>
+            <cell xml:lang="sr-tor">nájbolja/dobar, najstaríja/star, nájlepša/lep, nájbliža/blizak, najvéća/velik</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agsfsay</cell>
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=superlative Gender=feminine Number=singular Case=accusative Definiteness=yes</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">nájlepšu/lep, nájbolju/dobar, sam</cell>
+            <cell xml:lang="sr-tor">sam, nájlepšu/lep, nájbolju/dobar</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Agsfpgy</cell>
@@ -7743,14 +7743,14 @@
             <cell role="attval" xml:lang="en">Adjective Type=general Degree=superlative Gender=neuter Number=singular Case=nominative Definiteness=yes</cell>
             <cell>5</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">nájgore/loš, nájbolje/dobar, nájgolemo/golem, nájlepše/lep, nájveće/velik</cell>
+            <cell xml:lang="sr-tor">nájgore/loš, nájlepše/lep, nájbolje/dobar, nájgolemo/golem, nájveće/velik</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Aspmsnn</cell>
             <cell role="attval" xml:lang="en">Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=no</cell>
             <cell>5</cell>
             <cell>5</cell>
-            <cell xml:lang="sr-tor">míljanićev/miljanićev, kakvój/kakvoj, póčev/počev, íšo/išo, vrbóv/vrbov</cell>
+            <cell xml:lang="sr-tor">míljanićev/miljanićev, íšo/išo, vrbóv/vrbov, kakvój/kakvoj, póčev/počev</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Aspmsny</cell>
@@ -7771,35 +7771,35 @@
             <cell role="attval" xml:lang="en">Adjective Type=possessive Degree=positive Gender=masculine Number=singular Case=accusative Definiteness=no Animate=no</cell>
             <cell>7</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">jánkov/jankov, džervínov/džervinov, bábin/babin, nékakv/nekakv, kuruznó/kuruzno</cell>
+            <cell xml:lang="sr-tor">níkakv/nikakv, bábin/babin, nékakv/nekakv, jánkov/jankov, džervínov/džervinov</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Aspmpny</cell>
             <cell role="attval" xml:lang="en">Adjective Type=possessive Degree=positive Gender=masculine Number=plural Case=nominative Definiteness=yes</cell>
             <cell>11</cell>
             <cell>14</cell>
-            <cell xml:lang="sr-tor">dánovi/danov, drážini/dražini, dédini/dedin, tátini/tatin, bábini/babin</cell>
+            <cell xml:lang="sr-tor">dánovi/danov, drážini/dražini, vlasíni/vlasin, tátini/tatin, ki</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Aspfsny</cell>
             <cell role="attval" xml:lang="en">Adjective Type=possessive Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes</cell>
             <cell>95</cell>
             <cell>113</cell>
-            <cell xml:lang="sr-tor">tódorova/todorov, slobodánova/slobodanov, váša/vaš, títova/titov, n</cell>
+            <cell xml:lang="sr-tor">tódorova/todorov, slobodánova/slobodanov, váša/vaš, títova/titov, plék/ple</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Aspfsgy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=possessive Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=yes</cell>
             <cell>8</cell>
             <cell>15</cell>
-            <cell xml:lang="sr-tor">jágodine/jagodin, đákove/đakov, zagoríne/zagorin, vínove/vinov, márkove/markov</cell>
+            <cell xml:lang="sr-tor">jágodine/jagodin, đákove/đakov, kóčine/kočin, íljadi/iljad, zagoríne/zagorin</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Aspfsay</cell>
             <cell role="attval" xml:lang="en">Adjective Type=possessive Degree=positive Gender=feminine Number=singular Case=accusative Definiteness=yes</cell>
             <cell>7</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">sášinu/sašin, bábinu/babin, kózinu/kozin, máminu/mamin, márkovu/markov</cell>
+            <cell xml:lang="sr-tor">kózinu/kozin, máminu/mamin, dédinu/dedin, sášinu/sašin, mladožénjinu/mladoženjin</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Aspfpny</cell>
@@ -7834,7 +7834,7 @@
             <cell role="attval" xml:lang="en">Adjective Type=participle Degree=positive Gender=masculine Number=singular Case=nominative Definiteness=yes</cell>
             <cell>4</cell>
             <cell>6</cell>
-            <cell xml:lang="sr-tor">ugróžen/ugrožiti, okúpan/okupati, non/nti, se</cell>
+            <cell xml:lang="sr-tor">ugróžen/ugrožiti, se, non/nti, okúpan/okupati</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Appmsvy</cell>
@@ -7855,35 +7855,35 @@
             <cell role="attval" xml:lang="en">Adjective Type=participle Degree=positive Gender=feminine Number=singular Case=nominative Definiteness=yes</cell>
             <cell>148</cell>
             <cell>253</cell>
-            <cell xml:lang="sr-tor">róđena/roditi, údata/udati, zídana/zidati, róǵena/roǵen, dána/dati</cell>
+            <cell xml:lang="sr-tor">róđena/roditi, údata/udati, zídana/zidati, dána/dati, róǵena/roǵen</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Appfsgy</cell>
             <cell role="attval" xml:lang="en">Adjective Type=participle Degree=positive Gender=feminine Number=singular Case=genitive Definiteness=yes</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">béljḱe/beljti, túrene/turiti, naíde/naiti</cell>
+            <cell xml:lang="sr-tor">túrene/turiti, naíde/naiti, béljḱe/beljti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Appfsay</cell>
             <cell role="attval" xml:lang="en">Adjective Type=participle Degree=positive Gender=feminine Number=singular Case=accusative Definiteness=yes</cell>
             <cell>16</cell>
             <cell>17</cell>
-            <cell xml:lang="sr-tor">rođénu/roditi, púnjenu/puniti, péčenu/peći, žíku/žiti, uvelíčanu/uveličati</cell>
+            <cell xml:lang="sr-tor">rođénu/roditi, púnjenu/puniti, uzemljénu/uzemljiti, sačúvanu/sačuvati, uvelíčanu/uveličati</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Appfpny</cell>
             <cell role="attval" xml:lang="en">Adjective Type=participle Degree=positive Gender=feminine Number=plural Case=nominative Definiteness=yes</cell>
             <cell>51</cell>
             <cell>71</cell>
-            <cell xml:lang="sr-tor">dáne/dati, uznéte/uzneti, plétene/plesti, nóšene/nositi, túrene/turiti</cell>
+            <cell xml:lang="sr-tor">uznéte/uzneti, dáne/dati, plétene/plesti, nóšene/nositi, bójane/bojati</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Appfpay</cell>
             <cell role="attval" xml:lang="en">Adjective Type=participle Degree=positive Gender=feminine Number=plural Case=accusative Definiteness=yes</cell>
             <cell>8</cell>
             <cell>8</cell>
-            <cell xml:lang="sr-tor">ukópane/ukopati, móje/moti, pedesé/pedeti, púnjene/puniti, zatvórene/zatvoriti</cell>
+            <cell xml:lang="sr-tor">svéče/sveti, zatvórene/zatvoriti, móje/moti, pedesé/pedeti, púnjene/puniti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Appnsny</cell>
@@ -7911,21 +7911,21 @@
             <cell role="attval" xml:lang="en">Adjective Type=participle Degree=positive Gender=neuter Number=plural Case=nominative Definiteness=yes</cell>
             <cell>12</cell>
             <cell>14</cell>
-            <cell xml:lang="sr-tor">údata/udati, múčena/mučiti, isprážnjena/isprazniti, obójena/obojiti, operísana/operisati</cell>
+            <cell xml:lang="sr-tor">údata/udati, obójena/obojiti, róđena/roditi, nóšena/nositi, isprážnjena/isprazniti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp1-sn</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=singular Case=nominative</cell>
             <cell>21</cell>
             <cell>5768</cell>
-            <cell xml:lang="sr-tor">já/ja, ja, mí/ja, mi/ja, j/ja</cell>
+            <cell xml:lang="sr-tor">já/ja, ja, mí/ja, j/ja, mi/ja</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp1-sg</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=singular Case=genitive</cell>
             <cell>6</cell>
             <cell>104</cell>
-            <cell xml:lang="sr-tor">méne/ja, mén/ja, ménj/ja, njég/on, mene/ja</cell>
+            <cell xml:lang="sr-tor">méne/ja, mén/ja, ménj/ja, mené/ja, mene/ja</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp1-sd</cell>
@@ -7960,7 +7960,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=plural Case=nominative</cell>
             <cell>84</cell>
             <cell>2287</cell>
-            <cell xml:lang="sr-tor">mí/ja, mi/ja, edə́n/edən, dírau/dirau, sipúješ/sipuješ</cell>
+            <cell xml:lang="sr-tor">mí/ja, mi/ja, edə́n/edən, léču/leču, setakój/setakoj</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp1-pg</cell>
@@ -7981,21 +7981,21 @@
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=plural Case=dative</cell>
             <cell>15</cell>
             <cell>125</cell>
-            <cell xml:lang="sr-tor">nam/mi, ni/mi, nám/mi, n, məma/mi</cell>
+            <cell xml:lang="sr-tor">nam/mi, ni/mi, nám/mi, šta, déce/dece</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp1-pa</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=plural Case=accusative</cell>
             <cell>18</cell>
             <cell>197</cell>
-            <cell xml:lang="sr-tor">nás/mi, nas/mi, vas/vi, vás/vi, pódvis/podvis</cell>
+            <cell xml:lang="sr-tor">nás/mi, nas/mi, vás/vi, vas/vi, néku/neki</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp1-pv</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=first Number=plural Case=vocative</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">naš, kúḱi/kuḱi, hóće/hoće</cell>
+            <cell xml:lang="sr-tor">kúḱi/kuḱi, hóće/hoće, naš</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp1mpa</cell>
@@ -8016,14 +8016,14 @@
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=second Number=singular Case=nominative</cell>
             <cell>39</cell>
             <cell>1144</cell>
-            <cell xml:lang="sr-tor">tí/ti, ti, tíi/ti, maléčka/malečka, dré/dre</cell>
+            <cell xml:lang="sr-tor">tí/ti, ti, tíi/ti, maléčka/malečka, tííí/ti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp2-sd</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=second Number=singular Case=dative</cell>
             <cell>14</cell>
             <cell>1379</cell>
-            <cell xml:lang="sr-tor">ti, tí/ti, dováne/dovane, mlze, fíću/fiću</cell>
+            <cell xml:lang="sr-tor">ti, tí/ti, fíću/fiću, ránie/ranie, paráunučiči/paraunučiči</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp2-sa</cell>
@@ -8037,7 +8037,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=second Number=plural Case=nominative</cell>
             <cell>5</cell>
             <cell>774</cell>
-            <cell xml:lang="sr-tor">ví/vi, vi, číme/što, káži/kaži, ji/oni</cell>
+            <cell xml:lang="sr-tor">ví/vi, vi, káži/kaži, číme/što, ji/oni</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp2-pg</cell>
@@ -8086,7 +8086,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Number=plural Case=genitive</cell>
             <cell>7</cell>
             <cell>25</cell>
-            <cell xml:lang="sr-tor">njíh/oni, njih/oni, vas/vi, pri, ih/oni</cell>
+            <cell xml:lang="sr-tor">njíh/oni, njih/oni, pri, nji/oni, ih/oni</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp3-pd</cell>
@@ -8114,7 +8114,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=masculine Number=singular Case=nominative</cell>
             <cell>7</cell>
             <cell>2796</cell>
-            <cell xml:lang="sr-tor">ón/on, on, mén/ja, ístin/istin, men/ja</cell>
+            <cell xml:lang="sr-tor">ón/on, on, mén/ja, men/ja, slikáste/slikaste</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp3msg</cell>
@@ -8170,7 +8170,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=feminine Number=singular Case=genitive</cell>
             <cell>7</cell>
             <cell>29</cell>
-            <cell xml:lang="sr-tor">nje/on, njé/on, ḱe, nji/ona, qe</cell>
+            <cell xml:lang="sr-tor">nje/on, njé/on, ḱe, nji/ona, váših/vaš</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp3fsd</cell>
@@ -8198,14 +8198,14 @@
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=feminine Number=plural Case=nominative</cell>
             <cell>9</cell>
             <cell>179</cell>
-            <cell xml:lang="sr-tor">oné/oni, óne/oni, te/ti, nne, póbonća/pobonća</cell>
+            <cell xml:lang="sr-tor">oné/oni, óne/oni, te/ti, one/oni, vráčke/vračke</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp3nsn</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=third Gender=neuter Number=singular Case=nominative</cell>
             <cell>10</cell>
             <cell>64</cell>
-            <cell xml:lang="sr-tor">onó/on, óno/on, aa, ono/on, nájgolemo/najgolemo</cell>
+            <cell xml:lang="sr-tor">onó/on, óno/on, pópre/popre, mínićevo/minićevo, ono/on</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd-msn</cell>
@@ -8219,14 +8219,14 @@
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative Gender=masculine Number=singular Case=genitive</cell>
             <cell>17</cell>
             <cell>25</cell>
-            <cell xml:lang="sr-tor">tóg/taj, tóga/taj, onóga/onaj, povátu/povatu, míloga/miloga</cell>
+            <cell xml:lang="sr-tor">tóg/taj, tóga/taj, onóga/onaj, drú/dru, léǵa/leǵa</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd-msd</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative Gender=masculine Number=singular Case=dative</cell>
             <cell>6</cell>
             <cell>10</cell>
-            <cell xml:lang="sr-tor">tóme/taj, onóme/onaj, onóm/onaj, ovóm/ovaj, mójoj/moj</cell>
+            <cell xml:lang="sr-tor">tóme/taj, onóme/onaj, onóm/onaj, ovóme/ovaj, ovóm/ovaj</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd-msa</cell>
@@ -8254,7 +8254,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative Gender=masculine Number=singular Case=instrumental</cell>
             <cell>32</cell>
             <cell>62</cell>
-            <cell xml:lang="sr-tor">tím/taj, tíme/taj, tóm/taj, rové/rove, svéče/sveče</cell>
+            <cell xml:lang="sr-tor">tím/taj, tíme/taj, rové/rove, tóm/taj, obláži/oblaži</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd-mpn</cell>
@@ -8268,7 +8268,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative Gender=masculine Number=plural Case=genitive</cell>
             <cell>9</cell>
             <cell>25</cell>
-            <cell xml:lang="sr-tor">tíh/taj, óvih/ovaj, ovíh/ovaj, ovíja/ovaj, tih/taj</cell>
+            <cell xml:lang="sr-tor">tíh/taj, óvih/ovaj, ovíh/ovaj, ovíja/ovaj, oníh/onaj</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd-mpd</cell>
@@ -8282,7 +8282,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative Gender=masculine Number=plural Case=accusative</cell>
             <cell>12</cell>
             <cell>37</cell>
-            <cell xml:lang="sr-tor">ovíja/ovaj, némojte/nemojte, ovíje/ovaj, níkome/nitko, ovijá/ovaj</cell>
+            <cell xml:lang="sr-tor">ovíja/ovaj, ovíje/ovaj, némojte/nemojte, oníja/onaj, níkome/nitko</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd-mpl</cell>
@@ -8317,7 +8317,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative Gender=feminine Number=singular Case=accusative</cell>
             <cell>71</cell>
             <cell>558</cell>
-            <cell xml:lang="sr-tor">túj/taj, ovúj/ovaj, tú/taj, onú/onaj, onúj/onaj</cell>
+            <cell xml:lang="sr-tor">túj/taj, ovúj/ovaj, onú/onaj, tú/taj, onúj/onaj</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd-fsl</cell>
@@ -8366,7 +8366,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative Gender=neuter Number=plural Case=nominative</cell>
             <cell>5</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">táj/taj, onáj/onaj, ováj/ovaj, tə́/taj, gə</cell>
+            <cell xml:lang="sr-tor">táj/taj, onáj/onaj, tə́/taj, ováj/ovaj, gə</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd-npa</cell>
@@ -8394,7 +8394,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=indefinite Gender=masculine Number=singular Case=genitive</cell>
             <cell>32</cell>
             <cell>70</cell>
-            <cell xml:lang="sr-tor">sváke/svaki, néke/neki, svákoga/svaki, svéga/sav, kóje/koji</cell>
+            <cell xml:lang="sr-tor">sváke/svaki, néke/neki, svéga/sav, svákoga/svaki, nékoga/neki</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pi-msa</cell>
@@ -8471,21 +8471,21 @@
             <cell role="attval" xml:lang="en">Pronoun Type=indefinite Gender=feminine Number=singular Case=accusative</cell>
             <cell>41</cell>
             <cell>334</cell>
-            <cell xml:lang="sr-tor">néku/neki, sváku/svaki, kóju/koji, kojú/koji, své/sav</cell>
+            <cell xml:lang="sr-tor">néku/neki, sváku/svaki, kojú/koji, své/sav, kóju/koji</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pi-fsl</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=indefinite Gender=feminine Number=singular Case=locative</cell>
             <cell>15</cell>
             <cell>39</cell>
-            <cell xml:lang="sr-tor">svákome/svaki, kakvój/kakav, nékoj/neki, nékom/neki, svému/sav</cell>
+            <cell xml:lang="sr-tor">svákome/svaki, kakvój/kakav, nékoj/neki, nékom/neki, svákom/svaki</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pi-fpn</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=indefinite Gender=feminine Number=plural Case=nominative</cell>
             <cell>10</cell>
             <cell>53</cell>
-            <cell xml:lang="sr-tor">néḱe/neki, kóje/koji, kojé/koji, své/sav, néḱé/neki</cell>
+            <cell xml:lang="sr-tor">néḱe/neki, kóje/koji, kojé/koji, své/sav, neḱé/neki</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pi-fpg</cell>
@@ -8513,7 +8513,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=indefinite Gender=neuter Number=singular Case=genitive</cell>
             <cell>4</cell>
             <cell>4</cell>
-            <cell xml:lang="sr-tor">svéga/sav, ovúdaka/ovudaka, pógluba/pogluba, nékoga/neki</cell>
+            <cell xml:lang="sr-tor">nékoga/neki, svéga/sav, ovúdaka/ovudaka, pógluba/pogluba</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pi-nsa</cell>
@@ -8541,14 +8541,14 @@
             <cell role="attval" xml:lang="en">Pronoun Type=indefinite Person=third Gender=masculine Case=genitive</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">néḱega/neki, nekugá/neko, néḱeg/neki</cell>
+            <cell xml:lang="sr-tor">néḱega/neki, néḱeg/neki, nekugá/neko</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pi3m-d</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=indefinite Person=third Gender=masculine Case=dative</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">níkom/niko, kómi/ko</cell>
+            <cell xml:lang="sr-tor">kómi/ko, níkom/niko</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pi3m-a</cell>
@@ -8590,7 +8590,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=first Gender=masculine Number=singular Case=nominative Article=v-form</cell>
             <cell>3</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">mójav/moj, móav/moj, moáv/moj</cell>
+            <cell xml:lang="sr-tor">mójav/moj, moáv/moj, móav/moj</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps1msg</cell>
@@ -8632,7 +8632,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=first Gender=masculine Number=plural Case=nominative Article=t-form</cell>
             <cell>3</cell>
             <cell>3</cell>
-            <cell xml:lang="sr-tor">móiti/moj, mójiti/moj, mojíti/moj</cell>
+            <cell xml:lang="sr-tor">mojíti/moj, mójiti/moj, móiti/moj</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps1mpn-v</cell>
@@ -8681,7 +8681,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=first Gender=feminine Number=singular Case=accusative</cell>
             <cell>7</cell>
             <cell>109</cell>
-            <cell xml:lang="sr-tor">nášu/naš, móju/moj, mojú/moj, vášu/vaš, našu/naš</cell>
+            <cell xml:lang="sr-tor">nášu/naš, móju/moj, mojú/moj, vášu/vaš, vlášu/vlašu</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps1fsa-t</cell>
@@ -8709,14 +8709,14 @@
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=first Gender=feminine Number=plural Case=genitive</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">náših/naš, mojí/moj</cell>
+            <cell xml:lang="sr-tor">mojí/moj, náših/naš</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps1nsn</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=first Gender=neuter Number=singular Case=nominative</cell>
             <cell>7</cell>
             <cell>117</cell>
-            <cell xml:lang="sr-tor">náše/naš, móje/moj, mojé/moj, mužjé/mužje, muškárče/muškarče</cell>
+            <cell xml:lang="sr-tor">náše/naš, móje/moj, mojé/moj, muškárče/muškarče, kámenče/kamenče</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps1nsn-t</cell>
@@ -8828,14 +8828,14 @@
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Gender=masculine Number=singular Case=genitive</cell>
             <cell>4</cell>
             <cell>8</cell>
-            <cell xml:lang="sr-tor">njíhov/njihov, njénog/njen, njíhovoga/njihov, njegóvoga/njegov</cell>
+            <cell xml:lang="sr-tor">njénog/njen, njíhov/njihov, njíhovoga/njihov, njegóvoga/njegov</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps3msan</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Gender=masculine Number=singular Case=accusative Animate=no</cell>
             <cell>4</cell>
             <cell>7</cell>
-            <cell xml:lang="sr-tor">njén/njen, njíhov/njihov, njegóv/njegov, bábin/babin</cell>
+            <cell xml:lang="sr-tor">njén/njen, njíhov/njihov, bábin/babin, njegóv/njegov</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps3mpn</cell>
@@ -8856,7 +8856,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=nominative</cell>
             <cell>8</cell>
             <cell>75</cell>
-            <cell xml:lang="sr-tor">njegóva/njegov, njégova/njegov, njéna/njen, njíhova/njihov, njihóva/njihov</cell>
+            <cell xml:lang="sr-tor">njegóva/njegov, njégova/njegov, njéna/njen, njíhova/njihov, mə/ja</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps3fsn-t</cell>
@@ -8870,7 +8870,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Gender=feminine Number=singular Case=genitive</cell>
             <cell>5</cell>
             <cell>9</cell>
-            <cell xml:lang="sr-tor">njegóve/njegov, njíhove/njihov, njínje/njen, njégove/njegov, njáva/njegov</cell>
+            <cell xml:lang="sr-tor">njegóve/njegov, njíhove/njihov, njáva/njegov, njínje/njen, njégove/njegov</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps3fsa</cell>
@@ -8905,7 +8905,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Gender=feminine Number=plural Case=accusative</cell>
             <cell>2</cell>
             <cell>2</cell>
-            <cell xml:lang="sr-tor">njíne/njine, njéne/njen</cell>
+            <cell xml:lang="sr-tor">njéne/njen, njíne/njine</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps3fpl</cell>
@@ -8919,14 +8919,14 @@
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Gender=neuter Number=singular Case=nominative</cell>
             <cell>5</cell>
             <cell>12</cell>
-            <cell xml:lang="sr-tor">njegóvo/njegov, njíhovo/njihov, njégovo/njegov, njéno/njen, svə/sav</cell>
+            <cell xml:lang="sr-tor">njegóvo/njegov, njégovo/njegov, njíhovo/njihov, njéno/njen, svə/sav</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps3nsn-t</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=possessive Person=third Gender=neuter Number=singular Case=nominative Article=t-form</cell>
             <cell>13</cell>
             <cell>20</cell>
-            <cell xml:lang="sr-tor">náševo/naš, nášata/naš, nášiti/naš, nášutu/naš, nášava/naš</cell>
+            <cell xml:lang="sr-tor">nášata/naš, náševo/naš, nášava/naš, nášutu/naš, nášiti/naš</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Ps3nsa</cell>
@@ -8940,14 +8940,14 @@
             <cell role="attval" xml:lang="en">Pronoun Type=interrogative</cell>
             <cell>11</cell>
             <cell>61</cell>
-            <cell xml:lang="sr-tor">štó/što, što, zášto/zašto, zaštó/zašto, mo</cell>
+            <cell xml:lang="sr-tor">štó/što, što, zášto/zašto, zaštó/zašto, dako</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pq-msn</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=interrogative Gender=masculine Number=singular Case=nominative</cell>
             <cell>5</cell>
             <cell>6</cell>
-            <cell xml:lang="sr-tor">kákav/kakav, koé/koji, kojé/koji, kákvo/kakav, kakáv/kakav</cell>
+            <cell xml:lang="sr-tor">kákav/kakav, kakáv/kakav, koé/koji, kojé/koji, kákvo/kakav</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pq-fsa</cell>
@@ -8989,7 +8989,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=interrogative Person=third Gender=neuter Case=nominative</cell>
             <cell>24</cell>
             <cell>34</cell>
-            <cell xml:lang="sr-tor">štá/šta, šta, kogá/tko, štó/što, téb/teb</cell>
+            <cell xml:lang="sr-tor">štá/šta, šta, kogá/tko, váma/vi, žívku/živku</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Px--sd</cell>
@@ -9010,7 +9010,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=reflexive Gender=masculine Number=singular Case=accusative</cell>
             <cell>3</cell>
             <cell>20</cell>
-            <cell xml:lang="sr-tor">svój/svoj, kakvój/kakav, nékoj/neki</cell>
+            <cell xml:lang="sr-tor">svój/svoj, nékoj/neki, kakvój/kakav</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Px-mpg</cell>
@@ -9024,7 +9024,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=reflexive Gender=masculine Number=plural Case=accusative</cell>
             <cell>9</cell>
             <cell>21</cell>
-            <cell xml:lang="sr-tor">svóje/svoj, svojé/svoj, svója/svoj, tvojá/tvoj, svabú/svabu</cell>
+            <cell xml:lang="sr-tor">svóje/svoj, svojé/svoj, svója/svoj, níja/nija, tvója/tvoj</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Px-mpi</cell>
@@ -9038,7 +9038,7 @@
             <cell role="attval" xml:lang="en">Pronoun Type=reflexive Gender=feminine Number=singular Case=genitive</cell>
             <cell>12</cell>
             <cell>13</cell>
-            <cell xml:lang="sr-tor">svóje/svoj, ḱérku/ḱerku, dóđi/dođi, svóg/svoj, četrdés/četrdes</cell>
+            <cell xml:lang="sr-tor">svóje/svoj, pedés/pedes, dóđi/dođi, tvojé/tvoj, njíne/njine</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Rgp</cell>
@@ -9059,14 +9059,14 @@
             <cell role="attval" xml:lang="en">Adverb Type=general Degree=superlative</cell>
             <cell>19</cell>
             <cell>97</cell>
-            <cell xml:lang="sr-tor">nájbolje/dobro, nájviše/mnogo, nájlepše/lepo, nájveće/veliko, nájmilije/milo</cell>
+            <cell xml:lang="sr-tor">nájbolje/dobro, nájviše/mnogo, nájlepše/lepo, nájveće/veliko, nájstarije/staro</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Rr</cell>
             <cell role="attval" xml:lang="en">Adverb Type=participle</cell>
             <cell>40</cell>
             <cell>50</cell>
-            <cell xml:lang="sr-tor">néći/ti, úzmi/uti, péšći/pti, píći/ti, babađevdžíći/babađevdti</cell>
+            <cell xml:lang="sr-tor">néći/ti, úzmi/uti, péšći/pti, píći/ti, mladénćići/mladenti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Sg</cell>
@@ -9080,7 +9080,7 @@
             <cell role="attval" xml:lang="en">Adposition Case=dative</cell>
             <cell>8</cell>
             <cell>30</cell>
-            <cell xml:lang="sr-tor">ka/k, sprám/spram, kam/ka, k, prema</cell>
+            <cell xml:lang="sr-tor">ka/k, sprám/spram, prema, k, kam/ka</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Sa</cell>
@@ -9220,7 +9220,7 @@
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=cardinal Gender=feminine Case=accusative</cell>
             <cell>3</cell>
             <cell>13</cell>
-            <cell xml:lang="sr-tor">dvé/dva, dve/dva, negdéprekipí/negdeprekipa</cell>
+            <cell xml:lang="sr-tor">dvé/dva, negdéprekipí/negdeprekipa, dve/dva</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlcfsn</cell>
@@ -9248,7 +9248,7 @@
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=cardinal Gender=feminine Number=singular Case=accusative</cell>
             <cell>12</cell>
             <cell>227</cell>
-            <cell xml:lang="sr-tor">jednú/jedan, jédnu/jedan, ednú/jedan, édnu/jedan, poljoprivrednu/poljoprivredna</cell>
+            <cell xml:lang="sr-tor">jednú/jedan, jédnu/jedan, ednú/jedan, édnu/jedan, poljóprivednu/poljoprivedna</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlcfsay</cell>
@@ -9269,7 +9269,7 @@
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=cardinal Gender=feminine Number=plural Case=genitive</cell>
             <cell>8</cell>
             <cell>14</cell>
-            <cell xml:lang="sr-tor">íljade/hiljada, dávaj/daan, spásovdan/spasovan, iljade/hiljada, dévesto/devean</cell>
+            <cell xml:lang="sr-tor">íljade/hiljada, bliznétu/bliznan, spásovdan/spasovan, iljade/hiljada, dávaj/daan</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlcfpa</cell>
@@ -9290,7 +9290,7 @@
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=cardinal Gender=neuter Number=singular Case=nominative</cell>
             <cell>6</cell>
             <cell>305</cell>
-            <cell xml:lang="sr-tor">jednó/jedan, jédno/jedan, ednó/jedan, édno/jedan, prvo/prvi</cell>
+            <cell xml:lang="sr-tor">jednó/jedan, jédno/jedan, ednó/jedan, édno/jedan, jedno/jedan</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlcnsa</cell>
@@ -9318,14 +9318,14 @@
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=nominative Article=t-form</cell>
             <cell>3</cell>
             <cell>4</cell>
-            <cell xml:lang="sr-tor">druǵíjat/druǵi, drugíjat/drugij, obojícata/obojica</cell>
+            <cell xml:lang="sr-tor">druǵíjat/druǵi, obojícata/obojica, drugíjat/drugij</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlomsg</cell>
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=genitive</cell>
             <cell>31</cell>
             <cell>117</cell>
-            <cell xml:lang="sr-tor">drúgoga/drugi, drúgog/drugi, prvog/prvi, ósmog/osmi, desétog/deseti</cell>
+            <cell xml:lang="sr-tor">drúgoga/drugi, drúgog/drugi, prvog/prvi, ósmog/osmi, sédmog/sedmi</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlomsan</cell>
@@ -9339,7 +9339,7 @@
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=ordinal Gender=masculine Number=singular Case=accusative Animate=yes</cell>
             <cell>6</cell>
             <cell>14</cell>
-            <cell xml:lang="sr-tor">prvi, sédmi/sedmi, drúgi/drugi, tvóg/tvi, vášeg/vaši</cell>
+            <cell xml:lang="sr-tor">prvi, sédmi/sedmi, drúgi/drugi, vášeg/vaši, tvóg/tvi</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlomsl</cell>
@@ -9353,7 +9353,7 @@
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=ordinal Gender=masculine Number=plural Case=nominative</cell>
             <cell>4</cell>
             <cell>103</cell>
-            <cell xml:lang="sr-tor">drúgi/drugi, drugi, drugí/drugi, tréći/treći</cell>
+            <cell xml:lang="sr-tor">drúgi/drugi, tréći/treći, drugi, drugí/drugi</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlompn-t</cell>
@@ -9388,7 +9388,7 @@
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=ordinal Gender=feminine Number=singular Case=genitive</cell>
             <cell>11</cell>
             <cell>92</cell>
-            <cell xml:lang="sr-tor">drúge/drugi, ósme/osmi, četvrte/četvrti, prve/prvi, devéte/deveti</cell>
+            <cell xml:lang="sr-tor">drúge/drugi, četvrte/četvrti, ósme/osmi, prve/prvi, šéste/šesti</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlofsa</cell>
@@ -9458,7 +9458,7 @@
             <cell role="attval" xml:lang="en">Numeral Form=letter Type=ordinal Gender=neuter Number=singular Case=nominative Article=t-form</cell>
             <cell>5</cell>
             <cell>5</cell>
-            <cell xml:lang="sr-tor">četvrtoto/četvrto, dvanóto/dvani, drugóto/drugi, tréćoto/trećo, drəgóto/drugi</cell>
+            <cell xml:lang="sr-tor">dvanóto/dvani, četvrtoto/četvrto, tréćoto/trećo, drugóto/drugi, drəgóto/drugi</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Mlonsa</cell>
@@ -9505,8 +9505,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Qr</cell>
             <cell role="attval" xml:lang="en">Particle Type=affirmative</cell>
-            <cell>1760</cell>
-            <cell>4813</cell>
+            <cell>1755</cell>
+            <cell>4809</cell>
             <cell xml:lang="sr-tor">mhm, aha, da, dabóme/dabome, ahá/aha</cell>
          </row>
          <row role="msd">
@@ -9535,7 +9535,7 @@
             <cell role="attval" xml:lang="en">Residual Type=foreign</cell>
             <cell>409</cell>
             <cell>519</cell>
-            <cell xml:lang="sr-tor">cap, títa/tita, fúra/fura, tré/tre, dršte</cell>
+            <cell xml:lang="sr-tor">cap, fúra/fura, tré/tre, títa/tita, kotál/kotal</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Z</cell>
