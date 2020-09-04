@@ -35,10 +35,10 @@ xall:	cast-all htm tbls-all mount
 # Put the publishable part of the resources on the Web
 # PLATFORM SPECIFIC!
 mount:
-	scp xml/* mantra:/project/www-nl/www/ME/V6/msd/xml
-	scp html/* mantra:/project/www-nl/www/ME/V6/msd/html
-	scp tables/* mantra:/project/www-nl/www/ME/V6/msd/tables
-	scp schema/* mantra:/project/www-nl/www/ME/V6/msd/schema
+	scp xml/* nl.ijs.si:/project/www-nl/www/ME/V6/msd/xml
+	scp html/* nl.ijs.si:/project/www-nl/www/ME/V6/msd/html
+	scp tables/* nl.ijs.si:/project/www-nl/www/ME/V6/msd/tables
+	scp schema/* nl.ijs.si:/project/www-nl/www/ME/V6/msd/schema
 
 ### Make HTML version of the specifications
 htm:
