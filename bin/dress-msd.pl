@@ -1,4 +1,4 @@
-#! /usr/local/bin/perl
+#! /usr/bin/perl
 use utf8;
 binmode(STDIN,'utf8');
 binmode(STDOUT,'utf8');

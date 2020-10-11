@@ -1,4 +1,4 @@
-#! /usr/local/bin/perl
+#! /usr/bin/perl
 # From an example MULTEXT-type lexicon makes TEI table where each row containsŽ:
 # a) MSD (in English)
 # b) its expansions to features (in English)
