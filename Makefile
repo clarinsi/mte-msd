@@ -94,7 +94,7 @@ new-lang:	new-lex new-msds new-val new-cast new-tbls htm mount
 xxxnew-lang:	new-split new-lex new-msds new-val new-merge new-cast new-tbls htm mount
 
 ## Name of the new language
-NL = sr-tor
+NL = bg-dam
 
 # Test generation of new draft language specific section
 ## These will, of course, then need lots of hand editing!
@@ -113,7 +113,7 @@ new-lex:
 
 ## Make a new MSD index on the basis of the example lexicon
 new-msds:
-	bin/msd-index.pl ${NL} xml-edit/msd-${NL}.spc.xml \
+	./bin/msd-index.pl ${NL} xml-edit/msd-${NL}.spc.xml \
 	< xml-edit/msd-${NL}.wfl.txt > xml-edit/msd-${NL}.msd.xml
 
 ## Merge the language specific section with the common one
