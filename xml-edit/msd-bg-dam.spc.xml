@@ -18,7 +18,7 @@
   <divGen type="subtoc"/>
   <div xml:id="msd-bg-dam.introduction">
     <head>Introduction to Damaskini Bulgarian Specifications</head>
-        <p>These specifications were created for the purpose of morphological annotation of a diachronic corpus containing Balkan Slavic texts from 16th-19th century. The most of these represent the <i>damaskini</i> tradition, collections of popular homilies and lives of saints spread by handwriting, written in an early variant of ("simple") Modern Bulgarian, dialectically reflecting East Subbalkan area. The corpus also includes related Church Slavonic sources, a chapter from the printed Nedělnik of Sophronius, as well as rare manuscripts from different dialectal areas.</p>
+        <p>These specifications were created for the purpose of morphological annotation of a diachronic corpus containing Balkan Slavic texts from 16th-19th century. The most of these represent the <emph>damaskini</emph> tradition, collections of popular homilies and lives of saints spread by handwriting, written in an early variant of ("simple") Modern Bulgarian, dialectically reflecting East Subbalkan area. The corpus also includes related Church Slavonic sources, a chapter from the printed Nedělnik of Sophronius, as well as rare manuscripts from different dialectal areas.</p>
        </div>
   <div type="section" select="bg-dam" xml:id="msd.categories-bg-dam">
     <head>Damaskini Bulgarian Category Index</head>
@@ -36,22 +36,6 @@
       </row>
       <row role="attribute">
         <cell role="position">1</cell>
-        <cell role="name" xml:lang="en">Type</cell>
-        <cell role="values">
-          <table>
-            <row role="value">
-              <cell role="name" xml:lang="en">common</cell>
-              <cell role="code" xml:lang="en">c</cell>
-            </row>
-            <row role="value">
-              <cell role="name" xml:lang="en">proper</cell>
-              <cell role="code" xml:lang="en">p</cell>
-            </row>
-          </table>
-        </cell>
-      </row>
-      <row role="attribute">
-        <cell role="position">2</cell>
         <cell role="name" xml:lang="en">Gender</cell>
         <cell role="values">
           <table>
@@ -71,7 +55,7 @@
         </cell>
       </row>
       <row role="attribute">
-        <cell role="position">3</cell>
+        <cell role="position">2</cell>
         <cell role="name" xml:lang="en">Number</cell>
         <cell role="values">
           <table>
@@ -91,7 +75,7 @@
         </cell>
       </row>
       <row role="attribute">
-        <cell role="position">4</cell>
+        <cell role="position">3</cell>
         <cell role="name" xml:lang="en">Case</cell>
         <cell role="values">
           <table>
@@ -124,14 +108,14 @@
               <cell role="code" xml:lang="en">i</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">short article</cell>
+              <cell role="name" xml:lang="en">short article/oblique</cell>
               <cell role="code" xml:lang="en">o</cell>
             </row>
           </table>
         </cell>
       </row>
       <row role="attribute">
-        <cell role="position">5</cell>
+        <cell role="position">4</cell>
         <cell role="name" xml:lang="en">Animate</cell>
         <cell role="values">
           <table>
@@ -294,22 +278,6 @@
       </row>
       <row role="attribute">
         <cell role="position">1</cell>
-        <cell role="name" xml:lang="en">Type</cell>
-        <cell role="values">
-          <table>
-            <row role="value">
-              <cell role="name" xml:lang="en">common</cell>
-              <cell role="code" xml:lang="en">c</cell>
-            </row>
-            <row role="value">
-              <cell role="name" xml:lang="en">epitheton</cell>
-              <cell role="code" xml:lang="en">e</cell>
-            </row>
-          </table>
-        </cell>
-      </row>
-      <row role="attribute">
-        <cell role="position">2</cell>
         <cell role="name" xml:lang="en">Gender</cell>
         <cell role="values">
           <table>
@@ -329,7 +297,7 @@
         </cell>
       </row>
       <row role="attribute">
-        <cell role="position">3</cell>
+        <cell role="position">2</cell>
         <cell role="name" xml:lang="en">Number</cell>
         <cell role="values">
           <table>
@@ -349,7 +317,7 @@
         </cell>
       </row>
       <row role="attribute">
-        <cell role="position">5</cell>
+        <cell role="position">3</cell>
         <cell role="name" xml:lang="en">Case</cell>
         <cell role="values">
           <table>
@@ -382,14 +350,14 @@
               <cell role="code" xml:lang="en">i</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">short article</cell>
+              <cell role="name" xml:lang="en">short article/oblique</cell>
               <cell role="code" xml:lang="en">o</cell>
             </row>
           </table>
         </cell>
       </row>
       <row role="attribute">
-        <cell role="position">6</cell>
+        <cell role="position">4</cell>
         <cell role="name" xml:lang="en">Complexity</cell>
         <cell role="values">
           <table>
@@ -445,6 +413,10 @@
             <row role="value">
               <cell role="name" xml:lang="en">reflexive</cell>
               <cell role="code" xml:lang="en">x</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">negative</cell>
+              <cell role="code" xml:lang="en">z</cell>
             </row>
             <row role="value">
               <cell role="name" xml:lang="en">articloid</cell>
@@ -541,6 +513,10 @@
             <row role="value">
               <cell role="name" xml:lang="en">old instrumental</cell>
               <cell role="code" xml:lang="en">i</cell>
+            </row>
+            <row role="value">
+              <cell role="name" xml:lang="en">oblique</cell>
+              <cell role="code" xml:lang="en">o</cell>
             </row>
           </table>
         </cell>
