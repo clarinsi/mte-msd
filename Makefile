@@ -143,7 +143,6 @@ new-cast:
 # Generate the language tables for the language
 new-tbls:
 	bin/msd-tables.pl -specs xml/msd.xml -infiles xml/msd-${NL}.spc.xml -outdir tables
-
 # And this is it, now you can build the HTML
 
 ### For testing with a new specifications / lexicon pair
@@ -155,11 +154,5 @@ new-try:
 	> xml-edit/msd_with_${NL}.xml 2> xml-edit/msd-${NL}.log
 
 ##############################################3
-#Saxon for funny files (large text nodes, long UTF-8 chars
-s = java -Djavax.xml.parsers.DocumentBuilderFactory=org.apache.xerces.jaxp.DocumentBuilderFactoryImpl -Djavax.xml.parsers.SAXParserFactory=org.apache.xerces.jaxp.SAXParserFactoryImpl net.sf.saxon.Transform
-#Default Saxon but doesn't show STDERR (<xsl:message>)
-s = java -jar /usr/local/bin/saxon9he.jar
-#This one does:
-s = java -jar /home/tomaz/bin/saxon9he.jar
-#Validation of TEI against RelaxNG schema
-j = java -jar /usr/local/bin/jing.jar
+s = java -jar /usr/share/java/saxon.jar
+j = java -jar /usr/share/java/jing.jar
