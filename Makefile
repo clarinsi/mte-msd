@@ -146,6 +146,14 @@ new-tbls:
 
 # And this is it, now you can build the HTML
 
+### For testing with a new specifications / lexicon pair
+new-try:
+	cat < lexica/wfl-${NL}.txt | bin/wfl2exa.pl 5 > xml-edit/msd-${NL}.wfl.txt
+	./bin/msd-index.pl ${NL} xml-edit/msd-${NL}.spc.xml \
+	< xml-edit/msd-${NL}.wfl.txt > xml-edit/msd-${NL}.msd.xml
+	$s add=../xml-edit/msd-${NL}.spc.xml -xsl:bin/msd-merge.xsl xml-edit/msd.xml \
+	> xml-edit/msd_with_${NL}.xml 2> xml-edit/msd-${NL}.log
+
 ##############################################3
 #Saxon for funny files (large text nodes, long UTF-8 chars
 s = java -Djavax.xml.parsers.DocumentBuilderFactory=org.apache.xerces.jaxp.DocumentBuilderFactoryImpl -Djavax.xml.parsers.SAXParserFactory=org.apache.xerces.jaxp.SAXParserFactoryImpl net.sf.saxon.Transform

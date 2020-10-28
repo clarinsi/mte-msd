@@ -4,7 +4,7 @@
      xml:lang="en">
   <head>Damaskini Specifications</head>
   <docAuthor>Ivan Šimko</docAuthor>
-  <docDate>2020-09-08</docDate>
+  <docDate>2020-10-26</docDate>
   <list type="gloss">
     <label>Language Name:</label>
     <item>Damaskini Bulgarian</item>
@@ -18,7 +18,7 @@
   <divGen type="subtoc"/>
   <div xml:id="msd-bg-dam.introduction">
     <head>Introduction to Damaskini Bulgarian Specifications</head>
-        <p>These specifications were created for the purpose of morphological annotation of a diachronic corpus containing Balkan Slavic texts from 16th-19th century. The most of these represent the <emph>damaskini</emph> tradition, collections of popular homilies and lives of saints spread by handwriting, written in an early variant of ("simple") Modern Bulgarian, dialectically reflecting East Subbalkan area. The corpus also includes related Church Slavonic sources, a chapter from the printed Nedělnik of Sophronius, as well as rare manuscripts from different dialectal areas.</p>
+        <p>These specifications were created for the purpose of morphological annotation of a diachronic corpus containing Balkan Slavic texts from 16th-19th century. The most of these represent the <emph>damaskini</emph> tradition, collections of popular homilies and lives of saints spread by handwriting, written in an early variant of ("simple") Modern Bulgarian, reflecting various Eastern dialects. The corpus also includes related Church Slavonic sources, a chapter from the printed Nedělnik of Sophronius, as well as rare manuscripts from different dialectal areas.</p>
        </div>
   <div type="section" select="bg-dam" xml:id="msd.categories-bg-dam">
     <head>Damaskini Bulgarian Category Index</head>
@@ -80,19 +80,19 @@
         <cell role="values">
           <table>
             <row role="value">
-              <cell role="name" xml:lang="en">general nominative</cell>
+              <cell role="name" xml:lang="en">nominative</cell>
               <cell role="code" xml:lang="en">n</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">oblique/old genitive</cell>
+              <cell role="name" xml:lang="en">genitive</cell>
               <cell role="code" xml:lang="en">g</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old dative</cell>
+              <cell role="name" xml:lang="en">dative</cell>
               <cell role="code" xml:lang="en">d</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old accusative</cell>
+              <cell role="name" xml:lang="en">accusative</cell>
               <cell role="code" xml:lang="en">a</cell>
             </row>
             <row role="value">
@@ -100,15 +100,15 @@
               <cell role="code" xml:lang="en">v</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old locative</cell>
+              <cell role="name" xml:lang="en">locative</cell>
               <cell role="code" xml:lang="en">l</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old instrumental</cell>
+              <cell role="name" xml:lang="en">instrumental</cell>
               <cell role="code" xml:lang="en">i</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">short article/oblique</cell>
+              <cell role="name" xml:lang="en">oblique</cell>
               <cell role="code" xml:lang="en">o</cell>
             </row>
           </table>
@@ -131,6 +131,13 @@
         </cell>
       </row>
     </table>
+    <div n="notes">
+      <head>Notes</head>
+      <list>
+        <item>Articles are handled as separate tokens.</item>
+        <item>Case option "oblique" represents endings not available in CS (e.g. non-jer hiatus vowel before an article).</item>
+      </list>
+    </div>
     <divGen type="msd.lex" select="bg-dam"/>
   </div>
   <div type="section" select="bg-dam" xml:id="msd.V-bg-dam">
@@ -322,19 +329,19 @@
         <cell role="values">
           <table>
             <row role="value">
-              <cell role="name" xml:lang="en">general nominative</cell>
+              <cell role="name" xml:lang="en">nominative</cell>
               <cell role="code" xml:lang="en">n</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">oblique/old genitive</cell>
+              <cell role="name" xml:lang="en">genitive</cell>
               <cell role="code" xml:lang="en">g</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old dative</cell>
+              <cell role="name" xml:lang="en">dative</cell>
               <cell role="code" xml:lang="en">d</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old accusative</cell>
+              <cell role="name" xml:lang="en">accusative</cell>
               <cell role="code" xml:lang="en">a</cell>
             </row>
             <row role="value">
@@ -342,15 +349,15 @@
               <cell role="code" xml:lang="en">v</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old locative</cell>
+              <cell role="name" xml:lang="en">locative</cell>
               <cell role="code" xml:lang="en">l</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old instrumental</cell>
+              <cell role="name" xml:lang="en">instrumental</cell>
               <cell role="code" xml:lang="en">i</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">short article/oblique</cell>
+              <cell role="name" xml:lang="en">oblique</cell>
               <cell role="code" xml:lang="en">o</cell>
             </row>
           </table>
@@ -358,21 +365,27 @@
       </row>
       <row role="attribute">
         <cell role="position">4</cell>
-        <cell role="name" xml:lang="en">Complexity</cell>
+        <cell role="name" xml:lang="en">Definiteness</cell>
         <cell role="values">
           <table>
             <row role="value">
-              <cell role="name" xml:lang="en">short form (no)</cell>
+              <cell role="name" xml:lang="en">no</cell>
               <cell role="code" xml:lang="en">n</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">long form (yes)</cell>
+              <cell role="name" xml:lang="en">yes</cell>
               <cell role="code" xml:lang="en">y</cell>
             </row>
           </table>
         </cell>
       </row>
     </table>
+    <div n="notes">
+      <head>Notes</head>
+      <list>
+	<item>"Definiteness" denotes the adjectival complexity: the difference between short and long forms.</item>
+      </list>
+    </div>
     <divGen type="msd.lex" select="bg-dam"/>
   </div>
   <div type="section" select="bg-dam" xml:id="msd.P-bg-dam">
@@ -417,10 +430,6 @@
             <row role="value">
               <cell role="name" xml:lang="en">negative</cell>
               <cell role="code" xml:lang="en">z</cell>
-            </row>
-            <row role="value">
-              <cell role="name" xml:lang="en">articloid</cell>
-              <cell role="code" xml:lang="en">a</cell>
             </row>
           </table>
         </cell>
@@ -495,7 +504,7 @@
               <cell role="code" xml:lang="en">n</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">oblique/genitive</cell>
+              <cell role="name" xml:lang="en">genitive</cell>
               <cell role="code" xml:lang="en">g</cell>
             </row>
             <row role="value">
@@ -503,15 +512,15 @@
               <cell role="code" xml:lang="en">d</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">short oblique/accusative</cell>
+              <cell role="name" xml:lang="en">accusative</cell>
               <cell role="code" xml:lang="en">a</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old locative</cell>
+              <cell role="name" xml:lang="en">locative</cell>
               <cell role="code" xml:lang="en">l</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old instrumental</cell>
+              <cell role="name" xml:lang="en">instrumental</cell>
               <cell role="code" xml:lang="en">i</cell>
             </row>
             <row role="value">
@@ -549,27 +558,27 @@
       </row>
       <row role="attribute">
         <cell role="position">1</cell>
-        <cell role="name" xml:lang="en">Case Relation</cell>
+        <cell role="name" xml:lang="en">Case</cell>
         <cell role="values">
           <table>
             <row role="value">
-              <cell role="name" xml:lang="en">old genitive</cell>
+              <cell role="name" xml:lang="en">genitive</cell>
               <cell role="code" xml:lang="en">g</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old dative</cell>
+              <cell role="name" xml:lang="en">dative</cell>
               <cell role="code" xml:lang="en">d</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old accusative</cell>
+              <cell role="name" xml:lang="en">accusative</cell>
               <cell role="code" xml:lang="en">a</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old locative</cell>
+              <cell role="name" xml:lang="en">locative</cell>
               <cell role="code" xml:lang="en">l</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">old instrumental</cell>
+              <cell role="name" xml:lang="en">instrumental</cell>
               <cell role="code" xml:lang="en">i</cell>
             </row>
           </table>
@@ -619,8 +628,8 @@
               <cell role="code" xml:lang="en">l</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">cyrillic</cell>
-              <cell role="code" xml:lang="en">c</cell>
+              <cell role="name" xml:lang="en">alphabetic</cell>
+              <cell role="code" xml:lang="en">p</cell>
             </row>
           </table>
         </cell>
@@ -656,8 +665,8 @@
               <cell role="code" xml:lang="en">o</cell>
             </row>
             <row role="value">
-              <cell role="name" xml:lang="en">relative</cell>
-              <cell role="code" xml:lang="en">r</cell>
+              <cell role="name" xml:lang="en">definitive</cell>
+              <cell role="code" xml:lang="en">d</cell>
             </row>
             <row role="value">
               <cell role="name" xml:lang="en">comparative</cell>
@@ -737,7 +746,7 @@
   </div>
   <div select="bg-dam" type="section" xml:id="msd.msds-bg-dam">
     <head>Damaskini Bulgarian MSD Index</head>
-    <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1281">Torlak corpus</ref>, which was automatically MSD tagged and lemmatised and partially manually corrected, i.e. the annotations, and hence the examples give, also contain errors. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+    <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-bg-dam.msd.xml"/>
   </div>
 </div>
