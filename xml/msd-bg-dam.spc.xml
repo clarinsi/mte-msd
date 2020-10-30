@@ -7,7 +7,7 @@
      xml:lang="en">
    <head>Damaskini Specifications</head>
    <docAuthor>Ivan Šimko</docAuthor>
-   <docDate>2020-10-28</docDate>
+   <docDate>2020-10-30</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Damaskini Bulgarian</item>
@@ -21,7 +21,7 @@
    <divGen type="subtoc"/>
    <div xml:id="msd-bg-dam.introduction">
       <head>Introduction to Damaskini Bulgarian Specifications</head>
-      <p>These specifications were created for the purpose of morphological annotation of a diachronic corpus containing Balkan Slavic texts from 16th-19th century. The most of these represent the <emph>damaskini</emph> tradition, collections of popular homilies and lives of saints spread by handwriting, written in an early variant of ("simple") Modern Bulgarian, reflecting various Eastern dialects. The corpus also includes related Church Slavonic sources, a chapter from the printed Nedělnik of Sophronius, as well as rare manuscripts from different dialectal areas.</p>
+      <p>These specifications were created for the purpose of morphological annotation of a diachronic corpus containing Balkan Slavic texts from 16th-19th century and available at <ref target="http://hdl.handle.net/11356/1368">http://hdl.handle.net/11356/1368</ref>. The most of these represent the <emph>damaskini</emph> tradition, collections of popular homilies and lives of saints spread by handwriting, written in an early variant of ("simple") Modern Bulgarian, reflecting various Eastern dialects. The corpus also includes related Church Slavonic sources, a chapter from the printed Nedělnik of Sophronius, as well as rare manuscripts from different dialectal areas.</p>
    </div>
    <div type="section" select="bg-dam" xml:id="msd.categories-bg-dam">
       <head>Damaskini Bulgarian Category Index</head>
@@ -116,7 +116,7 @@
       </div>
    </div>
    <div type="section" select="bg-dam" xml:id="msd.N-bg-dam">
-      <head>Noun</head>
+      <head>Damaskini Bulgarian Noun</head>
       <table n="msd.cat" select="bg-dam" xml:id="msd.cat.N-bg-dam">
          <head>Specification for Damaskini Bulgarian Noun</head>
          <row role="type">
@@ -231,7 +231,7 @@
       </div>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (73)</head>
             <row role="header">
@@ -888,7 +888,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (93)</head>
             <row role="header">
@@ -1667,7 +1667,7 @@
       </div>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (58)</head>
             <row role="header">
@@ -2231,7 +2231,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (104)</head>
             <row role="header">
@@ -2985,7 +2985,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (1)</head>
             <row role="header">
@@ -3046,7 +3046,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (6)</head>
             <row role="header">
@@ -3114,7 +3114,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (1)</head>
             <row role="header">
@@ -3171,7 +3171,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (4)</head>
             <row role="header">
@@ -3257,7 +3257,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (6)</head>
             <row role="header">
@@ -3325,7 +3325,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (1)</head>
             <row role="header">
@@ -3358,7 +3358,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (0)</head>
             <row role="header">
@@ -3384,7 +3384,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (1)</head>
             <row role="header">
@@ -3417,7 +3417,7 @@
       </table>
       <div type="section">
          <head>MSD Index</head>
-         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+         <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
             <head>MSDs (0)</head>
             <row role="header">
@@ -4099,7 +4099,7 @@
    </div>
    <div select="bg-dam" type="section" xml:id="msd.msds-bg-dam">
       <head>Damaskini Bulgarian MSD Index</head>
-      <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/XXX">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
+      <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
       <table xml:id="msd.lex-bg-dam"
              xml:lang="en"
              select="bg-dam"
