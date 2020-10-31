@@ -7,7 +7,7 @@
      xml:lang="en">
    <head>Damaskini Specifications</head>
    <docAuthor>Ivan Šimko</docAuthor>
-   <docDate>2020-10-30</docDate>
+   <docDate>2020-10-31</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Damaskini Bulgarian</item>
@@ -321,7 +321,7 @@
             <row>
                <cell>Nmsvy</cell>
                <cell>Noun Gender=masculine Number=singular Case=vocative Animate=yes</cell>
-               <cell>58</cell>
+               <cell>57</cell>
                <cell>123</cell>
                <cell>georgie/Georgi, oče/otec, gi/Gospod, cru/car, vasilie/Vasilii</cell>
             </row>
@@ -475,7 +475,7 @@
             <row>
                <cell>Nfsgy</cell>
                <cell>Noun Gender=feminine Number=singular Case=genitive Animate=yes</cell>
-               <cell>20</cell>
+               <cell>19</cell>
                <cell>56</cell>
                <cell>petki/Petka, Paraskevi/Paraskeva, petъki/Petka, mtre/mati, paraskeѵi/Paraskeva</cell>
             </row>
@@ -943,7 +943,7 @@
             <row>
                <cell>Vmia3se</cell>
                <cell>Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular Aspect=perfective</cell>
-               <cell>442</cell>
+               <cell>440</cell>
                <cell>916</cell>
                <cell>reče/reka, ostavi/ostavja, otide/otida, stori/storja, poide/poida</cell>
             </row>
@@ -1412,7 +1412,7 @@
             <row>
                <cell>Vaip1pi</cell>
                <cell>Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural Aspect=imperfective</cell>
-               <cell>9</cell>
+               <cell>8</cell>
                <cell>26</cell>
                <cell>sme/sъm, xočemъ/xoču, štim/šta, štem/šta, smi/sъm</cell>
             </row>
@@ -1715,7 +1715,7 @@
             <row>
                <cell>Amsgy</cell>
                <cell>Adjective Gender=masculine Number=singular Case=genitive Definiteness=yes</cell>
-               <cell>92</cell>
+               <cell>91</cell>
                <cell>130</cell>
                <cell>svoego/svoi, vsego/vsě, našego/naš, edinago/edin, velikago/velik</cell>
             </row>
@@ -2909,9 +2909,9 @@
             <row>
                <cell>Px---d</cell>
                <cell>Pronoun Type=reflexive Case=dative</cell>
-               <cell>4</cell>
+               <cell>3</cell>
                <cell>196</cell>
-               <cell>si/se, si, se, si /si</cell>
+               <cell>si/se, si, se</cell>
             </row>
             <row>
                <cell>Px---a</cell>
@@ -3066,8 +3066,8 @@
             <row>
                <cell>Sg</cell>
                <cell>Adposition Case=genitive</cell>
-               <cell>60</cell>
-               <cell>901</cell>
+               <cell>59</cell>
+               <cell>902</cell>
                <cell>ot, u, od/ot, do, ut/ot</cell>
             </row>
             <row>
@@ -3080,14 +3080,14 @@
             <row>
                <cell>Sa</cell>
                <cell>Adposition Case=accusative</cell>
-               <cell>37</cell>
+               <cell>36</cell>
                <cell>947</cell>
                <cell>na, za, vъ/v, u, pri</cell>
             </row>
             <row>
                <cell>Sl</cell>
                <cell>Adposition Case=locative</cell>
-               <cell>30</cell>
+               <cell>28</cell>
                <cell>579</cell>
                <cell>na, po, vъ/v, o, pri</cell>
             </row>
@@ -3127,7 +3127,7 @@
             <row>
                <cell>C</cell>
                <cell>Conjunction</cell>
-               <cell>99</cell>
+               <cell>98</cell>
                <cell>5493</cell>
                <cell>i, da, kato, a, ta</cell>
             </row>
@@ -4193,7 +4193,7 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Nmsvy</cell>
             <cell role="attval" xml:lang="en">Noun Gender=masculine Number=singular Case=vocative Animate=yes</cell>
-            <cell>58</cell>
+            <cell>57</cell>
             <cell>123</cell>
             <cell xml:lang="bg-dam">georgie/Georgi, oče/otec, gi/Gospod, cru/car, vasilie/Vasilii</cell>
          </row>
@@ -4347,7 +4347,7 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Nfsgy</cell>
             <cell role="attval" xml:lang="en">Noun Gender=feminine Number=singular Case=genitive Animate=yes</cell>
-            <cell>20</cell>
+            <cell>19</cell>
             <cell>56</cell>
             <cell xml:lang="bg-dam">petki/Petka, Paraskevi/Paraskeva, petъki/Petka, mtre/mati, paraskeѵi/Paraskeva</cell>
          </row>
@@ -4669,7 +4669,7 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Vmia3se</cell>
             <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular Aspect=perfective</cell>
-            <cell>442</cell>
+            <cell>440</cell>
             <cell>916</cell>
             <cell xml:lang="bg-dam">reče/reka, ostavi/ostavja, otide/otida, stori/storja, poide/poida</cell>
          </row>
@@ -5138,7 +5138,7 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Vaip1pi</cell>
             <cell role="attval" xml:lang="en">Verb Type=auxiliary VForm=indicative Tense=present Person=first Number=plural Aspect=imperfective</cell>
-            <cell>9</cell>
+            <cell>8</cell>
             <cell>26</cell>
             <cell xml:lang="bg-dam">sme/sъm, xočemъ/xoču, štim/šta, štem/šta, smi/sъm</cell>
          </row>
@@ -5313,7 +5313,7 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Amsgy</cell>
             <cell role="attval" xml:lang="en">Adjective Gender=masculine Number=singular Case=genitive Definiteness=yes</cell>
-            <cell>92</cell>
+            <cell>91</cell>
             <cell>130</cell>
             <cell xml:lang="bg-dam">svoego/svoi, vsego/vsě, našego/naš, edinago/edin, velikago/velik</cell>
          </row>
@@ -6349,9 +6349,9 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Px---d</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=reflexive Case=dative</cell>
-            <cell>4</cell>
+            <cell>3</cell>
             <cell>196</cell>
-            <cell xml:lang="bg-dam">si/se, si, se, si /si</cell>
+            <cell xml:lang="bg-dam">si/se, si, se</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Px---a</cell>
@@ -6426,8 +6426,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Sg</cell>
             <cell role="attval" xml:lang="en">Adposition Case=genitive</cell>
-            <cell>60</cell>
-            <cell>901</cell>
+            <cell>59</cell>
+            <cell>902</cell>
             <cell xml:lang="bg-dam">ot, u, od/ot, do, ut/ot</cell>
          </row>
          <row role="msd">
@@ -6440,14 +6440,14 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Sa</cell>
             <cell role="attval" xml:lang="en">Adposition Case=accusative</cell>
-            <cell>37</cell>
+            <cell>36</cell>
             <cell>947</cell>
             <cell xml:lang="bg-dam">na, za, vъ/v, u, pri</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Sl</cell>
             <cell role="attval" xml:lang="en">Adposition Case=locative</cell>
-            <cell>30</cell>
+            <cell>28</cell>
             <cell>579</cell>
             <cell xml:lang="bg-dam">na, po, vъ/v, o, pri</cell>
          </row>
@@ -6461,7 +6461,7 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">C</cell>
             <cell role="attval" xml:lang="en">Conjunction</cell>
-            <cell>99</cell>
+            <cell>98</cell>
             <cell>5493</cell>
             <cell xml:lang="bg-dam">i, da, kato, a, ta</cell>
          </row>
