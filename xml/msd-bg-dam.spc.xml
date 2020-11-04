@@ -7,7 +7,7 @@
      xml:lang="en">
    <head>Damaskini Specifications</head>
    <docAuthor>Ivan Šimko</docAuthor>
-   <docDate>2020-10-31</docDate>
+   <docDate>2020-11-04</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Damaskini Bulgarian</item>
@@ -1020,7 +1020,7 @@
             <row>
                <cell>Vmii3pe</cell>
                <cell>Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural Aspect=perfective</cell>
-               <cell>187</cell>
+               <cell>186</cell>
                <cell>292</cell>
                <cell>poklonixa/poklonja, rekoxa/reka, položixa/položa, rodixa/rodja, rekoxu/reka</cell>
             </row>
@@ -2574,8 +2574,8 @@
                <cell>Pd</cell>
                <cell>Pronoun Type=demonstrative</cell>
                <cell>5</cell>
-               <cell>27</cell>
-               <cell>togazi, togiva, tou/tu, togazi/togázi, Togazi/togazi</cell>
+               <cell>18</cell>
+               <cell>togiva, togazi, tou/tu, togazi/togázi, Togazi/togazi</cell>
             </row>
             <row>
                <cell>Pd--pn</cell>
@@ -2756,7 +2756,7 @@
                <cell>Pd-npn</cell>
                <cell>Pronoun Type=demonstrative Gender=neuter Number=plural Case=nominative</cell>
                <cell>13</cell>
-               <cell>42</cell>
+               <cell>43</cell>
                <cell>ta/tъ, te/tъ, sia/sii, onia/onija, onezi/onzi</cell>
             </row>
             <row>
@@ -2797,8 +2797,8 @@
             <row>
                <cell>Pq</cell>
                <cell>Pronoun Type=interrogative</cell>
-               <cell>33</cell>
-               <cell>271</cell>
+               <cell>35</cell>
+               <cell>275</cell>
                <cell>što, kak, koga, kakъ/kak, kako/kak</cell>
             </row>
             <row>
@@ -2839,8 +2839,8 @@
             <row>
                <cell>Pr</cell>
                <cell>Pronoun Type=relative</cell>
-               <cell>60</cell>
-               <cell>423</cell>
+               <cell>61</cell>
+               <cell>438</cell>
                <cell>deto, što, štoto, štutu/štoto, tugis/togizi</cell>
             </row>
             <row>
@@ -2998,8 +2998,8 @@
             <row>
                <cell>R</cell>
                <cell>Adverb</cell>
-               <cell>415</cell>
-               <cell>1473</cell>
+               <cell>411</cell>
+               <cell>1463</cell>
                <cell>tamo, mnogo, tui/tъi, kako, taka</cell>
             </row>
          </table>
@@ -3128,7 +3128,7 @@
                <cell>C</cell>
                <cell>Conjunction</cell>
                <cell>98</cell>
-               <cell>5493</cell>
+               <cell>5492</cell>
                <cell>i, da, kato, a, ta</cell>
             </row>
          </table>
@@ -3271,7 +3271,7 @@
                <cell>Qz</cell>
                <cell>Particle Type=negative</cell>
                <cell>12</cell>
-               <cell>566</cell>
+               <cell>567</cell>
                <cell>ne, ni/ne, ně/ne, nja/ne, ni</cell>
             </row>
             <row>
@@ -3292,7 +3292,7 @@
                <cell>Qd</cell>
                <cell>Particle Type=definitive</cell>
                <cell>11</cell>
-               <cell>165</cell>
+               <cell>164</cell>
                <cell>že, to, si/sicev, etu/eto, i/e</cell>
             </row>
             <row>
@@ -4746,7 +4746,7 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Vmii3pe</cell>
             <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=imperfect Person=third Number=plural Aspect=perfective</cell>
-            <cell>187</cell>
+            <cell>186</cell>
             <cell>292</cell>
             <cell xml:lang="bg-dam">poklonixa/poklonja, rekoxa/reka, položixa/položa, rodixa/rodja, rekoxu/reka</cell>
          </row>
@@ -6014,8 +6014,8 @@
             <cell role="msd" xml:lang="en">Pd</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative</cell>
             <cell>5</cell>
-            <cell>27</cell>
-            <cell xml:lang="bg-dam">togazi, togiva, tou/tu, togazi/togázi, Togazi/togazi</cell>
+            <cell>18</cell>
+            <cell xml:lang="bg-dam">togiva, togazi, tou/tu, togazi/togázi, Togazi/togazi</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd--pn</cell>
@@ -6196,7 +6196,7 @@
             <cell role="msd" xml:lang="en">Pd-npn</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative Gender=neuter Number=plural Case=nominative</cell>
             <cell>13</cell>
-            <cell>42</cell>
+            <cell>43</cell>
             <cell xml:lang="bg-dam">ta/tъ, te/tъ, sia/sii, onia/onija, onezi/onzi</cell>
          </row>
          <row role="msd">
@@ -6237,8 +6237,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Pq</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=interrogative</cell>
-            <cell>33</cell>
-            <cell>271</cell>
+            <cell>35</cell>
+            <cell>275</cell>
             <cell xml:lang="bg-dam">što, kak, koga, kakъ/kak, kako/kak</cell>
          </row>
          <row role="msd">
@@ -6279,8 +6279,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Pr</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=relative</cell>
-            <cell>60</cell>
-            <cell>423</cell>
+            <cell>61</cell>
+            <cell>438</cell>
             <cell xml:lang="bg-dam">deto, što, štoto, štutu/štoto, tugis/togizi</cell>
          </row>
          <row role="msd">
@@ -6412,8 +6412,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">R</cell>
             <cell role="attval" xml:lang="en">Adverb</cell>
-            <cell>415</cell>
-            <cell>1473</cell>
+            <cell>411</cell>
+            <cell>1463</cell>
             <cell xml:lang="bg-dam">tamo, mnogo, tui/tъi, kako, taka</cell>
          </row>
          <row role="msd">
@@ -6462,7 +6462,7 @@
             <cell role="msd" xml:lang="en">C</cell>
             <cell role="attval" xml:lang="en">Conjunction</cell>
             <cell>98</cell>
-            <cell>5493</cell>
+            <cell>5492</cell>
             <cell xml:lang="bg-dam">i, da, kato, a, ta</cell>
          </row>
          <row role="msd">
@@ -6497,7 +6497,7 @@
             <cell role="msd" xml:lang="en">Qz</cell>
             <cell role="attval" xml:lang="en">Particle Type=negative</cell>
             <cell>12</cell>
-            <cell>566</cell>
+            <cell>567</cell>
             <cell xml:lang="bg-dam">ne, ni/ne, ně/ne, nja/ne, ni</cell>
          </row>
          <row role="msd">
@@ -6518,7 +6518,7 @@
             <cell role="msd" xml:lang="en">Qd</cell>
             <cell role="attval" xml:lang="en">Particle Type=definitive</cell>
             <cell>11</cell>
-            <cell>165</cell>
+            <cell>164</cell>
             <cell xml:lang="bg-dam">že, to, si/sicev, etu/eto, i/e</cell>
          </row>
          <row role="msd">
