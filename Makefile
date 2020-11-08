@@ -53,6 +53,11 @@ tbls-all:
 	ls -d xml/msd-*.spc.xml | parallel --gnu --halt 0 --jobs 20 \
 	bin/msd-tables.pl -specs xml/msd.xml -infiles {} -outdir tables
 
+### Convert root to its final (and redundant) form
+cast-root:
+	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
+	$s -xsl:bin/msd-castspecs.xsl xml-edit/msd.xml > xml/msd.xml
+
 ### Convert all editable specifications to their final (and redundant) form
 cast-all:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng

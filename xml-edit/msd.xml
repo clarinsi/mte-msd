@@ -25,10 +25,6 @@
           <name>Dietmar Fiesel</name>
           <resp>Chechen specifications</resp>
         </respStmt>
-        <respStmt select="hr">
-          <name>Marko Tadić</name>
-          <resp>Croatian specifications</resp>
-        </respStmt>
         <respStmt select="cs">
           <name>Vladimír Petkevič</name>
           <resp>Czech specifications</resp>
@@ -142,7 +138,7 @@
         <availability status="free">
           <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
         </availability>
-        <date>2020-11-04</date>
+        <date>2020-11-08</date>
       </publicationStmt>
       <sourceDesc>
         <biblFull>
@@ -165,7 +161,7 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>The MULTEXT-East resources are a multilingual dataset for language engineering research and development. This dataset contains, for Bosnian, Bulgarian, Chechen, Croatian, Czech, English, Estonian, Hungarian, Macedonian, Persian, Polish, Resian, Romanian, Russian, Serbian, Slovak, Slovene, Torlak, and Ukrainian, some, or all of the following language resources: the MULTEXT-East morphosyntactic specifications, lexica, and annotated "1984" corpus; the MULTEXT-East parallel and comparable text and speech corpora; and associated documentation.</p>
+        <p>The MULTEXT-East resources are a multilingual dataset for language engineering research and development. This dataset contains, for Bosnian, Bulgarian, Chechen, Czech, Damaskini, English, Estonian, Hungarian, Macedonian, Persian, Polish, Resian, Romanian, Russian, Serbian, Serbo-Croatian, Slovak, Slovene, Torlak, and Ukrainian, some, or all of the following language resources: the MULTEXT-East morphosyntactic specifications, lexica, and annotated "1984" corpus; the MULTEXT-East parallel and comparable text and speech corpora; and associated documentation.</p>
       </projectDesc>
     </encodingDesc>
     <profileDesc>
@@ -188,8 +184,6 @@
         <language xml:id="et" ident="et">Estonian</language>
         <!--INDO-IRANIAN-->
         <language xml:id="fa" ident="fa">Persian</language>
-        <!--SLAVIC-->
-        <language xml:id="hr" ident="hr">Croatian</language>
         <!--FINNO-UGRIC-->
         <language xml:id="hu" ident="hu">Hungarian</language>
         <!--SLAVIC-->
@@ -215,6 +209,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
+      <change when="2020-11-08">ET, remove Croatian &amp; V6 goes live.</change>
       <change when="2020-11-04">ET, add Damaskini.</change>
       <change when="2020-08-31">ET, add Torlak.</change>
       <change when="2020-08-27">ET, incorporate changes to Macedonian.</change>
@@ -251,7 +246,7 @@
         <docEdition>
           <ref target="http://nl.ijs.si/ME/V6/">Version 6</ref>
         </docEdition>
-        <docDate>2020-11-04</docDate>
+        <docDate>2020-11-08</docDate>
         <lb/>
         <byline>Editor: <name>Tomaž Erjavec</name>
         </byline>
@@ -270,10 +265,6 @@
         <byline>
           <ref target="#msd-ce">Chechen specifications</ref>:
           <name>Dietmar Fiesel</name>
-        </byline>
-        <byline>
-          <ref target="#msd-hr">Croatian specifications</ref>:
-          <name>Marko Tadić</name>
         </byline>
         <byline>
           <ref target="#msd-cs">Czech specifications</ref>:
@@ -367,7 +358,6 @@
         Albanian, 
         Bulgarian, 
         Chechen, 
-        Croatian, 
         Czech, 
         Damaskini,
         Estonian, 
@@ -422,16 +412,21 @@
         and the Croatian and Slovene specifications have been changed.
         However, this version never made it beyond the "DRAFT" status.
         </p>
-        <p>In the present Version 6 the TEI encoding has been updated, as have the conversion scripts, and
-        the maintenance of the specifications has moved to
-        <ref target="https://github.com/clarinsi/mte-msd">GitHub</ref>. Furthermore, while the Croatian
-        and Serbian specifications have been reverted to those of Version 4, the specifications for
-        the macrolanguage Serbo-Croatian has been added, meant to cover Croatian, Serbian, Bosnian and
-        Montenegrin.
-        Last but not least, the Macedonian specifications have been updated, and
-        the specifications for the Albanian language, the Torlak dialect of Serbian,
-        and for the "Damaskini" diachronic corpus of Balkan Slavic texts from 16th-19th century
-        have been added to the specifications.
+        <p>In the present Version 6 the TEI encoding has been updated,
+        as have the conversion scripts, and the maintenance of the
+        specifications has moved to <ref
+        target="https://github.com/clarinsi/mte-msd">GitHub</ref>.
+        Furthermore, while the Croatian and Bosnian specifications
+        have been removed, the specifications for the macrolanguage
+        Serbo-Croatian have been added, and are meant to cover
+        Croatian, Serbian, Bosnian and Montenegrin (the Serbian
+        specifications have been retained for backwardds compatibility
+        with the existing MULTEXT-East resources).  Last but not
+        least, the Macedonian specifications have been updated, and
+        the specifications for the Albanian language, the Torlak
+        dialect of Serbian, and for the "Damaskini" diachronic corpus
+        of Balkan Slavic texts from 16th-19th century have been added
+        to the specifications.
         </p>
         <p>Pisa, October 1995</p>
         <p>Ljubljana, December 1997 (V1)</p>
@@ -740,17 +735,6 @@
             </row>
             <row role="lang">
               <cell role="position">9</cell>
-              <cell role="code">hr</cell>
-              <cell role="name">
-                <ref target="#msd-hr">Croatian</ref>
-              </cell>
-              <cell role="note">South West Slavic</cell>
-              <cell role="ref">
-                <ref target="https://en.wikipedia.org/wiki/Croatian_language">Wikipedia</ref>
-              </cell>
-            </row>
-            <row role="lang">
-              <cell role="position">10</cell>
               <cell role="code">sr</cell>
               <cell role="name">
                 <ref target="#msd-sr">Serbian</ref>
@@ -761,7 +745,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">11</cell>
+              <cell role="position">10</cell>
               <cell role="code">sr-tor</cell>
               <cell role="name">
                 <ref target="#msd-sr-tor">Torlak dialect of Serbian</ref>
@@ -772,7 +756,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">12</cell>
+              <cell role="position">11</cell>
               <cell role="code">ru</cell>
               <cell role="name">
                 <ref target="#msd-ru">Russian</ref>
@@ -783,7 +767,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">13</cell>
+              <cell role="position">12</cell>
               <cell role="code">uk</cell>
               <cell role="name">
                 <ref target="#msd-uk">Ukrainian</ref>
@@ -794,7 +778,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">14</cell>
+              <cell role="position">13</cell>
               <cell role="code">mk</cell>
               <cell role="name">
                 <ref target="#msd-mk">Macedonian</ref>
@@ -805,7 +789,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">15</cell>
+              <cell role="position">14</cell>
               <cell role="code">bg</cell>
               <cell role="name">
                 <ref target="#msd-bg">Bulgarian</ref>
@@ -816,7 +800,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">16</cell>
+              <cell role="position">15</cell>
               <cell role="code">bg-dam</cell>
               <cell role="name">
                 <ref target="#msd-bg-dam">Damaskini</ref>
@@ -827,7 +811,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">17</cell>
+              <cell role="position">16</cell>
               <cell role="code">sq</cell>
               <cell role="name">
                 <ref target="#msd-sq">Albanian</ref>
@@ -838,7 +822,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">18</cell>
+              <cell role="position">17</cell>
               <cell role="code">fa</cell>
               <cell role="name">
                 <ref target="#msd-fa">Persian</ref>
@@ -849,7 +833,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">19</cell>
+              <cell role="position">18</cell>
               <cell role="code">et</cell>
               <cell role="name">
                 <ref target="#msd-et">Estonian</ref>
@@ -860,7 +844,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">20</cell>
+              <cell role="position">19</cell>
               <cell role="code">hu</cell>
               <cell role="name">
                 <ref target="#msd-hu">Hungarian</ref>
@@ -871,7 +855,7 @@
               </cell>
             </row>
             <row role="lang">
-              <cell role="position">21</cell>
+              <cell role="position">20</cell>
               <cell role="code">ce</cell>
               <cell role="name">
                 <ref target="#msd-hu">Chechen</ref>
@@ -907,10 +891,7 @@
               <emph rend="bold">Value</emph> gives the name and one-letter code of the
             attribute-value;</item>
             <item>a column for each of the languages. For easier comparison between them they have
-            been grouped by language family: first English as the 'hub' language, then Romance
-            (Romanian), followed by Slavic (Slovene, Czech, Bulgarian), and finaly Finno-Ungric
-            (Estonian, Hungarian). Croatian, Serbian and Resian have been added later, and not
-            yet properly grouped.</item>
+            been grouped by language family.</item>
           </list>
           </p>
           <p>The language columns define (by marking with 'x'), in the first line, whether the
@@ -933,7 +914,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -963,7 +943,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -987,7 +966,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -1022,7 +1000,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1043,7 +1020,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1064,7 +1040,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1101,7 +1076,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -1126,7 +1100,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -1177,7 +1150,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1197,7 +1169,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -1217,7 +1188,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1236,7 +1206,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1255,7 +1224,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
                       <cell role="lang">fa</cell>
@@ -1271,7 +1239,6 @@
                       <cell role="code">l</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1289,7 +1256,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1525,7 +1491,6 @@
                       <cell role="code">n</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1541,7 +1506,6 @@
                       <cell role="code">y</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1765,7 +1729,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -1795,7 +1758,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -1820,7 +1782,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -1846,7 +1807,6 @@
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -1854,7 +1814,6 @@
                       <cell role="code">c</cell>
                       <cell role="lang">ro</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -1898,7 +1857,6 @@
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                       <cell role="lang">bg-dam</cell>
                     </row>
@@ -1920,7 +1878,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -1946,7 +1903,6 @@
                       <cell role="lang">ru</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">bg-dam</cell>
                     </row>
                     <row role="value">
@@ -1958,7 +1914,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -1979,7 +1934,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">et</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -2114,7 +2068,6 @@
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                       <cell role="lang">bg-dam</cell>
                     </row>
@@ -2128,7 +2081,6 @@
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                       <cell role="lang">bg-dam</cell>
                     </row>
@@ -2143,7 +2095,6 @@
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">past</cell>
@@ -2161,7 +2112,6 @@
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">pluperfect</cell>
@@ -2169,7 +2119,6 @@
                       <cell role="lang">ro</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ce</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">aorist</cell>
@@ -2178,7 +2127,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                       <cell role="lang">bg-dam</cell>
                     </row>
@@ -2221,7 +2169,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -2245,7 +2192,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -2269,7 +2215,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -2301,7 +2246,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -2325,7 +2269,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -2366,7 +2309,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -2384,7 +2326,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -2402,7 +2343,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -2429,7 +2369,6 @@
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -2441,7 +2380,6 @@
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -2464,7 +2402,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -2479,7 +2416,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -2874,7 +2810,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -2908,7 +2843,6 @@
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">indefinite</cell>
@@ -2920,7 +2854,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -2978,7 +2911,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3000,7 +2932,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3022,7 +2953,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3060,7 +2990,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3080,7 +3009,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3100,7 +3028,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3134,7 +3061,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3156,7 +3082,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3196,7 +3121,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3216,7 +3140,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3235,7 +3158,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3253,7 +3175,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3270,7 +3191,6 @@
                       <cell role="code">v</cell>
                       <cell role="lang">ro</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">hbs</cell>
@@ -3282,7 +3202,6 @@
                       <cell role="code">l</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3299,7 +3218,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3460,7 +3378,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3476,7 +3393,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3541,7 +3457,6 @@
                       <cell role="name">no</cell>
                       <cell role="code">n</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">pl</cell>
@@ -3554,7 +3469,6 @@
                       <cell role="name">yes</cell>
                       <cell role="code">y</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">pl</cell>
@@ -3841,7 +3755,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -3871,7 +3784,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3895,7 +3807,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3919,7 +3830,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3943,7 +3853,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -3965,7 +3874,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -3989,7 +3897,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -4015,7 +3922,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -4116,7 +4022,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -4141,7 +4046,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -4166,7 +4070,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -4197,7 +4100,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -4218,7 +4120,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -4239,7 +4140,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -4269,7 +4169,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -4294,7 +4193,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -4346,7 +4244,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -4367,7 +4264,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -4390,7 +4286,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -4413,7 +4308,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -4430,7 +4324,6 @@
                       <cell role="name">vocative</cell>
                       <cell role="code">v</cell>
                       <cell role="lang">ro</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
                       <cell role="lang">sk</cell>
@@ -4442,7 +4335,6 @@
                       <cell role="code">l</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -4460,7 +4352,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -4637,7 +4528,6 @@
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -4651,7 +4541,6 @@
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -4676,7 +4565,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -4687,7 +4575,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -4697,7 +4584,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                   </table>
@@ -4720,7 +4606,6 @@
                       <cell role="lang">fa</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -4736,7 +4621,6 @@
                       <cell role="lang">fa</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -4767,7 +4651,6 @@
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">possessive</cell>
@@ -4778,7 +4661,6 @@
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">attributive</cell>
@@ -4808,7 +4690,6 @@
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">uk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -4821,7 +4702,6 @@
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">uk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -4892,7 +4772,6 @@
                       <cell role="name">no</cell>
                       <cell role="code">n</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -4906,7 +4785,6 @@
                       <cell role="name">yes</cell>
                       <cell role="code">y</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -5610,7 +5488,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -5638,7 +5515,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">hbs</cell>
@@ -5734,7 +5610,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -5755,7 +5630,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -5775,7 +5649,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -5919,7 +5792,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -5954,7 +5826,6 @@
                       <cell role="lang">uk</cell>
                       <cell role="lang">pl</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sq</cell>
                     </row>
                     <row role="value">
@@ -5986,7 +5857,6 @@
                       <cell role="lang">ru</cell>
                       <cell role="lang">uk</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">compound</cell>
@@ -6000,7 +5870,6 @@
                       <cell role="lang">ru</cell>
                       <cell role="lang">uk</cell>
                       <cell role="lang">sk</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                   </table>
                 </cell>
@@ -6023,7 +5892,6 @@
                       <cell role="lang">ro</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6040,7 +5908,6 @@
                       <cell role="lang">ro</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6057,7 +5924,6 @@
                       <cell role="lang">ro</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6074,7 +5940,6 @@
                       <cell role="code">l</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6090,7 +5955,6 @@
                       <cell role="code">i</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6146,7 +6010,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -6176,7 +6039,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">fa</cell>
@@ -6198,7 +6060,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6229,7 +6090,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6244,7 +6104,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6402,7 +6261,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -6432,7 +6290,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6455,7 +6312,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6480,7 +6336,6 @@
                       <cell role="code">m</cell>
                       <cell role="lang">ro</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
                       <cell role="lang">sk</cell>
@@ -6502,7 +6357,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">hbs</cell>
@@ -6536,7 +6390,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6555,7 +6408,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6574,7 +6426,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">bg</cell>
                       <cell role="lang">mk</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6601,7 +6452,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6622,7 +6472,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6662,7 +6511,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6681,7 +6529,6 @@
                       <cell role="lang">cs</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6700,7 +6547,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6718,7 +6564,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6732,7 +6577,6 @@
                     <row role="value">
                       <cell role="name">vocative</cell>
                       <cell role="code">v</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sk</cell>
                       <cell role="lang">hbs</cell>
                       <cell role="lang">sr-tor</cell>
@@ -6742,7 +6586,6 @@
                       <cell role="code">l</cell>
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6759,7 +6602,6 @@
                       <cell role="lang">sl</cell>
                       <cell role="lang">cs</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6938,7 +6780,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6961,7 +6802,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -6984,7 +6824,6 @@
                       <cell role="lang">mk</cell>
                       <cell role="lang">et</cell>
                       <cell role="lang">hu</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -7154,7 +6993,6 @@
                       <cell role="name">no</cell>
                       <cell role="code">n</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -7168,7 +7006,6 @@
                       <cell role="name">yes</cell>
                       <cell role="code">y</cell>
                       <cell role="lang">cs</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">sl-rozaj</cell>
                       <cell role="lang">ru</cell>
@@ -7299,7 +7136,6 @@
                 <cell role="lang">cs</cell>
                 <cell role="lang">bg</cell>
                 <cell role="lang">mk</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">ru</cell>
@@ -7322,7 +7158,6 @@
                       <cell role="code">z</cell>
                       <cell role="lang">ro</cell>
                       <cell role="lang">bg</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">hbs</cell>
                       <cell role="lang">sq</cell>
@@ -7375,7 +7210,6 @@
                       <cell role="name">interrogative</cell>
                       <cell role="code">q</cell>
                       <cell role="lang">bg</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">hbs</cell>
                       <cell role="lang">sq</cell>
@@ -7386,7 +7220,6 @@
                       <cell role="name">modal</cell>
                       <cell role="code">o</cell>
                       <cell role="lang">bg</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">hbs</cell>
                       <cell role="lang">sr-tor</cell>
@@ -7395,7 +7228,6 @@
                     <row role="value">
                       <cell role="name">affirmative</cell>
                       <cell role="code">r</cell>
-                      <cell role="lang">hr</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">hbs</cell>
                       <cell role="lang">sq</cell>
@@ -7481,7 +7313,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -7526,7 +7357,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">compound</cell>
@@ -7534,7 +7364,6 @@
                       <cell role="lang">bg</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                   </table>
                 </cell>
@@ -7558,7 +7387,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -7583,7 +7411,6 @@
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">verbal</cell>
@@ -7604,7 +7431,6 @@
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">pronominal</cell>
@@ -7625,7 +7451,6 @@
                       <cell role="lang">ro</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">feminine</cell>
@@ -7633,7 +7458,6 @@
                       <cell role="lang">ro</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">neuter</cell>
@@ -7641,7 +7465,6 @@
                       <cell role="lang">ro</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                   </table>
                 </cell>
@@ -7658,7 +7481,6 @@
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">plural</cell>
@@ -7667,7 +7489,6 @@
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">paucal</cell>
@@ -7689,7 +7510,6 @@
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">genitive</cell>
@@ -7697,35 +7517,30 @@
                       <cell role="lang">et</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">dative</cell>
                       <cell role="code">d</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">accusative</cell>
                       <cell role="code">a</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">locative</cell>
                       <cell role="code">l</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">instrumental</cell>
                       <cell role="code">i</cell>
                       <cell role="lang">sr</cell>
                       <cell role="lang">ru</cell>
-                      <cell role="lang">hr</cell>
                     </row>
                     <row role="value">
                       <cell role="name">direct</cell>
@@ -7854,7 +7669,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -7961,7 +7775,6 @@
                 <cell role="lang">mk</cell>
                 <cell role="lang">et</cell>
                 <cell role="lang">hu</cell>
-                <cell role="lang">hr</cell>
                 <cell role="lang">sr</cell>
                 <cell role="lang">sl-rozaj</cell>
                 <cell role="lang">fa</cell>
@@ -8022,7 +7835,7 @@
               <label>Sub_Type:</label>
               <item>used in Romanian to distinguish negative from positive Conjunctions.</item>
               <label>Syntactic_Type:</label>
-              <item>used to distinguish the nominal and adjectival function of Pronouns in Croatian, Resian and Czech. Furthermore, in Slovene and Serbian, the adverbial function of certain Pronouns is distinguished. Also used in Abbreviations to signal the Part of Speech of the abbreviation; currently used only by Romanian and Estonian.</item>
+              <item>used to distinguish the nominal and adjectival function of Pronouns in Resian and Czech. Furthermore, in Slovene and Serbian, the adverbial function of certain Pronouns is distinguished. Also used in Abbreviations to signal the Part of Speech of the abbreviation; currently used only by Romanian and Estonian.</item>
             </list>
           </div>
         </div>
@@ -8042,7 +7855,6 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sl-rozaj.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hbs.spc.xml"/>
-        <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-hr.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sr.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-sr-tor.spc.xml"/>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ru.spc.xml"/>
