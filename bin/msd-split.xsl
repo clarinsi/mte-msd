@@ -89,10 +89,12 @@
       <xsl:for-each select="//tei:div[tei:table[@n='msd.cat']]">
         <xsl:variable name="select">
           <xsl:apply-templates mode="select-langs"
-			       select="tei:table[@n='msd.cat']/tei:row[@role='type']/tei:cell[@role='lang']">
+			       select="tei:table[@n='msd.cat']/
+				       tei:row[@role='type']/tei:cell[@role='lang']">
             <xsl:with-param name="langs" select="$in-langs"/>
           </xsl:apply-templates>
         </xsl:variable>
+	<!--xsl:message select="concat('THUS: ', $select)"/-->
         <xsl:if test="normalize-space($select)">
           <xsl:variable name="catname"
             select="tei:table[@n='msd.cat']/tei:row[@role='type']/tei:cell[@role='value']"/>
@@ -167,20 +169,12 @@
 
   <xsl:template mode="select-langs" match="tei:cell">
     <xsl:param name="langs"/>
-    <xsl:choose>
-      <xsl:when
-        test="contains($langs,',') and (substring-before($langs,',') = normalize-space(text()))">
-        <xsl:value-of select="substring-before($langs,',')"/>
-      </xsl:when>
-      <xsl:when test="contains($langs,',')">
-        <xsl:apply-templates mode="select-langs" select=".">
-          <xsl:with-param name="langs" select="substring-after($langs,',')"/>
-        </xsl:apply-templates>
-      </xsl:when>
-      <xsl:when test="$langs = text()">
-        <xsl:value-of select="$langs"/>
-      </xsl:when>
-    </xsl:choose>
+    <xsl:variable name="lang" select="text()"/>
+    <xsl:for-each select="tokenize($langs, '[, ] *')">
+      <xsl:if test=". = $lang">
+	<xsl:value-of select="."/>
+      </xsl:if>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template match="tei:row[@role='attribute']">
