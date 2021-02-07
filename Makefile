@@ -105,7 +105,8 @@ NL = bg-dam
 ## These will, of course, then need lots of hand editing!
 ## Once done, move msd-${NL}.spc.xml from tmp/ to xml-edit
 new-split:
-	$s in-langs='sl sr ro' out-lang='${NL}' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-${NL}.spc.xml
+	$s in-langs='sl sr ro' out-lang='${NL}' -xsl:bin/msd-split.xsl xml-edit/msd.xml \
+	> tmp/msd-${NL}.spc.xml
 
 ##  It is assumed that two files have first been added to the project:
 ##  xml-edit/msd-${NL}.spc.xml: the language specific specifications, without the MSD list
