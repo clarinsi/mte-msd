@@ -99,13 +99,13 @@ new-lang:	new-lex new-msds new-val new-cast new-tbls htm mount
 xxxnew-lang:	new-split new-lex new-msds new-val new-merge new-cast new-tbls htm mount
 
 ## Name of the new language
-NL = bg-dam
+NL = ka
 
 # Test generation of new draft language specific section
 ## These will, of course, then need lots of hand editing!
 ## Once done, move msd-${NL}.spc.xml from tmp/ to xml-edit
 new-split:
-	$s in-langs='sl sr ro' out-lang='${NL}' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-${NL}.spc.xml
+	$s in-langs='et hu' out-lang='${NL}' -xsl:bin/msd-split.xsl xml/msd.xml > tmp/msd-${NL}.spc.xml
 
 ##  It is assumed that two files have first been added to the project:
 ##  xml-edit/msd-${NL}.spc.xml: the language specific specifications, without the MSD list
