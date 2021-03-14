@@ -6,7 +6,7 @@
      xml:id="msd-ka">
    <head>Georgian Specifications</head>
    <docAuthor>Irina Lobzhanidze</docAuthor>
-   <docDate>2021-17-02</docDate>
+   <docDate>2021-02-17</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Georgian</item>
@@ -59,7 +59,7 @@
          </row>
          <row role="attribute">
             <cell role="position">2</cell>
-            <cell role="name" xml:lang="en">animacy</cell>
+            <cell role="name" xml:lang="en">Animacy</cell>
             <cell role="name" xml:lang="ka">სულიერება/უსულოება</cell>
             <cell>
                <table>
@@ -109,7 +109,7 @@
                   <row role="value">
                      <cell role="name" xml:lang="en">ergative</cell>
                      <cell role="name" xml:lang="ka">მოთხრობითი</cell>
-                     <cell role="code" xml:lang="en">a</cell>
+                     <cell role="code" xml:lang="en">z</cell>
                   </row>
                   <row role="value">
                      <cell role="name" xml:lang="en">dative</cell>
@@ -183,7 +183,7 @@
                <cell>[cp]</cell> 
                <cell>[ny]</cell> 
                <cell>[sp]</cell> 
-               <cell>[nadgiwv]</cell> 
+               <cell>[nzdgiwv]</cell> 
                <cell>[ny]</cell> 
             </row>
          </table>
@@ -283,24 +283,9 @@
                      <cell role="code" xml:lang="en">i</cell>
                   </row>
                   <row role="value">
-                     <cell role="name" xml:lang="en">present subjunctive</cell>
-                     <cell role="name" xml:lang="ka">აწმყოს კავშირებითი</cell>
-                     <cell role="code" xml:lang="en">r</cell>
-                  </row>
-                  <row role="value">
                      <cell role="name" xml:lang="en">future</cell>
                      <cell role="name" xml:lang="ka">მყოფადი</cell>
                      <cell role="code" xml:lang="en">f</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">future conditional</cell>
-                     <cell role="name" xml:lang="ka">ხოლმეობით-პირობითი</cell>
-                     <cell role="code" xml:lang="en">u</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">future subjunctive</cell>
-                     <cell role="name" xml:lang="ka">მყოფადის კავშირებითი</cell>
-                     <cell role="code" xml:lang="en">b</cell>
                   </row>
                   <row role="value">
                      <cell role="name" xml:lang="en">aorist</cell>
@@ -308,29 +293,14 @@
                      <cell role="code" xml:lang="en">a</cell>
                   </row>
                   <row role="value">
-                     <cell role="name" xml:lang="en">aorist subjunctive</cell> <!-- sometimes referred to as optative -->
-                     <cell role="name" xml:lang="ka">მეორე კავშირებითი</cell>
-                     <cell role="code" xml:lang="en">o</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">aorist imperative</cell>
-                     <cell role="name" xml:lang="ka">ბრძანებითი</cell>
-                     <cell role="code" xml:lang="en">t</cell>
-                  </row>
-                  <row role="value">
                      <cell role="name" xml:lang="en">perfect</cell>
-                     <cell role="name" xml:lang="ka">პირველი თურმეობითი</cell>
-                     <cell role="code" xml:lang="en">e</cell>
+                     <cell role="name" xml:lang="ka">პირველი_თურმეობითი</cell>
+                     <cell role="code" xml:lang="en">n</cell>
                   </row>
                   <row role="value">
                      <cell role="name" xml:lang="en">pluperfect</cell>
-                     <cell role="name" xml:lang="ka">მეორე თურმეობითი</cell>
+                     <cell role="name" xml:lang="ka">მეორე_თურმეობითი</cell>
                      <cell role="code" xml:lang="en">l</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">perfect subjunctive</cell>
-                     <cell role="name" xml:lang="ka">მესამე კავშირებითი</cell>
-                     <cell role="code" xml:lang="en">c</cell>
                   </row>
                </table>
             </cell>
@@ -356,7 +326,7 @@
          </row>     
          <row role="attribute">
             <cell role="position">5</cell>
-            <cell role="name" xml:lang="en">PType</cell> <!-- I doubt about this section. Georgian verb is polypersonal. It means that a verb can agree with more than one of its arguments (usually up to three). Depending on a verb, all three arguments (subject and objects) are distinguished at morphological level with special markers, there are sets of subject and object correlations indicating person and number.  -->
+            <cell role="name" xml:lang="en">PType</cell> <!-- Georgian verb is polypersonal. It means that a verb can agree with more than one of its arguments (usually up to three). Depending on a verb, all three arguments (subject and objects) are distinguished at morphological level with special markers, there are sets of subject and object correlations indicating person and number.  -->
             <cell role="name" xml:lang="ka">პირის ტიპი</cell>
             <cell>
                <table>
@@ -366,9 +336,14 @@
                      <cell role="code" xml:lang="en">s</cell>
                   </row>
                   <row role="value">
-                     <cell role="name" xml:lang="en">object</cell>
-                     <cell role="name" xml:lang="ka">ობიექტური</cell>
-                     <cell role="code" xml:lang="en">o</cell>
+                     <cell role="name" xml:lang="en">direct_object</cell>
+                     <cell role="name" xml:lang="ka">პირდაპირი_ობიექტური</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indirect_object</cell>
+                     <cell role="name" xml:lang="ka">ირიბი_ობიექტური</cell>
+                     <cell role="code" xml:lang="en">i</cell>
                   </row>
                </table>
             </cell>
@@ -445,7 +420,7 @@
                   <row role="value">
                      <cell role="name" xml:lang="en">mediopassive</cell>
                      <cell role="name" xml:lang="ka">მედიოპასივი</cell>
-                     <cell role="code" xml:lang="en">m</cell>
+                     <cell role="code" xml:lang="en">d</cell>
                   </row>
                </table>
             </cell>
@@ -464,7 +439,7 @@
                   <row role="value">
                      <cell role="name" xml:lang="en">ergative</cell>
                      <cell role="name" xml:lang="ka">მოთხრობითი</cell>
-                     <cell role="code" xml:lang="en">a</cell>
+                     <cell role="code" xml:lang="en">z</cell>
                   </row>
                   <row role="value">
                      <cell role="name" xml:lang="en">dative</cell>
@@ -519,7 +494,7 @@
          <list>
             <item n="1">VForm: The functions of causative indicate that a subject either causes someone or something else to do or be something or causes a change in state of a non-volitional event. Georgian morphosyntactic apparatus changes verbs into their causative forms.</item>
             <item n="2">Tense: The verbal inflectional paradigm in Modern Georgian consists of twelve screeves grouped in three TAM series, which indicate tense, aspect and mood based on similar morphological formation, case marking and agreement between subject and objects. TAM series distinguish present, imperfect, present subjunctive, future, future conditional, future subjunctive, aorist, aorist subjunctive, aorist imperative, perfect, pluperfect and perfect subjunctive.</item>
-            <item n="3">PType: Georgian verb has core and peripheral arguments. A core argument morphologically agrees with a verb by means of person and number markers and their quantity affects the conjugation system as a whole subdividing it into subject and object paradigms. Thus, it is crucial to distinguish type of person: subject and objects.</item>
+            <item n="3">PType: Georgian verb has core and peripheral arguments. A core argument morphologically agrees with a verb by means of person and number markers and their quantity affects the conjugation system as a whole subdividing it into subject and object paradigms. Thus, it is crucial to distinguish type of person: subject, direct and indirect objects.</item>
             <item n="4">Voice: Autoactive describes the relationship between the state that the verb expresses and the participants identified by its arguments. Inactive indicates that the subject is an inactive participant of an intransitive verb. Mediopassive gathers the meanings of both the middle voice and the passive voice.</item>
             <item n="5">Case: Case is used only with the forms of participle and gerund. In Georgian scientific literature gerund is referred to as verbal noun or masdar.</item>
          </list>
@@ -543,13 +518,65 @@
             <row>
                <cell>V</cell>
                <cell>m</cell> 
-               <cell>[ismcz]</cell> 
-               <cell>[pirfubaotelc]</cell> 
+               <cell>i</cell> 
+               <cell>[pifan]</cell> 
                <cell>[pe]</cell> 
-               <cell>[so]</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
+               <cell>[sdi]</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
                <cell>[123]</cell>
                <cell>[sp]</cell>
-               <cell>[acipm]</cell>
+               <cell>[acipd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>[pfan]</cell> 
+               <cell>[pe]</cell> 
+               <cell>[sdi]</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell> 
+               <cell>a</cell> 
+               <cell>[a]</cell> 
+               <cell>[pe]</cell> 
+               <cell>[sdi]</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell> 
+               <cell>c</cell> 
+               <cell>[if]</cell> 
+               <cell>[pe]</cell> 
+               <cell>[sdi]</cell> 
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell> 
+               <cell>z</cell> 
+               <cell>[pifanl]</cell> 
+               <cell>[pe]</cell> 
+               <cell>[sdi]</cell> 
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
                <cell>-</cell>
                <cell>-</cell>
             </row>
@@ -557,9 +584,9 @@
                <cell>V</cell>
                <cell>a</cell> 
                <cell>[ismc]</cell> 
-               <cell>[pirfubaotelc]</cell> 
+               <cell>[pifanl]</cell> 
                <cell>-</cell> 
-               <cell>[so]</cell> 
+               <cell>[si]</cell> 
                <cell>[123]</cell>
                <cell>[sp]</cell>
                <cell>-</cell>
@@ -576,7 +603,7 @@
                <cell>-</cell>
                <cell>[sp]</cell>
                <cell>-</cell>
-               <cell>[nadgiwv]</cell>
+               <cell>[nzdgiwv]</cell>
                <cell>[ny]</cell>
             </row>
          </table>
@@ -652,7 +679,7 @@
                   <row role="value">
                      <cell role="name" xml:lang="en">ergative</cell>
                      <cell role="name" xml:lang="ka">მოთხრობითი</cell>
-                     <cell role="code" xml:lang="en">a</cell>
+                     <cell role="code" xml:lang="en">z</cell>
                   </row>
                   <row role="value">
                      <cell role="name" xml:lang="en">dative</cell>
@@ -722,7 +749,7 @@
                <cell>A</cell>
                <cell>[pcs]</cell> 
                <cell>[sp]</cell> 
-               <cell>[nadgiwv]</cell> 
+               <cell>[nzdgiwv]</cell> 
                <cell>[ny]</cell>
             </row>
          </table>
@@ -852,7 +879,7 @@
                   <row role="value">
                      <cell role="name" xml:lang="en">ergative</cell>
                      <cell role="name" xml:lang="ka">მოთხრობითი</cell>
-                     <cell role="code" xml:lang="en">a</cell>
+                     <cell role="code" xml:lang="en">z</cell>
                   </row>
                   <row role="value">
                      <cell role="name" xml:lang="en">dative</cell>
@@ -924,7 +951,7 @@
                <cell>[ps]</cell> 
                <cell>[123]</cell> 
                <cell>[sp]</cell> 
-               <cell>[nadgiwv]</cell>
+               <cell>[nzdgiwv]</cell>
                <cell>[ny]</cell>
             </row>
             <row>
@@ -932,7 +959,7 @@
                <cell>[diqrym]</cell> 
                <cell>3</cell> 
                <cell>[sp]</cell> 
-               <cell>[nadgiwv]</cell>
+               <cell>[nzdgiwv]</cell>
                <cell>[ny]</cell>
             </row>
             <row>
@@ -940,7 +967,7 @@
                <cell>z</cell> 
                <cell>3</cell> 
                <cell>s</cell> 
-               <cell>[nadgiwv]</cell>
+               <cell>[nzdgiwv]</cell>
                <cell>[ny]</cell>
             </row>            
             <row>
@@ -948,7 +975,7 @@
                <cell>s</cell> 
                <cell>[123]</cell> 
                <cell>[sp]</cell> 
-               <cell>[nadgiwv]</cell>
+               <cell>[nzdgiwv]</cell>
                <cell>[ny]</cell>
             </row>
          </table>
@@ -984,14 +1011,14 @@
                      <cell role="code" xml:lang="en">t</cell>
                   </row>
                   <row role="value">
-                     <cell role="name" xml:lang="en">manner</cell>
+                     <cell role="name" xml:lang="en">modifier</cell>
                      <cell role="name" xml:lang="ka">ვითარების</cell>
                      <cell role="code" xml:lang="en">m</cell>
                   </row>
                   <row role="value">
-                     <cell role="name" xml:lang="en">measure</cell>
+                     <cell role="name" xml:lang="en">quantitative</cell>
                      <cell role="name" xml:lang="ka">ზომა-ოდენობის</cell>
-                     <cell role="code" xml:lang="en">q</cell>
+                     <cell role="code" xml:lang="en">u</cell>
                   </row>
                   <row role="value">
                      <cell role="name" xml:lang="en">causal</cell>
@@ -1011,7 +1038,7 @@
                   <row role="value">
                      <cell role="name" xml:lang="en">relative</cell>
                      <cell role="name" xml:lang="ka">მიმართებითი</cell>
-                     <cell role="code" xml:lang="en">r</cell>
+                     <cell role="code" xml:lang="en">l</cell>
                   </row>
                </table>
             </cell>
@@ -1052,7 +1079,7 @@
             </row>
             <row>
                <cell>R</cell>
-               <cell>[ltmqcsir]</cell> 
+               <cell>[ltmucsil]</cell> 
                <cell>[ny]</cell>
             </row>
          </table>
@@ -1224,7 +1251,7 @@
             <cell role="code" xml:lang="en">M</cell>
          </row> 
          <row role="attribute">
-            <cell role="position">2</cell>
+            <cell role="position">1</cell>
             <cell role="name" xml:lang="en">Type</cell>
             <cell role="name" xml:lang="ka">ტიპი</cell>
             <cell>
@@ -1250,7 +1277,7 @@
                      <cell role="code" xml:lang="en">m</cell>
                   </row>                  
                   <row role="value">
-                     <cell role="name" xml:lang="en">approximate</cell>
+                     <cell role="name" xml:lang="en">approximative</cell>
                      <cell role="name" xml:lang="ka">ოდნაობითი</cell>
                      <cell role="code" xml:lang="en">a</cell>
                   </row>
@@ -1258,7 +1285,7 @@
             </cell>
          </row>         
          <row role="attribute">
-            <cell role="position">1</cell>
+            <cell role="position">2</cell>
             <cell role="name" xml:lang="en">Form</cell>
             <cell role="name" xml:lang="ka">ფორმა</cell>
             <cell>
@@ -1279,9 +1306,9 @@
                      <cell role="code" xml:lang="en">l</cell>
                   </row>
                   <row role="value">
-                     <cell role="name" xml:lang="en">alphabet</cell>
+                     <cell role="name" xml:lang="en">alphabetic</cell>
                      <cell role="name" xml:lang="ka">ანბანური</cell>
-                     <cell role="code" xml:lang="en">a</cell>
+                     <cell role="code" xml:lang="en">c</cell>
                   </row>
                </table>
             </cell>
@@ -1319,7 +1346,7 @@
                   <row role="value">
                      <cell role="name" xml:lang="en">ergative</cell>
                      <cell role="name" xml:lang="ka">მოთხრობითი</cell>
-                     <cell role="code" xml:lang="en">a</cell>
+                     <cell role="code" xml:lang="en">z</cell>
                   </row>
                   <row role="value">
                      <cell role="name" xml:lang="en">dative</cell>
@@ -1392,7 +1419,7 @@
                <cell>[cof]</cell> 
                <cell>[drla]</cell> 
                <cell>[sp]</cell>
-               <cell>[ltmqcsir]</cell>
+               <cell>[nzdgiwv]</cell>
                <cell>[ny]</cell>
             </row>
             <row>
@@ -1452,173 +1479,21 @@
             <cell role="value" xml:lang="en">Abbreviation</cell>
             <cell role="value" xml:lang="ka">აბრევიატურა</cell>
             <cell role="code" xml:lang="en">Y</cell>
-         </row>
-         <row role="attribute">
-            <cell role="position">1</cell>
-            <cell role="name" xml:lang="en">Syntactic_Type</cell>
-            <cell role="name" xml:lang="ka">სინტაქსური ტიპი</cell>
-            <cell>
-               <table>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">nominal</cell>
-                     <cell role="name" xml:lang="ka">სახელური</cell>
-                     <cell role="code" xml:lang="en">n</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">verbal</cell>
-                     <cell role="name" xml:lang="ka">ზმნური</cell>
-                     <cell role="code" xml:lang="en">v</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">adjectival</cell>
-                     <cell role="name" xml:lang="ka">ზედსართაული</cell>
-                     <cell role="code" xml:lang="en">a</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">adverbial</cell>
-                     <cell role="name" xml:lang="ka">ზმნიზედური</cell>
-                     <cell role="code" xml:lang="en">r</cell>
-                  </row>
-               </table>
-            </cell>
-         </row>
-         <row role="attribute">
-            <cell role="position">2</cell>
-            <cell role="name" xml:lang="en">Number</cell>
-            <cell role="name" xml:lang="ka">რიცხვი</cell>
-            <cell>
-               <table>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">singular</cell>
-                     <cell role="name" xml:lang="ka">მხოლობითი</cell>
-                     <cell role="code" xml:lang="en">s</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">plural</cell>
-                     <cell role="name" xml:lang="ka">მრავლობითი</cell>
-                     <cell role="code" xml:lang="en">p</cell>
-                  </row>
-               </table>
-            </cell>
-         </row>
-         <row role="attribute">
-            <cell role="position">3</cell>
-            <cell role="name" xml:lang="en">Case</cell>
-            <cell role="name" xml:lang="ka">ბრუნვა</cell>
-            <cell>
-               <table>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">nominative</cell>
-                     <cell role="name" xml:lang="ka">სახელობითი</cell>
-                     <cell role="code" xml:lang="en">n</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">ergative</cell>
-                     <cell role="name" xml:lang="ka">მოთხრობითი</cell>
-                     <cell role="code" xml:lang="en">a</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">dative</cell>
-                     <cell role="name" xml:lang="ka">მიცემითი</cell>
-                     <cell role="code" xml:lang="en">d</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">genitive</cell>
-                     <cell role="name" xml:lang="ka">ნათესაობითი</cell>
-                     <cell role="code" xml:lang="en">g</cell>
-                  </row>                  
-                  <row role="value">
-                     <cell role="name" xml:lang="en">instrumental</cell>
-                     <cell role="name" xml:lang="ka">მოქმედებითი</cell>
-                     <cell role="code" xml:lang="en">i</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">essive</cell>
-                     <cell role="name" xml:lang="ka">ვითარებითი</cell> <!-- synonyms: adverbial -->
-                     <cell role="code" xml:lang="en">w</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">vocative</cell>
-                     <cell role="name" xml:lang="ka">წოდებითი</cell>
-                     <cell role="code" xml:lang="en">v</cell>
-                  </row>
-               </table>
-            </cell>
-         </row>
-         <row role="attribute">
-            <cell role="position">4</cell>
-            <cell role="name" xml:lang="en">Clitic</cell> 
-            <cell role="name" xml:lang="ka">კლიტიკი</cell>
-            <cell>
-               <table>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">no</cell>
-                     <cell role="name" xml:lang="ka">არ არის</cell> 
-                     <cell role="code" xml:lang="en">n</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">yes</cell>
-                     <cell role="name" xml:lang="ka">არის</cell>
-                     <cell role="code" xml:lang="en">y</cell>
-                  </row>
-               </table>
-            </cell>
-         </row>         
+         </row>      
       </table>
       <div>
          <head>Combinations</head>
          <table n="msd.combs">
             <row>
                <cell>POS</cell>
-               <cell>Type</cell> 
-               <cell>Number</cell>
-               <cell>Case</cell> 
-               <cell>Clitics</cell>
             </row>
             <row>
                <cell>Y</cell>
-               <cell>[na]</cell>  
-               <cell>[sp]</cell>
-               <cell>[ltmqcsir]</cell> 
-               <cell>[ny]</cell>
-            </row>
-            <row>
-               <cell>Y</cell>
-               <cell>[vz]</cell>  
-               <cell>[sp]</cell>
-               <cell>-</cell> 
-               <cell>-</cell>
             </row>
          </table>
       </div>
       <divGen type="msd.lex" select="ka"/>
    </div>  
-   <div type="section" select="ka" xml:id="msd.Z-ka">
-      <head>Punctuation</head>
-      <table n="msd.cat" select="ka" xml:id="msd.cat.Z-ka">
-         <head>Specification for Georgian Punctuation</head>
-         <row role="type">
-            <cell role="position">0</cell>
-            <cell role="name" xml:lang="en">CATEGORY</cell>
-            <cell role="name" xml:lang="ka">კატეგორია</cell>
-            <cell role="value" xml:lang="en">Punctuation</cell>
-            <cell role="value" xml:lang="ka">პუნქტუაცია</cell>
-            <cell role="code" xml:lang="en">Z</cell>
-         </row>
-      </table>
-      <div>
-         <head>Combinations</head>
-         <table n="msd.combs">
-            <row>
-               <cell>POS</cell>
-            </row>
-            <row>
-               <cell>Z</cell>
-            </row>
-         </table>
-      </div>
-      <divGen type="msd.lex" select="ka"/>
-   </div>
       <div type="section" select="ka" xml:id="msd.Q-ka">
          <head>Particle</head>
          <table n="msd.cat" select="ka" xml:id="msd.cat.Q-ka">
@@ -1630,68 +1505,42 @@
                <cell role="value" xml:lang="en">Particle</cell>
                <cell role="value" xml:lang="ka">ნაწილაკი</cell>
                <cell role="code" xml:lang="en">Q</cell>
-            </row>
-            <row role="attribute">
-               <cell role="position">1</cell>
-               <cell role="name" xml:lang="en">Type</cell>
-               <cell role="name" xml:lang="ka">ტიპი</cell>
-               <cell>
-                  <table>
-                     <row role="value">
-                        <cell role="name" xml:lang="en">negative</cell>
-                        <cell role="name" xml:lang="ka">უარყოფითი</cell>
-                        <cell role="code" xml:lang="en">z</cell>
-                     </row>
-                     <row role="value">
-                        <cell role="name" xml:lang="en">infinitive</cell>
-                        <cell role="name" xml:lang="ka">განუსაზღვრელობითი</cell>
-                        <cell role="code" xml:lang="en">n</cell>
-                     </row>
-                     <row role="value">
-                        <cell role="name" xml:lang="en">interrogative</cell>
-                        <cell role="name" xml:lang="ka">კითხვითი</cell>
-                        <cell role="code" xml:lang="en">q</cell>
-                     </row>
-                     <row role="value">
-                        <cell role="name" xml:lang="en">affirmative</cell>
-                        <cell role="name" xml:lang="ka">დადებითი</cell>
-                        <cell role="code" xml:lang="en">r</cell>
-                     </row>
-                     <row role="value">
-                        <cell role="name" xml:lang="en">relative</cell>
-                        <cell role="name" xml:lang="ka">მიმართებითი</cell>
-                        <cell role="code" xml:lang="en">e</cell>
-                     </row>
-                     <row role="value">
-                        <cell role="name" xml:lang="en">prohibitive</cell>
-                        <cell role="name" xml:lang="ka">უკუთქმითი</cell>
-                        <cell role="code" xml:lang="en">p</cell>
-                     </row>
-                     <row role="value">
-                        <cell role="name" xml:lang="en">intensive</cell>
-                        <cell role="name" xml:lang="ka">გაძლიერებითი</cell>
-                        <cell role="code" xml:lang="en">i</cell>
-                     </row>
-                  </table>
-               </cell>
             </row>         
          </table>
-         <div>
-            <head>Notes</head>
-            <list>
-               <item n="1">Type: Relative particle qualifies an explicit element. Prohibitive particle expresses prohibition (an order not to do something). Intensive particle intensifies action or quality.</item>
-            </list>
-         </div>
          <div>
             <head>Combinations</head>
             <table n="msd.combs">
                <row>
                   <cell>POS</cell>
-                  <cell>Type</cell> 
                </row>
                <row>
-                  <cell>Q</cell>
-                  <cell>[znqrepi]</cell>  
+                  <cell>Q</cell>  
+               </row>
+            </table>
+         </div>
+         <divGen type="msd.lex" select="ka"/>
+      </div>      
+      <div type="section" select="ka" xml:id="msd.Z-ka">
+         <head>Punctuation</head>
+         <table n="msd.cat" select="ka" xml:id="msd.cat.Z-ka">
+            <head>Specification for Georgian Punctuation</head>
+            <row role="type">
+               <cell role="position">0</cell>
+               <cell role="name" xml:lang="en">CATEGORY</cell>
+               <cell role="name" xml:lang="ka">კატეგორია</cell>
+               <cell role="value" xml:lang="en">Punctuation</cell>
+               <cell role="value" xml:lang="ka">პუნქტუაცია</cell>
+               <cell role="code" xml:lang="en">Z</cell>
+            </row>
+         </table>
+         <div>
+            <head>Combinations</head>
+            <table n="msd.combs">
+               <row>
+                  <cell>POS</cell>
+               </row>
+               <row>
+                  <cell>Z</cell>
                </row>
             </table>
          </div>

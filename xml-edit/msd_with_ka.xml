@@ -1690,10 +1690,10 @@
                            </table>
                         </cell>
                      </row>
-                     <!--WARN ka NEW attribute Noun/animacy at position 17-->
+                     <!--WARN ka NEW attribute Noun/Animacy at position 17-->
                      <row role="attribute">
                         <cell role="position">17</cell>
-                        <cell role="name">animacy</cell>
+                        <cell role="name">Animacy</cell>
                         <cell>
                            <table>
                               <row role="value">
@@ -2171,50 +2171,10 @@
                                  <cell role="code">c</cell>
                                  <cell role="lang">mk</cell>
                               </row>
-                              <!--WARN ka NEW value Verb/Tense=present subjunctive with code r-->
-                              <!--!ERROR ka CODE CLASH: NEW value Verb/Tense=present subjunctive with code r-->
-                              <row role="value">
-                                 <cell role="name">present subjunctive</cell>
-                                 <cell role="code">r</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <!--WARN ka NEW value Verb/Tense=future conditional with code u-->
-                              <row role="value">
-                                 <cell role="name">future conditional</cell>
-                                 <cell role="code">u</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <!--WARN ka NEW value Verb/Tense=future subjunctive with code b-->
-                              <row role="value">
-                                 <cell role="name">future subjunctive</cell>
-                                 <cell role="code">b</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <!--WARN ka NEW value Verb/Tense=aorist subjunctive with code o-->
-                              <row role="value">
-                                 <cell role="name">aorist subjunctive</cell>
-                                 <cell role="code">o</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <!--WARN ka NEW value Verb/Tense=aorist imperative with code t-->
-                              <!--!ERROR ka CODE CLASH: NEW value Verb/Tense=aorist imperative with code t-->
-                              <row role="value">
-                                 <cell role="name">aorist imperative</cell>
-                                 <cell role="code">t</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <!--WARN ka NEW value Verb/Tense=perfect with code e-->
-                              <!--!ERROR ka CODE CLASH: NEW value Verb/Tense=perfect with code e-->
+                              <!--WARN ka NEW value Verb/Tense=perfect with code n-->
                               <row role="value">
                                  <cell role="name">perfect</cell>
-                                 <cell role="code">e</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <!--WARN ka NEW value Verb/Tense=perfect subjunctive with code c-->
-                              <!--!ERROR ka CODE CLASH: NEW value Verb/Tense=perfect subjunctive with code c-->
-                              <row role="value">
-                                 <cell role="name">perfect subjunctive</cell>
-                                 <cell role="code">c</cell>
+                                 <cell role="code">n</cell>
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>
@@ -2470,11 +2430,10 @@
                                  <cell role="code">i</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <!--WARN ka NEW value Verb/Voice=mediopassive with code m-->
-                              <!--!ERROR ka CODE CLASH: NEW value Verb/Voice=mediopassive with code m-->
+                              <!--WARN ka NEW value Verb/Voice=mediopassive with code d-->
                               <row role="value">
                                  <cell role="name">mediopassive</cell>
-                                 <cell role="code">m</cell>
+                                 <cell role="code">d</cell>
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>
@@ -2703,11 +2662,10 @@
                                  <cell role="code">5</cell>
                                  <cell role="lang">et</cell>
                               </row>
-                              <!--WARN ka NEW value Verb/Case=ergative with code a-->
-                              <!--!ERROR ka CODE CLASH: NEW value Verb/Case=ergative with code a-->
+                              <!--WARN ka NEW value Verb/Case=ergative with code z-->
                               <row role="value">
                                  <cell role="name">ergative</cell>
-                                 <cell role="code">a</cell>
+                                 <cell role="code">z</cell>
                                  <cell role="lang">ka</cell>
                               </row>
                               <!--WARN ka NEW value Verb/Case=essive with code w-->
@@ -2922,8 +2880,13 @@
                                  <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
-                                 <cell role="name">object</cell>
-                                 <cell role="code">o</cell>
+                                 <cell role="name">direct_object</cell>
+                                 <cell role="code">d</cell>
+                                 <cell role="lang">ka</cell>
+                              </row>
+                              <row role="value">
+                                 <cell role="name">indirect_object</cell>
+                                 <cell role="code">i</cell>
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>
@@ -3505,11 +3468,10 @@
                                  <cell role="code">6</cell>
                                  <cell role="lang">ce</cell>
                               </row>
-                              <!--WARN ka NEW value Adjective/Case=ergative with code a-->
-                              <!--!ERROR ka CODE CLASH: NEW value Adjective/Case=ergative with code a-->
+                              <!--WARN ka NEW value Adjective/Case=ergative with code z-->
                               <row role="value">
                                  <cell role="name">ergative</cell>
-                                 <cell role="code">a</cell>
+                                 <cell role="code">z</cell>
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>
@@ -5715,6 +5677,8 @@
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">hu</cell>
                                  <cell role="lang">sq</cell>
+                                 <!--ka added to feature Adverb/Type=modifier-->
+                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">specifier</cell>
@@ -5766,25 +5730,16 @@
                                  <cell role="code">t</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <!--WARN ka NEW value Adverb/Type=manner with code m-->
-                              <!--!ERROR ka CODE CLASH: NEW value Adverb/Type=manner with code m-->
+                              <!--WARN ka NEW value Adverb/Type=quantitative with code u-->
                               <row role="value">
-                                 <cell role="name">manner</cell>
-                                 <cell role="code">m</cell>
+                                 <cell role="name">quantitative</cell>
+                                 <cell role="code">u</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <!--WARN ka NEW value Adverb/Type=measure with code q-->
-                              <!--!ERROR ka CODE CLASH: NEW value Adverb/Type=measure with code q-->
-                              <row role="value">
-                                 <cell role="name">measure</cell>
-                                 <cell role="code">q</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <!--WARN ka NEW value Adverb/Type=relative with code r-->
-                              <!--!ERROR ka CODE CLASH: NEW value Adverb/Type=relative with code r-->
+                              <!--WARN ka NEW value Adverb/Type=relative with code l-->
                               <row role="value">
                                  <cell role="name">relative</cell>
-                                 <cell role="code">r</cell>
+                                 <cell role="code">l</cell>
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>
@@ -6581,9 +6536,9 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">mk</cell>
                               </row>
-                              <!--WARN ka NEW value Numeral/Type=approximate with code a-->
+                              <!--WARN ka NEW value Numeral/Type=approximative with code a-->
                               <row role="value">
-                                 <cell role="name">approximate</cell>
+                                 <cell role="name">approximative</cell>
                                  <cell role="code">a</cell>
                                  <cell role="lang">ka</cell>
                               </row>
@@ -7078,12 +7033,7 @@
                                  <cell role="name">alphabetic</cell>
                                  <cell role="code">c</cell>
                                  <cell role="lang">bg-dam</cell>
-                              </row>
-                              <!--WARN ka NEW value Numeral/Form=alphabet with code a-->
-                              <!--!ERROR ka CODE CLASH: NEW value Numeral/Form=alphabet with code a-->
-                              <row role="value">
-                                 <cell role="name">alphabet</cell>
-                                 <cell role="code">a</cell>
+                                 <!--ka added to feature Numeral/Form=alphabetic-->
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>
@@ -7394,16 +7344,12 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
-                                 <!--ka added to feature Particle/Type=negative-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">infinitive</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">sq</cell>
-                                 <!--ka added to feature Particle/Type=infinitive-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">subjunctive</cell>
@@ -7449,8 +7395,6 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
-                                 <!--ka added to feature Particle/Type=interrogative-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">modal</cell>
@@ -7466,32 +7410,12 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">sr-tor</cell>
-                                 <!--ka added to feature Particle/Type=affirmative-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">definitive</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">bg-dam</cell>
-                              </row>
-                              <!--WARN ka NEW value Particle/Type=relative with code e-->
-                              <row role="value">
-                                 <cell role="name">relative</cell>
-                                 <cell role="code">e</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <!--WARN ka NEW value Particle/Type=prohibitive with code p-->
-                              <row role="value">
-                                 <cell role="name">prohibitive</cell>
-                                 <cell role="code">p</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <!--WARN ka NEW value Particle/Type=intensive with code i-->
-                              <row role="value">
-                                 <cell role="name">intensive</cell>
-                                 <cell role="code">i</cell>
-                                 <cell role="lang">ka</cell>
                               </row>
                            </table>
                         </cell>
@@ -7664,24 +7588,18 @@
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">et</cell>
                                  <cell role="lang">ru</cell>
-                                 <!--ka added to feature Abbreviation/Syntactic_Type=nominal-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">verbal</cell>
                                  <cell role="code">v</cell>
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">et</cell>
-                                 <!--ka added to feature Abbreviation/Syntactic_Type=verbal-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">adjectival</cell>
                                  <cell role="code">a</cell>
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">et</cell>
-                                 <!--ka added to feature Abbreviation/Syntactic_Type=adjectival-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">adverbial</cell>
@@ -7689,8 +7607,6 @@
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">et</cell>
                                  <cell role="lang">ru</cell>
-                                 <!--ka added to feature Abbreviation/Syntactic_Type=adverbial-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">pronominal</cell>
@@ -7737,8 +7653,6 @@
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">et</cell>
                                  <cell role="lang">ru</cell>
-                                 <!--ka added to feature Abbreviation/Number=singular-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">plural</cell>
@@ -7746,8 +7660,6 @@
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">et</cell>
                                  <cell role="lang">ru</cell>
-                                 <!--ka added to feature Abbreviation/Number=plural-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">paucal</cell>
@@ -7767,23 +7679,17 @@
                                  <cell role="code">n</cell>
                                  <cell role="lang">et</cell>
                                  <cell role="lang">ru</cell>
-                                 <!--ka added to feature Abbreviation/Case=nominative-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">genitive</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">et</cell>
                                  <cell role="lang">ru</cell>
-                                 <!--ka added to feature Abbreviation/Case=genitive-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">dative</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">ru</cell>
-                                 <!--ka added to feature Abbreviation/Case=dative-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">accusative</cell>
@@ -7799,8 +7705,6 @@
                                  <cell role="name">instrumental</cell>
                                  <cell role="code">i</cell>
                                  <cell role="lang">ru</cell>
-                                 <!--ka added to feature Abbreviation/Case=instrumental-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">direct</cell>
@@ -7816,8 +7720,6 @@
                                  <cell role="name">vocative</cell>
                                  <cell role="code">v</cell>
                                  <cell role="lang">ro</cell>
-                                 <!--ka added to feature Abbreviation/Case=vocative-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">partitive</cell>
@@ -7868,8 +7770,6 @@
                                  <cell role="name">essive</cell>
                                  <cell role="code">w</cell>
                                  <cell role="lang">et</cell>
-                                 <!--ka added to feature Abbreviation/Case=essive-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">abessive</cell>
@@ -7885,13 +7785,6 @@
                                  <cell role="name">aditive</cell>
                                  <cell role="code">7</cell>
                                  <cell role="lang">et</cell>
-                              </row>
-                              <!--WARN ka NEW value Abbreviation/Case=ergative with code a-->
-                              <!--!ERROR ka CODE CLASH: NEW value Abbreviation/Case=ergative with code a-->
-                              <row role="value">
-                                 <cell role="name">ergative</cell>
-                                 <cell role="code">a</cell>
-                                 <cell role="lang">ka</cell>
                               </row>
                            </table>
                         </cell>
@@ -7910,25 +7803,6 @@
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">ro</cell>
-                              </row>
-                           </table>
-                        </cell>
-                     </row>
-                     <!--WARN ka NEW attribute Abbreviation/Clitic at position 6-->
-                     <row role="attribute">
-                        <cell role="position">6</cell>
-                        <cell role="name">Clitic</cell>
-                        <cell>
-                           <table>
-                              <row role="value">
-                                 <cell role="name">no</cell>
-                                 <cell role="code">n</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <row role="value">
-                                 <cell role="name">yes</cell>
-                                 <cell role="code">y</cell>
-                                 <cell role="lang">ka</cell>
                               </row>
                            </table>
                         </cell>
