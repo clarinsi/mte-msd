@@ -964,6 +964,8 @@
                                  <cell role="name">gerund</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">pl</cell>
+                                 <!--ka added to feature Noun/Type=gerund-->
+                                 <cell role="lang">ka</cell>
                               </row>
                            </table>
                         </cell>
@@ -1490,6 +1492,8 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
+                                 <!--ka added to feature Noun/Animate=no-->
+                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">yes</cell>
@@ -1504,6 +1508,8 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
+                                 <!--ka added to feature Noun/Animate=yes-->
+                                 <cell role="lang">ka</cell>
                               </row>
                            </table>
                         </cell>
@@ -1686,25 +1692,6 @@
                                  <cell role="name">n-form</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">sr-tor</cell>
-                              </row>
-                           </table>
-                        </cell>
-                     </row>
-                     <!--WARN ka NEW attribute Noun/Animacy at position 17-->
-                     <row role="attribute">
-                        <cell role="position">17</cell>
-                        <cell role="name">Animacy</cell>
-                        <cell>
-                           <table>
-                              <row role="value">
-                                 <cell role="name">no</cell>
-                                 <cell role="code">n</cell>
-                                 <cell role="lang">ka</cell>
-                              </row>
-                              <row role="value">
-                                 <cell role="name">yes</cell>
-                                 <cell role="code">y</cell>
-                                 <cell role="lang">ka</cell>
                               </row>
                            </table>
                         </cell>
@@ -1956,8 +1943,6 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
-                                 <!--ka added to feature Verb/VForm=participle-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">gerund</cell>
@@ -1969,8 +1954,6 @@
                                  <cell role="lang">uk</cell>
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">ce</cell>
-                                 <!--ka added to feature Verb/VForm=gerund-->
-                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">supine</cell>
@@ -2813,11 +2796,15 @@
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">fa</cell>
+                                 <!--ka added to feature Verb/Transitive=no-->
+                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">yes</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">fa</cell>
+                                 <!--ka added to feature Verb/Transitive=yes-->
+                                 <cell role="lang">ka</cell>
                               </row>
                            </table>
                         </cell>
@@ -2977,6 +2964,8 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">mk</cell>
                                  <cell role="lang">sr-tor</cell>
+                                 <!--ka added to feature Adjective/Type=participle-->
+                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">general</cell>
@@ -2986,6 +2975,8 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">mk</cell>
                                  <cell role="lang">sr-tor</cell>
+                                 <!--ka added to feature Adjective/Type=general-->
+                                 <cell role="lang">ka</cell>
                               </row>
                               <row role="value">
                                  <cell role="name">preposed</cell>
@@ -5736,10 +5727,10 @@
                                  <cell role="code">u</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <!--WARN ka NEW value Adverb/Type=relative with code l-->
+                              <!--WARN ka NEW value Adverb/Type=relative with code e-->
                               <row role="value">
                                  <cell role="name">relative</cell>
-                                 <cell role="code">l</cell>
+                                 <cell role="code">e</cell>
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>

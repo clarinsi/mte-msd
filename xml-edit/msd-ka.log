@@ -1,6 +1,7 @@
 ka added to category Noun
 ka added to feature Noun/Type=common
 ka added to feature Noun/Type=proper
+ka added to feature Noun/Type=gerund
 ka added to feature Noun/Number=singular
 ka added to feature Noun/Number=plural
 ka added to feature Noun/Case=nominative
@@ -12,7 +13,8 @@ ka added to feature Noun/Case=essive
 ka added to feature Noun/Case=ergative
 ka added to feature Noun/Clitic=no
 ka added to feature Noun/Clitic=yes
-WARN ka NEW attribute Noun/Animacy at position 17
+ka added to feature Noun/Animate=no
+ka added to feature Noun/Animate=yes
 ka added to category Verb
 ka added to feature Verb/Type=main
 ka added to feature Verb/Type=auxiliary
@@ -20,8 +22,6 @@ ka added to feature Verb/VForm=indicative
 ka added to feature Verb/VForm=subjunctive
 ka added to feature Verb/VForm=imperative
 ka added to feature Verb/VForm=conditional
-ka added to feature Verb/VForm=participle
-ka added to feature Verb/VForm=gerund
 ka added to feature Verb/VForm=causative
 ka added to feature Verb/Tense=present
 ka added to feature Verb/Tense=imperfect
@@ -50,8 +50,12 @@ WARN ka NEW value Verb/Case=essive with code w
 WARN ka NEW value Verb/Case=vocative with code v
 ka added to feature Verb/Aspect=progressive
 ka added to feature Verb/Aspect=perfective
+ka added to feature Verb/Transitive=no
+ka added to feature Verb/Transitive=yes
 WARN ka NEW attribute Verb/PType at position 19
 ka added to category Adjective
+ka added to feature Adjective/Type=participle
+ka added to feature Adjective/Type=general
 ka added to feature Adjective/Degree=positive
 ka added to feature Adjective/Degree=comparative
 ka added to feature Adjective/Degree=superlative
@@ -98,7 +102,7 @@ ka added to feature Adverb/Type=interrogative
 WARN ka NEW value Adverb/Type=local with code l
 WARN ka NEW value Adverb/Type=temporal with code t
 WARN ka NEW value Adverb/Type=quantitative with code u
-WARN ka NEW value Adverb/Type=relative with code l
+WARN ka NEW value Adverb/Type=relative with code e
 ka added to feature Adverb/Clitic=no
 ka added to feature Adverb/Clitic=yes
 ka added to category Adposition

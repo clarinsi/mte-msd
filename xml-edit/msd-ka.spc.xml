@@ -6,7 +6,7 @@
      xml:id="msd-ka">
    <head>Georgian Specifications</head>
    <docAuthor>Irina Lobzhanidze</docAuthor>
-   <docDate>2021-02-17</docDate>
+   <docDate>2021-03-14</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Georgian</item>
@@ -53,13 +53,18 @@
                      <cell role="name" xml:lang="en">proper</cell>
                      <cell role="name" xml:lang="ka">საკუთარი</cell>
                      <cell role="code" xml:lang="en">p</cell>
+                  </row>                  
+                  <row role="value">
+                     <cell role="name" xml:lang="en">gerund</cell> <!-- synonyms: verbal noun or masdar -->
+                     <cell role="name" xml:lang="ka">საწყისი</cell>
+                     <cell role="code" xml:lang="en">g</cell>
                   </row>
                </table>
             </cell>
          </row>
          <row role="attribute">
             <cell role="position">2</cell>
-            <cell role="name" xml:lang="en">Animacy</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
             <cell role="name" xml:lang="ka">სულიერება/უსულოება</cell>
             <cell>
                <table>
@@ -180,7 +185,7 @@
             </row>
             <row>
                <cell>N</cell>
-               <cell>[cp]</cell> 
+               <cell>[cpg]</cell> 
                <cell>[ny]</cell> 
                <cell>[sp]</cell> 
                <cell>[nzdgiwv]</cell> 
@@ -253,16 +258,6 @@
                      <cell role="name" xml:lang="ka">კაუზატიური</cell>
                      <cell role="code" xml:lang="en">z</cell>
                   </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">participle</cell>
-                     <cell role="name" xml:lang="ka">მიმღეობა</cell>
-                     <cell role="code" xml:lang="en">p</cell>
-                  </row>
-                  <row role="value">
-                     <cell role="name" xml:lang="en">gerund</cell> <!-- synonyms: verbal noun or masdar -->
-                     <cell role="name" xml:lang="ka">საწყისი</cell>
-                     <cell role="code" xml:lang="en">g</cell>
-                  </row>
                </table>
             </cell>
          </row>
@@ -326,6 +321,25 @@
          </row>     
          <row role="attribute">
             <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Transitive</cell>
+            <cell role="name" xml:lang="ka">გარდამავლობა</cell>
+            <cell>
+               <table>
+               <row role="value">
+                  <cell role="name" xml:lang="en">no</cell>
+                  <cell role="name" xml:lang="ka">არ არის</cell> 
+                  <cell role="code" xml:lang="en">n</cell>
+               </row>
+               <row role="value">
+                  <cell role="name" xml:lang="en">yes</cell>
+                  <cell role="name" xml:lang="ka">არის</cell>
+                  <cell role="code" xml:lang="en">y</cell>
+               </row>
+               </table>
+            </cell>
+         </row>     
+         <row role="attribute">
+            <cell role="position">6</cell>
             <cell role="name" xml:lang="en">PType</cell> <!-- Georgian verb is polypersonal. It means that a verb can agree with more than one of its arguments (usually up to three). Depending on a verb, all three arguments (subject and objects) are distinguished at morphological level with special markers, there are sets of subject and object correlations indicating person and number.  -->
             <cell role="name" xml:lang="ka">პირის ტიპი</cell>
             <cell>
@@ -349,7 +363,7 @@
             </cell>
          </row>
          <row role="attribute">
-            <cell role="position">6</cell>
+            <cell role="position">7</cell>
             <cell role="name" xml:lang="en">Person</cell>
             <cell role="name" xml:lang="ka">პირი</cell>
             <cell>
@@ -373,7 +387,7 @@
             </cell>
          </row>
          <row role="attribute">
-            <cell role="position">7</cell>
+            <cell role="position">8</cell>
             <cell role="name" xml:lang="en">Number</cell>
             <cell role="name" xml:lang="ka">რიცხვი</cell>
             <cell>
@@ -392,7 +406,7 @@
             </cell>
          </row>
          <row role="attribute">
-            <cell role="position">8</cell>
+            <cell role="position">9</cell>
             <cell role="name" xml:lang="en">Voice</cell>
             <cell role="name" xml:lang="ka">გვარი</cell>
             <cell>
@@ -426,7 +440,7 @@
             </cell>
          </row>         
          <row role="attribute">
-            <cell role="position">9</cell>
+            <cell role="position">10</cell>
             <cell role="name" xml:lang="en">Case</cell>
             <cell role="name" xml:lang="ka">ბრუნვა</cell>
             <cell>
@@ -470,7 +484,7 @@
             </cell>
          </row>
          <row role="attribute">
-            <cell role="position">10</cell>
+            <cell role="position">11</cell>
             <cell role="name" xml:lang="en">Clitic</cell> 
             <cell role="name" xml:lang="ka">კლიტიკი</cell>
             <cell>
@@ -506,8 +520,9 @@
                <cell>POS</cell>
                <cell>Type</cell> 
                <cell>VForm</cell> 
-               <cell>Tense</cell> 
-               <cell>Aspect</cell> 
+               <cell>Tense</cell>                
+               <cell>Aspect</cell>
+               <cell>Transitive</cell> 
                <cell>PType</cell> 
                <cell>Person</cell>
                <cell>Number</cell>
@@ -521,12 +536,27 @@
                <cell>i</cell> 
                <cell>[pifan]</cell> 
                <cell>[pe]</cell> 
+               <cell>n</cell>
+               <cell>s</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>-</cell>
+               <cell>[yn]</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell> 
+               <cell>i</cell> 
+               <cell>[pifan]</cell> 
+               <cell>[pe]</cell> 
+               <cell>y</cell>
                <cell>[sdi]</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
                <cell>[123]</cell>
                <cell>[sp]</cell>
                <cell>[acipd]</cell>
                <cell>-</cell>
-               <cell>-</cell>
+               <cell>[yn]</cell>
             </row>
             <row>
                <cell>V</cell>
@@ -534,7 +564,36 @@
                <cell>s</cell> 
                <cell>[pfan]</cell> 
                <cell>[pe]</cell> 
+               <cell>n</cell>
+               <cell>s</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>-</cell>
+               <cell>[yn]</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell> 
+               <cell>s</cell> 
+               <cell>[pfan]</cell> 
+               <cell>[pe]</cell> 
+               <cell>y</cell>
                <cell>[sdi]</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>-</cell>
+               <cell>[yn]</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell> 
+               <cell>a</cell> 
+               <cell>[a]</cell> 
+               <cell>[pe]</cell> 
+               <cell>n</cell>
+               <cell>s</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
                <cell>[123]</cell>
                <cell>[sp]</cell>
                <cell>[acipd]</cell>
@@ -547,6 +606,7 @@
                <cell>a</cell> 
                <cell>[a]</cell> 
                <cell>[pe]</cell> 
+               <cell>y</cell>
                <cell>[sdi]</cell> <!-- Georgian verb is polypersonal. Thus, depending on the verb the combination can be the following: 1. s ; 2. so and 3. soo; Do I have to indicate these combinations separately? -->
                <cell>[123]</cell>
                <cell>[sp]</cell>
@@ -560,6 +620,21 @@
                <cell>c</cell> 
                <cell>[if]</cell> 
                <cell>[pe]</cell> 
+               <cell>n</cell>
+               <cell>s</cell> 
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell> 
+               <cell>c</cell> 
+               <cell>[if]</cell> 
+               <cell>[pe]</cell> 
+               <cell>y</cell>
                <cell>[sdi]</cell> 
                <cell>[123]</cell>
                <cell>[sp]</cell>
@@ -573,6 +648,7 @@
                <cell>z</cell> 
                <cell>[pifanl]</cell> 
                <cell>[pe]</cell> 
+               <cell>y</cell>
                <cell>[sdi]</cell> 
                <cell>[123]</cell>
                <cell>[sp]</cell>
@@ -586,7 +662,8 @@
                <cell>[ismc]</cell> 
                <cell>[pifanl]</cell> 
                <cell>-</cell> 
-               <cell>[si]</cell> 
+               <cell>n</cell>
+               <cell>s</cell> 
                <cell>[123]</cell>
                <cell>[sp]</cell>
                <cell>-</cell>
@@ -595,16 +672,17 @@
             </row>
             <row>
                <cell>V</cell>
+               <cell>a</cell> 
+               <cell>[ismc]</cell> 
+               <cell>[pifanl]</cell> 
                <cell>-</cell> 
-               <cell>[pg]</cell> 
-               <cell>-</cell> 
-               <cell>[pe]</cell> 
-               <cell>-</cell> 
-               <cell>-</cell>
+               <cell>y</cell>
+               <cell>[si]</cell> 
+               <cell>[123]</cell>
                <cell>[sp]</cell>
                <cell>-</cell>
-               <cell>[nzdgiwv]</cell>
-               <cell>[ny]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
             </row>
          </table>
       </div>
@@ -621,9 +699,28 @@
             <cell role="value" xml:lang="en">Adjective</cell>
             <cell role="value" xml:lang="ka">ზედსართავი სახელი</cell>
             <cell role="code" xml:lang="en">A</cell>
-         </row>         
+         </row>        
          <row role="attribute">
             <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="ka">ტიპი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="name" xml:lang="ka">ზოგადი</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">participle</cell>
+                     <cell role="name" xml:lang="ka">მიმღეობა</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
             <cell role="name" xml:lang="en">Degree</cell>
             <cell role="name" xml:lang="ka">ხარისხი</cell>
             <cell>
@@ -647,7 +744,7 @@
             </cell>
          </row>
          <row role="attribute">
-            <cell role="position">2</cell>
+            <cell role="position">3</cell>
             <cell role="name" xml:lang="en">Number</cell>
             <cell role="name" xml:lang="ka">რიცხვი</cell>
             <cell>
@@ -666,7 +763,7 @@
             </cell>
          </row>
          <row role="attribute">
-            <cell role="position">3</cell>
+            <cell role="position">4</cell>
             <cell role="name" xml:lang="en">Case</cell>
             <cell role="name" xml:lang="ka">ბრუნვა</cell>
             <cell>
@@ -710,7 +807,7 @@
             </cell>
          </row>
          <row role="attribute">
-            <cell role="position">4</cell>
+            <cell role="position">5</cell>
             <cell role="name" xml:lang="en">Clitic</cell> 
             <cell role="name" xml:lang="ka">კლიტიკი</cell>
             <cell>
@@ -732,7 +829,7 @@
       <div>
          <head>Notes</head>
          <list>
-            <item n="1">Type: Possessive referfs to pronouns, while ordinal - to numerals. </item> <!-- in the sense indicated in the specifications of other languages -->
+            <item n="1">Type: Possessive refers to pronouns, while ordinal - to numerals. </item> <!-- in the sense indicated in the specifications of other languages -->
          </list>
       </div>
       <div>
@@ -740,6 +837,7 @@
          <table n="msd.combs">
             <row>
                <cell>POS</cell>
+               <cell>Type</cell>
                <cell>Degree</cell> 
                <cell>Number</cell> 
                <cell>Case</cell> 
@@ -747,7 +845,16 @@
             </row>
             <row>
                <cell>A</cell>
+               <cell>g</cell>
                <cell>[pcs]</cell> 
+               <cell>[sp]</cell> 
+               <cell>[nzdgiwv]</cell> 
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>p</cell>
+               <cell>-</cell> 
                <cell>[sp]</cell> 
                <cell>[nzdgiwv]</cell> 
                <cell>[ny]</cell>
@@ -1038,7 +1145,7 @@
                   <row role="value">
                      <cell role="name" xml:lang="en">relative</cell>
                      <cell role="name" xml:lang="ka">მიმართებითი</cell>
-                     <cell role="code" xml:lang="en">l</cell>
+                     <cell role="code" xml:lang="en">e</cell>
                   </row>
                </table>
             </cell>
@@ -1169,7 +1276,7 @@
       <div>
          <head>Notes</head>
          <list>
-            <item n="1">Case: Postpositions are not used neither with ergative, nor with vocative cases.</item>
+            <item n="1">Case: Postpositions are not used with ergative and vocative cases.</item>
          </list>
       </div>
       <div>
@@ -1400,7 +1507,7 @@
          <head>Notes</head>
          <list>
             <item n="1">Type: Multiple numerals are sometimes referred to as repetitive. Approximate numerals describe a small amount of something.</item>
-            <item n="2">Form: Alphabet indicate special values attached to the letters of Georgian alphabet (Asomtavruli, Nuskhuri or Mkhedruli).</item>
+            <item n="2">Form: Alphabetic indicates that special values are attached to the letters of Georgian alphabet (Asomtavruli, Nuskhuri or Mkhedruli).</item>
          </list>
       </div>
       <div>
