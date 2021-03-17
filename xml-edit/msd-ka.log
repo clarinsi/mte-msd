@@ -29,11 +29,6 @@ ka added to feature Verb/Tense=future
 ka added to feature Verb/Tense=pluperfect
 ka added to feature Verb/Tense=aorist
 WARN ka NEW value Verb/Tense=perfect with code n
-ka added to feature Verb/Person=first
-ka added to feature Verb/Person=second
-ka added to feature Verb/Person=third
-ka added to feature Verb/Number=singular
-ka added to feature Verb/Number=plural
 ka added to feature Verb/Voice=active
 ka added to feature Verb/Voice=passive
 WARN ka NEW value Verb/Voice=autoactive with code c
@@ -41,18 +36,17 @@ WARN ka NEW value Verb/Voice=inactive with code i
 WARN ka NEW value Verb/Voice=mediopassive with code d
 ka added to feature Verb/Clitic=no
 ka added to feature Verb/Clitic=yes
-ka added to feature Verb/Case=nominative
-ka added to feature Verb/Case=genitive
-ka added to feature Verb/Case=dative
-ka added to feature Verb/Case=instrumental
-WARN ka NEW value Verb/Case=ergative with code z
-WARN ka NEW value Verb/Case=essive with code w
-WARN ka NEW value Verb/Case=vocative with code v
 ka added to feature Verb/Aspect=progressive
 ka added to feature Verb/Aspect=perfective
-ka added to feature Verb/Transitive=no
-ka added to feature Verb/Transitive=yes
-WARN ka NEW attribute Verb/PType at position 19
+WARN ka NEW attribute Verb/Subject_Person at position 19
+WARN ka NEW attribute Verb/Direct_Object_Person at position 20
+WARN ka NEW attribute Verb/Indirect_Object_Person at position 21
+WARN ka NEW attribute Verb/Subject_Number at position 22
+WARN ka NEW attribute Verb/Direct_Object_Number at position 23
+WARN ka NEW attribute Verb/Indirect_Object_Number at position 24
+WARN ka NEW attribute Verb/Subject_Case at position 25
+WARN ka NEW attribute Verb/Direct_Object_Case at position 26
+WARN ka NEW attribute Verb/Indirect_Object_Case at position 27
 ka added to category Adjective
 ka added to feature Adjective/Type=participle
 ka added to feature Adjective/Type=general

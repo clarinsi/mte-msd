@@ -1,0 +1,3640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="ka"
+     xml:id="msd-ka">
+   <head>Georgian Specifications</head>
+   <docAuthor>Irina Lobzhanidze</docAuthor>
+   <docDate>2021-03-16</docDate>
+   <list type="gloss">
+      <label>Language Name:</label>
+      <item>Georgian</item>
+      <label>Code:</label>
+      <item>ka</item>
+      <label>Reference:</label>
+      <item>
+         <ref target="https://en.wikipedia.org/wiki/Georgian_language">Wikipedia</ref>
+      </item>
+   </list>
+   <divGen type="subtoc"/>
+   <div>
+      <head>Introduction to Georgian Specifications</head>
+      <p>These specifications were created for the purpose of morphological annotation of a diachronic corpus of Georgian language containing texts starting from the VIth century.</p>
+   </div>
+   <div type="section" select="ka" xml:id="msd.categories-ka">
+      <head>Georgian Category Index</head>
+      <div xml:id="msd.cats-ka">
+         <head>Table of categories</head>
+         <table>
+            <row role="label">
+               <cell>CATEGORY (en)</cell>
+               <cell>Value (en)</cell>
+               <cell>Code (en)</cell>
+               <cell>CATEGORY (ka)</cell>
+               <cell>Value (ka)</cell>
+               <cell>Code (ka)</cell>
+               <cell>Attributes</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Noun</cell>
+               <cell>N</cell>
+               <cell>კატეგორია</cell>
+               <cell>არსებითი სახელი</cell>
+               <cell>(en)</cell>
+               <cell role="attno">5</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Verb</cell>
+               <cell>V</cell>
+               <cell>კატეგორია</cell>
+               <cell>ზმნა
+            </cell>
+               <cell>(en)</cell>
+               <cell role="attno">15</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Adjective</cell>
+               <cell>A</cell>
+               <cell>კატეგორია</cell>
+               <cell>ზედსართავი სახელი</cell>
+               <cell>(en)</cell>
+               <cell role="attno">5</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Pronoun</cell>
+               <cell>P</cell>
+               <cell>კატეგორია</cell>
+               <cell>ნაცვალსახელი</cell>
+               <cell>(en)</cell>
+               <cell role="attno">5</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Adverb</cell>
+               <cell>R</cell>
+               <cell>კატეგორია</cell>
+               <cell>ზმნიზედა</cell>
+               <cell>(en)</cell>
+               <cell role="attno">2</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Adposition</cell>
+               <cell>S</cell>
+               <cell>კატეგორია</cell>
+               <cell>წინ-/თანდებული</cell>
+               <cell>(en)</cell>
+               <cell role="attno">3</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Conjunction</cell>
+               <cell>C</cell>
+               <cell>კატეგორია</cell>
+               <cell>კავშირი</cell>
+               <cell>(en)</cell>
+               <cell role="attno">1</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Numeral</cell>
+               <cell>M</cell>
+               <cell>კატეგორია</cell>
+               <cell>რიცხვითი სახელი</cell>
+               <cell>(en)</cell>
+               <cell role="attno">5</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Interjection</cell>
+               <cell>I</cell>
+               <cell>კატეგორია</cell>
+               <cell>შორისდებული</cell>
+               <cell>(en)</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Particle</cell>
+               <cell>Q</cell>
+               <cell>კატეგორია</cell>
+               <cell>ნაწილაკი</cell>
+               <cell>(en)</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Abbreviation</cell>
+               <cell>Y</cell>
+               <cell>კატეგორია</cell>
+               <cell>აბრევიატურა</cell>
+               <cell>(en)</cell>
+               <cell role="attno">0</cell>
+            </row>
+            <row role="data">
+               <cell>CATEGORY</cell>
+               <cell>Punctuation</cell>
+               <cell>Z</cell>
+               <cell>კატეგორია</cell>
+               <cell>პუნქტუაცია</cell>
+               <cell>(en)</cell>
+               <cell role="attno">0</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.N-ka">
+      <head>Noun</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.N-ka">
+         <head>Specification for Georgian Noun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Noun</cell>
+            <cell role="value" xml:lang="ka">არსებითი სახელი</cell>
+            <cell role="code" xml:lang="en">N</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="ka">ტიპი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">common</cell>
+                     <cell role="name" xml:lang="ka">საზოგადო</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">proper</cell>
+                     <cell role="name" xml:lang="ka">საკუთარი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">gerund</cell>
+                     <cell role="name" xml:lang="ka">საწყისი</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Animate</cell>
+            <cell role="name" xml:lang="ka">სულიერება/უსულოება</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="ka">უსულო</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="ka">სულიერი</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="name" xml:lang="ka">რიცხვი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="ka">მხოლობითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="ka">მრავლობითი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="ka">ბრუნვა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="ka">სახელობითი</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ergative</cell>
+                     <cell role="name" xml:lang="ka">მოთხრობითი</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="ka">მიცემითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="ka">ნათესაობითი</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="ka">მოქმედებითი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">essive</cell>
+                     <cell role="name" xml:lang="ka">ვითარებითი</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="name" xml:lang="ka">წოდებითი</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="name" xml:lang="ka">კლიტიკი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="ka">არ არის</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="ka">არის</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div>
+         <head>Notes</head>
+         <list>
+            <item n="1">Gender: Not applicable to Georgian.</item>
+            <item n="2">Case: The functions of adverbial case are similiar to Finish translative and essive cases. Hereinafter, adverbial case is referred to as essive.</item>
+            <item n="3">Clitics: There are four types of clitics in Georgian, especially, postpositions, particles, and auxiliary verb. Clitics act like affixes, but syntactically they are independent of a host.</item>
+         </list>
+      </div>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+               <cell>Type</cell>
+               <cell>Animacy</cell>
+               <cell>Number</cell>
+               <cell>Case</cell>
+               <cell>Clitics</cell>
+            </row>
+            <row>
+               <cell>N</cell>
+               <cell>[cpg]</cell>
+               <cell>[ny]</cell>
+               <cell>[sp]</cell>
+               <cell>[nzdgiwv]</cell>
+               <cell>[ny]</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.V-ka">
+      <head>Verb</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.V-ka">
+         <head>Specification for Georgian Verb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Verb</cell>
+            <cell role="value" xml:lang="ka">ზმნა
+            </cell>
+            <cell role="code" xml:lang="en">V</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="ka">ტიპი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">main</cell>
+                     <cell role="name" xml:lang="ka">ძირითადი</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">auxiliary</cell>
+                     <cell role="name" xml:lang="ka">დამხმარე</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">VForm</cell>
+            <cell role="name" xml:lang="ka">ზმნური_ფორმა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indicative</cell>
+                     <cell role="name" xml:lang="ka">თხრობითი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subjunctive</cell>
+                     <cell role="name" xml:lang="ka">კავშირებითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperative</cell>
+                     <cell role="name" xml:lang="ka">ბრძანებითი</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">conditional</cell>
+                     <cell role="name" xml:lang="ka">პირობითი</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">causative</cell>
+                     <cell role="name" xml:lang="ka">კაუზატიური</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Tense</cell>
+            <cell role="name" xml:lang="ka">დრო</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">present</cell>
+                     <cell role="name" xml:lang="ka">აწმყო</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">imperfect</cell>
+                     <cell role="name" xml:lang="ka">უწყვეტელი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">future</cell>
+                     <cell role="name" xml:lang="ka">მყოფადი</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">aorist</cell>
+                     <cell role="name" xml:lang="ka">წყვეტილი</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">perfect</cell>
+                     <cell role="name" xml:lang="ka">პირველი_თურმეობითი</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">pluperfect</cell>
+                     <cell role="name" xml:lang="ka">მეორე_თურმეობითი</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Aspect</cell>
+            <cell role="name" xml:lang="ka">ასპექტი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">progressive</cell>
+                     <cell role="name" xml:lang="ka">უსრული</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">perfective</cell>
+                     <cell role="name" xml:lang="ka">სრული</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Subject_Person</cell>
+            <cell role="name" xml:lang="ka">სუბიექტის_პირი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="name" xml:lang="ka">პირველი</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="name" xml:lang="ka">მეორე</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="name" xml:lang="ka">მესამე</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">6</cell>
+            <cell role="name" xml:lang="en">Direct_Object_Person</cell>
+            <cell role="name" xml:lang="ka">პირდაპირი_ობიექტის_პირი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="name" xml:lang="ka">პირველი</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="name" xml:lang="ka">მეორე</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="name" xml:lang="ka">მესამე</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">7</cell>
+            <cell role="name" xml:lang="en">Indirect_Object_Person</cell>
+            <cell role="name" xml:lang="ka">ირიბი_ობიექტის_პირი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="name" xml:lang="ka">პირველი</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="name" xml:lang="ka">მეორე</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="name" xml:lang="ka">მესამე</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">8</cell>
+            <cell role="name" xml:lang="en">Subject_Number</cell>
+            <cell role="name" xml:lang="ka">სუბიექტის_რიცხვი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="ka">მხოლობითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="ka">მრავლობითი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">9</cell>
+            <cell role="name" xml:lang="en">Direct_Object_Number</cell>
+            <cell role="name" xml:lang="ka">პირდაპირი_ობიექტის_რიცხვი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="ka">მხოლობითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="ka">მრავლობითი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">10</cell>
+            <cell role="name" xml:lang="en">Indirect_Object_Number</cell>
+            <cell role="name" xml:lang="ka">ირიბი_ობიექტის_რიცხვი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="ka">მხოლობითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="ka">მრავლობითი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">11</cell>
+            <cell role="name" xml:lang="en">Voice</cell>
+            <cell role="name" xml:lang="ka">გვარი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">active</cell>
+                     <cell role="name" xml:lang="ka">აქტივი</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">autoactive</cell>
+                     <cell role="name" xml:lang="ka">ავტოაქტივი</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">inactive</cell>
+                     <cell role="name" xml:lang="ka">ინაქტივი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">passive</cell>
+                     <cell role="name" xml:lang="ka">პასივი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">mediopassive</cell>
+                     <cell role="name" xml:lang="ka">მედიოპასივი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">12</cell>
+            <cell role="name" xml:lang="en">Subject_Case</cell>
+            <cell role="name" xml:lang="ka">სუბიექტის_ბრუნვა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="ka">სახელობითი</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ergative</cell>
+                     <cell role="name" xml:lang="ka">მოთხრობითი</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="ka">მიცემითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">13</cell>
+            <cell role="name" xml:lang="en">Direct_Object_Case</cell>
+            <cell role="name" xml:lang="ka">პირდაპირი_ობიექტის_ბრუნვა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="ka">სახელობითი</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="ka">მიცემითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">14</cell>
+            <cell role="name" xml:lang="en">Indirect_Object_Case</cell>
+            <cell role="name" xml:lang="ka">ირიბი_ობიექტის_ბრუნვა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="ka">მიცემითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">15</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="name" xml:lang="ka">კლიტიკი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="ka">არ არის</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="ka">არის</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div>
+         <head>Notes</head>
+         <list>
+            <item n="1">VForm: The functions of causative indicate that a subject either causes someone or something else to do or be something or causes a change in state of a non-volitional event. Georgian morphosyntactic apparatus changes verbs into their causative forms.</item>
+            <item n="2">Tense: The verbal inflectional paradigm in Modern Georgian consists of twelve screeves grouped in three TAM series, which indicate tense, aspect and mood based on similar morphological formation, case marking and agreement between subject and objects. TAM series distinguish present, imperfect, present subjunctive, future, future conditional, future subjunctive, aorist, aorist subjunctive, aorist imperative, perfect, pluperfect and perfect subjunctive.</item>
+            <item n="4">Voice: Autoactive describes the relationship between the state that the verb expresses and the participants identified by its arguments. Inactive indicates that the subject is an inactive participant of an intransitive verb. Mediopassive gathers the meanings of both the middle voice and the passive voice.</item>
+         </list>
+      </div>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+               <cell>Type</cell>
+               <cell>VForm</cell>
+               <cell>Tense</cell>
+               <cell>Aspect</cell>
+               <cell>Subject_Person</cell>
+               <cell>Direct_Object_Person</cell>
+               <cell>Indirect_Object_Person</cell>
+               <cell>Subject_Number</cell>
+               <cell>Direct_Object_Number</cell>
+               <cell>Indirect_Object_Number</cell>
+               <cell>Voice</cell>
+               <cell>Subject_Case</cell>
+               <cell>Direct_Object_Case</cell>
+               <cell>Indirect_Object_Case</cell>
+               <cell>Clitics</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>i</cell>
+               <cell>[pifan]</cell>
+               <cell>[pe]</cell>
+               <cell>[123]</cell>
+               <cell>3</cell>
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>[nzd]</cell>
+               <cell>[nd]</cell>
+               <cell>d</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>s</cell>
+               <cell>[pfan]</cell>
+               <cell>[pe]</cell>
+               <cell>[123]</cell>
+               <cell>3</cell>
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>[nzd]</cell>
+               <cell>[nd]</cell>
+               <cell>d</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>a</cell>
+               <cell>[a]</cell>
+               <cell>[pe]</cell>
+               <cell>[123]</cell>
+               <cell>3</cell>
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>[nzd]</cell>
+               <cell>[nd]</cell>
+               <cell>d</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>c</cell>
+               <cell>[if]</cell>
+               <cell>[pe]</cell>
+               <cell>[123]</cell>
+               <cell>3</cell>
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>[nzd]</cell>
+               <cell>[nd]</cell>
+               <cell>d</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>m</cell>
+               <cell>z</cell>
+               <cell>[pifanl]</cell>
+               <cell>[pe]</cell>
+               <cell>[123]</cell>
+               <cell>3</cell>
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[sp]</cell>
+               <cell>[acipd]</cell>
+               <cell>[nzd]</cell>
+               <cell>[nd]</cell>
+               <cell>d</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>a</cell>
+               <cell>[ismc]</cell>
+               <cell>[pifanl]</cell>
+               <cell>-</cell>
+               <cell>[123]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[acipd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>V</cell>
+               <cell>a</cell>
+               <cell>[ismc]</cell>
+               <cell>[pifanl]</cell>
+               <cell>-</cell>
+               <cell>[123]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[sp]</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[acipd]</cell>
+               <cell>n</cell>
+               <cell>-</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.A-ka">
+      <head>Adjective</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.A-ka">
+         <head>Specification for Georgian Adjective</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Adjective</cell>
+            <cell role="value" xml:lang="ka">ზედსართავი სახელი</cell>
+            <cell role="code" xml:lang="en">A</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="ka">ტიპი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">general</cell>
+                     <cell role="name" xml:lang="ka">ზოგადი</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">participle</cell>
+                     <cell role="name" xml:lang="ka">მიმღეობა</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Degree</cell>
+            <cell role="name" xml:lang="ka">ხარისხი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">positive</cell>
+                     <cell role="name" xml:lang="ka">დადებითი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">comparative</cell>
+                     <cell role="name" xml:lang="ka">ოდნაობითი</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">superlative</cell>
+                     <cell role="name" xml:lang="ka">უფროობითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="name" xml:lang="ka">რიცხვი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="ka">მხოლობითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="ka">მრავლობითი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="ka">ბრუნვა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="ka">სახელობითი</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ergative</cell>
+                     <cell role="name" xml:lang="ka">მოთხრობითი</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="ka">მიცემითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="ka">ნათესაობითი</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="ka">მოქმედებითი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">essive</cell>
+                     <cell role="name" xml:lang="ka">ვითარებითი</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="name" xml:lang="ka">წოდებითი</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="name" xml:lang="ka">კლიტიკი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="ka">არ არის</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="ka">არის</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div>
+         <head>Notes</head>
+         <list>
+            <item n="1">Type: Possessive refers to pronouns, while ordinal - to numerals. </item>
+         </list>
+      </div>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+               <cell>Type</cell>
+               <cell>Degree</cell>
+               <cell>Number</cell>
+               <cell>Case</cell>
+               <cell>Clitics</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>g</cell>
+               <cell>[pcs]</cell>
+               <cell>[sp]</cell>
+               <cell>[nzdgiwv]</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>p</cell>
+               <cell>-</cell>
+               <cell>[sp]</cell>
+               <cell>[nzdgiwv]</cell>
+               <cell>[ny]</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.P-ka">
+      <head>Pronoun</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.P-ka">
+         <head>Specification for Georgian Pronoun</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Pronoun</cell>
+            <cell role="value" xml:lang="ka">ნაცვალსახელი</cell>
+            <cell role="code" xml:lang="en">P</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="ka">ტიპი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">personal</cell>
+                     <cell role="name" xml:lang="ka">პირის</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">demonstrative</cell>
+                     <cell role="name" xml:lang="ka">ჩვენებითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">indefinite</cell>
+                     <cell role="name" xml:lang="ka">განუსაზღვრელობითი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">possessive</cell>
+                     <cell role="name" xml:lang="ka">კუთვნილებითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">interrogative</cell>
+                     <cell role="name" xml:lang="ka">კითხვითი</cell>
+                     <cell role="code" xml:lang="en">q</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">relative</cell>
+                     <cell role="name" xml:lang="ka">მიმართებითი</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">reciprocal</cell>
+                     <cell role="name" xml:lang="ka">ურთიერთობითი</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">negative</cell>
+                     <cell role="name" xml:lang="ka">უარყოფითი</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">determinal</cell>
+                     <cell role="name" xml:lang="ka">განსაზღვრებითი</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Person</cell>
+            <cell role="name" xml:lang="ka">პირი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">first</cell>
+                     <cell role="name" xml:lang="ka">პირველი</cell>
+                     <cell role="code" xml:lang="en">1</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">second</cell>
+                     <cell role="name" xml:lang="ka">მეორე</cell>
+                     <cell role="code" xml:lang="en">2</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">third</cell>
+                     <cell role="name" xml:lang="ka">მესამე</cell>
+                     <cell role="code" xml:lang="en">3</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="name" xml:lang="ka">რიცხვი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="ka">მხოლობითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="ka">მრავლობითი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="ka">ბრუნვა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="ka">სახელობითი</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ergative</cell>
+                     <cell role="name" xml:lang="ka">მოთხრობითი</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="ka">მიცემითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="ka">ნათესაობითი</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="ka">მოქმედებითი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">essive</cell>
+                     <cell role="name" xml:lang="ka">ვითარებითი</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="name" xml:lang="ka">წოდებითი</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="name" xml:lang="ka">კლიტიკი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="ka">არ არის</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="ka">არის</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div>
+         <head>Notes</head>
+         <list>
+            <item n="1">Type: Negative pronoun replaces and negates nouns.</item>
+         </list>
+      </div>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+               <cell>Type</cell>
+               <cell>Person</cell>
+               <cell>Number</cell>
+               <cell>Case</cell>
+               <cell>Clitics</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>[ps]</cell>
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[nzdgiwv]</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>[diqrym]</cell>
+               <cell>3</cell>
+               <cell>[sp]</cell>
+               <cell>[nzdgiwv]</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>z</cell>
+               <cell>3</cell>
+               <cell>s</cell>
+               <cell>[nzdgiwv]</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>P</cell>
+               <cell>s</cell>
+               <cell>[123]</cell>
+               <cell>[sp]</cell>
+               <cell>[nzdgiwv]</cell>
+               <cell>[ny]</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.R-ka">
+      <head>Adverb</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.R-ka">
+         <head>Specification for Georgian Adverb</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Adverb</cell>
+            <cell role="value" xml:lang="ka">ზმნიზედა</cell>
+            <cell role="code" xml:lang="en">R</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="ka">ტიპი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">local</cell>
+                     <cell role="name" xml:lang="ka">ადგილის</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">temporal</cell>
+                     <cell role="name" xml:lang="ka">დროის</cell>
+                     <cell role="code" xml:lang="en">t</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">modifier</cell>
+                     <cell role="name" xml:lang="ka">ვითარების</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">quantitative</cell>
+                     <cell role="name" xml:lang="ka">ზომა-ოდენობის</cell>
+                     <cell role="code" xml:lang="en">u</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">causal</cell>
+                     <cell role="name" xml:lang="ka">მიზეზის</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">specifier</cell>
+                     <cell role="name" xml:lang="ka">მიზნის</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">interrogative</cell>
+                     <cell role="name" xml:lang="ka">კითხვითი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">relative</cell>
+                     <cell role="name" xml:lang="ka">მიმართებითი</cell>
+                     <cell role="code" xml:lang="en">e</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="name" xml:lang="ka">კლიტიკი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="ka">არ არის</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="ka">არის</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div>
+         <head>Notes</head>
+         <list>
+            <item n="1">Degree, number and person are not applicable to Adverb.</item>
+         </list>
+      </div>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+               <cell>Type</cell>
+               <cell>Clitics</cell>
+            </row>
+            <row>
+               <cell>R</cell>
+               <cell>[ltmucsil]</cell>
+               <cell>[ny]</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.S-ka">
+      <head>Adposition</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.S-ka">
+         <head>Specification for Georgian Adposition</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Adposition</cell>
+            <cell role="value" xml:lang="ka">წინ-/თანდებული</cell>
+            <cell role="code" xml:lang="en">S</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="ka">ტიპი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">postposition</cell>
+                     <cell role="name" xml:lang="ka">თანდებული</cell>
+                     <cell role="code" xml:lang="en">t</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="ka">ბრუნვა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="ka">სახელობითი</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="ka">მიცემითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="ka">ნათესაობითი</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="ka">მოქმედებითი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">essive</cell>
+                     <cell role="name" xml:lang="ka">ვითარებითი</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="name" xml:lang="ka">კლიტიკი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="ka">არ არის</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="ka">არის</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div>
+         <head>Notes</head>
+         <list>
+            <item n="1">Case: Postpositions are not used with ergative and vocative cases.</item>
+         </list>
+      </div>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+               <cell>Type</cell>
+               <cell>Case</cell>
+               <cell>Clitics</cell>
+            </row>
+            <row>
+               <cell>S</cell>
+               <cell>t</cell>
+               <cell>[ndgiw]</cell>
+               <cell>[ny]</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.C-ka">
+      <head>Conjunction</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.C-ka">
+         <head>Specification for Georgian Conjunction</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Conjunction</cell>
+            <cell role="value" xml:lang="ka">კავშირი</cell>
+            <cell role="code" xml:lang="en">C</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="ka">ტიპი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">coordinating</cell>
+                     <cell role="name" xml:lang="ka">მაერთებელი</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">subordinating</cell>
+                     <cell role="name" xml:lang="ka">მაქვემდებარებელი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+               <cell>Type</cell>
+            </row>
+            <row>
+               <cell>C</cell>
+               <cell>[cs]</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.M-ka">
+      <head>Numeral</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.M-ka">
+         <head>Specification for Georgian Numeral</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Numeral</cell>
+            <cell role="value" xml:lang="ka">რიცხვითი სახელი</cell>
+            <cell role="code" xml:lang="en">M</cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">1</cell>
+            <cell role="name" xml:lang="en">Type</cell>
+            <cell role="name" xml:lang="ka">ტიპი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">cardinal</cell>
+                     <cell role="name" xml:lang="ka">რაოდენობითი</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ordinal</cell>
+                     <cell role="name" xml:lang="ka">რიგობითი</cell>
+                     <cell role="code" xml:lang="en">o</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">fractal</cell>
+                     <cell role="name" xml:lang="ka">წილობითი</cell>
+                     <cell role="code" xml:lang="en">f</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">multiple</cell>
+                     <cell role="name" xml:lang="ka">ჯერობითი</cell>
+                     <cell role="code" xml:lang="en">m</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">approximative</cell>
+                     <cell role="name" xml:lang="ka">ოდნაობითი</cell>
+                     <cell role="code" xml:lang="en">a</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">2</cell>
+            <cell role="name" xml:lang="en">Form</cell>
+            <cell role="name" xml:lang="ka">ფორმა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">digit</cell>
+                     <cell role="name" xml:lang="ka">ციფრული</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">roman</cell>
+                     <cell role="name" xml:lang="ka">რომაული</cell>
+                     <cell role="code" xml:lang="en">r</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">letter</cell>
+                     <cell role="name" xml:lang="ka">ასო</cell>
+                     <cell role="code" xml:lang="en">l</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">alphabetic</cell>
+                     <cell role="name" xml:lang="ka">ანბანური</cell>
+                     <cell role="code" xml:lang="en">c</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">3</cell>
+            <cell role="name" xml:lang="en">Number</cell>
+            <cell role="name" xml:lang="ka">რიცხვი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">singular</cell>
+                     <cell role="name" xml:lang="ka">მხოლობითი</cell>
+                     <cell role="code" xml:lang="en">s</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">plural</cell>
+                     <cell role="name" xml:lang="ka">მრავლობითი</cell>
+                     <cell role="code" xml:lang="en">p</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">4</cell>
+            <cell role="name" xml:lang="en">Case</cell>
+            <cell role="name" xml:lang="ka">ბრუნვა</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">nominative</cell>
+                     <cell role="name" xml:lang="ka">სახელობითი</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">ergative</cell>
+                     <cell role="name" xml:lang="ka">მოთხრობითი</cell>
+                     <cell role="code" xml:lang="en">z</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">dative</cell>
+                     <cell role="name" xml:lang="ka">მიცემითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">genitive</cell>
+                     <cell role="name" xml:lang="ka">ნათესაობითი</cell>
+                     <cell role="code" xml:lang="en">g</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">instrumental</cell>
+                     <cell role="name" xml:lang="ka">მოქმედებითი</cell>
+                     <cell role="code" xml:lang="en">i</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">essive</cell>
+                     <cell role="name" xml:lang="ka">ვითარებითი</cell>
+                     <cell role="code" xml:lang="en">w</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">vocative</cell>
+                     <cell role="name" xml:lang="ka">წოდებითი</cell>
+                     <cell role="code" xml:lang="en">v</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+         <row role="attribute">
+            <cell role="position">5</cell>
+            <cell role="name" xml:lang="en">Clitic</cell>
+            <cell role="name" xml:lang="ka">კლიტიკი</cell>
+            <cell>
+               <table>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">no</cell>
+                     <cell role="name" xml:lang="ka">არ არის</cell>
+                     <cell role="code" xml:lang="en">n</cell>
+                  </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">yes</cell>
+                     <cell role="name" xml:lang="ka">არის</cell>
+                     <cell role="code" xml:lang="en">y</cell>
+                  </row>
+               </table>
+            </cell>
+         </row>
+      </table>
+      <div>
+         <head>Notes</head>
+         <list>
+            <item n="1">Type: Multiple numerals are sometimes referred to as repetitive. Approximate numerals describe a small amount of something.</item>
+            <item n="2">Form: Alphabetic indicates that a numeral is represented by letters of Georgian alphabets (Asomtavruli, Nuskhuri or Mkhedruli).</item>
+         </list>
+      </div>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+               <cell>Type</cell>
+               <cell>Form</cell>
+               <cell>Number</cell>
+               <cell>Case</cell>
+               <cell>Clitics</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>[cof]</cell>
+               <cell>[drla]</cell>
+               <cell>[sp]</cell>
+               <cell>[nzdgiwv]</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>m</cell>
+               <cell>l</cell>
+               <cell>s</cell>
+               <cell>[ltmqcsir]</cell>
+               <cell>[ny]</cell>
+            </row>
+            <row>
+               <cell>M</cell>
+               <cell>a</cell>
+               <cell>l</cell>
+               <cell>s</cell>
+               <cell>-</cell>
+               <cell>[ny]</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.I-ka">
+      <head>Interjection</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.I-ka">
+         <head>Specification for Georgian Interjection</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Interjection</cell>
+            <cell role="value" xml:lang="ka">შორისდებული</cell>
+            <cell role="code" xml:lang="en">I</cell>
+         </row>
+      </table>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+            </row>
+            <row>
+               <cell>I</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.Q-ka">
+      <head>Particle</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.Q-ka">
+         <head>Specification for Georgian Particle</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Particle</cell>
+            <cell role="value" xml:lang="ka">ნაწილაკი</cell>
+            <cell role="code" xml:lang="en">Q</cell>
+         </row>
+      </table>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+            </row>
+            <row>
+               <cell>Q</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.Y-ka">
+      <head>Abbreviation</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.Y-ka">
+         <head>Specification for Georgian Abbreviation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Abbreviation</cell>
+            <cell role="value" xml:lang="ka">აბრევიატურა</cell>
+            <cell role="code" xml:lang="en">Y</cell>
+         </row>
+      </table>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+            </row>
+            <row>
+               <cell>Y</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" select="ka" xml:id="msd.Z-ka">
+      <head>Punctuation</head>
+      <table n="msd.cat" select="ka" xml:id="msd.cat.Z-ka">
+         <head>Specification for Georgian Punctuation</head>
+         <row role="type">
+            <cell role="position">0</cell>
+            <cell role="name" xml:lang="en">CATEGORY</cell>
+            <cell role="name" xml:lang="ka">კატეგორია</cell>
+            <cell role="value" xml:lang="en">Punctuation</cell>
+            <cell role="value" xml:lang="ka">პუნქტუაცია</cell>
+            <cell role="code" xml:lang="en">Z</cell>
+         </row>
+      </table>
+      <div>
+         <head>Combinations</head>
+         <table n="msd.combs">
+            <row>
+               <cell>POS</cell>
+            </row>
+            <row>
+               <cell>Z</cell>
+            </row>
+         </table>
+      </div>
+      <div type="section">
+         <head>MSD Index</head>
+         <table>
+            <head>MSDs (0)</head>
+         </table>
+      </div>
+   </div>
+   <div type="section" xml:id="msd.attributes-ka">
+      <head>Georgian Attribute Index</head>
+      <p>In this section all the attributes presented in the tables are listed in alphabetical order.</p>
+      <div xml:id="msd.atts-ka">
+         <head>Table of attributes</head>
+         <table>
+            <row role="label">
+               <cell>Attribute (en)</cell>
+               <cell>Category (en)</cell>
+               <cell>Attribute (ka)</cell>
+               <cell>Category (ka)</cell>
+               <cell role="code">Position</cell>
+            </row>
+            <row role="data">
+               <cell>Animate</cell>
+               <cell>Noun</cell>
+               <cell>სულიერება/უსულოება</cell>
+               <cell>არსებითი სახელი</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Aspect</cell>
+               <cell>Verb</cell>
+               <cell>ასპექტი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ზედსართავი სახელი</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Adposition</cell>
+               <cell>ბრუნვა</cell>
+               <cell>წინ-/თანდებული</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Noun</cell>
+               <cell>ბრუნვა</cell>
+               <cell>არსებითი სახელი</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+               <cell>ბრუნვა</cell>
+               <cell>რიცხვითი სახელი</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ნაცვალსახელი</cell>
+               <cell role="position">4</cell>
+            </row>
+            <row role="data">
+               <cell>Clitic</cell>
+               <cell>Adjective</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ზედსართავი სახელი</cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Clitic</cell>
+               <cell>Adposition</cell>
+               <cell>კლიტიკი</cell>
+               <cell>წინ-/თანდებული</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Clitic</cell>
+               <cell>Adverb</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ზმნიზედა</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Clitic</cell>
+               <cell>Noun</cell>
+               <cell>კლიტიკი</cell>
+               <cell>არსებითი სახელი</cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Clitic</cell>
+               <cell>Numeral</cell>
+               <cell>კლიტიკი</cell>
+               <cell>რიცხვითი სახელი</cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Clitic</cell>
+               <cell>Pronoun</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ნაცვალსახელი</cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Clitic</cell>
+               <cell>Verb</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">15</cell>
+            </row>
+            <row role="data">
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+               <cell>ხარისხი</cell>
+               <cell>ზედსართავი სახელი</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Direct_Object_Case</cell>
+               <cell>Verb</cell>
+               <cell>პირდაპირი_ობიექტის_ბრუნვა</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">13</cell>
+            </row>
+            <row role="data">
+               <cell>Direct_Object_Number</cell>
+               <cell>Verb</cell>
+               <cell>პირდაპირი_ობიექტის_რიცხვი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">9</cell>
+            </row>
+            <row role="data">
+               <cell>Direct_Object_Person</cell>
+               <cell>Verb</cell>
+               <cell>პირდაპირი_ობიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">6</cell>
+            </row>
+            <row role="data">
+               <cell>Form</cell>
+               <cell>Numeral</cell>
+               <cell>ფორმა</cell>
+               <cell>რიცხვითი სახელი</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Indirect_Object_Case</cell>
+               <cell>Verb</cell>
+               <cell>ირიბი_ობიექტის_ბრუნვა</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">14</cell>
+            </row>
+            <row role="data">
+               <cell>Indirect_Object_Number</cell>
+               <cell>Verb</cell>
+               <cell>ირიბი_ობიექტის_რიცხვი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">10</cell>
+            </row>
+            <row role="data">
+               <cell>Indirect_Object_Person</cell>
+               <cell>Verb</cell>
+               <cell>ირიბი_ობიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">7</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Adjective</cell>
+               <cell>რიცხვი</cell>
+               <cell>ზედსართავი სახელი</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Noun</cell>
+               <cell>რიცხვი</cell>
+               <cell>არსებითი სახელი</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Numeral</cell>
+               <cell>რიცხვი</cell>
+               <cell>რიცხვითი სახელი</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Number</cell>
+               <cell>Pronoun</cell>
+               <cell>რიცხვი</cell>
+               <cell>ნაცვალსახელი</cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+               <cell>პირი</cell>
+               <cell>ნაცვალსახელი</cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Subject_Case</cell>
+               <cell>Verb</cell>
+               <cell>სუბიექტის_ბრუნვა</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">12</cell>
+            </row>
+            <row role="data">
+               <cell>Subject_Number</cell>
+               <cell>Verb</cell>
+               <cell>სუბიექტის_რიცხვი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">8</cell>
+            </row>
+            <row role="data">
+               <cell>Subject_Person</cell>
+               <cell>Verb</cell>
+               <cell>სუბიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">5</cell>
+            </row>
+            <row role="data">
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+               <cell>დრო</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">3</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Adjective</cell>
+               <cell>ტიპი</cell>
+               <cell>ზედსართავი სახელი</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Adposition</cell>
+               <cell>ტიპი</cell>
+               <cell>წინ-/თანდებული</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნიზედა</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Conjunction</cell>
+               <cell>ტიპი</cell>
+               <cell>კავშირი</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Noun</cell>
+               <cell>ტიპი</cell>
+               <cell>არსებითი სახელი</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+               <cell>ტიპი</cell>
+               <cell>რიცხვითი სახელი</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>Type</cell>
+               <cell>Verb</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">1</cell>
+            </row>
+            <row role="data">
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+               <cell>ზმნური_ფორმა</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">2</cell>
+            </row>
+            <row role="data">
+               <cell>Voice</cell>
+               <cell>Verb</cell>
+               <cell>გვარი</cell>
+               <cell>ზმნა
+            </cell>
+               <cell role="position">11</cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div type="section" xml:id="msd.values-ka">
+      <head>Georgian Value Index</head>
+      <p>The values presented within the tables are, in the following, listed in alphabetical order;
+          the first column gives the name of the value, the second column its code and the third lists
+          attributes for which the value is appropriate.</p>
+      <div xml:id="msd.vals-ka">
+         <head>Table of values</head>
+         <table>
+            <row role="label">
+               <cell>Value (en)</cell>
+               <cell>Code (en)</cell>
+               <cell>Attribute (en)</cell>
+               <cell>Category (en)</cell>
+               <cell>Value (ka)</cell>
+               <cell>Code (ka)</cell>
+               <cell>Attribute (ka)</cell>
+               <cell>Category (ka)</cell>
+            </row>
+            <row>
+               <cell>active</cell>
+               <cell>a</cell>
+               <cell>Voice</cell>
+               <cell>Verb</cell>
+               <cell>აქტივი</cell>
+               <cell>(en)</cell>
+               <cell>გვარი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>alphabetic</cell>
+               <cell>c</cell>
+               <cell>Form</cell>
+               <cell>Numeral</cell>
+               <cell>ანბანური</cell>
+               <cell>(en)</cell>
+               <cell>ფორმა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>aorist</cell>
+               <cell>a</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+               <cell>წყვეტილი</cell>
+               <cell>(en)</cell>
+               <cell>დრო</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>approximative</cell>
+               <cell>a</cell>
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+               <cell>ოდნაობითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>autoactive</cell>
+               <cell>c</cell>
+               <cell>Voice</cell>
+               <cell>Verb</cell>
+               <cell>ავტოაქტივი</cell>
+               <cell>(en)</cell>
+               <cell>გვარი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>auxiliary</cell>
+               <cell>a</cell>
+               <cell>Type</cell>
+               <cell>Verb</cell>
+               <cell>დამხმარე</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>cardinal</cell>
+               <cell>c</cell>
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+               <cell>რაოდენობითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>causal</cell>
+               <cell>c</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell>მიზეზის</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>causative</cell>
+               <cell>z</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+               <cell>კაუზატიური</cell>
+               <cell>(en)</cell>
+               <cell>ზმნური_ფორმა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>common</cell>
+               <cell>c</cell>
+               <cell>Type</cell>
+               <cell>Noun</cell>
+               <cell>საზოგადო</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>comparative</cell>
+               <cell>c</cell>
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+               <cell>ოდნაობითი</cell>
+               <cell>(en)</cell>
+               <cell>ხარისხი</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>conditional</cell>
+               <cell>c</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+               <cell>პირობითი</cell>
+               <cell>(en)</cell>
+               <cell>ზმნური_ფორმა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>coordinating</cell>
+               <cell>c</cell>
+               <cell>Type</cell>
+               <cell>Conjunction</cell>
+               <cell>მაერთებელი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>კავშირი</cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+               <cell>მიცემითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Case</cell>
+               <cell>Adposition</cell>
+               <cell>მიცემითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>წინ-/თანდებული</cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+               <cell>მიცემითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+               <cell>მიცემითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell>მიცემითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Direct_Object_Case</cell>
+               <cell>Verb</cell>
+               <cell>მიცემითი</cell>
+               <cell>(en)</cell>
+               <cell>პირდაპირი_ობიექტის_ბრუნვა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Indirect_Object_Case</cell>
+               <cell>Verb</cell>
+               <cell>მიცემითი</cell>
+               <cell>(en)</cell>
+               <cell>ირიბი_ობიექტის_ბრუნვა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>dative</cell>
+               <cell>d</cell>
+               <cell>Subject_Case</cell>
+               <cell>Verb</cell>
+               <cell>მიცემითი</cell>
+               <cell>(en)</cell>
+               <cell>სუბიექტის_ბრუნვა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>demonstrative</cell>
+               <cell>d</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>ჩვენებითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>determinal</cell>
+               <cell>m</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>განსაზღვრებითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>digit</cell>
+               <cell>d</cell>
+               <cell>Form</cell>
+               <cell>Numeral</cell>
+               <cell>ციფრული</cell>
+               <cell>(en)</cell>
+               <cell>ფორმა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>ergative</cell>
+               <cell>z</cell>
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+               <cell>მოთხრობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>ergative</cell>
+               <cell>z</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+               <cell>მოთხრობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>ergative</cell>
+               <cell>z</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+               <cell>მოთხრობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>ergative</cell>
+               <cell>z</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell>მოთხრობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>ergative</cell>
+               <cell>z</cell>
+               <cell>Subject_Case</cell>
+               <cell>Verb</cell>
+               <cell>მოთხრობითი</cell>
+               <cell>(en)</cell>
+               <cell>სუბიექტის_ბრუნვა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>essive</cell>
+               <cell>w</cell>
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+               <cell>ვითარებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>essive</cell>
+               <cell>w</cell>
+               <cell>Case</cell>
+               <cell>Adposition</cell>
+               <cell>ვითარებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>წინ-/თანდებული</cell>
+            </row>
+            <row>
+               <cell>essive</cell>
+               <cell>w</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+               <cell>ვითარებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>essive</cell>
+               <cell>w</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+               <cell>ვითარებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>essive</cell>
+               <cell>w</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell>ვითარებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>first</cell>
+               <cell>1</cell>
+               <cell>Direct_Object_Person</cell>
+               <cell>Verb</cell>
+               <cell>პირველი</cell>
+               <cell>(en)</cell>
+               <cell>პირდაპირი_ობიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>first</cell>
+               <cell>1</cell>
+               <cell>Indirect_Object_Person</cell>
+               <cell>Verb</cell>
+               <cell>პირველი</cell>
+               <cell>(en)</cell>
+               <cell>ირიბი_ობიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>first</cell>
+               <cell>1</cell>
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+               <cell>პირველი</cell>
+               <cell>(en)</cell>
+               <cell>პირი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>first</cell>
+               <cell>1</cell>
+               <cell>Subject_Person</cell>
+               <cell>Verb</cell>
+               <cell>პირველი</cell>
+               <cell>(en)</cell>
+               <cell>სუბიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>fractal</cell>
+               <cell>f</cell>
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+               <cell>წილობითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>future</cell>
+               <cell>f</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+               <cell>მყოფადი</cell>
+               <cell>(en)</cell>
+               <cell>დრო</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>general</cell>
+               <cell>g</cell>
+               <cell>Type</cell>
+               <cell>Adjective</cell>
+               <cell>ზოგადი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>genitive</cell>
+               <cell>g</cell>
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+               <cell>ნათესაობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>genitive</cell>
+               <cell>g</cell>
+               <cell>Case</cell>
+               <cell>Adposition</cell>
+               <cell>ნათესაობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>წინ-/თანდებული</cell>
+            </row>
+            <row>
+               <cell>genitive</cell>
+               <cell>g</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+               <cell>ნათესაობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>genitive</cell>
+               <cell>g</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+               <cell>ნათესაობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>genitive</cell>
+               <cell>g</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell>ნათესაობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>gerund</cell>
+               <cell>g</cell>
+               <cell>Type</cell>
+               <cell>Noun</cell>
+               <cell>საწყისი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>imperative</cell>
+               <cell>m</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+               <cell>ბრძანებითი</cell>
+               <cell>(en)</cell>
+               <cell>ზმნური_ფორმა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>imperfect</cell>
+               <cell>i</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+               <cell>უწყვეტელი</cell>
+               <cell>(en)</cell>
+               <cell>დრო</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>inactive</cell>
+               <cell>i</cell>
+               <cell>Voice</cell>
+               <cell>Verb</cell>
+               <cell>ინაქტივი</cell>
+               <cell>(en)</cell>
+               <cell>გვარი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>indefinite</cell>
+               <cell>i</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>განუსაზღვრელობითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>indicative</cell>
+               <cell>i</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+               <cell>თხრობითი</cell>
+               <cell>(en)</cell>
+               <cell>ზმნური_ფორმა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>instrumental</cell>
+               <cell>i</cell>
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+               <cell>მოქმედებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>instrumental</cell>
+               <cell>i</cell>
+               <cell>Case</cell>
+               <cell>Adposition</cell>
+               <cell>მოქმედებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>წინ-/თანდებული</cell>
+            </row>
+            <row>
+               <cell>instrumental</cell>
+               <cell>i</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+               <cell>მოქმედებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>instrumental</cell>
+               <cell>i</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+               <cell>მოქმედებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>instrumental</cell>
+               <cell>i</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell>მოქმედებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>interrogative</cell>
+               <cell>i</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell>კითხვითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>interrogative</cell>
+               <cell>q</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>კითხვითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>letter</cell>
+               <cell>l</cell>
+               <cell>Form</cell>
+               <cell>Numeral</cell>
+               <cell>ასო</cell>
+               <cell>(en)</cell>
+               <cell>ფორმა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>local</cell>
+               <cell>l</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell>ადგილის</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>main</cell>
+               <cell>m</cell>
+               <cell>Type</cell>
+               <cell>Verb</cell>
+               <cell>ძირითადი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>mediopassive</cell>
+               <cell>d</cell>
+               <cell>Voice</cell>
+               <cell>Verb</cell>
+               <cell>მედიოპასივი</cell>
+               <cell>(en)</cell>
+               <cell>გვარი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>modifier</cell>
+               <cell>m</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell>ვითარების</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>multiple</cell>
+               <cell>m</cell>
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+               <cell>ჯერობითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>negative</cell>
+               <cell>z</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>უარყოფითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>no</cell>
+               <cell>n</cell>
+               <cell>Animate</cell>
+               <cell>Noun</cell>
+               <cell>უსულო</cell>
+               <cell>(en)</cell>
+               <cell>სულიერება/უსულოება</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>no</cell>
+               <cell>n</cell>
+               <cell>Clitic</cell>
+               <cell>Adjective</cell>
+               <cell>არ არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>no</cell>
+               <cell>n</cell>
+               <cell>Clitic</cell>
+               <cell>Adposition</cell>
+               <cell>არ არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>წინ-/თანდებული</cell>
+            </row>
+            <row>
+               <cell>no</cell>
+               <cell>n</cell>
+               <cell>Clitic</cell>
+               <cell>Adverb</cell>
+               <cell>არ არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>no</cell>
+               <cell>n</cell>
+               <cell>Clitic</cell>
+               <cell>Noun</cell>
+               <cell>არ არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>no</cell>
+               <cell>n</cell>
+               <cell>Clitic</cell>
+               <cell>Numeral</cell>
+               <cell>არ არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>no</cell>
+               <cell>n</cell>
+               <cell>Clitic</cell>
+               <cell>Pronoun</cell>
+               <cell>არ არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>no</cell>
+               <cell>n</cell>
+               <cell>Clitic</cell>
+               <cell>Verb</cell>
+               <cell>არ არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+               <cell>სახელობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Adposition</cell>
+               <cell>სახელობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>წინ-/თანდებული</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+               <cell>სახელობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+               <cell>სახელობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell>სახელობითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Direct_Object_Case</cell>
+               <cell>Verb</cell>
+               <cell>სახელობითი</cell>
+               <cell>(en)</cell>
+               <cell>პირდაპირი_ობიექტის_ბრუნვა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>nominative</cell>
+               <cell>n</cell>
+               <cell>Subject_Case</cell>
+               <cell>Verb</cell>
+               <cell>სახელობითი</cell>
+               <cell>(en)</cell>
+               <cell>სუბიექტის_ბრუნვა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>ordinal</cell>
+               <cell>o</cell>
+               <cell>Type</cell>
+               <cell>Numeral</cell>
+               <cell>რიგობითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>participle</cell>
+               <cell>p</cell>
+               <cell>Type</cell>
+               <cell>Adjective</cell>
+               <cell>მიმღეობა</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>passive</cell>
+               <cell>p</cell>
+               <cell>Voice</cell>
+               <cell>Verb</cell>
+               <cell>პასივი</cell>
+               <cell>(en)</cell>
+               <cell>გვარი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>perfect</cell>
+               <cell>n</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+               <cell>პირველი_თურმეობითი</cell>
+               <cell>(en)</cell>
+               <cell>დრო</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>perfective</cell>
+               <cell>e</cell>
+               <cell>Aspect</cell>
+               <cell>Verb</cell>
+               <cell>სრული</cell>
+               <cell>(en)</cell>
+               <cell>ასპექტი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>personal</cell>
+               <cell>p</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>პირის</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>pluperfect</cell>
+               <cell>l</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+               <cell>მეორე_თურმეობითი</cell>
+               <cell>(en)</cell>
+               <cell>დრო</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Direct_Object_Number</cell>
+               <cell>Verb</cell>
+               <cell>მრავლობითი</cell>
+               <cell>(en)</cell>
+               <cell>პირდაპირი_ობიექტის_რიცხვი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Indirect_Object_Number</cell>
+               <cell>Verb</cell>
+               <cell>მრავლობითი</cell>
+               <cell>(en)</cell>
+               <cell>ირიბი_ობიექტის_რიცხვი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Adjective</cell>
+               <cell>მრავლობითი</cell>
+               <cell>(en)</cell>
+               <cell>რიცხვი</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Noun</cell>
+               <cell>მრავლობითი</cell>
+               <cell>(en)</cell>
+               <cell>რიცხვი</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Numeral</cell>
+               <cell>მრავლობითი</cell>
+               <cell>(en)</cell>
+               <cell>რიცხვი</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Number</cell>
+               <cell>Pronoun</cell>
+               <cell>მრავლობითი</cell>
+               <cell>(en)</cell>
+               <cell>რიცხვი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>plural</cell>
+               <cell>p</cell>
+               <cell>Subject_Number</cell>
+               <cell>Verb</cell>
+               <cell>მრავლობითი</cell>
+               <cell>(en)</cell>
+               <cell>სუბიექტის_რიცხვი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>positive</cell>
+               <cell>p</cell>
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+               <cell>დადებითი</cell>
+               <cell>(en)</cell>
+               <cell>ხარისხი</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>possessive</cell>
+               <cell>s</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>კუთვნილებითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>postposition</cell>
+               <cell>t</cell>
+               <cell>Type</cell>
+               <cell>Adposition</cell>
+               <cell>თანდებული</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>წინ-/თანდებული</cell>
+            </row>
+            <row>
+               <cell>present</cell>
+               <cell>p</cell>
+               <cell>Tense</cell>
+               <cell>Verb</cell>
+               <cell>აწმყო</cell>
+               <cell>(en)</cell>
+               <cell>დრო</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>progressive</cell>
+               <cell>p</cell>
+               <cell>Aspect</cell>
+               <cell>Verb</cell>
+               <cell>უსრული</cell>
+               <cell>(en)</cell>
+               <cell>ასპექტი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>proper</cell>
+               <cell>p</cell>
+               <cell>Type</cell>
+               <cell>Noun</cell>
+               <cell>საკუთარი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>quantitative</cell>
+               <cell>u</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell>ზომა-ოდენობის</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>reciprocal</cell>
+               <cell>y</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>ურთიერთობითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>relative</cell>
+               <cell>e</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell>მიმართებითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>relative</cell>
+               <cell>r</cell>
+               <cell>Type</cell>
+               <cell>Pronoun</cell>
+               <cell>მიმართებითი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>roman</cell>
+               <cell>r</cell>
+               <cell>Form</cell>
+               <cell>Numeral</cell>
+               <cell>რომაული</cell>
+               <cell>(en)</cell>
+               <cell>ფორმა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>second</cell>
+               <cell>2</cell>
+               <cell>Direct_Object_Person</cell>
+               <cell>Verb</cell>
+               <cell>მეორე</cell>
+               <cell>(en)</cell>
+               <cell>პირდაპირი_ობიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>second</cell>
+               <cell>2</cell>
+               <cell>Indirect_Object_Person</cell>
+               <cell>Verb</cell>
+               <cell>მეორე</cell>
+               <cell>(en)</cell>
+               <cell>ირიბი_ობიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>second</cell>
+               <cell>2</cell>
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+               <cell>მეორე</cell>
+               <cell>(en)</cell>
+               <cell>პირი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>second</cell>
+               <cell>2</cell>
+               <cell>Subject_Person</cell>
+               <cell>Verb</cell>
+               <cell>მეორე</cell>
+               <cell>(en)</cell>
+               <cell>სუბიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Direct_Object_Number</cell>
+               <cell>Verb</cell>
+               <cell>მხოლობითი</cell>
+               <cell>(en)</cell>
+               <cell>პირდაპირი_ობიექტის_რიცხვი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Indirect_Object_Number</cell>
+               <cell>Verb</cell>
+               <cell>მხოლობითი</cell>
+               <cell>(en)</cell>
+               <cell>ირიბი_ობიექტის_რიცხვი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Adjective</cell>
+               <cell>მხოლობითი</cell>
+               <cell>(en)</cell>
+               <cell>რიცხვი</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Noun</cell>
+               <cell>მხოლობითი</cell>
+               <cell>(en)</cell>
+               <cell>რიცხვი</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Numeral</cell>
+               <cell>მხოლობითი</cell>
+               <cell>(en)</cell>
+               <cell>რიცხვი</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Number</cell>
+               <cell>Pronoun</cell>
+               <cell>მხოლობითი</cell>
+               <cell>(en)</cell>
+               <cell>რიცხვი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>singular</cell>
+               <cell>s</cell>
+               <cell>Subject_Number</cell>
+               <cell>Verb</cell>
+               <cell>მხოლობითი</cell>
+               <cell>(en)</cell>
+               <cell>სუბიექტის_რიცხვი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>specifier</cell>
+               <cell>s</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell>მიზნის</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>subjunctive</cell>
+               <cell>s</cell>
+               <cell>VForm</cell>
+               <cell>Verb</cell>
+               <cell>კავშირებითი</cell>
+               <cell>(en)</cell>
+               <cell>ზმნური_ფორმა</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>subordinating</cell>
+               <cell>s</cell>
+               <cell>Type</cell>
+               <cell>Conjunction</cell>
+               <cell>მაქვემდებარებელი</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>კავშირი</cell>
+            </row>
+            <row>
+               <cell>superlative</cell>
+               <cell>s</cell>
+               <cell>Degree</cell>
+               <cell>Adjective</cell>
+               <cell>უფროობითი</cell>
+               <cell>(en)</cell>
+               <cell>ხარისხი</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>temporal</cell>
+               <cell>t</cell>
+               <cell>Type</cell>
+               <cell>Adverb</cell>
+               <cell>დროის</cell>
+               <cell>(en)</cell>
+               <cell>ტიპი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>third</cell>
+               <cell>3</cell>
+               <cell>Direct_Object_Person</cell>
+               <cell>Verb</cell>
+               <cell>მესამე</cell>
+               <cell>(en)</cell>
+               <cell>პირდაპირი_ობიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>third</cell>
+               <cell>3</cell>
+               <cell>Indirect_Object_Person</cell>
+               <cell>Verb</cell>
+               <cell>მესამე</cell>
+               <cell>(en)</cell>
+               <cell>ირიბი_ობიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>third</cell>
+               <cell>3</cell>
+               <cell>Person</cell>
+               <cell>Pronoun</cell>
+               <cell>მესამე</cell>
+               <cell>(en)</cell>
+               <cell>პირი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>third</cell>
+               <cell>3</cell>
+               <cell>Subject_Person</cell>
+               <cell>Verb</cell>
+               <cell>მესამე</cell>
+               <cell>(en)</cell>
+               <cell>სუბიექტის_პირი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+            <row>
+               <cell>vocative</cell>
+               <cell>v</cell>
+               <cell>Case</cell>
+               <cell>Adjective</cell>
+               <cell>წოდებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>vocative</cell>
+               <cell>v</cell>
+               <cell>Case</cell>
+               <cell>Noun</cell>
+               <cell>წოდებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>vocative</cell>
+               <cell>v</cell>
+               <cell>Case</cell>
+               <cell>Numeral</cell>
+               <cell>წოდებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>vocative</cell>
+               <cell>v</cell>
+               <cell>Case</cell>
+               <cell>Pronoun</cell>
+               <cell>წოდებითი</cell>
+               <cell>(en)</cell>
+               <cell>ბრუნვა</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>yes</cell>
+               <cell>y</cell>
+               <cell>Animate</cell>
+               <cell>Noun</cell>
+               <cell>სულიერი</cell>
+               <cell>(en)</cell>
+               <cell>სულიერება/უსულოება</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>yes</cell>
+               <cell>y</cell>
+               <cell>Clitic</cell>
+               <cell>Adjective</cell>
+               <cell>არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ზედსართავი სახელი</cell>
+            </row>
+            <row>
+               <cell>yes</cell>
+               <cell>y</cell>
+               <cell>Clitic</cell>
+               <cell>Adposition</cell>
+               <cell>არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>წინ-/თანდებული</cell>
+            </row>
+            <row>
+               <cell>yes</cell>
+               <cell>y</cell>
+               <cell>Clitic</cell>
+               <cell>Adverb</cell>
+               <cell>არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ზმნიზედა</cell>
+            </row>
+            <row>
+               <cell>yes</cell>
+               <cell>y</cell>
+               <cell>Clitic</cell>
+               <cell>Noun</cell>
+               <cell>არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>არსებითი სახელი</cell>
+            </row>
+            <row>
+               <cell>yes</cell>
+               <cell>y</cell>
+               <cell>Clitic</cell>
+               <cell>Numeral</cell>
+               <cell>არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>რიცხვითი სახელი</cell>
+            </row>
+            <row>
+               <cell>yes</cell>
+               <cell>y</cell>
+               <cell>Clitic</cell>
+               <cell>Pronoun</cell>
+               <cell>არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ნაცვალსახელი</cell>
+            </row>
+            <row>
+               <cell>yes</cell>
+               <cell>y</cell>
+               <cell>Clitic</cell>
+               <cell>Verb</cell>
+               <cell>არის</cell>
+               <cell>(en)</cell>
+               <cell>კლიტიკი</cell>
+               <cell>ზმნა
+            </cell>
+            </row>
+         </table>
+      </div>
+   </div>
+   <div select="ka" type="section" xml:id="msd.msds-ka">
+      <head>Georgian MSD Index</head>
+      <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. 
+	  In the table below, 
+	  the first column gives the MSD, 
+	  the second its expansion into a feature-structure,
+	  the third gives the number of entries in the lexicon,
+	  and the fourth gives some examples as word-form/lemma. 
+	  </p>
+   </div>
+</div>
