@@ -82,8 +82,7 @@
       <xsl:message terminate="yes">No MSDs found in input file!</xsl:message>
     </xsl:if>
     <xsl:if test="not(tei:*/@xml:lang)">
-      <xsl:message terminate="yes">Localisation language (@xml:lang) not specified in MSD
-      file!</xsl:message>
+      <xsl:message terminate="yes">Localisation language (@xml:lang) not specified in MSD file!</xsl:message>
     </xsl:if>
     <xsl:if test="not(tei:*/@select)">
       <xsl:message terminate="yes">Language (@select) not specified in MSD file!</xsl:message>
