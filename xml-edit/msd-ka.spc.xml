@@ -6,7 +6,7 @@
      xml:id="msd-ka">
    <head>Georgian Specifications</head>
    <docAuthor>Irina Lobzhanidze</docAuthor>
-   <docDate>2021-04-18</docDate>
+   <docDate>2021-06-15</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Georgian</item>
@@ -795,6 +795,11 @@
                      <cell role="name" xml:lang="ka">უფროობითი</cell>
                      <cell role="code" xml:lang="en">s</cell>
                   </row>
+                  <row role="value">
+                     <cell role="name" xml:lang="en">diminutive</cell>
+                     <cell role="name" xml:lang="ka">ოდნაობითი</cell>
+                     <cell role="code" xml:lang="en">d</cell>
+                  </row>
                </table>
             </cell>
          </row>
@@ -901,7 +906,15 @@
             <row>
                <cell>A</cell>
                <cell>g</cell>
-               <cell>[pcs]</cell> 
+               <cell>c</cell> 
+               <cell>-</cell> 
+               <cell>-</cell> 
+               <cell>-</cell>
+            </row>
+            <row>
+               <cell>A</cell>
+               <cell>g</cell>
+               <cell>[psd]</cell> 
                <cell>[sp]</cell> 
                <cell>[nzdgiwv]</cell> 
                <cell>[ny]</cell>
@@ -1723,11 +1736,12 @@
    <div select="ka" type="section" xml:id="msd.msds-ka">
       <head>Georgian MSD Index</head>
       <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. 
-	  In the table below, 
-	  the first column gives the MSD, 
-	  the second its expansion into a feature-structure,
-	  the third gives the number of entries in the lexicon,
-	  and the fourth gives some examples as word-form/lemma. 
-	  </p>
+      In the table below, 
+      the first column gives the MSD, 
+      the second its expansion into a feature-structure,
+      the third gives the number of entries in the lexicon,
+      and the fourth gives some examples as word-form/lemma.</p>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ka.msd.xml"/>
    </div>
-</div>
+ </div>
+ 
