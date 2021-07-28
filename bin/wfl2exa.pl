@@ -7,6 +7,7 @@ binmode(STDOUT,'utf8');
 binmode(STDERR,'utf8');
 my $has_freq;
 while (<>) {
+    next unless /\w+\t\w+\t\w+/;
     chomp;
     ($word, $lemma, $msd, $freq) = split /\t/;
     $has_freq = 1 if $freq and $freq =~ /^\d+$/;
