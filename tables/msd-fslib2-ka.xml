@@ -1289,7 +1289,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmip-1-3----@and" xml:lang="en">
+      <fs xml:id="Vmip-1-3s--an-d" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -1307,6 +1307,18 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmip-13-s---dn" xml:lang="en">
@@ -1835,7 +1847,7 @@
             <symbol value="yes"/>
          </f>
       </fs>
-      <fs xml:id="Vmip-2-3----@and" xml:lang="en">
+      <fs xml:id="Vmip-2-3s--an-d" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -1853,6 +1865,18 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmip-23-s---dn" xml:lang="en">
@@ -2448,7 +2472,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmip-3-3----@and" xml:lang="en">
+      <fs xml:id="Vmip-3-3s--an-d" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -2466,6 +2490,18 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmip-31-ss--dn" xml:lang="en">
@@ -12637,7 +12673,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmii-1-3----@and" xml:lang="en">
+      <fs xml:id="Vmii-1-3s--an-d" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -12655,6 +12691,18 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmii-13-s---dn" xml:lang="en">
@@ -12936,7 +12984,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmii-2-3----@and" xml:lang="en">
+      <fs xml:id="Vmii-2-3s--an-d" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -12954,6 +13002,18 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmii-23-s---dn" xml:lang="en">
@@ -13246,7 +13306,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmii-3-3----@and" xml:lang="en">
+      <fs xml:id="Vmii-3-3s--an-d" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -13264,6 +13324,18 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmii-31-ss--dn" xml:lang="en">
@@ -17001,7 +17073,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmiip3-3--sid--n" xml:lang="en">
+      <fs xml:id="Vmiip3-3--sid---@n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -17031,44 +17103,6 @@
          </f>
          <f name="Subject_Case">
             <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmiip3-3--sid-@n" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="imperfect"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="progressive"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Voice">
-            <symbol value="inactive"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
          </f>
       </fs>
       <fs xml:id="Vmiip3-3s--an-d" xml:lang="en">
@@ -17807,7 +17841,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmiip32--p-id-@n" xml:lang="en">
+      <fs xml:id="Vmiip32--p-id--n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -18137,6 +18171,44 @@
             <symbol value="dative"/>
          </f>
       </fs>
+      <fs xml:id="Vmiip33---sidn-n" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="imperfect"/>
+         </f>
+         <f name="Aspect">
+            <symbol value="progressive"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Indirect_Object_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="inactive"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="dative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="no"/>
+         </f>
+      </fs>
       <fs xml:id="Vmiip33--p-idn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -18353,7 +18425,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmiip33-s--id--n" xml:lang="en">
+      <fs xml:id="Vmiip33-s--id---@n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -18383,9 +18455,6 @@
          </f>
          <f name="Subject_Case">
             <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
          </f>
       </fs>
       <fs xml:id="Vmiip33-s--idn-y" xml:lang="en">
@@ -19755,32 +19824,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmii@1-3----and" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="imperfect"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="nominative"/>
-         </f>
-         <f name="Indirect_Object_Case">
-            <symbol value="dative"/>
-         </f>
-      </fs>
       <fs xml:id="Vmif-1--s---n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -19879,26 +19922,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmif-1-3----@and" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="future"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
       <fs xml:id="Vmif-13-s---nd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -19957,6 +19980,38 @@
             <symbol value="nominative"/>
          </f>
       </fs>
+      <fs xml:id="Vmif-13-s--and" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="future"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
+         </f>
+      </fs>
       <fs xml:id="Vmif-13-p---nd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -20013,6 +20068,38 @@
          </f>
          <f name="Direct_Object_Case">
             <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmif-13-p--and" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="future"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmif-133s--andd" xml:lang="en">
@@ -20189,49 +20276,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmif-2-3----@and" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="future"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmif-2-3p---@and" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="future"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="plural"/>
-         </f>
-      </fs>
       <fs xml:id="Vmif-23-s---nd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -20290,6 +20334,38 @@
             <symbol value="nominative"/>
          </f>
       </fs>
+      <fs xml:id="Vmif-23-s--and" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="future"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
+         </f>
+      </fs>
       <fs xml:id="Vmif-23-p---nd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -20346,6 +20422,38 @@
          </f>
          <f name="Direct_Object_Case">
             <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmif-23-p--and" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="future"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmif-233s--andd" xml:lang="en">
@@ -20522,7 +20630,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmif-3-3s---@and" xml:lang="en">
+      <fs xml:id="Vmif-3-3s--and" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -20544,51 +20652,14 @@
          <f name="Subject_Number">
             <symbol value="singular"/>
          </f>
-      </fs>
-      <fs xml:id="Vmif-3-3p----@a@n@d" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
+         <f name="Voice">
+            <symbol value="active"/>
          </f>
-         <f name="Type">
-            <symbol value="main"/>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
          </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="future"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="plural"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmif-3-3p---@and" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="future"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="plural"/>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmif-33-s---nd" xml:lang="en">
@@ -20649,6 +20720,38 @@
             <symbol value="nominative"/>
          </f>
       </fs>
+      <fs xml:id="Vmif-33-s--and" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="future"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
+         </f>
+      </fs>
       <fs xml:id="Vmif-33-p---nd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -20705,6 +20808,38 @@
          </f>
          <f name="Direct_Object_Case">
             <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmif-33-p--and" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="future"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmif-333s--andd" xml:lang="en">
@@ -21575,44 +21710,6 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmifp12-ss-a-nd@d" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="future"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="progressive"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Direct_Object_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Direct_Object_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Voice">
-            <symbol value="active"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="nominative"/>
-         </f>
-         <f name="Indirect_Object_Case">
-            <symbol value="dative"/>
-         </f>
-      </fs>
       <fs xml:id="Vmifp12-ss-and" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -21690,6 +21787,47 @@
          </f>
          <f name="Clitic">
             <symbol value="yes"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmifp12-ss-andd" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="indicative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="future"/>
+         </f>
+         <f name="Aspect">
+            <symbol value="progressive"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Direct_Object_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmifp12-ss-cnd" xml:lang="en">
@@ -32086,7 +32224,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmife33-s---nd--@y" xml:lang="en">
+      <fs xml:id="Vmife33-s---nd---@y" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -33231,23 +33369,6 @@
          </f>
          <f name="Indirect_Object_Case">
             <symbol value="dative"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmif@1@P@l-@3----@a@n@d" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="future"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
          </f>
       </fs>
       <fs xml:id="Vmia-1--s---n" xml:lang="en">
@@ -41413,7 +41534,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmiae2-1p-pan-d-@n" xml:lang="en">
+      <fs xml:id="Vmiae2-1p-pan-d--@n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -42868,7 +42989,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmiae3-1s-sazd-n" xml:lang="en">
+      <fs xml:id="Vmiae3-1s-saz-dn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -42902,14 +43023,14 @@
          <f name="Subject_Case">
             <symbol value="ergative"/>
          </f>
-         <f name="Direct_Object_Case">
+         <f name="Indirect_Object_Case">
             <symbol value="dative"/>
          </f>
          <f name="Clitic">
             <symbol value="no"/>
          </f>
       </fs>
-      <fs xml:id="Vmiae3-1s-sazd@n" xml:lang="en">
+      <fs xml:id="Vmiae3-1s-sazd-n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -43447,7 +43568,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmiae3-2p--azd@n" xml:lang="en">
+      <fs xml:id="Vmiae3-2p--az-dn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -43478,7 +43599,7 @@
          <f name="Subject_Case">
             <symbol value="ergative"/>
          </f>
-         <f name="Direct_Object_Case">
+         <f name="Indirect_Object_Case">
             <symbol value="dative"/>
          </f>
          <f name="Clitic">
@@ -45952,7 +46073,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmin-1-3----@an" xml:lang="en">
+      <fs xml:id="Vmin-1-3s--an" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -45970,6 +46091,15 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
          </f>
       </fs>
       <fs xml:id="Vmin-13-s---dn" xml:lang="en">
@@ -46357,7 +46487,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmin-2-3----@an" xml:lang="en">
+      <fs xml:id="Vmin-2-3s--an" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -46375,6 +46505,15 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
          </f>
       </fs>
       <fs xml:id="Vmin-23-s---dn" xml:lang="en">
@@ -51696,29 +51835,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmin@1-3----an" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="indicative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="perfect"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="nominative"/>
-         </f>
-      </fs>
       <fs xml:id="Vmil-1--s---n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -51811,7 +51927,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmil-1-3----@an" xml:lang="en">
+      <fs xml:id="Vmil-1-3s--an" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -51829,6 +51945,15 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
          </f>
       </fs>
       <fs xml:id="Vmil-13-s---dn" xml:lang="en">
@@ -52233,7 +52358,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmil-3-3----@an" xml:lang="en">
+      <fs xml:id="Vmil-3-3---an" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -52251,6 +52376,12 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
          </f>
       </fs>
       <fs xml:id="Vmil-33-s---dn" xml:lang="en">
@@ -57689,7 +57820,7 @@
             <symbol value="yes"/>
          </f>
       </fs>
-      <fs xml:id="Vmsp-1-3----@and" xml:lang="en">
+      <fs xml:id="Vmsp-1-3s--and" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -57707,6 +57838,18 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmsp-13-p---dn" xml:lang="en">
@@ -57889,7 +58032,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsp-2-3----@and" xml:lang="en">
+      <fs xml:id="Vmsp-2-3s--and" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -57907,6 +58050,18 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmsp-23-s---dn" xml:lang="en">
@@ -58243,7 +58398,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsp-3-3----@and" xml:lang="en">
+      <fs xml:id="Vmsp-3-3s--and" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -58261,6 +58416,18 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmsp-31-pp--dn" xml:lang="en">
@@ -58296,35 +58463,6 @@
          </f>
       </fs>
       <fs xml:id="Vmsp-33-s---dn" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="present"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Direct_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="dative"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="nominative"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsp-33-s---dn--@y" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -58414,6 +58552,38 @@
             <symbol value="ergative"/>
          </f>
          <f name="Direct_Object_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="yes"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmsp-33-s--dn--y" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="present"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="mediopassive"/>
+         </f>
+         <f name="Subject_Case">
             <symbol value="nominative"/>
          </f>
          <f name="Clitic">
@@ -63537,41 +63707,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmspe33-s--dn-@y" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="present"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="perfective"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Direct_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Voice">
-            <symbol value="mediopassive"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="nominative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="yes"/>
-         </f>
-      </fs>
       <fs xml:id="Vmspe33-p--dn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -63900,7 +64035,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsf-3-3----@and" xml:lang="en">
+      <fs xml:id="Vmsf-3-3---and" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -63918,6 +64053,15 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmsf-33-s---nd" xml:lang="en">
@@ -64453,7 +64597,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsfp13-s--id-@n" xml:lang="en">
+      <fs xml:id="Vmsfp13-s--id--n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -65013,7 +65157,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsfp23-p--id-@n" xml:lang="en">
+      <fs xml:id="Vmsfp23-p--id--n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -69504,26 +69648,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsa-1-3----@and" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
       <fs xml:id="Vmsa-13-s---zn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -69980,26 +70104,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsa-2-3----@an" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
       <fs xml:id="Vmsa-23-s---zn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -70364,46 +70468,6 @@
          </f>
          <f name="Subject_Case">
             <symbol value="nominative"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsa-3-3----@an" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsa-3-3----@an--@y" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
          </f>
       </fs>
       <fs xml:id="Vmsa-33-s---zn" xml:lang="en">
@@ -71153,35 +71217,6 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsap-2--p---nd" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="progressive"/>
-         </f>
-         <f name="Direct_Object_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Direct_Object_Number">
-            <symbol value="plural"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="nominative"/>
-         </f>
-         <f name="Indirect_Object_Case">
-            <symbol value="dative"/>
-         </f>
-      </fs>
       <fs xml:id="Vmsap1--s---n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -71639,88 +71674,6 @@
          </f>
          <f name="Clitic">
             <symbol value="yes"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsap1-2s-sazd-n" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="progressive"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Indirect_Object_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Voice">
-            <symbol value="active"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="ergative"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsap1-2s-sazd@n" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="progressive"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Indirect_Object_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Voice">
-            <symbol value="active"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="ergative"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
          </f>
       </fs>
       <fs xml:id="Vmsap1-2s-spn-d" xml:lang="en">
@@ -73454,6 +73407,35 @@
          </f>
          <f name="Subject_Case">
             <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmsap2--p---nd" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="aorist"/>
+         </f>
+         <f name="Aspect">
+            <symbol value="progressive"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmsap2--p---z" xml:lang="en">
@@ -78572,7 +78554,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsap332s-sazn-@d" xml:lang="en">
+      <fs xml:id="Vmsap332s-sazn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -78660,7 +78642,7 @@
             <symbol value="yes"/>
          </f>
       </fs>
-      <fs xml:id="Vmsap332s-sazd-n" xml:lang="en">
+      <fs xml:id="Vmsap332s-sazd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -78699,9 +78681,6 @@
          </f>
          <f name="Direct_Object_Case">
             <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
          </f>
       </fs>
       <fs xml:id="Vmsap332p--aznd" xml:lang="en">
@@ -80179,6 +80158,108 @@
             <symbol value="dative"/>
          </f>
       </fs>
+      <fs xml:id="Vmsae12-s" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="aorist"/>
+         </f>
+         <f name="Aspect">
+            <symbol value="perfective"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmsae12-s--azn-y" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="aorist"/>
+         </f>
+         <f name="Aspect">
+            <symbol value="perfective"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="ergative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="yes"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmsae12-s--aznd" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="aorist"/>
+         </f>
+         <f name="Aspect">
+            <symbol value="perfective"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="ergative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
+         </f>
+      </fs>
       <fs xml:id="Vmsae12-ss--nd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -81367,7 +81448,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsae132---azd-n" xml:lang="en">
+      <fs xml:id="Vmsae132---azd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -81400,9 +81481,6 @@
          </f>
          <f name="Direct_Object_Case">
             <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
          </f>
       </fs>
       <fs xml:id="Vmsae132s-saznd" xml:lang="en">
@@ -81496,50 +81574,6 @@
             <symbol value="yes"/>
          </f>
       </fs>
-      <fs xml:id="Vmsae132s-sazd-n@y" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="perfective"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Direct_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Indirect_Object_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Voice">
-            <symbol value="active"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="ergative"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
-         </f>
-      </fs>
       <fs xml:id="Vmsae133s---znd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -81578,7 +81612,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsae133s---znd-@y" xml:lang="en">
+      <fs xml:id="Vmsae133s---zndy" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -81614,6 +81648,9 @@
          </f>
          <f name="Indirect_Object_Case">
             <symbol value="dative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="yes"/>
          </f>
       </fs>
       <fs xml:id="Vmsae133s--aznd" xml:lang="en">
@@ -82439,47 +82476,6 @@
          </f>
          <f name="Indirect_Object_Case">
             <symbol value="dative"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsae2-1p-sazd@n" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="perfective"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="plural"/>
-         </f>
-         <f name="Indirect_Object_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Voice">
-            <symbol value="active"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="ergative"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
          </f>
       </fs>
       <fs xml:id="Vmsae2-1p-spn-d" xml:lang="en">
@@ -83546,6 +83542,50 @@
             <symbol value="nominative"/>
          </f>
       </fs>
+      <fs xml:id="Vmsae213ps-aznd" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="aorist"/>
+         </f>
+         <f name="Aspect">
+            <symbol value="perfective"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Indirect_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Direct_Object_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="ergative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
+         </f>
+      </fs>
       <fs xml:id="Vmsae23-s---nd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -84363,7 +84403,7 @@
             <symbol value="yes"/>
          </f>
       </fs>
-      <fs xml:id="Vmsae231s-sazd-n@y" xml:lang="en">
+      <fs xml:id="Vmsae231s-sazd-y" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -84404,7 +84444,7 @@
             <symbol value="dative"/>
          </f>
          <f name="Clitic">
-            <symbol value="no"/>
+            <symbol value="yes"/>
          </f>
       </fs>
       <fs xml:id="Vmsae231s-paznd" xml:lang="en">
@@ -84845,44 +84885,6 @@
          </f>
       </fs>
       <fs xml:id="Vmsae233p---znd" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="perfective"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Direct_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="plural"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="ergative"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="nominative"/>
-         </f>
-         <f name="Indirect_Object_Case">
-            <symbol value="dative"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsae233p---znd-@y" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -85689,7 +85691,7 @@
             <symbol value="yes"/>
          </f>
       </fs>
-      <fs xml:id="Vmsae3-1s-pazd@n" xml:lang="en">
+      <fs xml:id="Vmsae3-1s-paz-d" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -85723,11 +85725,8 @@
          <f name="Subject_Case">
             <symbol value="ergative"/>
          </f>
-         <f name="Direct_Object_Case">
+         <f name="Indirect_Object_Case">
             <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
          </f>
       </fs>
       <fs xml:id="Vmsae3-1s-ppn-d" xml:lang="en">
@@ -86122,47 +86121,6 @@
             <symbol value="yes"/>
          </f>
       </fs>
-      <fs xml:id="Vmsae3-2s-sazd@n" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="perfective"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Indirect_Object_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Voice">
-            <symbol value="active"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="ergative"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
-         </f>
-      </fs>
       <fs xml:id="Vmsae3-2s-spn-d" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -86275,44 +86233,6 @@
          </f>
          <f name="Indirect_Object_Case">
             <symbol value="dative"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsae3-2p--azd@n" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="perfective"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="plural"/>
-         </f>
-         <f name="Voice">
-            <symbol value="active"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="ergative"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="dative"/>
-         </f>
-         <f name="Clitic">
-            <symbol value="no"/>
          </f>
       </fs>
       <fs xml:id="Vmsae3-2p--pn-d" xml:lang="en">
@@ -88022,6 +87942,44 @@
             <symbol value="yes"/>
          </f>
       </fs>
+      <fs xml:id="Vmsae32-s-sazd" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="aorist"/>
+         </f>
+         <f name="Aspect">
+            <symbol value="perfective"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Indirect_Object_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="ergative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
+         </f>
+      </fs>
       <fs xml:id="Vmsae32-ss--nd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -88898,7 +88856,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsae33-p---zn--@y" xml:lang="en">
+      <fs xml:id="Vmsae33-p---zn-y" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -88928,6 +88886,9 @@
          </f>
          <f name="Direct_Object_Case">
             <symbol value="nominative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="yes"/>
          </f>
       </fs>
       <fs xml:id="Vmsae33-p---zd" xml:lang="en">
@@ -90251,46 +90212,6 @@
             <symbol value="no"/>
          </f>
       </fs>
-      <fs xml:id="Vmsn-1-3----@an" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="perfect"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsn-1-3----@an--@y" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="perfect"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
       <fs xml:id="Vmsn-13-s---dn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -90347,6 +90268,73 @@
          </f>
          <f name="Subject_Case">
             <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmsn-13-s--adn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="perfect"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="dative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmsn-13-s--adn-y" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="perfect"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="dative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="yes"/>
          </f>
       </fs>
       <fs xml:id="Vmsn-2--s---n" xml:lang="en">
@@ -90418,61 +90406,6 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsn-2-3s-san" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="perfect"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Indirect_Object_Number">
-            <symbol value="singular"/>
-         </f>
-         <f name="Voice">
-            <symbol value="active"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="nominative"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmsn-2-3p---@an" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="perfect"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="plural"/>
-         </f>
-      </fs>
       <fs xml:id="Vmsn-23-s---dn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -90531,6 +90464,38 @@
             <symbol value="nominative"/>
          </f>
       </fs>
+      <fs xml:id="Vmsn-23-s--adn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="perfect"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="dative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
       <fs xml:id="Vmsn-23-p---dn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -90586,6 +90551,38 @@
             <symbol value="active"/>
          </f>
          <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmsn-23-p--adn" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="perfect"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="plural"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="dative"/>
+         </f>
+         <f name="Direct_Object_Case">
             <symbol value="nominative"/>
          </f>
       </fs>
@@ -90658,7 +90655,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsn-3-3----@an" xml:lang="en">
+      <fs xml:id="Vmsn-3-1---az-d" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -90675,10 +90672,42 @@
             <symbol value="third"/>
          </f>
          <f name="Indirect_Object_Person">
-            <symbol value="third"/>
+            <symbol value="first"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="ergative"/>
+         </f>
+         <f name="Indirect_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsn-3-3----@an--@y" xml:lang="en">
+      <fs xml:id="Vmsn-3-1-s--@a@z-@d@y" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="perfect"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Indirect_Object_Person">
+            <symbol value="first"/>
+         </f>
+         <f name="Direct_Object_Number">
+            <symbol value="singular"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmsn-3-3---an--y" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -90696,6 +90725,15 @@
          </f>
          <f name="Indirect_Object_Person">
             <symbol value="third"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="yes"/>
          </f>
       </fs>
       <fs xml:id="Vmsn-33-s---dn" xml:lang="en">
@@ -90754,6 +90792,38 @@
          </f>
          <f name="Subject_Case">
             <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmsn-33-s--and" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="subjunctive"/>
+         </f>
+         <f name="Tense">
+            <symbol value="perfect"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Direct_Object_Case">
+            <symbol value="dative"/>
          </f>
       </fs>
       <fs xml:id="Vmsn-33-p--an" xml:lang="en">
@@ -93912,29 +93982,6 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmsn@3-3----an--y" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="subjunctive"/>
-         </f>
-         <f name="Tense">
-            <symbol value="perfect"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="nominative"/>
-         </f>
-      </fs>
       <fs xml:id="Vmma-1--p---n" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -94588,46 +94635,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmma-2-3----@an" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="imperative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
-      <fs xml:id="Vmma-2-3----@an--@y" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="imperative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="second"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
       <fs xml:id="Vmma-23-s---zn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -94655,6 +94662,67 @@
          </f>
          <f name="Direct_Object_Case">
             <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmma-23-s--an" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="imperative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="aorist"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmma-23-s--an--y" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="imperative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="aorist"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="second"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
+            <symbol value="nominative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="yes"/>
          </f>
       </fs>
       <fs xml:id="Vmma-23-s--azn" xml:lang="en">
@@ -95292,26 +95360,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmma-3-3----@an" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="imperative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Indirect_Object_Person">
-            <symbol value="third"/>
-         </f>
-      </fs>
       <fs xml:id="Vmma-33-s---zn" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -95338,6 +95386,35 @@
             <symbol value="ergative"/>
          </f>
          <f name="Direct_Object_Case">
+            <symbol value="nominative"/>
+         </f>
+      </fs>
+      <fs xml:id="Vmma-33-s--an" xml:lang="en">
+         <f name="CATEGORY">
+            <symbol value="Verb"/>
+         </f>
+         <f name="Type">
+            <symbol value="main"/>
+         </f>
+         <f name="VForm">
+            <symbol value="imperative"/>
+         </f>
+         <f name="Tense">
+            <symbol value="aorist"/>
+         </f>
+         <f name="Subject_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Direct_Object_Person">
+            <symbol value="third"/>
+         </f>
+         <f name="Subject_Number">
+            <symbol value="singular"/>
+         </f>
+         <f name="Voice">
+            <symbol value="active"/>
+         </f>
+         <f name="Subject_Case">
             <symbol value="nominative"/>
          </f>
       </fs>
@@ -99427,38 +99504,6 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmmae13-p--@zn" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Verb"/>
-         </f>
-         <f name="Type">
-            <symbol value="main"/>
-         </f>
-         <f name="VForm">
-            <symbol value="imperative"/>
-         </f>
-         <f name="Tense">
-            <symbol value="aorist"/>
-         </f>
-         <f name="Aspect">
-            <symbol value="perfective"/>
-         </f>
-         <f name="Subject_Person">
-            <symbol value="first"/>
-         </f>
-         <f name="Direct_Object_Person">
-            <symbol value="third"/>
-         </f>
-         <f name="Subject_Number">
-            <symbol value="plural"/>
-         </f>
-         <f name="Subject_Case">
-            <symbol value="ergative"/>
-         </f>
-         <f name="Direct_Object_Case">
-            <symbol value="nominative"/>
-         </f>
-      </fs>
       <fs xml:id="Vmmae133p--aznd" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
@@ -100128,7 +100173,7 @@
             <symbol value="nominative"/>
          </f>
       </fs>
-      <fs xml:id="Vmmae23-s---zn--@y" xml:lang="en">
+      <fs xml:id="Vmmae23-s---zn-y" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -100158,6 +100203,9 @@
          </f>
          <f name="Direct_Object_Case">
             <symbol value="nominative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="yes"/>
          </f>
       </fs>
       <fs xml:id="Vmmae23-s---zd" xml:lang="en">
@@ -100758,7 +100806,7 @@
             <symbol value="dative"/>
          </f>
       </fs>
-      <fs xml:id="Vmmae233s---znd-@y" xml:lang="en">
+      <fs xml:id="Vmmae233s---zndy" xml:lang="en">
          <f name="CATEGORY">
             <symbol value="Verb"/>
          </f>
@@ -100794,6 +100842,9 @@
          </f>
          <f name="Indirect_Object_Case">
             <symbol value="dative"/>
+         </f>
+         <f name="Clitic">
+            <symbol value="yes"/>
          </f>
       </fs>
       <fs xml:id="Vmmae233s--aznd" xml:lang="en">
@@ -114192,20 +114243,6 @@
          </f>
          <f name="Case">
             <symbol value="essive"/>
-         </f>
-      </fs>
-      <fs xml:id="Mcr@g" xml:lang="en">
-         <f name="CATEGORY">
-            <symbol value="Numeral"/>
-         </f>
-         <f name="Type">
-            <symbol value="cardinal"/>
-         </f>
-         <f name="Form">
-            <symbol value="roman"/>
-         </f>
-         <f name="Case">
-            <symbol value="genitive"/>
          </f>
       </fs>
       <fs xml:id="Mod" xml:lang="en">
