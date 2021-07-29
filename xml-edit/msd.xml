@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://nl.ijs.si/tei/schema/mte/mte_tei.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     version="5.0"
-     xml:id="msd-spec"
-     xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="msd-spec" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -140,7 +137,7 @@
             <availability status="free">
                <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
             </availability>
-            <date>2020-11-08</date>
+            <date>2021-07-29</date>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -211,6 +208,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2021-07-29">ET, add Georgian MSDs, update handle for Damaskini.</change>
          <change when="2021-03-17">ET, add draft Georgian.</change>
          <change when="2020-11-08">ET, remove Croatian &amp; Serbian, V6 goes live.</change>
          <change when="2020-11-04">ET, add Damaskini.</change>
@@ -243,192 +241,188 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart>
-                  <ref target="http://nl.ijs.si/ME/">MULTEXT-East</ref>
-                  <lb/>
-           Morphosyntactic Specifications</titlePart>
+               <titlePart><ref target="http://nl.ijs.si/ME/">MULTEXT-East</ref>
+                  <lb/>Morphosyntactic Specifications</titlePart>
             </docTitle>
             <docEdition>
                <ref target="http://nl.ijs.si/ME/V6/">Version 6</ref>
             </docEdition>
-            <docDate>2021-06-15</docDate>
+            <docDate>2021-07-29</docDate>
             <lb/>
-            <byline>Editor: <name>Tomaž Erjavec</name>
-            </byline>
-            <byline>
-               <ref target="#msd-sq">Albanian specifications</ref>:
-           <name>Dalian Zogaj</name>,
-           <name>Philipp Wasserscheidt</name>
+            <byline>Editor: <name>Tomaž Erjavec</name></byline>
+            <byline><ref target="#msd-sq">Albanian specifications</ref>:
+              <name>Dalian Zogaj</name>,
+              <name>Philipp Wasserscheidt</name>
             </byline>
             <byline>
                <ref target="#msd-bg">Bulgarian specifications</ref>:
-           <name>Radoslav Pavlov</name>,
-           <name>Ludmila Dimitrova</name>,
-           <name>Lydia Sinapova</name>,
-           <name>Kiril Simov</name>
+               <name>Radoslav Pavlov</name>,
+               <name>Ludmila Dimitrova</name>,
+               <name>Lydia Sinapova</name>,
+               <name>Kiril Simov</name>
             </byline>
             <byline>
-               <ref target="#msd-ce">Chechen specifications</ref>:
-           <name>Dietmar Fiesel</name>
+              <ref target="#msd-ce">Chechen specifications</ref>:
+              <name>Dietmar Fiesel</name>
             </byline>
             <byline>
-               <ref target="#msd-cs">Czech specifications</ref>:
-           <name>Vladimír Petkevič</name>
+              <ref target="#msd-cs">Czech specifications</ref>:
+              <name>Vladimír Petkevič</name>
             </byline>
             <byline>
-               <ref target="#msd-bg-dam">Damaskini specifications</ref>:
-           <name>Ivan Šimko</name>
+              <ref target="#msd-bg-dam">Damaskini specifications</ref>:
+              <name>Ivan Šimko</name>
             </byline>
             <byline>
-               <ref target="#msd-en">English specifications</ref>:
-           <name>Nancy Ide</name>,
-           <name>Greg Priest-Dorman</name>,
-           <name>Tomaž Erjavec</name>,
-           <name>Tamas Varadi</name>
+              <ref target="#msd-en">English specifications</ref>:
+              <name>Nancy Ide</name>,
+              <name>Greg Priest-Dorman</name>,
+              <name>Tomaž Erjavec</name>,
+              <name>Tamas Varadi</name>
             </byline>
             <byline>
-               <ref target="#msd-et">Estonian specifications</ref>:
-           <name>Heiki-Jaan Kaalep </name>
+              <ref target="#msd-et">Estonian specifications</ref>:
+              <name>Heiki-Jaan Kaalep</name>
             </byline>
             <byline>
-               <ref target="#msd-ka">Georgian specifications</ref>:
-           <name>Irina Lobzhanidze</name>
+              <ref target="#msd-ka">Georgian specifications</ref>:
+              <name>Irina Lobzhanidze</name>
             </byline>
             <byline>
-               <ref target="#msd-hu">Hungarian specifications</ref>:
-           <name>Laszlo Tihanyi</name>,
-           <name>Tamas Varadi</name>,
-           <name>Csaba Oravecz</name>
+              <ref target="#msd-hu">Hungarian specifications</ref>:
+              <name>Laszlo Tihanyi</name>,
+              <name>Tamas Varadi</name>,
+              <name>Csaba Oravecz</name>
             </byline>
             <byline>
-               <ref target="#msd-mk">Macedonian specifications</ref>:
-           <name>Katerina Zdravkova</name>
+              <ref target="#msd-mk">Macedonian specifications</ref>:
+              <name>Katerina Zdravkova</name>
             </byline>
             <byline>
-               <ref target="#msd-fa">Persian specifications</ref>:
-           <name>Behrang QasemiZadeh</name>
+              <ref target="#msd-fa">Persian specifications</ref>:
+              <name>Behrang QasemiZadeh</name>
             </byline>
             <byline>
-               <ref target="#msd-pl">Polish specifications</ref>:
-           <name>Natalia Kotsyba</name>, 
-           <name>Ivan Derzhanski</name>, 
-           <name>Adam Radziszewski</name>
+              <ref target="#msd-pl">Polish specifications</ref>:
+              <name>Natalia Kotsyba</name>, 
+              <name>Ivan Derzhanski</name>, 
+              <name>Adam Radziszewski</name>
             </byline>
             <byline>
-               <ref target="#msd-sl-rozaj">Resian specifications</ref>:
-           <name>Han Steenwijk</name>
+              <ref target="#msd-sl-rozaj">Resian specifications</ref>:
+              <name>Han Steenwijk</name>
             </byline>
             <byline>
-               <ref target="#msd-ro">Romanian specifications</ref>:
-           <name>Dan Tufiş</name>,
-           <name>Anna Maria Barbu</name>
+              <ref target="#msd-ro">Romanian specifications</ref>:
+              <name>Dan Tufiş</name>,
+              <name>Anna Maria Barbu</name>
             </byline>
             <byline>
-               <ref target="#msd-ru">Russian specifications</ref>:
-           <name>Serge Sharoff</name>,
-           <name>Mikhail Kopotev</name>,
-           <name>Tomaž Erjavec</name>,
-           <name>Anna Feldman</name>,
-           <name>Dagmar Divjak</name>
+              <ref target="#msd-ru">Russian specifications</ref>:
+              <name>Serge Sharoff</name>,
+              <name>Mikhail Kopotev</name>,
+              <name>Tomaž Erjavec</name>,
+              <name>Anna Feldman</name>,
+              <name>Dagmar Divjak</name>
             </byline>
             <byline>
-               <ref target="#msd-hbs">Serbo-Croatian specifications</ref>:
-           <name>Tomaž Erjavec</name>
+              <ref target="#msd-hbs">Serbo-Croatian specifications</ref>:
+              <name>Tomaž Erjavec</name>
             </byline>
             <byline>
-               <ref target="#msd-sk">Slovak specifications</ref>:
-           <name>Radovan Garabík</name>
+              <ref target="#msd-sk">Slovak specifications</ref>:
+              <name>Radovan Garabík</name>
             </byline>
             <byline>
-               <ref target="#msd-sl">Slovene specifications</ref>:
-           <name>Tomaž Erjavec</name>,
-           <name>Simon Krek</name>
+              <ref target="#msd-sl">Slovene specifications</ref>:
+              <name>Tomaž Erjavec</name>,
+              <name>Simon Krek</name>
             </byline>
             <byline>
-               <ref target="#msd-sr-tor">Torlak specifications</ref>
-               <name>Teodora Vuković</name>
+              <ref target="#msd-sr-tor">Torlak specifications</ref>
+              <name>Teodora Vuković</name>
             </byline>
             <byline>
-               <ref target="#msd-uk">Ukrainian specifications</ref>:
-           <name>Natalia Kotsyba</name>,
-           <name>Igor Shevchenko</name>,
-           <name>Ivan Derzhanski</name>
+              <ref target="#msd-uk">Ukrainian specifications</ref>:
+              <name>Natalia Kotsyba</name>,
+              <name>Igor Shevchenko</name>,
+              <name>Ivan Derzhanski</name>
             </byline>
-         </titlePage>
-         <div type="section" xml:id="msd.foreword">
+          </titlePage>
+          <div type="section" xml:id="msd.foreword">
             <head>Foreword</head>
             <p>The purpose of this document is to provide harmonised lexical specifications for 
-        the following languages or language variants:
-        Albanian, 
-        Bulgarian, 
-        Chechen, 
-        Czech, 
-        Damaskini,
-        Estonian, 
-        English,
-	Georgian,
-        Hungarian, 
-        Macedonian, 
-        Persian,
-        Polish,
-        Romanian, 
-        Russian, 
-        Ukrainian, 
-        Serbo-Croatian macrolanguage, 
-        Slovak,
-        Slovene,
-        Resian,
-        and
-        Torlak.
-        </p>
+            the following languages or language variants:
+            Albanian, 
+            Bulgarian, 
+            Chechen, 
+            Czech, 
+            Damaskini,
+            Estonian, 
+            English,
+	    Georgian,
+            Hungarian, 
+            Macedonian, 
+            Persian,
+            Polish,
+            Romanian, 
+            Russian, 
+            Ukrainian, 
+            Serbo-Croatian macrolanguage, 
+            Slovak,
+            Slovene,
+            Resian,
+            and
+            Torlak.
+            </p>
             <p>These specifications are based on the proposals for lexicon specifications presented in
-        the MULTEXT D1-6-1B Deliverable of the MULTEXT Project
-        [<ref target="#bib.mt-D161B">mt:D161B</ref>] and in the Eagles documents of the Lexicon
-        sub-group on Morphosyntactic annotation
-        [<ref target="#bib.eagles-morphsyn">eagles:morphsyn</ref>],
-        [<ref target="#bib.eagles-morphana">eagles:morphana</ref>].</p>
+            the MULTEXT D1-6-1B Deliverable of the MULTEXT Project
+            [<ref target="#bib.mt-D161B">mt:D161B</ref>] and in the Eagles documents of the Lexicon
+            sub-group on Morphosyntactic annotation
+            [<ref target="#bib.eagles-morphsyn">eagles:morphsyn</ref>],
+            [<ref target="#bib.eagles-morphana">eagles:morphana</ref>].</p>
             <p>These specifications were first made in the scope of the MULTEXT-East project, as the
-        project report D11F, and were, slightly modified, made available on the TELRI CD-ROM "A
-        Compendium of Multilingual Resources" [<ref target="#bib.telri-CD">telri:CD</ref>],
-        [<ref target="#bib.lrec98-mtelex">lrec98:mtelex</ref>].</p>
+            project report D11F, and were, slightly modified, made available on the TELRI CD-ROM "A
+            Compendium of Multilingual Resources" [<ref target="#bib.telri-CD">telri:CD</ref>],
+            [<ref target="#bib.lrec98-mtelex">lrec98:mtelex</ref>].</p>
             <p>The second version, the so called "Concede edition"
-        [<ref target="#bib.elsnews01-v2">elsnews01:v2</ref>],
-        [<ref target="#bib.mte-nlprs">mte:nlprs</ref>] offered the addition of
-        a new language, Croatian, and additions (for Romanian and Slovene) to the common tables in
-        terms of attributes and values. The tables for Slovene have also been localised. The
-        format of the specification had been improved, by converting the master LaTeX document to
-        Latin-2 encoding. Finally, the common tables had been made
-        available additionally in XML, as a TEI feature libraries &lt;fLib&gt;, one for
-        each PoS.</p>
+            [<ref target="#bib.elsnews01-v2">elsnews01:v2</ref>],
+            [<ref target="#bib.mte-nlprs">mte:nlprs</ref>] offered the addition of
+            a new language, Croatian, and additions (for Romanian and Slovene) to the common tables in
+            terms of attributes and values. The tables for Slovene have also been localised. The
+            format of the specification had been improved, by converting the master LaTeX document to
+            Latin-2 encoding. Finally, the common tables had been made
+            available additionally in XML, as a TEI feature libraries &lt;fLib&gt;, one for
+            each PoS.</p>
             <p>In Version 3 [<ref target="#bib.mte-slav">mte:slav</ref>] some minor errors found in the
-        Concede edition were fixed; this version also added two more specifications: for Serbian,
-        and for a dialect of Slovene, Resian.</p>
+            Concede edition were fixed; this version also added two more specifications: for Serbian,
+            and for a dialect of Slovene, Resian.</p>
             <p>In Version 4, the "MONDILEX edition" 
-        [<ref target="#bib.mte-v4">V4</ref>]
-        the specifications have been re-cast in XML, in TEI P5.
-        This offeres many possibilities for improvement, such as automatically producing derived
-        tables. Six new languages were also added, in particular Russian, Macedonian and Persian, and, 
-        due to the support of the EU MONDILEX project, Slovak, Polish and Ukrainian. 
-        </p>
+            [<ref target="#bib.mte-v4">V4</ref>]
+            the specifications have been re-cast in XML, in TEI P5.
+            This offeres many possibilities for improvement, such as automatically producing derived
+            tables. Six new languages were also added, in particular Russian, Macedonian and Persian, and, 
+            due to the support of the EU MONDILEX project, Slovak, Polish and Ukrainian. 
+            </p>
             <p>In Version 5, a new category "Z" was added for punctuation;
-        new values of the Residual Type have been added for CMC texts;
-        two new languages, Bosnian and Chechen, have been added;
-        and the Croatian and Slovene specifications have been changed.
-        However, this version never made it beyond the "DRAFT" status.
-        </p>
+            new values of the Residual Type have been added for CMC texts;
+            two new languages, Bosnian and Chechen, have been added;
+            and the Croatian and Slovene specifications have been changed.
+            However, this version never made it beyond the "DRAFT" status.
+            </p>
             <p>In the present Version 6 the TEI encoding has been updated,
-        as have the conversion scripts, and the maintenance of the
-        specifications has moved to <ref target="https://github.com/clarinsi/mte-msd">GitHub</ref>.
-        Furthermore, while the Croatian, Serbian, and Bosnian specifications
-        have been removed, the specifications for the macrolanguage
-        Serbo-Croatian have been added, and are meant to cover
-        Croatian, Serbian, Bosnian and Montenegrin.  Last but not
-        least, the Macedonian specifications have been updated, and
-        the specifications for the Albanian language, the Torlak
-        dialect of Serbian, and for the "Damaskini" diachronic corpus
-        of Balkan Slavic texts from 16th-19th century have been added
-        to the specifications.
-        </p>
+            as have the conversion scripts, and the maintenance of the
+            specifications has moved to <ref target="https://github.com/clarinsi/mte-msd">GitHub</ref>.
+            Furthermore, while the Croatian, Serbian, and Bosnian specifications
+            have been removed, the specifications for the macrolanguage
+            Serbo-Croatian have been added, and are meant to cover
+            Croatian, Serbian, Bosnian and Montenegrin.  Last but not
+            least, the Macedonian specifications have been updated, and
+            the specifications for the Albanian and Georgian languages, the Torlak
+            dialect of Serbian, and for the "Damaskini" diachronic corpus
+            of Balkan Slavic texts from 16th-19th century have been added
+            to the specifications.
+            </p>
             <p>Pisa, October 1995</p>
             <p>Ljubljana, December 1997 (V1)</p>
             <p>Ljubljana, March 2001 (V2)</p>
@@ -436,7 +430,7 @@
             <p>Ljubljana, May 2010 (V4)</p>
             <p>Ljubljana, June 2016 (V5)</p>
             <p>Erlangen,  November 2018 (V6 draft)</p>
-            <p>Ljubljana, March 2021 (V6, current version)</p>
+            <p>Ljubljana, July 2021 (V6, current version)</p>
          </div>
          <divGen type="toc"/>
       </front>
@@ -907,7 +901,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Noun</cell>
                         <cell role="code">N</cell>
-                        <!--ka added to category Noun-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -934,7 +927,7 @@
                         <cell role="name">Type</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Noun/Type=common-->
+                              <row role="value">
                                  <cell role="name">common</cell>
                                  <cell role="code">c</cell>
                                  <cell role="lang">en</cell>
@@ -957,7 +950,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Type=proper-->
+                              <row role="value">
                                  <cell role="name">proper</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">en</cell>
@@ -980,7 +973,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Type=gerund-->
+                              <row role="value">
                                  <cell role="name">gerund</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">pl</cell>
@@ -1065,7 +1058,7 @@
                         <cell role="name">Number</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Noun/Number=singular-->
+                              <row role="value">
                                  <cell role="name">singular</cell>
                                  <cell role="code">s</cell>
                                  <cell role="lang">en</cell>
@@ -1089,7 +1082,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Number=plural-->
+                              <row role="value">
                                  <cell role="name">plural</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">en</cell>
@@ -1140,7 +1133,7 @@
                         <cell role="name">Case</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Noun/Case=nominative-->
+                              <row role="value">
                                  <cell role="name">nominative</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">sl</cell>
@@ -1161,7 +1154,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Case=genitive-->
+                              <row role="value">
                                  <cell role="name">genitive</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">sl</cell>
@@ -1181,7 +1174,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Case=dative-->
+                              <row role="value">
                                  <cell role="name">dative</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">sl</cell>
@@ -1215,7 +1208,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Case=vocative-->
+                              <row role="value">
                                  <cell role="name">vocative</cell>
                                  <cell role="code">v</cell>
                                  <cell role="lang">ro</cell>
@@ -1247,7 +1240,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Case=instrumental-->
+                              <row role="value">
                                  <cell role="name">instrumental</cell>
                                  <cell role="code">i</cell>
                                  <cell role="lang">sl</cell>
@@ -1330,7 +1323,7 @@
                                  <cell role="lang">et</cell>
                                  <cell role="lang">hu</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Case=essive-->
+                              <row role="value">
                                  <cell role="name">essive</cell>
                                  <cell role="code">w</cell>
                                  <cell role="lang">et</cell>
@@ -1397,7 +1390,7 @@
                                  <cell role="code">f</cell>
                                  <cell role="lang">hu</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Case=ergative-->
+                              <row role="value">
                                  <cell role="name">ergative</cell>
                                  <cell role="code">z</cell>
                                  <cell role="lang">ce</cell>
@@ -1467,13 +1460,13 @@
                         <cell role="name">Clitic</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Noun/Clitic=no-->
+                              <row role="value">
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Clitic=yes-->
+                              <row role="value">
                                  <cell role="name">yes</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">ro</cell>
@@ -1487,7 +1480,7 @@
                         <cell role="name">Animate</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Noun/Animate=no-->
+                              <row role="value">
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">sl</cell>
@@ -1502,7 +1495,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Noun/Animate=yes-->
+                              <row role="value">
                                  <cell role="name">yes</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">sl</cell>
@@ -1722,7 +1715,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Verb</cell>
                         <cell role="code">V</cell>
-                        <!--ka added to category Verb-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -1749,7 +1741,7 @@
                         <cell role="name">Type</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Verb/Type=main-->
+                              <row role="value">
                                  <cell role="name">main</cell>
                                  <cell role="code">m</cell>
                                  <cell role="lang">en</cell>
@@ -1773,7 +1765,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/Type=auxiliary-->
+                              <row role="value">
                                  <cell role="name">auxiliary</cell>
                                  <cell role="code">a</cell>
                                  <cell role="lang">en</cell>
@@ -1839,7 +1831,7 @@
                         <cell role="name">VForm</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Verb/VForm=indicative-->
+                              <row role="value">
                                  <cell role="name">indicative</cell>
                                  <cell role="code">i</cell>
                                  <cell role="lang">en</cell>
@@ -1860,7 +1852,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/VForm=subjunctive-->
+                              <row role="value">
                                  <cell role="name">subjunctive</cell>
                                  <cell role="code">s</cell>
                                  <cell role="lang">ro</cell>
@@ -1869,7 +1861,7 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/VForm=imperative-->
+                              <row role="value">
                                  <cell role="name">imperative</cell>
                                  <cell role="code">m</cell>
                                  <cell role="lang">ro</cell>
@@ -1892,7 +1884,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/VForm=conditional-->
+                              <row role="value">
                                  <cell role="name">conditional</cell>
                                  <cell role="code">c</cell>
                                  <cell role="lang">en</cell>
@@ -2008,7 +2000,7 @@
                                  <cell role="code">h</cell>
                                  <cell role="lang">ce</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/VForm=causative-->
+                              <row role="value">
                                  <cell role="name">causative</cell>
                                  <cell role="code">z</cell>
                                  <cell role="lang">ce</cell>
@@ -2049,7 +2041,7 @@
                         <cell role="name">Tense</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Verb/Tense=present-->
+                              <row role="value">
                                  <cell role="name">present</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">en</cell>
@@ -2070,7 +2062,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/Tense=imperfect-->
+                              <row role="value">
                                  <cell role="name">imperfect</cell>
                                  <cell role="code">i</cell>
                                  <cell role="lang">ro</cell>
@@ -2083,7 +2075,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/Tense=future-->
+                              <row role="value">
                                  <cell role="name">future</cell>
                                  <cell role="code">f</cell>
                                  <cell role="lang">cs</cell>
@@ -2111,14 +2103,14 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">sk</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/Tense=pluperfect-->
+                              <row role="value">
                                  <cell role="name">pluperfect</cell>
                                  <cell role="code">l</cell>
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">ce</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/Tense=aorist-->
+                              <row role="value">
                                  <cell role="name">aorist</cell>
                                  <cell role="code">a</cell>
                                  <cell role="lang">bg</cell>
@@ -2355,7 +2347,7 @@
                         <cell role="name">Voice</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Verb/Voice=active-->
+                              <row role="value">
                                  <cell role="name">active</cell>
                                  <cell role="code">a</cell>
                                  <cell role="lang">cs</cell>
@@ -2366,7 +2358,7 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/Voice=passive-->
+                              <row role="value">
                                  <cell role="name">passive</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">cs</cell>
@@ -2524,7 +2516,7 @@
                         <cell role="name">Clitic</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Verb/Clitic=no-->
+                              <row role="value">
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">ro</cell>
@@ -2532,7 +2524,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/Clitic=yes-->
+                              <row role="value">
                                  <cell role="name">yes</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">ro</cell>
@@ -2657,7 +2649,7 @@
                         <cell role="name">Aspect</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Verb/Aspect=progressive-->
+                              <row role="value">
                                  <cell role="name">progressive</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">sl</cell>
@@ -2670,7 +2662,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Verb/Aspect=perfective-->
+                              <row role="value">
                                  <cell role="name">perfective</cell>
                                  <cell role="code">e</cell>
                                  <cell role="lang">sl</cell>
@@ -2987,7 +2979,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Adjective</cell>
                         <cell role="code">A</cell>
-                        <!--ka added to category Adjective-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -3052,7 +3043,7 @@
                                  <cell role="lang">sl-rozaj</cell>
                                  <cell role="lang">uk</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Type=participle-->
+                              <row role="value">
                                  <cell role="name">participle</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">uk</cell>
@@ -3063,7 +3054,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Type=general-->
+                              <row role="value">
                                  <cell role="name">general</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">sl</cell>
@@ -3086,7 +3077,7 @@
                         <cell role="name">Degree</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Adjective/Degree=positive-->
+                              <row role="value">
                                  <cell role="name">positive</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">en</cell>
@@ -3107,7 +3098,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Degree=comparative-->
+                              <row role="value">
                                  <cell role="name">comparative</cell>
                                  <cell role="code">c</cell>
                                  <cell role="lang">en</cell>
@@ -3128,7 +3119,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Degree=superlative-->
+                              <row role="value">
                                  <cell role="name">superlative</cell>
                                  <cell role="code">s</cell>
                                  <cell role="lang">en</cell>
@@ -3157,7 +3148,6 @@
                                  <cell role="name">diminutive</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">sl-rozaj</cell>
-                                 <!--ka added to feature Adjective/Degree=diminutive-->
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>
@@ -3234,7 +3224,7 @@
                         <cell role="name">Number</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Adjective/Number=singular-->
+                              <row role="value">
                                  <cell role="name">singular</cell>
                                  <cell role="code">s</cell>
                                  <cell role="lang">ro</cell>
@@ -3255,7 +3245,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Number=plural-->
+                              <row role="value">
                                  <cell role="name">plural</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">ro</cell>
@@ -3297,7 +3287,7 @@
                         <cell role="name">Case</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Adjective/Case=nominative-->
+                              <row role="value">
                                  <cell role="name">nominative</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">sl</cell>
@@ -3316,7 +3306,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Case=genitive-->
+                              <row role="value">
                                  <cell role="name">genitive</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">sl</cell>
@@ -3335,7 +3325,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Case=dative-->
+                              <row role="value">
                                  <cell role="name">dative</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">sl</cell>
@@ -3368,7 +3358,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Case=vocative-->
+                              <row role="value">
                                  <cell role="name">vocative</cell>
                                  <cell role="code">v</cell>
                                  <cell role="lang">ro</cell>
@@ -3393,7 +3383,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Case=instrumental-->
+                              <row role="value">
                                  <cell role="name">instrumental</cell>
                                  <cell role="code">i</cell>
                                  <cell role="lang">sl</cell>
@@ -3473,7 +3463,7 @@
                                  <cell role="lang">et</cell>
                                  <cell role="lang">hu</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Case=essive-->
+                              <row role="value">
                                  <cell role="name">essive</cell>
                                  <cell role="code">w</cell>
                                  <cell role="lang">et</cell>
@@ -3620,13 +3610,13 @@
                         <cell role="name">Clitic</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Adjective/Clitic=no-->
+                              <row role="value">
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adjective/Clitic=yes-->
+                              <row role="value">
                                  <cell role="name">yes</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">ro</cell>
@@ -3932,7 +3922,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Pronoun</cell>
                         <cell role="code">P</cell>
-                        <!--ka added to category Pronoun-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -3959,7 +3948,7 @@
                         <cell role="name">Type</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Pronoun/Type=personal-->
+                              <row role="value">
                                  <cell role="name">personal</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">en</cell>
@@ -3983,7 +3972,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Type=demonstrative-->
+                              <row role="value">
                                  <cell role="name">demonstrative</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">ro</cell>
@@ -4006,7 +3995,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Type=indefinite-->
+                              <row role="value">
                                  <cell role="name">indefinite</cell>
                                  <cell role="code">i</cell>
                                  <cell role="lang">ro</cell>
@@ -4029,7 +4018,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Type=possessive-->
+                              <row role="value">
                                  <cell role="name">possessive</cell>
                                  <cell role="code">s</cell>
                                  <cell role="lang">en</cell>
@@ -4050,7 +4039,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Type=interrogative-->
+                              <row role="value">
                                  <cell role="name">interrogative</cell>
                                  <cell role="code">q</cell>
                                  <cell role="lang">en</cell>
@@ -4073,7 +4062,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Type=relative-->
+                              <row role="value">
                                  <cell role="name">relative</cell>
                                  <cell role="code">r</cell>
                                  <cell role="lang">en</cell>
@@ -4120,7 +4109,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Type=reciprocal-->
+                              <row role="value">
                                  <cell role="name">reciprocal</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">et</cell>
@@ -4128,7 +4117,7 @@
                                  <cell role="lang">fa</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Type=negative-->
+                              <row role="value">
                                  <cell role="name">negative</cell>
                                  <cell role="code">z</cell>
                                  <cell role="lang">ro</cell>
@@ -4163,7 +4152,7 @@
                                  <cell role="code">w</cell>
                                  <cell role="lang">ro</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Type=determinal-->
+                              <row role="value">
                                  <cell role="name">determinal</cell>
                                  <cell role="code">m</cell>
                                  <cell role="lang">et</cell>
@@ -4197,7 +4186,7 @@
                         <cell role="name">Person</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Pronoun/Person=first-->
+                              <row role="value">
                                  <cell role="name">first</cell>
                                  <cell role="code">1</cell>
                                  <cell role="lang">en</cell>
@@ -4221,7 +4210,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Person=second-->
+                              <row role="value">
                                  <cell role="name">second</cell>
                                  <cell role="code">2</cell>
                                  <cell role="lang">en</cell>
@@ -4245,7 +4234,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Person=third-->
+                              <row role="value">
                                  <cell role="name">third</cell>
                                  <cell role="code">3</cell>
                                  <cell role="lang">en</cell>
@@ -4341,7 +4330,7 @@
                         <cell role="name">Number</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Pronoun/Number=singular-->
+                              <row role="value">
                                  <cell role="name">singular</cell>
                                  <cell role="code">s</cell>
                                  <cell role="lang">en</cell>
@@ -4365,7 +4354,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Number=plural-->
+                              <row role="value">
                                  <cell role="name">plural</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">en</cell>
@@ -4414,7 +4403,7 @@
                         <cell role="name">Case</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Pronoun/Case=nominative-->
+                              <row role="value">
                                  <cell role="name">nominative</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">en</cell>
@@ -4437,7 +4426,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Case=genitive-->
+                              <row role="value">
                                  <cell role="name">genitive</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">ro</cell>
@@ -4458,7 +4447,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Case=dative-->
+                              <row role="value">
                                  <cell role="name">dative</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">ro</cell>
@@ -4500,7 +4489,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Case=vocative-->
+                              <row role="value">
                                  <cell role="name">vocative</cell>
                                  <cell role="code">v</cell>
                                  <cell role="lang">ro</cell>
@@ -4525,7 +4514,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Case=instrumental-->
+                              <row role="value">
                                  <cell role="name">instrumental</cell>
                                  <cell role="code">i</cell>
                                  <cell role="lang">sl</cell>
@@ -4607,7 +4596,7 @@
                                  <cell role="lang">et</cell>
                                  <cell role="lang">hu</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Case=essive-->
+                              <row role="value">
                                  <cell role="name">essive</cell>
                                  <cell role="code">w</cell>
                                  <cell role="lang">et</cell>
@@ -4674,7 +4663,7 @@
                                  <cell role="code">f</cell>
                                  <cell role="lang">hu</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Case=ergative-->
+                              <row role="value">
                                  <cell role="name">ergative</cell>
                                  <cell role="code">z</cell>
                                  <cell role="lang">ce</cell>
@@ -4770,7 +4759,7 @@
                         <cell role="name">Clitic</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Pronoun/Clitic=no-->
+                              <row role="value">
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">ro</cell>
@@ -4784,7 +4773,7 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Pronoun/Clitic=yes-->
+                              <row role="value">
                                  <cell role="name">yes</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">ro</cell>
@@ -5651,7 +5640,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Adverb</cell>
                         <cell role="code">R</cell>
-                        <!--ka added to category Adverb-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -5697,7 +5685,7 @@
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">hu</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adverb/Type=causal-->
+                              <row role="value">
                                  <cell role="name">causal</cell>
                                  <cell role="code">o</cell>
                                  <cell role="lang">hu</cell>
@@ -5720,7 +5708,7 @@
                                  <cell role="lang">mk</cell>
                                  <cell role="lang">hu</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adverb/Type=modifier-->
+                              <row role="value">
                                  <cell role="name">modifier</cell>
                                  <cell role="code">m</cell>
                                  <cell role="lang">en</cell>
@@ -5729,7 +5717,7 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adverb/Type=specifier-->
+                              <row role="value">
                                  <cell role="name">specifier</cell>
                                  <cell role="code">s</cell>
                                  <cell role="lang">en</cell>
@@ -5746,7 +5734,7 @@
                                  <cell role="code">c</cell>
                                  <cell role="lang">ro</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adverb/Type=interrogative-->
+                              <row role="value">
                                  <cell role="name">interrogative</cell>
                                  <cell role="code">q</cell>
                                  <cell role="lang">hu</cell>
@@ -5861,7 +5849,7 @@
                         <cell role="name">Clitic</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Adverb/Clitic=no-->
+                              <row role="value">
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">ro</cell>
@@ -5869,7 +5857,7 @@
                                  <cell role="lang">pl</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adverb/Clitic=yes-->
+                              <row role="value">
                                  <cell role="name">yes</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">ro</cell>
@@ -5973,7 +5961,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Adposition</cell>
                         <cell role="code">S</cell>
-                        <!--ka added to category Adposition-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -6017,7 +6004,7 @@
                                  <cell role="lang">sk</cell>
                                  <cell role="lang">sq</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adposition/Type=postposition-->
+                              <row role="value">
                                  <cell role="name">postposition</cell>
                                  <cell role="code">t</cell>
                                  <cell role="lang">en</cell>
@@ -6067,7 +6054,7 @@
                         <cell role="name">Case</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Adposition/Case=nominative-->
+                              <row role="value">
                                  <cell role="name">nominative</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">sl</cell>
@@ -6075,7 +6062,7 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adposition/Case=genitive-->
+                              <row role="value">
                                  <cell role="name">genitive</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">ro</cell>
@@ -6091,7 +6078,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adposition/Case=dative-->
+                              <row role="value">
                                  <cell role="name">dative</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">ro</cell>
@@ -6137,7 +6124,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">bg-dam</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adposition/Case=instrumental-->
+                              <row role="value">
                                  <cell role="name">instrumental</cell>
                                  <cell role="code">i</cell>
                                  <cell role="lang">sl</cell>
@@ -6170,13 +6157,13 @@
                         <cell role="name">Clitic</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Adposition/Clitic=no-->
+                              <row role="value">
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Adposition/Clitic=yes-->
+                              <row role="value">
                                  <cell role="name">yes</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">ro</cell>
@@ -6196,7 +6183,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Conjunction</cell>
                         <cell role="code">C</cell>
-                        <!--ka added to category Conjunction-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -6223,7 +6209,7 @@
                         <cell role="name">Type</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Conjunction/Type=coordinating-->
+                              <row role="value">
                                  <cell role="name">coordinating</cell>
                                  <cell role="code">c</cell>
                                  <cell role="lang">en</cell>
@@ -6244,7 +6230,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Conjunction/Type=subordinating-->
+                              <row role="value">
                                  <cell role="name">subordinating</cell>
                                  <cell role="code">s</cell>
                                  <cell role="lang">en</cell>
@@ -6442,7 +6428,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Numeral</cell>
                         <cell role="code">M</cell>
-                        <!--ka added to category Numeral-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -6469,7 +6454,7 @@
                         <cell role="name">Type</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Numeral/Type=cardinal-->
+                              <row role="value">
                                  <cell role="name">cardinal</cell>
                                  <cell role="code">c</cell>
                                  <cell role="lang">en</cell>
@@ -6492,7 +6477,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Type=ordinal-->
+                              <row role="value">
                                  <cell role="name">ordinal</cell>
                                  <cell role="code">o</cell>
                                  <cell role="lang">en</cell>
@@ -6513,7 +6498,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Type=fractal-->
+                              <row role="value">
                                  <cell role="name">fractal</cell>
                                  <cell role="code">f</cell>
                                  <cell role="lang">ro</cell>
@@ -6522,7 +6507,7 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Type=multiple-->
+                              <row role="value">
                                  <cell role="name">multiple</cell>
                                  <cell role="code">m</cell>
                                  <cell role="lang">ro</cell>
@@ -6634,7 +6619,7 @@
                         <cell role="name">Number</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Numeral/Number=singular-->
+                              <row role="value">
                                  <cell role="name">singular</cell>
                                  <cell role="code">s</cell>
                                  <cell role="lang">ro</cell>
@@ -6654,7 +6639,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Number=plural-->
+                              <row role="value">
                                  <cell role="name">plural</cell>
                                  <cell role="code">p</cell>
                                  <cell role="lang">ro</cell>
@@ -6694,7 +6679,7 @@
                         <cell role="name">Case</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Numeral/Case=nominative-->
+                              <row role="value">
                                  <cell role="name">nominative</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">sl</cell>
@@ -6712,7 +6697,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Case=genitive-->
+                              <row role="value">
                                  <cell role="name">genitive</cell>
                                  <cell role="code">g</cell>
                                  <cell role="lang">sl</cell>
@@ -6731,7 +6716,7 @@
                                  <cell role="lang">sr-tor</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Case=dative-->
+                              <row role="value">
                                  <cell role="name">dative</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">sl</cell>
@@ -6763,7 +6748,7 @@
                                  <cell role="lang">sq</cell>
                                  <cell role="lang">sr-tor</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Case=vocative-->
+                              <row role="value">
                                  <cell role="name">vocative</cell>
                                  <cell role="code">v</cell>
                                  <cell role="lang">sk</cell>
@@ -6785,7 +6770,7 @@
                                  <cell role="lang">hbs</cell>
                                  <cell role="lang">sr-tor</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Case=instrumental-->
+                              <row role="value">
                                  <cell role="name">instrumental</cell>
                                  <cell role="code">i</cell>
                                  <cell role="lang">sl</cell>
@@ -6865,7 +6850,7 @@
                                  <cell role="lang">et</cell>
                                  <cell role="lang">hu</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Case=essive-->
+                              <row role="value">
                                  <cell role="name">essive</cell>
                                  <cell role="code">w</cell>
                                  <cell role="lang">et</cell>
@@ -6937,7 +6922,7 @@
                                  <cell role="code">6</cell>
                                  <cell role="lang">hu</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Case=ergative-->
+                              <row role="value">
                                  <cell role="name">ergative</cell>
                                  <cell role="code">z</cell>
                                  <cell role="lang">ce</cell>
@@ -6961,7 +6946,7 @@
                         <cell role="name">Form</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Numeral/Form=digit-->
+                              <row role="value">
                                  <cell role="name">digit</cell>
                                  <cell role="code">d</cell>
                                  <cell role="lang">ro</cell>
@@ -6983,7 +6968,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Form=roman-->
+                              <row role="value">
                                  <cell role="name">roman</cell>
                                  <cell role="code">r</cell>
                                  <cell role="lang">ro</cell>
@@ -7005,7 +6990,7 @@
                                  <cell role="lang">bg-dam</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Form=letter-->
+                              <row role="value">
                                  <cell role="name">letter</cell>
                                  <cell role="code">l</cell>
                                  <cell role="lang">ro</cell>
@@ -7043,7 +7028,7 @@
                                  <cell role="code">a</cell>
                                  <cell role="lang">bg</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Form=alphabetic-->
+                              <row role="value">
                                  <cell role="name">alphabetic</cell>
                                  <cell role="code">c</cell>
                                  <cell role="lang">bg-dam</cell>
@@ -7103,13 +7088,13 @@
                         <cell role="name">Clitic</cell>
                         <cell>
                            <table>
-                              <row role="value"><!--ka added to feature Numeral/Clitic=no-->
+                              <row role="value">
                                  <cell role="name">no</cell>
                                  <cell role="code">n</cell>
                                  <cell role="lang">ro</cell>
                                  <cell role="lang">ka</cell>
                               </row>
-                              <row role="value"><!--ka added to feature Numeral/Clitic=yes-->
+                              <row role="value">
                                  <cell role="name">yes</cell>
                                  <cell role="code">y</cell>
                                  <cell role="lang">ro</cell>
@@ -7323,7 +7308,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Particle</cell>
                         <cell role="code">Q</cell>
-                        <!--ka added to category Particle-->
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
                         <cell role="lang">cs</cell>
@@ -7494,7 +7478,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Interjection</cell>
                         <cell role="code">I</cell>
-                        <!--ka added to category Interjection-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -7567,7 +7550,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Abbreviation</cell>
                         <cell role="code">Y</cell>
-                        <!--ka added to category Abbreviation-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
@@ -7941,7 +7923,6 @@
                         <cell role="name">CATEGORY</cell>
                         <cell role="value">Punctuation</cell>
                         <cell role="code">Z</cell>
-                        <!--ka added to category Punctuation-->
                         <cell role="lang">en</cell>
                         <cell role="lang">ro</cell>
                         <cell role="lang">sl</cell>
