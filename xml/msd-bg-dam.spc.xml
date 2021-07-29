@@ -7,7 +7,7 @@
      xml:lang="en">
    <head>Damaskini Specifications</head>
    <docAuthor>Ivan Šimko</docAuthor>
-   <docDate>2020-11-04</docDate>
+   <docDate>2021-07-29</docDate>
    <list type="gloss">
       <label>Language Name:</label>
       <item>Damaskini Bulgarian</item>
@@ -21,7 +21,7 @@
    <divGen type="subtoc"/>
    <div xml:id="msd-bg-dam.introduction">
       <head>Introduction to Damaskini Bulgarian Specifications</head>
-      <p>These specifications were created for the purpose of morphological annotation of a diachronic corpus containing Balkan Slavic texts from 16th-19th century and available at <ref target="http://hdl.handle.net/11356/1368">http://hdl.handle.net/11356/1368</ref>. The most of these represent the <emph>damaskini</emph> tradition, collections of popular homilies and lives of saints spread by handwriting, written in an early variant of ("simple") Modern Bulgarian, reflecting various Eastern dialects. The corpus also includes related Church Slavonic sources, a chapter from the printed Nedělnik of Sophronius, as well as rare manuscripts from different dialectal areas.</p>
+      <p>These specifications were created for the purpose of morphological annotation of a diachronic corpus containing Balkan Slavic texts from 16th-19th century and available at <ref target="http://hdl.handle.net/11356/1441">http://hdl.handle.net/11356/1441</ref>. Most of these represent the <emph>damaskini</emph> tradition, collections of popular homilies and lives of saints spread by handwriting, written in an early variant of ("simple") Modern Bulgarian, reflecting various Eastern dialects. The corpus also includes related Church Slavonic sources, a chapter from the printed Nedělnik of Sophronius, as well as rare manuscripts from different dialectal areas.</p>
    </div>
    <div type="section" select="bg-dam" xml:id="msd.categories-bg-dam">
       <head>Damaskini Bulgarian Category Index</head>
@@ -943,8 +943,8 @@
             <row>
                <cell>Vmia3se</cell>
                <cell>Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular Aspect=perfective</cell>
-               <cell>440</cell>
-               <cell>916</cell>
+               <cell>439</cell>
+               <cell>915</cell>
                <cell>reče/reka, ostavi/ostavja, otide/otida, stori/storja, poide/poida</cell>
             </row>
             <row>
@@ -2328,9 +2328,9 @@
             <row>
                <cell>Pp2-sd</cell>
                <cell>Pronoun Type=personal Person=second Number=singular Case=dative</cell>
-               <cell>4</cell>
-               <cell>33</cell>
-               <cell>ti, ti+/ti, ti/te, tebě/ty</cell>
+               <cell>3</cell>
+               <cell>32</cell>
+               <cell>ti, ti/te, tebě/ty</cell>
             </row>
             <row>
                <cell>Pp2-sa</cell>
@@ -2664,8 +2664,8 @@
             <row>
                <cell>Pd-fsn</cell>
                <cell>Pronoun Type=demonstrative Gender=feminine Number=singular Case=nominative</cell>
-               <cell>27</cell>
-               <cell>322</cell>
+               <cell>26</cell>
+               <cell>321</cell>
                <cell>ta/tъ, tazi, onazi/onzi, tazi/tozi, onazi</cell>
             </row>
             <row>
@@ -2916,8 +2916,8 @@
             <row>
                <cell>Px---a</cell>
                <cell>Pronoun Type=reflexive Case=accusative</cell>
-               <cell>11</cell>
-               <cell>690</cell>
+               <cell>10</cell>
+               <cell>689</cell>
                <cell>se, sa/se, sę/se, sa/sъm, sa</cell>
             </row>
             <row>
@@ -3066,8 +3066,8 @@
             <row>
                <cell>Sg</cell>
                <cell>Adposition Case=genitive</cell>
-               <cell>59</cell>
-               <cell>902</cell>
+               <cell>57</cell>
+               <cell>900</cell>
                <cell>ot, u, od/ot, do, ut/ot</cell>
             </row>
             <row>
@@ -3087,8 +3087,8 @@
             <row>
                <cell>Sl</cell>
                <cell>Adposition Case=locative</cell>
-               <cell>28</cell>
-               <cell>579</cell>
+               <cell>27</cell>
+               <cell>578</cell>
                <cell>na, po, vъ/v, o, pri</cell>
             </row>
             <row>
@@ -3127,8 +3127,8 @@
             <row>
                <cell>C</cell>
                <cell>Conjunction</cell>
-               <cell>98</cell>
-               <cell>5492</cell>
+               <cell>97</cell>
+               <cell>5491</cell>
                <cell>i, da, kato, a, ta</cell>
             </row>
          </table>
@@ -3386,20 +3386,13 @@
          <head>MSD Index</head>
          <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1368">Damaskini corpus</ref>, which was manually tagged and lemmatised. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
          <table>
-            <head>MSDs (1)</head>
+            <head>MSDs (0)</head>
             <row role="header">
                <cell role="label">MSD</cell>
                <cell role="label">Features</cell>
                <cell role="label">Types</cell>
                <cell role="label">Tokens</cell>
                <cell role="label">Examples</cell>
-            </row>
-            <row>
-               <cell>X</cell>
-               <cell>Residual</cell>
-               <cell>1</cell>
-               <cell>1</cell>
-               <cell>†</cell>
             </row>
          </table>
       </div>
@@ -4105,7 +4098,7 @@
              select="bg-dam"
              n="msd.lex"
              xml:base="msd-bg-dam.msd.xml">
-         <head>MSD Index (348)</head>
+         <head>MSD Index (347)</head>
          <row role="header">
             <cell role="label">MSD</cell>
             <cell role="label">Features</cell>
@@ -4669,8 +4662,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Vmia3se</cell>
             <cell role="attval" xml:lang="en">Verb Type=main VForm=indicative Tense=aorist Person=third Number=singular Aspect=perfective</cell>
-            <cell>440</cell>
-            <cell>916</cell>
+            <cell>439</cell>
+            <cell>915</cell>
             <cell xml:lang="bg-dam">reče/reka, ostavi/ostavja, otide/otida, stori/storja, poide/poida</cell>
          </row>
          <row role="msd">
@@ -5768,9 +5761,9 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp2-sd</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=personal Person=second Number=singular Case=dative</cell>
-            <cell>4</cell>
-            <cell>33</cell>
-            <cell xml:lang="bg-dam">ti, ti+/ti, ti/te, tebě/ty</cell>
+            <cell>3</cell>
+            <cell>32</cell>
+            <cell xml:lang="bg-dam">ti, ti/te, tebě/ty</cell>
          </row>
          <row role="msd">
             <cell role="msd" xml:lang="en">Pp2-sa</cell>
@@ -6104,8 +6097,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Pd-fsn</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=demonstrative Gender=feminine Number=singular Case=nominative</cell>
-            <cell>27</cell>
-            <cell>322</cell>
+            <cell>26</cell>
+            <cell>321</cell>
             <cell xml:lang="bg-dam">ta/tъ, tazi, onazi/onzi, tazi/tozi, onazi</cell>
          </row>
          <row role="msd">
@@ -6356,8 +6349,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Px---a</cell>
             <cell role="attval" xml:lang="en">Pronoun Type=reflexive Case=accusative</cell>
-            <cell>11</cell>
-            <cell>690</cell>
+            <cell>10</cell>
+            <cell>689</cell>
             <cell xml:lang="bg-dam">se, sa/se, sę/se, sa/sъm, sa</cell>
          </row>
          <row role="msd">
@@ -6426,8 +6419,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Sg</cell>
             <cell role="attval" xml:lang="en">Adposition Case=genitive</cell>
-            <cell>59</cell>
-            <cell>902</cell>
+            <cell>57</cell>
+            <cell>900</cell>
             <cell xml:lang="bg-dam">ot, u, od/ot, do, ut/ot</cell>
          </row>
          <row role="msd">
@@ -6447,8 +6440,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">Sl</cell>
             <cell role="attval" xml:lang="en">Adposition Case=locative</cell>
-            <cell>28</cell>
-            <cell>579</cell>
+            <cell>27</cell>
+            <cell>578</cell>
             <cell xml:lang="bg-dam">na, po, vъ/v, o, pri</cell>
          </row>
          <row role="msd">
@@ -6461,8 +6454,8 @@
          <row role="msd">
             <cell role="msd" xml:lang="en">C</cell>
             <cell role="attval" xml:lang="en">Conjunction</cell>
-            <cell>98</cell>
-            <cell>5492</cell>
+            <cell>97</cell>
+            <cell>5491</cell>
             <cell xml:lang="bg-dam">i, da, kato, a, ta</cell>
          </row>
          <row role="msd">
@@ -6541,13 +6534,6 @@
             <cell>12</cell>
             <cell>32</cell>
             <cell xml:lang="bg-dam">o, aminъ/amin, aminъ:/amin, amin, ox</cell>
-         </row>
-         <row role="msd">
-            <cell role="msd" xml:lang="en">X</cell>
-            <cell role="attval" xml:lang="en">Residual</cell>
-            <cell>1</cell>
-            <cell>1</cell>
-            <cell xml:lang="bg-dam">†</cell>
          </row>
       </table>
    </div>
