@@ -26,6 +26,12 @@
       <xsl:variable name="langs">
         <xsl:call-template name="cat-langs"/>
       </xsl:variable>
+      <!--xsl:comment>
+	<xsl:text>INFO: localisation languages for </xsl:text>
+	<xsl:value-of select="@select"/>
+	<xsl:text> are </xsl:text>
+	<xsl:value-of select="$langs"/>
+      </xsl:comment-->
       <row role="label">
         <cell role="position">P</cell>
         <xsl:call-template name="ABCD">
