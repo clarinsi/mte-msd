@@ -63,14 +63,15 @@ cast-all:
 	$s -xi -xsl:bin/copy.xsl xml-edit/msd.xml | $j schema/mte_tei.rng
 	$s -xsl:bin/msd-castspecs.xsl xml-edit/msd.xml > xml/msd.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-bg.spc.xml > xml/msd-bg.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-bg-dam.spc.xml > xml/msd-bg-dam.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-ce.spc.xml > xml/msd-ce.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-cs.spc.xml > xml/msd-cs.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-en.spc.xml > xml/msd-en.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-et.spc.xml > xml/msd-et.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-fa.spc.xml > xml/msd-fa.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-hbs.spc.xml > xml/msd-hbs.spc.xml
-	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-hr.spc.xml > xml/msd-hr.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-hu.spc.xml > xml/msd-hu.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-ka.spc.xml > xml/msd-ka.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-mk.spc.xml > xml/msd-mk.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-pl.spc.xml > xml/msd-pl.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-ro.spc.xml > xml/msd-ro.spc.xml
@@ -79,7 +80,7 @@ cast-all:
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sl-rozaj.spc.xml > xml/msd-sl-rozaj.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sl.spc.xml > xml/msd-sl.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sq.spc.xml > xml/msd-sq.spc.xml
-	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sr.spc.xml > xml/msd-sr.spc.xml
+	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-sr-tor.spc.xml > xml/msd-sr-tor.spc.xml
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-uk.spc.xml > xml/msd-uk.spc.xml
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
