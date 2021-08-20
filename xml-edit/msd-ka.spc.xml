@@ -21,7 +21,7 @@
    <divGen type="subtoc"/>
    <div>
       <head>Introduction to Georgian Specifications</head>
-      <p>These specifications were created for the purpose of morphological annotation of <ref target="https://iliauni.edu.ge/en/iliauni/institutebi-451/lingvistur-kvlevata-centri-467/qartuli-jesturi-enis-korpusi">Georgian Language Corpus (GLC)</ref> containing texts beginning from the 6th century and ending in 2014.</p> <!-- ჩასამატებელია -->
+      <p>These specifications were created for the purpose of morphological annotation of <ref target="http://corpora.iliauni.edu.ge">Georgian Language Corpus (GLC)</ref> containing texts beginning from the 6th century and ending in 2014.</p> <!-- ჩასამატებელია -->
    </div>
    <div type="section" select="ka" xml:id="msd.categories-ka">
       <head>Georgian Category Index</head>
@@ -1898,7 +1898,7 @@
    </div>
    <div select="ka" type="section" xml:id="msd.msds-ka">
       <head>Georgian MSD Index</head>
-      <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features, in Georgian and English. The first and third column gives the MSD, the second and fourth their expansion to features. The fifth and the sixth gives the number of word types tagged with this MSD in the Georgian Language Corpus (<ref target="https://iliauni.edu.ge/en/iliauni/institutebi-451/lingvistur-kvlevata-centri-467/qartuli-jesturi-enis-korpusi">GLC</ref>). The last column gives up to 5 examples of the usage of the MSD in the form word-form/lemma. It should be noted that not all examples are necessarily correct.</p>
+      <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features, in Georgian and English. The first and third column gives the MSD, the second and fourth their expansion to features. The fifth and the sixth gives the number of word types tagged with this MSD in the Georgian Language Corpus (<ref target="http://corpora.iliauni.edu.ge">GLC</ref>). The last column gives up to 5 examples of the usage of the MSD in the form word-form/lemma. It should be noted that not all examples are necessarily correct.</p>
       <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="msd-ka.msd.xml"/>
    </div>
  </div>
