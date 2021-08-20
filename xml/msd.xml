@@ -136,7 +136,7 @@
             <availability status="free">
                <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
             </availability>
-            <date>2021-07-29</date>
+            <date>2021-08-20</date>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -187,6 +187,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2021-08-20">ET, updated Georgian MSDs.</change>
          <change when="2021-07-29">ET, add Georgian MSDs, update handle for Damaskini.</change>
          <change when="2021-03-17">ET, add draft Georgian.</change>
          <change when="2020-11-08">ET, remove Croatian &amp; Serbian, V6 goes live.</change>
@@ -227,7 +228,7 @@
             <docEdition>
                <ref target="http://nl.ijs.si/ME/V6/">Version 6</ref>
             </docEdition>
-            <docDate>2021-07-29</docDate>
+            <docDate>2021-08-20</docDate>
             <lb/>
             <byline>Editor: <name>Tomaž Erjavec</name>
             </byline>
@@ -412,7 +413,7 @@
             <p>Ljubljana, May 2010 (V4)</p>
             <p>Ljubljana, June 2016 (V5)</p>
             <p>Erlangen,  November 2018 (V6 draft)</p>
-            <p>Ljubljana, July 2021 (V6, current version)</p>
+            <p>Ljubljana, August 2021 (V6, current version)</p>
          </div>
          <divGen type="toc"/>
       </front>
@@ -6583,6 +6584,16 @@
                               <row role="value">
                                  <cell role="name">essive</cell>
                                  <cell role="code">w</cell>
+                                 <cell role="lang">ka</cell>
+                              </row>
+                              <row role="value">
+                                 <cell role="name">ergative</cell>
+                                 <cell role="code">z</cell>
+                                 <cell role="lang">ka</cell>
+                              </row>
+                              <row role="value">
+                                 <cell role="name">vocative</cell>
+                                 <cell role="code">v</cell>
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>
@@ -16910,6 +16921,32 @@
                         <cell>z</cell>
                         <cell>Case</cell>
                         <cell>Adjective</cell>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang">ka</cell>
+                     </row>
+                     <row>
+                        <cell>ergative</cell>
+                        <cell>z</cell>
+                        <cell>Case</cell>
+                        <cell>Adposition</cell>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
@@ -28806,6 +28843,32 @@
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang">bg-dam</cell>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang">ka</cell>
+                     </row>
+                     <row>
+                        <cell>vocative</cell>
+                        <cell>v</cell>
+                        <cell>Case</cell>
+                        <cell>Adposition</cell>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
+                        <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>
                         <cell role="lang"/>

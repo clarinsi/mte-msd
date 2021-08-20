@@ -137,7 +137,7 @@
             <availability status="free">
                <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
             </availability>
-            <date>2021-07-29</date>
+            <date>2021-08-20</date>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -208,6 +208,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2021-08-20">ET, updated Georgian MSDs.</change>
          <change when="2021-07-29">ET, add Georgian MSDs, update handle for Damaskini.</change>
          <change when="2021-03-17">ET, add draft Georgian.</change>
          <change when="2020-11-08">ET, remove Croatian &amp; Serbian, V6 goes live.</change>
@@ -241,16 +242,19 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart><ref target="http://nl.ijs.si/ME/">MULTEXT-East</ref>
+               <titlePart>
+                  <ref target="http://nl.ijs.si/ME/">MULTEXT-East</ref>
                   <lb/>Morphosyntactic Specifications</titlePart>
             </docTitle>
             <docEdition>
                <ref target="http://nl.ijs.si/ME/V6/">Version 6</ref>
             </docEdition>
-            <docDate>2021-07-29</docDate>
+            <docDate>2021-08-20</docDate>
             <lb/>
-            <byline>Editor: <name>Tomaž Erjavec</name></byline>
-            <byline><ref target="#msd-sq">Albanian specifications</ref>:
+            <byline>Editor: <name>Tomaž Erjavec</name>
+            </byline>
+            <byline>
+               <ref target="#msd-sq">Albanian specifications</ref>:
               <name>Dalian Zogaj</name>,
               <name>Philipp Wasserscheidt</name>
             </byline>
@@ -262,63 +266,63 @@
                <name>Kiril Simov</name>
             </byline>
             <byline>
-              <ref target="#msd-ce">Chechen specifications</ref>:
+               <ref target="#msd-ce">Chechen specifications</ref>:
               <name>Dietmar Fiesel</name>
             </byline>
             <byline>
-              <ref target="#msd-cs">Czech specifications</ref>:
+               <ref target="#msd-cs">Czech specifications</ref>:
               <name>Vladimír Petkevič</name>
             </byline>
             <byline>
-              <ref target="#msd-bg-dam">Damaskini specifications</ref>:
+               <ref target="#msd-bg-dam">Damaskini specifications</ref>:
               <name>Ivan Šimko</name>
             </byline>
             <byline>
-              <ref target="#msd-en">English specifications</ref>:
+               <ref target="#msd-en">English specifications</ref>:
               <name>Nancy Ide</name>,
               <name>Greg Priest-Dorman</name>,
               <name>Tomaž Erjavec</name>,
               <name>Tamas Varadi</name>
             </byline>
             <byline>
-              <ref target="#msd-et">Estonian specifications</ref>:
+               <ref target="#msd-et">Estonian specifications</ref>:
               <name>Heiki-Jaan Kaalep</name>
             </byline>
             <byline>
-              <ref target="#msd-ka">Georgian specifications</ref>:
+               <ref target="#msd-ka">Georgian specifications</ref>:
               <name>Irina Lobzhanidze</name>
             </byline>
             <byline>
-              <ref target="#msd-hu">Hungarian specifications</ref>:
+               <ref target="#msd-hu">Hungarian specifications</ref>:
               <name>Laszlo Tihanyi</name>,
               <name>Tamas Varadi</name>,
               <name>Csaba Oravecz</name>
             </byline>
             <byline>
-              <ref target="#msd-mk">Macedonian specifications</ref>:
+               <ref target="#msd-mk">Macedonian specifications</ref>:
               <name>Katerina Zdravkova</name>
             </byline>
             <byline>
-              <ref target="#msd-fa">Persian specifications</ref>:
+               <ref target="#msd-fa">Persian specifications</ref>:
               <name>Behrang QasemiZadeh</name>
             </byline>
             <byline>
-              <ref target="#msd-pl">Polish specifications</ref>:
+               <ref target="#msd-pl">Polish specifications</ref>:
               <name>Natalia Kotsyba</name>, 
               <name>Ivan Derzhanski</name>, 
               <name>Adam Radziszewski</name>
             </byline>
             <byline>
-              <ref target="#msd-sl-rozaj">Resian specifications</ref>:
+               <ref target="#msd-sl-rozaj">Resian specifications</ref>:
               <name>Han Steenwijk</name>
             </byline>
             <byline>
-              <ref target="#msd-ro">Romanian specifications</ref>:
+               <ref target="#msd-ro">Romanian specifications</ref>:
               <name>Dan Tufiş</name>,
               <name>Anna Maria Barbu</name>
             </byline>
             <byline>
-              <ref target="#msd-ru">Russian specifications</ref>:
+               <ref target="#msd-ru">Russian specifications</ref>:
               <name>Serge Sharoff</name>,
               <name>Mikhail Kopotev</name>,
               <name>Tomaž Erjavec</name>,
@@ -326,30 +330,30 @@
               <name>Dagmar Divjak</name>
             </byline>
             <byline>
-              <ref target="#msd-hbs">Serbo-Croatian specifications</ref>:
+               <ref target="#msd-hbs">Serbo-Croatian specifications</ref>:
               <name>Tomaž Erjavec</name>
             </byline>
             <byline>
-              <ref target="#msd-sk">Slovak specifications</ref>:
+               <ref target="#msd-sk">Slovak specifications</ref>:
               <name>Radovan Garabík</name>
             </byline>
             <byline>
-              <ref target="#msd-sl">Slovene specifications</ref>:
+               <ref target="#msd-sl">Slovene specifications</ref>:
               <name>Tomaž Erjavec</name>,
               <name>Simon Krek</name>
             </byline>
             <byline>
-              <ref target="#msd-sr-tor">Torlak specifications</ref>
-              <name>Teodora Vuković</name>
+               <ref target="#msd-sr-tor">Torlak specifications</ref>
+               <name>Teodora Vuković</name>
             </byline>
             <byline>
-              <ref target="#msd-uk">Ukrainian specifications</ref>:
+               <ref target="#msd-uk">Ukrainian specifications</ref>:
               <name>Natalia Kotsyba</name>,
               <name>Igor Shevchenko</name>,
               <name>Ivan Derzhanski</name>
             </byline>
-          </titlePage>
-          <div type="section" xml:id="msd.foreword">
+         </titlePage>
+         <div type="section" xml:id="msd.foreword">
             <head>Foreword</head>
             <p>The purpose of this document is to provide harmonised lexical specifications for 
             the following languages or language variants:
@@ -430,7 +434,7 @@
             <p>Ljubljana, May 2010 (V4)</p>
             <p>Ljubljana, June 2016 (V5)</p>
             <p>Erlangen,  November 2018 (V6 draft)</p>
-            <p>Ljubljana, July 2021 (V6, current version)</p>
+            <p>Ljubljana, August 2021 (V6, current version)</p>
          </div>
          <divGen type="toc"/>
       </front>
@@ -6147,6 +6151,18 @@
                               <row role="value">
                                  <cell role="name">essive</cell>
                                  <cell role="code">w</cell>
+                                 <cell role="lang">ka</cell>
+                              </row>
+                              <!--WARN ka NEW value Adposition/Case=ergative with code z-->
+                              <row role="value">
+                                 <cell role="name">ergative</cell>
+                                 <cell role="code">z</cell>
+                                 <cell role="lang">ka</cell>
+                              </row>
+                              <!--WARN ka NEW value Adposition/Case=vocative with code v-->
+                              <row role="value">
+                                 <cell role="name">vocative</cell>
+                                 <cell role="code">v</cell>
                                  <cell role="lang">ka</cell>
                               </row>
                            </table>

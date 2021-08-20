@@ -1,5 +1,5 @@
 #! /usr/bin/perl
-# From an example MULTEXT-type lexicon makes TEI table where each row containsŽ:
+# From an example MULTEXT-type lexicon makes TEI table where each row contains:
 # a) MSD (in English)
 # b) its expansions to features (in English)
 # c) type count (i.e. how many times this MSD appears in the lexicon
@@ -28,9 +28,7 @@ $err = '@';
 $tmpD = "$Bin/tmp";
 my $tmpDir = tempdir(DIR => $tmpD, CLEANUP => 0);
 
-#my $SAXON   = 'java -Djavax.xml.parsers.DocumentBuilderFactory=org.apache.xerces.jaxp.DocumentBuilderFactoryImpl -Djavax.xml.parsers.SAXParserFactory=org.apache.xerces.jaxp.SAXParserFactoryImpl net.sf.saxon.Transform';
-#my $SAXON   = "java -jar /usr/local/bin/saxon9he.jar";
-my $SAXON   = "java -jar /home/tomaz/bin/saxon9he.jar";
+my $SAXON   = "java -jar /usr/share/java/saxon-he-10.2.jar";
 my $DRESS   = "$Bin/dress-msd.pl $lang";
 my $EXPAND  = "$Bin/msd-expand2text.xsl";
 
@@ -79,7 +77,7 @@ close TBL;
 #Get localised MSD and expansion to features
 #Localisations are available only for a few languages
 #Here they are listed explicitly!
-if ($lang eq 'sl') {
+if ($lang eq 'sl' or $lang eq 'ka') {
     $OPTIONS = "output='id msd attval' localise=$lang";
     $COMMAND = "$SAXON specs=$specFile $OPTIONS -xsl:$EXPAND $tmpDir/msds.xml > $tmpDir/expand2.tbl";
     if (system($COMMAND)) {
