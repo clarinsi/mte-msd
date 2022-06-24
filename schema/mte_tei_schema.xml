@@ -9,7 +9,7 @@
       </titleStmt>
       <publicationStmt>
 	<publisher>CLARIN.SI</publisher>
-        <date>2018-11-06</date>
+        <date>2022-06-24</date>
         <availability status="free">
           <p>This file is freely available and you are hereby authorised to copy, modify, and
             redistribute it in any way without further reference or permissions.</p>
@@ -18,7 +18,7 @@
             text.</p>
         </availability>
         <pubPlace>
-          <ref target="http://nl.ijs.si/tei/schema/mte/">http://nl.ijs.si/tei/schema/mte/</ref>
+          <ref target="https://nl.ijs.si/tei/schema/mte/">https://nl.ijs.si/tei/schema/mte/</ref>
         </pubPlace>
       </publicationStmt>
       <sourceDesc>
@@ -27,7 +27,7 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p xml:lang="en">Project <ref target="http://nl.ijs.si/ME/">MULTEXT-East</ref>.</p>
+        <p xml:lang="en">Project <ref target="https://nl.ijs.si/ME/">MULTEXT-East</ref>.</p>
       </projectDesc>
     </encodingDesc>
   </teiHeader>
@@ -35,8 +35,8 @@
     <body>
       <head>MULTEXT-East V6</head>
       <p>This TEI customization file includes modules for multilingual morphosyntactically annotated corpora and morphosyntactically specifications of the MULTEXT-East project,
-      <ref target="http://nl.ijs.si/ME/">http://nl.ijs.si/ME/</ref>, 
-      in particular <ref target="http://nl.ijs.si/ME/V6/">Version 6</ref> of the resources.</p>
+      <ref target="https://nl.ijs.si/ME/">https://nl.ijs.si/ME/</ref>, 
+      in particular <ref target="https://nl.ijs.si/ME/V6/">Version 6</ref> of the resources.</p>
       <schemaSpec ident="mte_tei" start="TEI teiCorpus">
         <!-- required modules -->
         <moduleRef key="header"/>

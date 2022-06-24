@@ -1,0 +1,18 @@
+/* CSS for MULTEXT-East specifications */
+@import url("https://www.tei-c.org/release/xml/tei/stylesheet/tei.css");
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}

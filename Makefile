@@ -90,8 +90,9 @@ SUBSET = --localsource=https://tei-c.org/release/xml/tei/odd/p5subset.xml
 SCHEMA = schema/mte_tei_schema.xml
 PROFILE = --profiledir=/home/tomaz/Project/ME/V6/mte-msd/bin --profile=profile
 schema-html:
-	bin/Stylesheets/bin/teitohtml ${PROFILE} --odd ${SUBSET} ${SCHEMA} > schema/mte_tei_doc.html
+	bin/Stylesheets/bin/teitohtml ${PROFILE} --odd ${SUBSET} ${SCHEMA}
 	rm -f schema/mte_tei_schema.xml.html
+	#perl -i -pe 's| href="http:| href="https:|' schema/mte_tei_doc.html
 xml-schemas:
 	bin/Stylesheets/bin/teitorelaxng    ${SUBSET} ${SCHEMA} ../schema/mte_tei.rng
 	bin/Stylesheets/bin/teitornc        ${SUBSET} ${SCHEMA} ../schema/mte_tei.rnc
