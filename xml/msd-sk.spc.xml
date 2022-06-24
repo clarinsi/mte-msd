@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="sk"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="sk"
      xml:id="msd-sk"
      xml:lang="en">
    <head>Slovak Specifications</head>
@@ -16920,7 +16923,10 @@
    <div select="sk" type="section" xml:id="msd.msds-sk">
       <head>Slovak MSD Index</head>
       <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (2.471,926 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Slovak MULTEXT-East lexicon.</p>
-      <table xml:id="msd.lex-sk" xml:lang="en" select="sk" n="msd.lex"
+      <table xml:id="msd.lex-sk"
+             xml:lang="en"
+             select="sk"
+             n="msd.lex"
              xml:base="msd-sk.msd.xml">
          <head>MSD Index (1613)</head>
          <row role="header">

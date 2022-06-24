@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="en"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="en"
      xml:id="msd-en"
      xml:lang="en">
    <head>English Specifications</head>
@@ -2532,7 +2535,10 @@
    <div select="en" type="section" xml:id="msd.msds-en">
       <head>English MSD Index</head>
       <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (71,784 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the English MULTEXT-East lexicon.</p>
-      <table xml:id="msd.lex-en" xml:lang="en" select="en" n="msd.lex"
+      <table xml:id="msd.lex-en"
+             xml:lang="en"
+             select="en"
+             n="msd.lex"
              xml:base="msd-en.msd.xml">
          <head>MSD Index (136)</head>
          <row role="header">

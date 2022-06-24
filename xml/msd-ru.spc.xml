@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="ru"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="ru"
      xml:id="msd-ru"
      xml:lang="en">
    <head>Russian Specifications</head>
@@ -6176,7 +6179,10 @@ In Proc. LREC 2008, Marrakech, May, 2008.
    <div select="ru" type="section" xml:id="msd.msds-ru">
       <head>Russian MSD Index</head>
       <p xml:lang="en">This index gives the (hopefully) correct and complete list of morphosyntactic descriptions and their features. The first column gives the MSD, the second its expansion into a feature-structure, the thrid the frequency of word tokens and the fourth the number of word types tagged with this MSD, with the fifth giving some examples as word-form/lemma, where the latter is omitted when the two are identical.</p>
-      <table xml:id="msd.lex-ru" xml:lang="en" select="ru" n="msd.lex"
+      <table xml:id="msd.lex-ru"
+             xml:lang="en"
+             select="ru"
+             n="msd.lex"
              xml:base="msd-ru.msd.xml">
          <head>MSD Index (580)</head>
          <row role="header">

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="cs"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="cs"
      xml:id="msd-cs"
      xml:lang="en">
    <head>Czech Specifications</head>
@@ -14916,7 +14919,10 @@ Skoumalová. For all errors solely the author is to blame.
    <div select="cs" type="section" xml:id="msd.msds-cs">
       <head>Czech MSD Index</head>
       <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (184,470 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Czech MULTEXT-East lexicon.</p>
-      <table xml:id="msd.lex-cs" xml:lang="en" select="cs" n="msd.lex"
+      <table xml:id="msd.lex-cs"
+             xml:lang="en"
+             select="cs"
+             n="msd.lex"
              xml:base="msd-cs.msd.xml">
          <head>MSD Index (1426)</head>
          <row role="header">

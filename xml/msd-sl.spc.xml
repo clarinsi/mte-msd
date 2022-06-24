@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="sl"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="sl"
      xml:id="msd-sl"
      xml:lang="en">
    <head>Slovene Specifications</head>
@@ -20750,7 +20753,10 @@
           It should be noted (1) contains some errors of tagging or lemmatisation, 
           so not all examples are necessarily correct.
           </p>
-      <table xml:id="msd.lex-sl" xml:lang="en" select="sl" n="msd.lex"
+      <table xml:id="msd.lex-sl"
+             xml:lang="en"
+             select="sl"
+             n="msd.lex"
              xml:base="msd-sl.msd.xml">
          <head>MSD Index (1900)</head>
          <row role="header">

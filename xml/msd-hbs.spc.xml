@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="hbs"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="hbs"
      xml:id="msd-hbs"
      xml:lang="en">
    <head>Serbo-Croatian Specifications</head>
@@ -8758,7 +8761,10 @@
    <div select="hbs" type="section" xml:id="msd.msds-hbs">
       <head>Serbo-Croatian MSD Index</head>
       <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1072">hrLex</ref> and <ref target="http://hdl.handle.net/11356/1073">srLex</ref> lexicons. The third column gives the number of entries with this MSD in srLex only (since this lexicon covers the whole tagset, as opposed to hrLex, which lacks the V[am]f.* MSDs). The fourth column gives the number of its occurrences in of the hrLex and srLex lexicon entries in the corresponding <ref target="http://hdl.handle.net/11356/1064">hrWaC</ref> and <ref target="http://hdl.handle.net/11356/1063">srWaC</ref> corpora. The fifth column gives some examples as word-form/lemma extracted from hrLex and srLex, with preference given to forms occurring in both lexicons.</p>
-      <table xml:id="msd.lex-hbs" xml:lang="en" select="hbs" n="msd.lex"
+      <table xml:id="msd.lex-hbs"
+             xml:lang="en"
+             select="hbs"
+             n="msd.lex"
              xml:base="msd-hbs.msd.xml">
          <head>MSD Index (933)</head>
          <row role="header">

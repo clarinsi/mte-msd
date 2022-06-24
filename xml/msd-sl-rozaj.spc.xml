@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
      select="sl-rozaj"
      xml:id="msd-sl-rozaj"
      xml:lang="en">
@@ -9186,7 +9188,10 @@
    <div select="sl-rozaj" type="section" xml:id="msd.msds-sl-rozaj">
       <head>Resian MSD Index</head>
       <p xml:lang="en">This index gives the list of corpus attested morphosyntactic descriptions and their features. The first column gives the MSD, the second its expansion into a feature-structure, the third the number of word tokens and the fourth the number of word types tagged with this MSD, with the fifth giving some examples as word-form/lemma, where the latter is omitted when the two are identical.</p>
-      <table xml:id="msd.lex-sl-rozaj" xml:lang="en" select="sl-rozaj" n="msd.lex"
+      <table xml:id="msd.lex-sl-rozaj"
+             xml:lang="en"
+             select="sl-rozaj"
+             n="msd.lex"
              xml:base="msd-sl-rozaj.msd.xml">
          <head>MSD Index (518)</head>
          <row role="header">

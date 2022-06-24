@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="et"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="et"
      xml:id="msd-et"
      xml:lang="en">
    <head>Estonian Specifications</head>
@@ -6073,7 +6076,10 @@
    <div select="et" type="section" xml:id="msd.msds-et">
       <head>Estonian MSD Index</head>
       <p>This index gives the liist of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (135,094 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Estonian MULTEXT-East lexicon.</p>
-      <table xml:id="msd.lex-et" xml:lang="en" select="et" n="msd.lex"
+      <table xml:id="msd.lex-et"
+             xml:lang="en"
+             select="et"
+             n="msd.lex"
              xml:base="msd-et.msd.xml">
          <head>MSD Index (643)</head>
          <row role="header">

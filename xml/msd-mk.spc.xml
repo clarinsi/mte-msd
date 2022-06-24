@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="mk"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="mk"
      xml:id="msd-mk"
      xml:lang="en">
    <head>Macedonian Specifications</head>
@@ -4627,7 +4630,10 @@
    <div select="mk" type="section" xml:id="msd.msds-mk">
       <head>Macedonian MSD Index</head>
       <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (1,323,718 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Macedonian MULTEXT-East lexicon.</p>
-      <table xml:id="msd.lex-mk" xml:lang="en" select="mk" n="msd.lex"
+      <table xml:id="msd.lex-mk"
+             xml:lang="en"
+             select="mk"
+             n="msd.lex"
              xml:base="msd-mk.msd.xml">
          <head>MSD Index (351)</head>
          <row role="header">

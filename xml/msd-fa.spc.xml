@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="fa"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="fa"
      xml:id="msd-fa"
      xml:lang="en">
    <head>Persian Specifications</head>
@@ -4324,7 +4327,10 @@
    <div select="fa" type="section" xml:id="msd.msds-fa">
       <head>Persian MSD Index</head>
       <p xml:lang="en">This index gives the list of morphosyntactic descriptions, based on the lexicon extracted from the Persian MULTEXT-East corpus ("1984"), from where the token and type frequencies and examples are also extracted.</p>
-      <table xml:id="msd.lex-fa" xml:lang="en" select="fa" n="msd.lex"
+      <table xml:id="msd.lex-fa"
+             xml:lang="en"
+             select="fa"
+             n="msd.lex"
              xml:base="msd-fa.msd.xml">
          <head>MSD Index (429)</head>
          <row role="header">

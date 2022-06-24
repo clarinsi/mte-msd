@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="ro"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="ro"
      xml:id="msd-ro"
      xml:lang="en">
    <head>Romanian Specifications</head>
@@ -7285,7 +7288,10 @@ See discussion on Verb clitics.</item>
    <div select="ro" type="section" xml:id="msd.msds-ro">
       <head>Romanian MSD Index</head>
       <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (428,093 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Romanian MULTEXT-East lexicon.</p>
-      <table xml:id="msd.lex-ro" xml:lang="en" select="ro" n="msd.lex"
+      <table xml:id="msd.lex-ro"
+             xml:lang="en"
+             select="ro"
+             n="msd.lex"
              xml:base="msd-ro.msd.xml">
          <head>MSD Index (617)</head>
          <row role="header">

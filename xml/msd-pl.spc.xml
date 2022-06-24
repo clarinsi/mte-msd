@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="pl"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="pl"
      xml:id="msd-pl"
      xml:lang="en">
    <head>Polish Specifications</head>
@@ -12098,7 +12101,10 @@ some of them were presented as a combination of selected values and attributes o
    <div select="pl" type="section" xml:id="msd.msds-pl">
       <head>Polish MSD Index</head>
       <p xml:lang="en">This index gives the list of morphosyntactic descriptions and their features. The first column gives the MSD, the second its expansion into a feature-structure, the third the number of word tokens (100% = 730,518 tokens)tagged with this MSD, and the fourth gives some examples as word-form/lemma. The list was obtained from the IPIC with the help of the IPIC-to-MTE conversion procedure. Even though it is limited by the content of the corpus, it hopefully gives an exhaustive picture of MSD types for Polish. The numbers of tokens also come from IPIC, although during conversion word segmentation is revised.</p>
-      <table xml:id="msd.lex-pl" xml:lang="en" select="pl" n="msd.lex"
+      <table xml:id="msd.lex-pl"
+             xml:lang="en"
+             select="pl"
+             n="msd.lex"
              xml:base="msd-pl.msd.xml">
          <head>MSD Index (1325)</head>
          <row role="header">

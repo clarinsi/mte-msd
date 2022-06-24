@@ -9,12 +9,12 @@
   <xsl:param name="department"/>
   <xsl:param name="homeWords">MULTEXT-East Morphosyntactic specifications</xsl:param>
   <xsl:param name="homeLabel">MULTEXT-East</xsl:param>
-  <xsl:param name="homeURL">http://nl.ijs.si/ME/V6/msd/</xsl:param>
+  <xsl:param name="homeURL">https://nl.ijs.si/ME/V6/msd/</xsl:param>
   <xsl:param name="parentWords">MULTEXT-East Version 6</xsl:param>
-  <xsl:param name="parentURL">http://nl.ijs.si/ME/V6/</xsl:param>
+  <xsl:param name="parentURL">https://nl.ijs.si/ME/V6/</xsl:param>
   <xsl:param name="htmlTitlePrefix">MULTEXT-East, Version 6</xsl:param>
   <xsl:template name="copyrightStatement">This work is licensed under the 
-  <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.</xsl:template>
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.</xsl:template>
   
   <xsl:param name="urlChunkPrefix">#</xsl:param>
   <xsl:param name="outputEncoding">utf-8</xsl:param>

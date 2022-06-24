@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="sq"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="sq"
      xml:id="msd-sq"
      xml:lang="en">
    <head>Albanian Specifications</head>
@@ -8425,7 +8428,10 @@
    <div select="sq" type="section" xml:id="msd.msds-sq">
       <head>Albanian MSD Index</head>
       <p>This index gives the complete list of morphosyntactic descriptions (MSDs) and their features that occur in the Albanian lexicon. The third column gives the number of entries with this MSD in lexicon. The fourth column gives some examples as word-form/lemma extracted from the lexicon.</p>
-      <table xml:id="msd.lex-sq" xml:lang="en" select="sq" n="msd.lex"
+      <table xml:id="msd.lex-sq"
+             xml:lang="en"
+             select="sq"
+             n="msd.lex"
              xml:base="msd-sq.msd.xml">
          <head>MSD Index (984)</head>
          <row role="header">

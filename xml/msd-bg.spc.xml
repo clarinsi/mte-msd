@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="bg"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="bg"
      xml:id="msd-bg"
      xml:lang="en">
    <head>Bulgarian Specifications</head>
-   <docAuthor>Radoslav Pavlov, L.Dimitrova, Ludmila Sinapova, Kiril Simov</docAuthor>
+   <docAuthor>Radoslav Pavlov, Ludmila Dimitrova, Lydia Sinapova, Kiril Simov</docAuthor>
    <docDate>2018-11-12</docDate>
    <list type="gloss">
       <label>Language Name:</label>
@@ -5433,7 +5436,10 @@
    <div select="bg" type="section" xml:id="msd.msds-bg">
       <head>Bulgarian MSD Index</head>
       <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features. In the table below, the first column gives the MSD, the second its expansion into a feature-structure, the third gives the number of entries in the lexicon (54,823 entries), and the fourth gives some examples as word-form/lemma. The list was extracted form the Bulgarian MULTEXT-East lexicon.</p>
-      <table xml:id="msd.lex-bg" xml:lang="en" select="bg" n="msd.lex"
+      <table xml:id="msd.lex-bg"
+             xml:lang="en"
+             select="bg"
+             n="msd.lex"
              xml:base="msd-bg.msd.xml">
          <head>MSD Index (339)</head>
          <row role="header">

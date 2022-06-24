@@ -123,11 +123,11 @@
          </editionStmt>
          <publicationStmt>
             <distributor>
-               <ref target="http://nl.ijs.si/ME/">MULTEXT-East Web site</ref>
+               <ref target="https://nl.ijs.si/ME/">MULTEXT-East Web site</ref>
             </distributor>
             <address>
                <addrLine>
-                  <ref target="http://nl.ijs.si/ME/V6/mte-msd">http://nl.ijs.si/ME/V6/mte-msd</ref>
+                  <ref target="https://nl.ijs.si/ME/V6/msd/">http://nl.ijs.si/ME/V6/msd</ref>
                </addrLine>
                <addrLine>
                   <ref target="https://github.com/clarinsi/mte-msd">https://github.com/clarinsi/mte-msd</ref>
@@ -136,7 +136,7 @@
             <availability status="free">
                <p>This work is licenced under the <ref target="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</ref>.</p>
             </availability>
-            <date>2021-08-20</date>
+            <date>2022-06-24</date>
          </publicationStmt>
          <sourceDesc>
             <biblFull>
@@ -147,7 +147,7 @@
                   <distributor>MULTEXT-East Web site</distributor>
                   <address>
                      <addrLine>
-                        <ref target="http://nl.ijs.si/ME/">http://nl.ijs.si/ME/</ref>
+                        <ref target="https://nl.ijs.si/ME/">http://nl.ijs.si/ME/</ref>
                      </addrLine>
                   </address>
                   <date when="2004-05-13">May 13th, 2004</date>
@@ -187,6 +187,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-06-24">ET, correct some broken links.</change>
          <change when="2021-08-20">ET, updated Georgian MSDs.</change>
          <change when="2021-07-29">ET, add Georgian MSDs, update handle for Damaskini.</change>
          <change when="2021-03-17">ET, add draft Georgian.</change>
@@ -222,13 +223,13 @@
          <titlePage>
             <docTitle>
                <titlePart>
-                  <ref target="http://nl.ijs.si/ME/">MULTEXT-East</ref>
+                  <ref target="https://nl.ijs.si/ME/">MULTEXT-East</ref>
                   <lb/>Morphosyntactic Specifications</titlePart>
             </docTitle>
             <docEdition>
-               <ref target="http://nl.ijs.si/ME/V6/">Version 6</ref>
+               <ref target="https://nl.ijs.si/ME/V6/">Version 6</ref>
             </docEdition>
-            <docDate>2021-08-20</docDate>
+            <docDate>2022-06-24</docDate>
             <lb/>
             <byline>Editor: <name>Tomaž Erjavec</name>
             </byline>
@@ -506,7 +507,7 @@
                      <author>Tomaž Erjavec</author>,
               <author>Christian, Chiarcos</author>
                      <title>OWL/DL formalization of the MULTEXT-East morphosyntactic specifications</title>
-                     <title>In 5th Linguistic Annotation Workshop, June 23, 2011, Portland, Oregon. LAW V. Portland: Association for Computational Linguistics, 2011, pp. 11-20. <ref target="http://www.aclweb.org/anthology-new/W/W11/W11-0402.pdf">http://www.aclweb.org/anthology-new/W/W11/W11-0402.pdf</ref>.</title>
+                     <title>In 5th Linguistic Annotation Workshop, June 23, 2011, Portland, Oregon. LAW V. Portland: Association for Computational Linguistics, 2011, pp. 11-20. <ref target="https://aclanthology.org/W11-0402/">https://aclanthology.org/W11-0402/</ref>.</title>
                      <date>2011</date>
                   </bibl>
                   <bibl xml:id="bib.mte-slav">
@@ -558,7 +559,7 @@
                      <publisher>ILC, Pisa</publisher>
                      <date>1996</date>
                      <pubPlace>
-                        <ref target="http://www.ilc.cnr.it/EAGLES96/annotate/">http://www.ilc.cnr.it/EAGLES96/annotate/</ref>
+                        <ref target="http://www.ilc.cnr.it/EAGLES96/annotate/annotate.html">http://www.ilc.cnr.it/EAGLES96/annotate.html</ref>
                      </pubPlace>
                   </bibl>
                   <bibl xml:id="bib.mt-D161B">

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<div xmlns="http://www.tei-c.org/ns/1.0" type="part" n="msd-language" select="sr-tor"
+<div xmlns="http://www.tei-c.org/ns/1.0"
+     type="part"
+     n="msd-language"
+     select="sr-tor"
      xml:id="msd-sr-tor"
      xml:lang="en">
    <head>Torlak Specifications</head>
@@ -5943,7 +5946,10 @@
    <div select="sr-tor" type="section" xml:id="msd.msds-sr-tor">
       <head>Torlak MSD Index</head>
       <p>This index gives the list of morphosyntactic descriptions (MSDs) and their features that occur in the <ref target="http://hdl.handle.net/11356/1281">Torlak corpus</ref>, which was automatically MSD tagged and lemmatised and partially manually corrected, i.e. the annotations, and hence the examples give, also contain errors. The first column gives the MSD, the second its features, the third the number of entries with this MSD in the corpus and the fourth some examples as word-form/lemma extracted from the corpus.</p>
-      <table xml:id="msd.lex-sr-tor" xml:lang="en" select="sr-tor" n="msd.lex"
+      <table xml:id="msd.lex-sr-tor"
+             xml:lang="en"
+             select="sr-tor"
+             n="msd.lex"
              xml:base="msd-sr-tor.msd.xml">
          <head>MSD Index (513)</head>
          <row role="header">
