@@ -84,6 +84,22 @@ cast-all:
 	$s -xi -xsl:bin/msd-castspecs.xsl xml-edit/msd-uk.spc.xml > xml/msd-uk.spc.xml
 	$s -xi -xsl:bin/copy.xsl xml/msd.xml | $j schema/mte_tei.rng
 
+#### UPDATING THE XML SCHEMA
+# The infamous TEI P5 subset from the Guidelines
+SUBSET = --localsource=https://tei-c.org/release/xml/tei/odd/p5subset.xml
+SCHEMA = schema/mte_tei_schema.xml
+PROFILE = --profiledir=/home/tomaz/Project/ME/V6/mte-msd/bin --profile=profile
+schema-html:
+	bin/Stylesheets/bin/teitohtml ${PROFILE} --odd ${SUBSET} ${SCHEMA} > schema/mte_tei_doc.html
+	rm -f schema/mte_tei_schema.xml.html
+xml-schemas:
+	bin/Stylesheets/bin/teitorelaxng    ${SUBSET} ${SCHEMA} ../schema/mte_tei.rng
+	bin/Stylesheets/bin/teitornc        ${SUBSET} ${SCHEMA} ../schema/mte_tei.rnc
+	bin/Stylesheets/bin/teitodtd        ${SUBSET} ${SCHEMA} ../schema/mte_tei.dtd
+	bin/Stylesheets/bin/teitoxsd        ${SUBSET} ${SCHEMA} ../schema/mte_tei.xsd
+	bin/Stylesheets/bin/teitoschematron ${SUBSET} ${SCHEMA} ../schema/mte_tei.sch
+#val-schema:
+
 #### ADDING A NEW LANGUAGE
 ## This block illustrates how to add a new language to the specifications:
 ## 0. If starting from scratch, base new language on most similar language(s) in the current specs,
