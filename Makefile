@@ -91,14 +91,14 @@ SCHEMA = schema/mte_tei_schema.xml
 PROFILE = --profiledir=/home/tomaz/Project/ME/V6/mte-msd/bin --profile=profile
 schema-html:
 	bin/Stylesheets/bin/teitohtml ${PROFILE} --odd ${SUBSET} ${SCHEMA}
-	rm -f schema/mte_tei_schema.xml.html
+	rm -f schema/mte_tei_schema.html
 	#perl -i -pe 's| href="http:| href="https:|' schema/mte_tei_doc.html
 xml-schemas:
-	bin/Stylesheets/bin/teitorelaxng    ${SUBSET} ${SCHEMA} ../schema/mte_tei.rng
-	bin/Stylesheets/bin/teitornc        ${SUBSET} ${SCHEMA} ../schema/mte_tei.rnc
-	bin/Stylesheets/bin/teitodtd        ${SUBSET} ${SCHEMA} ../schema/mte_tei.dtd
-	bin/Stylesheets/bin/teitoxsd        ${SUBSET} ${SCHEMA} ../schema/mte_tei.xsd
-	bin/Stylesheets/bin/teitoschematron ${SUBSET} ${SCHEMA} ../schema/mte_tei.sch
+	bin/Stylesheets/bin/teitorng    ${SUBSET} ${SCHEMA} schema/mte_tei.rng
+	bin/Stylesheets/bin/teitornc    ${SUBSET} ${SCHEMA} schema/mte_tei.rnc; rm -f schema/mte_tei.rnc.rng
+	bin/Stylesheets/bin/teitodtd    ${SUBSET} ${SCHEMA} schema/mte_tei.dtd
+	#bin/Stylesheets/bin/teitoxsd   ${SUBSET} ${SCHEMA} schema/mte_tei.xsd
+	#bin/Stylesheets/bin/teitoschematron ${SUBSET} ${SCHEMA} schema/mte_tei.sch
 #val-schema:
 
 #### ADDING A NEW LANGUAGE
